@@ -1,0 +1,49 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-dsvm.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-dsvm.0128495c987b3848a586c98acb6adab24c1b4163.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b7db1b7133952133cc60cf088066234374bbbb24</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\choose-data-science-option-in-azure\includes\3-dsvm.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The Data Science Virtual Machine (DSVM) platform is designed to provide a virtual machine in which you can complete everything within the data science process.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>What is Data Science Virtual Machine (DSVM)?</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Azure DSVM<ept id="p1">*</ept> is a customized virtual machine on Azure Cloud Services, with many popular data science tools preinstalled and preconfigured for building data science applications.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>These tools are designed to help business analysts, data engineers, data scientists, and developers.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Screenshot of a Data Science VM</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If you are a data scientist looking to maximize your environment with numerous preinstalled data science tools, DSVM is a good option.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>How to use DSVM</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>DSVM provides a jumpstart for machine learning model training.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To use a Windows-based DSVM, you can use Microsoft Remote Desktop to access it using the administrator credentials defined when the DSVM was created.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can learn more about how to build a model in a DSVM by accessing the tutorials available on the virtual machine.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For Linux-based DSVMs, you connect to it using of the following methods:</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>SSH for terminal sessions</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>X2Go for graphical sessions</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>JupyterHub and JupyterLab for Jupyter notebooks</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Explore types of DSVMs</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>There are a various types of DSVMs that are available for different machine learning purposes.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Supported operating systems</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>DSVM supports both Windows and Linux operating systems, with each offering various machine mearning tools.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The key difference between the two servers is that Windows operating systems offer scalability with Machine Learning in SQL Server, and Linux does not.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Deep Learning Virtual Machine</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">*</bpt>Deep Learning Virtual Machine<ept id="p1">*</ept> (DLVM) is a version of DSVM that offers a variety of deep-learning tools for building artificial neural networks—an algorithmic process that simulates the decision process of the human neural network.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Geo AI DSVM</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This version of a DSVM includes tools specific to Machine Learning that relate to geospatial data.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Geo AI DSVM comes with other standard machine learning software, but it also includes ArcGIS, which is a commercial platform for Geo AI.</source>
+        </trans-unit></group></body></file></xliff>

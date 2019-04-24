@@ -1,0 +1,31 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-summary.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-summary.c63005193e9aac8b3068a7ef99117f82d6410b76.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fd1201e07315879794dc0271ff8b5156e2ff8b14</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\design-azure-sql-data-warehouse\includes\7-summary.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this module, you learned that Azure SQL Data Warehouse is a cloud-based enterprise data warehouse (EDW) that uses massively parallel processing (MPP) to run complex queries across petabytes of data quickly.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You learned how to optimize data storage by using round-robin, hash distribution, and replicated tables.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Finally, you created a data warehouse.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Cleanup</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To avoid additional costs in your Azure account, delete the <bpt id="p1">**</bpt>mslearn-demodw<ept id="p1">**</ept> resource group.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Deleting the resource group removes all the resources that you created in this module.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>To delete the resource group:</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Find the <bpt id="p1">**</bpt>mslearn-demodw<ept id="p1">**</ept> resource group.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To quickly locate the resource group, in the left menu, select <bpt id="p1">**</bpt>Resource groups<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Select the resource group.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Then, either right-click on the row or use the <bpt id="p1">**</bpt>...<ept id="p1">**</ept> button on the far-right side of the row to open the context menu.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Delete resource group<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Screenshot showing the Delete resource group menu</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Enter the name of the resource group, and then select <bpt id="p1">**</bpt>Delete<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Azure deprovisions all related resources for you.</source>
+        </trans-unit></group></body></file></xliff>

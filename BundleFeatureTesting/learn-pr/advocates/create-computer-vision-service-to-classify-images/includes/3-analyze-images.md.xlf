@@ -1,0 +1,99 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-analyze-images.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-analyze-images.1866ea6f7fc847d0a26e1b506856d2ba54ed563d.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a7b0ecdd6cebba0d3073975e5f0b8d08666ebcfb</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\create-computer-vision-service-to-classify-images\includes\3-analyze-images.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>As a lead developer at Contoso Beverage Distribution, you're responsible for building and maintaining a line-of-business app that lets your frontline distributors scan and upload images of store shelves where they are restocking.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You want to validate that any images posted by users respect the content rules set by your company.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The company doesn't want inappropriate content posted to company sites.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Given the advancements in Artificial Intelligence, you decide to use the Computer Vision API in your app.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To get started, you create a Computer Vision account in your Azure subscription and start testing the <bpt id="p1">**</bpt>analyze<ept id="p1">**</ept> feature.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Calling the Computer Vision API to analyze images</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`analyze`</ph> operation extracts a rich set of visual features based on the image content.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The request URL has the following format:</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The parameters that are sent to the service are <ph id="ph1">`visualFeatures`</ph>, <ph id="ph2">`details`</ph>, and <ph id="ph3">`languages`</ph>.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Set the <ph id="ph1">`details`</ph> parameter to <ph id="ph2">`Landmarks`</ph> or <ph id="ph3">`Celebrities`</ph> to help you identify landmarks or celebrities.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`visualFeatures`</ph> identify what kind of information you want the service to return you.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Categories`</ph> option will categorize the content of the images like trees, buildings, and more.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Faces`</ph> will identify people's faces and give you their gender and age.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>All operations on the Computer Vision API have the following restrictions when it comes to the images you ask it to process:</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Supported image formats: JPEG, PNG, GIF, BMP.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Image file size must be less than  4 MB.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Image dimensions must be at least 50 x 50.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Identify landmarks in an image</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Let's start with a call to find landmarks in an image.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>We'll use the following image for this example, but you're free to try the same command with URLs to other images.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Picture of a mountain range with blue skies above the snow-capped mountains.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Execute the following command in Azure Cloud Shell.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Replace <ph id="ph1">`&lt;region&gt;`</ph> in the command with the region of your cognitive services account.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This call looks for landmarks in the image specified by the image URL.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The image we are analyzing is stored in a GitHub repo for this exercise.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The call also asks the service to return category information and a description of the image.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The description is returned as a complete English sentence.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>As you know, every call to the API needs an access key.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This is set in the <ph id="ph1">`Ocp-Apim-Subscription-Key`</ph> header of the request.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The result of the request is the raw JSON describing the picture in the <ph id="ph1">`url`</ph>.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>We added <ph id="ph1">` | jq '.'`</ph> at the end of the command to prettify the JSON output.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The JSON response from this call returns the following:</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">`categories`</ph> array listing all image categories that were detected, along with a score between 0 and 1 of how confident the service is that the image belongs in the specified category.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">`description`</ph> entry containing an array of tags or words that are related to the image.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">`captions`</ph> entry with a text field that describes in English what is in the image.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Observe that the text also has a certainty score.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This score can help you decide what to do next with this analysis.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Check for inappropriate content in an image</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>In this example, we'll analyze an image for adult content.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The confidence score rates the likelihood that the image contains either adult or racy content.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>We'll use the following image for this example, but you're free to try the same command with URLs to other images.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Picture of a smiling family.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Execute the following command in Azure Cloud Shell, replacing <ph id="ph1">`&lt;region&gt;`</ph> in the URL.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>In this example, we set the <ph id="ph1">`visualFeatures`</ph> to <ph id="ph2">`Adult,Description`</ph>.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The response gives us two confidence scores, one for racy content and one for adult content.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Using these scores plus the image description and other visual features, you can start to flag images posted to your server.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The examples we tried in this exercise give you an idea of the type of analysis that you can do with the <ph id="ph1">`analyze`</ph> operation.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Try out the analysis with different images and try different combinations of visualFeatures, details, and languages parameters.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>For more information about the <ph id="ph1">`analyze`</ph> operation, see the <bpt id="p1">[</bpt>Analyze Image<ept id="p1">](https://westus.dev.cognitive.microsoft.com/docs/services/5adf991815e1060e6355ad44/operations/56f91f2e778daf14a499e1fa)</ept> reference documentation.</source>
+        </trans-unit></group></body></file></xliff>

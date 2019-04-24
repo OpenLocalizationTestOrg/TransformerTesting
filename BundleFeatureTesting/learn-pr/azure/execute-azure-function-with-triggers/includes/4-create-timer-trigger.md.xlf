@@ -1,0 +1,83 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-create-timer-trigger.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-create-timer-trigger.291abe24540756d99ca6d29c4cc7ba973726e3fa.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f7343d4a28df6cd36fd1013a4c9094e30b6e5fdd</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\execute-azure-function-with-triggers\includes\4-create-timer-trigger.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this unit, we create an Azure function app that's invoked every 20 seconds using a timer trigger.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Create an Azure function app</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Let’s start by creating an Azure Function app in the portal.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Sign into the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept> using the same account you activated the sandbox with.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In the left navigation, select <bpt id="p1">**</bpt>Create a resource<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Compute<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Locate and select <bpt id="p1">**</bpt>Function App<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can also optionally use the search bar to locate and create the new resource.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Azure portal showing the Create a resource blade with the Function App highlighted.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Enter a globally unique <bpt id="p1">**</bpt>App name<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Select a <bpt id="p1">**</bpt>Subscription<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Select the existing <bpt id="p1">**</bpt>Resource group<ept id="p1">**</ept> <bpt id="p2">&lt;rgn&gt;</bpt>[sandbox resource group name]<ept id="p2">&lt;/rgn&gt;</ept>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Windows<ept id="p1">**</ept> as your <bpt id="p2">**</bpt>OS<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Consumption Plan<ept id="p1">**</ept> for your <bpt id="p2">**</bpt>Hosting Plan<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When using the Consumption Plan type you're charged for each execution of your function and resources are automatically allocated based on your application workload.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Select a <bpt id="p1">**</bpt>Location<ept id="p1">**</ept> from the available list below.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">**</bpt>Runtime Stack<ept id="p1">**</ept>, leave as default <bpt id="p2">*</bpt>.NET<ept id="p2">*</ept>, which is the language in which we implement the function examples in this exercise.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Create a new <bpt id="p1">**</bpt>Storage<ept id="p1">**</ept> account, you can change the name if you like - it will default to a variation of the App name.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Create<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Once the function app is deployed, go to <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept> in the portal.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The function app will be listed with type <bpt id="p1">**</bpt>App Service<ept id="p1">**</ept> and has the name you gave it.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Create a timer trigger</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Now we're going to create a timer trigger inside our function.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Select the Add (<bpt id="p1">**</bpt><ph id="ph1">+</ph><ept id="p1">**</ept>) button next to <bpt id="p2">**</bpt>Functions<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This action starts the function creation process.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Azure Functions for .NET - getting started<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>In-portal<ept id="p2">**</ept> and then select <bpt id="p3">**</bpt>continue<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In the list of quick start templates, select <bpt id="p1">**</bpt>Timer<ept id="p1">**</ept> and then select <bpt id="p2">**</bpt>Create<ept id="p2">**</ept> at the bottom of the screen.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Configure the timer trigger</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>We have an Azure function app with logic to print a message to the log window.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>We're going to set the schedule of the timer to execute every 20 seconds.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Integrate<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Enter the following value into the <bpt id="p1">**</bpt>Schedule<ept id="p1">**</ept> box:</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Test the timer</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Now that we've configured the timer, it will invoke the function on the interval we defined.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>TimerTrigger1<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>TimerTrigger1<ept id="p1">**</ept> is a default name.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>It's automatically selected when you create the trigger.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Open the <bpt id="p1">**</bpt>Logs<ept id="p1">**</ept> panel at the bottom of the screen.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Observe new messages arrive every 20 seconds in the log window.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>To stop the function from running, select <bpt id="p1">**</bpt>Manage<ept id="p1">**</ept> and then switch <bpt id="p2">**</bpt>Function State<ept id="p2">**</ept> to <bpt id="p3">*</bpt>Disabled<ept id="p3">*</ept>.</source>
+        </trans-unit></group></body></file></xliff>

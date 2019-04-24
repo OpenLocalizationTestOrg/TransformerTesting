@@ -1,0 +1,221 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-metrics.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-metrics.ce1addf888731e3a56cbb9a29bb77f654cf0f11e.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">352f1ae3f2362a2bdfc911c230d8bde9d251bb29</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\monitor-and-scale-cosmos-db\includes\4-metrics.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In the last unit, we added three collections to your Cosmos DB account and populated them.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In this unit, we look closely at these collections.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>We'll learn how to use the portal to check whether any of the collections are overloaded.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>We'll also run individual operations from the command line to model the capacity required for a specific workload.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Measuring throughput in Cosmos DB</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Recall that in a Cosmos DB, capacity, or throughput, is measured in Request Units (RUs).</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Every operation on a Cosmos DB has a RU value based on the throughput required to complete the operation.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Operations can be simple and require only a small number of RUs.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Or they can be complex and require a large number of RUs.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The sum of the RUs for all of your operations must stay within the throughput you've configured.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For example, say your configured throughput is 500 RUs per second (RU/s).</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You need to write 25 documents per second.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Each write requires 20 RUs.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You're at capacity because the total throughput is 25 x 20 RUs = 500 RU/s.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Review metrics for your database</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Sign in to the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept> using your MSLearn account.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Search on Cosmos DB.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Screenshot that shows search in Azure portal</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Select your Cosmos DB account.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Look under the <bpt id="p1">**</bpt>Monitoring<ept id="p1">**</ept> category, and select <bpt id="p2">**</bpt>Metrics<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You may need to scroll down on the Cosmos DB page to find it.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Review the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> tab with the aggregated view of all your databases and collections.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Here, you see:</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Requests that you made over time</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>How much storage you're using</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Any requests that exceeded capacity</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Review the chart <bpt id="p1">**</bpt>Number of request exceeded capacity<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>We deliberately overloaded the <bpt id="p1">**</bpt>Small<ept id="p1">**</ept> collection.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>So you see that some of the requests exceeded capacity.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Cosmos DB requests exceeding capacity chart</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>HTTP 429<ept id="p1">**</ept> error code indicates that there are too many requests.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Future requests will be rate-limited.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>When you see HTTP 429 responses from Cosmos DB, that means the allocated capacity is exceeded.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If the demand on one or more of your collections exceeds its allocated capacity, then you have the following options to fix an overloaded collection:</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Increase the overloaded collection's capacity.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Reduce the demand on your collection.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Increase the efficiency of the operations that overload your collection.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>In the following sections, we show you how to measure the required capacity of individual operations.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You can extrapolate from the individual operation performance costs to the actual scale of your Cosmos DB.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Measure the throughput required by individual queries using Data Explorer</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The exercises in this section have you use the Cosmos DB Data Explorer to compare the performance costs between a query you run within a single partition with one you run across a partition.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Review a database document in Data Explorer</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In the Azure portal, on your Cosmos DB account, go to <bpt id="p1">**</bpt>Data Explorer<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Expand the <bpt id="p1">**</bpt>mslearn<ept id="p1">**</ept> database.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You see the three collections we created in the setup unit: <bpt id="p1">**</bpt>Small<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Orders<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>HotPartition<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Expand the <bpt id="p1">**</bpt>Orders<ept id="p1">**</ept> collection and select <bpt id="p2">**</bpt>Documents<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>You see the first 100 documents.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Select the first document to see the JSON data for an order.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>It includes the following information:</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Order time and date</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Order status</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Item that was ordered</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Details of the customer who placed the order</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Other properties related to the order</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Find a document in a single partition</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>We're going to use the <bpt id="p1">**</bpt>Orders<ept id="p1">**</ept> collection where the partition key is set to <bpt id="p2">**</bpt>/Item/id<ept id="p2">**</ept>. All orders with the same <ph id="ph1">`Item.id`</ph> value are stored in the same partition.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>When we run a query for a specific <ph id="ph1">`Item.id`</ph>, the query runs within a single partition.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>In JSON data for the document you selected, under the <ph id="ph1">`Item`</ph> field, copy the guid value of the <ph id="ph2">`id`</ph>.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Select Item id value from Cosmos DB collection document</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>New SQL Query<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Create the query using the <ph id="ph1">`c.Item.id`</ph> value you copied:</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Screenshot that shows Cosmos DB create SQL query in portal</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Execute Query<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Query Stats<ept id="p1">**</ept> tab.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Screenshot that shows the Query Stats tab</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Notice how many RUs the operation took.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Request Charge<ept id="p1">**</ept> value shown should be between 2.5 and 3.5 RUs.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>That's the performance cost of querying for a 1-KB document that uses the partition key <ph id="ph1">`/Item/id`</ph>.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Find a document by querying across partitions</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>In the previous section, we ran a query within a partition.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>This time we choose a different property to query: <ph id="ph1">`Customer.id`</ph>.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Orders made by the same customer aren't guaranteed to be in the same partition.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Running a query across partitions takes more RUs than running a query in a single partition.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Go back to the <bpt id="p1">**</bpt>Orders<ept id="p1">**</ept> collection and select a different document.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Under the <ph id="ph1">`Customer`</ph> field, copy the guid value of the <ph id="ph2">`id`</ph>.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>New SQL Query<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Run the following query where you replace the <ph id="ph1">`c.Customer.id`</ph> value with the id value you copied:</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Execute Query<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Query Stats<ept id="p1">**</ept> tab.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Notice that this time the operation takes more RUs.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Measure the throughput required for direct writes and reads for a single document</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>To look at the performance costs of fine grain operations, like reading a document directly, use the ExerciseCosmosDB utility.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Check your environment variables</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If your cloud shell times out, then you need to reset the <ph id="ph1">`ENDPOINT`</ph>, <ph id="ph2">`KEY`</ph>, and  <ph id="ph3">`COSMOS_NAME`</ph> variables.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The console application needs the environment variables to connect to the database.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>If the cloud shell hasn't timed out, you can skip this step.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Reset the <ph id="ph1">`COSMOS_NAME`</ph> value by running the following command.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Reset your <ph id="ph1">`ENDPOINT`</ph> and <ph id="ph2">`KEY`</ph> variables by running the following commands.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Write a single document</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>In the cloud shell, if you need to, change the directory to the <ph id="ph1">`ExerciseCosmosDB`</ph> directory.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Run the following command to insert a document to the <bpt id="p1">**</bpt>Orders<ept id="p1">**</ept> collection.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Review the output from this command.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The consumption of this single write operation for a 1-KB document with the default indexing configuration is approximately 13-15 RUs.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Query a single document</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Run the following command to query for a single document from the <bpt id="p1">**</bpt>Orders<ept id="p1">**</ept> collection.</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Review the output from this command.</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The complexity of a query impacts how many RUs are consumed for an operation.</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>In this case, the query is simple and the volume of data returned is small.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The cost is 4.6 RUs.</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Read a single document</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Reading a document directly from your Cosmos DB collection using its <ph id="ph1">`id`</ph> value, and the value of its <ph id="ph2">`partition key`</ph> is the least expensive operation.</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Note the <ph id="ph1">`id`</ph> and <ph id="ph2">`Item.id`</ph> fields from the results of the previous query.</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>In the example output given in the previous step, the <ph id="ph1">`id`</ph> and <ph id="ph2">`Item.id`</ph> are:</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Read a single document directly from the <bpt id="p1">**</bpt>Orders<ept id="p1">**</ept> collection by adding those values into the following command:</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Review the output from this command.</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>You see that it consumes 1 RU to directly read one document that's 1 KB.</source>
+        </trans-unit><trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Now we know how to monitor and measure the cost of our database operations.</source>
+        </trans-unit><trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Next we can look more closely at the design of our collections.</source>
+        </trans-unit><trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>It's essential that we model individual costs to understand how the design choices allow us to scale.</source>
+        </trans-unit></group></body></file></xliff>

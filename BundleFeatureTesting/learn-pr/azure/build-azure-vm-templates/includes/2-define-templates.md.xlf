@@ -1,0 +1,211 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-define-templates.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-define-templates.c36413581f674db300b3f3fca8192cbe0101d5f1.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6eb1ac7a2c4960c83b5905c5df3c7d1878e6e29a</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\build-azure-vm-templates\includes\2-define-templates.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>If you've been using Azure for a while, you've likely heard about Azure Resource Manager.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Let's review Resource Manager's role and define what makes up a Resource Manager template.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>What's Azure Resource Manager?</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Azure Resource Manager is the interface for managing and organizing cloud resources.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Think of Resource Manager as a way to deploy cloud resources.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If you're familiar with Azure resource groups, you know that they enable you to treat sets of related resources as a single unit.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Resource Manager is what organizes the resource groups that let you deploy, manage, and delete all of the resources together in a single action.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Think about the financial models you run for your analysts.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To run a model, you might need one or more VMs, a database to store data, and a virtual network to enable connectivity between everything.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>With Resource Manager, you deploy these assets into the same resource group and manage and monitor them together.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>When you're done, you can delete all of the resources in a resource group in one operation.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>What are Resource Manager templates?</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A Resource Manager <bpt id="p1">_</bpt>template<ept id="p1">_</ept> precisely defines all the Resource Manager resources in a deployment.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can deploy a Resource Manager template into a resource group as a single operation.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A Resource Manager template is a JSON file, making it a form of <bpt id="p1">_</bpt>declarative automation<ept id="p1">_</ept>.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Declarative automation means that you define <bpt id="p1">_</bpt>what<ept id="p1">_</ept> resources you need but not <bpt id="p2">_</bpt>how<ept id="p2">_</ept> to create them.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Put another way, you define what you need and it is Resource Manager's responsibility to ensure that resources are deployed correctly.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can think of declarative automation similar to how web browsers display HTML files.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The HTML file describes <bpt id="p1">_</bpt>what<ept id="p1">_</ept> elements appear on the page, but doesn't describe <bpt id="p2">_</bpt>how<ept id="p2">_</ept> to display them.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The "how" is the web browser's responsibility.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You may hear others refer to Resource Manager templates as "ARM templates".</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>We prefer the full names "Azure Resource Manager templates" or "Resource Manager templates".</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Why use Resource Manager templates?</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Using Resource Manager templates will make your deployments faster and more repeatable.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For example, you no longer have to create a VM in the portal, wait for it to finish, then create the next VM, and so on.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Resource Manager takes care of the entire deployment for you.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Here are some other benefits to consider.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Templates improve consistency<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Resource Manager templates provide a common language for you and others to describe your deployments.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Regardless of the tool or SDK used to deploy the template, the structure, format, and expressions inside the template remain the same.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Templates help express complex deployments<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Templates enable you to deploy multiple resources in the correct order.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For example, you wouldn't want to deploy a virtual machine before creating OS disk or network interface.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Resource Manager maps out each resource and its dependent resources and creates dependent resources first.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Dependency mapping helps ensure that the deployment is carried out in the correct order.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Templates reduce manual, error-prone tasks<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Manually creating and connecting resources can be time consuming, and it's easy to make mistakes along the way.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Resource Manager ensures that the deployment happens the same way every time.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Templates are code<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Templates express your requirements through code.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Think of a template as a type of <bpt id="p1">_</bpt>infrastructure as code<ept id="p1">_</ept> that can be shared, tested, and versioned like any other piece of software.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Also, because templates are code, you can create a "paper trail" that you can follow.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The template code documents the deployment.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Most users maintain their templates under some kind of revision control, such as Git.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>When you change the template, its revision history also documents how the template (and your deployment) has evolved over time.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Templates promote reuse<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Your template can contain parameters that are filled in when the template runs.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A parameter can define a username or password, a domain name, and so on.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Template parameters enable you to create multiple versions of your infrastructure, such as staging and production, but still utilize the exact same template.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Templates are linkable<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Resource Manager templates can be linked together to make the templates themselves modular.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>You can write small templates that each define a piece of a solution and combine them to create a complete system.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The models your financial analysts run are unique, but you see patterns in the underlying infrastructure.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For example, most models require a database to store data.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Many models use the same programming languages, frameworks, and operating systems to carry out the details.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>You can define templates that describe each individual component (compute, storage, networking, and so on), and combine them to meet each analyst's specific needs.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>What's in a Resource Manager template?</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Here you'll see a few code examples to give you a sense of how each section is structured.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Don't worry if what you see is unfamiliar to you <ph id="ph1">&amp;mdash;</ph> you'll be able to read others' templates and write your own as you gain hands-on experience with them.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>You may have used JSON, or JavaScript Object Notation, to send data between servers and web applications.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>JSON is also a popular way to describe how applications and infrastructure are configured.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>JSON allows us to express data stored as an object (such as a virtual machine) in text.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>A JSON document is essentially a collection of key-value pairs.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Each key is a string; its value can be a string, a number, a Boolean expression, a list of values, or an object (which is a collection of other key-value pairs).</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>A Resource Manager template can contain the following sections.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>These sections are expressed using JSON notation, but are not related to the JSON language itself.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Let's look at each of these sections in a little more detail.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Parameters</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This is where you specify which values are configurable when the template runs.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For example, you might allow users of your template to specify a username, password, or domain name.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Here's an example that illustrates two parameters <ph id="ph1">&amp;ndash;</ph> one for a VM's username and one for its password.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Variables</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This is where you define values that are used throughout the template.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Variables can help make your templates easier to maintain.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>For example, you might define a storage account name one time as a variable and use that variable throughout the template.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>If the storage account name changes, you need to only update the variable.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Here's an example that illustrates a few variables that describe networking features for a VM.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Functions</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This is where you define procedures that you don't want to repeat throughout the template.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Like variables, functions can help make your templates easier to maintain.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Here's an example that creates a function to create a unique name that could be used when creating resources that have globally unique naming requirements.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Resources</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>This section is where you define the Azure resources that make up your deployment.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Here's an example that creates a public IP address resource.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Here, the type of resource is <ph id="ph1">`Microsoft.Network/publicIPAddresses`</ph>.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Its name is read from the variables section and its location, or Azure region, is read from the parameters section.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Because resource types can change over time, <ph id="ph1">`apiVersion`</ph> refers to the version of the resource type you want to use.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>As resource types evolve and change, you can modify your templates to work with the latest features when you're ready.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Outputs</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>This is where you define any information you'd like to receive when the template runs.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>For example, you might want to receive your VM's IP address or FQDN <ph id="ph1">&amp;ndash;</ph> information you do not know until the deployment runs.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Here's an example that illustrates an output named "hostname".</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The FQDN value is read from the VM's public IP address settings.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>How do I write a Resource Manager template?</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>There are many approaches to writing Resource Manager templates.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Although you can write a template from scratch, it's common to start with an existing template and modify it to suit your needs.</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Here are a few ways you can get a starter template:</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Use the Azure portal to create a template based on the resources in an existing resource group.</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Start with a template you or your team built that serves a similar purpose.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Start with an Azure Quickstart template.</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>You'll see how in the next part.</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>No matter your approach, writing a template involves working with a text editor.</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>You can bring your favorite editor, but Visual Studio Code's <bpt id="p1">[</bpt>Azure Resource Manager Tools extension<ept id="p1">](https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools&amp;azure-portal=true)</ept> is specially designed for the task of creating templates.</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>This extension makes it easier to navigate your template code and provides autocompletion for many common tasks.</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>As you explore and write your templates, you'll want to <bpt id="p1">[</bpt>refer to the documentation<ept id="p1">](https://docs.microsoft.com/azure/templates?azure-portal=true)</ept> to understand what resource types are available and how to use them.</source>
+        </trans-unit></group></body></file></xliff>

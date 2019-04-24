@@ -1,0 +1,157 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-use-tagging-to-organize-resources.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-use-tagging-to-organize-resources.1900f030432a63bbd3e913a141fb8d52f40b4880.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">05aa38029fe9a4d538a44656b0448db60fba76db</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\control-and-organize-with-azure-resource-manager\includes\3-use-tagging-to-organize-resources.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You've gone through your resources and moved them into resource groups that are more organized than before.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>But what if resources have multiple uses?</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>How do you better search, filter, and organize these resources?</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Tags can be helpful as you look to improve organization of your Azure resources.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>What are tags?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Tags are name/value pairs of text data that you can apply to resources and resource groups.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Tags allow you to associate custom details about your resource, in addition to the standard Azure properties a resource has:</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>department (like finance, marketing, and more)</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>environment (prod, test, dev),</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>cost center</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>life cycle and automation (like shutdown and startup of virtual machines).</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A resource can have up to 15 tags.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The name is limited to 512 characters for all types of resources except storage accounts, which have a limit of 128 characters.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The tag value is limited to 256 characters for all types of resources.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Tags aren't inherited from parent resources.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Not all resource types support tags, and tags can't be applied to classic resources.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Tags can be added and manipulated through the Azure portal, Azure CLI, Azure PowerShell, Resource Manager templates, and through the REST API.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For example, to add a resource tag to a virtual network using the Azure CLI, you could use the following command:</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can use Azure Policy to automatically add or enforce tags for resources your organization creates based on policy conditions that you define.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For example, you could require that a value for the Department tag is entered when someone in your organization creates a virtual network in a specific resource group.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Apply tags to resources</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Let's apply some tags to the resources you created.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Recall that we created a resource group <bpt id="p1">**</bpt>msftlearn-core-infrastructure-rg<ept id="p1">**</ept> and two VNets inside that resource group, <bpt id="p2">**</bpt>msftlearn-vnet1<ept id="p2">**</ept> and <bpt id="p3">**</bpt>msftlearn-vnet2<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The names of the VNets are relatively generic, so we'd like to associate the VNets with services from different departments.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Go ahead and pull up the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/?azure-portal=true)</ept>.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Navigate to your <bpt id="p1">**</bpt>msftlearn-core-infrastructure-rg<ept id="p1">**</ept> resource group.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> tab of your resource group, you should see your two VNets listed.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The default view doesn't display the tags column, so let's add that to the display.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Edit columns<ept id="p1">**</ept> at the top.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Available columns<ept id="p1">**</ept> list, select <bpt id="p2">**</bpt>Tags<ept id="p2">**</ept> and click <bpt id="p3">**</bpt><ph id="ph1">-&gt;</ph><ept id="p3">**</ept> to add it to the <bpt id="p4">**</bpt>Selected columns<ept id="p4">**</ept> list.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Apply<ept id="p1">**</ept> to apply your changes.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Image of portal showing how to add the tags column to the display</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You should now see the tags column, but it will be empty since we haven't added any tags yet.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>We'll add the tags directly here.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You can also add tags to any resource that supports it on the resource's <bpt id="p1">**</bpt>Tags<ept id="p1">**</ept> panel.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In the list of resources, you should see a pencil in the <bpt id="p1">**</bpt>TAGS<ept id="p1">**</ept> column where you can directly edit the tags.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Click the pencil for the <bpt id="p1">**</bpt>msftlearn-vnet1<ept id="p1">**</ept> resource.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This will display the dialog to edit the Tags.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Let's add a couple tags to this VNet.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>NAME<ept id="p1">**</ept> box type <bpt id="p2">**</bpt>Department<ept id="p2">**</ept>, and in the <bpt id="p3">**</bpt>VALUE<ept id="p3">**</ept> box type <bpt id="p4">**</bpt>Finance<ept id="p4">**</ept>.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> to save your changes, then click <bpt id="p2">**</bpt>Close<ept id="p2">**</ept> to close the dialog.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Image of portal showing the dialog to add tags</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Let's do the same steps for the <bpt id="p1">**</bpt>msftlearn-vnet2<ept id="p1">**</ept> VNet.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For this VNet, add a <bpt id="p1">**</bpt>Department:Marketing<ept id="p1">**</ept> tag to the resource.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You should now see your tags applied to each resource.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Image of portal showing resources with tags</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Let's add tags to both of these resources in bulk.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Select the checkbox on the left for each of the VNets and click <bpt id="p1">**</bpt>Assign tags<ept id="p1">**</ept> in the top menu.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>By selecting multiple resources, we can add a tag to them in bulk, making it easy if we have multiple resources we want to apply the same tag to.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Add the <bpt id="p1">**</bpt>Environment:Training<ept id="p1">**</ept> tag to the resources.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>You should see in the dialog that the tag will be applied to each of the VNets.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Image of portal showing the dialog to add tags in bulk</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Back in the resource list you'll now see a <bpt id="p1">**</bpt>2<ept id="p1">**</ept> displayed as we now have two tags applied to each resource.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Let's take a look at how we can use tags to filter your resources.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>On the main Azure menu on the left, select <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>All tags<ept id="p1">**</ept> drop down, under <bpt id="p2">**</bpt>Environment<ept id="p2">**</ept> select <bpt id="p3">**</bpt>Training<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You should see only your two VNets displayed, since we tagged those resources with the <bpt id="p1">**</bpt>Environment:Training<ept id="p1">**</ept> tag.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Image of all resources filtered on the Training tag</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>We can further filter these resources by additionally filtering on the <bpt id="p1">**</bpt>Department:Finance<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Department:Marketing<ept id="p2">**</ept> tags.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Use tags for organization</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The above example is just one example of where you can use tags to organize your resources.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>With their flexibility, there are several ways you can use tags to your advantage.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>You can use tags to group your billing data.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>For example, if you're running multiple VMs for different organizations, use the tags to group usage by cost center.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You can also use tags to categorize costs by runtime environment, such as the billing usage for VMs running in the production environment.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>When exporting billing data or accessing it through billing APIs, tags are included in that data and can be used to further slice your data from a cost perspective.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>You can retrieve all the resources in your subscription with a specific tag name or value.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Tags enable you to retrieve related resources from different resource groups.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This approach is helpful when you need to organize resources for billing or management.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Tagging resources can also help in monitoring to track down impacted resources.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Monitoring systems could include tag data with alerts, giving you the ability to know exactly who is impacted.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>In our example above, we applied the <bpt id="p1">**</bpt>Department:Finance<ept id="p1">**</ept> tag to the <bpt id="p2">**</bpt>msftlearn-vnet1<ept id="p2">**</ept> resource.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>If an alarm was thrown on <bpt id="p1">**</bpt>msftlearn-vnet1<ept id="p1">**</ept> and the alarm included the tag, we'd know that the finance department may be impacted by the condition that triggered the alarm.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This contextual information can be valuable if an issue occurs.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>It's also common for tags to be used in automation.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>If you want to automate the shutdown and startup of virtual machines in development environments during off-hours to save costs, you can use tags to assist in this.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Add a <bpt id="p1">**</bpt>shutdown:6PM<ept id="p1">**</ept> and <bpt id="p2">**</bpt>startup:7AM<ept id="p2">**</ept> tag to the virtual machines, then create an automation job that looks for these tags, and shuts them down or starts them up based on the tag value.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>There are several solutions in the Azure Automation Runbooks Gallery that use tags in a similar manner to accomplish this.</source>
+        </trans-unit></group></body></file></xliff>

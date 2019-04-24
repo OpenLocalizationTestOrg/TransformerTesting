@@ -1,0 +1,45 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="10-using-emotion-api.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">10-using-emotion-api.803875deb2b2c67208fdd0867e4f6d26114632df.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aef7d69aa6869624e95bd4b1d34f23390660c7ab</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\identify-faces-with-computer-vision\includes\10-using-emotion-api.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>To recognize emotion, the Emotion API sends an authorized web request to another subscription endpoint.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The primary way to detect faces in images is the emotion <bpt id="p1">*</bpt>Recognize<ept id="p1">*</ept> method.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The Recognize method can use either an uploaded an image (a binary file) or a publicly available image URL.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can practice calling the Emotion API by using the <bpt id="p1">[</bpt>Emotion API testing console<ept id="p1">](https://westus.dev.cognitive.microsoft.com/docs/services/5639d931ca73072154c1ce89/?azure-portal=true)</ept>.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The process is identical to the one we followed for face detection.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Call the Emotion API</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The Emotion API Recognize method endpoint is at <ph id="ph1">&lt;https://westus.api.cognitive.microsoft.com/emotion/v1.0/recognize&gt;</ph>.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Notice that the location <bpt id="p1">*</bpt>westus<ept id="p1">*</ept> is part of this URL.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You'll need to adjust this if your service is in a different location.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You'll need to provide an image payload to process as part of the <ph id="ph1">`POST`</ph> request to the method.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The image can be in one of the following formats:</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A binary file, such as a stream or byte array</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A JSON payload that includes the value of a publicly available image URL, formatted as human-readable text</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The Cognitive Services Emotion API is currently in public preview.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The Recognize method might take additional parameters when it moves into production.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Create and send a binary file payload</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To create and send a binary file payload to the Recognize method, you'll use standard, language-specific methods.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For example, in C#, a binary payload can come from an image (typically containing a human face) that's on a local computer:</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Notice the required use of the <ph id="ph1">`application/octet-stream`</ph> content type in the request header which informs the endpoint that it will receive a binary payload.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Return values</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Information is returned from the Emotion API as a well-formatted JSON object or array.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Here's an example response:</source>
+        </trans-unit></group></body></file></xliff>

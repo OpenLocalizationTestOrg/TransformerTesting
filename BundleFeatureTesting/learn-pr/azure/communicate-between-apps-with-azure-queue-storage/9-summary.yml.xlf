@@ -1,0 +1,61 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="9-summary.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9-summary.946a67a0ba6f588be25ba1fa9b757f27119581f0.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a7b7b35740e3a89c3d34459baeb3c43d8a1a8c3b</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\communicate-between-apps-with-azure-queue-storage\9-summary.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>Suppose you work for a government agency that plans the long-term expansion of the highway system.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>You receive traffic data from thousands of sensors and analyze it to make your recommendations.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>The amount of incoming data varies throughout the day; for example, it spikes during the morning and evening commuting hours.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>True or false: a server-side architecture consisting of an Azure Queue connected to a single virtual machine is a reasonable choice for this workload?</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>True</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>The queue will handle spikes in traffic and ensure no data is lost.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>If the VM cannot keep up with the flow of incoming messages, it will process the message backlog during low-traffic times.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>False</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>This data is used for long-term planning, so there is no need to process it in real time.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>A queue connected to a single VM is likely to handle the workload and be a cost-efficient solution.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>What information uniquely identifies a queue?</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>Queue name</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>Queue names must only be unique within their containing storage account; they do not need to be globally unique.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>Account key</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>Account keys are associated with a storage account, not a queue.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>Storage account name and queue name</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>Storage account names must be globally unique.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>Queue names must be unique within their containing storage account.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>This means the combination of storage account name and queue name uniquely identifies a queue.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>True or false: when a client programmatically retrieves a message from a queue, the message is automatically deleted from the queue?</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>True</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>The operations 'get message' and 'delete message' are separate.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>False</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>By design, messages are not automatically deleted from a queue after they are retrieved for processing.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>This helps ensure that every message is processed to completion.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.communicate-between-applications-with-azure-queue-storage.9-summary">
+          <source>If a consumer application crashes during processing, the message is still available to be processed by a different instance of the consumer app.</source>
+        </trans-unit></group></body></file></xliff>

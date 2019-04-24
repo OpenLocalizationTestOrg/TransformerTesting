@@ -1,0 +1,143 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3c-capex-vs-opex.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3c-capex-vs-opex.4434329fcaa03ff673fe54d99021dae7ac0ad33f.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e624e7fb88691cf8d2990edb0e563806ed10fda1</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\principles-cloud-computing\includes\3c-capex-vs-opex.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In the past, companies needed to acquire physical premises and infrastructure to start their business.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>There was a substantial up-front cost in hardware and infrastructure to start or grow a business.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Cloud computing provides services to customers without significant upfront costs or equipment setup time.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>These two approaches to investment are referred to as:</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Capital Expenditure (CapEx)<ept id="p1">**</ept>: CapEx is the spending of money on physical infrastructure up front, and then deducting that expense from your tax bill over time.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>CapEx is an upfront cost, which has a value that reduces over time.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Operational Expenditure (OpEx)<ept id="p1">**</ept>: OpEx is spending money on services or products now and being billed for them now.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can deduct this expense from your tax bill in the same year.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>There's no upfront cost.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You pay for a service or product as you use it.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>CapEx computing costs</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A typical on-premises data center includes costs such as:</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Server costs</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This area includes all hardware components and the cost of supporting them.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When purchasing servers, make sure to design fault tolerance and redundancy, such as server clustering, redundant power supplies, and uninterruptible power supplies.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When a server needs to be replaced or added to a datacenter, you need to pay for the computer.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This can affect your immediate cash flow because you must pay for the server up front.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Storage costs</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This area includes all storage hardware components and the cost of supporting it.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Based on the application and level of fault tolerance, centralized storage can be expensive.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For larger organizations, you can create tiers of storage where more expensive fault‐tolerant storage is used for critical applications and lower expense storage is used for lower priority data.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Network costs</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Networking costs include all on-premises hardware components, including cabling, switches, access points, and routers.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This also includes wide area network (WAN) and Internet connections.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Backup and archive costs</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This is the cost to back up, copy, or archive data.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Options might include setting up a backup to or from the cloud.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>There’s an upfront cost for the hardware and additional costs for backup maintenance and consumables like tapes.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Organization continuity and disaster recovery costs</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Along with server fault tolerance and redundancy, you need to plan for how to recover from a disaster and continue operating.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Your plan should consist of creating a data recovery site.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>It could also include backup generators.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Most of these are upfront costs, especially if you build a data recovery site, but there's an additional ongoing cost for the infrastructure and its maintenance.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Datacenter infrastructure costs</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>These are costs for electricity, floor space, cooling, and building maintenance.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Technical personnel</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Based on the technology used, you’ll need technical expertise and workforce to install, deploy, and manage the systems in the datacenter and at the data recovery site.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>OpEx cloud computing costs</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>With cloud computing, many of the costs associated with an on-premises datacenter are shifted to the service provider.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Instead of thinking about physical hardware and datacenter costs, cloud computing has a different set of costs.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For accounting purposes, all these costs are operational expenses:</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Leasing a cloud-based server</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If you lease a server or use a cloud-based server, the cost is typically based on the pay-per-use model.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Leasing software and customized features</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Using a pay-per-use model requires actively managing your subscriptions to ensure users do not misuse the services, and that provisioned accounts are being utilized and not wasted.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>As soon as the provider provisions resources, billing starts.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>It is your responsibility to de-provision the resources when they aren't in use so that you can minimize costs.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Scaling charges based on usage/demand instead of fixed hardware or capacity.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Cloud computing can bill in various ways, such as the number of users or CPU usage time.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>However, billing categories can also include allocated RAM, I/O operations per second (IOPS), and storage space.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Plan for backup traffic and data recovery traffic to determine the bandwidth needed.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Billing at the user or organization level.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The subscription (pay-per-use) model is a computing billing method that is designed for both organizations and users.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The organization or user is billed for the services used, typically on a recurring basis.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>You can scale, customize, and provision computing resources, including software, storage, and development platforms.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>For example, when using a dedicated cloud service, you could pay based on server hardware and usage.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Benefits of CapEx</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>With capital expenditures, you plan your expenses at the start of a project or budget period.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Your costs are fixed, meaning you know exactly how much is being spent.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>This is appealing when you need to predict the expenses before a project starts due to a limited budget.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Benefits of OpEx</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Demand and growth can be unpredictable and can outpace expectation, which is a challenge for the CapEx model as shown in the following graph.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>A graph showing how expected demand can be different from real demand and how CapEx infrastructure can be exceeded by demand.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>With the OpEx model, companies wanting to try a new product or service don't need to invest in equipment.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Instead, they pay as much or as little for the infrastructure as required.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>OpEx is particularly appealing if the demand fluctuates or is unknown.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Cloud services are often said to be <bpt id="p1">_</bpt>agile<ept id="p1">_</ept>.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Cloud agility is the ability to rapidly change an IT infrastructure to adapt to the evolving needs of the business.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>For example, if your service peaks one month, you can scale to demand and pay a larger bill for the month.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>If the following month the demand drops, you can reduce the used resources and be charged less.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This agility lets you manage your costs dynamically, optimizing spending as requirements change.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-The-unique-value-of-Azure.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-The-unique-value-of-Azure.685f06baa747732b64ef2c567f7467aa03bcce32.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1b7e96e74655d22174f9b1991a2e2a68bee5edad</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\wwl-mba\intro-azure-areas-and-solutions\includes\3-The-unique-value-of-Azure.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Azure is designed to align with your business goals and needs by delivering unique value in four key areas:</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Productive<ept id="p1">**</ept>: Improve productivity in your business and with your developers.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Hybrid<ept id="p1">**</ept>: Take advantage of the flexibility that the Azure hybrid cloud provides.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Intelligent<ept id="p1">**</ept>: Gain insights and build intelligence into all your solutions.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Trusted<ept id="p1">**</ept>: Build and deploy on a platform you can trust.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The value that Azure provides across these four areas ensures that your adoption of the cloud is successful starting on day one, and in the future.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Productive</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The three primary productivity benefits that Azure provides are integrated tooling for developers, over 100 cloud services, and unified management for IT admins.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Icon indicating play video</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Watch this video to learn more about how Azure makes developers and IT professionals more productive, as well as the importance of Azure open-source support.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Hybrid</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Azure is the only consistent hybrid cloud on the market, allowing your business to develop and deploy where you want.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For example, you can extend your on-premises datacenter with Azure Stack, which enables you to add cloud services into your on-premises solutions without deploying to the cloud.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Icon indicating play video</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Watch this video to learn more about the hybrid cloud.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Intelligent</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>With Azure, you can create intelligent apps by using powerful data services and artificial intelligence (AI).</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Icon indicating play video</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Watch this video to learn more about how to apply intelligence to large data sets by using Azure, and see an example of an intelligent agent application.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Trusted</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Azure provides a safe and secure environment that you can trust, as evidenced by the many startups, governments, and 95 percent of Fortune 500 businesses who run on Azure today.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Icon indicating play video</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Watch this video to learn more about Azure as the <bpt id="p1">*</bpt>trusted<ept id="p1">*</ept> cloud.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>In summary, Azure provides unique value as a productive, hybrid, intelligent, and trusted cloud service that's designed to help organizations achieve their business objectives.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>We’ll continue to explore the unique Azure differentiators as we dive into Azure solutions and services.</source>
+        </trans-unit></group></body></file></xliff>

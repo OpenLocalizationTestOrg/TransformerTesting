@@ -1,0 +1,77 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-summary.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-summary.3a5a356d9ae9e0132ad28e505efcf02eb5b74556.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e53f28d486a60c40702d2555fb06b0b2341225ef</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-azure-compute\7-summary.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>Summary for the 'Introduction to Azure compute' module.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>Suppose you have an existing application running locally on your own server.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>You need additional capacity but prefer to move to Azure instead of buying upgraded on-premises hardware.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>Which compute option would likely give you the quickest route to getting your application running in Azure?</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>Serverless computing</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>Converting to a serverless computing model would likely require reorganizing your application to an event-based architecture.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>Containers</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>Converting to containers would require you to repackage your application.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>This might not be too difficult depending on your existing architecture, but it would take time and require some expertise with containers.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>Virtual machines</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>You have full control over the VM setup, so you can configure it to match your on-premises server.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>This will allow your existing application to run on the Azure VM with little or no change.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>Imagine that you work on a photo-sharing application that runs on millions of mobile devices.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>Demand is unpredictable because you see a spike in usage whenever a locally or nationally significant event occurs.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>Which Azure compute resource is the best match for this workload?</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>Serverless computing</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>The photo-sharing app is event driven and needs to handle unpredictable demand.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>Serverless computing is a good fit for this because it is event based and can scale instantly to process spikes in traffic.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>It should also be a cost-effective choice because you will pay for compute time only when processing user data.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>Containers</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>The startup time for a container instance is typically a few seconds.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>This might not provide quick enough scaling to respond to a sharp spike in demand.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>Virtual machines</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>A VM can take a few minutes to start.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>This might not provide quick enough scaling to respond to a sharp spike in demand.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>The compute options give you different levels of control over the configuration of the environment in which your application runs.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>Which of the following lists the compute options in order from "most control" to "least control"?</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>Serverless computing, containers, virtual machines</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>Serverless computing gives you the least control; it completely abstracts the underlying hosting environment.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>Containers, serverless computing, virtual machines</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>Containers give you limited control over the environment; for example, you choose the underlying operating system.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>Virtual machines, containers, serverless computing</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>Virtual machines give you full control over the environment.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>Containers give you limited control.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve" uid="learn.intro-to-compute.7-summary">
+          <source>Serverless computing does not allow you to do any infrastructure configuration.</source>
+        </trans-unit></group></body></file></xliff>

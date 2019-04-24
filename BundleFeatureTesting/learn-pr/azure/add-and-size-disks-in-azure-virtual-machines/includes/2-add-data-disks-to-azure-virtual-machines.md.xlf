@@ -1,0 +1,129 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-add-data-disks-to-azure-virtual-machines.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-add-data-disks-to-azure-virtual-machines.af88f184276cd35631f35b93f687d0ed57548afd.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ea7ab715702596059b014dbcc4f84b6b08471c45</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\add-and-size-disks-in-azure-virtual-machines\includes\2-add-data-disks-to-azure-virtual-machines.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Just like any other computer, virtual machines in Azure use disks as a place to store an operating system, applications, and data.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>These disks are called virtual hard disks (VHDs).</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Suppose you have created a virtual machine (VM) in Azure, which will host the database of case histories that your law firm relies on.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>A well-designed disk configuration is fundamental to good performance and resilience for SQL Server.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll learn how to choose the right configuration values for your disks and how to attach those disks to a VM.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>How disks are used by VMs</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>VMs use disks for three different purposes:</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Operating system storage<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Every VM includes one disk that stores the operating system.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This drive is registered as a SATA drive and labeled as the C: drive in Windows and mounted at "/" in Unix-like operating systems.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>It has a maximum capacity of 2048 gigabytes (GB), and its content is taken from the VM image you used to create the VM.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Temporary storage<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Every VM includes a temporary VHD that is used for page and swap files.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Data on this drive may be lost during a maintenance event or redeployment.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The drive is labeled as D: on a Windows VM by default.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Do not use this drive to store important data that you do not want to lose.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Data storage<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A data disk is any other disk attached to a VM.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You use data disks to store files, databases, and any other data that you need to persist across reboots.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Some VM images include data disks by default.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can also add additional data disks up to the maximum number specified by the size of the VM.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Each data disk is registered as a SCSI drive and has a max capacity of 4095 GB.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You can choose drive letters or mount points for your data drives.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Storing VHD files</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In Azure, VHDs are stored in an Azure storage account as <bpt id="p1">**</bpt>page blobs<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This table shows the various kinds of storage accounts and which objects can be used with each.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Type of storage account<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>General-purpose standard<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>General-purpose premium<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Blob storage, hot and cool access tiers<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Services supported<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Azure Blob storage, Azure Files, Azure Queue storage</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Blob storage</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Blob storage</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Types of blobs supported<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Block blobs, page blobs, and append blobs</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Page blobs</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Block blobs and append blobs</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Both general-purpose standard and premium storage support page blobs.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Choose a standard storage account if cost is your primary concern.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Premium storage will cost more, but will also deliver much higher I/O operations per second, or IOPS.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If data performance is a requirement for your VM, consider using premium storage.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Attach data disks to VMs</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can add data disks to a virtual machine at any time by attaching them to the VM.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Attaching a disk associates the VHD file with the VM.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The VHD can't be deleted from storage while it's attached.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Attach an existing data disk to an Azure VM</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>You may already have a VHD that stores the data you want to use in your Azure VM.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>In our law firm scenario, for example, perhaps you've already converted your physical disks to VHDs locally.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>In this case, you can use the PowerShell <ph id="ph1">`Add-AzVhd`</ph> cmdlet to upload it to the storage account.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This cmdlet is optimized for transferring VHD files and may complete the upload faster than other methods.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The transfer is completed by using multiple threads for best performance.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Once the VHD has been uploaded, attach it to an existing VM as a data disk.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This approach an excellent way to deploy data of all types to Azure VMs.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The data is automatically present in the VM, and there's no need to partition or format the new disk.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Attach a new data disk to an Azure VM</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You can use the Azure portal to add a new, empty data disk to a VM.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>This process will create a <bpt id="p1">**</bpt>.vhd<ept id="p1">**</ept> file as a page blob in the storage account that you specify, and attach that .vhd file as a data disk to the VM.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Before you can use the new VHD to store data, you have to initialize, partition, and format the new disk.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>We'll practice these steps in the next exercise.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>In physical on-premises servers, you store data on physical hard disks.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You store data in an Azure virtual machine (VM) on virtual hard disks (VHDs).</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>These VHDs are stored as page blobs in Azure storage accounts.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>For example, when you migrate your law firm's database of case histories to Azure, you must create VHDs where the database files will be saved.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-encryption.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-encryption.f93c904629bfba22370df109f22f07e46f4f4956.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cfc16bc5dcb751c8bb522a9b2ad88834a15935f8</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\design-for-security-in-azure\5-encryption.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.design-for-security.5-encryption">
+          <source>Encryption</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.design-for-security.5-encryption">
+          <source>Encryption</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.design-for-security.5-encryption">
+          <source>In this unit we'll discuss how to use encryption to secure your architecture</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.design-for-security.5-encryption">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.design-for-security.5-encryption">
+          <source>True or false: only Windows virtual machines can use Azure Disk Encryption</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.design-for-security.5-encryption">
+          <source>True</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.design-for-security.5-encryption">
+          <source>Azure Disk Encryption is available for both Windows and Linux virtual machines.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.design-for-security.5-encryption">
+          <source>False</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.design-for-security.5-encryption">
+          <source>Azure Disk Encryption is available for both Windows and Linux virtual machines.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.design-for-security.5-encryption">
+          <source>When classifying data, which of the following is a factor?</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.design-for-security.5-encryption">
+          <source>Level of risk posed to customers if exposed</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.design-for-security.5-encryption">
+          <source>Classifying data that should be encrypted is commonly based on the impact it can have to customers if it is exposed.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.design-for-security.5-encryption">
+          <source>Method of data transport</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.design-for-security.5-encryption">
+          <source>Classifying data that should be encrypted is commonly based on the impact it can have to customers if it is exposed.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.design-for-security.5-encryption">
+          <source>Whether the data is stored on virtual machines or in a database</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.design-for-security.5-encryption">
+          <source>Classifying data that should be encrypted is commonly based on the impact it can have to customers if it is exposed.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.design-for-security.5-encryption">
+          <source>The amount of data stored</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.design-for-security.5-encryption">
+          <source>Classifying data that should be encrypted is commonly based on the impact it can have to customers if it is exposed.</source>
+        </trans-unit></group></body></file></xliff>

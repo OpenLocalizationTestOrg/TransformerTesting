@@ -1,0 +1,131 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-partition-lesson.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-partition-lesson.fd3831999fc23ec6d71f1fbd24ea8fdc283f2a50.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2e13396207f98aec5e6f3b77325c17b1fb675d4b</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\monitor-and-scale-cosmos-db\includes\5-partition-lesson.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Remember that data in a Cosmos DB is stored in <bpt id="p1">_</bpt>collections<ept id="p1">_</ept>.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Collections are distributed across <bpt id="p1">_</bpt>partitions<ept id="p1">_</ept> based on the value of a collection's <bpt id="p2">_</bpt>partition key<ept id="p2">_</ept>.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The partition key is a <bpt id="p1">_</bpt>document<ept id="p1">_</ept> property.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Documents with the same partition key value are always located on the same logical partition.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A partition supports a fixed maximum amount of storage and Request Units (RUs).</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When the capacity of a logical partition gets close to the maximum storage, Cosmos DB allocates another physical partition.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Cosmos DB seamlessly splits the logical partitions, the groups of documents with the same partition key value, among the physical partitions.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Don't create hot partitions</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The Cosmos DB throughput you've configured is divided evenly among partitions.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>So a partition key design that doesn't evenly distribute the throughput requests can create <bpt id="p1">_</bpt>hot<ept id="p1">_</ept> partitions.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>A hot partition is accessed more than the other partitions, which result in an inefficient use of the total configured throughput.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If the demand on the hot partition is high enough, the partition becomes overloaded and traffic to the database is rate-limited.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A good partition design avoids hot partitions.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Partition design considerations</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Designing a partitioning strategy requires you to understand your data, and its operational workloads.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>As you consider your design, we recommend that you:</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Estimate the scale of your data needs</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>What's the approximate size of your documents, or range of sizes?</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>What's the required throughput in number of reads per second and writes per second?</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>What's the volume of documents being queried?</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Understand the workload</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Do you have a read-heavy or write-heavy workload, or both?</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If it's read-heavy, what are the top five queries?</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If it's write-heavy, do you need transactions?</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Propose some partition key options</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Does the key choice have a large number of possible values or large cardinality?</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Do the values have a consistent spread across the data?</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Are some values accessed more than others?</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For read-heavy workloads, can the query be within a single partition?</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>For write-heavy transactional workloads, can the transaction be within a single partition?</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Scenario: identify partition strategy</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>In our Orders collection, we have many properties we could use as the partition key.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The following example shows a typical order document that's 1 KB of data.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This size allows us to do our RU estimates easily.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Understand the workload for Orders</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Let's imagine that the collection is used to store a record of orders.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>When an order is placed for a specific item, the inventory system checks the latest orders to get an accurate value for that item's inventory.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>At peak times, like during holiday sales, you anticipate 100,000,000+ orders to be placed over a 24-hour period.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>When each order document is added to the collection, the collection is queried for other orders for the same item.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Because there can be multiple orders for each item, more documents are read than written.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>More frequent, less expensive reads balance the less frequent, more expensive writes.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>So our Orders collection has close to a balanced read/write-intensive workload.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Propose partition key values for Orders</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Using the information from the previous sections, let's propose some different values for partition key and examine whether they meet our design criteria.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`OrderTime`</ph> as a partition key</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If you include time with a resolution of seconds, then OrderTime has a large cardinality.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Assuming orders are placed at a consistent pace, the values of OrderTime are evenly distributed across the collection storage.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Orders aren't evenly distributed across time though.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Many orders are being placed simultaneously.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Also, the inventory query likely crosses partitions, which means that the demand of the most common query isn't minimized.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>OrderTime is <bpt id="p1">**</bpt>not<ept id="p1">**</ept> a good choice for partition key.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Item/Category`</ph> as a partition key</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>In our Orders database, we have these categories:</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If we use the <ph id="ph1">`Item/Category`</ph> property as a partition key, then it has a small cardinality.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Even if the documents are evenly distributed across the collection, for large collections, any category could outgrow a single partition.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If the categories aren't evenly distributed across the documents in the collection, then the problem is even worse.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The dominant category restricts the ability of Cosmos DB to scale.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Item/Category is <bpt id="p1">**</bpt>not<ept id="p1">**</ept> a good choice for partition key.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Item/id`</ph> as a partition key</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Each item has a unique identifier.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>We expect the items ordered to be evenly  distributed across orders.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>There are many different items so the cardinality is large.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>When we query the orders, all orders of the same item are in the same partition.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Item/id <bpt id="p1">**</bpt>is<ept id="p1">**</ept> a workable solution for this scenario.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>In the next unit, we'll monitor our collections to see how we'd confirm this design choice.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,187 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-save-on-licensing-costs.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-save-on-licensing-costs.a02d4ef7ec5a4918b64b67203fc68eace01440b5.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">15808a0e99531e1b6349314e69b28bf65d595e01</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\predict-costs-and-optimize-spending\includes\5-save-on-licensing-costs.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Licensing is another area that can dramatically impact your cloud spending.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Let's look at some ways you can reduce your licensing costs.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Linux vs. Windows</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Many of the Azure services you deploy have the choice of running on Windows or Linux.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In some cases, the cost of the product can be different based on the OS you choose.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Where you have a choice, and your application doesn't depend on the underlying OS, it's useful to compare pricing to determine whether you can save money.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Azure Hybrid Benefit for Windows Server</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Many customers have invested in Windows Server licenses and would like to repurpose this investment on Azure.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The Azure Hybrid Benefit gives customers the right to use these licenses for virtual machines on Azure.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>That means you won't be charged for the Windows Server license and will instead be billed at the Linux rate.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To be eligible for this benefit, your Windows licenses must be covered by Software Assurance.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The following guidelines will also apply:</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Each two-processor license or each set of 16-core licenses is entitled to two instances of up to 8 cores or one instance of up to 16 cores.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Standard Edition licenses can only be used once either on-premises or in Azure.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>That means you can't use the same license for an Azure VM and a local computer.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Datacenter Edition benefits allow for simultaneous usage both on-premises and in Azure so that the license will cover two running Windows machines.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Most customers are typically licensed by core, so you'll use that model for your calculation.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If you have questions about what licenses you have, reach out to your license reseller or your Microsoft account team.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Applying the benefit is easy.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>It can be turned on and off at any time with existing VMs or applied at deployment time for new VMs.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The Hybrid Benefit (especially when combined with reserved instances) can provide substantial license savings.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Azure Hybrid Benefit for SQL Server</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The Azure Hybrid Benefit for SQL Server helps you maximize the value from your current licensing investments and accelerate your migration to the cloud.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Azure Hybrid Benefit for SQL Server is an Azure-based benefit that enables you to use your SQL Server licenses with active Software Assurance to pay a reduced rate.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You can use this benefit even if the Azure resource is active, but the reduced rate will only be applied from the time you select it in the portal.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>No credit will be issued retroactively.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Azure SQL Database vCore-based options</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For Azure SQL Database, the Azure Hybrid Benefit works as follows:</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If you have Standard Edition per core licenses with active Software Assurance, you can get one vCore in the General Purpose service tier for every one license core you own on-premises.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If you have Enterprise Edition per core licenses with active Software Assurance, you can get one vCore in the Business Critical service tier for every one license core you own on-premises.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Note that the Azure Hybrid Benefit for SQL Server for the Business Critical service tier is available only to customers who have Enterprise Edition licenses.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If you have highly virtualized Enterprise Edition per core licenses with active Software Assurance, you can get four vCores in the General Purpose service tier for every one license core you own on-premises.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This is a unique virtualization benefit available only on Azure SQL Database.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The following illustration shows the vCore-based options available in each service tier with Azure Hybrid Benefit for SQL Server licenses.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>An illustration showing an example of how to maximize your existing SQL server license value using the Azure Hybrid Benefit.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For SQL Server in Azure Virtual Machines, the Azure Hybrid Benefit works as follows:</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If you have Enterprise Edition per core licenses with active Software Assurance, you can get one core of SQL Server Enterprise Edition in Azure Virtual Machines for every one license core you own on-premises.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>If you have Standard Edition per core licenses with active Software Assurance, you can get one core of SQL Server Standard Edition in Azure Virtual Machines for every one license core you own on-premises.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This can make a dramatic impact on your Azure spending with SQL Server workloads.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Use Dev/Test subscription offers</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">[</bpt>Enterprise Dev/Test<ept id="p1">](https://azure.microsoft.com/offers/ms-azr-0148p/)</ept> and <bpt id="p2">[</bpt>Pay-As-You-Go Dev/Test<ept id="p2">](https://azure.microsoft.com/offers/ms-azr-0023p/)</ept> offers are a benefit you can take advantage of to save costs on your non-production environments.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This benefit gives you several discounts, most notably for Windows workloads, eliminating license charges and only billing you at the Linux rate for virtual machines.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This also applies to SQL Server and any other Microsoft software that is covered under a Visual Studio subscription (formerly known as MSDN).</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>There are a few requirements for this benefit, one being that it's only for non-production workloads, and another being that any users of these environments (excluding testers) must be covered under a Visual Studio subscription.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>In short, for non-production workloads, this allows you to save money on your Windows, SQL Server, and other Microsoft virtual machine workloads.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Below are the full details of each offer.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If you are a customer on an Enterprise Agreement, you'd want to leverage the Enterprise Dev/Test offer, and if you are a customer without an Enterprise Agreement and are instead using PAYG accounts, you'd leverage the Pay-As-You-Go Dev/Test offer.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Bring your own SQL Server license</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If you are a customer on an Enterprise Agreement and already have an investment in SQL Server licenses, and they have freed up as part of moving resources to Azure, you can provision <bpt id="p1">**</bpt>bring your own license<ept id="p1">**</ept> (BYOL) images off the Azure Marketplace, giving you the ability to take advantage of these unused licenses and reduce your Azure VM cost.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>You've always been able to do this by provisioning a Windows VM and manually installing SQL Server, but this simplifies the creation process by leveraging Microsoft certified images.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Search for <bpt id="p1">**</bpt>BYOL<ept id="p1">**</ept> in the Marketplace to find these images.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Azure portal showing BYOL options for SQL Server.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>An Enterprise Agreement subscription is required to use these certified BYOL images.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Use SQL Server Developer Edition</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>A lot of people are unaware that SQL Server Developer Edition is a free product for <bpt id="p1">**</bpt>nonproduction use<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Developer Edition has all the same features that Enterprise Edition has, but for nonproduction workloads, you can save dramatically on your licensing costs.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Look for SQL Server images for Developer Edition on the Azure Marketplace and use them for development or testing purposes to eliminate the additional cost for SQL Server in these cases.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>For full licensing information, take a look at the <bpt id="p1">[</bpt>documented pricing guidance<ept id="p1">](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-pricing-guidance)</ept>.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Use constrained instance sizes for database workloads</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Many customers have high requirements for memory, storage, or I/O bandwidth but low CPU core counts.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Based on this popular request, Microsoft has made available the most popular VM sizes (DS, ES, GS, and MS) in new sizes that constrain the vCPU count to one half or one-quarter of the original VM size, while maintaining the same memory, storage, and I/O bandwidth.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>VM Size</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>vCPUs</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Memory</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Max disks</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Max I/O throughput</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>SQL Server Enterprise licensing cost per year</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Total cost per year (compute + licensing)</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Standard_DS14v2</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>16</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>112 GB</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>32</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>51,200 IOPS or 768 MB/s</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Standard_DS14-4v2</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>4<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>112 GB</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>32</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>51,200 IOPS or 768 MB/s</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>75% lower</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>57% lower</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Standard_GS5</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>32</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>448</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>64</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>80,000 IOPS or 2 GB/s</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Standard_GS5-8</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>8<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>448</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>64</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>80,000 IOPS or 2 GB/s</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>75% lower</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>42% lower</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Because database products like SQL Server and Oracle are licensed per CPU, this allows customers to reduce licensing cost by up to 75 percent but still maintain the high performance their database requires.</source>
+        </trans-unit></group></body></file></xliff>

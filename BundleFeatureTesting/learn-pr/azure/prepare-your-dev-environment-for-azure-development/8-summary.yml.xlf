@@ -1,0 +1,45 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="8-summary.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8-summary.fca4ee15f7856e60f4f088ab54cb0728a7a86c94.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8df08ffc3c3f35ff1a1fab8a8de0462d8e052e3e</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\prepare-your-dev-environment-for-azure-development\8-summary.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.prepare-azure-dev-environment.8-summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.prepare-azure-dev-environment.8-summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.prepare-azure-dev-environment.8-summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.prepare-azure-dev-environment.8-summary">
+          <source>Knowledge check: Prepare your development environment for Azure</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.prepare-azure-dev-environment.8-summary">
+          <source>Visual Studio Code supports which operating system?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.prepare-azure-dev-environment.8-summary">
+          <source>Linux</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.prepare-azure-dev-environment.8-summary">
+          <source>Visual Studio Code is cross-platform and supports Linux, macOS, and Windows.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.prepare-azure-dev-environment.8-summary">
+          <source>macOS</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.prepare-azure-dev-environment.8-summary">
+          <source>Visual Studio Code is cross-platform and supports Linux, macOS, and Windows.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.prepare-azure-dev-environment.8-summary">
+          <source>Windows</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.prepare-azure-dev-environment.8-summary">
+          <source>Visual Studio Code is cross-platform and supports Linux, macOS, and Windows.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.prepare-azure-dev-environment.8-summary">
+          <source>All of the above</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.prepare-azure-dev-environment.8-summary">
+          <source>Visual Studio Code is cross-platform and supports Linux, macOS, and Windows.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.prepare-azure-dev-environment.8-summary">
+          <source>Microsoft supplies an Azure extension for which of the following editor/IDE?</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.prepare-azure-dev-environment.8-summary">
+          <source>Eclipse</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.prepare-azure-dev-environment.8-summary">
+          <source>You choose which tool you want to use for Azure development, Microsoft provides Azure integration for Eclipse, Visual Studio 2017, Visual Studio for Mac, and Visual Studio Code.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.prepare-azure-dev-environment.8-summary">
+          <source>Visual Studio</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.prepare-azure-dev-environment.8-summary">
+          <source>You choose which tool you want to use for Azure development, Microsoft provides Azure integration for Eclipse, Visual Studio 2017, Visual Studio for Mac, and Visual Studio Code.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.prepare-azure-dev-environment.8-summary">
+          <source>Visual Studio Code</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.prepare-azure-dev-environment.8-summary">
+          <source>You choose which tool you want to use for Azure development, Microsoft provides Azure integration for Eclipse, Visual Studio 2017, Visual Studio for Mac, and Visual Studio Code.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.prepare-azure-dev-environment.8-summary">
+          <source>All of the above</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.prepare-azure-dev-environment.8-summary">
+          <source>You choose which tool you want to use for Azure development, Microsoft provides Azure integration for Eclipse, Visual Studio 2017, Visual Studio for Mac, and Visual Studio Code.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.7c6a111e37b16cf22ed601ea66e570a30800c16a.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c89800106651d930bb91293e1a7bd0a3298b5817</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\databricks\streaming-in-azure-databricks\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.streaming-in-azure-databricks">
+          <source>Work with streaming data in Azure Databricks</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.streaming-in-azure-databricks">
+          <source>Learn how to analyze and process streaming data by using Azure Event Hubs, Spark Structured Streaming, and Databricks Delta.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.streaming-in-azure-databricks">
+          <source>Work with streaming data in Azure Databricks</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.streaming-in-azure-databricks">
+          <source>Learn how to analyze and process streaming data by using Azure Event Hubs, Spark Structured Streaming, and Databricks Delta.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.streaming-in-azure-databricks">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.streaming-in-azure-databricks">
+          <source>Use Spark Structured Streaming, Azure Event Hubs, and Databricks Delta to read from and write to streams.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.streaming-in-azure-databricks">
+          <source>Process streaming data by using Azure Databricks.</source>
+        </trans-unit></group></body></file></xliff>

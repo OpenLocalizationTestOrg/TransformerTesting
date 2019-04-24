@@ -1,0 +1,49 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-verify-agent-connectivity-and-schedule-recurring-updates.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-verify-agent-connectivity-and-schedule-recurring-updates.42c13461bfe0c4fc4851416d1e645bd543029900.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4f37cfef4c010a4686afb844c71ebadc42f27f33</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\keep-your-virtual-machines-updated\includes\4-verify-agent-connectivity-and-schedule-recurring-updates.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In addition to a public facing web site, the department uses web sites for in-house content such as dispatch and patient care records.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>These sites must be as secure as possible.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Here, you'll learn how to assess agent connectivity, and schedule a recurring update.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Components used by Update Management</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The following configurations are used to perform assessment and update deployments:</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Microsoft Monitoring Agent (MMA) for Windows or Linux.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>PowerShell Desired State Configuration (DSC) for Linux.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Automation Hybrid Runbook Worker.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Microsoft Update or Windows Server Update Services (WSUS) for Windows computers.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Compliance scan</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Update Management will perform a scan for update compliance.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A compliance scan is by default, performed every 12 hours on a Windows computer and every 3 hours on a Linux computer.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In addition to the scan schedule, a compliance scan is initiated within 15 minutes if the MMA is restarted, before update installation, and after update installation.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>After a computer performs a scan for update compliance, the agent forwards the information in bulk to Azure Log Analytics.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>In addition to the scan schedule, the scan for update compliance is initiated within 15 minutes if the MMA is restarted, before update installation, and after update installation.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>It can take between 30 minutes and 6 hours for the dashboard to display updated data from managed computers.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Recurring Updates</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can create a scheduled and recurring deployment of updates.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>With scheduled deployment you can define what target computers receive the updates, either by explicitly specifying computers or by selecting a computer group that's based on log searches of a specific set of computers.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You also specify a schedule to approve and designate a period of time during which updates can be installed.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Updates are installed by runbooks in Azure Automation.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You can't view these runbooks, and the runbooks don’t require any configuration.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>When an update deployment is created, the update deployment creates a schedule that starts a master update runbook at the specified time for the included computers.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The master runbook starts a child runbook on each agent to perform installation of required updates.</source>
+        </trans-unit></group></body></file></xliff>

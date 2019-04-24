@@ -1,0 +1,69 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-create-twilio-account-launch-vs.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-create-twilio-account-launch-vs.f10ea813b8e423c1d37eb269e2a6b6bc3c65a8f9.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6b81db174ee2f3a847541dd383025da4b1cdd1ad</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\send-location-over-sms-using-azure-functions-twilio\includes\1-create-twilio-account-launch-vs.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Create a Twilio account</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>To be able to send SMS messages from an Azure Functions, you'll need a Twilio account.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The free account is more than enough to get started.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Head to <bpt id="p1">[</bpt>twilio.com<ept id="p1">](https://www.twilio.com?azure-portal=true)</ept>.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Click the red <bpt id="p1">**</bpt>Sign Up<ept id="p1">**</ept> button in the top-right corner.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Fill in your details and click <bpt id="p1">**</bpt>Get Started<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Enter you phone number to verify.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Twilio free accounts let you send messages only to verified phone numbers to stop them from being used for spam.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Twilio will send you a verification code that you need to enter to verify your phone.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Screenshot of phone verification step in Twilio sign up</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Log onto your Twilio account and click <bpt id="p1">**</bpt>Get a Trial Number<ept id="p1">**</ept> button in you account dashboard.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Twilio assigns you a phone number that is used to send messages.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>These assigned numbers may not be able to send messages in some countries.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The Twilio documentation lists <bpt id="p1">[</bpt>which countries have restrictions<ept id="p1">](https://support.twilio.com/hc/articles/223183068-Twilio-international-phone-number-availability-and-their-capabilities?azure-portal=true)</ept>, and shows ways to send SMS messages using an <bpt id="p2">[</bpt>international number or AlphaNumeric sender Id<ept id="p2">](https://support.twilio.com/hc/articles/226690868-Using-Twilio-when-SMS-numbers-are-unavailable-in-your-country?azure-portal=true)</ept>.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Take a note of your new Twilio Trial Number; you will need it later in this module.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can also get this number anytime by clicking the ellipses at the bottom of the left-hand menu and navigating to <bpt id="p1">_</bpt>SUPER NETWORK<ept id="p1">_</ept><ph id="ph1"> &gt; </ph><bpt id="p2">_</bpt>Phone Numbers<ept id="p2">_</ept><ph id="ph2"> &gt; </ph><bpt id="p3">_</bpt>Manage Numbers<ept id="p3">_</ept><ph id="ph3"> &gt; </ph><bpt id="p4">_</bpt>Active Numbers<ept id="p4">_</ept>.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Create a new Twilio project</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Before you start using Twilio to send messages to your verified number, you create a project to send programable SMS.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Select the drop-down at the top-left corner of the screen and select <bpt id="p1">**</bpt>Create New Project<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Create new project</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Products<ept id="p1">**</ept> tab, and click <bpt id="p2">**</bpt>Programmable SMS<ept id="p2">**</ept>, then click <bpt id="p3">**</bpt>Continue<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Provide a name for your first project, such as "I'm here", then click <bpt id="p1">**</bpt>Continue<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Skip the step to invite a team mate.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>From the Twilio messaging dashboard, expand the <bpt id="p1">**</bpt>Project Info<ept id="p1">**</ept> panel.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Screenshot of the expanded Project Info panel</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Note your <bpt id="p1">**</bpt>ACCOUNT SID<ept id="p1">**</ept> and <bpt id="p2">**</bpt>AUTH TOKEN<ept id="p2">**</ept> because you will need these values later.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Launch Visual Studio</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For this module, you'll develop the mobile app and Azure Functions app using Visual Studio 2017.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Although Xamarin.Forms apps can be built to run on iOS, Android, and Universal Windows Platform (UWP), this module will just focus on UWP.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Launch Visual Studio 2017 on your system.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>In this unit, you created a Twilio account that you'll use to send SMS and launched Visual Studio.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Next, you'll learn how to create a Xamarin.Forms app and add the Xamarin.Essentials NuGet package.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Keep note of the Twilio  <bpt id="p1">**</bpt>ACCOUNT SID<ept id="p1">**</ept> and <bpt id="p2">**</bpt>AUTH TOKEN<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Active Phone Number<ept id="p3">**</ept> values that you gathered in this unit, because you'll need these values later.</source>
+        </trans-unit></group></body></file></xliff>

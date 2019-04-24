@@ -1,0 +1,33 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.4846fb643fc34ee4e1d65c82b31a6e72c595739b.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7e0e74fd6182041daaff11a99854c0755370f998</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\control-and-organize-with-azure-resource-manager\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Imagine you've joined a company who has been moving to the cloud.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This movement happened organically across different departments, and resulted in a lack of awareness of what's already been created and where everything is.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>There's no ability to easily determine who owns which resources.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>There's no enforcement of standards for things like resource names, resource sizes, and geographic locations.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>There's also been several instances where critical resources were inadvertently deleted, causing business-critical outages.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Your manager has asked you to head up an effort to put some order into the chaos, but you're new to Azure and aren't entirely sure what you can do to make this better.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Azure Resource Manager has a number of features that you can use to organize resources, enforce standards, and protect critical Azure resources from accidental deletion.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>We'll take a tour through these features, and show how you can use them to your advantage.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Use resource groups to organize Azure resources</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Use tags to organize resources</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Apply policies to enforce standards in your Azure environments</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Use resource locks to protect critical Azure resources from accidental deletion</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For this module, you will need use your own subscription to follow along.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>We'll be working with resources that will have no cost associated with them, so a trial subscription or a subscription you already have access to will work to follow along with these exercises.</source>
+        </trans-unit></group></body></file></xliff>

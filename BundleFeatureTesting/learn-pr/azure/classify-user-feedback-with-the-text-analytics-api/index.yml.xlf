@@ -1,0 +1,23 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.aac82f79481f7c4359ebfbea4311e975e17fc4c4.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">020cb1d72378b6ac61ec7c8256ec699df0e7e7e7</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\classify-user-feedback-with-the-text-analytics-api\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.classify-user-feedback-with-the-text-analytics-api">
+          <source>Discover sentiment in text with the Text Analytics API</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.classify-user-feedback-with-the-text-analytics-api">
+          <source>Learn how to use the Text Analytics API to discover sentiment in user feedback.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.classify-user-feedback-with-the-text-analytics-api">
+          <source>Discover sentiment in text with the Text Analytics API</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.classify-user-feedback-with-the-text-analytics-api">
+          <source>Learn what your customers are really saying about your product or brand when they send feedback.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.classify-user-feedback-with-the-text-analytics-api">
+          <source>We'll create a solution that uses Azure Functions and the intelligence of the Text Analytics API to discover sentiment in text messages.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.classify-user-feedback-with-the-text-analytics-api">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.classify-user-feedback-with-the-text-analytics-api">
+          <source>Learn about Text Analytics API</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.classify-user-feedback-with-the-text-analytics-api">
+          <source>Sign up for a Text Analytics API key</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.classify-user-feedback-with-the-text-analytics-api">
+          <source>Design and build a service with Azure Functions that uses the Text Analytics API to sort text feedback</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.classify-user-feedback-with-the-text-analytics-api">
+          <source>Read and write Azure Queue storage messages in a function app with the help of bindings</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.classify-user-feedback-with-the-text-analytics-api">
+          <source>None</source>
+        </trans-unit></group></body></file></xliff>

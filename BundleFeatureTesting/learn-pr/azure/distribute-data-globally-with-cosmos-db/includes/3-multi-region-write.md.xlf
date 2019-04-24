@@ -1,0 +1,61 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-multi-region-write.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-multi-region-write.31a62fae44c3809280186c726c3e61e7c74362e1.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">453a3f17e30e35615a0deaff6740e29d48c266f9</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\distribute-data-globally-with-cosmos-db\includes\3-multi-region-write.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Assuring a great user experience in an e-commerce scenario such as yours requires high availability and low latency.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>By enabling multi-master support on the Azure Cosmos DB account you created, there are multiple benefits to both of these performance aspects, and all of the benefits are guaranteed by the financially backed service level agreements (SLAs) provided by Azure Cosmos DB.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>What is multi-master support?</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Multi-master support is an option that can be enabled on new Azure Cosmos DB accounts.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Once the account is replicated in multiple regions, each region is a master region that equally participates in a write-anywhere model, also known as an active-active pattern.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Azure Cosmos DB regions operating as master regions in a multi-master configuration automatically work to converge data written to all replicas and ensure global consistency and data integrity.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>With Azure Cosmos DB multi-master support, you can perform writes on any container in a write-enabled region world-wide.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Written data is propagated to all other regions immediately.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>What are the benefits of multi-master support?</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The benefits of multi-master support are:</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Single-digit write latency – Multi-master accounts have an improved write latency of &lt;10 ms for 99% of writes, up from &lt;15 ms for non-multi-master accounts.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>99.999% read-write availability - The write availability multi-master accounts increases to 99.999%, up from the 99.99% for non-multi-master accounts.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Unlimited write scalability and throughput – With multi-master accounts, you can write to every region, providing unlimited write scalability and throughput to support billions of devices.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Built-in conflict resolution – Multi-master accounts have three methods for resolving conflicts to ensure global data integrity and consistency.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Conflict resolution</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>With the addition of multi-master support comes the possibility of encountering conflicts for writes to different regions.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Conflicts are rare in Azure Cosmos DB and can only occur when an item is simultaneously changed in multiple regions, before propagation between the regions has happened.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Given the speed with which replication happens globally, you should not experience conflicts often, if at all.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>However, Azure Cosmos DB does provide conflict resolution modes that allow users to decide how to handle scenarios where the same record is updated simultaneously by different writers in two or more regions.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>There are three conflict resolution modes offered by Azure Cosmos DB.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Last-Writer-Wins (LWW)<ept id="p1">**</ept>, in which conflicts are resolved based on the value of a user-defined integer property in the document.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>By default _ts is used to determine the last written document.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Last-Writer-Wins is the default conflict handling mechanism.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Custom - User-defined function<ept id="p1">**</ept>, in which you can fully control conflict resolution by registering a User-defined function to the collection.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A User-defined function is a special type of stored procedure with a specific signature.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If the User-defined function fails or does not exist, Azure Cosmos DB will add all conflicts into the read-only conflicts feed they can be processed asynchronously.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Custom - Async<ept id="p1">**</ept>, in which Azure Cosmos DB excludes all conflicts from being committed and registers them in the read-only conflicts feed for deferred resolution by the user’s application.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The application can perform conflict resolution asynchronously and use any logic or refer to any external source, application, or service to resolve the conflict.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In this unit, you learned about multi-master accounts, which enable you to write data to multiple regions for improved availability and performance.</source>
+        </trans-unit></group></body></file></xliff>

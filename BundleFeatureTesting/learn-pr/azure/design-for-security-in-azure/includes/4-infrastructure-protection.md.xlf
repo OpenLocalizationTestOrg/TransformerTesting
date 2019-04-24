@@ -1,0 +1,133 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-infrastructure-protection.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-infrastructure-protection.068b55194181e1404ef4d98b84e382bbcfcb79e6.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4910b805e8670f9ccf29afc91036d3ff7f9b4883</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\design-for-security-in-azure\includes\4-infrastructure-protection.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Lamna Healthcare recently experienced a significant outage to a customer-facing web application.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>An engineer was granted full access to a resource group containing the production web application.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This person accidentally deleted the resource group and all child resources, including the database hosting live customer data.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Fortunately, the application source code and resources were available in source control and regular database backups were running automatically on a schedule.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Therefore, the service was reinstated relatively easily.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Here, we will explore how this outage could have been avoided by utilizing capabilities on Azure to protect the access to infrastructure.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Criticality of infrastructure</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Cloud infrastructure is becoming a critical piece of many businesses.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>It is critical to ensure people and processes have only the rights they need to get their job done.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Assigning incorrect access can result in data loss, data leakage, or cause services to become unavailable.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>System administrators can be responsible for a large number of users, systems, and permission sets.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>So correctly granting access can quickly become unmanageable and can lead to a 'one size fits all' approach.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This approach can reduce the complexity of administration, but makes it far easier to inadvertently grant more permissive access than required.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Role-based access control</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Role-based access control (RBAC) offers a slightly different approach.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Roles are defined as collections of access permissions.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Security principals are mapped to roles directly or through group membership.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Separating security principals, access permissions, and resources provides simplified access management and more fine-grained control.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>On Azure, users, groups, and roles are all stored in Azure Active Directory (Azure AD).</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The Azure Resource Manager API uses role-based access control to secure all resource access management within Azure.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>An illustration showing the implementation of a role-based access control.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Roles and management groups</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Roles are sets of permissions, like "Read-only" or "Contributor", that users can be granted to access an Azure service instance.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Roles can be granted at the individual service instance level, but they also flow down the Azure Resource Manager hierarchy.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Roles assigned at a higher scope, like an entire subscription, are inherited by child scopes, like service instances.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Management groups are an additional hierarchical level recently introduced into the RBAC model.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Management groups add the ability to group subscriptions together and apply policy at an even higher level.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The ability to flow roles through an arbitrarily defined subscription hierarchy also allows administrators to grant temporary access to an entire environment for authenticated users.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For example, an auditor may require temporary read-only access to all subscriptions.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>An illustration showing the hierarchal representation of role-based access in a management group.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Privileged Identity Management</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>In addition to managing Azure resource access with RBAC, a comprehensive approach to infrastructure protection should consider including the ongoing auditing of role members as their organization changes and evolves.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Azure AD Privileged Identity Management (PIM) is an additional paid-for offering that provides oversight of role assignments, self-service, and just-in-time role activation and Azure AD &amp; Azure resource access reviews.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Screenshot of Privileged identity management dashboard</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Providing identities to services</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>It's often valuable for services to have identities.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Often times, and against best practices, credential information is embedded in configuration files.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>With no security around these configuration files, anyone with access to the systems or repositories can access these credentials and risk exposure.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Azure AD addresses this problem through two methods: service principals and managed identities for Azure services.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Service principals</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>To understand service principals, it's useful to first understand the words <bpt id="p1">**</bpt>identity<ept id="p1">**</ept> and <bpt id="p2">**</bpt>principal<ept id="p2">**</ept> as they are used in Identity management world.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">**</bpt>identity<ept id="p1">**</ept> is just a thing that can be authenticated.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Obviously, this includes users with username and password, but it can also include applications or other servers, which might authenticate with secret keys or certificates.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>As a bonus definition, an <bpt id="p1">**</bpt>account<ept id="p1">**</ept> is data associated with an identity.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">**</bpt>principal<ept id="p1">**</ept> is an identity acting with certain roles or claims.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Consider the use 'sudo' on a bash prompt or on Windows using "run as Administrator".</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>In both of those cases, you are still logged in as the same identity as before, but you've changed the role under which you are executing.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>So, a <bpt id="p1">**</bpt>Service Principal<ept id="p1">**</ept> is literally named.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>It is an identity that is used by a service or application.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Like other identities, it can be assigned roles.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>For example, Lamna Healthcare can assign its deployment scripts to run authenticated as a service principal.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If that is the only identity that has permission to perform destructive actions, Lamna will have gone a long way toward making sure they don't have a repeat of the accidental resource deletion.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Managed identities for Azure resources</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The creation of service principals can be a tedious process, and there are a lot of touch points that can make maintaining them difficult.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Manage identities for Azure resources are much easier and will do most of the work for you.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>A managed identity can be instantly created for any Azure service that supports it (the list is constantly growing).</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>When you create a managed identity for a service, you are creating an account on the Azure AD tenant.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Azure infrastructure will automatically take care of authenticating the service and managing the account.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>You can then use that account like any other AD account including securely letting the authenticated service access other Azure resources.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Lamna Healthcare takes their identity management a step further and uses managed identities for all supported services that need the ability to perform infrastructure management and deployments.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Infrastructure protection at Lamna Healthcare</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>We've seen how Lamna Healthcare has addressed issues from their incident where infrastructure was inadvertently deleted.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>They've used role-based access control to better manage the security of their infrastructure, and are using managed identities to keep their credentials out of code and ease administration of the identities needed for their services.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To ensure the availability and integrity of infrastructure, it's important to properly secure your infrastructure.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Properly using features such as RBAC and managed  identities will help protect your Azure environment from unauthorized or unintended access, and will enhance the identity security capabilities in your architecture.</source>
+        </trans-unit></group></body></file></xliff>

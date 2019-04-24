@@ -1,0 +1,79 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-index-lesson.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-index-lesson.00559968fdea9615877970f7738d0093c77d89cf.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4370d6ebee5f1dc65590a83cf93f5ce95960f5e6</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\monitor-and-scale-cosmos-db\includes\7-index-lesson.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>An index is extra information that sits alongside a collection to make querying more efficient.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Queries use the index to locate documents.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The index is updated every time a document is updated or added to a collection.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>That update adds to the request units used for each write operation.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The right indexing strategy depends on the patterns of access to your collections.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Read-intensive workloads call for a different indexing strategy from write-intensive ones.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Unlike the partitioning configuration, you can change the Cosmos DB indexing configuration after a collection is provisioned.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>When your database is up and running, measure the performance of your index configuration and tune it.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>By default, all document properties in a Cosmos DB are indexed.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Indexing modes: consistent, lazy, none</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The three indexing modes you can use with Cosmos DB are:</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Consistent<ept id="p1">**</ept>: The index is updated synchronously every time a new document is written to the collection.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>New queries on the collection use the updated index right away.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Query results are consistent with the updated documents in the collection.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Lazy<ept id="p1">**</ept>: The index is updated at a lower priority.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The reads and writes from the collection take a higher priority.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In lazy mode, writes are cheaper because the index isn't updated immediately.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When the index is fully updated depends on the demands on the collection.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Query results don't include the updated documents until the index is consistent with the collection.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>None<ept id="p1">**</ept>:  No index is created.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Queries are expensive on collections that aren't indexed.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If you're using your Cosmos DB collection to read records directly rather than querying the collection, then it's possible to avoid the overhead of indexing.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Indexing mode for the Orders collection</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>One scenario for the Orders collection workload is write-intensive:</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Orders are placed or updated at any time of the day</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Reports are generated less frequently for the quantity and type of items sold</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In this case, you could choose to keep the indexing on all properties of the documents but set the indexing mode to <bpt id="p1">**</bpt>lazy<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Changing the indexing strategy</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The index configuration can be changed at any time.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If you add properties to the index configuration, Cosmos DB parses your collections, and updates the index.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The index uses more storage.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If you reduce the number of properties from the index, Cosmos DB removes this information from your index.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The index uses less storage.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Adding document properties to the index</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To include a document property in the index, you add its path to the index configuration.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For example,</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To include the Customer Email property in the index, add <ph id="ph1">`Customer/Email/?`</ph> to the <ph id="ph2">`includedPaths`</ph> array.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To exclude a property, add it to the <ph id="ph1">`excludedPaths`</ph> array.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>In the following example, the indexing mode is set to consistent, and some of the properties are indexed.</source>
+        </trans-unit></group></body></file></xliff>

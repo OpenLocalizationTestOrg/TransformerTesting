@@ -1,0 +1,135 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-manage.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-manage.d877210da3f2a2e220b0af1feeabe3205f4aab98.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f3dfd0d2b1c76b00e25ca8b8ef72b0e0f4dad129</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\databricks\understand-the-sql-dw-connector-with-azure-databricks\includes\4-manage.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>SQL Data Warehouse lets you easily scale, pause, and resume your data warehouse.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The architecture of SQL Data Warehouse separates storage and compute, allowing you to scale them independently.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Billing for compute and storage is separate.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If you don't need to use your data warehouse for a while, you can save compute costs by pausing compute.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can scale out or scale back compute by adjusting the data warehouse units setting for your data warehouse.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Loading and query performance can increase linearly as you add more data warehouse units.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Scale SQL Data Warehouse in the Azure portal</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To perform a scale operation, SQL Data Warehouse first ends all incoming queries and then rolls back transactions to ensure a consistent state.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Scaling occurs only after the transaction rollback is complete.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For a scale operation, the system detaches the storage layer from the Compute nodes, adds Compute nodes, and then reattaches the storage layer to the Compute layer.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Each data warehouse is stored as 60 distributions, which are evenly distributed to the Compute nodes.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Adding more Compute nodes adds more compute power.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>As the number of Compute nodes increases, the number of distributions per Compute node decreases, providing more compute power for your queries.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Similarly, decreasing data warehouse units reduces the number of Compute nodes, which reduces the compute resources for queries.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To scale your SQL Data Warehouse instance, take these steps:</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Go to your data warehouse in the Azure portal.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Common Tasks<ept id="p1">**</ept> in the left pane, select <bpt id="p2">**</bpt>Scale<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Select Scale</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Scale<ept id="p1">**</ept> blade, move the slider left or right to change the DWU setting.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The scale slider</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> to change performance units.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A confirmation message appears.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to confirm or <bpt id="p2">**</bpt>No<ept id="p2">**</ept> to cancel.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Pause and resume SQL Data Warehouse in the Azure portal</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You can pause your data warehouse if you don't need to use it for a while.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This can help you save money because you'll pay only for the compute that you need.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Go to your data warehouse in the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](http://portal.azure.com/)</ept> and select <bpt id="p2">**</bpt>Overview<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Notice that the <bpt id="p1">**</bpt>Status<ept id="p1">**</ept> is <bpt id="p2">**</bpt>Online<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To suspend compute and memory resources, select <bpt id="p1">**</bpt>Pause<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>When the confirmation message appears, select <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to confirm or <bpt id="p2">**</bpt>No<ept id="p2">**</ept> to cancel.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Select Pause</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To resume SQL Data Warehouse, go to your data warehouse in the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](http://portal.azure.com/)</ept> and select <bpt id="p2">**</bpt>Overview<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Notice that the <bpt id="p1">**</bpt>Status<ept id="p1">**</ept> is <bpt id="p2">**</bpt>Paused<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To resume the database, select <bpt id="p1">**</bpt>Resume<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>When the confirmation message appears, select <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to confirm or <bpt id="p2">**</bpt>No<ept id="p2">**</ept> to cancel.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Select Resume</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Restore a data warehouse</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You can also restore a database.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The steps you take depend on whether the data warehouse is active/paused or has been deleted.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Restore an active or paused database in the Azure portal</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Go to your data warehouse in the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](http://portal.azure.com/)</ept>.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>At the top of the data warehouse <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> blade, select <bpt id="p2">**</bpt>Restore<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Automatic Restore Points</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Restore Point Type<ept id="p1">**</ept> box, select <bpt id="p2">**</bpt>Automatic Restore Points<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This restore point type will allow you to select restore points that are automatically created every 8 hours.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Specify a new <bpt id="p1">**</bpt>Database name<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Select the latest restore point by selecting the date and time.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Select the destination <bpt id="p1">**</bpt>Server<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Performance level<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>By default, the database's current server and performance level are selected.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Select the date and time</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Alternatively, select <bpt id="p1">**</bpt>User-Defined Restore Points<ept id="p1">**</ept> as the <bpt id="p2">**</bpt>Restore Point Type<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>You can then select the <bpt id="p1">**</bpt>Restore points<ept id="p1">**</ept> option to view the available user-defined restore points.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>User-Defined Restore Points</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> at the bottom of blade.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The database restore process will begin.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>You can use notifications to monitor the process.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Restore a deleted database in the Azure portal</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Go to your data warehouse in the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](http://portal.azure.com/)</ept>.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Select the SQL Server instance associated with your data warehouse by selecting it in the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> blade.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>You'll be redirected to the SQL Server instance on which the database should be restored.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>In the navigation pane of SQL Server, select <bpt id="p1">**</bpt>Deleted databases<ept id="p1">**</ept> in the menu on the left under the <bpt id="p2">**</bpt>Settings<ept id="p2">**</ept> subsection.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Select Deleted Databases</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Select the database that you want to restore.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Select the database you want to restore</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Restore<ept id="p1">**</ept> blade, enter the new name of the database to be  restored.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Restore deleted database</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Ok<ept id="p1">**</ept> at the bottom of blade.</source>
+        </trans-unit></group></body></file></xliff>

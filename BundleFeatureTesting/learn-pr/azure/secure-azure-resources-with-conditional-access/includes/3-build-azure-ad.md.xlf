@@ -1,0 +1,79 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-build-azure-ad.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-build-azure-ad.7154734d979593df0b3b4b255e2784a215cf7bdc.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c0bd69831b19f0efb05efd082ad38d5051da2a58</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\secure-azure-resources-with-conditional-access\includes\3-build-azure-ad.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>This exercise is optional.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You may complete the steps below in your own account.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Charges may occur.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You decide to deploy Azure AD and use conditional access policies that Azure require Multi-Factor Authentication when anyone accesses the Azure portal.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You need to create a directory and get temporary licenses in place.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Create a directory</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You will create a new Active Directory for First Up Consultants in the Sandbox Portal, where you can test without fear of impacting production users.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>log into the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com?azure-portal=true)</ept>.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In the left navigation pane, click <bpt id="p1">**</bpt>Create a resource<ept id="p1">**</ept><ph id="ph1"> &gt; </ph><bpt id="p2">**</bpt>Identity<ept id="p2">**</ept><ph id="ph2"> &gt; </ph><bpt id="p3">**</bpt>Azure Active Directory<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Create directory<ept id="p1">**</ept> blade, provide the following values for the <bpt id="p2">**</bpt>Organization name<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Initial domain name<ept id="p3">**</ept>:</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Organization Name: <ph id="ph1">`First Up Consultants`</ph>.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initial Domain Name: <ph id="ph1">`firstupconsultants&lt;XXXXXXX&gt;`</ph> where XXXXXXX is a word or number you add to give the domain a unique name.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Tap the <bpt id="p1">**</bpt>Create<ept id="p1">**</ept> button.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Wait for the directory to be created.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Make a note of the full domain name, as shown below.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Click the link to switch to the new directory.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A screenshot showing Create Active Directory with selection boxes drawing attention to the domain name and the location of the link to click</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Create a test user</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>We're going to need to test this out with a user.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Isabella Simonsen (another member of your team) has volunteered to help you out. She will need an account in the directory, so we will go through the steps to create her account.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Browse to <bpt id="p1">**</bpt>Azure Active Directory<ept id="p1">**</ept><ph id="ph1"> &gt; </ph><bpt id="p2">**</bpt>Users<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>New user<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Create a user named <bpt id="p1">**</bpt>Isabella Simonsen<ept id="p1">**</ept> with a user name of:</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Match the domain after the @ with the domain you created and noted in the <bpt id="p1">*</bpt>Create a directory<ept id="p1">*</ept> section above.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Check the box to <bpt id="p1">**</bpt>Show Password<ept id="p1">**</ept> for the user.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Make a note of the password so you can use it later when testing.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Create<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Create a pilot group</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>We will be assigning the policy that we create to a group of users, but we need to create a group for this policy.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The following steps help you create a security group for the pilot deployment.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Browse to <bpt id="p1">**</bpt>Azure Active Directory<ept id="p1">**</ept><ph id="ph1"> &gt; </ph><bpt id="p2">**</bpt>Groups<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>New group<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Group type <bpt id="p1">**</bpt>Security<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Group name <bpt id="p1">**</bpt>CA-MFA-AzurePortal<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Membership type <bpt id="p1">**</bpt>Assigned<ept id="p1">**</ept> and click the Members link (labeled "1" in the diagram below).</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Select the user that we created in the previous step (labeled "2" in the diagram below) and choose <bpt id="p1">**</bpt>Select<ept id="p1">**</ept> (labeled "3).</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Create<ept id="p1">**</ept> (labeled "4" in the diagram below).</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A screenshot showing Create Active Directory Group with selection boxes drawing attention to the previous steps</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>In this unit, you learned how to create a trial licensed directory, a test user, and a pilot group in the Azure portal.</source>
+        </trans-unit></group></body></file></xliff>

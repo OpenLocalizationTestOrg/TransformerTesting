@@ -1,0 +1,55 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-obtain-subscription-keys.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-obtain-subscription-keys.72d117b7bec74a79f49c21d7a16efed5d917e314.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">566d0f3cb16fc619883d6bf8a414a127d5191d74</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\identify-faces-with-computer-vision\includes\7-obtain-subscription-keys.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this exercise, you'll create a Face API subscription and access its key and endpoint.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Create a Face API subscription</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>To subscribe to the Face API:</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Sign in to the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com?azure-portal=true)</ept>.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>+ Create a resource<ept id="p1">**</ept><ph id="ph1"> &gt; </ph><bpt id="p2">**</bpt>AI + Machine Learning<ept id="p2">**</ept><ph id="ph2"> &gt; </ph><bpt id="p3">**</bpt>Face<ept id="p3">**</ept><ph id="ph3"> &gt; </ph><bpt id="p4">**</bpt>Create<ept id="p4">**</ept>.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Enter a unique name for your Face API subscription, and then choose the <bpt id="p1">**</bpt>Location<ept id="p1">**</ept> nearest to you.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Select the free or lowest-cost <bpt id="p1">**</bpt>Pricing tier<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Create a new Resource group named <bpt id="p1">**</bpt>mslearn-faceapi<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You'll later delete these resources.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Create<ept id="p1">**</ept> to subscribe to the Face API.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>After a short delay, your new Face API subscription will be provisioned and available, and new API keys will be generated for programmatic use.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Cognitive Services documentation often uses the terms <bpt id="p1">*</bpt>subscription key<ept id="p1">*</ept> and <bpt id="p2">*</bpt>API key<ept id="p2">*</ept> synonymously.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To view your new Face subscription, on the left sidebar, select <bpt id="p1">**</bpt>Resource groups<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Then select the resource group you created for the Face API.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Access the subscription key and endpoint</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>After you create a Face API subscription, you're almost ready to start experimenting with the Face API.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Because all Computer Vision APIs are REST-based, you can use your language of choice to provide a subscription key (or API key) to the Computer Vision API endpoint (or URL).</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To view the subscription key and endpoint for your Computer Vision subscription:</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>On the left sidebar, select <bpt id="p1">**</bpt>Resource groups<ept id="p1">**</ept>, and then select the resource group you created for the Computer Vision API.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To view your new subscription keys, select the Face API subscription name (such as <bpt id="p1">**</bpt>Face<ept id="p1">**</ept>).</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Then under <bpt id="p1">**</bpt>Resource Management<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Keys<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Copy the value of <bpt id="p1">**</bpt>KEY 1<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Copy the Face subscription key</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>In the menu group, select <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Then copy the value under <bpt id="p1">**</bpt>Endpoint<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Copy the Face API endpoint</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Now that you know the location and values of your Face API subscription key and endpoint, you're ready to start writing some code or testing the API with an image.</source>
+        </trans-unit></group></body></file></xliff>

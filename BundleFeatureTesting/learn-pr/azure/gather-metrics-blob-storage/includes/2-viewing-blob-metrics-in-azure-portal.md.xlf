@@ -1,0 +1,227 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-viewing-blob-metrics-in-azure-portal.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-viewing-blob-metrics-in-azure-portal.ee2eeb29ead9186ab1e17248a7c09b1e4cefc4ee.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e2c2891afc3f38c46ef3a286897ed5e9c8bb949d</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\gather-metrics-blob-storage\includes\2-viewing-blob-metrics-in-azure-portal.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In preparation for moving your client proof files to Azure Blob storage, you want to identify what metrics are available for the platform.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You also want to see how easy it is to display metric information on an ad-hoc basis.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>For example, you might want to know how much storage is being used in Azure, or how much latency is involved when clients retrieve files for review.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll focus on using the Azure portal to view available metrics on-demand.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>By the end of this unit, you'll be able to identify, select, and display Azure Blob Storage metrics and display those metrics in the Azure portal.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Azure Storage and Blob Storage</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Azure Storage provides cloud-based storage for range of data types with virtually unlimited capacity.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The facilities that Azure storage provides include:</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>A cloud-based data object store</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A file system service for objects stored in the cloud</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>A reliable messaging service</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A NoSQL store for unstructured data</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Azure Blob Storage</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This module concentrates on Azure Blob storage, which is Microsoft's object storage solution for the cloud.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Blob storage provides the best solution for storing large quantities of unstructured data, making it ideal for:</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Serving images to a browser</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Distributing unstructured files</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Hosting audio and video streams</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Storing backup, archiving, and disaster recovery data</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Providing storage for data analysis, either on-premises or in Azure</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Blob storage resources consist of the following:</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Resource Types</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>A storage account<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A unique namespace for your data in Azure</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>A container<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Analogous to a folder in a file system</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>One or more blobs in that container<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Analogous to files in a file system</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>A storage account can have unlimited numbers of containers and a container can hold unlimited numbers of blobs.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You can access blob storage over http or https from any global Internet connection.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Your options for accessing blob data include URLs, Azure Storage REST API, Azure PowerShell, Azure CLI, or one of the many Azure Storage client libraries.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>These client libraries can be in multiple languages, including .NET, Java, Node.js, Python, PHP, and Ruby.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Note: Blob storage supports Azure Data Lake Storage Gen2.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Fore more information, see <bpt id="p1">[</bpt>Introduction to Azure Data Lake Storage Gen2<ept id="p1">](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction)</ept>.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Blob Types</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Azure Blob storage supports three different types of blobs:</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Blob Types</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Block Blobs<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>These are best for storing text and binary data with a maximum size of about 4.7 TB.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Block blobs consist of blocks of data that are managed individually.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Append Blobs<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>These consist of blocks, just like block blobs, but are optimized for append operations.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Append blobs are ideal for scenarios such as logging data from virtual machines.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Page Blobs<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>These can store random access files up to 8 TB in size, such as virtual hard drive (VHD) files in Azure virtual machines.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Importance of Metrics</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Metrics are a vital component of your management approach to blob storage.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Metrics enable you to identify usage trends, trace requests, and to diagnose issues with your storage account.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Areas that you particularly want to track in Azure include:</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Overall blob storage usage</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Storage costs</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Allocation of costs to groups</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Availability</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Latency</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Azure Blob Storage provides the following metrics, which can be categorized as capacity or transaction metrics.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Capacity metrics include:<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Blob capacity</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Blob container count</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Blob count</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Index capacity</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Transaction metrics include:<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Availability</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Egress and Ingress</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Success end to end (E2E) Latency</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Success server latency</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Transactions</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Capacity metrics are sent to Azure Monitor every hour and are refreshed daily.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Transaction metrics are sent to Azure Monitor every minute, and are available both for the account and service.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>You should be aware that the refresh interval does affect the exercise in the next module, as metrics aren't displayed in real time.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>You can also specify custom metrics.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Viewing Metrics</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>There are two main mechanisms for viewing Azure blob storage metrics:</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>In the Azure portal</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>In a custom Dashboard (covered later in this module)</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Portal</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Viewing blob storage metrics in the Azure portal is the simplest way to view Azure blob storage metrics.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The portal provides two implementations - classic metrics and the current implementation.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Monitoring options in a Storage Account</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Clicking Metrics creates a New chart space, in which you can select the metrics that you want to display.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Create a Current Monitoring chart</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>However, clicking Metrics (Classic) shows four charts for total requests, total egress, Average E2E Latency, and success percentage.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Create a Classic Monitoring chart</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Filtering</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>With some metrics, you can implement filtering, which enables you to focus on more specific values.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>For example, if you select the Blob Capacity Average metric, you can then filter by two properties, that are Blob tier and Blob Type.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Clicking the Add Filter button and then selecting Blob Type as the filtered property brings up options for:</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Azure Data Lake Storage</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>PageBlob</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>BlockBlob</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>However, the Blob Tier option enables you to choose from the following types of tier:</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Archive</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Cool</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Hot</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Standard</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Untiered</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Splitting</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>For greater granularity with your metrics, you can also apply splitting, using the same properties that were available with filtering.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>For example, selecting to split by blob type will bring up separate lines, one for Azure Data Lake storage, one for PageBlob, and one for BlockBlob.</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Chart Types</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Within Azure current metrics, you can then select one of four chart types:</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Line</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Area</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Bar</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Scatter</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The option you select will depend on the metric type that you are displaying.</source>
+        </trans-unit><trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The option will also depend on whether the values changes over time or are static.</source>
+        </trans-unit><trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>For example, scatter charts work best with data that varies rapidly over time.</source>
+        </trans-unit><trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Chart customization</source>
+        </trans-unit><trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Within each of the four chart types, you can then customize the way in which those charts display information.</source>
+        </trans-unit><trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Chart Customization</source>
+        </trans-unit><trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Here you have options to edit the chart title and change the Y-axis range between set minimum and maximum values.</source>
+        </trans-unit></group></body></file></xliff>

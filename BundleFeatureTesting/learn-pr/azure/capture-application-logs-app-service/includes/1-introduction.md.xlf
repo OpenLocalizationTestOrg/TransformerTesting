@@ -1,0 +1,29 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.71bd47f08be3f3a66d4def033c9e1a6e910efb24.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">94738651b31d1ef4bbd087421b30d9f78386fe5e</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\capture-application-logs-app-service\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Suppose you are the lead Web developer for an online fashion site based on Azure Web apps.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The company is rolling out a major rebranding and is using this as an opportunity to bring new purchasing, tracking, and social media features to the company's online presence.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The company has won several prestigious and influential industry and consumer awards for the high standard of its current online customer experience, so it is essential that when the new apps go live, there no unexpected performance or functionality issues.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You have an app in development and, during this early stage of the dev cycle, you want a simple and easy way to capture basic application logging output without the need for a specialized SDK such as Azure Application Insights.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In this module, you will enable application logging to record traces in your web applications.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You will enable logging, monitor a live log stream, and retrieve logs from Azure.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Enable application logging on an Azure Web App</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>View live application logging activity with the log streaming service</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Retrieve application log files from an application with Kudu or the Azure CLI</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Experience in basic web app development and deployment, including creating trace output from applications.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Know how to navigate resources in the Azure portal.</source>
+        </trans-unit></group></body></file></xliff>

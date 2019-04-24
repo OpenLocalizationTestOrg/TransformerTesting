@@ -1,0 +1,81 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-read-write-functions.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-read-write-functions.e34a6adbe9b6dab4b4d5d0d7037d2b628deb1ce4.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">62c5b97e3c588f7350da456b915bca7a4014cba7</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\databricks\read-and-write-data-using-azure-databricks\includes\2-read-write-functions.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Let's discuss the reading and writing capabilities of Spark notebooks in detail.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Databricks provides various built-in functions that allow you to query, process, and analyze a large volume of data.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Querying files:<ept id="p1">**</ept> You can use DataFrames to query large data files.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>DataFrames are derived from data structures known as resilient distributed datasets (RDDs).</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>RDDs and DataFrames are immutable distributed collections of data.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Resilient<ept id="p1">_</ept>: RDDs are fault tolerant, so if part of your operation fails, Spark quickly rebuilds any lost data.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Distributed<ept id="p1">_</ept>: RDDs are distributed across networked machines known as a cluster.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>DataFrame<ept id="p1">_</ept>: A data structure where data is organized into named columns, like a table in a relational database, but with richer optimizations available.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>A DataFrame object comes with methods attached to it.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>These methods are operations that you can run on DataFrames, such as filtering, counting, aggregating, and many others.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Spark provides a number of built-in functions that can be used directly with DataFrames to filter through the data and derive specific results.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Joins and aggregation:<ept id="p1">**</ept> Several built-in functions of Databricks allow you to aggregate your data in different ways.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can use DataFrames to join different sets of data to find correlations between datasets.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Accessing data:<ept id="p1">**</ept> With Databricks, you can access your data in the following ways:</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Access data stored in an existing file.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Upload a data file from your local system.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Mount an Azure blob to the Databricks file system.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Databricks accepts data stored in different file formats, such as Parquet and CSV.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Working with hierarchical data:<ept id="p1">**</ept> DataFrames make it easier to query hierarchical data such as nested JSON records.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can query nested structured data or data that contains array columns.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Data lakes:<ept id="p1">**</ept> Apache Spark and Databricks make it easy to access and work with files stored in data lakes, such as Azure Data Lake Storage.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Data lakes store vast amounts of data in its native format, such as XML, JSON, CSV, and Parquet.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To gain insights from a data lake, you can use Databricks to do exploratory data analysis (EDA).</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You can use Spark DataFrames to read directly from raw files contained in a data lake and then execute queries to join and aggregate the data.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Data Lake Storage Gen2:<ept id="p1">**</ept> Azure Data Lake Storage Gen2 is a set of capabilities dedicated to big-data analytics, built on Azure Blob storage.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Data Lake Storage Gen2 combines Microsoft's two existing storage services, Azure Blob storage and Azure Data Lake Storage Gen1, to produce a data lake platform with the following features:</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>File-system semantics.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Directory-level and file-level security.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Scalability.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Low-cost, tiered storage.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>High availability and disaster-recovery capabilities.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Databricks allows you to set up an Azure Data Lake Storage Gen2 instance and use the Azure Blob File System (ABFS) driver that's built into the Databricks Runtime to query data stored in Azure Data Lake Storage Gen2.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Key Vault-backed secret scopes:<ept id="p1">**</ept> Azure Databricks has two types of secret scopes: Key Vault-backed and Databricks-backed.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>These secret scopes allow you to securely store secrets, such as database-connection strings.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>If someone tries to output a secret to a notebook, the secret is replaced with <bpt id="p1">**</bpt>[REDACTED]<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This behavior helps prevent unauthorized users from viewing the secret or someone accidentally leaking the secret when displaying or sharing the notebook.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In this module, we'll explore how to:</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Configure a Key Vault-backed secret scope.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Create the Key Vault, Azure SQL Database, and Azure Cosmos DB instances.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Create a Key Vault-backed secret scope.</source>
+        </trans-unit></group></body></file></xliff>

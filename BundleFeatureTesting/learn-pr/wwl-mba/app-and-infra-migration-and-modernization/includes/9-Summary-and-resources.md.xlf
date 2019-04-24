@@ -1,0 +1,39 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="9-Summary-and-resources.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9-Summary-and-resources.7bb0ddb0a5a5a249af58a065f551404fd07741b9.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">93a7d78acdc38cc5f667d50fa545ff6f1320957d</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\wwl-mba\app-and-infra-migration-and-modernization\includes\9-Summary-and-resources.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Application and infrastructure migration and modernization allows you to take advantage of the cloud and positions your organization for success.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Azure IaaS offers modern infrastructure for all workloads, true hybrid capabilities, and secure and well-managed solutions.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>It is also cost-effective across the board.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Now that you have reviewed this module, you should be able to:</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Identify the value of modernizing your applications and infrastructure.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Describe the common triggers driving modernization.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Evaluate your application portfolio to determine a migration and modernization strategy.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Identify the advantages of different migration and modernization strategies.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Key takeaways</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Icon of key</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Some of the common modernization triggers include the need to deliver applications and features faster, urgent capacity needs, or a software or hardware refresh.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>An application portfolio assessment will help you determine where the current suite of applications fits in your long-term digital strategy and how well it supports evolving business models.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Each application can take a different journey to the cloud, including: rehost, refactor/rearchitect and rebuild.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Resources</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Use these resources to discover more.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>DevOps at Microsoft<ept id="p1">](https://docs.microsoft.com/azure/devops/learn/devops-at-microsoft/)</ept></source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure Migration Center<ept id="p1">](https://azure.microsoft.com/migration/)</ept></source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>SmartHotel360 Demo Series<ept id="p1">](https://azure.microsoft.com/campaigns/smarthotel360/)</ept></source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>What are Containers<ept id="p1">](https://docs.microsoft.com/virtualization/windowscontainers/about/)</ept></source>
+        </trans-unit></group></body></file></xliff>

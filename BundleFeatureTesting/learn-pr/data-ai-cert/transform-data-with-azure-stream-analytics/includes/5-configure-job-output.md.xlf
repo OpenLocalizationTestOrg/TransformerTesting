@@ -1,0 +1,67 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-configure-job-output.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-configure-job-output.618336d427d0d410a1664503a6fdb66c069cedb5.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ad6837a936e6ae8375151403bff347dee324c695</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\transform-data-with-azure-stream-analytics\includes\5-configure-job-output.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Stream Analytics jobs support various output sinks, such as Azure Blob storage, SQL Database, and Event Hubs.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The documentation lists all output types.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In this exercise, we'll use Blob storage as the output sink for our Stream Analytics job.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This exercise is optional.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If you don't have an Azure account or prefer not to do the exercise in your account, just read through the instructions so you understand the steps involved in creating an output sink for a Stream Analytics job.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>These steps are similar to the ones you followed to create the input.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Start by creating a second Blob storage account to hold the output.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com?azure-portal=true)</ept>, create a new storage account, just like you did in the previous exercise.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Basics<ept id="p1">**</ept> tab, select your new <bpt id="p2">**</bpt>mslearn-streamanalytics<ept id="p2">**</ept> resource group.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For the account name, use the prefix <bpt id="p1">**</bpt>streamsink<ept id="p1">**</ept>, and add a numeric suffix.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You might need to try a few combinations to find a unique name in Azure.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Use default values for all other fields.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Screenshot that shows how to add the storage account name "streamsink"</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Review + create<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>After the request is validated, select <bpt id="p1">**</bpt>Create<ept id="p1">**</ept> to run the deployment step.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Wait until a message indicates that the deployment is complete.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Then continue to the next step.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Connect an output sink to a Stream Analytics job</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Next, connect the storage account as the destination for the Stream Analytics job.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>On the left, select <bpt id="p1">**</bpt>All services<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In the search box, type <bpt id="p1">**</bpt>Stream Analytics<ept id="p1">**</ept> and select <bpt id="p2">**</bpt>Stream Analytics job<ept id="p2">**</ept> from the results.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Select the Stream Analytics job you created.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Job topology<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Outputs<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Add<ept id="p1">**</ept>, and from the list select <bpt id="p2">**</bpt>Blob storage<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Output alias<ept id="p1">**</ept> field, type <bpt id="p2">**</bpt>streamoutput<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This is your own name for the output.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>streamsink<ept id="p1">**</ept> storage account you created in the previous section.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If your account doesn't appear in the list, try refreshing it by closing the Azure portal, closing the browser, and then opening the Azure portal again.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Container<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Create new<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Give the container a unique name, such as <bpt id="p1">**</bpt>learn-container<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Path pattern<ept id="p1">**</ept>, enter <bpt id="p2">**</bpt>output/<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Leave the default values in the rest of the fields.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</source>
+        </trans-unit></group></body></file></xliff>

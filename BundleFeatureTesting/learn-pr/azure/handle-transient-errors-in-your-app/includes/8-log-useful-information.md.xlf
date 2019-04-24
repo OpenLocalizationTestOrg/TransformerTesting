@@ -1,0 +1,85 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="8-log-useful-information.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8-log-useful-information.0353218c799e7bc3183a9a36b90edf3aba6d352c.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5bd86cef468f033b90d6562a3b80490fa9b76a0a</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\handle-transient-errors-in-your-app\includes\8-log-useful-information.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The system administrators want apps to include some form of logging to help manage application performance in production.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Monitoring of these logs can be automated and help your company identify any health issues across its suite of apps.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Logging isn't only useful when an app is in production.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>It can also be used to help throughout development.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Most languages, especially C# and Java, have well-defined severity levels for logging.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>There have also been attempts to standardize logging from organizations like Apache, who have external libraries Log4net and Log4J.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Logging Levels</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>There is a common set of logging levels that languages will implement to some degree.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Grouping the levels together they are:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Trace<ept id="p1">**</ept> or <bpt id="p2">**</bpt>finest<ept id="p2">**</ept>: This level represents the lowest level of information, used when troubleshooting issues with an application.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This level shouldn't be used in production as personal information could be included in the output.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Debug<ept id="p1">**</ept>: Used during active development, these log messages don't have  long-term value and don't need to be kept after development.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Information<ept id="p1">**</ept>: Can be included to show the health of an app.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Warning<ept id="p1">**</ept>: These messages are used to show abnormal and unexpected flows in an app.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The execution of the app will continue.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Error<ept id="p1">**</ept> or <bpt id="p2">**</bpt>critical<ept id="p2">**</ept>: If an app needs to quit, or restart, because of a failure,  it should write this information to a log.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Serious errors that need immediate attention should be raised as <bpt id="p1">**</bpt>critical<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Because of the nature of transient errors, the application should log transient error messages at the <bpt id="p1">**</bpt>warning<ept id="p1">**</ept> level.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This level can be monitored, and if the errors keep on happening the team can investigate further.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Logging information</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A good set of questions to ask yourself when writing a log message is who, what, why, where, and when.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>All these questions, if answered, should help investigate and resolve errors.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Who was using the app?</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The error could be related to corrupted user data, so only a small number of people are seeing it.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>What was the app doing?</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Help people investigating the error narrow down the search to the state the app is in when it happened.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Why has an error happened?</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Any error codes, or other information, that will aid in diagnosis.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Where in the code did the error happen?</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Related to what was happening, location in the codebase can help in narrowing the investigation of the problem.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When did it happen?</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Time-related information can be correlated with information about when other services were down.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Good logging will also have a defined structure.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The structure can allow for future indexing and logistics.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For transient errors there are two other useful pieces of information:</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Time to recover from the error</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Number of retries before the issue was resolved</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Capturing the above information for transient errors can give an indication to patterns that are happening.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Is the error always resolved after the first retry?</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Is there a timing issue, the error is resolved after 1 minute?</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This could lead to adding a wait period to help reduce the chance of the error happening in the first place.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Adding logging to your company's chat app will enable performance to be managed in the production environment.</source>
+        </trans-unit></group></body></file></xliff>

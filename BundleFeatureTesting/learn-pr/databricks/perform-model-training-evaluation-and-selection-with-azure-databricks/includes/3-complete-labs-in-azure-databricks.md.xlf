@@ -1,0 +1,47 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-complete-labs-in-azure-databricks.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-complete-labs-in-azure-databricks.957453659bf198b3c0ccc888947bf2f45b6fb9d7.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b124dc8e08ef8b3555a15613bc7bff5894e69dd0</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\databricks\perform-model-training-evaluation-and-selection-with-azure-databricks\includes\3-complete-labs-in-azure-databricks.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You've learned about the various techniques supported by Azure Databricks to train and evaluate a machine-learning model.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Now let's use some of these techniques to create and train our own model by using a sample dataset.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>We'll use Databricks notebooks for training and evaluating the model.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Clone the lab archives that provide sample notebooks with detailed steps for basic and advanced regression and classification.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To complete the following procedures, you must have already deployed your Azure Databricks workspace in your Azure portal.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Clone the Databricks archive</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>From the Azure portal, go to your Databricks workspace and select <bpt id="p1">**</bpt>Launch workspace<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In the left pane, select <bpt id="p1">**</bpt>Workspace<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Users<ept id="p2">**</ept>, and then select your username (the entry with the house icon).</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In the pane that appears, select the downward-pointing chevron next to your name, and then select <bpt id="p1">**</bpt>Import<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A screenshot showing the menu option to import the archive</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Import Notebooks<ept id="p1">**</ept> pane, select <bpt id="p2">**</bpt>URL<ept id="p2">**</ept>, and paste in the following URL:</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Import<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A folder named after the archive should appear.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Select that folder.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The folder contains one or more notebooks that you'll use in completing this lab.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Complete the following notebooks</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>01 Model Training Selection Evaluation<ept id="p1">*</ept>: This notebook explains how to prepare your dataset.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You'll import a sample dataset and use some basic functions to clean the data.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>02 Basic Regression with Azure Databricks<ept id="p1">*</ept>: This notebook contains techniques for basic regression.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You'll use the dataset you imported in the first notebook and do basic regression on it.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>03 Classification with Azure Databricks<ept id="p1">*</ept>: This notebook details how to resolve classification problems.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You'll use the scenarios from the sample dataset with different classification models.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>04 Advanced Regression with Azure Databricks<ept id="p1">*</ept>: In this notebook, you'll go through some advanced regression techniques and use them to further train and evaluate your machine-learning model.</source>
+        </trans-unit></group></body></file></xliff>

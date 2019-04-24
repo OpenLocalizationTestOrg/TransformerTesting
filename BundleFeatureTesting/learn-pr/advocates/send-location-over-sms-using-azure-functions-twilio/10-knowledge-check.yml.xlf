@@ -1,0 +1,33 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="10-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">10-knowledge-check.00c7ee2a7a060016606fe2b23f882a2b763b939a.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d7d14fee20953605c1eed30849306ae39c6e5310</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\send-location-over-sms-using-azure-functions-twilio\10-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.10-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.10-knowledge-check">
+          <source>Summary and clean-up</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.10-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.10-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.10-knowledge-check">
+          <source>How do you bind your function to Twilio to send SMS messages?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.10-knowledge-check">
+          <source>By returning the SMS messages as the return value of the Function</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.10-knowledge-check">
+          <source>A function parameter</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.10-knowledge-check">
+          <source>SMS messages are added to a collection passed to the function as a parameter decorated with the <ph id="ph1">`[TwilioSms]`</ph> attribute.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.10-knowledge-check">
+          <source>The Function's runtime will send these messages to Twilio once the function returns.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.10-knowledge-check">
+          <source>Direct call to the Twilio API</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.10-knowledge-check">
+          <source>Where do you define your Twilio account SID and auth token when running your function locally?</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.10-knowledge-check">
+          <source>In the <ph id="ph1">`local.settings.json`</ph> file.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.10-knowledge-check">
+          <source>The <ph id="ph1">`local.settings.json`</ph> file is used to store local settings that are only used when running locally, not when published to Azure.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.10-knowledge-check">
+          <source>Be careful to not check this into source code control if it contains private keys and your repo is public.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.10-knowledge-check">
+          <source>In the <ph id="ph1">`[TwilioSms]`</ph> attribute</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.send-location-over-sms-from-mobile-using-azure-functions-twilio.10-knowledge-check">
+          <source>Application settings published to Azure</source>
+        </trans-unit></group></body></file></xliff>

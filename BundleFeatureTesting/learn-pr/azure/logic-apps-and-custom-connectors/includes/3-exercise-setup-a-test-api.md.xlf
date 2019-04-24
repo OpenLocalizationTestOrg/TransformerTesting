@@ -1,0 +1,75 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-exercise-setup-a-test-api.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-exercise-setup-a-test-api.ae131bad99e68ff90af6b11f2492ce697dee5ede.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ab614bb0635144a69a462e8fb7a96a855bae63bf</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\logic-apps-and-custom-connectors\includes\3-exercise-setup-a-test-api.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In Logic Apps, you can create custom connectors to call  Web APIs.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Those APIs must be published and must implement an OpenAPI definition.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Your company wants to build a workflow using Logic Apps that accesses the company's PrintFramer API.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The API is hosted in Azure as a REST API.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In this unit, we'll deploy our test API to the Azure sandbox activated for this module.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Host a test API in the Azure sandbox</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>To save time, let's start by running a script to host our test API in Azure.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The script performs the following steps:</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Create an Azure App Service plan in the free tier</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Create a Web API in Azure App Service, configured for Git deployment from a local repo</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Set account-level deployment credentials for our app</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Configure Git locally</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Deploy our Web API to our App Service instance</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Run the following <ph id="ph1">`git clone`</ph> command in the Cloud Shell to clone the repo that contains the source for our app, as well as our setup script from GitHub.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This command clones the repo to the local storage in the sandbox.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Navigate into the repo folder locally by running the following <ph id="ph1">`cd`</ph> command.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If you list the contents of the <bpt id="p1">**</bpt>ms-learn-print-framer-api<ept id="p1">**</ept> folder with the <ph id="ph1">`ls`</ph> command, you'll see that the folder contains a file called <bpt id="p2">**</bpt>setup-exercise.sh<ept id="p2">**</ept> and a folder called <bpt id="p3">**</bpt>PrintFramerAPI<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>As its name suggests, setup-exercise.sh is the script we'll run to create our lab environment.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PrintFramerAPI<ept id="p1">**</ept> contains the app we want to deploy to Azure as a web app with a public API.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to execute the setup script.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The  script takes a couple of minutes to run.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>When the script finishes, it will display two URLS that you can use to test the app deployment.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Observe that during deployment, all dependencies needed for our app to run are automatically installed on the remote App Service at this point.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To test that our app deployed successfully, copy and paste the value for <bpt id="p1">**</bpt>Example URL<ept id="p1">**</ept> from the Cloud Shell output into your favorite browser.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The browser displays the value <ph id="ph1">`20.0`</ph>, which is the dollar value the API calculated for a frame with dimensions 6x7 inches.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You can try other values by replacing <ph id="ph1">`6`</ph> and <ph id="ph2">`7`</ph> in the URL.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Keep note of this URL, because you'll need it in the next exercise.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To see what the API looks like, navigate in your browser to the URL that is displayed in the <bpt id="p1">**</bpt>Swagger URL<ept id="p1">**</ept> output shown in the Cloud Shell.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The URL should look something like <ph id="ph1">`https://PrintFramerAPIabcde.azurewebsites.net/swagger`</ph>.The browser displays the Swagger UI for our app, as shown in the following screenshot.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The Swagger user interface</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>In the Swagger UI in your browser, select <bpt id="p1">**</bpt>Get<ept id="p1">**</ept> and then select <bpt id="p2">**</bpt>Try it out<ept id="p2">**</ept>. Enter a height and width, and then select <bpt id="p3">**</bpt>Execute<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Examine the response.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Address<ept id="p1">**</ept> bar of your browser, replace <bpt id="p2">**</bpt>/swagger/index.html<ept id="p2">**</ept> with <bpt id="p3">**</bpt>/swagger/v1/swagger.json<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The browser displays the OpenAPI definition for the API.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Save the OpenAPI JSON content to a local file so we can use it in the next exercise.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In the next exercise, we'll create a custom connector from this OpenAPI JSON definition of our API and show how to use that connector in a Logic App.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Remember to keep the OpenAPI JSON file you created as well as the URL for your app.</source>
+        </trans-unit></group></body></file></xliff>

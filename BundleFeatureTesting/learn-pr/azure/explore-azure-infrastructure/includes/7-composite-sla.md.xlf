@@ -1,0 +1,41 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-composite-sla.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-composite-sla.27474733924cb9aabef5a2e9c983e14f0c2f4d60.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">46f411cc965024b24620b09294876e383e92415d</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\explore-azure-infrastructure\includes\7-composite-sla.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>When combining SLAs across different service offerings, the resultant SLA is a called a <bpt id="p1">*</bpt>Composite SLA<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The resulting composite SLA can provide higher or lower uptime values, depending on your application architecture.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Calculating downtime</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Consider an App Service web app that writes to Azure SQL Database.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>These Azure services currently have the following SLAs:</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Image representing Web app and its SLA uptime value of 99.95 percent and a SQL database and its SLA value of 99.99 percent.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In this example, if either service fails the whole application will fail.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In general, the individual probability values for each service are independent.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>However, the composite SLA value for this application is:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This means the <bpt id="p1">**</bpt>combined probability of failure<ept id="p1">**</ept> is higher than the individual SLA values.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This isn't surprising, because an application that relies on multiple services has more potential failure points.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Conversely, you can improve the composite SLA by creating independent fallback paths.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For example, if SQL Database is unavailable, you can put transactions into a queue for processing at a later time.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Image representing Web app and its SLA uptime value of 99.95% and SQL database and its SLA value of 99.99%.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>With this design, the application is still available even if it can't connect to the database.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>However, it fails if both the database <bpt id="p1">_</bpt>and<ept id="p1">_</ept> the queue fail simultaneously.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If the expected percentage of time for a simultaneous failure is <bpt id="p1">**</bpt>0.0001 × 0.001<ept id="p1">**</ept>, the composite SLA for this combined path of a database <bpt id="p2">_</bpt>or<ept id="p2">_</ept> queue would be:</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Therefore, if we add the queue to our web app, the total composite SLA is:</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Notice we've improved our SLA behavior.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>However, there are trade-offs to using this approach: the application logic is more complicated, you are paying more to add the queue support, and there may be data-consistency issues you'll have to deal with due to retry behavior.</source>
+        </trans-unit></group></body></file></xliff>

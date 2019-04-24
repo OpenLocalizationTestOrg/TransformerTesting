@@ -1,0 +1,91 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-http-trigger.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-http-trigger.8375a370f7885f6035502ced3e5150008edc6519.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aab026b871fd96d62a00ccce7745709d0ab3a4cf</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\execute-azure-function-with-triggers\includes\5-http-trigger.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>An HTTP request is a common operation on most platforms and devices.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Whether it's a request to look up a word in a dictionary or to get the local weather, we send HTTP requests all the time.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Azure Functions allows us to quickly create a piece of logic to execute when an HTTP request is received.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Here, you'll learn how to create and invoke an Azure function using an HTTP trigger.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You'll also explore some of the customization options that are available.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>What is an HTTP trigger?</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>An HTTP trigger is a trigger that executes a function when it receives an HTTP request.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>HTTP triggers have many capabilities and customizations, including:</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Provide authorized access by supplying keys.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Restrict which HTTP verbs are supported.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Return data back to the caller.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Receive data through query string parameters or through the request body.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Support URL route templates to modify the function URL.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When you create an HTTP trigger, select a programming language, provide a trigger name, and select an Authorization level.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>What is an HTTP trigger Authorization level?</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>An HTTP trigger Authorization level is a flag that indicates if an incoming HTTP request needs an API key for authentication reasons.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>There are three Authorization levels:</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Function</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Anonymous</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Admin</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Function<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Admin<ept id="p2">**</ept> levels are "key" based.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To send an HTTP request, you must supply a key for authentication.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>There are two types of keys: <bpt id="p1">*</bpt>function<ept id="p1">*</ept> and <bpt id="p2">*</bpt>host<ept id="p2">*</ept>.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The difference between the two keys is their scope.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Function keys are specific to a function.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Host keys apply to all functions inside the function app.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If your Authorization level is set to <bpt id="p1">**</bpt>Function<ept id="p1">**</ept>, you can use either a <bpt id="p2">*</bpt>function<ept id="p2">*</ept> or a host key.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If your Authorization level is set to <bpt id="p1">**</bpt>Admin<ept id="p1">**</ept>, you must supply a host key.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Anonymous<ept id="p1">**</ept> level means that there's no authentication required.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>We use this level in our exercise.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>How to create an HTTP trigger</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Just like a timer trigger, you can create an HTTP trigger through the Azure portal.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Inside your Azure function, you select <bpt id="p1">**</bpt>HTTP trigger<ept id="p1">**</ept> from the list of predefined trigger types.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Then you enter the logic that you want to execute and make any customizations like restricting the use of certain HTTP verbs.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>One setting that's important to understand is <bpt id="p1">**</bpt>Request parameter name<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This setting is a string that represents the name of the parameter that contains the information about an incoming HTTP request.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>By default, the name of the parameter is <bpt id="p1">*</bpt>req<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>How to invoke an HTTP trigger</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To invoke an HTTP trigger, you send an HTTP request to the URL for your function.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To get this URL, go to the code page for your function and select the <bpt id="p1">**</bpt>Get function URL<ept id="p1">**</ept> link.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Azure portal showing a Functions App blade with the app's Get function URL button highlighted.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>After you have the URL for your function, you can send HTTP requests.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If your function receives data, remember that you can use either query string parameters or supply the data through the request body.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>An HTTP trigger invokes an Azure function when it receives an HTTP request to its function URL.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>HTTP triggers allow you to receive data and return data back to the caller.</source>
+        </trans-unit></group></body></file></xliff>

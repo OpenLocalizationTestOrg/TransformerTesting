@@ -1,0 +1,27 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.6c5556f87c71c91c6605d59940ada6ae4f0e6a70.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">458e80185d31a34aa1dcee06930a7d9cbd37c077</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\implement-message-workflows-with-service-bus\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.implement-message-workflows-with-service-bus">
+          <source>Implement message-based communication workflows with Azure Service Bus</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.implement-message-workflows-with-service-bus">
+          <source>When the components of an application are distributed across multiple computers and devices and separated by thousands of miles and slow links, they need some way to communicate reliably.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.implement-message-workflows-with-service-bus">
+          <source>One way to improve reliability is to loosely couple those components by using an intermediary messaging or event management technology.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.implement-message-workflows-with-service-bus">
+          <source>Azure Service Bus is one such intermediary tool and provides advanced communication features.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.implement-message-workflows-with-service-bus">
+          <source>In this module, you will learn how to write code in .NET applications that uses Service Bus to communicate in way that is resilient against high demand, low bandwidth, and hardware failures.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.implement-message-workflows-with-service-bus">
+          <source>Implement message-based communication workflows with Azure Service Bus</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.implement-message-workflows-with-service-bus">
+          <source>Write C# code in a custom application that sends and receives messages using Azure Service Bus topics and queues.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.implement-message-workflows-with-service-bus">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.implement-message-workflows-with-service-bus">
+          <source>Choose whether to use Service Bus queues, topics, or relays to communicate in a distributed application</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.implement-message-workflows-with-service-bus">
+          <source>Configure an Azure Service Bus namespace in an Azure subscription</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.implement-message-workflows-with-service-bus">
+          <source>Create a Service Bus topic and use it to send and receive messages</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.implement-message-workflows-with-service-bus">
+          <source>Create a Service Bus queue and use it to send and receive messages</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.implement-message-workflows-with-service-bus">
+          <source>None</source>
+        </trans-unit></group></body></file></xliff>

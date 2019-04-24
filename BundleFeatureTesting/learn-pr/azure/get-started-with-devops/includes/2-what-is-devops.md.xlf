@@ -1,0 +1,95 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-what-is-devops.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-what-is-devops.9cab2a576f208339a0c88a336bd83f4bed2c4a7d.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">54e9ce500c195fe7e5d686b298a5aa69934eef1d</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\get-started-with-devops\includes\2-what-is-devops.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Eager to share in the many benefits attributed to DevOps practices, organizations have often times been eager to adopt anything with DevOps in the title.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This is common for buzzwords in our industry and our goal here is to provide some clarity around this term.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A definition of DevOps</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Ask 10 people for a definition of DevOps, and you'll get 10 different answers.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>At Microsoft, we have adopted the following definition from our Principal DevOps Manager on Microsoft's Cloud Developer Advocacy team, Donovan Brown.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>DevOps is the union of people, process, and products to enable continuous delivery of value to our end users.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>DevOps eliminates Development and Operation working in silos.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>It creates multidisciplinary teams that work together with shared and efficient practices and tools.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Some of the practices found in DevOps organizations include the following.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Agile planning<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Ensure a prioritized backlog of work is available for the team and facilitate management for work including user stories, bugs, and more</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Continuous Integration<ept id="p1">**</ept> (CI)</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The process of automating the build and testing of code every time a team member commits changes to version control</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Continuous Delivery<ept id="p1">**</ept> (CD)</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The process to build, test, configure, and deploy from a build to a production environment.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Monitoring<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Use telemetry to deliver information about an application’s performance and usage patterns to aid learning as we iterate.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Benefits of DevOps</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>DevOps Research and Assessment LLC (<bpt id="p1">[</bpt>DORA<ept id="p1">](https://devops-research.com/)</ept>) published <bpt id="p2">**</bpt>Accelerate: State of DevOps 2018: Strategies for a New Economy<ept id="p2">**</ept> that included some interesting research to support the practices used by some of the highest performing organizations in the world today.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">_</bpt>Accelerate: State of DevOps 2018: Strategies for a New Economy<ept id="p1">_</ept> report is the largest and longest-running research of its kind representing five years of work surveying over 30,000 technical professionals worldwide.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Using metrics to create four categories of organization, when comparing <bpt id="p1">_</bpt>elite performers<ept id="p1">_</ept> with low performers, <bpt id="p2">_</bpt>elite performers<ept id="p2">_</ept>:</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>do <bpt id="p1">**</bpt>46 times<ept id="p1">**</ept> more frequent code deployments</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>have <bpt id="p1">**</bpt>2,555 times faster<ept id="p1">**</ept> lead time from commit to deploy</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>benefit from <bpt id="p1">**</bpt>seven times lower<ept id="p1">**</ept> change failure rate</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>recover from incidents <bpt id="p1">**</bpt>2,604 times faster<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>These are just a few of the metrics that show that adopting DevOps practices can greatly assist an organization in meeting many of their business goals in an increasingly competitive world.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Here are some additional findings that are detailed in the report.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>DevOps improves software delivery, which increases competitive advantages</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This enables companies to experiment with increasing customer adoption and satisfaction.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Leads to better organizational performance, and often higher profitability &amp; market share.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Agility allows companies to respond to competitive threats, and pivot more quickly to keep up with compliance and regulatory requirements.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>How you implement cloud infrastructure matters</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The cloud improves software delivery performance and teams that adopt essential cloud characteristics are <bpt id="p1">**</bpt>23 times more likely to be high performers.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Open-source software improves performance</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>High performers are <bpt id="p1">**</bpt>1.75 times more likely to extensively use open-source software.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>They are also 1.5 times more likely to expand open-source usage in future.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Outsourcing by function is rarely adopted by elite performers and hurts performance</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Outsourcing can save money and provide a flexible labor pool, but must be used in the correct areas.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Low-performing teams are almost four times as likely to outsource whole functions (testing, operations, etc.) then their higher-performing counterparts.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Continuous delivery technical practices drive high performance</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>These include monitoring and observability, continuous testing, database change management, and integrating security earlier in the software development process.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>What DevOps is not</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>When considering what DevOps is, it is also important to also ensure we understand what DevOps is not.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>DevOps is not a methodology</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>DevOps is not a specific piece of software</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>DevOps is not a quick-fix for an organization's challenges</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>DevOps is not just a team or a job title (Although these are reasonably common in the industry)</source>
+        </trans-unit></group></body></file></xliff>

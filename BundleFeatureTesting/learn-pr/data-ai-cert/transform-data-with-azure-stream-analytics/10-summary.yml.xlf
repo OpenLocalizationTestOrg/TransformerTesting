@@ -1,0 +1,51 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="10-summary.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">10-summary.026d53c68a3fff628669288f9fd53a69b7589d8a.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bc973b25cdab23fefc7044a705128d754214a040</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\transform-data-with-azure-stream-analytics\10-summary.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.data-ai.transform-data-with-azure-stream-analytics.summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.data-ai.transform-data-with-azure-stream-analytics.summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.data-ai.transform-data-with-azure-stream-analytics.summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.data-ai.transform-data-with-azure-stream-analytics.summary">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.data-ai.transform-data-with-azure-stream-analytics.summary">
+          <source>Which job input consumes data streams from applications at low latencies and high throughput?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.data-ai.transform-data-with-azure-stream-analytics.summary">
+          <source>Azure Blob storage</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.data-ai.transform-data-with-azure-stream-analytics.summary">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.data-ai.transform-data-with-azure-stream-analytics.summary">
+          <source>Azure Blob stores static data that you can rerun through a streaming job.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.data-ai.transform-data-with-azure-stream-analytics.summary">
+          <source>Azure Event Hubs</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.data-ai.transform-data-with-azure-stream-analytics.summary">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.data-ai.transform-data-with-azure-stream-analytics.summary">
+          <source>Event Hubs consumes data streams from applications at low latencies and high throughput.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.data-ai.transform-data-with-azure-stream-analytics.summary">
+          <source>Azure IoT Hub</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.data-ai.transform-data-with-azure-stream-analytics.summary">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.data-ai.transform-data-with-azure-stream-analytics.summary">
+          <source>IoT Hub is a data-stream ingestion service that consumes events from IoT devices.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.data-ai.transform-data-with-azure-stream-analytics.summary">
+          <source>It provides bidirectional communication between Azure and IoT devices.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.data-ai.transform-data-with-azure-stream-analytics.summary">
+          <source>The Stream Analytics query language is a subset of which query language?</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.data-ai.transform-data-with-azure-stream-analytics.summary">
+          <source>T-SQL</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.data-ai.transform-data-with-azure-stream-analytics.summary">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.data-ai.transform-data-with-azure-stream-analytics.summary">
+          <source>The query language you use in Stream Analytics is based heavily on T-SQL.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.data-ai.transform-data-with-azure-stream-analytics.summary">
+          <source>WQL</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.data-ai.transform-data-with-azure-stream-analytics.summary">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.data-ai.transform-data-with-azure-stream-analytics.summary">
+          <source>WQL is Windows Management Instrumentation query language.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.data-ai.transform-data-with-azure-stream-analytics.summary">
+          <source>JSON</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.data-ai.transform-data-with-azure-stream-analytics.summary">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.data-ai.transform-data-with-azure-stream-analytics.summary">
+          <source>JSON is an open standard file format.</source>
+        </trans-unit></group></body></file></xliff>

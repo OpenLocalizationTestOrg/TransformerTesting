@@ -1,0 +1,55 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-sqark-on-hdinsight.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-sqark-on-hdinsight.ab75f89274d07bbca4928c2845897d25a9c0e0c5.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cf97aa94da46262098a30c54d442901ce574f760</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\choose-data-science-option-in-azure\includes\6-sqark-on-hdinsight.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure HDInsight<ept id="p1">**</ept> is an Azure platform as a service (PaaS) Apache Hadoop offering.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>It is based on the Hortonworks distribution of Hadoop.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>When you provision an HDInsight cluster, you specify which type of a Hadoop platform you want.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>HDInsight provides several benefits.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can quickly spin up big data clusters on demand, scale them up or down based on your usage needs, and pay only for what you use.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Extract, transform, and load your big data clusters on demand with Hadoop MapReduce and Apache Spark.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Meet industry and government compliance standards and protect your enterprise data assets using an Azure Virtual Network, encryption, and integration with Azure Active Directory.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Integrate seamlessly with other Azure services, including Data Factory and Data Lake Storage, for building comprehensive analytics pipelines.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Use your preferred productivity tools, including Visual Studio, Eclipse, IntelliJ, Jupyter, and Zeppelin.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Write code in familiar languages such as Scala, Python, R, JavaScript, and .NET.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For scalable machine learning, we are only concerned with the HDInsight Spark implementation.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>What is Spark?</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Apache Spark is an open-source big-data platform that uses a <bpt id="p1">*</bpt>scale-out<ept id="p1">*</ept> approach.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This is where multiple machines working together to process data.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Unlike Hadoop, Spark works in-memory as much as possible.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This results in much faster processing than Hadoop.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>HDInsight Spark<ept id="p1">**</ept> is an implementation of Apache Spark on Azure HDInsight.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>It supports massive scale for data querying, wrangling, and machine learning model training.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A cluster has a master server that controls the other servers in the cluster.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>By splitting the work among multiple machines, performance is greatly enhanced.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>It shares the data source across all the servers by storing the data into Azure Blob Storage.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Data scientists who are comfortable working with the native Spark interface and want complete custom control of the data science process should consider using HDInsight Spark.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For the data science team looking for an all-inclusive, user friendly, secure, collaborative, Spark-based environment, Azure Databricks may be a better solution.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>HDInsight Spark has a version that uses R Server as a processing front end.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The R Server proprietary model training libraries scale out machine learning over the Spark cluster for big data model training.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>HDInsight integrates with other Azure Services as shown in the following diagram.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Spark framework.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,67 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-knowledge-check.1c00cc2986f82ad2bac1eb743d41c314024475b8.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2a8e9c7d71718527c62642b761becc51ba1f2d73</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\build-and-store-container-images\6-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>Azure Container Registry knowledge check.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>Which of the following is not a benefit of using Azure Container Registry?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>Replicate container images to multiple Azure datacenters.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>The Azure Container Registry provides a geo-replication feature.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>Pull container images using any Docker container-related technology.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>The Azure Container Registry can be used with all Docker-related technology.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>Allow public access to container images for pull operations.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>Azure Container Registry is a private registry.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>Images cannot be accessed without authentication.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>Build container images without the need for locally installed Docker tools.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>Container images can be built in the cloud using Azure Container Registry Build.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>What is the recommended authentication method for Azure Container Registry?</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>Admin account</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>An admin account can be created for Azure Container Registry; however, this is not the recommended authentication method.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>Username and password</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>An admin-account with username and password can be enabled for an Azure Container Registry; however, this is not the recommended authentication method.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>Azure service principal</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>Azure service principals are the recommended authentication method.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>They provide granular access to container images in Azure Container Registry; for example, you can specify read-only access or full access to the container registry.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>No authentication</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>Azure Container Registry is a private registry and cannot be accessed without authentication.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>Suppose you use container images to run compute workloads in multiple regions throughout the world.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>You plan to enable the geo-replication feature of Azure Container Registry to decrease the time required to provision an instance.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>Which regions should you choose for your replicas when configuring geo-replication?</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>Place a container registry in the region closest to your development team.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>The goal is to place the registries close to the execution locations, not near the development team.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>Place a container registry in each region where images are run.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>Placing a registry in each region that runs the images will ensure network-close registry access everywhere it is needed.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>Place a container registry in every Azure region.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn.azure-container-registry.knowledge-check">
+          <source>This will increase costs but will not increase performance.</source>
+        </trans-unit></group></body></file></xliff>

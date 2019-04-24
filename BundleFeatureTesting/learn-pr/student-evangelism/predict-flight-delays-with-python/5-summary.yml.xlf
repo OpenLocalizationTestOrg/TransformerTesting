@@ -1,0 +1,53 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-summary.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-summary.9d5bde420cff7842f9da12ecfec64cb411f7deef.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7ac2456b000f84f7bd6775e276635acd5f886a1a</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\student-evangelism\predict-flight-delays-with-python\5-summary.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.student-evangelism.predict-flight-delays-with-python.summary">
+          <source>Summary and knowledge check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.student-evangelism.predict-flight-delays-with-python.summary">
+          <source>Summary and knowledge check</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.student-evangelism.predict-flight-delays-with-python.summary">
+          <source>Confirm that you understand the steps required to clean data, create a machine learning model, and visualize the model's output.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.student-evangelism.predict-flight-delays-with-python.summary">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.student-evangelism.predict-flight-delays-with-python.summary">
+          <source>What method is used in Pandas to import a CSV file?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.student-evangelism.predict-flight-delays-with-python.summary">
+          <source>Assume pandas was loaded as <ph id="ph1">`import pandas as pd`</ph>.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.student-evangelism.predict-flight-delays-with-python.summary">
+          <source>pd.load_file('file.csv')</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.student-evangelism.predict-flight-delays-with-python.summary">
+          <source>pd.read_file('file.csv')</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.student-evangelism.predict-flight-delays-with-python.summary">
+          <source>There is no 'load_file' method in pandas.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.student-evangelism.predict-flight-delays-with-python.summary">
+          <source>pd.read_csv('file.csv')</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.student-evangelism.predict-flight-delays-with-python.summary">
+          <source>'read_csv is a convenient way to read CSV files in pandas.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.student-evangelism.predict-flight-delays-with-python.summary">
+          <source>For other file types, you can use 'read_table'</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.student-evangelism.predict-flight-delays-with-python.summary">
+          <source>What is the purpose of splitting data before trainig a machine learning model?</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.student-evangelism.predict-flight-delays-with-python.summary">
+          <source>To not give the model too much data.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.student-evangelism.predict-flight-delays-with-python.summary">
+          <source>The model will give best results with as much data as possible.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.student-evangelism.predict-flight-delays-with-python.summary">
+          <source>One part can be used for training and the other can be used to evaluate the model's performance.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.student-evangelism.predict-flight-delays-with-python.summary">
+          <source>It is always best to train your model on data that the model has never seen before to get the most accurate results.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.student-evangelism.predict-flight-delays-with-python.summary">
+          <source>The model doesn't need much data.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.student-evangelism.predict-flight-delays-with-python.summary">
+          <source>The model will give best results with as much data as possible.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.student-evangelism.predict-flight-delays-with-python.summary">
+          <source>Assuming you've imported Matplotlib as 'plt', what is the method on Matplotlib that you would use to plot a bar chart?</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.student-evangelism.predict-flight-delays-with-python.summary">
+          <source>plt.bar(labels, values)</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.student-evangelism.predict-flight-delays-with-python.summary">
+          <source>The 'bar' method creates the bar chart with the given labels and values.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.student-evangelism.predict-flight-delays-with-python.summary">
+          <source>plt.chart(labels, values)</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.student-evangelism.predict-flight-delays-with-python.summary">
+          <source>There is no 'chart' method on Matplotlib.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.student-evangelism.predict-flight-delays-with-python.summary">
+          <source>plt.barchart(labels, values)</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.student-evangelism.predict-flight-delays-with-python.summary">
+          <source>There is no 'barchart' method on Matplotlib.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,179 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-create-qna-maker.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-create-qna-maker.10d2ef76e9aa015bfe54c6a81bcf0bcd7ce72783.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">94bfa76b0ec44171a84b4ba4e253df9da7c19d68</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\build-chat-bot-with-azure-bot-service\includes\3-create-qna-maker.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>QnA Maker<ept id="p1">*</ept> is part of Azure Cognitive Services, a suite of services and APIs for building intelligent apps backed by artificial intelligence (AI) and machine learning.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Rather than code a bot to anticipate every question a user might ask and provide a response, you can connect it to a knowledge base of questions and answers created with QnA Maker.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A common usage scenario is to create a knowledge base from the URL of a FAQ web page so the bot can answer domain-specific questions such as "How do I find my Windows product key" or "Where can I download Visual Studio Code?"</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In this unit, you will use QnA Maker to create a knowledge base containing questions such as "What NFL teams have won the most Super Bowls" and "What is the largest city in the world?"</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Then, you will deploy the knowledge base in an Azure web app so that it can be accessed via an HTTPS endpoint.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Create a QnA Maker Service</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Go to the <bpt id="p1">[</bpt>QnA Maker portal<ept id="p1">](https://www.qnamaker.ai/?azure-portal=true)</ept>.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Sign in<ept id="p1">**</ept> in the upper-right corner and sign in with the same account you used to create the web app.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Unless you already have a knowledge base, the portal will point out that you don't have any and direct you to create one from the menu.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In the menu at the top of the portal, select <bpt id="p1">**</bpt>Create a knowledge base<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Create a QnA service<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Selecting this button takes you to the Azure portal and signs you in with the credentials you used earlier.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You create the QnA Maker service and the associated Azure app service that will host it in this portal.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Screenshot of the QnA Maker portal showing the Create a Knowledge Base page with the Create a QnA service button highlighted.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can also create a QnA Maker service in the Azure portal before you create a knowledge base.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In the newly-opened Azure portal tab enter the following settings for the new QnA Maker service.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Setting</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Value</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Name</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>choose a unique name<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This name must be unique within Azure, so make sure a green check mark appears next to it <bpt id="p1">*</bpt>AND<ept id="p1">*</ept> in the <bpt id="p2">**</bpt>App name<ept id="p2">**</ept> box further down the blade.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Subscription</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Select your subscription<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Select your Azure subscription.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Pricing tier</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>F0</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A basic free tier.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Location</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Select the region closest to you from the drop-down<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Select the location where the service should be located.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Resource Group</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Select the resource group you created in the previous unit<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Select your existing resource group (<bpt id="p1">**</bpt>mslearn-factbot<ept id="p1">**</ept>) to hold the resources for this exercise.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Search pricing tier</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>B</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Select pricing tier for search service.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Search location</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Select the region closest to you from the drop-down<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Select the location where the search service should be located.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>App name</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Leave default<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The default value is populated based on your QnA Maer name.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can change this if you'd like a different name for the web app, or leave the default value.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Website location</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Select the region closest to you from the drop-down<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Select the location where the website should be located.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Create<ept id="p1">**</ept> button at the bottom of the blade.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Azure portal showing the QnA Maker Create blade with configuration values as described.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Resource groups<ept id="p1">**</ept> in the ribbon on the left side of the portal, and locate your <bpt id="p2">**</bpt>mslearn-factbot<ept id="p2">**</ept> resource group.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Wait until "Deploying" changes to "Succeeded" at the top of the blade, indicating that the QnA service and the resources associated with it were successfully deployed.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If the message disappears, you can select the bell icon in the menu bar to view the status.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>You can also select <bpt id="p1">**</bpt>Refresh<ept id="p1">**</ept> at the top of the blade to refresh the deployment status.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Create, Populate, and Train Your QnA Maker Knowledge Base</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Return to <bpt id="p1">**</bpt>Create a knowledge base<ept id="p1">**</ept> by switching back to the open tab, or by navigating to <ph id="ph1">&lt;https://www.qnamaker.ai/Create&gt;</ph> in the browser and scroll to <bpt id="p2">**</bpt>Step 2<ept id="p2">**</ept> to connect to our QnA service.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>in <bpt id="p1">**</bpt>Step 2<ept id="p1">**</ept> select <bpt id="p2">**</bpt>Refresh<ept id="p2">**</ept> to make sure the new QnA service you just deployed is available to this screen.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Microsoft Azure Directory ID<ept id="p1">**</ept>, choose your directory that the subscription you used is owned by (there is likely only one).</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Select your Azure subscription from the <bpt id="p1">**</bpt>Azure subscription name<ept id="p1">**</ept> drop-down list.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If you don't see the subscription, try changing the directory until you find it.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Azure QnA service<ept id="p1">**</ept>, select the QnA service name you specified previously.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If no services are listed, you may need to refresh the page.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Then, assign the knowledge base a name, such as "Factbot Knowledge Base".</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The next step is to populate your knowledge base with questions and answers.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>You can enter questions and answers into a QnA Maker knowledge base manually, or you can import them from online FAQs or local files.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Supported formats include tab-delimited text files, Microsoft Word documents, Excel spreadsheets, and PDF files.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To populate our knowledge base, open <ph id="ph1">&lt;https://github.com/MicrosoftDocs/mslearn-build-chat-bot-with-azure-bot-service/blob/master/Factbot.tsv.zip&gt;</ph> in your browser, and download the <bpt id="p1">**</bpt>Factbot.tsv.zip<ept id="p1">**</ept> file.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This zip folder contains a text file named <bpt id="p1">**</bpt>Factbot.tsv<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Extract and copy the file to your computer.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Then, scroll down in the QnA Maker portal and select <bpt id="p1">**</bpt>+ Add file<ept id="p1">**</ept>, and select <bpt id="p2">**</bpt>Factbot.tsv<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This file contains 20 questions and answers in tab-delimited format.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Screenshot of the QnA Maker portal showing the Populate your KB section with the Factbot.tsv file uploaded.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Create your KB<ept id="p1">**</ept> at the bottom of the page, and wait for the knowledge base to be created.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>It should take less than a minute.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Confirm that the questions and answers imported from <bpt id="p1">**</bpt>Factbot.tsv<ept id="p1">**</ept> appear in the knowledge base.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Then, select <bpt id="p1">**</bpt>Save and train<ept id="p1">**</ept> and wait for training to complete.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Factbot Knowledge Base site showing the loaded knowledge base data.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Test your Knowledge Base</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Test<ept id="p1">**</ept> button to the right of the <bpt id="p2">**</bpt>Save and train<ept id="p2">**</ept> button.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Type "Hi" into the message box and press <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Confirm that the response is "Welcome to the QnA Factbot," as shown below.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Screenshot of a test interaction with the created chat bot.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Type "What book has sold the most copies?"</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>into the message box and press <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>What is the response?</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Test<ept id="p1">**</ept> button again to collapse the Test panel.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Publish<ept id="p1">**</ept> in the menu at the top of the page, and select the <bpt id="p2">**</bpt>Publish<ept id="p2">**</ept> button at the bottom of the page to publish the knowledge base.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Publishing<ept id="p1">*</ept> makes the knowledge base available at an HTTPS endpoint.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Wait for the publication process to complete and confirm that the QnA service has been deployed.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>With the knowledge base now hosted in an Azure web app of its own, the next step is to deploy a bot that can use it.</source>
+        </trans-unit></group></body></file></xliff>

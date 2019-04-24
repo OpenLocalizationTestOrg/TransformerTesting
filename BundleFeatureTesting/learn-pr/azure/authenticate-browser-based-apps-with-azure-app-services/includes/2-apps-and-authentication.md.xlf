@@ -1,0 +1,27 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-apps-and-authentication.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-apps-and-authentication.2833b43dbc6c3d70c83a9f5f35bf986b1c18afb7.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ae8dfba4c3868162bacc09c90ddcb843894768e0</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\authenticate-browser-based-apps-with-azure-app-services\includes\2-apps-and-authentication.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Suppose you are the web administrator for an online clothing store, and you are looking to migrate your existing web sites to Azure web apps.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>As part of this migration, you want to replace your in-house, custom authentication solution with the authentication services that are provided in Azure.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>To determine if the authentication features provided by the Azure App Service can support the kind of authentication and authorization your company's business requires, you'll start by testing browser-based authentication for a simple web application.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>We'll begin by looking at authentication and authorization with browser-based apps, and how to use the Azure App Service to authenticate app users.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Authentication and Authorization</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Authentication<ept id="p1">**</ept> validates a user's identity, this is part of an authentication flow that validates against a known, trusted identity authority.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Users authenticate with some form of credentials.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The credentials can be username-password, and if the credentials are valid, the identity is <bpt id="p1">***</bpt>authenticated<ept id="p1">***</ept>.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>An authenticated identity can then be <bpt id="p1">**</bpt>authorized<ept id="p1">**</ept> to access specific resources.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Azure Web Apps</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Web apps are applications that are accessed through a web browser, and do not typically use any local resources on the browser's device, or access the device's operating system (OS).</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If you are doing anything in an app that uses a user identity, then you'll need to authenticate those identities.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>However, you can't use of any security or identity management tools that are within the device's OS, and this is where the authentication services provided by Azure App Services fit in.</source>
+        </trans-unit></group></body></file></xliff>

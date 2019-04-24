@@ -1,0 +1,145 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-application-security.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-application-security.32adea955e4b67e9a09511f684062ffa95d72185.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">787e05a9b15c11cc9f59b939b4458d6db0d7daea</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\design-for-security-in-azure\includes\7-application-security.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Hosting applications on a cloud platform provides a number of advantages when compared to traditional on-premises deployments.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The cloud's shared-responsibility model moves security at the physical network, building, and host levels under the control of the cloud provider.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>An attacker trying to compromise the platform at this level would see diminishing returns versus the considerable investment and insight providers make in securing and monitoring their infrastructure.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>It's therefore far more effective for attackers to pursue vulnerabilities introduced at the application level by cloud-platform customers.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Furthermore, by adopting Platform as a Service (PaaS) to host their applications, customers are able to free resources from managing operating system security and deploy them to harden application code and monitor the identity perimeter around the application.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In this unit we will discuss some of the ways application security can be improved through design.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Scenario</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Lamna Healthcare customers require access to their personal medical records through an online web portal.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Compliance with the Health Insurance Portability and Accountability Act (HIPAA) is mandatory and puts the company at significant risk of financial penalties if a breach of personal data occurs; therefore, securing the application and personal data it interacts with is paramount.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The primary areas that concern customer applications are:</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Secure application design</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Data security</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Identity and access management</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Endpoint security</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Security Development Lifecycle</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Microsoft's <bpt id="p1">[</bpt>Security Development Lifecycle<ept id="p1">](https://www.microsoft.com/sdl)</ept> (SDL) process can be used during the application design stage to ensure security concerns are incorporated in the software development lifecycle.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Security and compliance issues are far easier to address when designing an application and can mitigate many common errors that can lead to security flaws in the final product.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Fixing issues early in the software development journey is also far less costly.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The typical sequence of SDL steps a software project can use are as follows:</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Training</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Core security training</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Requirements</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Define requirements and quality gates</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Analyze security and privacy risks</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Design</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Attack surface analysis</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Threat modeling</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Implementation</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Specify tools to ensure code quality can be measured</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Enforce banned APIs and functions</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Perform static code analysis</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Scan repositories for stored secrets</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Verification</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Dynamic/Fuzz testing</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Verify threat models/attack surface</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Release</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Form security response plan</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Perform a final security review</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Release archive</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Response</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Execute threat response execution</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An illustraton showing the Security development lifecycle</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The SDL is as much a cultural aspect as it is a process or set of tools.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Building a culture where security is a primary focus and requirement of any application development can make great strides in evolving an organization's capabilities around security.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Operational security assessment</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Once an application has been deployed, it's essential to continually evaluate its security posture, determine how to mitigate any issues that are discovered, and feed the knowledge back into the software development cycle.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The depth to which this is performed is a factor of the maturity level of the software development and operational teams as well as the data privacy requirements.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Security vulnerability scanning software services are available to help automate this process and assess security concerns on a regular cadence, without burdening teams with costly manual processes, such as penetration testing.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Azure Security Center is a free service, now enabled by default for all Azure subscriptions, that is tightly integrated with other Azure application level services, such as Azure Application Gateway and Azure Web Application Firewall.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>By analyzing logs from these services, ASC can report on known vulnerabilities in real time, recommend responses to mitigate them, and even be configured to automatically execute playbooks in response to attacks.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Identity as the perimeter</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Identity validation is becoming the first line in defense for applications.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Restricting access to a web application by authenticating and authorizing sessions can drastically reduce the attack surface area.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Azure AD and Azure AD B2C offer an effective way to offload the responsibility of identity and access to a fully managed service.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Azure AD conditional access policies, privileged identity management, and Identity Protection controls further enhance a customer's ability to prevent unauthorized access and audit changes.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Data protection</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Customer data is the target for most, if not all attacks against web applications.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The secure storage and transport of data between an application and its data storage layer is paramount.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Lamna Healthcare stores and accesses particularly sensitive patient medical record data.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>HIPAA, enacted by the United States Congress in 1996, among other controls, defines the national standards for electronic healthcare transactions by healthcare providers and employers.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Lamna must ensure patients and authorized parties, such as their physicians, have secure access to medical data.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>To comply with these requirements, Lamna Healthcare has modified their applications to encrypt all patient data at rest and in transit.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For example, Transport Layer Security (TLS) is used to encrypt data exchanged between the web application and back-end SQL databases.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Data is also encrypted at rest in SQL Server using Transparent Data Encryption (TDE), ensuring that even if the environment is compromised, data is effectively useless to anyone without the correct decryption keys.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To encrypt data stored in blob storage, client-side encryption can be used to encrypt the data in memory before it's written to the storage service.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Libraries supporting this encryption are available for .NET, Java, and Python, and enable the integration of data encryption directly into applications to enhance data integrity.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Secure key and secret storage</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Separating application secrets (connection strings, passwords, etc.) and encryption keys from the application used to access data is vital.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Encryption keys and application secrets should never be stored in the application code of configuration files.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Instead, a secure store such as Azure Key Vault should be used.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Access to this sensitive data can then be limited to application identities through Managed Service Identities, and keys can be rotated on a regular basis to limit exposure in the case of encryption key leakage.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Customers can also choose to use their own encryption keys generated by on-premises Hardware Security Modules (HSM) and even mandate that Azure Key Vault instances are implemented in single-tenant, discrete HSMs.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,97 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-instrument-the-application.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-instrument-the-application.77d48be2bec3e9dfe9f839fda0d8250e443ff7f6.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0331574fd5f9b898762326701fcd35676a2b1651</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\instrument-web-app-code-with-application-insights\includes\4-instrument-the-application.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`TelemetryClient`</ph> object is used to record information about application-specific events and metrics.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In the video app example, stakeholders want information about how users are experiencing videos on the site.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>They'd like data about the number of videos started and never finished and the number of videos added to the site every day.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This data is specific to the application and isn't included in the telemetry provided by Application Insights.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can add it by using the functionality provided in the SDK.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll learn about events and metrics and about how to write code to track them in your apps.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Events and metrics</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Events<ept id="p1">*</ept> and <bpt id="p2">*</bpt>metrics<ept id="p2">*</ept> are the two primary types of custom data that can be tracked by Application Insights.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Events<ept id="p1">**</ept> represent any kind of event that occurs in your application that you're interested in tracking.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For the video sharing application, you might want to track an event each time a video is added to or deleted from the site, or every time a comment is made on a video.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Each kind of event that occurs in your application needs a unique name.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You might have events named <ph id="ph1">`VideoAdded`</ph>, <ph id="ph2">`VideoDeleted`</ph>, and <ph id="ph3">`CommentAdded`</ph>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Tracked events can have arbitrary data attached to them that can be used to filter and group the data.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For example, you might want to track the length of each video or comment added.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can find every tracked event with all its data in the Diagnostic Search view in the Azure portal.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can create aggregate visualizations in Metrics Explorer.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Metrics<ept id="p1">**</ept> are numeric measurements taken independently of any event, typically on an interval.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For example, you might want to track the number of videos being viewed simultaneously every 10 seconds.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Like events, each metric must have a unique name.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Metrics are <bpt id="p1">*</bpt>pre-aggregated<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Application Insights stores and transmits a statistical summary of measurements taken over time, not the exact value of each measurement.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This technique greatly reduces the amount of data sent to Application Insights, reducing costs, and makes metric data available for viewing and querying more quickly than if each individual measurement were tracked.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Metrics can also be multidimensional.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Multidimensional metrics record multiple values into a single metric.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>These properties can be used to segment, filter, and group the data in visualizations.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Depending on your use case, using a multidimensional metric instead of multiple individual metrics can make it easier to explore your telemetry data and find meaning in it.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For example, suppose your user interface includes <bpt id="p1">**</bpt>Like<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Love<ept id="p2">**</ept> buttons that users can select to rate videos.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If you wanted to track the total number of Likes and Loves in the system, instead of tracking two distinct metrics, you could create a single metric called TotalUserResponses.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This single metric could include a dimension called Type and use it to track the numbers of both Likes and Loves.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>These values could then be aggregated together or displayed separately on one chart.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Add instrumentation to your code</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Get a TelemetryClient object</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`TelemetryClient`</ph> class provides access to all the properties and methods that you use to send information to Application Insights.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When you initialize the SDK with <ph id="ph1">`UseApplicationInsights()`</ph>, <ph id="ph2">`TelemetryClient`</ph> is registered for dependency injection.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This means you can efficiently access <ph id="ph1">`TelemetryClient`</ph> by adding it to the constructor of any controller or other component where you want to use it.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For example, if you want to add custom telemetry to the <ph id="ph1">`HomeController`</ph> for your MVC web app, modify the constructor to accept a <ph id="ph2">`TelemetryClient`</ph> parameter and store the value for use in the controller's methods:</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In this example, <ph id="ph1">`aiClient`</ph> can be used in your controller methods to track events and metrics.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Tracking events</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To track an event that occurs within your application, call <ph id="ph1">`TrackEvent`</ph> on a <ph id="ph2">`TelemetryClient`</ph> with the name of the event.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`TrackEvent`</ph> supports two optional <ph id="ph2">`IDictionary`</ph> arguments for tracking named properties and numeric metrics related to the event.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Notice that the names of events and properties are ordinary strings.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Events and properties can be given any names you like.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>It's up to you to appropriately name your events and make sure the names are used consistently throughout your code.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Tracking metrics</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Metrics are recorded a little differently: call <ph id="ph1">`GetMetric`</ph> with the name of the metric to get a <ph id="ph2">`Metric`</ph> object, and then call <ph id="ph3">`TrackValue`</ph> on it to record the measurement data.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The different shape of this API reflects the underlying architecture used to pre-aggregate metrics values before sending them to the Application Insights service.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>As with events, you can assign a metric any name you'd like.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For multidimensional metrics, use the <ph id="ph1">`GetMetric`</ph> method with two or more values, and then set both values with a call to <ph id="ph2">`TrackValue`</ph>:</source>
+        </trans-unit></group></body></file></xliff>

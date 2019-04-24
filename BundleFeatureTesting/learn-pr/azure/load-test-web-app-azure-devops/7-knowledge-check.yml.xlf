@@ -1,0 +1,59 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-knowledge-check.9da7a7cc79a112466521c2905f1d5de8d9b3bf14.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fb01245b70eaf671262aa48be04ddf702d5126d2</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\load-test-web-app-azure-devops\7-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.load-test-web-app-azure-devops.7-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.load-test-web-app-azure-devops.7-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.load-test-web-app-azure-devops.7-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.load-test-web-app-azure-devops.7-knowledge-check">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.load-test-web-app-azure-devops.7-knowledge-check">
+          <source>Which of the following is a key performance test feature in Azure DevOps?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.load-test-web-app-azure-devops.7-knowledge-check">
+          <source>Azure DevOps performance tests can test policies for all your Azure services.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.load-test-web-app-azure-devops.7-knowledge-check">
+          <source>Azure DevOps performance tests can't test policies for Azure services.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.load-test-web-app-azure-devops.7-knowledge-check">
+          <source>Azure DevOps performance tests can be configured to simulate a specific mix of user browser types.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.load-test-web-app-azure-devops.7-knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.load-test-web-app-azure-devops.7-knowledge-check">
+          <source>Azure DevOps performance tests can be configured to simulate a specific mix of user browser types.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.load-test-web-app-azure-devops.7-knowledge-check">
+          <source>Azure DevOps performance tests can be configured across multiple platforms.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.load-test-web-app-azure-devops.7-knowledge-check">
+          <source>Azure DevOps performance tests can't be configured across multiple platforms.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.load-test-web-app-azure-devops.7-knowledge-check">
+          <source>What metrics are captured after a performance test is successfully completed?</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.load-test-web-app-azure-devops.7-knowledge-check">
+          <source>Duration, success rate, and availability.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.load-test-web-app-azure-devops.7-knowledge-check">
+          <source>Duration, success rate, and availability aren't captured during performance tests.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.load-test-web-app-azure-devops.7-knowledge-check">
+          <source>Average response time, requests per second, and user load.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.load-test-web-app-azure-devops.7-knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.load-test-web-app-azure-devops.7-knowledge-check">
+          <source>After a successful test run, the details chart will include the average response time, requests per second, and user load.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.load-test-web-app-azure-devops.7-knowledge-check">
+          <source>Runtime, throughput, and number of requests.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.load-test-web-app-azure-devops.7-knowledge-check">
+          <source>Runtime, throughput, and number of requests aren't captured during performance tests.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.load-test-web-app-azure-devops.7-knowledge-check">
+          <source>You've increased the number of users allowed to access your web app at the same time from 10 users to 20 users.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.load-test-web-app-azure-devops.7-knowledge-check">
+          <source>How do you test if this change has affected performance?</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.load-test-web-app-azure-devops.7-knowledge-check">
+          <source>Run individual tests and manually compare the results.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.load-test-web-app-azure-devops.7-knowledge-check">
+          <source>Azure DevOps lets you compare the results from multiple test runs and highlights how the average response time changed between the test runs.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.load-test-web-app-azure-devops.7-knowledge-check">
+          <source>Export test results to Application Insights to compare the results.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.load-test-web-app-azure-devops.7-knowledge-check">
+          <source>Azure DevOps lets you compare the results from multiple test runs and highlights how the average response time changed between the test runs.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.load-test-web-app-azure-devops.7-knowledge-check">
+          <source>Compare two test runs by using Azure DevOps.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.load-test-web-app-azure-devops.7-knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.load-test-web-app-azure-devops.7-knowledge-check">
+          <source>Azure DevOps lets you compare the results from multiple test runs and highlights how the average response time changed between the test runs.</source>
+        </trans-unit></group></body></file></xliff>

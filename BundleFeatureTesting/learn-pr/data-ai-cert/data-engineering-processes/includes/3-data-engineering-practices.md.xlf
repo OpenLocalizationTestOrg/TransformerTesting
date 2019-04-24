@@ -1,0 +1,147 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-data-engineering-practices.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-data-engineering-practices.cbbecd198e856220fc811a7425c67e400a45b62a.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a192d4f47d14524fcb333e8fee1d45eb26fedfcf</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\data-engineering-processes\includes\3-data-engineering-practices.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Here are some of the tasks of an Azure data engineer:</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Design and develop data storage and data processing solutions for the enterprise.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Set up and deploy cloud-based data services such as blob services, databases, and analytics.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Secure the platform and the stored data.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Make sure only the necessary users can access the data.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Ensure business continuity in uncommon conditions by using techniques for high availability and disaster recovery.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Monitor to ensure that the systems run properly and are cost-effective.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>How a data engineer differs from a database administrator<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The data engineer's role overlaps with the role of the database administrator (DBA) in terms of broad tasks.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The differences are in scope and focus.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Data engineers work with more than just databases, and they focus on <bpt id="p1">_</bpt>cloud implementations<ept id="p1">_</ept> rather than on-premises servers.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Moving data around</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>As a data engineer, you can transfer and move data in several ways.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>One way is to start an extract, transform, and load (ETL) process.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Extraction sources can include databases, files, and streams.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Each source has unique data formats that can be structured, semistructured, or unstructured.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In Azure, data sources include Azure Cosmos DB, Azure Data Lake, files, and Azure Blob storage.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Extract</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>During the extraction process, data engineers define the data and its source:</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Define the data source<ept id="p1">**</ept>: Identify source details such as the resource group, subscription, and identity information such as a key or secret.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Define the data<ept id="p1">**</ept>: Identify the data to be extracted.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Define data by using a database query, a set of files, or an Azure Blob storage name for blob storage.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Transform</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Define the data transformation<ept id="p1">**</ept>: Data transformation operations can include splitting, combining, deriving, adding, removing, or pivoting columns.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Map fields between the data source and the data destination.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You might also need to aggregate or merge data.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Load</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Define the destination<ept id="p1">**</ept>: During a load, many Azure destinations can accept data formatted as a JavaScript Object Notation (JSON), file, or blob.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You might need to write code to interact with application APIs.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Azure Data Factory offers built-in support for Azure Functions.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You'll also find support for many programming languages, including Node.js, .NET, Python, and Java.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Although Extensible Markup Language (XML) was common in the past, most systems have migrated to JSON because of its flexibility as a semistructured data type.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Start the job<ept id="p1">**</ept>: Test the ETL job in a development or test environment.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Then migrate the job to a production environment to load the production system.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Monitor the job<ept id="p1">**</ept>: ETL operations can involve many complex processes.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Set up a proactive and reactive monitoring system to provide information when things go wrong.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Set up logging according to the technology that will use it.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>ETL tools</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>As a data engineer, you'll use several tools to for ETL.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The most common tool is Azure Data Factory, which provides robust resources and nearly 100 enterprise connectors.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Data Factory also allows you to transform data by using a wide variety of languages.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You might find that you also need a repository to maintain information about your organization's data sources and dictionaries.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Azure Data Catalog can store this information centrally.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Evolution from ETL</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Azure has opened the way for technologies that can handle unstructured data at an unlimited scale.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This change has shifted the paradigm for loading and transforming data from ETL to extract, load, and transform (ELT).</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The benefit of ELT is that you can store data in its original format, be it JSON, XML, PDF, or images.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>In ELT, you define the data's structure during the transformation phase, so you can use the source data in multiple downstream systems.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>In an ELT process, data is extracted and loaded in its native format.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This change reduces the time required to load the data into a destination system.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The change also limits resource contention on the data sources.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The steps for the ELT process are the same as for the ETL process.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>They just follow a different order.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Another process like ELT is called extract, load, transform, and load (ELTL).</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The difference with ELTL is that it has a final load into a destination system.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Holistic data engineering</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Organizations are changing their analysis types to incorporate predictive and preemptive analytics.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Because of these changes, as a data engineer you should look at data projects holistically.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Data professionals used to focus on ETL, but developments in data platform technologies lend themselves to an ELT approach.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Design data projects in phases that reflect the ELT approach:</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Source<ept id="p1">**</ept>: Identify the source systems to extract from.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Ingest<ept id="p1">**</ept>: Identify the technology and method to load the data.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Prepare<ept id="p1">**</ept>: Identify the technology and method to transform or prepare the data.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Also consider the technologies you'll use to analyze and consume the data within the project.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>These are the next two phases of the process:</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Analyze<ept id="p1">**</ept>: Identify the technology and method to analyze the data.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Consume<ept id="p1">**</ept>: Identify the technology and method to consume and present the data.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>In traditional descriptive analytics projects, you might have transformed data in Azure Analysis Services and then used Power BI to consume the analyzed data.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>New AI technologies such as Azure Machine Learning services and Azure Notebooks provide a wider range of technologies to automate some of the required analysis.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>These project phases don't necessarily have to flow linearly.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For example, because machine learning experimentation is iterative, the Analyze phase sometimes reveals issues such as missing source data or transformation steps.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>To get the results you need, you might need to repeat earlier phases.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>To fully appreciate this process, let's examine it by using an example of high-level architecture.</source>
+        </trans-unit></group></body></file></xliff>

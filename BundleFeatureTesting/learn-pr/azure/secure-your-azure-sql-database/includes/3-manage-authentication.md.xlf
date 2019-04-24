@@ -1,0 +1,117 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-manage-authentication.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-manage-authentication.ae390337002bf90772e4b2cb97fea5e559588820.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0588f1d15f38e38fe2e2c798290cc325c90eb7d1</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\secure-your-azure-sql-database\includes\3-manage-authentication.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Even though we may be able to connect to the database over the network, that doesn't mean we can actually gain access to the data itself.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Following a layered approach, we'll want to ensure that only users who need access to the data can actually access it.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This is where authentication and authorization come in to play.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Authentication</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Authentication is the process of verifying an identity.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This identity could be a user, a service running on a system, or a system itself (such as a virtual machine).</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Through the process of authentication, we ensure that the person or system is who they claim to be.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>SQL Database supports two types of authentication: SQL authentication and Azure Active Directory authentication.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>SQL authentication</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>SQL authentication method uses a username and password.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>User accounts can be created in the master database and can be granted permissions in all databases on the server, or they can be created in the database itself (called contained users) and given access to only that database.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>When you created the logical server for your database, you specified a "server admin" login with a username and password.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Using these credentials, you can authenticate to any database on that server as the database owner, or "dbo".</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Azure Active Directory authentication</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This authentication method uses identities managed by Azure Active Directory (AD) and is supported for managed and integrated domains.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Use Azure AD authentication (integrated security) whenever possible.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>With Azure AD authentication, you can centrally manage the identities of database users and other Microsoft services in one central location.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Central ID management provides a single place to manage database users and simplifies permission management.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you want to use Azure AD authentication, you must create another server admin called the "Azure AD admin," which is allowed to administer Azure AD users and groups.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This admin can also perform all operations that a regular server admin can.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Authorization</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Authorization refers to what an identity can do within an Azure SQL Database.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This is controlled by permissions granted directly to the user account and/or database role memberships.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A database role is used to group permissions together to ease administration, and a user is added to a role to be granted the permissions the role has.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>These permissions can grant things such as the ability to log in to the database, the ability to read a table, and the ability to add and remove columns from a database.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>As a best practice, you should grant users the least privileges necessary.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The process of granting authorization to both SQL and Azure AD users is the same.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>In our example here, the server admin account you are connecting with is a member of the db_owner role, which has authority to do anything within the database.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Authentication and authorization in practice</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Let's now take a look at how to set up a user and grant them access to a database.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>In this case we'll use SQL authentication for our user, but the process would be essentially the same if we were using Azure AD authentication.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Create a database user</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Let's go ahead and create a new user that we can use to grant access to.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In cloud shell, on your <bpt id="p1">_</bpt>appServer<ept id="p1">_</ept> VM, connect to your database again as your <ph id="ph1">`ADMINUSER`</ph>.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Run the following command to create a new user.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This will be a <bpt id="p1">_</bpt>contained user<ept id="p1">_</ept> and will only allow access to the <bpt id="p2">_</bpt>marketplace<ept id="p2">_</ept> database.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Feel free to adjust the password as necessary, but be sure and note it as we'll need it for a future step.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>With these credentials, the user will be able to authenticate to the database, but they aren't authorized to access any data.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Let's grant this user access.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Grant permissions to a user</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Let's make the user a member of the <ph id="ph1">`db_datareader`</ph> and <ph id="ph2">`db_datawriter`</ph> roles, granting access to read and write to the database, respectively.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>We also want to prevent this user from accessing a table with addresses.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>While still connected to <ph id="ph1">`sqlcmd`</ph> on <bpt id="p1">_</bpt>appServer<ept id="p1">_</ept>, run the following T-SQL to grant the <ph id="ph2">`db_datareader`</ph> and <ph id="ph3">`db_datawriter`</ph> roles to the user we just created.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>We can narrow the scope of access further.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>We could deny a user's access to other elements within the database using the DENY operator.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Run the following T-SQL to deny the user <bpt id="p1">_</bpt>ApplicationUser<ept id="p1">_</ept> the ability to select data from the <ph id="ph1">`SalesLT.Address`</ph> table.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Let's now log in as that user and take a look at this in action.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>While still at the T-SQL prompt, type <ph id="ph1">`exit`</ph> to exit your session.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Now let's log back in to the database, but as the user we just created.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Run the following query.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This is pulling data from a table that the user is authorized to access.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>You should get back a listing of customers.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Now let's see what happens when we try to query a table that we don't have access to.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>You should get a message that you don't have access to this table.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>As you can see here, even though we've granted read/write access to the database, we can further secure access to data by explicitly denying access to tables.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If you had multiple users who shared similar access, you could create custom roles with the proper permissions and simplify your administration.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>It's important to properly secure your database, and only grant access where necessary.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Azure SQL Database provides the built-in ability to fully control the ability to authenticate and authorize identities to access the data in your database.</source>
+        </trans-unit></group></body></file></xliff>

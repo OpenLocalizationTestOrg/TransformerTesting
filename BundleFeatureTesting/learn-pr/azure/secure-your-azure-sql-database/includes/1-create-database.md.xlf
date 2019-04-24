@@ -1,0 +1,77 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-create-database.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-create-database.e7b49af157c6640e254453f98cca9d7adbbf825f.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a2a6c03bf91c0522c23d37a269c59642f5753737</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\secure-your-azure-sql-database\includes\1-create-database.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Here you'll set up the resources you'll need for use throughout this module.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Let's envision a basic architecture consisting of a server hosting an application that your customers use, which connects to a database for the storage of its data.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The application runs on a virtual machine, and the database has been recently migrated from a SQL Server database running on a VM to a database on the Azure SQL Database service.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To show how you can secure your database, we're going to set up the following resources for use throughout this module:</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A Linux VM named <bpt id="p1">_</bpt>appServer<ept id="p1">_</ept>.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This server will act as the application server that users would be connecting to, and will need to connect to the database.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>We'll install <ph id="ph1">`sqlcmd`</ph> on the VM to simulate an application running on <bpt id="p1">_</bpt>appServer<ept id="p1">_</ept> making connections to the database.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>An Azure SQL Database logical server.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This logical server is needed to host one or more databases.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A database on our logical server called <bpt id="p1">_</bpt>marketplaceDb<ept id="p1">_</ept>.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>We'll create it using the <bpt id="p1">_</bpt>AdventureWorksLT<ept id="p1">_</ept> demo database so we have some tables and data to work with.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This will include some sensitive data, such as email addresses and phone numbers that we'll want to make sure are properly secured.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Let's get things set up!</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Create an Azure SQL Database</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>First, let's set up some variables.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Replace values below that are shown in <ph id="ph1">`&lt;&gt;`</ph> with values of your choice.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Note that the <ph id="ph1">`&lt;password&gt;`</ph> must have at least eight characters and contain characters from at least three of these categories: uppercase characters, lowercase characters, numbers, and non-alphanumeric characters.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Save the login for use later.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Run the following command to create a new Azure SQL Database logical server.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Now run the following to create the database called <bpt id="p1">**</bpt>marketplaceDb<ept id="p1">**</ept> on the logical server you just created.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This will use the <bpt id="p1">_</bpt>AdventureWorksLT<ept id="p1">_</ept> database as a template so we'll have some pre-populated tables to work with.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Let's do one last thing and get the connection string for this database.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Your output resembles this.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Keep this handy, you'll need this command to connect to your database later in this module.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Note the <ph id="ph1">`&lt;username&gt;`</ph> and <ph id="ph2">`&lt;password&gt;`</ph> placeholders in the command that you will want to replace with the <ph id="ph3">`ADMINLOGIN`</ph> and <ph id="ph4">`PASSWORD`</ph> credentials you specified in variables earlier.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Create and configure a Linux virtual machine</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Now let's create the Linux VM that we'll use through some examples.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Run the following command to create the VM.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Once your VM is successfully created, connect to it via SSH.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Two things to note.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>First, we don't need a password because we generated an SSH key pair as part of the VM creation.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Second, on the initial shell connection into the VM it will give you a prompt about the authenticity of the host.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This occurs because we are connecting to an IP address instead of a host name.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Answering "yes" will save the IP as a valid host for connection and allow the connection to proceed.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Now let's finish things up by installing mssql-tools on the Linux VM so we'll be able to connect to our database through sqlcmd.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A lot of text will scroll by for some of these commands, so make sure you hit enter after the final command to ensure it runs.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>We've created an Azure SQL Database logical server, a database on that logical server, and a virtual machine called <bpt id="p1">_</bpt>appServer<ept id="p1">_</ept> that we'll use to simulate network connectivity from an application server.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Let's take a look at how we can properly secure our database.</source>
+        </trans-unit></group></body></file></xliff>

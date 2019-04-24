@@ -1,0 +1,157 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-customize-web-app-load-tests-with-azure-devops.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-customize-web-app-load-tests-with-azure-devops.2341ae58b1b3e49491a0b68a54651335a730b356.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5dd7fc94b182be5726360663838b14d220098196</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\load-test-web-app-azure-devops\includes\5-customize-web-app-load-tests-with-azure-devops.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You've run basic tests in the Azure portal for the Contoso Costume Rentals app.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Now you want to focus on the additional test criteria available in Azure DevOps to get help as you plan the next phase for the app.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>For example, you know that your potential customers don't all use the same type of browser or send the same types of page requests.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Using load tests in Azure DevOps</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If you link your Azure DevOps account to your Azure portal load tests, the results from the tests you've run so far will be saved and ready for further use and analysis in the Azure DevOps environment.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>By using Azure DevOps, you can:</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Compare the results from multiple test runs.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Rerun tests and configure new tests that use additional test parameters.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Viewing tests</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To use the Azure DevOps Portal to view tests that you've run from the Azure portal, you open a test, and then, in the <bpt id="p1">**</bpt>Essentials<ept id="p1">**</ept> section, select the <bpt id="p2">**</bpt>Azure DevOps Account<ept id="p2">**</ept> link to open a new browser tab. If you used the same sign in details for the Azure portal and Azure DevOps, selecting this link will automatically sign you in to the Azure DevOps Portal.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Link to start Azure DevOps</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If this is the first time you've opened the Azure DevOps dashboard to view the tests, you'll need to select your Azure DevOps organization and then create a new project.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In any project, the <bpt id="p1">**</bpt>Load test<ept id="p1">**</ept> section under <bpt id="p2">**</bpt>Test Plans<ept id="p2">**</ept> will list the test runs that you initiated from the Azure portal:</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Load tests in Azure DevOps</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Load tests are organization-level entities and are not linked to particular projects.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If you have more than one project, you'll see that each project's Load Tests link points to the same set of load tests.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Comparing test results</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The summary data displayed for each test will look similar to what it looked like in the Azure portal.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The Azure DevOps Portal does provide additional charts.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To compare the results from two tests, hold the Ctrl key and select both tests, and then select <bpt id="p1">**</bpt>Compare two runs<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You now get a summary of the results, including a <bpt id="p1">**</bpt>% change from baseline<ept id="p1">**</ept> column, which indicates how the average response time and requests/sec changed between the two test runs.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Compare tests</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Configuring tests in Azure DevOps</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The Azure DevOps Portal provides more test options than the Azure portal.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Configure tests</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Multiple URLs<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You can configure a test to work with more than one URL.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You might, for example, configure a test with your app's home page and add URLs for other key pages, like product details and shopping cart pages.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Query strings<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If your app uses query strings, like <ph id="ph1">`?product=sp231`</ph>, to pass parameters to your code, you can configure your tests for specific strings.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This configuration can be useful if your app uses a database and you want to test the performance of specific database queries.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Headers<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>HTTP headers are used to pass information in requests and responses.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>They're used for tasks like authentication and managing cookies.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>With Azure DevOps, you can configure performance tests with specific header information.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For example, imagine that your app supports multiple languages.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You could use the <ph id="ph1">`lang`</ph> attribute to indicate which HTML elements on a page are in a specific language, and then test for the German language version of a page by using the <ph id="ph2">`Content-Language: de`</ph> header.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>User agents<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>User agent strings are typically used to identify the browser that's issuing an HTTP request.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>They can be used to serve page content that's specific to browser capability.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For example, the user agent for Safari on an iPad might be <ph id="ph1">`Mozilla/5.0 (iPad; CPU OS 12_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1`</ph>.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You could specify some or all of this user agent string if you wanted to test for the performance of content designed for mobile browsers.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Browser mix<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Your users probably use a range of web browsers.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The browser mix option configures a test to simulate a mix of Internet Explorer and Chrome browser strings in the user agent header requests sent to your app.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Currently, Azure DevOps provides three mixes:</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Internet Explorer, 80%; Chrome, 20%</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Internet Explorer, 60%; Chrome, 40% (default)</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Internet Explorer, 40%; Chrome, 60%</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Load pattern<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>You can configure your test to use a constant number of virtual users throughout a test, or you can use the step load pattern.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>When you use a step load pattern, the test will start with a certain number of users and then increase by a selected number during each additional time period.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>For example, you could start with 10 users and then increment by 10 users every 30 seconds.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This option can be useful if you're trying to diagnose problems related to user load or determine the point at which the number of users starts to affect performance.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Warm-up duration<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>You can specify a period of time between the start of a test run and the start of data recording.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You might use this option together with the step load pattern so that test results only start recording when the number of virtual users has reached a certain load level.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Setting a warm-up duration might also be useful if you're trying to identify the effect of server-side issues, like caching.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Using recorded user actions in tests</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>So far, you've tested with specific URLs and assumed that these URLs reflect your users' typical interactions with your app.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>But there's another way.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You can record all the browser clicks and scrolling from actual user sessions and then use these recordings as a basis for your performance testing.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This approach can provide more realistic test results, especially if you can involve real users in the process.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>To use this approach, you need to record <bpt id="p1">*</bpt>HAR (HTTP Archive)<ept id="p1">*</ept> files.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To record a HAR file, you need to first configure your browser.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>For example, in Chrome, you select F12 to open the developer tools, and then, on the <bpt id="p1">**</bpt>Network<ept id="p1">**</ept> tab, set the recording button to on and select the <bpt id="p2">**</bpt>Preserve log<ept id="p2">**</ept> box:</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Record a HAR in Chrome</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You can now work through a user scenario.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Start from the default URL for your app and then follow the actions that a typical user would perform.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>In the Contoso Rentals scenario, for example, this might involve browsing for a service, checking terms, conditions, and rental locations, and then placing an order.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>To finish the recording in Chrome, open the developer tools and set the recording button to off.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>In the shortcut menu for the URL list, select <bpt id="p1">**</bpt>Save as HAR with content<ept id="p1">**</ept>, and then save the file:</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Save HAR file in Chrome</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>To use HAR files in testing, start a new HTTP Archive-based test and import your HAR file.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>After the import finishes, when you open the test, all the URLs, headers, and QueryString parameters that were saved to the HAR file will be shown:</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Imported HAR file in performance test</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>You then specify the run duration and the geo-location to use and run the test.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>In the next unit, you'll open your existing tests in the Azure DevOps Portal and configure new tests that use the extra features available in the Azure DevOps environment.</source>
+        </trans-unit></group></body></file></xliff>

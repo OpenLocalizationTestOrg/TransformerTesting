@@ -1,0 +1,117 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-model-training-techniques.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-model-training-techniques.9ff0788ac91adc87ec1fcbdf63e7dbe3b9a6f18c.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">08cc12201801abcfb5b85451f52174ef409fe42d</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\databricks\perform-model-training-evaluation-and-selection-with-azure-databricks\includes\2-model-training-techniques.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Let's suppose you work in the analytics department of a large used-car dealer.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You're working on creating a machine-learning model that will make predictions about sales prices and affordability in the used-car market.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Your team has decided to use Azure Databricks to train your machine-learning model to achieve the following results:</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Investigate how the age of a used car influences its sales price.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Find cars with specific features that a person with a set budget can afford.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Azure Databricks provides capabilities to train and evaluate your machine-learning model.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can create your model from a base dataset and then further train and polish your model by using different datasets.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Train your machine-learning model</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The process of training your machine-learning model includes the following broad steps:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Split the dataset:<ept id="p1">**</ept> Before you start training your machine-learning model, you must prepare your dataset by splitting it into training and testing data.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Learning the parameters of a prediction function and then testing it on the same data is a methodological mistake.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A sufficiently advanced model repeats the labels of the samples that it's seen.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In this case, the model has a perfect score but fails to predict anything useful on data it hasn't seen yet.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This situation is called <bpt id="p1">*</bpt>overfitting<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To avoid overfitting when you're working with (supervised) machine learning, split the data into at least two categories:</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Training data:<ept id="p1">**</ept> Use this data to teach the algorithm.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Training data is the data that the algorithm will learn from.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Test data:<ept id="p1">**</ept> Keep this data "secret," and don't share it with the algorithm during the learning phase.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>After the system has been trained, use this data to test the performance of the trained system.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Identify the technique:<ept id="p1">**</ept> Depending on your dataset and the outcomes you require, select the type of machine-learning technique.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can choose basic regression, classification, or advanced regression techniques.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Tune the model:<ept id="p1">**</ept> <bpt id="p2">*</bpt>Model tuning<ept id="p2">*</ept> is the process of achieving optimal performance of your machine-learning model.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To tune your model, send it through the following steps multiple times, until you achieve the results you want:</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Select the parameters.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Train the model by using the selected parameters.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Use the model to make predictions on a test dataset.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Correct the errors by adjusting the parameters.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Minimize cost functions:<ept id="p1">**</ept> One of the important aims when you're training your model is to reduce the <bpt id="p2">*</bpt>cost function<ept id="p2">*</ept>.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The cost function, also called the <bpt id="p1">*</bpt>sum of squared errors cost function<ept id="p1">*</ept>, is a measure of how far your model is from correctly predicting the relationship between two values.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Evaluate and validate your model:<ept id="p1">**</ept> An important step in creating a robust machine-learning model is to evaluate and validate the predictive accuracy of your model.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Cross validation is a method of validating the stability and performance of your machine-learning model.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For example, you can't adjust the attributes in your model based on the test dataset to improve its performance.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You also can't base the model's performance on a single test dataset and hope that it works accurately in real-world scenarios.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To cross-validate your model's stability, you must train your model multiple times by using different datasets.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Techniques to train machine-learning models</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The technique you choose for training your machine-learning model must be based on the predictions and outcomes that you require of the dataset.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Basic regression</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Linear regression:<ept id="p1">**</ept> One of the most common basic regression techniques is linear regression.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Linear regression predicts the value of a dependent variable based on its relationship with one or more independent variables.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This technique is the most straightforward way to make a linear model, in the shape of the familiar equation <bpt id="p1">*</bpt>y<ept id="p1">*</ept><ph id="ph1"> = </ph><bpt id="p2">*</bpt>ax<ept id="p2">*</ept><ph id="ph2"> + </ph><bpt id="p3">*</bpt>b<ept id="p3">*</ept>.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Classification</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In machine learning and statistics, classification is the problem of identifying which of a set of existing categories a new observation belongs to.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A few common types of algorithms used for classification problems are:</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Logistic regression:<ept id="p1">**</ept> Logistic regression is one of the most common and widely used algorithms to solve classification problems.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The underlying technique used in this method is similar to linear regression, but it differs in the treatment of the dependent variable.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The dependent variable in logistic regression is a binary value, which means it's used when the outcome is required to be either 0 or 1 (a yes or no value).</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This method uses the <bpt id="p1">**</bpt>Logit<ept id="p1">**</ept> function.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Support-vector machines:<ept id="p1">**</ept> Support-vector machines are supervised machine-learning models with associated algorithms that are primarily used for classification problems and regression challenges.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>These models are used in high-dimensional spaces.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To learn more about support-vector machines, see <bpt id="p1">[</bpt>this article<ept id="p1">](https://scikit-learn.org/stable/modules/svm.html)</ept>.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Decision-tree classifier:<ept id="p1">**</ept> The decision tree is popular for working with classification problems, both two-class and multiclass types.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Models that are based on multiple decision trees, Random Forests, boosted trees, and XDGBoost are common in machine learning today.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Single decision trees are also used, partly because they're easier to plot and inspect.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Advanced regression</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Polynomial regression:<ept id="p1">**</ept> Polynomial regression is used in machine-learning models for complex and distributed datasets that can't be captured by using the straight-line linear regression technique.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Polynomial regression techniques allow you to achieve optimal results by adjusting your model to eliminate overfitting and underfitting scenarios.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You can eliminate underfitting by adding powers of the original independent variables in the equation to increase the model's complexity.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>To address overfitting, add more training datasets.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,187 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-use-monitoring-and-analytics-to-gain-operational-insights.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-use-monitoring-and-analytics-to-gain-operational-insights.5604fce4c59ee7c52820f9714b54e1eac96e8e89.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a2572dbad0d1e1edc8f00fef8c7a403f8666bc19</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\design-for-efficiency-and-operations-in-azure\includes\3-use-monitoring-and-analytics-to-gain-operational-insights.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Monitoring is the act of collecting and analyzing data to determine the performance, health, and availability of your business application and the resources that it depends on.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>What if you ran an operations team responsible for resources running on Azure?</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>What would you do to ensure you had visibility into the health of your systems?</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If something happens, who finds out first, your team or your end users?</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>An effective monitoring strategy helps you focus on the health of your application.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>It also helps you increase your uptime by proactively notifying you of critical issues, so that you can resolve them before they become problems.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When it comes to monitoring and analytics on Azure, we can bundle services into three specific areas of focus: deep application monitoring, deep infrastructure monitoring, and core monitoring.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In this unit, we'll take a look through each of these bundles and how Azure services enable these capabilities for your architecture.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Even though we've grouped these services together, there are several integration points between them, allowing for sharing of important monitoring data points between them.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The following illustration shows the available monitoring services assembled into logical groups.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>An illustration listing the Azure monitoring and analytics services.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Core monitoring</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Core monitoring provides fundamental, required monitoring across Azure resources.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When we talk about fundamental monitoring, you can think of this as monitoring what is happening with your resources at the Azure platform level.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This area of focus gives you insight into things like the health of the Azure platform, insight into changes being made to your resources, and performance metrics.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Using services from this area gives you the ability to monitor the basic pieces you need to keep your application running.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Azure provides services to give you visibility into four key core monitoring areas: activity logging, the health of services, metrics and diagnostics, and recommendations on best practices.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>These services are built in to Azure and take little to no configuration to enable and set up.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Let's take a closer look.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Activity logging</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Activity logging is incredibly important to get information on what is happening with your resources at the Azure platform level.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Every change submitted to the Azure platform is logged to the Azure Activity Log, giving you the ability to trace any action taken on your resources.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Activity Log will contain detailed information on activities to help you answer questions like:</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Who has attached a disk to this virtual machine?</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When was this machine shut down?</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Who changed the load balancer configuration?</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Why did the autoscale operation on my virtual machine scale set fail?</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Using Activity Log to answer these types of questions will help you troubleshoot issues, track changes, and provide auditing of what's happening in your Azure environment.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Activity Log data is only retained for 90 days and can be archived to a storage account or sent to Azure Log Analytics for longer retention and further analysis.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Health of cloud services</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>At some point, any system can have issues, and that's true for Azure services as well.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Staying informed of the health of Azure services will help you understand if and when an issue impacting an Azure service is impacting your environment.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>What may seem like a localized issue could be the result of a more widespread issue, and Azure Service Health provides this insight.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Azure Service Health identifies any issues with Azure services that might affect your application.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Service Health also helps you plan for scheduled maintenance.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Metrics and diagnostics</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>For issues that are more localized in nature, it's important to have visibility into what is happening on your system or service instance.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The ability to view metrics and diagnostic information is critical to troubleshoot performance issues and stay notified when something goes wrong.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To provide this visibility, Azure services have a common way of showing health, metric, or diagnostic information.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Azure Monitor enables core monitoring for Azure services by allowing the collection, aggregation, and visualization of metrics, activity logs, and diagnostic logs.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Metrics are available that provide performance statistics for different resources and even the operating system inside a virtual machine.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You can view this data with one of the explorers in the Azure portal and create alerts based on these metrics.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Azure Monitor provides the fastest metrics pipeline (5 minutes down to 1 minute), so you should use it for time-critical alerts and notifications.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Recommendations on best practices</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>When we think of monitoring, we typically think of the current health of a resource.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>But even when a resource is healthy, there could be adjustments that would result in greater availability, reduced cost, or improved security.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Azure Advisor can help by keeping an eye out for potential performance, cost, high availability, or security issues within your resources.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Advisor makes personalized recommendations based on resource configuration and telemetry, providing guidance that most traditional monitoring platforms don't provide.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Deep infrastructure monitoring</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>While the monitoring components we've covered thus far are great at offering insights, they only give visibility to the Azure platform.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>For typical IaaS workloads, there's more metrics and diagnostic information to gather from the network or the actual operating systems.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Pulling information from SQL Server to ensure it's properly configured, analyzing free disk space across all the servers in your environment, or visualizing the network dependencies between your systems and services are all examples where Log Analytics can provide deep insights.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>When designing a monitoring strategy, it's important to include every component in the application chain, so you can correlate events across services and resources.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For services that support Azure Monitor, they can be easily configured to send their data to a Log Analytics workspace.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Virtual machines (both in the cloud and on-premises) can have an agent installed to send data to Log Analytics.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>You can submit custom data to Log Analytics through the Log Analytics API.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The following illustration shows how Log Analytics acts as a central hub for monitoring data.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Log Analytics receives monitoring data from your Azure resources and makes it available to consumers for analysis or visualization.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>An illustration showing the role of Log Analytics in resource monitoring.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>With this data in Log Analytics, you can query the raw data for troubleshooting, root cause identification, and auditing purposes.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>For several known services (SQL Server, Windows Server Active Directory), there are management solutions readily available that visualize monitoring data and uncover compliance with best practices.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Log Analytics allows you to create queries and interact with other systems based on those queries.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The most common example is an alert.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Maybe you want to receive an email when a system runs out of disk space or a best practice on SQL Server is no longer followed.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Log Analytics can send alerts, kick off automation, and even hook into custom APIs for things like integration with IT service management (ITSM).</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Deep application monitoring</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>It's important to understand how core services and infrastructure are performing, but you can take your monitoring capabilities even further by looking deep into your applications to identify performance issues, usage trends, and overall availability of services you develop and depend on.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>By using an application performance management tool, you can better detect and diagnose issues that occur within your web apps and services.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Azure Application Insights allows you to do exactly that.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Application Insights provides telemetry collection, query, and visualization capabilities.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Little to no code changes are required.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>You only have to install a small instrumentation package into your application.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Application Insights is cross platform, supporting .NET, Node.js, or Java.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>For instance, the response time of the application might be complex to troubleshoot.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Is it the web server being overloaded?</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Is it a specific SQL query that's not optimized?</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Is the API that you're calling performing slower than usual?</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Application performance monitoring solutions can help uncover the actual issues that basic metric monitoring can't expose.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The following screenshot shows a graphical display of an application’s performance details provided by Azure Application Insights.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>A screenshot of the user interface of Azure Application Insights.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>An application performance monitoring solution will help you monitor usage, performance, and availability, allowing you to respond to failure much faster, and should be included in any monitoring strategy.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Monitoring at Lamna Healthcare</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Lamna Healthcare has been revamping their monitoring strategy since moving their resources to the cloud.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>They're using Monitor for troubleshooting and alerting when performance issues may be impacting their resources.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>They have notifications configured to send any service health notifications to their operations team for immediate engagement.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>They have a process in place to regularly review Advisor to ensure the recommendations are implemented into their environment where applicable.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>They send log data from all Azure and on-premises resources to a Log Analytics workspace, so they have the ability to search across log sources for event correlation and are using management solutions for Windows Server Active Directory and SQL Server.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Their development team has started integrating Application Insights into their applications, and they've already uncovered two defects that were impacting performance that had previously gone undetected.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>A good monitoring strategy looks across multiple layers of an architecture, from supporting infrastructure to deep application telemetry.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>It will help you understand the detailed operation of the different components of your application.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>It increases your uptime by proactively notifying you of critical issues, so that you can resolve them before they become problems, and allows you to correlate logs and telemetry across systems to uncover issues.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>We've taken a look at a number of services on Azure that you can leverage in your monitoring strategy.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-create-data-lake-account.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-create-data-lake-account.e8e327c786d69cce16af957d979efde1e0bea595.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aeea50962a6f815a4768c6500438f837af413ab2</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\introduction-to-azure-data-lake-storage\includes\3-create-data-lake-account.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Azure Data Lake Storage Gen2 is easy to set up.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>It requires a <bpt id="p1">**</bpt>StorageV2 (General Purpose V2)<ept id="p1">**</ept> Azure Storage account with the Hierarchical namespace enabled.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Let's walk through an example of setting up an Data Lake Storage account in the Azure portal.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Sign in to the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com?azure-portal=true)</ept></source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Create a resource<ept id="p1">**</ept> and navigate to <bpt id="p2">**</bpt>Storage<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">**</bpt>Featured<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Storage account - blob, file, table, queue<ept id="p2">**</ept> as shown in the following screenshot.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Azure portal showing the Create a resource, Storage account in highlights.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Next, in the <bpt id="p1">**</bpt>Create storage account<ept id="p1">**</ept> window, under the <bpt id="p2">**</bpt>Basics<ept id="p2">**</ept> tab, define a <bpt id="p3">**</bpt>storage account name<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Set the <bpt id="p1">**</bpt>location<ept id="p1">**</ept> to <bpt id="p2">**</bpt>Central US<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Account kind<ept id="p1">**</ept> drop-down list, select <bpt id="p2">**</bpt>StorageV2 (general-purpose v2)<ept id="p2">**</ept> to create a Data Lake Storage Gen2 data store.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Screenshot of Basics Settings for Creating Storage Account.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Advanced<ept id="p1">**</ept> tab. Next to the option of <bpt id="p2">**</bpt>Hierarchical namespace<ept id="p2">**</ept>, make sure that the <bpt id="p3">**</bpt>Data lake storage gen2(preview)<ept id="p3">**</ept> option is set to <bpt id="p4">**</bpt>Enabled<ept id="p4">**</ept> as shown below.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Screenshot of Advanced Settings for Creating Storage Account.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This new Azure Storage account is now set up to host data for an Azure Data Lake.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>After the account has deployed, you will find options related to Azure Data Lake in the Overview page.</source>
+        </trans-unit></group></body></file></xliff>

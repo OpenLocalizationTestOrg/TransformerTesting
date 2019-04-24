@@ -1,0 +1,15 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.993ac4247a9af2c3d1944e7c1434764166a9ede4.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f4d5794ad77f8aa0cd66b5240fc29cbf16873315</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\paths\deploy-a-website-with-azure-virtual-machines\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.deploy-a-website-with-azure-virtual-machines">
+          <source>Deploy a website with Azure virtual machines learning path</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.deploy-a-website-with-azure-virtual-machines">
+          <source>Web apps in Azure allow you to publish and manage your website easily without having to work with the underlying servers, storage, or network assets.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.deploy-a-website-with-azure-virtual-machines">
+          <source>Instead, you can focus on your website features and rely on the robust Azure platform to provide secure access to your site.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.deploy-a-website-with-azure-virtual-machines">
+          <source>Deploy a website with Azure virtual machines</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.deploy-a-website-with-azure-virtual-machines">
+          <source>If your web hosting requirements aren't directly supported by the Azure Web app platform, you can leverage virtual machines to customize and control every aspect of the web server.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.deploy-a-website-with-azure-virtual-machines">
+          <source>Learn how to create, configure, and manage virtual machines on Linux and Windows that host web apps.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.deploy-a-website-with-azure-virtual-machines">
+          <source>None</source>
+        </trans-unit></group></body></file></xliff>

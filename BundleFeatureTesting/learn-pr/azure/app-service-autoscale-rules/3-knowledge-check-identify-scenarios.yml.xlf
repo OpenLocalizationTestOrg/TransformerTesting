@@ -1,0 +1,99 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-knowledge-check-identify-scenarios.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-knowledge-check-identify-scenarios.2517f1b1e2ce6b39c090a2e03f04854aebb32f5c.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ac110095d6d3c396fb13168b64662f6e217ec98a</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\app-service-autoscale-rules\3-knowledge-check-identify-scenarios.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>Knowledge Check - Identify suitable scenarios for autoscaling</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>Knowledge Check - Identify suitable scenarios for autoscaling</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>Knowledge Check - Identify suitable scenarios for autoscaling</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>Which of these statements best describes autoscaling?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>Autoscaling is a scale up/scale down solution.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>It migrates an application to more powerful hardware during periods of high demand, and moves it back to less powerful hardware when demand drops.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>No.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>Autoscaling is a scale in/scale out solution.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>It adds and removes instances of resources rather than migrating to more powerful hardware.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>Autoscaling requires an administrator to actively monitor the workload on a system.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>If the workload increases and response times start to drop, the administrator can trigger autoscaling to help increase the throughput of the system.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>No.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>Autoscaling is an automated process that doesn't require manual intervention.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>You define autoscale rules, which monitor resource usage.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>When these rules determine that utilization exceeds a certain threshold, autoscaling will increase the resources available by scaling out. When the utilization falls, autoscaling can remove these resources.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>Autoscaling is a scale out/scale in solution.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>The system can scale out when specified resource metrics indicate increasing usage, and scale in when these metrics drop.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>This answer is correct</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>Autoscaling is an ideal solution for handling sudden bursts of activity that last for a few minutes.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>No.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>Autoscaling takes time to add resources.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>A sudden burst of activity might have passed before the system can spin up the additional resources.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>Scaling in and out provides better availability than autoscaling.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>No.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>Autoscaling increases availability by adding more instances of services.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>If one of these instances fails, the others should still be available.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>In a scale up solution, the failure of a single instance could stop the entire service.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>Autoscaling enables a system to predict the resources that will be required to handle an increasing workload.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>True</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>Autoscaling is a reactive technology, not predictive.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>It can only make decisions on whether there are currently sufficient resources available to meet the current workload, based on metrics and schedules.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>False</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>This answer is correct</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>Which of these scenarios is a suitable candidate for autoscaling?</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>The number of users requiring access to an application varies according to a regular schedule.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>For example, more users use the system on a Friday than other days of the week.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>This answer is correct</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>The system is subject to a sudden influx of requests that grinds your system to a halt.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>The workload has increased exponentially and there appears to be no reason for this surge of activity.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>The increasing burst of activity could be caused by a Denial of Service attack that is attempting to overwhelm your system.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>Autoscaling wouldn't solve the problem.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>Filter these requests out using your security infrastructure before they reach the servers hosting your system.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>Over time, your service is becoming more popular, and you need to handle the increasing traffic.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>In this scenario, manual scaling is likely to be a better option.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>The increased demand is long-lived and increasing.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>Your organization is running a promotion and expects to see increased traffic to their web site for the next couple of weeks.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>Ensure sufficient resources are available to handle the demand expected when the promotion starts.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.3-knowledge-check-identify-scenarios">
+          <source>Scale the system manually before the promotion starts, monitor the activity, and then scale back when the promotion finishes.</source>
+        </trans-unit></group></body></file></xliff>

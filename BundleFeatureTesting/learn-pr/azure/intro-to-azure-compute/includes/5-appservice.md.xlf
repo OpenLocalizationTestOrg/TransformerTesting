@@ -1,0 +1,73 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-appservice.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-appservice.9c6ffe2349f7882304ea9af57c2d7c05bd1e4a75.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8bd6dc8d8ab7e51c39454fc43f7e108ef1a29bfe</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-azure-compute\includes\5-appservice.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Image representing Azure App Service</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Azure App Service enables you to build and host web apps, background jobs, mobile backends, and RESTful APIs in the programming language of your choice without managing infrastructure.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>It offers auto-scaling and high availability, supports both Windows and Linux, and enables automated deployments from GitHub, Azure DevOps, or any Git repo to support a continuous deployment model.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This platform as a service (PaaS) allows you to focus on the website and API logic while Azure takes care of the infrastructure to run and scale your web applications.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>App Service costs</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You pay for the Azure compute resources your app uses while it processes requests based on the App Service Plan you choose.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The App Service plan determines how much hardware is devoted to your host - for example, whether it's dedicated or shared hardware, and how much memory is reserved for it.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>There is even a <bpt id="p1">_</bpt>free<ept id="p1">_</ept> tier you can use to host small, low-traffic sites.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Types of web apps</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>With Azure App Service, you can host most common web app styles including:</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Web Apps</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>API Apps</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>WebJobs</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Mobile Apps</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Azure App Service handles most of the infrastructure decisions you deal with in hosting web apps: deployment and management are integrated into the platform, endpoints can be secured, sites can be scaled quickly to handle high traffic loads, and the built-in load balancing and traffic manager provide high availability.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>All of these app styles are hosted in the same infrastructure and share these benefits.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This makes App Service the ideal choice to host web-oriented applications.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Web Apps</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>App Service includes full support for hosting web apps using ASP.NET, ASP.NET Core, Java, Ruby, Node.js, PHP, or Python.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can choose either Windows or Linux as the host operating system.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>API Apps</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Much like hosting a website, you can build REST-based Web APIs using your choice of language and framework.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You get full Swagger support, and the ability to package and publish your API in the Azure Marketplace.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The produced apps can be consumed from any HTTP(s) based client.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Web Jobs</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>WebJobs allows you to run a program (.exe, Java, PHP, Python or Node.js) or script (.cmd, .bat, PowerShell, or Bash) in the same context as a web app, API app, or mobile app.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>They can be scheduled, or run by a trigger.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This is often used to run background tasks as part of your application logic.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Mobile Apps</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Use the Mobile Apps feature of Azure App Service to quickly build a back-end for iOS and Android apps.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>With just a few clicks in the Azure portal you can:</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Store mobile app data in a cloud-based SQL database</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Authenticate customers against common social providers such as MSA, Google, Twitter and Facebook</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Send push notifications</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Execute custom back-end logic in C# or Node.js</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>On the mobile app side, there is SDK support for native iOS &amp; Android, Xamarin, and React native apps.</source>
+        </trans-unit></group></body></file></xliff>

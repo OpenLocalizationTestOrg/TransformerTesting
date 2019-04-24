@@ -1,0 +1,95 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-discover-quickstart-templates.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-discover-quickstart-templates.3d8bc21b4e9e4de1cffa9bae7c9461802b72baed.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2d4e9f42e8bc52ba80176e2706f2f7d0e8927a7f</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\build-azure-vm-templates\includes\linux\3-discover-quickstart-templates.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Recall that your analysts' financial models are run on Azure virtual machines.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>To further automate your deployments, you want to move from Azure CLI commands and scripts to Resource Manager templates.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Before you begin, you might first wonder what existing templates exist that you can learn from and build upon.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Here you'll explore what an Azure Quickstart template is and what prebuilt templates are available for you to use right now.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Prefer Windows or want to try something new?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Windows<ept id="p1">**</ept> from the top of this page to deploy a Windows Server virtual machine.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>What are Azure Quickstart templates?</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Azure Quickstart templates are Resource Manager templates that are provided by the Azure community.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Quickstart templates are available on GitHub.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Many templates provide everything you need to deploy your solution.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Others might serve as a starting point for your template.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Either way, you can study these templates to learn how to best author and structure your own templates.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Discover what's on the Quickstart template gallery</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Let's say you want to find a Resource Manager template that brings up a basic VM configuration <ph id="ph1">&amp;ndash;</ph> one that includes a VM, basic network settings, and storage.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Start by browsing to the <bpt id="p1">[</bpt>Quickstart template gallery<ept id="p1">](https://azure.microsoft.com/resources/templates?azure-portal=true)</ept> to see what's available.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You see a number of popular and recently updated templates.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>These templates work with both Azure resources and popular software packages.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A portion of the Azure Quickstart template gallery web page.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Let's say you come across the <bpt id="p1">[</bpt>Deploy a simple Ubuntu Linux VM<ept id="p1">](https://azure.microsoft.com/resources/templates/101-vm-simple-linux/?azure-portal=true)</ept> template.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The gallery page for an Ubuntu VM template</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The name sounds like exactly what you need.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>But let's take a closer look to see what this template accomplishes.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Deploy to Azure<ept id="p1">**</ept> button enables you to deploy the template directly through the Azure portal.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>But you won't do that here.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Rather, you'll use the Azure CLI to deploy the template from Cloud Shell.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Browse on GitHub<ept id="p1">**</ept> to navigate to the template's source code on GitHub.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You see this.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The GitHub README for the Resource Manager template</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Deploy to Azure<ept id="p1">**</ept> button enables you to deploy the template directly through the Azure portal, just like you saw on the gallery page.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Visualize<ept id="p1">**</ept> to navigate to the Azure Resource Manager Visualizer.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You see the resources that make up the deployment, including a VM, a storage account, and network resources.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You can use your mouse to arrange the resources.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You can also use your mouse's scroll wheel to zoom in an out.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The Azure Resource Manager Visualizer showing Azure resources visually</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Click on the <bpt id="p1">**</bpt>Virtual Machine<ept id="p1">**</ept> resource labeled <bpt id="p2">**</bpt>MyUbuntuVM<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You see the source code that defines the VM resource.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The Azure Resource Manager Visualizer showing the template's source code</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You'll have more time to inspect the source code in just a bit.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>But for now, take a moment to review it briefly.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You see that:</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The resource's type is <ph id="ph1">`Microsoft.Compute/virtualMachines`</ph>.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>It's location, or Azure region, comes from the template parameter named <ph id="ph1">`location`</ph>.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The VM's size comes from the template variable <ph id="ph1">`vmSize`</ph>.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The computer name is read from a template variable and the username and password for the VM are read from template parameters.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>In practice, you might review the <bpt id="p1">**</bpt>README.md<ept id="p1">**</ept> file on GitHub and further inspect the source code to see whether this template suits your needs.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>But for now, this template looks promising.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>In the next part, you'll go ahead and deploy this template.</source>
+        </trans-unit></group></body></file></xliff>

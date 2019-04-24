@@ -1,0 +1,55 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-knowledge-check.0df44991081f22dbefc5193da3678e44bb0c4d26.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a6bfcd172f7f1effdafe2c93e306842f5a5d52c4</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\databricks\create-data-visualizations-using-azure-databricks-and-power-bi\4-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.create-data-visualizations-using-azure-databricks-and-power-bi.4-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.create-data-visualizations-using-azure-databricks-and-power-bi.4-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.create-data-visualizations-using-azure-databricks-and-power-bi.4-knowledge-check">
+          <source>Test your knowledge by answering questions about skills you learned from the lab.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.create-data-visualizations-using-azure-databricks-and-power-bi.4-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.create-data-visualizations-using-azure-databricks-and-power-bi.4-knowledge-check">
+          <source>To use Power BI with DataBricks tables, which kind of connection do you need to establish first?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.create-data-visualizations-using-azure-databricks-and-power-bi.4-knowledge-check">
+          <source>JDBC</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.create-data-visualizations-using-azure-databricks-and-power-bi.4-knowledge-check">
+          <source>Obtaining the JDBC connection string to your Azure Databricks cluster is the first step to connect to Power BI.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.create-data-visualizations-using-azure-databricks-and-power-bi.4-knowledge-check">
+          <source>ODBC</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.create-data-visualizations-using-azure-databricks-and-power-bi.4-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.create-data-visualizations-using-azure-databricks-and-power-bi.4-knowledge-check">
+          <source>ODBC isn't the correct connection type between Power BI and Databricks tables.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.create-data-visualizations-using-azure-databricks-and-power-bi.4-knowledge-check">
+          <source>REST API direct connection</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.create-data-visualizations-using-azure-databricks-and-power-bi.4-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.create-data-visualizations-using-azure-databricks-and-power-bi.4-knowledge-check">
+          <source>REST API isn't the correct connection type between Power BI and Databricks tables.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.create-data-visualizations-using-azure-databricks-and-power-bi.4-knowledge-check">
+          <source>In notebooks, which function can be used for visualizing data in any language?</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.create-data-visualizations-using-azure-databricks-and-power-bi.4-knowledge-check">
+          <source>display()</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.create-data-visualizations-using-azure-databricks-and-power-bi.4-knowledge-check">
+          <source>All notebooks, no matter their language, support Databricks visualization by using the display() function.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.create-data-visualizations-using-azure-databricks-and-power-bi.4-knowledge-check">
+          <source>show()</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.create-data-visualizations-using-azure-databricks-and-power-bi.4-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.create-data-visualizations-using-azure-databricks-and-power-bi.4-knowledge-check">
+          <source>display() is the correct function for visualizing data in notebooks.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.create-data-visualizations-using-azure-databricks-and-power-bi.4-knowledge-check">
+          <source>visualize()</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.create-data-visualizations-using-azure-databricks-and-power-bi.4-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.create-data-visualizations-using-azure-databricks-and-power-bi.4-knowledge-check">
+          <source>display() is the correct function for visualizing data in notebooks.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.create-data-visualizations-using-azure-databricks-and-power-bi.4-knowledge-check">
+          <source>Matplotlib is a library that's included with Databricks and doesn't need to be imported as a third-party library.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.create-data-visualizations-using-azure-databricks-and-power-bi.4-knowledge-check">
+          <source>Correct</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.create-data-visualizations-using-azure-databricks-and-power-bi.4-knowledge-check">
+          <source>Azure Databricks includes several out-of-the-box libraries that you traditionally would need to rely on an external library such as Matplotlib.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.create-data-visualizations-using-azure-databricks-and-power-bi.4-knowledge-check">
+          <source>Incorrect</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.create-data-visualizations-using-azure-databricks-and-power-bi.4-knowledge-check">
+          <source>Azure Databricks includes several out-of-the-box libraries that you traditionally would need to rely on an external library such as Matplotlib.</source>
+        </trans-unit></group></body></file></xliff>

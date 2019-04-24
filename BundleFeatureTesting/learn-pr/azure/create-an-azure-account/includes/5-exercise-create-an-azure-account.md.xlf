@@ -1,0 +1,57 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-exercise-create-an-azure-account.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-exercise-create-an-azure-account.ef72ba7cb5f1a0fd62ebcee47d57a36315af3087.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a723afe6db812080a019579a2516b486be2ba5b6</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-an-azure-account\includes\5-exercise-create-an-azure-account.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>To create and use Azure services, you will eventually need an account.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Remember, the account is free - you will not be charged for any services until you convert the account to a pay-as-you-go account.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You will need a valid credit card to create the account.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>This is used for age and identity validation only<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Your card will <bpt id="p1">_</bpt>not be charged<ept id="p1">_</ept> until you decide to upgrade the free/trial account to a full subscription.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This exercise is completely optional.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You do not need an Azure account to go through most of the Microsoft Learn modules on Azure.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If you already have an Azure account, or if you aren't ready to create one now, you can skip this unit.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Sign up for a free account</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In a web browser, navigate to <bpt id="p1">[</bpt>azure.microsoft.com<ept id="p1">](https://azure.microsoft.com?azure-portal=true)</ept>, and click <bpt id="p2">**</bpt>Free Account<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Create your Azure free account today<ept id="p1">**</ept> page, click <bpt id="p2">**</bpt>Start free &gt;<ept id="p2">**</ept> button.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Scroll down through the page - it lists the products you can access for free, as well as the free products available for the first year.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Start free &gt;<ept id="p1">**</ept> button.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You'll be prompted to sign in with your Microsoft account.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Sign in with your Microsoft credentials or create a new free Microsoft account.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>About you<ept id="p1">**</ept> page, select your correct country or region, and then enter your first and last names, along with your email address and phone number.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Depending on your country, you may see additional fields, such as a VAT number.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Next<ept id="p1">**</ept> to continue.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Identity verification by phone<ept id="p1">**</ept> screen, select your country code, and type the number of a telephone to which you have immediate access.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You have the option of text or callback to obtain a verification code.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Click the relevant button, type the code in the <bpt id="p1">**</bpt>Verification code<ept id="p1">**</ept> box, and click <bpt id="p2">**</bpt>Verify code<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If the verification code is correct, you will now be asked to enter details of a valid credit card.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Enter the card number, the expiration date, the CVV number, your name, and address, and click <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Finally, check the box to accept the subscription agreement, privacy statement, and communications policy.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The second checkbox is optional.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Now click <bpt id="p1">**</bpt>Sign up<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Congratulations!</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You have now successfully set up a free account, and should be on the Azure portal home page.</source>
+        </trans-unit></group></body></file></xliff>

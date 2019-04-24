@@ -1,0 +1,79 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-prepare-and-deploy-the-web-service.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-prepare-and-deploy-the-web-service.2395c2df9e7184ca6cd24067947f97f06c853532.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8056e60b4e7cfecb5db603757e73a989526f9d5c</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\create-an-experiment-in-ml-studio\includes\4-prepare-and-deploy-the-web-service.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You've created and trained an experiment in Azure Machine Learning Studio.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Now it's time to publish it as a web service that clients can access.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Let's prepare and publish your experiment as a web service and then evaluate the results.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You should have already created the energy-efficiency experiment that you'll publish as a web service.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Here are your next steps:</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>On the left navigation bar of Machine Learning Studio, select the <bpt id="p1">**</bpt>Experiments<ept id="p1">**</ept> icon.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Select your completed <bpt id="p1">**</bpt>Energy Efficiency Regression<ept id="p1">**</ept> experiment to open it.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Depending on the state of the web service, you might not have to run your experiment again.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If the upper-right corner of the designer displays <bpt id="p1">**</bpt>Finished running<ept id="p1">**</ept>, and your stages show green check marks, you're ready for the next step.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If not, select the <bpt id="p1">**</bpt>Run<ept id="p1">**</ept> button.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Set up the web service</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>After the energy-efficiency experiment has run, at the bottom of the designer, hover over the <bpt id="p1">**</bpt>Set Up Web Service<ept id="p1">**</ept> button.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Predictive Web Service<ept id="p1">**</ept> [Recommended].</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>Predictive Web Service<ept id="p1">**</ept> option is not available, run your experiment again.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Check for the <bpt id="p1">**</bpt>Finished running<ept id="p1">**</ept> note.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Verify that the <bpt id="p1">**</bpt>Predictive experiment<ept id="p1">**</ept> tab opens.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The designer should show a web service input and web service output operation.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Run<ept id="p1">**</ept> button.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Verify successful completion by looking for a green check mark in the <bpt id="p1">**</bpt>Score Model<ept id="p1">**</ept> operation.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Also look for a <bpt id="p1">**</bpt>Finished running<ept id="p1">**</ept> note in the upper-right corner.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Deploy the web service</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Deploy Web Service<ept id="p1">**</ept> button.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Machine Learning Studio creates the web service and opens a new window that indicates success.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You'll notice an API key for your web service.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Applications will use this key to access the web service.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Test the web service</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Now that the web service is deployed, let’s test it to see the output results.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Next to the <bpt id="p1">**</bpt>Request/Response<ept id="p1">**</ept> option, select the <bpt id="p2">**</bpt>Test<ept id="p2">**</ept> button to open the data entry dialog box.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In the data entry dialog box, enter the following values from the training model data:</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Wall area: <bpt id="p1">**</bpt>296<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Roof area: <bpt id="p1">**</bpt>110.25<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Overall height: <bpt id="p1">**</bpt>7<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Glazing area: <bpt id="p1">**</bpt>0<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Heating load: <bpt id="p1">**</bpt>15.55<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>In the lower-right corner, select the check mark.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You'll see the output on the status bar, just above the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> button at the bottom of the Machine Learning Studio window.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To see an example of the returned JSON code, select the <bpt id="p1">**</bpt>Details<ept id="p1">**</ept> button.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You'll see the values you entered and two additional values.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>These are the model's evaluations of the energy efficiency for the values you entered.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,65 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-describe-deep-learning-and-the-dvsm.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-describe-deep-learning-and-the-dvsm.b5440ee94a86e18e9e22dc180fea99508503a786.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a0df2a4216dc895cb17a51f5f65b8228638d3568</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\interactive-deep-learning\includes\2-describe-deep-learning-and-the-dvsm.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The goal of Machine Learning (ML) is to find features to train a model that transforms input data (such as pictures, time series, or audio) to a given output (for example captions, price values, transcriptions).</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In traditional data science, features are often handcrafted.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>These handcrafted features are fed into a shallow learning algorithm, such as the network shown in the following diagram.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Canonical example of a feed forward deep neural network.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In Deep Learning (DL), the process of feature extraction is learned through representing inputs as vectors and transforming them, with a series of clever linear algebra operations, into a given output.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The model output is compared against the expected output using an equation called a loss function.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The value returned by the loss function of each training input is used to guide the model to extract features that will result in a lower loss value on the next pass.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This process is called <bpt id="p1">*</bpt>training<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Through training, these algorithms learn the best performing and most appropriate features for the given dataset.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>They are called deep because of the number of layers in the network.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The series of matrix operations that we compute as part of the linear algebra component are computationally expensive.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>These operations can often be processed in parallel, making them great candidates for specialized compute such as Graphics Processing Units (GPUs) to compute efficiently.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Setting up an environment to do deep learning is non-trivial.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>What's the hardware setup, do you train your model with CPUs or GPUs, and how much memory should these machines have?</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Creating and training a deep learning network needs the right software to be installed.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You've lots of  deep learning frameworks to choose from, but need to be mindful of dependencies between each component.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>After all of this setup, you might find a great model created on another framework and would like to try it out. You don’t want the overhead of getting a new deep learning framework with all of its dependencies set up on your machine.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The Data Science Virtual Machine can help solve these problems.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>What is a Data Science Virtual Machine (DSVM)?</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Data Science Virtual Machine infographic depicting how it is pre-installed, configured, and tested with several popular tools that are commonly used for data analytics, machine learning and AI training.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The Data Science Virtual Machine is a virtual machine (VM) image on Azure.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>It has many popular data science and deep learning tools already installed and configured.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>These images come with popular data science and machine learning tools, including Microsoft R Server Developer Edition, Microsoft R Open, Anaconda Python, Julia, Jupyter notebooks, Visual Studio Code, RStudio, xgboost, and many more.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Instead of rolling out a comparable workspace on your own, you can provision a DSVM - saving you lots of time on the installation, configuration, and package management processes.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Once your DSVM has been deployed, you can immediately begin working on your data science project.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The DSVM can be used for training models using deep learning algorithms on Graphics processing units (GPUs) hardware.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Utilizing VM scaling capabilities of Azure cloud, DSVM helps you use GPU-based hardware on the cloud as per need.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You can switch to a GPU-based VM when training large models or need high-speed computations while keeping the same OS disk.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The Windows Server 2016 edition of DSVM comes pre-installed with GPU drivers, frameworks, and GPU versions of deep learning frameworks.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>On the Linux, deep learning on GPU is enabled on both the CentOS and Ubuntu DSVMs.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You can also deploy the Ubuntu, CentOS, or Windows 2016 edition of the Data Science VM to CPU-based Azure virtual machines, in which case all the deep learning frameworks will fallback to CPU mode.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For more information on what you can do with a DSVM, see <bpt id="p1">[</bpt>Data science with a Linux Data Science Virtual Machine on Azure<ept id="p1">](https://docs.microsoft.com/azure/machine-learning/data-science-virtual-machine/linux-dsvm-walkthrough)</ept></source>
+        </trans-unit></group></body></file></xliff>

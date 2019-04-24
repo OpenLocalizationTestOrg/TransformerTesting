@@ -1,0 +1,17 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-summary.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-summary.633cafc88840784f57a5e007b5f9c4284d42ddbb.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5b0aba4587f4ccd579bfb572eba4ef55dc7d3aae</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-data-in-azure\includes\6-summary.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>An empty bag connected to Azure storage on a map of the world representing the final storage solution</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In this module, you explored the benefits of using Azure to store your data.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Azure provides the following features:</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Storage of both structured and unstructured data</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>High security that supports global compliance standards</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Load balancing, high availability, and redundancy capabilities</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The ability to store large volumes of data directly to the browser using features such as Azure Blob storage</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Ultimately, the capabilities of Azure data storage make it an ideal platform for hosting any large global application or portal.</source>
+        </trans-unit></group></body></file></xliff>

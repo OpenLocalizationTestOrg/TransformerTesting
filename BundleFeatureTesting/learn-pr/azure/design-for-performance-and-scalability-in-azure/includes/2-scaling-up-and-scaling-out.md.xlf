@@ -1,0 +1,325 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-scaling-up-and-scaling-out.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-scaling-up-and-scaling-out.dab4f27d1a94d2be6195c2501361cf64f2a3ea67.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1bc9d3dfa7b59600ff8244df9d2477e3313ca284</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\design-for-performance-and-scalability-in-azure\includes\2-scaling-up-and-scaling-out.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>It's rare that we can exactly predict the load on our system: public facing applications might grow rapidly or an internal application might need to support a larger user base as the business grows.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Even when we can predict load, it's rarely flat: retailers have more demand during the holidays and sports websites peak during playoffs.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Here, we'll define <bpt id="p1">_</bpt>scaling up/down<ept id="p1">_</ept> and <bpt id="p2">_</bpt>scaling out/in<ept id="p2">_</ept>, cover some ways Azure can improve your scaling capabilities, and look at how serverless and container technologies can improve your architecture's ability to scale.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>What is scaling?</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Scaling<ept id="p1">_</ept> is the process of managing your resources to help your application meet a set of performance requirements.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When we have too many resources serving users, we won't be using it efficiently and we'll be wasting money.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Too few available resources means that the performance of our application could be impacted.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The goal is to meet our defined performance requirements while optimizing for cost.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>"<bpt id="p1">_</bpt>Resources<ept id="p1">_</ept>" can refer to anything we need to manage to run our applications.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Memory and CPU for virtual machines are the most obvious resources, but some Azure services might require you to consider bandwidth or abstractions, like Cosmos DB Request Units.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In a world where application demand is constant, it's easy to predict the right amount of resources you'll need.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In the real world, the demands of applications change over time, so the right amount of resources you'll need can be harder to predict.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If you're lucky, that change will be predictable or seasonal, but that is not typical of all applications.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Ideally, you want to provision the right amount of resources to meet demand and adjust as demand changes.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Scaling is difficult in an on-premises scenario, where you purchase and manage your own servers.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Adding resources can be costly and often takes too much time to bring online, sometimes longer than your actual need for the increased capacity.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>It can be just as difficult to then reduce capacity during times of low demand on the system, so you may be stuck with the increased cost.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Easy scaling is a key benefit of Azure.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Most Azure resources let you easily add or remove resources as demand changes, and many services have automated options so they monitor demand and adjust for you.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This automatic scaling capability, commonly known as autoscaling, lets you set thresholds for the minimum and maximum level of instances that should be available, and will add or remove instances based upon a performance metric (for example, CPU utilization).</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Scaling up and out</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>What is scaling up or down?</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Scaling up is the process where we increase the capacity of a given instance.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A virtual machine could be increased from 1 vCPU and 3.5 GB of RAM to 2 vCPUs and 7 GB of RAM to provide more processing capacity.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>On the other hand, scaling down is the process where we lower the capacity of a given instance.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For example, reducing a virtual machine's capacity from 2 vCPUs and 7 GB of RAM to 1 vCPU and 3.5 GB of RAM, reducing both capacity and cost.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The following illustration shows an example of changing the size of a virtual machine.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>An illustration showing scaling up and scaling down of a virtual machine to change the performance capabilities.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Let's take a look at what scaling up or down means in the context of Azure resources:</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In Azure virtual machines, you scale based upon a virtual machine size.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>That size has a certain amount of vCPUs, RAM, and local storage associated with it.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For example, we could scale up from a Standard_DS1_v2 virtual machine (1 vCPU and 3.5 GB of RAM) to a Standard_DS2_v2 virtual machine (2 vCPUs and 7 GB of RAM).</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Azure SQL Database is a platform as a service (PaaS) implementation of Microsoft SQL Server.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You can scale up a database based upon the number of database transaction units (DTUs) or vCPUs.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>DTUs are an abstraction of underlying resources and are a blend of CPU, IO, and memory.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For instance, you could scale your Azure SQL database from a size of P2 with 250 DTUs up to a P4 with 500 DTUs to give the database more throughput and capacity.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Azure App Service is a PaaS website-hosting service on Azure.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Websites run on a virtual server farm, also known as an App Service plan.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You can scale the App Service plan up or down between tiers and have capacity options within tiers.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For example, an S1 App Service plan has 1 vCPU and 1.75 GB of RAM per instance.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>We could scale up to an S2 App Service plan, which has 2 vCPUs and 3 GB of RAM per instance.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To have these capabilities in an on-premises environment you typically have to wait for procurement of the needed hardware and installation before you can start using the new level of scale.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In Azure, the physical resources are already deployed and available for you.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You simply need to select the alternate level of scale that you are looking to use.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You may need to consider the impact of scaling up in your solution, depending upon the cloud services that you have chosen.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>For example, if you choose to scale up in Azure SQL Database, the service deals with scaling up individual nodes and continues the operation of your service.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Changing the service tier and/or performance level of a database creates a replica of the original database at the new performance level, and then switches connections over to the replica.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>No data is lost during this process, and there's only a brief interruption (typically less than four seconds) when the service switches over to the replica.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Alternatively, if you choose to scale up or down a virtual machine, you do so by selecting a different instance size.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>In most cases this requires a restart of the VM, so it's best to have the expectation that a reboot will be required and you'll need to account for when performing this activity.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Finally, you should always look for places where scaling down is an option.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If your application can provide adequate performance at a lower price tier, your Azure bill could be significantly reduced.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>What is scaling out or in?</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Where scaling up and down adjusts the amount of resources a single instance has available, scaling out and in adjusts the total number of instances.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Scaling out<ept id="p1">_</ept> is the process of adding more instances to support the load of your solution.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>For example, if our website front end were hosted on virtual machines, we could increase the number of virtual machines if the level of load increased.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Scaling in<ept id="p1">_</ept> is the process of removing instances that are no longer needed to support the load of your solution.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If the website front ends have low usage, we may want to lower the number of instances to save cost.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The following illustration shows an example of changing the number of virtual machine instances.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>An illustration showing scaling out the resources to handle demand and scaling in the resources to reduce costs.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Here are some examples of what scaling out or in means in the context of Azure resources:</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>For the infrastructure layer, you would likely use virtual machine scale sets to automate the addition and removal of extra instances.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Virtual machine scale sets let you create and manage a group of identical, load balanced VMs.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The number of VM instances can automatically increase or decrease in response to demand or a defined schedule.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>In an Azure SQL Database implementation, you could share the load across database instances by sharding.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Sharding<ept id="p1">_</ept> is a technique to distribute large amounts of identically structured data across a number of independent databases.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>In Azure App Service, the App Service plan is the virtual web server farm hosting your application.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Scaling out in this way means that you're increasing the number of virtual machines in the farm.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>As with virtual machine scale sets, the number of instances can be automatically raised or lowered in response to certain metrics or a schedule.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Scaling out is typically easily performed in the Azure portal, command-line tools, or Resource Manager templates, and in most cases is seamless to the end user.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Autoscale</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>You can configure some of these services to use a feature called autoscale.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>With autoscale you no longer have to worry about scaling services manually.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Instead, you can set a minimum and maximum threshold of instances and scale based upon specific metrics (queue length, CPU utilization) or schedules (weekdays between 5:00 PM and 7:00 PM).</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The following illustration shows how the autoscale feature manages instances to handle the load.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>An illustration showing how autoscale monitors the CPU levels of a pool of virtual machines and adds instances when the CPU utilization is above the threshold.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Considerations when scaling in and out</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>When scaling out, the startup time of your application can impact how quickly your application can scale.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>If your web app takes two minutes to start up and be available for users, that means each of your instances will take two minutes until they are available to your users.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>You'll want to take this startup time into consideration when determining how fast you want to scale.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>You'll also need to think about how your application handles state.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>When the application scales in, any state stored on the machine is no longer available.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>If a user connects to an instance that doesn't have its state, it could force them to sign in or re-select data, leading to a poor user experience.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A common pattern is to externalize state to another service like Redis Cache or SQL Database, making your web servers stateless.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Now that our web front ends are stateless, we don't need to worry about which individual instances are available.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>They are all doing the same job and are deployed in the same way.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Throttling</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>We've established that the load on an application will vary over time.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>This may be due to the number of active or concurrent users and the activities being performed.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>While we could use autoscaling to add capacity, we could also use a throttling mechanism to limit the number of requests from a source.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>We can safeguard performance limits by putting known limits into place at the application level, preventing the application from breaking.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Throttling is most frequently used in applications exposing API endpoints.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Once the application has identified that it would breach a limit, throttling could begin and ensure the overall system SLA isn't breached.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>For example, if we exposed an API for customers to get data, we could limit the number of requests to 100 per minute.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>If any single customer exceeded this limit, we could respond with an HTTP 429 status code, including the wait time before another request can successfully be submitted.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Serverless</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Serverless computing provides a cloud-hosted execution environment that runs your apps but completely abstracts the underlying environment.</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>You create an instance of the service, and you add your code; no infrastructure management or maintenance is required, or even allowed.</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>You configure your serverless apps to respond to events.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>This could be a REST endpoint, a timer, or a message received from another Azure service.</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The serverless app runs only when it's triggered by an event.</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Infrastructure isn't your responsibility.</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Scaling and performance are handled automatically, and you are billed only for the exact resources you use.</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>There's no need to even reserve capacity.</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Azure Functions, Azure Container Instances, and Logic Apps are examples of serverless computing available on Azure.</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Let's revisit the Lamna Healthcare example.</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>There could be some potential for cost saving and ease of management.</source>
+        </trans-unit><trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Consider an API endpoint.</source>
+        </trans-unit><trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Instead of hosting the API in Azure App Service, where they must pay for reserved capacity, they could use an Azure Function App triggered by an HTTP request.</source>
+        </trans-unit><trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Azure functions would enable the team to pay only for the resources required to process each transaction.</source>
+        </trans-unit><trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The cost and scale would be directly in line with the number of transactions in the system.</source>
+        </trans-unit><trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Containers</source>
+        </trans-unit><trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>A container is a method running applications in a virtualized environment.</source>
+        </trans-unit><trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>A virtual machine is virtualized at the hardware level, where a hypervisor makes it possible to run multiple virtualized operating systems on a single physical server.</source>
+        </trans-unit><trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Containers take the virtualization up a level.</source>
+        </trans-unit><trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The virtualization is done at the OS level, making it possible to run multiple identical application instances within the same OS.</source>
+        </trans-unit><trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Containers are well suited to scale out scenarios.</source>
+        </trans-unit><trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>They are meant to be lightweight and are designed to be created, scaled out, and stopped dynamically as environment and demand change.</source>
+        </trans-unit><trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>A benefit of using containers is the ability to run multiple isolated applications on each virtual machine.</source>
+        </trans-unit><trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Since containers themselves are secured and isolated at a kernel level, you don't necessarily need separate VMs for separate workloads.</source>
+        </trans-unit><trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>While you can run containers on virtual machines, there are a couple of Azure services that focus on easing the management and scaling of containers:</source>
+        </trans-unit><trans-unit id="222" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Kubernetes Service (AKS)<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Azure Kubernetes Service allows you to set up virtual machines to act as your nodes.</source>
+        </trans-unit><trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Azure hosts the Kubernetes management plane and only bills for the running worker nodes that host your containers.</source>
+        </trans-unit><trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>To increase the number of your worker nodes in Azure, you could use the Azure CLI to increase that manually.</source>
+        </trans-unit><trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>At time of writing, there is a preview of Cluster Autoscaler on AKS available that enables autoscaling of your worker nodes.</source>
+        </trans-unit><trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>On your Kubernetes cluster, you could use the Horizontal Pod Autoscaler to scale out the number of instances of the container to be deployed.</source>
+        </trans-unit><trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>AKS can also scale with the Virtual Kubelet described below.</source>
+        </trans-unit><trans-unit id="229" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Container Instances (ACI)<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Azure Container Instances is a serverless approach that lets you create and execute containers on demand.</source>
+        </trans-unit><trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>You're charged only for the execution time per second.</source>
+        </trans-unit><trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>You can use Virtual Kubelet to connect Azure Container Instances into your Kubernetes environment, including AKS.</source>
+        </trans-unit><trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>With Virtual Kubelet, when your Kubernetes cluster demands additional container instances, those demands can be met from ACI.</source>
+        </trans-unit><trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Since ACI is serverless, there is no need to have reserved capacity.</source>
+        </trans-unit><trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>You can therefore take advantage of the control and flexibility of Kubernetes scaling with the per-second-billing of serverless.</source>
+        </trans-unit><trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>At time of writing, the Virtual Kubelet is described as experimental software and should not be used in production scenarios.</source>
+        </trans-unit><trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Scaling at Lamna Healthcare</source>
+        </trans-unit><trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Lamna Healthcare operates a patient management and booking system.</source>
+        </trans-unit><trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The management system handles appointment bookings and patient records across dozens of hospitals and medical facilities.</source>
+        </trans-unit><trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The local health service is running at full capacity, and no growth is expected at the moment.</source>
+        </trans-unit><trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The system is running on a PHP website hosted in Azure App Service.</source>
+        </trans-unit><trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The load pattern of the application is predictable, as they primarily operate Monday to Friday between the hours of 9 to 5.</source>
+        </trans-unit><trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>From Tuesday through to Friday, the system averages 1,200 transactions per hour across the entire system.</source>
+        </trans-unit><trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>During the weekend, it handles 500 transactions per hour.</source>
+        </trans-unit><trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>After the quiet of the weekend, Mondays are busy with an average of 2,000 transactions per hour.</source>
+        </trans-unit><trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The application is hosted on an S1 App Service plan, but the operations team have noticed a high level of CPU utilization (over 95%) across all instances.</source>
+        </trans-unit><trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The high usage is having an impact on the processing and loading times of the application.</source>
+        </trans-unit><trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>In a cloud environment, having highly utilized resources is not necessarily a bad thing.</source>
+        </trans-unit><trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>It means that they are getting value for their money, as the resources deployed are being well used.</source>
+        </trans-unit><trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The team decide to <bpt id="p1">_</bpt>scale up<ept id="p1">_</ept> the App Service plan level for the deployed instances from S1 (1 vCPU and 1.75 GB of RAM) to S2 (2 vCPUs and 3 GB of RAM).</source>
+        </trans-unit><trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>They easily achieve this using the Azure portal, but could have achieved the same thing using a single command in the Azure CLI, Azure PowerShell, or using Resource Manager templates.</source>
+        </trans-unit><trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The team decide that they want to automate the number of instances deployed based upon a schedule, as their load profile is predictable.</source>
+        </trans-unit><trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>They configure the App Service plan's autoscale schedule.</source>
+        </trans-unit><trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Let's assume two instances sufficiently handle 500 transactions per hour.</source>
+        </trans-unit><trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The team could then scale to six instances for Tuesday - Friday and eight instances for a Monday to meet the requirements (based upon insight and monitoring from load tests).</source>
+        </trans-unit><trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Autoscale also gives them an added benefit, preparing for those unforeseen scenarios.</source>
+        </trans-unit><trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The site may suddenly take higher than expected load on the weekend (more appointments in the winter season because of colds and flu).</source>
+        </trans-unit><trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The team can set up autoscale to increase by one instance when CPU percentage is above 70% and reduce by one instance when usage is below 15%.</source>
+        </trans-unit><trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The team have used the throttling pattern inside of the patient booking API they have exposed behind an Azure API Management instance.</source>
+        </trans-unit><trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>This helps prevent the system from performing poorly by only allowing a certain volume of throughput through the system.</source>
+        </trans-unit><trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>We've talked about scaling up and down and scaling in and out, and how you can leverage these options in your architecture.</source>
+        </trans-unit><trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>We've also looked at how serverless technologies and containers can help evolve your scaling capabilities.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-Introduction-to-Azure-Artificial-Intelligence.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-Introduction-to-Azure-Artificial-Intelligence.015328021c839325c2fc8a513bf2bfb9677db130.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eafa03ab467ced3a378cac02982d291d662227bc</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\wwl-mba\azure-artificial-intelligence\includes\1-Introduction-to-Azure-Artificial-Intelligence.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>What is Artificial Intelligence?</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Artificial intelligence (AI) is the capability of a machine to imitate intelligent human behavior: from analyzing, to learning, reasoning, and problem-solving, and more.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Through AI, machines can analyze data, text, and images, comprehend speech, interact in natural ways, and make predictions using data—such as when a machine needs maintenance, or what type of product a customer might want to purchase.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Understand the Microsoft vision for Azure AI.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Identify ways you can use Azure AI.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Define what Azure AI is, how it works, and how it’s built.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Icon indicating play video</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Watch this video to see how AI is transforming industries and empowering individuals to achieve more across the globe.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>As we saw in the video, AI is changing the world of agriculture, healthcare, and much more.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In the next section we will look at why to use Azure for AI.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Azure AI</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Why Azure for AI?</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Azure is a flexible platform that allows your organization to take advantage of Microsoft AI services and capabilities.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can build the next generation of smart applications where your data lives: in the cloud, on-premises, and with your devices on the intelligent edge.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Only Azure empowers you with:</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Decades of breakthrough research achieving human parity in vision, speech, and language.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>AI technology that Microsoft runs on.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The most comprehensive compliance and security offerings.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Icon indicating play video</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Watch this video to learn about the foundational elements of Azure AI, then see how AI is powering multiple Microsoft products, and finally review the three Azure AI focus areas.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>As you see from these examples, artificial intelligence is already enhancing the products and services that you may use in your work.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Icon of lightbulb</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Can you think of other examples where AI has changed the products you use or enhanced an experience? Take a moment to think about some ways you or your business interact with AI.<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In the next units, we’ll take a deeper look at knowledge mining, machine learning, and AI apps and agents.</source>
+        </trans-unit></group></body></file></xliff>

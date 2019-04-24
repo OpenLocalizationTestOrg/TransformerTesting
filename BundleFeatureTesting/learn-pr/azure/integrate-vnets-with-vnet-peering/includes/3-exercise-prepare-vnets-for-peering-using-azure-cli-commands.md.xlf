@@ -1,0 +1,127 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-exercise-prepare-vnets-for-peering-using-azure-cli-commands.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-exercise-prepare-vnets-for-peering-using-azure-cli-commands.3342d7301607ba52475ac8568b7f8abf4c50d564.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">409c95546e68e4f23d15e86214db50fcadb7528f</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\integrate-vnets-with-vnet-peering\includes\3-exercise-prepare-vnets-for-peering-using-azure-cli-commands.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Let's say your company is now ready to implement virtual network peering.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You want to connect systems that are deployed in different virtual networks.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>To test out this plan, you'll start by creating virtual networks to support the services your company is already running in Azure.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You need three virtual networks:</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Sales<ept id="p1">**</ept> virtual network is deployed in <bpt id="p2">**</bpt>North Europe<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Sales systems use this virtual network to process data that's added after a customer is engaged.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The Sales team wants access to Marketing data.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Marketing<ept id="p1">**</ept> virtual network is deployed in <bpt id="p2">**</bpt>North Europe<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Marketing systems use this virtual network.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Members of the Marketing team regularly chat with the Sales team.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To share their data with the Sales team, they must download it because the Sales and Marketing systems aren't connected.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Research<ept id="p1">**</ept> virtual network is deployed in <bpt id="p2">**</bpt>West Europe<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Research systems use this virtual network.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Members of the Research team have a logical working relationship with Marketing, but they don't want the Sales team to have direct access to their data.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A diagram of virtual networks you need to create</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You'll create the following resources:</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Virtual network</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Region</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Virtual network address space</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Subnet</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Subnet address space</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>SalesVNet</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>North Europe</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>10.1.0.0/16</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Apps</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>10.1.1.0/24</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>MarketingVNet</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>North Europe</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>10.2.0.0/16</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Apps</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>10.2.1.0/24</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>ResearchVNet</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>West Europe</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>10.3.0.0/16</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Data</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>10.3.1.0/24</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Create the virtual networks</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>In Cloud Shell, run the following command to create the virtual network and subnet for the <bpt id="p1">**</bpt>Sales<ept id="p1">**</ept> systems.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Run the following command to create the virtual network and subnet for the <bpt id="p1">**</bpt>Marketing<ept id="p1">**</ept> systems.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Run the following command to create the virtual network and subnet for the <bpt id="p1">**</bpt>Research<ept id="p1">**</ept> systems.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Confirm the virtual network configuration</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Let's take a quick look at what you created.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In Cloud Shell, run the following command to view the virtual networks.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You should see an output like this:</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Create virtual machines in each virtual network</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Now you'll deploy some Ubuntu virtual machines (VMs) in each of the virtual networks.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>These VMs simulate the services in each virtual network.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>In the final unit of this module, you'll use these VMs to test connectivity between the virtual networks.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>In Cloud Shell, run the following command to create an Ubuntu VM in the <bpt id="p1">**</bpt>Apps<ept id="p1">**</ept> subnet of <bpt id="p2">**</bpt>SalesVNet<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>In the command, replace <ph id="ph1">`&lt;password&gt;`</ph> with a password that meets the <bpt id="p1">[</bpt>requirements for Linux VMs<ept id="p1">](https://docs.microsoft.com/azure/virtual-machines/linux/faq?azure-portal=true#what-are-the-password-requirements-when-creating-a-vm)</ept>.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Note this password for later use.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`--no-wait`</ph> parameter in this command lets you continue working in Cloud Shell while the VM is building.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Run the following command to create another Ubuntu VM in the <bpt id="p1">**</bpt>Apps<ept id="p1">**</ept> subnet of <bpt id="p2">**</bpt>MarketingVNet<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Replace <ph id="ph1">`&lt;password&gt;`</ph> with a password that meets the <bpt id="p1">[</bpt>requirements for Linux VMs<ept id="p1">](https://docs.microsoft.com/azure/virtual-machines/linux/faq?azure-portal=true#what-are-the-password-requirements-when-creating-a-vm)</ept>.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Note this password for later use.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Run the following command to create an Ubuntu VM in the <bpt id="p1">**</bpt>Data<ept id="p1">**</ept> subnet of <bpt id="p2">**</bpt>ResearchVNet<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Replace <ph id="ph1">`&lt;password&gt;`</ph> with a password that meets the <bpt id="p1">[</bpt>requirements for Linux VMs<ept id="p1">](https://docs.microsoft.com/azure/virtual-machines/linux/faq?azure-portal=true#what-are-the-password-requirements-when-creating-a-vm)</ept>.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Note this password for later use.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The VMs might take several minutes to reach a running state.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>To confirm that the VMs are running, in the following command, replace <ph id="ph1">`&lt;vm-name&gt;`</ph> with the name of the VM you want to check.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Then run the command.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">**</bpt>ProvisioningState<ept id="p1">**</ept> of <bpt id="p2">**</bpt>Succeeded<ept id="p2">**</ept> and a <bpt id="p3">**</bpt>PowerState<ept id="p3">**</ept> of <bpt id="p4">**</bpt>VM running<ept id="p4">**</ept> indicates a successful deployment.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>When your VMs are running, you're ready to move on.</source>
+        </trans-unit></group></body></file></xliff>

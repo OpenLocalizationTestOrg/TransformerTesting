@@ -1,0 +1,111 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-connect-dw-using-ssms.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-connect-dw-using-ssms.1c6dd0ee1e5949bbafb099174e4227bc03b43405.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">824a3c00131e3cc15b0dc1cde93a555ae80143a5</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\query-azure-sql-data-warehouse\includes\3-connect-dw-using-ssms.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>There are many applications you can use as a client for the Azure SQL Data Warehouse server.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Data engineers often use SQL Server Management Studio to access Microsoft database products, such as Azure SQL Database, Azure SQL Data Warehouse, and on-premises SQL Server instances.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Data analysts usually use Excel or Power BI as their client application to query the database.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Developers use Visual Studio to write all kinds of third-party applications to query the database.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>SQL Server Management Studio is a common tool, so let's see how to use it to query the data warehouse.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To connect to the database, create a <bpt id="p1">_</bpt>connection string<ept id="p1">_</ept>.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Configure SQL Server Management Studio to communicate with a database</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>A database connection string identifies the protocol, URL, port, and security options that are used to communicate with the database.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The client uses this information to establish a network connection to the database.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Show database connection<ept id="p1">**</ept> on the <bpt id="p2">**</bpt>Overview<ept id="p2">**</ept> page to get the connection string in a variety of framework formats:</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>ADO.NET</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>JDBC</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>ODBC</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>PHP</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For example, here's the connection string for ADO.NET.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Configuring ADO.NET</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Notice that the connection string identifies the protocol as TCP/IP, includes the URL, and uses the port 1433, which is the default in this case.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>TCP:1433 is a well-known and public port.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>After your SQL Data Warehouse server's name is made public, it might invite denial-of-service (DoS) attacks.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To protect the server from such attacks, configure the Azure firewall to restrict network access to specific IP addresses.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Configure the firewall</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To configure the firewall rules, go back to the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> page.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Server name<ept id="p1">**</ept> link on the <bpt id="p2">**</bpt>SQL Data Warehouse<ept id="p2">**</ept> information page to go to the underlying Azure SQL database.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Selecting server name</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Show firewall settings<ept id="p1">**</ept> link.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Configuring the firewall</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>From here, you can add a single IP address, an address segment, or a virtual network configuration to connect it securely to specific Azure regions or your on-premises networks.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For convenience, the portal lists the IP address of your computer.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Add client IP<ept id="p1">**</ept> to add the client IP address as a rule.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You also can add a set of known IP addresses or segments in the rules section.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Adding IP address to firewall in DB configuration</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Download SQL Server Management Studio</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>After you have the connection string information, you can connect to the database with a client application.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For this exercise, we use SQL Server Management Studio.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This free tool runs on Windows.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>If you don't have it installed on your computer, you can use these <bpt id="p1">[</bpt>instructions<ept id="p1">](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017)</ept> to download and install it.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>SQL Server Management Studio is Microsoft's preferred tool, but you can also use other third-party tools on other platforms.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>If the tool can connect to a SQL Server database and perform T-SQL queries, it will likely work for the following steps.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Connect to the database with SQL Server Management Studio</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Start SQL Server Management Studio.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Starting SQL Server Management Studio</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Connect to Server<ept id="p1">**</ept> dialog box:</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Enter the server name as <bpt id="p1">**</bpt>demo-dw-server.database.windows.net<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Authentication<ept id="p1">**</ept> type as <bpt id="p2">**</bpt>SQL Server Authentication<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Enter the sign-in credentials.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If you forget the admin credentials, you can get the admin ID from the database overview.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>You also can reset the password.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Connect<ept id="p1">**</ept> to establish the network connection.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Connecting to SQL Server by using SQL Server Management Studio</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Because this is an Azure SQL Server database, you're prompted to sign in to Azure.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Sign in by using the same account you used to create the data warehouse.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>New Firewall Rule dialog box in SQL Server Management Studio</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The IP address of your computer was added to the firewall, so your connection should be successful.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The SQL Data Warehouse server node and its database appear in the Object Explorer panel of SQL Server Management Studio.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>SQL Server Management Studio Object Explorer expanded to show the database</source>
+        </trans-unit></group></body></file></xliff>

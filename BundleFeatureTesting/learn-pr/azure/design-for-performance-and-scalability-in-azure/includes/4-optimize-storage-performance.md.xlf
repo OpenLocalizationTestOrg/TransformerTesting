@@ -1,0 +1,139 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-optimize-storage-performance.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-optimize-storage-performance.8c12cfcf069a34ecf91c4604deab580b22cdba36.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8378c0066ae9ff060f2edcde02c385d3ecf640fd</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\design-for-performance-and-scalability-in-azure\includes\4-optimize-storage-performance.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>It's important to include storage performance considerations in your architecture.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Just like network latency, poor performance at the storage layer can impact your end-users' experience.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>How would you optimize your data storage?</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>What things do you need to consider to ensure that you're not introducing storage bottlenecks into your architecture?</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Here, we'll take a look at how to optimize your storage performance in your architecture.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Optimize virtual machine storage performance</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Let's first look at optimizing storage for virtual machines.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Disk storage plays a critical role in the performance of your virtual machines, and selecting the right disk type for your application is an important decision.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Different applications are going to have different storage requirements.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Your application may be sensitive to latency of disk reads and writes or it may require the ability to handle a large number of input/output operations per second (IOPS) or greater overall disk throughput.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>When building an IaaS workload, which type of disk should you use?</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>There are four options:</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Local SSD storage<ept id="p1">**</ept> - Each VM has a temporary disk that is backed by local SSD storage.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The size of this disk varies depending on the size of the virtual machine.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Since this disk is local SSD, the performance is high, but data may be lost during a maintenance event or a redeployment of the VM.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This disk is only suitable for temporary storage of data that you do not need permanently.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This disk is great for the page or swap file, and for things like tempdb in SQL Server.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>There is no charge for this storage.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>It's included in the cost of the VM.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Standard storage HDD<ept id="p1">**</ept> - This is spindle disk storage and may fit well where your application is not bound by inconsistent latency or lower levels of throughput.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A dev/test workload where guaranteed performance isn't needed is a great use case for this disk type.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Standard storage SSD<ept id="p1">**</ept> - This is SSD backed storage and has the low latency of SSD but lower levels of throughput.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A non-production web server would be a good use case for this disk type.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Premium storage SSD<ept id="p1">**</ept> - This SSD backed storage is well-suited for those workloads that are going into production, require the greatest reliability and demand consistent low latency, or need high levels of throughput and IOPS.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Since these disks have greater performance and reliability capabilities, they are recommended for all production workloads.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Premium storage can attach only to specific virtual machine (VM) sizes.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Premium storage capable sizes are designated with an "s" in the name, for example D2<bpt id="p1">**</bpt>s<ept id="p1">**</ept>_v3 or Standard_F2<bpt id="p2">**</bpt>s<ept id="p2">**</ept>_v2.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Any virtual machine type (with or without an "s" in the name) can attach standard storage HDD or SSD drives.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Disks can be striped using a striping technology (such as Storage Spaces Direct on Windows or mdadm on Linux) to increase the throughput and IOPS by spreading disk activity across multiple disks.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Using disk striping allows you to really push the limits of performance for disks, and is often seen in high-performance database systems and other systems with intensive storage requirements.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When relying on virtual machine workloads, you'll need to evaluate the performance requirements of your application to determine the underlying storage you'll provision for your virtual machines.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Optimize storage performance for your application</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>While you can use differing storage technologies to improve the raw disk performance, you can also address the performance of access to data at the application layer.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Let's take a look at a few ways you can do this.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Caching</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A common approach to improve application performance is to integrate a caching layer between your application and your data store.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A cache typically stores data in memory and allows for fast retrieval.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This data can be frequently accessed data, data you specify from a database, or temporary data such as user state.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You'll have control over the type of data stored, how often it refreshes, and when it expires.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>By co-locating this cache in the same region as your application and database, you'll reduce the overall latency between the two.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Pulling data out of the cache will almost always be faster than retrieving the same data from a database, so by using a caching layer you can substantially improve the overall performance of your application.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The following illustration shows how an application retrieves data from a database, stores it in a cache, and uses the cached value as needed.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>An illustration showing that retrieving data from cache is faster than retrieving from a database.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Azure Cache for Redis is a caching service on Azure that stores data in memory.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>It's based upon the open-source Redis cache and is a fully managed service offering by Microsoft.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>You select the performance tier that you require and configure your application to use the service.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Polyglot persistence</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Polyglot persistence is the usage of different data storage technologies to handle your storage requirements.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Consider an e-commerce example.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>You may store application assets in a blob store, product reviews and recommendations in a NoSQL store, and user profile or account data in a SQL database.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The following illustration shows how an application might use multiple data storage techniques to store different types of data.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>An illustration showing usage of different data storage methods within the same application to increase performance and reduce cost.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This is important, as different data stores are designed for certain use cases or may be more accessible because of cost.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>As an example, storing blobs in a SQL database may be costly and slower to access than directly from a blob store.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Maintaining data consistency across distributed data stores can be a significant challenge.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The issue is that strategies such as serialization and locking only work well if all application instances share the same data store, and the application is designed to ensure that the locks are very short-lived.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>However, if data is partitioned or replicated across different data stores, locking and serializing data access to maintain consistency can become an expensive overhead that impacts the throughput, response time, and scalability of a system.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Therefore, most modern distributed applications do not lock the data that they modify, and they take a rather more relaxed approach to consistency, known as eventual consistency.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Eventual consistency means that replica data stores will eventually converge if there are no further writes.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If a write is made to one of the data stores, reads from another may provide slightly out-of-date data.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Eventual consistency enables higher scale because there is a low latency for reads and writes, rather than waiting to check if information is consistent across all stores.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Lamna Healthcare example</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Lamna Healthcare's patient booking system is hosted across two Azure regions, West Europe and Australia East.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>They're using virtual machines as the front-end nodes to deploy their website, and have Azure SQL DB deployed in West Europe as primary and Australia East as a readable secondary.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Their front-end nodes don't require high levels of disk throughput, but do require consistent latency performance and production reliability and have used Premium SSD backed storage.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>They are hosting an Azure Cache for Redis locally in each Azure region to store the common user requests and availability of doctors.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Caching has been implemented to optimize the performance of the most common data read activities observed on the application.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>We've covered a few examples of how you can improve storage performance in your infrastructure layer by choosing the right disk architecture and at the application level through the use of caching and selecting the right data platform for your data.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A properly architected solution will ensure that access to data performs as well as possible.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.1ce789e905b65f9c90b86588a1ef5663af0c72c3.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2a6356c81409c5d868d054d87f2a73cce0863007</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\secure-your-azure-virtual-machine-disks\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Suppose you work for a warehouse company that's transitioning to the cloud.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Currently, you use a hybrid environment consisting of on-premises Windows servers, Azure Virtual Machines (VMs), and Azure Active Directory.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Your company has developed a custom in-house business-to-business (B2B) infrastructure, supporting secure order management with your suppliers.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Some of your suppliers use Linux servers, and you run several Linux servers in Azure to support these suppliers.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Your security policies mandate that data must be encrypted using your own encryption keys, and that your company is responsible for managing these keys.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Your admin team already uses PowerShell for on-premises server management.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You'll deploy and test many Azure VMs, and intend to use Azure Resource Manager templates to automate this process.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Here, we'll look at the types of protection available for VM disks, so you can decide if Azure Disk Encryption (ADE) is the best choice for a given scenario.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>We'll then enable ADE on existing VM disks, and use templates to enable ADE for new VM deployments.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Determine which encryption method is best for your VM</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Encrypt existing VM disks using the Azure portal</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Encrypt existing VM disks using PowerShell</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Modify Azure Resource Manager templates to automate disk encryption on new VMs</source>
+        </trans-unit></group></body></file></xliff>

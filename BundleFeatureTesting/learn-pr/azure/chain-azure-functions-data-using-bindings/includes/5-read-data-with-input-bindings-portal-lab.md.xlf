@@ -1,0 +1,423 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-read-data-with-input-bindings-portal-lab.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-read-data-with-input-bindings-portal-lab.2ad14fa75449025f629230103bb349898222ebbe.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9e7c0c1494e41be58bd8c5aa67b656648903fd0e</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\chain-azure-functions-data-using-bindings\includes\5-read-data-with-input-bindings-portal-lab.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Imagine that you want to create a simple bookmark lookup service.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Your service is read-only initially.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>If users want to find an entry, they send a request with the ID of the entry and you return the URL.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The following flowchart explains the flow:</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Flow diagram showing the process of finding a bookmark in our Cosmos DB back-end.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When the Azure function receives a request with the bookmark id, it first checks whether the request is valid, if not an error response is generated.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For valid requests, the function checks if the bookmark id is present in the Cosmos DB, if not present an error response is generated.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If the bookmark id is found, a success response is generated.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When users send you a request with some text, you try to find an entry in your back-end database that contains this text as a key or ID.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You return a result that indicates whether you found the entry.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You need to store the data somewhere.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In this flowchart, the data store is an Azure Cosmos DB instance.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>But how do you connect to a database from a function and read data?</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In the world of functions, you configure an <bpt id="p1">*</bpt>input binding<ept id="p1">*</ept> for that job.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Configuring a binding through the Azure portal is straightforward.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>As you'll see shortly, you don't have to write code for such tasks as opening a storage connection.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The Azure Functions runtime and bindings take care of those tasks for you.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Create an Azure Cosmos DB account</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This unit is not intended to be a tutorial on Azure Cosmos DB.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>There is a complete learning path on Cosmos DB if you are interested in learning more after finishing this module.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Create a database account</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A database account is a container for managing one or more databases.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Before we can create a database, we need to create a database account.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Make sure you are signed into the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept> using the same account you activated the sandbox with.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Create a resource<ept id="p1">**</ept> button found on the upper left-hand corner of the Azure portal, then select <bpt id="p2">**</bpt>Databases<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Azure Cosmos DB<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Create Azure Cosmos DB Account<ept id="p1">**</ept> page, enter the settings for the new Azure Cosmos DB account.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Setting</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Value</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Subscription</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Concierge subscription</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The Azure subscription that you want to use for this Azure Cosmos DB account.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Resource Group</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;rgn&gt;</bpt>[sandbox resource group name]<ept id="p1">&lt;/rgn&gt;</ept></source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This field is pre-populated with the resource group from your sandbox.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Account Name</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Enter a unique name<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Enter a unique name to identify this Azure Cosmos DB account.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Because <ph id="ph1">`documents.azure.com`</ph> is appended to the name that you provide to create your URI, use a unique but identifiable name.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The account name can contain only lowercase letters, numbers, and the hyphen (-) character, and it must contain 3 to 50 characters.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>API</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Core (SQL)</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The API determines the type of account to create.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Azure Cosmos DB provides five APIs to suit the needs of your application: SQL (document database), Gremlin (graph database), MongoDB (document database), Azure Table, and Cassandra, each of which currently require a separate account.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Core (SQL)<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>At this time, the Azure Cosmos DB trigger, input bindings, and output bindings only work with SQL API and Graph API accounts.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Location</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Select from the list</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Choose the nearest one to you that is also one of the allowed <bpt id="p1">*</bpt>Sandbox regions<ept id="p1">*</ept> listed below.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Leave all other fields in the <bpt id="p1">**</bpt>New account<ept id="p1">**</ept> blade at their default values.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Sandbox regions</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Review + create<ept id="p1">**</ept> to review and validate the configuration.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>On the next screen, select <bpt id="p1">**</bpt>Create<ept id="p1">**</ept> to provision and deploy the database account.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Deployment can take some time.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>So, wait for a <bpt id="p1">**</bpt>Deployment succeeded<ept id="p1">**</ept> message in the Notification Hub before proceeding.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Notification that database account deployment has completed</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Go to resource<ept id="p1">**</ept> to navigate to the database account in the portal.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>We'll add a collection to the database next.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Add a collection</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>In Cosmos DB, a <bpt id="p1">*</bpt>container<ept id="p1">*</ept> holds arbitrary user-generated entities.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>For SQL and MongoDB API accounts, a container maps to a <bpt id="p1">*</bpt>collection<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Inside a collection, we store documents.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Let's use the Data Explorer tool in the Azure portal to create a database and collection.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Data Explorer<ept id="p1">**</ept><ph id="ph1"> &gt; </ph><bpt id="p2">**</bpt>New Collection<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Add collection<ept id="p1">**</ept>, enter the settings for the new collection.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Add Collection<ept id="p1">**</ept> area is displayed on the far right.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>You may need to scroll right to see it.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Setting</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Suggested value</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Database ID</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Database names must contain from 1 through 255 characters, and they cannot contain /, <ph id="ph1">\\</ph>, #, ?, or a trailing space.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>You are free to enter whatever you want here, but we suggest <ph id="ph1">[!INCLUDE [cosmos-db-name](./cosmos-db-name.md)]</ph> as the name for the new database, and that's what we'll refer to in this unit.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Collection ID</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Enter <ph id="ph1">[!INCLUDE [cosmos-coll-name](./cosmos-coll-name.md)]</ph> as the name for our new collection.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Collection IDs have the same character requirements as database names.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Partition key</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>/id<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The partition key specifies how the documents in Cosmos DB collections are distributed across logical data partitions.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>We will use the <ph id="ph1">`id`</ph> field as a convenience, as we are not concerned with database performance in this module.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>If you would like to learn more about Cosmos DB partition key strategies, please explore the Microsoft Learn Cosmos DB modules.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Throughput</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>1000 RU</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Change the throughput to 1000 request units per second (RU/s).</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If you want to reduce latency, you can scale up the performance later.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The Data Explorer displays the new database and collection.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>So, now we have a database.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Inside the database, we've defined a collection.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Next, we'll add some data, also known as documents.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Add test data</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>We've defined a collection in our database called <ph id="ph1">[!INCLUDE [cosmos-coll-name](./cosmos-coll-name.md)]</ph>.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>We want to store a URL and ID in each document, like a list of web page bookmarks.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>You'll add data to your new collection using Data Explorer.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>In Data Explorer, the new database appears in the Collections pane.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Expand the <ph id="ph1">[!INCLUDE [cosmos-db-name](./cosmos-db-name.md)]</ph> database, expand the <ph id="ph2">[!INCLUDE [cosmos-coll-name](./cosmos-coll-name.md)]</ph> collection, select <bpt id="p1">**</bpt>Documents<ept id="p1">**</ept>, and then select <bpt id="p2">**</bpt>New Document<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Replace the default content of the new document with the following JSON.</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>After you've added the JSON to the <bpt id="p1">**</bpt>Documents<ept id="p1">**</ept> tab, select <bpt id="p2">**</bpt>Save<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Notice that there are more properties than the ones we added.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>They all begin with an underline (_rid, _self, _etag, _attachments, _ts).</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>These are properties generated by the system to help manage the document.</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Property</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The resource ID is a unique identifier that is also hierarchical per the resource stack on the resource model.</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>It is used internally for placement and navigation of the document resource.</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The unique addressable URI for the resource.</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Required for optimistic concurrency control.</source>
+        </trans-unit><trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The addressable path for the attachments resource.</source>
+        </trans-unit><trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The time stamp of the last update of this resource.</source>
+        </trans-unit><trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Let's add a few more documents into the collection.</source>
+        </trans-unit><trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Create four more documents with the following content.</source>
+        </trans-unit><trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Remember to save your work.</source>
+        </trans-unit><trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>When you've finished, your collection should look like the following:</source>
+        </trans-unit><trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The SQL API UI in the portal, showing the list of entries you added to your bookmarks collection</source>
+        </trans-unit><trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>You now have a few entries in your bookmark collection.</source>
+        </trans-unit><trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Our scenario will work as follows.</source>
+        </trans-unit><trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>If a request arrives with, for example, "id=docs", you'll look up that ID in your bookmarks collection and return the URL <ph id="ph1">`https://docs.microsoft.com/azure`</ph>.</source>
+        </trans-unit><trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Let's make an Azure function that looks up values in this collection.</source>
+        </trans-unit><trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Create your function</source>
+        </trans-unit><trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Navigate to the function app that you created in the preceding unit.</source>
+        </trans-unit><trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> (<bpt id="p2">**</bpt><ph id="ph1">+</ph><ept id="p2">**</ept>) button next to <bpt id="p3">**</bpt>Functions<ept id="p3">**</ept> to start the function creation process.</source>
+        </trans-unit><trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The page displays the complete set of supported triggers.</source>
+        </trans-unit><trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>HTTP trigger<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Fill out the <bpt id="p1">**</bpt>New Function<ept id="p1">**</ept> dialog that appears to the right using the following values.</source>
+        </trans-unit><trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit><trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Value</source>
+        </trans-unit><trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Name</source>
+        </trans-unit><trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Authorization level</source>
+        </trans-unit><trans-unit id="229" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Function<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Create<ept id="p1">**</ept> to create your function.</source>
+        </trans-unit><trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>This action opens the <bpt id="p1">*</bpt>index.js<ept id="p1">*</ept> file in the code editor and displays a default implementation of the HTTP-triggered function.</source>
+        </trans-unit><trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Verify the function</source>
+        </trans-unit><trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>You can verify what we have done so far by testing our new function as follows:</source>
+        </trans-unit><trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>In your new function, click <bpt id="p1">**</bpt>Get function URL<ept id="p1">**</ept> at the top right, select <bpt id="p2">**</bpt>default (Function key)<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Copy<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Paste the function URL you copied into your browser's address bar.</source>
+        </trans-unit><trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Add the query string value <ph id="ph1">`&amp;name=&lt;yourname&gt;`</ph> to the end of the URL and press <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept> to execute the request.</source>
+        </trans-unit><trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>You should get a response from the Azure Function right in the browser.</source>
+        </trans-unit><trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Now that we have our bare-bones function working, let's turn our attention to reading data from our Azure Cosmos DB, or in our scenario, our <ph id="ph1">[!INCLUDE [cosmos-coll-name](./cosmos-coll-name.md)]</ph> collection.</source>
+        </trans-unit><trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Add an Azure Cosmos DB input binding</source>
+        </trans-unit><trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>To read data from the database, you need to define an input binding.</source>
+        </trans-unit><trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>As you'll see, you can configure a binding that can talk to your database in just a few steps.</source>
+        </trans-unit><trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Integrate<ept id="p1">**</ept> in the left pane to open the integration tab. The template you used created an HTTP trigger and an HTTP output binding.</source>
+        </trans-unit><trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Now add your new Azure Cosmos DB input binding.</source>
+        </trans-unit><trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>New Input<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>Inputs<ept id="p2">**</ept> column.</source>
+        </trans-unit><trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>A list of all possible input binding types is displayed.</source>
+        </trans-unit><trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>In the list, select <bpt id="p1">**</bpt>Azure Cosmos DB<ept id="p1">**</ept>, and then select <bpt id="p2">**</bpt>Select<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>This action opens the Azure Cosmos DB input configuration page.</source>
+        </trans-unit><trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Next, you'll set up a connection to your database.</source>
+        </trans-unit><trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>If the following message appears in the <bpt id="p1">**</bpt>Azure Cosmos DB input<ept id="p1">**</ept> configuration UI telling you that you must install an extension, select <bpt id="p2">**</bpt>Install<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The default JavaScript implementation of an HTTP-triggered Azure function</source>
+        </trans-unit><trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>It can take a while to install an extension, so please wait for installation to complete before proceeding to the next step.</source>
+        </trans-unit><trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Next to the <bpt id="p1">**</bpt>Azure Cosmos DB account connection<ept id="p1">**</ept> box, select <bpt id="p2">**</bpt>new<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>This action opens the <bpt id="p1">**</bpt>Connection<ept id="p1">**</ept> window, which already has <bpt id="p2">**</bpt>Azure Cosmos DB account<ept id="p2">**</ept> and your Azure subscription selected.</source>
+        </trans-unit><trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The only thing left to do is to select a database account ID.</source>
+        </trans-unit><trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>In the "Create a database account" section, you had to supply an ID value.</source>
+        </trans-unit><trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Find that value in the <bpt id="p1">**</bpt>Database Account<ept id="p1">**</ept> drop-down list, and then click <bpt id="p2">**</bpt>Select<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>A new connection to the database is configured and is shown in the <bpt id="p1">**</bpt>Azure Cosmos DB account connection<ept id="p1">**</ept> field.</source>
+        </trans-unit><trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>If you're curious about what is actually behind this abstract name, click <bpt id="p1">*</bpt>show value<ept id="p1">*</ept> to reveal the connection string.</source>
+        </trans-unit><trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>You want to look up a bookmark with a specific ID, so let's tie the ID we receive to the binding.</source>
+        </trans-unit><trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Document ID (optional)<ept id="p1">**</ept> field, enter <ph id="ph1">`{id}`</ph>.</source>
+        </trans-unit><trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>This syntax is known as a <bpt id="p1">*</bpt>binding expression<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The function is triggered by an HTTP request that uses a query string to specify the ID to look up.</source>
+        </trans-unit><trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Since IDs are unique in our collection, the binding will return either 0 (not found) or 1 (found) documents.</source>
+        </trans-unit><trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Carefully fill out the remaining fields on this page using the values in the following table.</source>
+        </trans-unit><trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>At any time, you can click on the information icon to the right of each field name to learn more about the purpose of each field.</source>
+        </trans-unit><trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Setting</source>
+        </trans-unit><trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Value</source>
+        </trans-unit><trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Document parameter name</source>
+        </trans-unit><trans-unit id="270" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>bookmark<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The name used to identify this binding in your code.</source>
+        </trans-unit><trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Database name</source>
+        </trans-unit><trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The database to work with.</source>
+        </trans-unit><trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>This value is the database name we set earlier in this lesson.</source>
+        </trans-unit><trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Collection Name</source>
+        </trans-unit><trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>The collection from which we'll read data.</source>
+        </trans-unit><trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>This setting was defined earlier in the lesson.</source>
+        </trans-unit><trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>SQL Query (optional)</source>
+        </trans-unit><trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>leave blank</source>
+        </trans-unit><trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>We are only retrieving one document at a time based on the ID.</source>
+        </trans-unit><trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>So, filtering with the Document ID field is a better than using a SQL Query in this instance.</source>
+        </trans-unit><trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>We could craft a SQL Query to return one entry (<ph id="ph1">`SELECT * from b where b.ID = {id}`</ph>).</source>
+        </trans-unit><trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>That query would indeed return a document, but it would return it in a document collection.</source>
+        </trans-unit><trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Our code would have to manipulate a collection unnecessarily.</source>
+        </trans-unit><trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Use the SQL Query approach when you want to get multiple documents.</source>
+        </trans-unit><trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Partition key (optional)</source>
+        </trans-unit><trans-unit id="287" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>{id}<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Add the partition key that we defined when we created the <ph id="ph1">[!INCLUDE [cosmos-coll-name](./cosmos-coll-name.md)]</ph> Cosmos DB collection earlier.</source>
+        </trans-unit><trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The key entered here (specified in input binding format <ph id="ph1">`{&lt;key&gt;}`</ph>) must match the one in the collection.</source>
+        </trans-unit><trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> to save all changes to this binding configuration.</source>
+        </trans-unit><trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Now that you have your binding defined, it's time to use it in your function.</source>
+        </trans-unit><trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Update function implementation</source>
+        </trans-unit><trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Select your function, <ph id="ph1">[!INCLUDE [func-name-find](./func-name-find.md)]</ph>, to open <bpt id="p1">*</bpt>index.js<ept id="p1">*</ept> in the code editor.</source>
+        </trans-unit><trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>You've added an input binding to read from your database, so update the logic to use this binding.</source>
+        </trans-unit><trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Replace all code in <bpt id="p1">*</bpt>index.js<ept id="p1">*</ept> with the code from the following snippet and hit <bpt id="p2">**</bpt>Save<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>An incoming HTTP request triggers the function, and an <ph id="ph1">`id`</ph> query parameter is passed to the Cosmos DB input binding.</source>
+        </trans-unit><trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>If the database finds a document that matches this ID, then the <ph id="ph1">`bookmark`</ph> parameter will be set to the located document.</source>
+        </trans-unit><trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>In that case, we construct a response that contains the URL value found in the bookmarked document.</source>
+        </trans-unit><trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>If no document is found matching this key, we would respond with a payload and status code that tells the user the bad news.</source>
+        </trans-unit><trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Try it out</source>
+        </trans-unit><trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Get function URL<ept id="p1">**</ept> at the top right, select <bpt id="p2">**</bpt>default (Function key)<ept id="p2">**</ept>, and then select <bpt id="p3">**</bpt>Copy<ept id="p3">**</ept> to copy the function's URL.</source>
+        </trans-unit><trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Paste the function URL you copied into your browser's address bar.</source>
+        </trans-unit><trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Add the query string value <ph id="ph1">`&amp;id=docs`</ph> to the end of this URL and press the <ph id="ph2">`Enter`</ph> key on your keyboard to execute the request.</source>
+        </trans-unit><trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>You should see a response that includes a URL to that resource.</source>
+        </trans-unit><trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Replace <ph id="ph1">`&amp;id=docs`</ph> with <ph id="ph2">`&amp;id=missing`</ph>, and observe the response.</source>
+        </trans-unit><trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>You can also test the function using the <bpt id="p1">**</bpt>Test<ept id="p1">**</ept> tab in the function portal UI.</source>
+        </trans-unit><trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>You can add a query parameter or supply a request body to get the same results as described in the preceding steps.</source>
+        </trans-unit><trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>In this unit, we created our first input binding manually to read from an Azure Cosmos DB database.</source>
+        </trans-unit><trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>The amount of code we wrote to search our database and read data was minimal, thanks to bindings.</source>
+        </trans-unit><trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>We did most of our work configuring the binding declaratively, and the platform took care of the rest.</source>
+        </trans-unit><trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>In the next unit, we'll add more data to our bookmark collection through an Azure Cosmos DB output binding.</source>
+        </trans-unit></group></body></file></xliff>

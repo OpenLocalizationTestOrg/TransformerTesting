@@ -1,0 +1,211 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-scale-load-balancer.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-scale-load-balancer.da35cb2f581ef60fddd077ce97583fc534937c1f.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1d4d0161f19ab94773214b56a2d01818ee2440df</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-azure-networking\includes\3-scale-load-balancer.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You now have your site up and running on Azure.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>But how can you help ensure your site is running 24/7?</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>For instance, what happens when you need to do weekly maintenance?</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Your service will still be unavailable during your maintenance window.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>And because your site reaches users all over the world, there's no good time to take down your systems for maintenance.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You may also run into performance issues if too many users connect at the same time.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>What are availability and high availability?</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>A speed train representing high availability</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Availability<ept id="p1">_</ept> refers to how long your service is up and running without interruption.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>High availability<ept id="p1">_</ept>, or <bpt id="p2">_</bpt>highly available<ept id="p2">_</ept>, refers to a service that's up and running for a long period of time.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You know how frustrating it is when you can't access the information you need.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Think of a social media or news site that you visit daily.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Can you always access the site, or do you often see error messages like "503 Service Unavailable"?</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You may have heard terms like "five nines availability."</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Five nines availability means that the service is guaranteed to be running 99.999 percent of the time.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Although it's difficult to achieve 100 percent availability, many teams strive for at least five nines.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>What is resiliency?</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A health chart representing resiliency</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Resiliency<ept id="p1">_</ept> refers to a system's ability to stay operational during abnormal conditions.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>These conditions include:</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Natural disasters</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>System maintenance, both planned and unplanned, including software updates and security patches.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Spikes in traffic to your site</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Threats made by malicious parties, such as distributed denial of service, or DDoS, attacks</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Imagine your marketing team wants to have a flash sale to promote a new line of vitamin supplements.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You might expect a huge spike in traffic during this time.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This spike could overwhelm your processing system, causing it to slow down or halt, disappointing your users.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You may have experienced this disappointment for yourself.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Have you ever tried to access an online sale only to find the website wasn't responding?</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>What is a load balancer?</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A scale representing load balancing</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">_</bpt>load balancer<ept id="p1">_</ept> distributes traffic evenly among each system in a pool.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A load balancer can help you achieve both high availability and resiliency.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Say you start by adding additional VMs, each configured identically, to each tier.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The idea is to have additional systems ready, in case one goes down, or is serving too many users at the same time.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The problem here is that each VM would have its own IP address.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Plus, you don't have a way to distribute traffic in case one system goes down or is busy.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>How do you connect your VMs so that they appear to the user as one system?</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The answer is to use a <bpt id="p1">_</bpt>load balancer<ept id="p1">_</ept> to distribute traffic.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The load balancer becomes the entry point to the user.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The user doesn't know (or need to know) which system the load balancer chooses to receive the request.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The following illustration shows the role of a load balancer.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>An illustration showing the web tier of a three-tier architecture.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The web tier has multiple virtual machines to service user requests.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>There is a load balancer that distributes user requests among the virtual machines.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The load balancer receives the user's request and directs the request to one of the VMs in the web tier.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If a VM is unavailable or stops responding, the load balancer stops sending traffic to it.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The load balancer then directs traffic to one of the responsive servers.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Load balancing enables you to run maintenance tasks without interrupting service.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For example, you can stagger the maintenance window for each VM.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>During the maintenance window, the load balancer detects that the VM is unresponsive, and directs traffic to other VMs in the pool.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>For your e-commerce site, the app and data tiers can also have a load balancer.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>It all depends on what your service requires.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>What is Azure Load Balancer?</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Azure Load Balancer is a load balancer service that Microsoft provides that helps take care of the maintenance for you.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Load Balancer supports inbound and outbound scenarios, provides low latency and high throughput, and scales up to millions of flows for all Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) applications.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You can use Load Balancer with incoming internet traffic, internal traffic across Azure services, port forwarding for specific traffic, or outbound connectivity for VMs in your virtual network.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>When you manually configure typical load balancer software on a virtual machine, there's a downside: you now have an additional system that you need to maintain.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If your load balancer goes down or needs routine maintenance, you're back to your original problem.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If instead, however, you use Azure Load Balancer, there's no infrastructure or software for you to maintain.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>You define the forwarding rules based on the source IP and port to a set of destination IP/ports.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The following illustration shows  the role of Azure load balancers in a multi-tier architecture.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>An illustration showing the web tier of a three-tier architecture.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The web tier has multiple virtual machines to service user requests.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>There is a load balancer that distributes user requests among the virtual machines.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Azure Application Gateway</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>If all your traffic is HTTP, a potentially better option is to use Azure Application Gateway.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Application Gateway is a load balancer designed for web applications.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>It uses Azure Load Balancer at the transport level (TCP) and applies sophisticated URL-based routing rules to support several advanced scenarios.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Conceptual image showing the Application Gateway product routing HTTP traffic between server groups based on the URL</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This type of routing is known as application layer (OSI layer 7) load balancing since it understands the structure of the HTTP message.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Here are some of the benefits of using Azure Application Gateway over a simple load balancer:</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Cookie affinity<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Useful when you want to keep a user session on the same backend server.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>SSL termination<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Application Gateway can manage your SSL certificates and pass unencrypted traffic to the backend servers to avoid encryption/decryption overhead.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>It also supports full end-to-end encryption for applications that require that.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Web application firewall<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Application gateway supports a sophisticated firewall (WAF) with detailed monitoring and logging to detect malicious attacks against your network infrastructure.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>URL rule-based routes<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Application Gateway allows you to route traffic based on URL patterns, source IP address and port to destination IP address and port.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>This is helpful when setting up a <bpt id="p1">_</bpt>content delivery network<ept id="p1">_</ept>.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Rewrite HTTP headers<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>You can add or remove information from the inbound and outbound HTTP headers of each request to enable important security scenarios, or scrub sensitive information such as server names.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>What is a Content Delivery Network?</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>A content delivery network (CDN) is a distributed network of servers that can efficiently deliver web content to users.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>It is a way to get content to users in their local region to minimize latency.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>CDN can be hosted in Azure or any other location.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>You can cache content at strategically placed physical nodes across the world and provide better performance to end users.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Typical usage scenarios include web applications containing multimedia content, a product launch event in a particular region, or any event where you expect a high-bandwidth requirement in a region.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>What about DNS?</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>A pin on a map representing DNS</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>DNS, or Domain Name System, is a way to map user-friendly names to their IP addresses.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>You can think of DNS as the phonebook of the internet.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>For example, your domain name, contoso.com, might map to the IP address of the load balancer at the web tier, 40.65.106.192.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>You can bring your own DNS server or use Azure DNS, a hosting service for DNS domains that runs on Azure infrastructure.</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The following illustration shows Azure DNS.</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>When the user navigates to <bpt id="p1">**</bpt>contoso.com<ept id="p1">**</ept>, Azure DNS routes traffic to the load balancer.</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>An illustration showing the Azure domain name system positioned in front of the load balancer.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>With load balancing in place, your e-commerce site is now more highly available and resilient.</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>When you perform maintenance or receive an uptick in traffic, your load balancer can distribute traffic to another available system.</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Although you can configure your own load balancer on a VM, Azure Load Balancer reduces upkeep because there's no infrastructure or software to maintain.</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>DNS maps user-friendly names to their IP addresses, much like how a phonebook maps names of people or businesses to phone numbers.</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>You can bring your own DNS server, or use Azure DNS.</source>
+        </trans-unit></group></body></file></xliff>

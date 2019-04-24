@@ -1,0 +1,25 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.36fcdf5a3dc4f882456d2c60a679f5d67fefb3e4.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7b1d12a6cb84da1aceae3e0037b124f5b277d67b</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-linux-virtual-machine-in-azure\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You have been hired by a global auto racing company to modernize their entire monitoring and web platform.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>They have decided to replace existing Linux servers with a variety of cloud-based infrastructure that leverages the latest in architectural trends.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Part of the system will run on the Azure serverless platform using Azure Functions to process real-time race data, pushing statistics, race data, and other relevant bits of analyzed information into clusters of databases.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>They want to keep their existing website, which was just rewritten last year, but have it connect into this modern data stream.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The website is running on Apache with Linux, and since it's already up and running, you decide to move it directly into Azure by leveraging an Azure virtual machine.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This will give the website access to the data with a minimal amount of work on your part.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Understand the options that are available for virtual machines in Azure</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Create a Linux virtual machine using the Azure portal</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Connect to a running Linux virtual machine using SSH</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Install software and change the network configuration on a VM using the Azure portal</source>
+        </trans-unit></group></body></file></xliff>

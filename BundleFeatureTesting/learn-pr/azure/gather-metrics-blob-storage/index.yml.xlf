@@ -1,0 +1,25 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.bf2a98f48254a017f3f9b6f2b950db2b0d02680e.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">31305bdc814543844b9c6f378f6695ff8bf6e249</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\gather-metrics-blob-storage\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage">
+          <source>Gather metrics from your Azure Blob Storage containers</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage">
+          <source>In this module, you'll gather information about the performance of your Azure Blob storage containers through Azure Storage Analytics (ASA).</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage">
+          <source>ASA enables you to trace requests, analyze usage trends, and diagnose issues with your storage account.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage">
+          <source>You can then add these metrics to custom charts that you display in the Azure dashboard.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage">
+          <source>Gather metrics from your Azure Blob Storage containers</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage">
+          <source>In this module, you'll learn how to use Azure Monitor to gather and view metrics for a blob storage account in Microsoft Azure.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage">
+          <source>View Blob metrics in the portal</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage">
+          <source>Add Azure Monitor metrics charts to a custom portal dashboard</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage">
+          <source>Use the portal to enable logging and download the logs</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage">
+          <source>Knowledge of Azure Portal</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage">
+          <source>Knowledge of Azure Blob Storage Containers</source>
+        </trans-unit></group></body></file></xliff>

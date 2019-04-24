@@ -1,0 +1,25 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.dbad2be431b341ade601f2de43f5aa050e1732c4.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">268273a67086ca74af18c8ee8890cd373482715d</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\evolving-world-of-data\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.data-ai.evolving-world-of-data">
+          <source>Understand the evolving world of data</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.data-ai.evolving-world-of-data">
+          <source>Learn how data systems are evolving and how the changes affect data professionals.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.data-ai.evolving-world-of-data">
+          <source>Explore the differences between on-premises and cloud data solutions, and consider sample business cases that apply cloud technologies</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.data-ai.evolving-world-of-data">
+          <source>Understand the evolving world of data</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.data-ai.evolving-world-of-data">
+          <source>Learn how data systems are evolving and how the changes affect data professionals.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.data-ai.evolving-world-of-data">
+          <source>Explore the differences between on-premises and cloud data solutions, and consider sample business cases that apply cloud technologies.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.data-ai.evolving-world-of-data">
+          <source>In this module you will:</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.data-ai.evolving-world-of-data">
+          <source>Learn which key factors are driving changes in data generation, roles, and technologies.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.data-ai.evolving-world-of-data">
+          <source>Compare on-premises data technologies to cloud data technologies.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.data-ai.evolving-world-of-data">
+          <source>Outline how the role of the data professional is changing.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.data-ai.evolving-world-of-data">
+          <source>Identify use cases that apply these changes.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.data-ai.evolving-world-of-data">
+          <source>None</source>
+        </trans-unit></group></body></file></xliff>

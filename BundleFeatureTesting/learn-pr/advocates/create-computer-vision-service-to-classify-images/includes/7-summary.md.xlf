@@ -1,0 +1,27 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-summary.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-summary.fee279b40d7335f3b113f81c52336d00ff353719.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">df0d757edf5c8e5b5fe35f1a41971df71ed68c3c</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\create-computer-vision-service-to-classify-images\includes\7-summary.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The Computer Vision API is a powerful tool for processing images.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Using this service instead of building your own has the potential to save you significant development and maintenance costs.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You concentrate on writing business logic to make decision relevant to your business and let the Computer Vision API extract rich information from images to categorize and process visual data.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In this module, we analyzed images, extracted text, and generated thumbnails.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To call the Computer Vision API, we created a cognitive services account in our Azure subscription.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This account gave us the access keys we needed to make calls.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>As a next step, take some time to make the same calls with your own images.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Then, tweak parameters on each call to see the effect they have on the results.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can go further and try out the other operations on the API, such as, <ph id="ph1">`describe`</ph> and <ph id="ph2">`tag`</ph>.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Further reading</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure CLI overview<ept id="p1">](https://docs.microsoft.com/cli/azure/?view=azure-cli-latest)</ept></source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure CLI command reference<ept id="p1">](https://docs.microsoft.com/cli/azure/reference-index?view=azure-cli-latest)</ept></source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Computer Vision API reference documentation<ept id="p1">](https://docs.microsoft.com/azure/cognitive-services/)</ept></source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,55 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-authentication-with-managed-identities-for-azure-resources.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-authentication-with-managed-identities-for-azure-resources.b129d679517d9c741b416c77623fcb18eb913fb1.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1640288de15bf9ac47768cdef5b6baefb6005df5</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\manage-secrets-with-azure-key-vault\4-authentication-with-managed-identities-for-azure-resources.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources">
+          <source>Vault authentication with managed identities for Azure resources</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources">
+          <source>Vault authentication with managed identities for Azure resources</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources">
+          <source>Vault authentication with managed identities for Azure resources</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources">
+          <source>How does using managed identities for Azure resources change the way an app authenticates to Azure Key Vault?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources">
+          <source>The app uses a certificate to authenticate instead of a secret.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources">
+          <source>When you enable managed identity on your web app, Azure activates a separate token-granting REST service specifically for use by your app.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources">
+          <source>Your app will request tokens from this service instead of Azure Active Directory.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources">
+          <source>Each user of the app must enter a password.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources">
+          <source>When you enable managed identity on your web app, Azure activates a separate token-granting REST service specifically for use by your app.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources">
+          <source>Your app will request tokens from this service instead of Azure Active Directory.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources">
+          <source>The app gets tokens from a token service instead of Azure Active Directory.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources">
+          <source>When you enable managed identity on your web app, Azure activates a separate token-granting REST service specifically for use by your app.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources">
+          <source>Your app will request tokens from this service instead of Azure Active Directory.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources">
+          <source>Managed identities are automatically recognized by Azure Key Vault and authenticated automatically.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources">
+          <source>When you enable managed identity on your web app, Azure activates a separate token-granting REST service specifically for use by your app.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources">
+          <source>Your app will request tokens from this service instead of Azure Active Directory.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources">
+          <source>Which one of these statements describes a primary benefit of using managed identities for Azure resources to authenticate an app to Key Vault?</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources">
+          <source>Using managed identities improves application performance.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources">
+          <source>Your app authenticates to a managed identities token service with a secret injected into its environment variables at runtime.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources">
+          <source>This eliminates the need to store secrets during configuration.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources">
+          <source>Using managed identities eliminates the need to handle secrets during configuration.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources">
+          <source>Your app authenticates to a managed identities token service with a secret injected into its environment variables at runtime.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources">
+          <source>This eliminates the need to store secrets during configuration.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources">
+          <source>Managed identities can automatically grant Azure Key Vault permissions.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources">
+          <source>Your app authenticates to a managed identities token service with a secret injected into its environment variables at runtime.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-identities-for-azure-resources">
+          <source>This eliminates the need to store secrets during configuration.</source>
+        </trans-unit></group></body></file></xliff>

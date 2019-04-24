@@ -1,0 +1,53 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="8-index-exercise.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8-index-exercise.5851bf3c6b84b995ae94d6ecc02f3598dcce0b63.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">99449387b728ec6dc0bdd66ee9cfcf031af27510</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\monitor-and-scale-cosmos-db\8-index-exercise.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.monitor-azure-cosmos-db.8-index-exercise">
+          <source>Exercise - Measure the impact of index policy choice</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.monitor-azure-cosmos-db.8-index-exercise">
+          <source>Learn how to measure the impact of different index policy choices for Azure Cosmos DB</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.monitor-azure-cosmos-db.8-index-exercise">
+          <source>Interactive demonstration of the impact of index configuration.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.monitor-azure-cosmos-db.8-index-exercise">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.monitor-azure-cosmos-db.8-index-exercise">
+          <source>Indexing all properties in a collection results in</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.monitor-azure-cosmos-db.8-index-exercise">
+          <source>Higher demand writes to the database and lower demand queries</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.monitor-azure-cosmos-db.8-index-exercise">
+          <source>More resources are consumed when updating the index.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.monitor-azure-cosmos-db.8-index-exercise">
+          <source>But using the index to find documents is more efficient.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.monitor-azure-cosmos-db.8-index-exercise">
+          <source>Lower demand writes to the database and higher demand queries</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.monitor-azure-cosmos-db.8-index-exercise">
+          <source>The opposite is true.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.monitor-azure-cosmos-db.8-index-exercise">
+          <source>The index needs to be updated whenever a document is written.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.monitor-azure-cosmos-db.8-index-exercise">
+          <source>Indexing all properties would make querying very efficient.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.monitor-azure-cosmos-db.8-index-exercise">
+          <source>Higher demand writes and queries</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.monitor-azure-cosmos-db.8-index-exercise">
+          <source>Only the writes consume more RUs.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.monitor-azure-cosmos-db.8-index-exercise">
+          <source>You save on the required capacity for queries.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.monitor-azure-cosmos-db.8-index-exercise">
+          <source>For read-heavy workloads, with an unknown query pattern, the best starting indexing strategy is</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.monitor-azure-cosmos-db.8-index-exercise">
+          <source>Set the indexing policy to <ph id="ph1">`none`</ph></source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.monitor-azure-cosmos-db.8-index-exercise">
+          <source>Having no properties indexed means that your read-heavy operations are less efficient.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.monitor-azure-cosmos-db.8-index-exercise">
+          <source>Index all properties</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.monitor-azure-cosmos-db.8-index-exercise">
+          <source>This is a safe choice because you can perform queries efficiently.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.monitor-azure-cosmos-db.8-index-exercise">
+          <source>It's also the Cosmos DB default.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.monitor-azure-cosmos-db.8-index-exercise">
+          <source>Index only the specific properties that will be queried</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.monitor-azure-cosmos-db.8-index-exercise">
+          <source>In this case, you don't know ahead of time which properties will be queried.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.monitor-azure-cosmos-db.8-index-exercise">
+          <source>Only index the <ph id="ph1">`id`</ph> property of your documents</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.monitor-azure-cosmos-db.8-index-exercise">
+          <source>This would save on the consumption of write operations.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.monitor-azure-cosmos-db.8-index-exercise">
+          <source>But as you have a read-heavy workload, this isn't a good choice.</source>
+        </trans-unit></group></body></file></xliff>

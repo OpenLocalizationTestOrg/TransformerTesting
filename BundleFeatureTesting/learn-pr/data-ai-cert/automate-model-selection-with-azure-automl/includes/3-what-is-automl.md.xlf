@@ -1,0 +1,67 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-what-is-automl.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-what-is-automl.235d3ad80488d68be8bee5dee3198e73eaf2e044.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f18ba05c7fdd50486a96ea98f5ea166ba65965f5</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\automate-model-selection-with-azure-automl\includes\3-what-is-automl.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Data science involves model selection and the determination of hyperparameter values.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Consider the problem of predicting the price of a house.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>There are multiple model choices, such as linear regression, random forest, and so on.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Which model should a data scientist select?</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Often, many models might be good options, so a data scientist must try each one and compare the results of all the models.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This process is time-consuming and requires significant domain knowledge.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Automated machine learning (AutoML) provides an automated solution, letting the Azure Machine Learning service run all the models concurrently, comparing the results, and recommending the best model for the job based on the training scores.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Many models include parameters that can't be learned from the model-training process.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>These are called <bpt id="p1">*</bpt>hyperparameters<ept id="p1">*</ept>, and they usually have a large affect on model accuracy.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Data scientists typically experiment with different values until they find the optimal values.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This is a time-consuming manual process.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The AutoML HyperDrive service makes it possible to find optimal hyperparameter values automatically.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The diagram depicts the Azure AutoML framework.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Using the AutoML capability of Azure Machine Learning involves several steps.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Select your experiment type<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You start by deciding the type of machine learning problem you are trying to solve.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>AutoML supports three types:</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Classification<ept id="p1">_</ept> where you are trying to draw conclusions from a set of data.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The produced model can then provide predictions over a dataset - filtering email for spam as an example.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Regression<ept id="p1">_</ept> where you are wanting to predict continues values such as the price of a house based on location, size, and ammenities.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Forecasting<ept id="p1">_</ept> where you are predicting future values based on past data trends.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Ingest the data<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The data used in the experiment be loaded from your local computer, or read from the cloud if it's located in Azure Blob Storage.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Configure the targets<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You must configure the <bpt id="p1">_</bpt>compute targets<ept id="p1">_</ept> which will run the experiment.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A compute target can be a local machine or a cloud resource, such as an Azure Machine Learning Compute, Azure HDInsight or a remote virtual machine.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Configure the AutoML job<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Next, you need to configure the AutoML job - this controls the parameters used as Azure Machine Learning iterates over different models, hyperparameter settings, and what metrics to look at when determining the best model.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Submit the training run<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Finally, you submit the training run.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>AutoML concurrently runs multiple model-training processes with different models and hyperparameter values.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>It will stop when it his the iteration limits you provide in configuration, or when it reaches the target value for the metrics you specified.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The result will be a recommended model with associated hyperparameter values based on all the experiments run.</source>
+        </trans-unit></group></body></file></xliff>

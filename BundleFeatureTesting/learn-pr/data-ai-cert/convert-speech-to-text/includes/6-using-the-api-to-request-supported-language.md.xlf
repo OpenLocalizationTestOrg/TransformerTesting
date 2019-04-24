@@ -1,0 +1,43 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-using-the-api-to-request-supported-language.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-using-the-api-to-request-supported-language.10f367271606b364bc86543e870c83dd1a54a9fc.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3cadf4dbc77117d9e712ee2ba28af648aaf06827</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\convert-speech-to-text\includes\6-using-the-api-to-request-supported-language.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Speech-translation services are designed to target specific language-translation scenarios.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The supported speech languages are delineated by the following types: <bpt id="p1">*</bpt>speech to text<ept id="p1">*</ept>, <bpt id="p2">*</bpt>text translation<ept id="p2">*</ept>, and <bpt id="p3">*</bpt>text to speech<ept id="p3">*</ept>.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>When you're requesting a list of supported languages, you specify the type as the <ph id="ph1">`scope`</ph> value of the query string.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Scope value</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Language type</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Result</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Speech to text</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Retrieves the set of languages available to transcribe speech into text.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Text translation</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Retrieves the set of languages available to translate transcribed text.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Text to speech</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Retrieves the set of languages and voices available to synthesize translated text back into speech.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To request a list of supported speech languages, you use the Speech Translation API <ph id="ph1">`Languages`</ph> method.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To use this method, make a standard (and authorized) HTTP GET request to the Speech Translation API endpoint and specify the <ph id="ph1">`Languages`</ph> method with a comma-delimited list of requested language scopes:</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Return values</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Textual information is returned from the Speech Translation API in a well-formatted JSON object or array.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The previous example of requesting supported languages for speech to text, text translation, and text to speech (all scopes) will return the following result:</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For brevity, most supported languages have been removed from this list.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>With an authorized WebSocket connection created and a list of supported languages available, your final step is translating the actual speech.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Because the Speech Translation API <ph id="ph1">`Translate`</ph> method is designed for use in real time, requesting translation is largely a process of "listening" for incoming translation data.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For most programming languages, real-time usage occurs through full-duplex communication via WebSocket connections.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,93 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-upload-data-and-create-scatterplot.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-upload-data-and-create-scatterplot.fb510ca8cc85d9f0af1ba726ab579784e62633bd.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c025f98f5d17b721bf7248f249154c8b25411754</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\student-evangelism\analyze-climate-data-with-azure-notebooks\includes\2-upload-data-and-create-scatterplot.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Jupyter notebooks are composed of <bpt id="p1">*</bpt>cells<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Each cell is assigned one of three types:</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Markdown<ept id="p1">**</ept> for entering text in <bpt id="p2">[</bpt>markdown<ept id="p2">](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)</ept> format</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Code<ept id="p1">**</ept> for entering code that runs interactively</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Raw NBConvert<ept id="p1">**</ept> for entering data inline</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Code entered into code cells is executed by a <bpt id="p1">*</bpt>kernel<ept id="p1">*</ept>, which provides an isolated environment for the notebook to run in.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The popular IPython kernel supports code written in Python, but <bpt id="p1">[</bpt>dozens of other kernels<ept id="p1">](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)</ept> are available supporting other languages.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Azure Notebooks support Python, R, and F# out of the box.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>They also support the installation of the many packages and libraries that are commonly used in research.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The notebook editor currently shows an empty cell.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In this exercise, you will add content to that cell and add other cells to import Python packages such as <bpt id="p1">[</bpt>NumPy<ept id="p1">](http://www.numpy.org/)</ept>, load a pair of NASA data files containing <bpt id="p2">[</bpt>climate data<ept id="p2">](https://data.giss.nasa.gov/gistemp/graphs_v3/)</ept>, and create a scatter plot from the data.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In the first cell, set the cell type to <bpt id="p1">**</bpt>Markdown<ept id="p1">**</ept> and enter the "Azure Notebook Climate Change Analysis" into the cell itself:</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Defining a markdown cell</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Defining a markdown cell<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt><ph id="ph1">+</ph><ept id="p1">**</ept> button in the toolbar to add a new cell.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Make sure the cell type is <bpt id="p1">**</bpt>Code<ept id="p1">**</ept>, and then enter the following Python code into the cell:</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Adding a code cell</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Adding a code cell<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Now click the <bpt id="p1">**</bpt>Run<ept id="p1">**</ept> button to run the code cell and import the packages specified in the <ph id="ph1">`import`</ph> statements.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Ignore any warnings that are displayed as the environment is prepared for the first time.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can remove the warnings by selecting the code cell and running it again.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Running a code cell</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Running a code cell<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>File<ept id="p1">**</ept> in the menu at the top of the page, and select <bpt id="p2">**</bpt>Upload<ept id="p2">**</ept> from the drop-down menu.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Then upload the files named <bpt id="p1">**</bpt>5-year-mean-1951-1980.csv<ept id="p1">**</ept> and <bpt id="p2">**</bpt>5-year-mean-1882-2014.csv<ept id="p2">**</ept> from <bpt id="p3">[</bpt>this link<ept id="p3">](https://a4r.blob.core.windows.net/public/notebook-resources.zip)</ept>.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Uploading data to the notebook</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Uploading data to the notebook<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>/project<ept id="p1">**</ept> as your <bpt id="p2">**</bpt>Destination Folder<ept id="p2">**</ept> to ensure your files persist.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Start Upload<ept id="p1">**</ept> to upload the files, and <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> once they successfully upload.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Selecting destination folder for data</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Selecting destination folder for data<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Place the cursor in the empty cell at the bottom of the notebook.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Enter "Import data" as the text and change the cell type to <bpt id="p1">**</bpt>Markdown<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Now add a <bpt id="p1">**</bpt>Code<ept id="p1">**</ept> cell and paste in the following code.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Run<ept id="p1">**</ept> button to run the cell and use NumPy's <ph id="ph1">`loadtxt`</ph> function to load the data that you uploaded.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The data is now in memory and can be used by the application.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Loading the data</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Loading the data<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Place the cursor in the empty cell at the bottom of the notebook.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Change the cell type to <bpt id="p1">**</bpt>Markdown<ept id="p1">**</ept> and enter "Create a scatter plot" as the text.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Add a <bpt id="p1">**</bpt>Code<ept id="p1">**</ept> cell and paste in the following code, which uses <bpt id="p2">[</bpt>Matplotlib<ept id="p2">](http://matplotlib.org/)</ept> to create a scatter plot.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Run<ept id="p1">**</ept> to run the cell and create a scatter plot.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Scatter plot produced by Matplotlib</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Scatter plot produced by Matplotlib<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The data set you loaded uses a 30-year mean between 1951 and 1980 to calculate a base temperature for that period, and then uses 5-year mean temperatures to calculate the difference between the 5-year mean and the 30-year mean for each year.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The scatter plot shows the annual temperature differences.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-Gaining-insights-from-your-data.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-Gaining-insights-from-your-data.563340f47d476933e0fb202b7745497583aa28ac.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4b40e2f6b8e71526d382e83a59ae2603cb299513</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\wwl-mba\data-estate-migration-and-modernization\includes\5-Gaining-insights-from-your-data.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>What is modern business intelligence?</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Organizations have enormous amounts of data, and the ultimate goal is getting important insights that can help you drive your business forward.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Organizations that are taking steps to evolve how they leverage data, analytics, and the cloud generate an average of $100 million dollars, or eight percentage points, more operating income each year than those who lag behind.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>It all starts with data.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Icon indicating play video</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Watch this short video to learn how Microsoft Power BI helps organizations generate business insights, create a culture of data-driven decision making, and address common challenges.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>How does modern business intelligence work?</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Businesses want to empower people with insights at the point of decision.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Icon indicating play video</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Watch this video to learn more about how Microsoft Power BI helps organizations experience their data in a real-time, customized, and intuitive way.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>What does modern business intelligence look like?</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To effectively create a Modern BI experience that drives data-driven decision making throughout the workplace, it’s necessary to work with a platform that enables extracting intelligence seamlessly by:</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Connecting to the data in seconds<ept id="p1">**</ept>, whether it is structured or unstructured, in the cloud, or on-premises.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Modeling<ept id="p1">**</ept> without limits, regardless of the size of the model that is required.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Analyzing and authoring<ept id="p1">**</ept> through unique experiences that empower all users to extract value from the data, like asking questions with plain language, using visuals that are customized to the use case, or getting insights in an automated fashion.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Delivering<ept id="p1">**</ept> insights to everyone and enabling anyone to share their findings broadly in a targeted and secure way.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The Microsoft BI platform offers the flexibility that organizations need to transition to Modern BI on their terms.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>In the cloud, we are primarily relying on Power BI to deliver business insights, with data connections to many cloud data sources and SaaS apps.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In addition to cloud data sources, organizations can access on-premises data sources such as SQL Server Analysis Services using the on-premises data gateway.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Microsoft business intelligence diagram</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>How is modern business intelligence used?</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Modern BI is used across industries.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Icon indicating play video</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Watch the following video on customer momentum.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Now, let's wrap up everything you've learned with a knowledge check.</source>
+        </trans-unit></group></body></file></xliff>

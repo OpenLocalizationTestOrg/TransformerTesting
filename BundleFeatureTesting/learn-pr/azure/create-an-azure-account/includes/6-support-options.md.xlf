@@ -1,0 +1,137 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-support-options.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-support-options.0770852d9f722134ed49dfbd1953a33bc1b81d6f.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b6477201391a6ab1f2c47b3b4b7109c73dd926de</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-an-azure-account\includes\6-support-options.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>One final thing to know about subscriptions is how to get support when you need it.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Every Azure subscription includes free access to the following essential support services:</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Billing and subscription support</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Azure products and services documentation</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Online self-help documentation</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Whitepapers</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Community support forums</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Paid Azure support plans</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Microsoft offers four paid Azure support plans for customers who require technical and operational support: Developer, Standard, Professional Direct, and Premier.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Developer</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Standard</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Professional Direct</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Premier</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Scope</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Trial and non-production environments</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Production workload environments</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Business-critical dependence</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Substantial dependence across multiple products</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Technical Support</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Business hours access to Support Engineers via email</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>24x7 access to Support Engineers via email and phone</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>24x7 access to Support Engineers via email and phone</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>24x7 access to Support Engineers via email and phone</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Case Severity/Response Times</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Minimal business impact (Sev C): &lt;8 business hours</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Critical business impact (Sev A): &lt;1 hour</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Critical business impact (Sev A): &lt;1 hour</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Critical business impact (Sev A): &lt;1 hour &lt;15 minutes (with Azure Rapid Response or Azure Event Management)</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Architecture Support</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>General guidance</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>General guidance</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Architectural guidance based on best practice delivered by ProDirect Delivery Manager</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Customer-specific architectural support such as design reviews, performance tuning, configuration, and more</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Operations Support</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Onboarding services, service reviews, Azure Advisor consultations</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Technical account manager-led service reviews and reporting</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Training</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Azure Engineering-led web seminars</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Azure Engineering-led web seminars, on-demand training</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Proactive Guidance</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>ProDirect Delivery Manager</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Designated Technical Account Manager</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Launch Support</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Azure Event Management (available for additional fee)</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Providing different Azure support options allows Azure customers to choose a plan that best fits their needs.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Support-plan availability and billing</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The support plans available and how you're charged depends on the type of Azure customer you are, and the type of Azure subscription you have.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For example, Developer support isn't available to Enterprise customers.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Enterprise customers can purchase Standard, Professional Direct, and Premier support plans, and be billed for support as part of an Enterprise Agreement (EA).</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Alternatively, if you purchase a support plan within a pay-as-you-go subscription, your support plan is charged to your monthly Azure subscription bill.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Other support options</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Several additional support channels are available outside Azure's official support plans.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Channel</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Knowledge Center<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">[</bpt>Azure Knowledge Center<ept id="p1">](https://azure.microsoft.com/resources/knowledge-center/)</ept> is a searchable database that contains answers to common support questions, from a community of Azure experts, developers, customers, and users.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You can browse through all responses within the Azure Knowledge Center.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Find specific solutions by entering keyword search terms into the text-entry field and further refine your search results by selecting products or tags from the lists provided by two dropdown lists.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Microsoft Developer Network (MSDN) Forums<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Get support by reading responses to Azure technical questions from Microsoft's developers and testers on the <bpt id="p1">[</bpt>MSDN Azure discussion forums<ept id="p1">](https://social.msdn.microsoft.com/Forums/home?category=windowsazureplatform)</ept>.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Stack Overflow<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You can review answers to questions from the development community on <bpt id="p1">[</bpt>StackOverflow<ept id="p1">](https://stackoverflow.com/questions/tagged/azure/)</ept>.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Server Fault<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Review community responses to questions about System and Network Administration in Azure on <bpt id="p1">[</bpt>ServerFault<ept id="p1">](https://serverfault.com/questions/tagged/azure)</ept>.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Feedback Forums<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Read ideas and suggestions for improving Azure made by Azure users and customers on the <bpt id="p1">[</bpt>Azure feedback forums<ept id="p1">](https://feedback.azure.com/forums/34192--general-feedback)</ept>.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Twitter<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Tweet <ph id="ph1">`@AzureSupport`</ph> to get answers and support from the <bpt id="p1">[</bpt>official Microsoft Azure Twitter channel<ept id="p1">](https://twitter.com/azuresupport)</ept>.</source>
+        </trans-unit></group></body></file></xliff>

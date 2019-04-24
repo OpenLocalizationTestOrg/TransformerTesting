@@ -1,0 +1,201 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-enable-and-configure-app-service-application-logging.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-enable-and-configure-app-service-application-logging.10c55e55d04d166297f672e990ae36ee67051767.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b4176560c33aeaa707709ad2399d80b5d44aa5d7</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\capture-application-logs-app-service\includes\2-enable-and-configure-app-service-application-logging.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll look at how application logging can help with your Web apps, and how to enable these logs.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>What are application logs?</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Application logs are the output of runtime trace statements in application code.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>For example, you might want to check some logic in your code by adding a trace to show when a particular function is being processed, or you might only want to see a logged message when a particular level of error has occurred.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Application logging is primarily for apps in pre-production and for troublesome issues, because excessive logs can carry a performance hit and quickly consume storage; for this reason logging to the file system is automatically disabled after 12 hours.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Application logging has scale limitations, primarily because <bpt id="p1">***</bpt>files<ept id="p1">***</ept> are being used to save the logged output.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If you have multiple instances of an app, and the same storage used is shared across all instances, messages from different instances may be interleaved, making troubleshooting difficult.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If each instance has its own log file, there will be multiple logs, again making it difficult to troubleshoot instance-specific issues.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The types of logging available through the Azure App Service depends on the code framework of the app, and on whether the app is running on a Windows or Linux app host.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>ASP.NET Windows apps</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>ASP.NET apps only run on Windows app services.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You use the <ph id="ph1">`System.Diagnostics.Trace`</ph> class to log information to the application diagnostics log.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>There are four trace levels you can use, and these correlate with <ph id="ph1">`error`</ph>, <ph id="ph2">`warning`</ph>, <ph id="ph3">`information`</ph>, and <ph id="ph4">`verbose`</ph> logging levels shown in the Azure portal.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Trace.TraceError("Message"); <bpt id="p1">*</bpt>// Writes an error message<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Trace.TraceWarning("Message"); <bpt id="p1">*</bpt>// Writes a warning message<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Trace.TraceInformation("Message"); <bpt id="p1">*</bpt>// Writes an information message<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Trace.WriteLine("Message"); <bpt id="p1">*</bpt>// Writes a verbose message<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>ASP.NET Core apps</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>ASP.NET Core apps can run on either Windows or Linux.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To log information to Azure application logs, you need to use the <bpt id="p1">**</bpt>logger factory<ept id="p1">**</ept> class, and then use one of six-log levels:</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>logger.LogCritical("Message"); <bpt id="p1">*</bpt>// Writes a critical message  at log level 5<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>logger.LogError("Message"); <bpt id="p1">*</bpt>// Writes an error message  at log level 4<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>logger.LogWarning("Message"); <bpt id="p1">*</bpt>// Writes a warning message  at log level 3<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>logger.LogInformation("Message"); <bpt id="p1">*</bpt>// Writes an information message  at log level 2<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>logger.LogDebug("Message"); <bpt id="p1">*</bpt>// Writes a debug message at log level 1<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>logger.LogTrace("Message"); <bpt id="p1">*</bpt>// Writes a detailed trace message  at log level 0<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For ASP.NET Core apps on Windows, these messages relate to the filters in the Azure portal in this way:</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Levels 4 and 5 are "error" messages</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Level 3 is a "warning" message</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Level 2 is an "information" message</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Levels 0 and 1 are "verbose" messages</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For ASP.NET Core apps on Linux, only "error" messages (levels 4 and 5) are logged.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Node.js apps</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For script-based Web apps, such as Node.js apps on Windows or Linux, application logging is enabled using the <bpt id="p1">**</bpt>console()<ept id="p1">**</ept> method:</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>console.error("Message") - writes a message to STDERR</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>console.log("Message") - writes a message to STDOUT</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Both types of message are written to the Azure app service error-level logs.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Logging differences for Windows and Linux hosts</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Azure Web apps use the Web server (IIS process) to route messages to log files.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Because Windows-based Web apps are a well-established Azure service, and messaging for ASP.NET apps is tightly integrated with the underlying IIS service, Windows apps benefit from a rich logging infrastructure.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For other apps, logging options may be limited by the development platform, even when running on a Windows app service.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The logging functionality available to Linux-based scripted apps, such as Node, is determined by the Docker image used for the app's container.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Basic logging, using redirections to STDERR or STDOUT, uses the Docker logs.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Richer logging functionality is dependent on the underlying image, such as whether this is running PHP, Perl, Ruby, and so on.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>To download equivalent Web application logging as provided by IIS for Windows apps, may require connecting to your container using SSH.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This table summarizes the logging support for common app environments and hosts.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>App environment</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Host</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Log levels</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Save location</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>ASP.NET</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Windows</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Error, Warning, Information, Verbose</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>File system, Blob storage</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>ASP.NET Core</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Windows</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Error, Warning, Information, Verbose</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>File system, Blob storage</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>ASP.NET Core</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Linux</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Error</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>File system</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Node.js</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Windows</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Error (STDERR), Information (STDOUT), Warning, Verbose</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>File system, Blob storage</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Node.js</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Linux</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Error</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>File system</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Java</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Linux</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Error</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>File system</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Alternatives to application diagnostics</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Azure Application Insights is a site extension that provides additional performance monitoring features, such as detailed usage and performance data, and is designed for production app deployments as well as being a potentially useful development tool.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Application Insights works with a range of app development environments, providing the same set of rich telemetry and performance data whether the app is ASP.NET or Node.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>However, to make use of Application Insights, you have to include specific code within your app, using the App Insights SDK.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Application Insights is also a billable service, so depending on the scale of your app deployments and data collected, you may need to plan for regular costs.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>You can also view <bpt id="p1">**</bpt>Metrics<ept id="p1">**</ept> for your app, which can help you profile how your app is operating, and these counters are useful in production, as well as, development.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>You can view CPU, memory, network, and file system usage, and set up alerts when a counter hits a particular threshold.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Billing for metrics is covered by the app service plan tier.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Enable logging using the Azure portal</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>In the portal, application logging is managed from the Diagnostics logs blade of the web app.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Diagnostics logs blade in the Azure portal</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To enable application logging to the Web app's file system, set <bpt id="p1">**</bpt>Application logging (Filesystem)<ept id="p1">**</ept> to <bpt id="p2">**</bpt>On<ept id="p2">**</ept>, and then set the <bpt id="p3">**</bpt>Level<ept id="p3">**</ept> to Error, Warning, Information, or Verbose.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Logging to the file system will be automatically reset to Off after 12 hours.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>To enable application logging to a blob storage container, set <bpt id="p1">**</bpt>Application logging (Blob)<ept id="p1">**</ept> to <bpt id="p2">**</bpt>On<ept id="p2">**</ept>, and then select a storage account and container; the storage account and Web app must be created in the same Azure region.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>You then set the <bpt id="p1">**</bpt>Level<ept id="p1">**</ept> to Error, Warning, Information, or Verbose.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Saving to blob storage is not available for Linux application logs.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>When logging to blob storage, you must also set a <bpt id="p1">**</bpt>Retention Period<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Unlike the file system logs, blob logs are never deleted by default; the retention period option means that any logs older than the specified number of days will be deleted.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Configuring application logs in the Azure portal</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>After configuring the logs, click <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Enable logging using the Azure CLI</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The current version of Azure CLI does not enable you to manage application logging to blob storage.</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>To enable application logging to the file system, use this command.</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>For example, to enable logging to the file system for an app called <bpt id="p1">**</bpt>contosofashions123<ept id="p1">**</ept>, capturing all messages, use this command.</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>There is currently no way to disable application logging by using Azure CLI commands; however, the following command resets file system logging to error-level only.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>To view the current logging status for an app, use this command.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.19b3d288d98f3e7e83bbff31b1f48cd504680618.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">67fe617700a754482e90de6fd604d65b95d5b112</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\monitor-and-scale-cosmos-db\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Azure Cosmos DB allows you to build highly responsive and highly available applications.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use Azure monitoring tools and database design options to help optimize performance and costs.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Imagine you work for a retail startup which is designing a database to manage online orders.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You're working on a proposal for an efficient database design.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The operating budget must be kept within tight constraints.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You've prototyped several designs for your data architecture.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>But you need to understand how to monitor and optimize the performance of each design.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>With this knowledge in hand, you can tune and optimize your solution.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In this module, you'll use a console application to populate the database and simulate a set of queries.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Then you use the Cosmos DB monitoring tools to observe and understand the following key metrics of Cosmos DB:</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Total requests<ept id="p1">**</ept> made per second and the proportion of requests rejected because the provisioned throughput is exceeded</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Total throughput<ept id="p1">**</ept>, measured in Request Units per second (RU/s), and the distribution of throughput across partitions</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Total storage<ept id="p1">**</ept>, measured in kilobytes (KB), and the distribution of data across partitions</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>After you understand these key metrics, we assess different partitioning and indexing strategies to maximize the efficiency of our capacity.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Use monitoring tools to measure the throughput of your Cosmos DB</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Identify partition strategy for your Cosmos DB data</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Measure the impact of different indexing strategies</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Prerequisites:</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Familiarity with NoSQL database concepts</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Familiarity with Cosmos DB concepts like databases, collections, and documents</source>
+        </trans-unit></group></body></file></xliff>

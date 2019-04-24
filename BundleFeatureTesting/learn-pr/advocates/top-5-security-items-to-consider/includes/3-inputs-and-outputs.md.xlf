@@ -1,0 +1,95 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-inputs-and-outputs.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-inputs-and-outputs.ff192893761a21a730f3cb82906ee4e9cfeef838.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b67eef038cc0f425dfab51eedd46dc3a37cc9b6b</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\top-5-security-items-to-consider\includes\3-inputs-and-outputs.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The most prevalent security weakness of applications today is to not correctly process input received from external sources, particularly <bpt id="p1">_</bpt>user input<ept id="p1">_</ept>.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You should always take a close look at any input to make sure it has been validated before it is used.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Failing to do this can result in data loss or exposure, escalation of privilege, or even execution of malicious code on other users' computers.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The tragic thing is that this is an easy problem to solve.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Here we will cover how to treat data; when it’s received, when it’s displayed on the screen, and when it's stored for later use.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Why do we need to validate our input?</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Imagine that you are building an interface to allow a user to create an account on your website.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Our profile data includes a name, email, and a nickname that we will display to everyone who visits the site.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>What if a new user creates a profile and enters a nickname that includes some SQL commands?</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For example - what if our bad user enters something like:</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If we just blindly insert this value into a database, it could potentially alter the SQL statement to execute commands we absolutely don't want to run!</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This is referred to as a "SQL Injection" attack and is one of the <bpt id="p1">_</bpt>many<ept id="p1">_</ept> types of exploits that can potentially be done when you don't properly handle inputs.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>So, what can we do to fix this?</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This unit will teach you when to validate input, how to encode output, and how to create parameterized queries (which solves the above exploit).</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>These are the three main defense techniques against malicious input being entered into your applications.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When do I need to validate input?</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The answer is <bpt id="p1">_</bpt>always<ept id="p1">_</ept>.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You must validate <bpt id="p1">**</bpt>every<ept id="p1">**</ept> input for your application.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This includes parameters in the URL, input from the user, data from the database, data from an API and anything that is passed in the clear that a user could potentially manipulate.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Always use a whitelist approach, which means you only accept "known good" input, instead of a blacklist (where you specifically look for bad input) because it's impossible to think of a complete list of potentially dangerous input.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Do this work on the server, not the client-side (or in addition to the client-side), to ensure that your defenses cannot be circumvented.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Treat <bpt id="p1">**</bpt>ALL<ept id="p1">**</ept> data as untrusted and you will protect yourself from most of the common web app vulnerabilities.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If you are using ASP.NET, the framework provides <bpt id="p1">[</bpt>great support for validating input<ept id="p1">](https://docs.microsoft.com/aspnet/web-pages/overview/ui-layouts-and-themes/validating-user-input-in-aspnet-web-pages-sites)</ept> on both the client and server side.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If you are using another web framework, there are some great techniques for doing input validation available on the <bpt id="p1">[</bpt>OWASP Input Validation Cheatsheet<ept id="p1">](https://www.owasp.org/index.php/Input_Validation_Cheat_Sheet)</ept>.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Always use parameterized queries</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>SQL databases are commonly used to store data, for example profile information.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Never create inline SQL or other database queries "on the fly" in your code and send it directly to the database, this is a recipe for disaster, as we saw above.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For example, <bpt id="p1">**</bpt>do not do this<ept id="p1">**</ept> (known as inline SQL):</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Here we concatenate text strings together to create the query, taking the input from the user and generating a dynamic SQL query to lookup the user.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Again, if a malicious user realized we were doing this, or just <bpt id="p1">_</bpt>tried<ept id="p1">_</ept> different input styles to see if there was a vulnerability, we could end up with a major disaster.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Instead, use parameterized SQL statements or stored procedures such as this:</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>With this method you can invoke the procedure from your code safely, passing it the <ph id="ph1">`userName`</ph> string without worrying about it being treated as part of the SQL statement.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Always encode your output</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Any output you present either visually or within a document should always be encoded and escaped.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This can protect you in case something was missed in the sanitization pass, or the code accidentally generates something that can be used maliciously.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This will make sure that everything is displayed as <bpt id="p1">_</bpt>output<ept id="p1">_</ept> and not inadvertently interpreted as something that should be executed.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This is another very common attack technique referred to as "Cross-Site Scripting" (XSS).</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Since this is such as common requirement, this is another area where ASP.NET will do the work for you.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>By default, all output is already encoded.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>If you are using another web framework, you can verify your options for output encoding on websites with the <bpt id="p1">[</bpt>OWASP XSS Prevention Cheatsheet<ept id="p1">](https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet)</ept>.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Santizing and validating your input is a necessary requirement to ensure your input is valid and safe to use and store.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Most modern web frameworks offer built-in features which can automate some of this work.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can check your preferred framework's documentation and see what features it offers.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>While web applications are the most common place where this happens, keep in mind that other types of applications can be just as vulnerable.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Don't think you're safe just because your new application is a desktop app.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>You will still need to properly handle user input to ensure someone doesn't use your app to corrupt your data, or damage your company's reputation.</source>
+        </trans-unit></group></body></file></xliff>

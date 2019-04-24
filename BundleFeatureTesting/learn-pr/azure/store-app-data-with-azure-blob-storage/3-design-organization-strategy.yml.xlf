@@ -1,0 +1,45 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-design-organization-strategy.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-design-organization-strategy.54487f84199c46547524d5cfe01a90dc922d3043.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9800d3cbc42f4e0297f9f9e3c2b33fb1af4c2c5b</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\store-app-data-with-azure-blob-storage\3-design-organization-strategy.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.store-app-data-with-azure-blob-storage.3-design-organization-strategy">
+          <source>Design a storage organization strategy</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.store-app-data-with-azure-blob-storage.3-design-organization-strategy">
+          <source>Design a storage organization strategy</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.store-app-data-with-azure-blob-storage.3-design-organization-strategy">
+          <source>Design a storage organization strategy</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.store-app-data-with-azure-blob-storage.3-design-organization-strategy">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.store-app-data-with-azure-blob-storage.3-design-organization-strategy">
+          <source>Suppose you need to store profile and order information about your customers.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.store-app-data-with-azure-blob-storage.3-design-organization-strategy">
+          <source>You need to query the data to answer questions like "who are my top 100 customers?"</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.store-app-data-with-azure-blob-storage.3-design-organization-strategy">
+          <source>and "how many customers live in a given geographic region?".</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.store-app-data-with-azure-blob-storage.3-design-organization-strategy">
+          <source>True or false: blob storage is a good choice for this data?</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.store-app-data-with-azure-blob-storage.3-design-organization-strategy">
+          <source>True</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.store-app-data-with-azure-blob-storage.3-design-organization-strategy">
+          <source>Blobs are not appropriate for structured data that needs to be queried frequently.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.store-app-data-with-azure-blob-storage.3-design-organization-strategy">
+          <source>They have higher latency than memory and local disk and don't have the indexing features that make databases efficient at running queries.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.store-app-data-with-azure-blob-storage.3-design-organization-strategy">
+          <source>False</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.store-app-data-with-azure-blob-storage.3-design-organization-strategy">
+          <source>Blobs are not appropriate for structured data that needs to be queried frequently.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.store-app-data-with-azure-blob-storage.3-design-organization-strategy">
+          <source>They have higher latency than memory and local disk and don't have the indexing features that make databases efficient at running queries.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.store-app-data-with-azure-blob-storage.3-design-organization-strategy">
+          <source>Blobs provide <bpt id="p1">*</bpt>unstructured<ept id="p1">*</ept> data storage.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.store-app-data-with-azure-blob-storage.3-design-organization-strategy">
+          <source>What does <bpt id="p1">*</bpt>unstructured<ept id="p1">*</ept> mean?</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.store-app-data-with-azure-blob-storage.3-design-organization-strategy">
+          <source>Blobs can't be organized or named.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.store-app-data-with-azure-blob-storage.3-design-organization-strategy">
+          <source>Blobs do not impose any structure on your data, meaning your application can store any type of data in a blob.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.store-app-data-with-azure-blob-storage.3-design-organization-strategy">
+          <source>There are no restrictions on the type of data you can store in blobs.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.store-app-data-with-azure-blob-storage.3-design-organization-strategy">
+          <source>Blobs do not impose any structure on your data, meaning your application can store any type of data in a blob.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.store-app-data-with-azure-blob-storage.3-design-organization-strategy">
+          <source>Blobs can't contain structured data, like JSON or XML.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.store-app-data-with-azure-blob-storage.3-design-organization-strategy">
+          <source>Blobs do not impose any structure on your data, meaning your application can store any type of data in a blob.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,91 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-conceptual-overview.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-conceptual-overview.eeaf9a0981afb4d62b25b8a7b8a0c86afb9f5e2c.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f23ee9feba0f979568b6eb7ff5ef8bfed4bc97c7</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\replace-faces-with-emojis-matching-emotion\includes\2-conceptual-overview.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>There's some high-level questions worth answering before you get into setting up and writing code.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>How do you map an emotion to an emoji?</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Imagine there were only two emotions, fear and happiness, with values ranging from 0 to 1.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This lets you plot any face in a 2D <bpt id="p1">_</bpt>emotional space<ept id="p1">_</ept> based on the emotion of the user, like so:</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A simple graph.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Happiness is on the y axis, fear is on the x axis, and the same sample image of a man's face from the introduction unit is plotted about 1/4 up, 3/4 to the right in white space.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can use this to figure out the emotional point for each emoji just like you did for the face.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>After you plot the emojis in the 2D emotional space, you can figure out which emoji is closest to the emotion in the picture.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>An updated version of the previous graph is shown with various emoji plotted at different points on the happiness-to-fear scale.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Some of these include a smiling emoji with heart eyes higher up the happiness axis and lower on the fear axis, a nervous emoji further on the fear axis and lower on the happiness axis, and a crying emoji low on happiness and high on fear.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This calculation is called the <bpt id="p1">_</bpt>Euclidian distance<ept id="p1">_</ept>.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You won't just use this in a 2D space, but rather in an 8D emotional space, measuring anger, contempt, disgust, fear, happiness, neutral, sadness, and surprise.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To make like easier we used the npm package called <bpt id="p1">[</bpt>euclidean-distance<ept id="p1">](https://www.npmjs.com/package/euclidean-distance?azure-portal=true)</ept>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>How do you calculate the emotion of a face?</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The Face API</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Calculating emotion is, surprisingly, one of the most accessible parts of your app.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The Azure Cognitive Services <bpt id="p1">[</bpt>Face API<ept id="p1">](https://azure.microsoft.com/services/cognitive-services/face?azure-portal=true)</ept> takes image input and returns information about it, including whether a face was detected and its location.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If requested, it calculates and returns the emotions of the faces as well, like so:</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Take for instance this image:</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A closeup image of a woman's face.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>She has brown hair, glasses, and is smiling while looking directly at the viewer.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To process this image, you make a POST request to an API endpoint, like this one:</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You provide the image in the body:</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The API doesn’t return the emotion by default.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You need to explicitly specify the query parameter <ph id="ph1">`returnFaceAttributes=emotion`</ph>.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The use of a secret key authenticates the API.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You need to send this key with the header.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The API with the query parameters above would return a JSON, like so:</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>It returns an array of results - one per face detected in the image.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Each result contains the size and location of the face as <ph id="ph1">`faceRectangle`</ph> and the emotions represented as <ph id="ph2">`faceAttributes`</ph> as a number from 0 to 1.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The calls to the Face API are wrapped into convenience functions for you in the <bpt id="p1">[</bpt>Mojifier code repo<ept id="p1">](https://github.com/MicrosoftDocs/mslearn-the-mojifier/blob/master/shared/faceapi/index.ts?azure-portal=true)</ept></source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>EmotivePoint class</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If you look closely at the <ph id="ph1">`EmotivePoint`</ph> class in <bpt id="p1">[</bpt>shared/emotivePoint.ts<ept id="p1">](https://github.com/MicrosoftDocs/mslearn-the-mojifier/blob/master/shared/models/emotivePoint.ts?azure-portal=true)</ept>, you will notice a few things.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The constructor takes an object containing emotive information as input and stores it as local member variables, like so:</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>It also has a function called <ph id="ph1">`distance`</ph>, which we can use to calculate the Euclidean distance between two emotive points, like so:</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Using this information, you can create two emotive points and calculate how close they are:</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Face class</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Another helper class is the <ph id="ph1">`Face`</ph> class, which combines a few different properties, including the <ph id="ph2">`EmotivePoint`</ph> of a face and the <ph id="ph3">`Rect`</ph> class, which is the rectangle that defines the boundaries of the face.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If you review the <ph id="ph1">`Face`</ph> class constructor in <bpt id="p1">[</bpt>shared/face.ts<ept id="p1">](https://github.com/MicrosoftDocs/mslearn-the-mojifier/blob/master/shared/models/faces.ts?azure-portal=true)</ept>, you'll see this line of code:</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`emotivePoint`</ph> is the emotive point of the face itself.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`chooseMoji`</ph> returns an appropriate emoji based on the <ph id="ph2">`emotivePoint`</ph> of the face.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`MOJIS`</ph> is the list of emotive coordinates for all the emojis.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>These are generated from a set a <bpt id="p1">[</bpt>proxy images<ept id="p1">](https://github.com/MicrosoftDocs/mslearn-the-mojifier/blob/master/shared/proxy-images?azure-portal=true)</ept> approximating the emotions of each emoji.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can generate your own set of proxy images and calibrate the set of emoji emotional coordinates later in this module, as an optional step.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`chooseMoji`</ph> function calculates the distance between this face and the emojis, returning the closest one.</source>
+        </trans-unit></group></body></file></xliff>

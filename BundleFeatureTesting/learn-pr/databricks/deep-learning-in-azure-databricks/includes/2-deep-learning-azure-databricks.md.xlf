@@ -1,0 +1,63 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-deep-learning-azure-databricks.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-deep-learning-azure-databricks.89881435dd553435f1c6121b0b4dffd3c0ac6769.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9da5bfeb281f7c05e2ac564f2ed51cdf365bb85e</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\databricks\deep-learning-in-azure-databricks\includes\2-deep-learning-azure-databricks.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Azure Databricks provides capabilities to build deep-learning algorithms that can be used to solve complex problems.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Artificial neural networks make it possible to build such types of algorithms.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>What are artificial neural networks?</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Artificial neural networks are simpler representations of the complex and dense neural networks of a human brain.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The network is a computing system that's made up of several simple and interconnected elements, or <bpt id="p1">*</bpt>artificial neurons<ept id="p1">*</ept>, that process complex data inputs with human-like precision.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>An image of an artificial neural network</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>What is an artificial neuron?</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>An artificial neuron is a mathematical function conceived as a model of a biological neuron.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The artificial neuron receives one or more inputs (<bpt id="p1">*</bpt>features<ept id="p1">*</ept> X<bpt id="p2">&lt;sub&gt;</bpt>0<ept id="p2">&lt;/sub&gt;</ept>, X<bpt id="p3">&lt;sub&gt;</bpt>1<ept id="p3">&lt;/sub&gt;</ept>, X<bpt id="p4">&lt;sub&gt;</bpt>2<ept id="p4">&lt;/sub&gt;</ept>, ...). It sums them with different <bpt id="p5">*</bpt>weights<ept id="p5">*</ept> (W<bpt id="p6">&lt;sub&gt;</bpt>0<ept id="p6">&lt;/sub&gt;</ept>, W<bpt id="p7">&lt;sub&gt;</bpt>1<ept id="p7">&lt;/sub&gt;</ept>, W<bpt id="p8">&lt;sub&gt;</bpt>2<ept id="p8">&lt;/sub&gt;</ept>, ...) and then uses this sum as an argument for a nonlinear function (f, also called an <bpt id="p9">*</bpt>activation function<ept id="p9">*</ept>).</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>X<bpt id="p1">&lt;sub&gt;</bpt>0<ept id="p1">&lt;/sub&gt;</ept> typically equals to 1, and it's called the <bpt id="p2">*</bpt>bias<ept id="p2">*</ept> input.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The weights of each of the neurons are determined when we train the neural network.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initially, these weights are randomly assigned.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>An image of the mathematical function of an artificial neuron</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Common use cases for deep learning</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Here are some of the use cases for deep-learning techniques:</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Speech recognition:<ept id="p1">**</ept> Deep-learning solutions are used in several speech-recognition programs where a machine produces results based on speech commands.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Examples include Microsoft's Cortana or Amazon's Alexa.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Image recognition:<ept id="p1">**</ept> Several platforms use image-recognition programs to identify and analyze images and pictures.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For example, Facebook's facial-recognition feature uses deep-learning programs to identify the faces in a picture and then gives tagging suggestions.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Health predictions:<ept id="p1">**</ept> Several medical organizations use deep-learning tools to analyze large and complex datasets to make health-related predictions.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>These predictions help pharmaceutical companies work toward innovative new methods and medications to address problems.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Security:<ept id="p1">**</ept> Deep learning is widely used by large companies to mitigate cybersecurity threats.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Deep-learning techniques are efficient in detecting cyberattacks and alerting organizations to take preventive measures against them.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Azure Databricks deep-learning solutions</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Machine-learning pipelines:<ept id="p1">**</ept> A machine-learning pipeline provides an open-source high-level deep-learning API framework that enables lower-level deep-learning libraries by using the Spark MLlib Pipelines API.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This API framework currently supports TensorFlow and Keras with the TensorFlow back-end.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>TensorFlow:<ept id="p1">**</ept> Azure Databricks uses TensorFlow libraries to provide high-level numerical computation.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You can install and integrate TensorFlow libraries with Azure Databricks to generate high-performing deep-learning models.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>TensorFlow can run on a single node or on a distributed one.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Distributed deep learning:<ept id="p1">**</ept> The Horovod framework, supported by Azure Databricks, enables complex-model training by allowing you to train your neural networks on multiple machines simultaneously.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Integrated libraries:<ept id="p1">**</ept> Azure Databricks supports integration with several other high-level deep-learning frameworks (such as, MXNet, Keras, and PyTorch) that allow you to train your high-performing neural networks.</source>
+        </trans-unit></group></body></file></xliff>

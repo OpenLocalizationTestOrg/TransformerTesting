@@ -1,0 +1,153 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-n-tier-architecture-considerations.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-n-tier-architecture-considerations.95d816c604a6ddcd41adb579c1ff4e6ed15210ee.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">720b9a376a8f10e439d644a6f9fc3d84429df736</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\n-tier-architecture\includes\4-n-tier-architecture-considerations.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>We've looked at what makes up an N-tier architecture and we've deployed an example of a three-tier architecture.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Let's explore some of the benefits and challenges of this architectural style, and best practices to optimize it for performance and security.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Benefits</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This style of architecture is beneficial in its simplicity.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>It's an often used and well-defined architectural pattern, both for on-premises and cloud deployments, and can work with a wide range of applications.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>It's a platform-agnostic architecture, and fits applications deployed on Windows or Linux.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>As we showed in our example environment, PaaS or IaaS services can be used at any tier.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>With the application separated into tiers, each tier can be scaled, updated, or upgraded independently.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If requests for our web site increase, we can add more web servers to the load without impacting the other tiers.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Similarly, if requests against our data tier increase, we can scale our database to have more capacity to handle the requests.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Network separation is a natural byproduct of this architecture.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Since the application is separated into tiers, we should isolate each tier and only allow necessary network access.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The presentation tier can be exposed to the internet, the database can be fully secured behind multiple network tiers, and our application functions just the same.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>By securing network access between tiers, we reduce the attack surface of the application and increase its security.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Challenges and considerations</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>As you separate your application into multiple tiers, avoid middle tiers that only perform database operations.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Each tier should add specific value.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Additional tiers add complexity, processing time, latency, and ultimately delay to the end user.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Since the APIs for each application-level domain are not separated into individual services, they must be scaled together.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If a single application method requires more processing power or needs to handle more requests than others, the application tier must be scaled out as a whole to handle the load, instead of an individual service.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In some cases, you might develop an application as an N-tier architecture, but still do deployments as a monolith.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>By fully separating out each tier, you should deploy each independently.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This involves the removal of shared dependencies, and a greater reliance on API calls between tiers.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>When done properly, this ensures your application deployments are flexible.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Applications in an N-tier architecture often get deployed on virtual machines.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This is a good first step, but evolving your application to use PaaS services provides numerous benefits in security, scalability, and administration.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Often times this evolution is overlooked, and N-tier architectures remain resident on virtual machines.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This is a classic architectural style, but in many scenarios it has been superseded by other modern design patterns, such as a microservices architecture.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>It's often worth investing some time to evaluate other architectures to see if they are a better fit for your application.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Best practices for N-tier architectures</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>There are several things you should do to ensure your N-tier architecture runs at its best.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The following diagram shows visually how you can make improvements to an N-tier architecture.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Visualization of N-tier architecture</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Optimize performance</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Let's look at ways to optimize an N-tier architecture for both performance and security.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Autoscaling</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>With the application separated into tiers, we can use cloud features such as autoscaling to adapt to system load.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>As users or requests increase, use autoscaling at multiple tiers to add more resources to handle requests.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>As requests drop, autoscaling reduces the compute resources, also reducing your bill.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Autoscaling makes it easy to ensure your users have the best experience and that your costs remain low.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Azure VM scale sets can be used for VM-based workloads, and many PaaS services such as Azure App Service have built in autoscaling capabilities.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Load balancing</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>As you scale out your application with autoscaling, the use of load balancing becomes a necessary piece of your architecture.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>With load balancing, as you add more compute resources to your tier, they are added to your load balancer distribution to take advantage of the additional processing power.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Conversely, when a system fails, it is removed from the load to minimize end-user impact through poor performance or erred requests.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This ensures user requests go to systems in a healthy state.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Azure load balancer is a built-in feature of the networking capabilities, and Application Gateway provides a more feature-rich HTTP load balancing solution.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Messaging</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The use of a messaging service between tiers brings have a positive impact on performance, especially on requests that are asynchronous in nature.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A message is be placed on a queue, where it remains until it's processed, offsetting the impact of downstream load.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This also ensures that if there is a system outage, that your message will still be handled.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>It would remain in the queue and would be processed once the system is back online.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Azure has several messaging solutions to choose from, depending on your requirements.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Azure Service Bus, Azure Storage queues, and Azure Event Hubs are a few to look at when looking for a messaging service.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Caching data</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Use a cache for data that is frequently accessed and has a low change rate, or for data that doesn't require long-term persistence, such as session state.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Caching systems sit between tiers, and reduce data retrieval times for these types of data.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Azure Cache for Redis is a PaaS service that is well suited for this scenario.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Optimize security</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>When optimizing for security, this is often a job that is never "done".</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Even though the application is separated into tiers, there still must be well planned security practices woven into the architecture.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The more tiers added, the more you need to secure, and the more complexity that is introduced into the system.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>There are several things you should do to ensure your architecture provides a secure environment to run your application.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Network isolation</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Ensure that when running an N-tier architecture on VMs that each tier is in its own subnet.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>This subnet acts as a security boundary, allowing you to isolate connectivity through network access control lists but easing management by ensuring new systems in the subnet receive the same rules.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>On Azure, this is done natively with network security groups (NSG).</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Similar considerations should be made for PaaS services, but network integration capabilities vary between services and should be evaluated on their own.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>It's a best practice to ensure that each tier may only communicate to the next tier below it.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The presentation tier should only be able to talk to the application tier, and the application tier should only be able to talk to the data tier.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Minimizing this connectivity provides a layered approach to network security, and improves the overall security posture of an architecture.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Web application firewall</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>With the security isolation between subnets in place, you want to ensure that your publicly exposed front-end is secure, and only allows access to what is needed.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Only your presentation tier should be exposed to inbound internet traffic, and a web application firewall (WAF) technology in front of your presentation tier will enhance the security at this tier.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>WAFs inspect traffic for malicious activity, ensure communications are encrypted, and alert you if something is out of the ordinary.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>On Azure, Application Gateway is an HTTP load balancer that has a built-in WAF that you can enable.</source>
+        </trans-unit></group></body></file></xliff>

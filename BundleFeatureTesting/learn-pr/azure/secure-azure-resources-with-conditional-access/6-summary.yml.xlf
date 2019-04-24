@@ -1,0 +1,35 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-summary.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-summary.de1434aa5cdc5dbf894fd1047af3e65bd0b87e0d.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">67bf3f54865a402378ea1502d9a80d481b2e309b</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\secure-azure-resources-with-conditional-access\6-summary.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.secure-access-azure-ad-multi-factor-authentication.6-summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.secure-access-azure-ad-multi-factor-authentication.6-summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.secure-access-azure-ad-multi-factor-authentication.6-summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.secure-access-azure-ad-multi-factor-authentication.6-summary">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.secure-access-azure-ad-multi-factor-authentication.6-summary">
+          <source>Azure AD is essentially an Active Directory Domain Services (AD DS) domain controller running in Azure.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.secure-access-azure-ad-multi-factor-authentication.6-summary">
+          <source>True</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.secure-access-azure-ad-multi-factor-authentication.6-summary">
+          <source>While Azure AD performs many of the same functions as a traditional AD DS, it's a cloud-based multi-tenant, directory, and identity management service.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.secure-access-azure-ad-multi-factor-authentication.6-summary">
+          <source>False</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.secure-access-azure-ad-multi-factor-authentication.6-summary">
+          <source>AD DS is a server role on Windows Server.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.secure-access-azure-ad-multi-factor-authentication.6-summary">
+          <source>Azure AD is a cloud-based multi-customer public directory service.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.secure-access-azure-ad-multi-factor-authentication.6-summary">
+          <source>What three items should exist in a successful conditional access policy?</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.secure-access-azure-ad-multi-factor-authentication.6-summary">
+          <source>User or group, application, time of day</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.secure-access-azure-ad-multi-factor-authentication.6-summary">
+          <source>Time of day is not an option in conditional access rules.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.secure-access-azure-ad-multi-factor-authentication.6-summary">
+          <source>User or group, application, control to be enforced</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.secure-access-azure-ad-multi-factor-authentication.6-summary">
+          <source>Selecting these three items will create self-contained functional conditional access rules.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.secure-access-azure-ad-multi-factor-authentication.6-summary">
+          <source>User or group, Linux OS, control to be enforced</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.secure-access-azure-ad-multi-factor-authentication.6-summary">
+          <source>While you can target some device platforms, Linux isn't currently supported.</source>
+        </trans-unit></group></body></file></xliff>

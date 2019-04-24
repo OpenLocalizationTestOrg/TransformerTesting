@@ -1,0 +1,85 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-update-management-solution-on-a-vm.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-update-management-solution-on-a-vm.ed0e382b82924b04cb803594b0c7b5db373a681c.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">06416ec2a6d0e282d7c5cebba9bf70c0fc5c02f4</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\keep-your-virtual-machines-updated\includes\2-update-management-solution-on-a-vm.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The Public Information Officer (PIO) in your department maintains a non-public facing website for use by the local media.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Your PIO uses her mobile device to update content on the media website so that local media outlets can stay informed about current events.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>To prevent unauthorized or incorrect information being presented to the media, this site must be as secure as possible.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>As the administrator, one approach you can take to improve security is to keep the site current with the latest updates.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Here, we'll introduce the Update Management solution for Azure.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Update Management overview</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The Update Management solution allows you to manage and install operating system updates and patches for both Windows and Linux virtual machines that are deployed in Azure, on-premises, or even in other cloud providers.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can assess the status of available updates on computers and manage the process of installing required updates for servers.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>There are several advantages to the Update Management solution:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>There are no agents or additional configuration within the virtual machine.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can run updates without logging into the VM.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You also dont have to create passwords to install the update.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The Update Management solution lists missing updates and provides information about failed deployments in an easy-to-read format.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Update Management can be used to natively onboard machines in multiple subscriptions in the same tenant.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To manage machines in a different tenant you must onboard them as non-Azure machines.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Supported Operating Systems</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Update Management solution supports Windows and Linux, specifically:</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Windows Server (2008 and newer)</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>CentOS 6 (x86/X64) and CentOS 7</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Red Hat Enterprise 6 (x86/x64) and 7 (x64)</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>SUSE Linux Enterprise Server 11 (x86/x64) and 12 (x64)</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Ubuntu 14.04 LTS, 16.04 LTS and 18.04 (x86/x64)</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In this module we'll work with Windows Server 2016 virtual machine deployed in Azure.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Components Used by Update Management</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The following configurations are used to perform assessment and update deployments:</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Microsoft Monitoring Agent (MMA) for Windows or Linux.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>PowerShell Desired State Configuration (DSC) for Linux.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Automation Hybrid Runbook Worker.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Microsoft Update or Windows Server Update Services (WSUS) for Windows computers.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The following diagram shows a conceptual view of the behavior and data flow with how the solution assesses and applies security updates to all connected Windows Server and Linux computers in a workspace.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Conceptual View of Data flow<ept id="p1">]</ept><bpt id="p2">(../media/2-conceptual-view-data-flow50.png "</bpt>Conceptual View of Data Flow<ept id="p2">")</ept></source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Hybrid Worker Groups</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Windows computers that are directly connected to your Log Analytics workspace are automatically configured as a Hybrid Runbook Worker to support the runbooks that are included in this solution.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Each Windows computer that's managed by the solution is listed in the Hybrid worker groups pane as a System hybrid worker group for the Automation account.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The solutions use the naming convention Hostname FQDN_GUID.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Operations Manager Management Packs</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If your System Center Operations Manager management group is connected to a Log Analytics workspace, the following management packs are installed in Operations Manager.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>These management packs are also installed on directly connected Windows computers after you add the solution.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You don't need to configure or manage these management packs.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Microsoft System Center Advisor Update Assessment Intelligence Pack</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Microsoft.IntelligencePack.UpdateAssessment.Configuration</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Update Deployment MP</source>
+        </trans-unit></group></body></file></xliff>

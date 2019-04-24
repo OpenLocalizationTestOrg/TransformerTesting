@@ -1,0 +1,81 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-geo-ai-vm.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-geo-ai-vm.129921d02df4524380e7d86e82117974859065ea.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0c9c2bc47154787d73e58d9833b7b460e18941d3</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\explore-azure-dsvm-types\includes\5-geo-ai-vm.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The Geo AI DSVM is a version of the Windows DSVM specially configured to support geospatial artificial intelligence and is offered through the collaboration between Esri and Microsoft.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Geospatial artificial intelligence<ept id="p1">*</ept> (Geo AI) refers to the incorporation of machine learning in mapping, map interpretation, or any machine learning with geographical content.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>ArcGIS Pro is Esri's next-generation 64-bit desktop geographic information system (GIS).</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>, ArcGIS Pro is technologically ahead of everything else on the market, and provides professional 2D and 3D mapping in an intuitive user interface.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>ArcGIS Pro is a big step forward in advancing visualization, analytics, image processing, data management, and integration.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The Geo AI DSVM augments the Windows DSVM with the rich geospatial capabilities of ArcGIS Pro.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Both Python and R work with ArcGIS Pro, and are preconfigured on the Geo AI Data Science VM.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This enable programmatic access to geospatial analytics within your AI applications.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Sample Jupyter Notebooks are provided to help you start building AI applications infused with geospatial intelligence.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Tools included</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Geo AI DSVM offers a large set of tools for machine learning, which are also offered in other DSVM versions.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Some of the Deep learning tools included in Geo AI DSVM are:</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Deep-learning frameworks such as:</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>TensorFlow</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Cognitive Toolkit</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Torch</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Chainer</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Keras</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Caffe2</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A standalone instance of Spark</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Tools need to be compatible with GPUs.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Some of the development tools for acquiring and preprocessing text and image data are:</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Microsoft R Server Developer Edition</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Anaconda Python</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Jupyter Notebooks (Python and R)</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Visual Studio Community Edition with Python and R tools</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>SQL Server Developer Edition</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Julia Pro by Julia Computing</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>PyCharm</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Examples of Geo AI</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Examples of Geo AI include:</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Real-time results of traffic conditions</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Driver availability in Uber or Lyft at any time</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Deep learning for disaster response</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Urban growth prediction</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Even more examples are available on the Geo AI DSVM.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>There are many ways to use this type of machine learning or deep learning.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>However, configuring and installing tools specific to Geo AI can be grueling.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The Geo AI DSVM offers example experiments in the environment, abridges set-up by preinstalling and preconfiguring the required software, and verifies the compatibility of technologies.</source>
+        </trans-unit></group></body></file></xliff>

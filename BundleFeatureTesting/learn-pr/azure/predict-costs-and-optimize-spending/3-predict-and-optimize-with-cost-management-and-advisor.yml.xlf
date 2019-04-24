@@ -1,0 +1,31 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-predict-and-optimize-with-cost-management-and-advisor.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-predict-and-optimize-with-cost-management-and-advisor.9d16dca7468c1f0952ff7a75ff9f3b4d6c7fe76c.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4c7a4bfe9c0d256cd5eea7c0a9608acecbd1b85e</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\predict-costs-and-optimize-spending\3-predict-and-optimize-with-cost-management-and-advisor.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending.3-predict-and-optimize-with-cost-management-and-advisor">
+          <source>Predict and optimize with Cost Management and Azure Advisor</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending.3-predict-and-optimize-with-cost-management-and-advisor">
+          <source>Predict and optimize with Cost Management and Azure Advisor</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending.3-predict-and-optimize-with-cost-management-and-advisor">
+          <source>In this unit, we'll discuss how to predict and optimize with Cost Management and Azure Advisor</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending.3-predict-and-optimize-with-cost-management-and-advisor">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending.3-predict-and-optimize-with-cost-management-and-advisor">
+          <source>True or false: Azure Advisor provides recommendations on cost only.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending.3-predict-and-optimize-with-cost-management-and-advisor">
+          <source>True</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending.3-predict-and-optimize-with-cost-management-and-advisor">
+          <source>Azure Advisor provides recommendations on high availability, security, performance, and cost.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending.3-predict-and-optimize-with-cost-management-and-advisor">
+          <source>False</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending.3-predict-and-optimize-with-cost-management-and-advisor">
+          <source>Azure Advisor provides recommendations on high availability, security, performance, and cost.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending.3-predict-and-optimize-with-cost-management-and-advisor">
+          <source>Azure Cost Management allows you to _________.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending.3-predict-and-optimize-with-cost-management-and-advisor">
+          <source>See historical breakdowns of what services you are spending your money on.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending.3-predict-and-optimize-with-cost-management-and-advisor">
+          <source>Cost Management analyzes where you are historically spending your money and can track it against budgets you have set.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending.3-predict-and-optimize-with-cost-management-and-advisor">
+          <source>See estimates of what your services might cost if you make a change.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending.3-predict-and-optimize-with-cost-management-and-advisor">
+          <source>To see cost estimates, you use the Azure pricing calculator.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending.3-predict-and-optimize-with-cost-management-and-advisor">
+          <source>Cost Management analyzes where you are historically spending your money and can track it against budgets you have set.</source>
+        </trans-unit></group></body></file></xliff>

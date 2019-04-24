@@ -1,0 +1,21 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.0b1cf660b362e94993e5a442e81f6a443c3fc3cc.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2b0b1a1e12e75f3bd5b54e99b7d97156b57c912e</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\handle-transient-errors-in-your-app\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app">
+          <source>Handle transient errors in your app</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app">
+          <source>Detect, handle, and recover from errors when working with cloud-based services to make your apps more resilient and improve user experience.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app">
+          <source>Handle transient errors in your app</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app">
+          <source>Use application logging and retry policies to handle transient errors to make your apps more resilient.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app">
+          <source>Identify common strategies for handling transient errors</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app">
+          <source>Detect transient errors in code</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app">
+          <source>Implement a retry policy  in your app</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app">
+          <source>Monitor transient errors in your app using logging</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app">
+          <source>Entry-level developer knowledge in either C#, Java, or Node.js</source>
+        </trans-unit></group></body></file></xliff>

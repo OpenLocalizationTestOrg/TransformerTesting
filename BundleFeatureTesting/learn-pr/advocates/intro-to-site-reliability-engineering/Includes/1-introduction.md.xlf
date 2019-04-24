@@ -1,0 +1,19 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.60e4c6d0da097cba88a941785e6fec8b5a7aeb94.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6e6d73418874f142e2fcdd7b088e0cffeae3abeb</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\intro-to-site-reliability-engineering\Includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Organizations big and small have started to realize just how crucial system and application reliability is to their business.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>They’ve also learned just how difficult it is to maintain that reliability while iterating at the speed demanded by the marketplace.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Site Reliability Engineering (SRE) is a proven approach to this challenge.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This module will introduce you to the principles and practices of SRE.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If you’ve had any operations experience (as a sysadmin, IT pro, DevOps practitioner, etc.) or even the interest, SRE will prove to be a fascinating subject.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>At the end of this module, you’ll have a good understanding of what SRE is and why it matters.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You’ll be able to talk to other people about where it came from and how it relates to other operations practices like DevOps.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Along the way, you’ll grasp the core principles and some of the practices that help implement these principles.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>We'll end with some suggestions on how you can get started with this valuable operations practice.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,97 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-knowledge-check.1963cc54325c49bfcd3362ccc1e46d402cd270a5.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2dd826ec7bd3d886964be387d2a7f7d430fb33fa</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\databricks\create-data-pipelines-using-databricks-delta\4-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>Test your knowledge by answering questions about skills you learned from the lab.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>What is the Databricks Delta command to display metadata?</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>DESCRIBE DETAIL <bpt id="p1">*</bpt>tableName<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>You display metadata by using DESCRIBE DETAIL <bpt id="p1">*</bpt>tableName<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>MSCK DETAIL <bpt id="p1">*</bpt>tablename<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>MSCK is for repairing tables.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>SHOW SCHEMA <bpt id="p1">*</bpt>tablename<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>No such command is available.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>You just repaired myTable by using MSCK REPAIR TABLE <bpt id="p1">*</bpt>myTable<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>How do you verify that the repair worked?</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>Use SELECT count(*) FROM <bpt id="p1">*</bpt>myTable<ept id="p1">*</ept> and make sure the count is what was expected.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>You use SELECT count(*) FROM <bpt id="p1">*</bpt>myTable<ept id="p1">*</ept> to check the result and make sure it's correct.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>Execute DESCRIBE DETAIL <bpt id="p1">*</bpt>myTable<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>That command is for displaying metadata.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>display(<bpt id="p1">*</bpt>mytable<ept id="p1">*</ept>)</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>That's not a relevant answer.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>How do you perform UPSERT in a Databricks Delta dataset?</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>Use MERGE INTO <bpt id="p1">*</bpt>my-table<ept id="p1">*</ept> USING <bpt id="p2">*</bpt>data-to-upsert<ept id="p2">*</ept>.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>That's the correct syntax to perform UPSERT in a Databricks Delta dataset.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>Use UPSERT INTO <bpt id="p1">*</bpt>my-table<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>The syntax isn't correct for this operation.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>Use UPSERT INTO <bpt id="p1">*</bpt>my-table<ept id="p1">*</ept> /MERGE.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>The syntax isn't correct for this operation.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>How do you view the list of active streams?</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>Invoke <bpt id="p1">**</bpt>spark.streams.active<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>That's the correct syntax to view the list of active streams.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>Invoke <bpt id="p1">**</bpt>spark.streams.show<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>The syntax isn't correct for this operation.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>Invoke <bpt id="p1">**</bpt>spark.view.active<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>The syntax isn't correct for this operation.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>What size does OPTIMIZE compact small files to?</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>Around 1 GB.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>The Spark optimization team determined this value to be a good compromise between speed and performance.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>Around 100 MB.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>The Spark optimization team decided on 1 GB for speed and performance.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>Around 500 MB.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve" uid="learn.create-data-pipelines-using-databricks-delta.4-knowledge-check">
+          <source>The Spark optimization team decided on 1 GB for speed and performance.</source>
+        </trans-unit></group></body></file></xliff>

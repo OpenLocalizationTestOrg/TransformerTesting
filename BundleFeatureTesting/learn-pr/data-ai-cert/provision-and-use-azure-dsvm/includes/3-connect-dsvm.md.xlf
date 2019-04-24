@@ -1,0 +1,57 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-connect-dsvm.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-connect-dsvm.42d047dea17e4097937429445fc2a7d2627b31f4.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">06ef46dcef9793631464091d76c901599451051d</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\provision-and-use-azure-dsvm\includes\3-connect-dsvm.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You can always access your VM from the Azure portal.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Since we created a Windows VM, we will use the Remote Desktop Protocol (RDP) approach.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>If we had created a Linux DSVM, we would utilize a Secure Shell (SSH) tool.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Use RDP to connect to the Windows DSVM</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Switch back to the Azure portal.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In the left sidebar of the portal, select <bpt id="p1">**</bpt>Virtual Machines<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Locate the DSVM you just created (<bpt id="p1">**</bpt>Win2016<ept id="p1">**</ept>) and select it.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This will bring up the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> blade.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Virtual Machines blade.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> blade, select the <bpt id="p2">**</bpt>Connect<ept id="p2">**</ept> link highlighted below.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Connect button selected in the Virtual Machines blade.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Download RDP file<ept id="p1">**</ept> button to download the RDP configuration using your browser.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can open the Remote Desktop Protocol (RDP) file directly, or you can download it and then open it with the Remote Desktop Connection app on Windows, macOS, or most Linux distributions.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Remote Desktop Connection<ept id="p1">**</ept> dialog box, click <bpt id="p2">**</bpt>Connect<ept id="p2">**</ept> (this is for Windows - other clients might have a slightly different experience but should be similar).</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Connect to Virtual Machine section.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Enter the administrator user ID and password that you used when you created the VM.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>On Windows clients it might default to your logged on user as the username - you can select the <bpt id="p1">**</bpt>More choices<ept id="p1">**</ept> option to allow you to enter a different username.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Remote Desktop Connection warning box, asking if you still want to continue.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If the screen resolution on your client machine is high, you might get a black screen.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If that happens, use Remote Desktop Connection (RDC) to open the RDP file.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Prior to connecting click the <bpt id="p1">**</bpt>Show Options<ept id="p1">**</ept> link, click the <bpt id="p2">**</bpt>Display<ept id="p2">**</ept> tab, and set the <bpt id="p3">**</bpt>Display Configuration<ept id="p3">**</ept> to a lower resolution as shown in the following illustration.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Remote Desktop Connection dialog box options, with display configuration set to Large.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Setting up the DSVM tools</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The first time you sign into the VM, it will run some scripts that install demonstration code and data.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Wait for a few minutes to let this compete before continuing.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Now that the data science tools are installed and configured, you are ready to start using the DSVM.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Notice that many of the tools have start menu tiles and desktop icons.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Screenshot of the DSVM desktop icons.</source>
+        </trans-unit></group></body></file></xliff>

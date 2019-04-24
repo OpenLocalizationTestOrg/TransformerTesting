@@ -1,0 +1,45 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-summary.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-summary.5497e80f64a20a3077183184b5c231eb2fe45936.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dc36de7320f44060cfd683ddc4ac54e9026dff75</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\data-warehouse-security\4-summary.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.data-ai.data-warehouse-security.summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.data-ai.data-warehouse-security.summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.data-ai.data-warehouse-security.summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.data-ai.data-warehouse-security.summary">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.data-ai.data-warehouse-security.summary">
+          <source>A security control that verifies a user's identity is called:</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.data-ai.data-warehouse-security.summary">
+          <source>Encryption.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.data-ai.data-warehouse-security.summary">
+          <source>Encryption is used to secure data on the disk or in transit.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.data-ai.data-warehouse-security.summary">
+          <source>Authentication.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.data-ai.data-warehouse-security.summary">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.data-ai.data-warehouse-security.summary">
+          <source>Authentication is the security control that verifies a user's identity.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.data-ai.data-warehouse-security.summary">
+          <source>Authorization.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.data-ai.data-warehouse-security.summary">
+          <source>Authorization is used to control access to database resources like tables, columns, and rows.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.data-ai.data-warehouse-security.summary">
+          <source>The difference between login and user is:</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.data-ai.data-warehouse-security.summary">
+          <source>They are not different.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.data-ai.data-warehouse-security.summary">
+          <source>They are the same object.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.data-ai.data-warehouse-security.summary">
+          <source>Logins and users are not the same objects in Azure SQL Data Warehouse.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.data-ai.data-warehouse-security.summary">
+          <source>Logins provide access to the databases within a server, and users provide access to the server.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.data-ai.data-warehouse-security.summary">
+          <source>It's logins that provide access to a server.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.data-ai.data-warehouse-security.summary">
+          <source>Users provide access to databases within a server.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.data-ai.data-warehouse-security.summary">
+          <source>Logins provide access to a server, and users provide access to databases within it.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.data-ai.data-warehouse-security.summary">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.data-ai.data-warehouse-security.summary">
+          <source>Logins provide access to a server, and users provide access to databases within it.</source>
+        </trans-unit></group></body></file></xliff>

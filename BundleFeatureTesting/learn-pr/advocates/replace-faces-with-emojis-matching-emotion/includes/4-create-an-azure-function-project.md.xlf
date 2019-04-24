@@ -1,0 +1,129 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-create-an-azure-function-project.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-create-an-azure-function-project.66bfbea24348a022cf76e75a95a12a86bad889b5.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">048986a5c933599709da824d648978cda7fd29d7</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\replace-faces-with-emojis-matching-emotion\includes\4-create-an-azure-function-project.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>We're going to use Azure Functions to host this code.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You'll create an Azure Function App and <ph id="ph1">`JavaScript`</ph> HTTP triggers for each function, then locally run and debug these functions.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Create an Azure Function project</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>An Azure Function is a snippet of code that is executed without you having to explicitly configure any cloud infrastructure.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>An Azure Function project is a container for multiple functions.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Functions are triggered in different ways; you'll be triggering your functions by making an HTTP request.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>There are many ways to create Azure Functions.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>One of the easier ways is with Visual Studio Code and the Azure Functions extension.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Open Visual Studio Code.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In Visual Studio Code, open the cloned github source code folder.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This folder is where you will develop your Azure functions.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The code provided in here provides the scaffolding you need.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Click on <bpt id="p1">**</bpt>View<ept id="p1">**</ept> then <bpt id="p2">**</bpt>Command Palette<ept id="p2">**</ept>, then search for and select <bpt id="p3">**</bpt>Azure Functions: Create New Project...<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If you're asked to overwrite files, like <ph id="ph1">`.gitignore`</ph>, answer <bpt id="p1">**</bpt>no<ept id="p1">**</ept> to all.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Create new Azure Function dialog appears at the top of the VS Code screen.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Select the folder where you want to create the function app.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Select the current folder (the folder that you opened in Visual Studio code)</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Select folder dialog at the top of VS Code.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>JavaScript<ept id="p1">**</ept> as the desired language.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Select Language.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Available choices in the image include JavaScript, Java, and C#.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>No<ept id="p1">**</ept> when asked to overwrite the <ph id="ph1">`.gitignore`</ph> file</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You should see the <ph id="ph1">`host.json`</ph>,<ph id="ph2">`proxies.json`</ph>, and <ph id="ph3">`local.settings.json`</ph> files created in the project folder.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>App Created with the file list of files described previously.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Create an Azure Function</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You're now going to create the Azure Function itself.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This is the piece of code that responds to an HTTP request.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Again, you're going to use the Visual Studio Code Extension.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Click on <bpt id="p1">**</bpt>View<ept id="p1">**</ept> then <bpt id="p2">**</bpt>Command Palette<ept id="p2">**</ept>, then search for and select <bpt id="p3">**</bpt>Azure Functions: Create Function...<ept id="p3">**</ept></source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Create New Function dialog in the top of the VS Code window.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Select the folder where you originally created the function project.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Select Folder dialog showing the current folder location.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>HTTP Trigger<ept id="p1">**</ept> option.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Select HTTP trigger from the list of available triggers, including blob, queue, and timer triggers, along with three options for changing various settings, like project runtime, project language, and template filter.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Type <ph id="ph1">`MojifyImage`</ph> as the name of your function.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Choose Name dialog with MojifyImage provided in the text field.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Choose <bpt id="p1">**</bpt>Anonymous<ept id="p1">**</ept> as the authentication level.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>By choosing <bpt id="p1">**</bpt>Anonymous<ept id="p1">**</ept>, the function is open to the world and insecure.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If you create other functions in the future, this isn't the recommended default behavior.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Since this is a low-risk exercise with free Azure learning resources, it's not a problem for now.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Choose authorization level dialog offers anonymous, function, and admin options to select from.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Run the function locally</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Once these commands complete, you'll have converted the starter project to a function project with an <bpt id="p1">**</bpt>HTTP trigger<ept id="p1">**</ept> function called <ph id="ph1">`MojifyImage`</ph>.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Click on <bpt id="p1">**</bpt>Terminal<ept id="p1">**</ept> then <bpt id="p2">**</bpt>New Terminal<ept id="p2">**</ept> to open a Visual Studio terminal</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Run the function app locally, in the terminal</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This starts the function's runtime locally.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If it works, you should see an output printed with a local <ph id="ph1">`MojifyImage`</ph> URL.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>One of the advantages of using the local Azure Functions runtime is that it allows us to run the function using the same underlying technology that would be used to run the function in production.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To confirm the function is working correctly, visit the URL printed to the console.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Functioning Function App working in the browser.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This function app shows the text "please pass a name on the query string or in the request body" since it's requesting the passed in information.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Debug the function locally</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Make sure you exit the <ph id="ph1">`func host start`</ph> command by typing <bpt id="p1">&lt;kbd&gt;</bpt>CTRL-C<ept id="p1">&lt;/kbd&gt;</ept> in the terminal, before trying to debug it using Visual Studio Code.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>You can run and debug the app inside Visual Studio Code.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Add a breakpoint to the <ph id="ph1">`index.js`</ph> file, at the top of the JavaScript function.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Add Breakpoint to index.js.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Run the function in debug mode by clicking on the <bpt id="p1">**</bpt>Debug<ept id="p1">**</ept> icon <ph id="ph1">![</ph>Visual Studio Code Debug icon which looks like a bug with a line through it).<ph id="ph2">](../media/4.debug.icon.png)</ph>.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Attach to JavaScript Functions<ept id="p1">**</ept> from the debug configuration before you select the green triangle to start the debug session.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Attach to JavaScript Functions<ept id="p1">**</ept> debug configuration is automatically added when you created the function project.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`func host start`</ph> command is run for you; a terminal should open with the same output.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The debug menu bar should appear since you're debugging.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Closeup of the Debug Menu Bar with various buttons available on it for debugging.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Screen also shows index.js-demo app as our location in the title bar.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Now when you visit the URL, it breaks at your specified breakpoint, and you can step through through the function.</source>
+        </trans-unit></group></body></file></xliff>

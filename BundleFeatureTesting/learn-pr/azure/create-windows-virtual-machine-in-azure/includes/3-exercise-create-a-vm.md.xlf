@@ -1,0 +1,175 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-exercise-create-a-vm.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-exercise-create-a-vm.9a4724ead50852b77ecb182a64c92a38ccf51145.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cbc417bb58f2f7e42649e5bd7ea17adb7684787b</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-windows-virtual-machine-in-azure\includes\3-exercise-create-a-vm.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Recall that our company processes video content on Windows VMs.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A new city has contracted us to process their traffic cameras, but it's a model we've not worked with before.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>We need to create a new Windows VM and install some proprietary codecs so we can begin processing and analyzing their images.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Create a new Windows virtual machine</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>We can create Windows VMs with the Azure portal, Azure CLI, or Azure PowerShell.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The easiest approach is the portal because it walks you through the required information and provides hints and helpful messages during the creation of the VM.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Sign into the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept> using the same account you activated the sandbox with.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Create a resource<ept id="p1">**</ept> in the upper left corner of the Azure portal.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In the search box, enter  <bpt id="p1">**</bpt>Windows Server 2016 Datacenter<ept id="p1">**</ept>  and then click on the link with the same title in the presented list.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Create<ept id="p1">**</ept> button to start configuring the VM.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Configure the VM settings</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The VM creation experience in the portal is presented in a "wizard" format to walk you through all the configuration areas for the VM.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Clicking the "Next" button will take you to the next configurable section.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>However, you can move between the sections at will with the tabs running across the top that identify each section.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Screenshot showing the create a virtual machine experience in the Azure portal.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Once you fill in all the required options (identified with red stars), you can skip the remainder of the wizard experience and start creating the VM through the <bpt id="p1">**</bpt>Review + Create<ept id="p1">**</ept> button at the bottom.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>We'll start with the <bpt id="p1">**</bpt>Basics<ept id="p1">**</ept> section.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Configure basic VM settings</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>As you change settings and tab out of each free-text field, Azure will validate each value automatically and place a green check mark next to it when it's good.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can hover over error indicators to get more information on issues it discovers.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Subscription<ept id="p1">**</ept> that should be billed for VM hours.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">**</bpt>Resource group<ept id="p1">**</ept>, choose "<bpt id="p2">**</bpt><bpt id="p3">&lt;rgn&gt;</bpt>[sandbox resource group name]<ept id="p3">&lt;/rgn&gt;</ept><ept id="p2">**</ept>".</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>INSTANCE DETAILS<ept id="p1">**</ept> section, enter a name for your VM, such as <bpt id="p2">**</bpt>test-vp-vm2<ept id="p2">**</ept> (for Test Video Processor VM #2).</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>It's best practice to standardize your resource names so you can easily identify their purpose.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Windows VM names are a bit limited - they must be between 1 and 15 characters, cannot contain non-ASCII or special characters, and must be unique in the current resource group.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Select a region close to you from the locations below.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Leave <bpt id="p1">**</bpt>Availability options<ept id="p1">**</ept> as "None".</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This option is used to ensure the VM is highly available by grouping multiple VMs together a set to deal with planned or unplanned maintenance events or outages.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Ensure the image is set to "Windows Server 2016 Datacenter".</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can open the drop-down list to see all the options available.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Size<ept id="p1">**</ept> field is not directly editable and has a DS1 default size.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Change size<ept id="p1">**</ept> link to explore other VM sizes.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The resulting dialog allows you to filter based on # of CPUs, Name, and Disk Type.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Select "Standard DS1 v2" (normally the default) when you are done.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>That will give the VM 1 CPU and 3.5 GB of memory.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can also just slide the view to the left to get back to the VM settings as it opened a new window off to the right and slid the window over to view it.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>ADMINISTRATOR ACCOUNT<ept id="p1">**</ept> section, set the <bpt id="p2">**</bpt>Username<ept id="p2">**</ept> field to a username you will use to sign in to the VM.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Password<ept id="p1">**</ept> field, enter a password that's at least 12 characters long.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>It must have three of the following: one lower case character, one uppercase character, one number, and one special character that is not '<ph id="ph1">\\</ph>' or '-'.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Use something you will remember or write it down, you will need it later.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Confirm the <bpt id="p1">**</bpt>password<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>INBOUND PORT RULES<ept id="p1">**</ept> section, open the list and choose <bpt id="p2">_</bpt>Allow selected ports<ept id="p2">_</ept>.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Since this is a Windows VM, we want to be able to access the desktop using RDP.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Scroll the list if necessary until you find RDP (3389) and select it.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>As the note in the UI indicates, we can also adjust the network ports after we create the VM.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Screenshot showing the drop-down for opening the port for RDP access on the Windows VM.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Configure Disks for the VM</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Next<ept id="p1">**</ept> to move to the Disks section.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Screenshot showing the configure disks section for the VM.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Choose "Premium SSD" for the <bpt id="p1">**</bpt>OS disk type<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Use managed disks so we don't have to work with storage accounts.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>You can flip the switch in the GUI to see the difference in information that Azure needs if you like.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Create a data disk</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Recall we will get an OS disk (C:) and Temporary disk (D:).</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Let's add a data disk as well.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Create and attach a new disk<ept id="p1">**</ept> link in the <bpt id="p2">**</bpt>DATA DISKS<ept id="p2">**</ept> section.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Screenshot showing the new VM disk creation dialog in the portal.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>You can take all the defaults: Premium SSD, 1023 GB, and None (empty disk); although notice that here is where we could use a snapshot, or Storage Blob to create a VHD.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> to create the disk and go back to the <bpt id="p2">**</bpt>DATA DISKS<ept id="p2">**</ept> section.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>There should now be a new disk in the first row.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Screenshot showing the newly added disk in the VM.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Configure the Network</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Next<ept id="p1">**</ept> to move to the Networking section.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>In a production system where we already have other components, we'd want to utilize an <bpt id="p1">_</bpt>existing<ept id="p1">_</ept> virtual network.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>That way our VM can communicate with the other cloud services in our solution.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If there isn't one defined in this location yet, we can create it here and configure the:</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Address space<ept id="p1">**</ept>: the overall IPV4 space available to this network.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Subnet range<ept id="p1">**</ept>: the first subnet to subdivide the address space - it must fit within the defined address space.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Once the VNet is created you can add additional subnets.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Let's change the default ranges to use the <ph id="ph1">`172.xxx`</ph> IP address space.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Create New<ept id="p1">**</ept> under Virtual Network.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Change the <bpt id="p1">**</bpt>Address space<ept id="p1">**</ept> field to be <ph id="ph1">`172.16.0.0/16`</ph> to give it the full range of addresses</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Change the <bpt id="p1">**</bpt>Subnet range<ept id="p1">**</ept> field to be <ph id="ph1">`172.16.1.0/24`</ph> to give it 256 IP addresses of the space.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>By default, Azure will create a virtual network, network interface, and public IP for your VM.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>It's not trivial to change the networking options after the VM has been created so always double-check the network assignments on services you create in Azure.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Finish configuring the VM and create the image</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The rest of the options have reasonable defaults and there's no need to change any of them.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>You can explore the other tabs if you like.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The individual options have an <ph id="ph1">`(i)`</ph> icon next to them that will show a help bubble to explain the option.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This is a great way to learn about the various options you can use to configure the VM.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Review + create<ept id="p1">**</ept> button at the bottom of the panel.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The system will validate your options and give you details about the VM being created.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Create<ept id="p1">**</ept> to create and deploy the VM.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The Azure dashboard will show the VM that's being deployed.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>This may take several minutes.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>While that's deploying, let's look at what we can do with this VM.</source>
+        </trans-unit></group></body></file></xliff>

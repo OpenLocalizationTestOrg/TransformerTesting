@@ -1,0 +1,201 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-server-security-considerations.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-server-security-considerations.ec2ca858f6163d2d2fe488d077e54aca7bb8694b.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">531e5ae9cb56bd077e7b7edbdd579ad34625f636</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-azure-db-for-postgresql-server\includes\6-server-security-considerations.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Let's assume you're using an on-premises PostgreSQL database.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You're managing all security aspects and you've locked down all access to your servers using the standard PostgreSQL server-level firewall rules.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Now you want to make sure that you can configure the same server-level firewall rules in Azure.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Server security considerations and connection methods</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You have a number of options to restrict access to your Azure Database for PostgreSQL server and databases.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Network access can be restricted at a network, server, or database level.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can use any of the following options:</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>User accounts to restrict database access</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Virtual networks to restrict network access</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Firewall rules to restrict server access</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Authentication and authorization</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The Azure Database for PostgreSQL server supports native PostgreSQL authentication.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can connect and authenticate to the server with the server's admin login.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You'll also create users to connect to specific databases to limit access.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>What is a virtual network?</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A virtual network is a logically isolated network that's created within the Azure network.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can use a virtual network to control what Azure resources can connect to other resources.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Imagine you're running a web application that connects to a database.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You'll use subnets to isolate different parts of the network.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A subnet is a part of a network that's based on a range of IP addresses.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To configure these subnets, you'll create a virtual network and then subdivide the network into subnets.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The web application will operate on one subnet and the database on another subnet.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Each subnet will have its own rules for communicating to and from the other network.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>These rules give you the ability to restrict access from the database to the web application.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>What is a firewall?</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A firewall is a service that grants server access based on the originating IP address of each request.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You create firewall rules that specify ranges of IP addresses.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Only clients from these granted IP addresses will be allowed to access the server.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Firewall rules, generally speaking, also include specific network protocol and port information.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>For example, a PostgreSQL server by default listens to TCP requests on port 5432.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Azure Database for PostgreSQL server firewall</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The Azure Database for PostgreSQL server firewall prevents all access to your database server until you specify which computers have permission.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The firewall configuration allows you to specify a range of IP addresses that are allowed to connect to the server.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The server always uses the default PostgreSQL connection information.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>An illustration showing Azure Database for PostgreSQL server firewall scanning the IP address of all incoming requests.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Only requests coming from a range of pre-defined valid IP addresses are forwarded to the database</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Azure Database for PostgreSQL server SSL connections</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Azure Database for PostgreSQL prefers that your client applications connect to the PostgreSQL service using the Secure Sockets Layer (SSL).</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Enforcing SSL connections between your database server and your client applications helps protect against "man in the middle" and similar attacks by encrypting the data between the server and client.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Enabling SSL requires the exchange of keys and strict authentication between client and server for the connection to work.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Details about using SSL are beyond the scope of this learning module.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Configure connection security</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Let's look at the decisions and steps you make to configure an Azure Database for PostgreSQL server firewall.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You'll also see how to connect to the server that you created earlier.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Sign into the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept> using the same account you activated the sandbox with.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Navigate to the server resource for which you'd like to create a firewall rule.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Then, you'll select the <bpt id="p1">**</bpt>Connection Security<ept id="p1">**</ept> option to open the connection security blade to the right.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Azure portal showing the Connection security section of the PostgreSQL database resource blade</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>On this screen, you have several options.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>You can:</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Add the IP address that you use to access the portal as a firewall entry by clicking on the <bpt id="p1">**</bpt>Add client IP<ept id="p1">**</ept> button.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Allow access to Azure services.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>By default, all Azure services <bpt id="p1">**</bpt>don't<ept id="p1">**</ept> have access to the PostgreSQL server.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Add firewall rules by entering ranges of IP addresses.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Enforce SSL connections.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This option forces your client to connect to the server using an SSL certificate.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Always remember to click on the <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> icon above the entry fields to save the updated configuration after you've made changes.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Allow access to Azure services</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To use Azure Cloud Shell to access or configure your server, make sure to enable <bpt id="p1">**</bpt>Allow Access to Azure Services<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>This step is going to add a firewall rule to the server configuration to allow access from Cloud Shell.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>This rule won't show as one of the custom rules that you add.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You also need to disable <bpt id="p1">**</bpt>Enforce SSL connection<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>PowerShell can't connect to the server if SSL is required for client connections.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Both of these options will result in an error message that's displayed on the command line if not configured correctly.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>For example, if access is not allowed to Azure services and enforce SSL connections is enabled, then you'll see something similar to this error when the firewall is blocking access:</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Create a firewall rule using the portal</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Let's say you want to create a firewall rule that provides access from any IP address.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Creating this firewall rule will allow any IP address on the Internet to attempt to connect to your server.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Even though clients won't be able access the server without the username and password, enable this rule with caution and make sure you understand the security implications.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>You create a new firewall rule by entering the following data in the labeled fields:</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Rule Name: <ph id="ph1">`AllowAll`</ph></source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Start IP: <ph id="ph1">`0.0.0.0`</ph></source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>End IP: <ph id="ph1">`255.255.255.255`</ph></source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>To remove a firewall rule, you'll click the ellipsis (...) at the end of the rule that you want to delete.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Delete<ept id="p1">**</ept> button to delete the rule.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Click on the <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> icon above the entry fields to commit the deletion of the rule.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Create a firewall rule using the Azure CLI</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>You can use the Azure CLI to add firewall rules to your server with the <ph id="ph1">`az postgres server firewall-rule create`</ph> command.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Here's an example that creates the rule from above.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>You remove firewall rules from your server with the command <ph id="ph1">`az postgres server firewall-rule delete`</ph>.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Here's an example:</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Connecting to your server</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Like any modern database, PostgreSQL requires regular server administration to achieve best performance.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>You have a number of options to connect and manage your Azure Database for PostgreSQL server.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>We'll use <ph id="ph1">`psql`</ph> to connect to the server.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>What is psql?</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The command-line tool called <ph id="ph1">`psql`</ph> is the PostgreSQL distributed interactive terminal for working with PostgreSQL servers and databases.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`psql`</ph> works with Azure Database for PostgreSQL the same as with any other PostgreSQL implementation and is included with Azure Cloud Shell.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`psql`</ph> tool allows you to manage databases as well as execute structure queries against these databases.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Using <ph id="ph1">`psql`</ph> requires a successful connection to a PostgreSQL server.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>There are a number of command-line parameters available for use when working with <ph id="ph1">`psql`</ph>.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`--host`</ph> - The host to which you'd like to connect.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`--username`</ph> - The user name/ID with which to connect.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`--dbname`</ph> - The name of the database to connect to.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>You'll typically connect to the <ph id="ph1">`postgres`</ph> management database when managing your server access and database configurations.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Here is the complete command:</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>After you're connected, you'll be presented with a command prompt and can execute commands to your server and databases.</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>You've now seen the steps that you take to configure Azure Database for PostgreSQL security settings.</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>In the next unit, you'll configure Azure Database for PostgreSQL security settings.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>You'll also connect to the server using Cloud Shell.</source>
+        </trans-unit></group></body></file></xliff>

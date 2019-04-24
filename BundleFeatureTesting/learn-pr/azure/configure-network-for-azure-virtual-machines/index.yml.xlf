@@ -1,0 +1,19 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.1404510b9a8272d4128f2aa02b25b89c1c99f20e.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0cd42e992e8fa3afe0a2d17cfbc4e40094e550a9</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\configure-network-for-azure-virtual-machines\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.configure-the-network-for-your-virtual-machines">
+          <source>Configure the network for your virtual machines</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.configure-the-network-for-your-virtual-machines">
+          <source>You will learn how external services communicate to virtual machines and other Azure resources, either over the internet or by using dedicated private connections.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.configure-the-network-for-your-virtual-machines">
+          <source>You will cover how to connect your local on-premises networks into Azure using virtual networks, VPN gateways, and Azure ExpressRoute.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.configure-the-network-for-your-virtual-machines">
+          <source>Configure the network for your virtual machines</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.configure-the-network-for-your-virtual-machines">
+          <source>Learn how to configure networking in a secure way for your Azure virtual machines.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.configure-the-network-for-your-virtual-machines">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.configure-the-network-for-your-virtual-machines">
+          <source>Create an Azure Virtual Network</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.configure-the-network-for-your-virtual-machines">
+          <source>Create an Azure VPN Gateway</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.configure-the-network-for-your-virtual-machines">
+          <source>Learn to work with Azure ExpressRoute</source>
+        </trans-unit></group></body></file></xliff>

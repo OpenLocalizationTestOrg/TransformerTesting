@@ -1,0 +1,23 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.d1960045b3b95e686b58e799ab192e3757fbcab7.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e316878e31bd79704e522f444217ba73af23cbeb</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\build-a-web-app-with-mean-on-a-linux-vm\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm">
+          <source>Build and run a web application with the MEAN stack on an Azure Linux virtual machine</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm">
+          <source>Learn how to set up a MEAN-based web application on a new Azure Linux virtual machine.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm">
+          <source>Build and run a web application with the MEAN stack on an Azure Linux virtual machine</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm">
+          <source>Learn how to set up a MEAN-based web application on a new Azure Linux virtual machine.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm">
+          <source>Decide if the MEAN web stack is right for you</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm">
+          <source>Create an Ubuntu Linux VM to host your web app</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm">
+          <source>Install the MEAN stack components on your VM</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm">
+          <source>Create a basic web app on your MEAN stack</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm">
+          <source>Experience using Bash from the command-line</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.build-and-run-a-web-application-with-the-mean-stack-on-an-azure-linux-vm">
+          <source>Familiarity or interest in using JavaScript to build web applications</source>
+        </trans-unit></group></body></file></xliff>

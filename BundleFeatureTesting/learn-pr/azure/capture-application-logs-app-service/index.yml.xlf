@@ -1,0 +1,23 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.674186a22b6982c3cdae627631f49928915f36a0.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ab1a52d2e095a17c3e2073484dc50d6b5ae9ed38</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\capture-application-logs-app-service\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.azure.capture-application-logs-app-service">
+          <source>Capture Web Application Logs with App Service Diagnostics Logging</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.azure.capture-application-logs-app-service">
+          <source>Learn about how to capture trace output from your Azure web apps.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.azure.capture-application-logs-app-service">
+          <source>View a live log stream and download logs files for offline analysis.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.azure.capture-application-logs-app-service">
+          <source>Capture Web Application Logs with App Service Diagnostics Logging</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.azure.capture-application-logs-app-service">
+          <source>Use application logs in Azure Web Apps to help debug web app code.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.azure.capture-application-logs-app-service">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.azure.capture-application-logs-app-service">
+          <source>Enable application logging on an Azure Web App</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.azure.capture-application-logs-app-service">
+          <source>View live application logging activity with the log streaming service</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.azure.capture-application-logs-app-service">
+          <source>Retrieve application log files from an application with Kudu or the Azure CLI</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.azure.capture-application-logs-app-service">
+          <source>Experience in basic web app development and deployment, including creating trace output from applications</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.azure.capture-application-logs-app-service">
+          <source>Understanding of Web apps in Microsoft Azure</source>
+        </trans-unit></group></body></file></xliff>

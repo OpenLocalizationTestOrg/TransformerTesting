@@ -1,0 +1,39 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-azure-ml-studio.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-azure-ml-studio.9aa2d8f220ace11c9261004368699e1ac7fcd3ae.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5cadeb319bc69df3f66b8e45921fb6324984065c</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\choose-data-science-option-in-azure\includes\4-azure-ml-studio.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Microsoft Azure Machine Learning Studio<ept id="p1">**</ept> is a web-based drag-and-drop learning platform you can use to build, test, and deploy machine learning models without writing any code.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>It provides a visual display of datasets and models with a drag-and-drop interface and includes many tools, such as Azure Notebooks to process data and visualize output.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The interactive visual workspace allows data scientists of all skill levels to use the platform to easily create and iterate predictive analysis models.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Azure Machine Learning Studio allows you to bring in data, cleanse and transform the data, train and score a model with the option of deploying it on the web.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If you are beginning your journey to learning data science, this platform is an intuitive way to help you understand the data science process.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Screenshot showing the Azure Machine Learning Studio site</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Use Azure Machine Learning Studio</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Azure Machine Learning Studio provides several sample datasets and experiment models such as the <bpt id="p1">**</bpt>Prediction of studio performance<ept id="p1">**</ept> experiment which uses a regression model.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>These different samples demonstrate various ways to train models and process data.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For example, here's a screenshot of an experiment showing how to implement a restaurant recommender system.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Azure Data Science portal with a sample experiment loaded</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can then import your own data and process it with the built-in machine learning models.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>There's no programming required - just connect your datasets visually to the prebuilt modules to construct your analysis models.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>As you modify the various functions and their parameters, your results converge until you have a trained, effective model.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Then you can then publish the model as a web service so others can access it.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Here's a visual overview of the workflow used with Azure Machine Learning Studio showing how the data is turned into trained models.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Diagram showing the capabilities of Azure ML Studio</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>While programming experience is not required, you can customize the logic using scripts written in Python or R - this allows you to write custom algorithms and intermix them with the standard modules provided by the platform.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can learn more by signing into the <bpt id="p1">[</bpt>Azure Machine Learning Studio<ept id="p1">](https://studio.azureml.net)</ept> and going through tour.</source>
+        </trans-unit></group></body></file></xliff>

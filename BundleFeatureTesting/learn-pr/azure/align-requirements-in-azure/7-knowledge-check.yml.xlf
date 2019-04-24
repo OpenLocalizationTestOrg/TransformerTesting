@@ -1,0 +1,121 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-knowledge-check.849d55fb7bb7e4a972bd84f99cdc4b31e0112d4a.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">72e8ba33a74f75e588ec9106d897d40abd1070d5</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\align-requirements-in-azure\7-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>Knowledge check - IaaS, PaaS &amp; SaaS</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>Knowledge check - IaaS, PaaS &amp; SaaS</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>Knowledge check - IaaS, PaaS &amp; SaaS</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>Which cloud service model would be the best match for the following situation?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>A SQL Server database is needed for a short-term project.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>The IT department does not have available hardware that meets the performance requirements or resources to deploy it.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>The project starts next week.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>Once the project is over, the database is no longer needed.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>IaaS</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>Because of the immediate need and short lifetime, PaaS is the best option.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>For example, you could use Azure SQL Database for the solution.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>IaaS is not as good of a choice because creating a virtual machine and installing SQL Server would require more time and effort than using a pre-built PaaS offering.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>PaaS</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>Because of the immediate need and short lifetime, PaaS is the best option.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>For example, you could use Azure SQL Database for the solution.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>IaaS is not as good of a choice because creating a virtual machine and installing SQL Server would require more time and effort than using a pre-built PaaS offering.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>SaaS</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>Because of the immediate need and short lifetime, PaaS is the best option.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>For example, you could use Azure SQL Database for the solution.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>IaaS is not as good of a choice because creating a virtual machine and installing SQL Server would require more time and effort than using a pre-built PaaS offering.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>Which cloud service model is described in the following scenario?</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>You create several virtual machines in the cloud.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>The VMs are networked together using a virtual network.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>The VMs have access to x-ray image files in cloud storage.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>One virtual machine is a web server that hosts a website exposed to the internet for customers to access their records.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>There is a VPN that connects the solution to your on-premises datacenter for customer information to display with the image files.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>IaaS</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>All the resources used in this scenario can be implemented using IaaS.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>Only part of the solution could be implemented using PaaS, so it would not be a good choice.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>Since this is a custom solution, we can assume there isn't a SaaS offering that delivers this functionality.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>PaaS</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>All the resources used in this scenario can be implemented using IaaS.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>Only part of the solution could be implemented using PaaS, so it would not be a good choice.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>Since this is a custom solution, we can assume there isn't a SaaS offering that delivers this functionality.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>SaaS</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>All the resources used in this scenario can be implemented using IaaS.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>Only part of the solution could be implemented using PaaS, so it would not be a good choice.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>Since this is a custom solution, we can assume there isn't a SaaS offering that delivers this functionality.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>Which cloud service model would be the best match for the following situation?</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>You work at a start-up company with a small number of employees who need to collaborate.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>They need email, calendar scheduling, and somewhere to store documents.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>The team is technical but do not have the time or hardware to implement and manage a solution.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>IaaS</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>A SaaS solution such as Office 365 would be a good solution for the collaboration requirements.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>PaaS</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>A SaaS solution such as Office 365 would be a good solution for the collaboration requirements.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>SaaS</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>A SaaS solution such as Office 365 would be a good solution for the collaboration requirements.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>Which cloud service model is described in the following scenario?</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>You have two datacenters in your organization.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>One datacenter has a database that can only reside in one of the datacenters because of a regulatory requirement.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>You want to access the database from the other datacenter.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>You create a VPN using a cloud provider to connect the two datacenters.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>IaaS</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>VPN is an IaaS resource so this would be considered an IaaS solution.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>PaaS</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>VPN is an IaaS resource so this would be considered an IaaS solution.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>SaaS</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve" uid="learn.align-requirements-in-azure.7-knowledge-check">
+          <source>VPN is an IaaS resource so this would be considered an IaaS solution.</source>
+        </trans-unit></group></body></file></xliff>

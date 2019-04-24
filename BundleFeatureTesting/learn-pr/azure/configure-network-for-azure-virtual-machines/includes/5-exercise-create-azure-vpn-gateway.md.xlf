@@ -1,0 +1,161 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-exercise-create-azure-vpn-gateway.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-exercise-create-azure-vpn-gateway.ae1423f9b3d81c1a5a8cadff490c29a60f04fdc4.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bf6797aff7d13b18197bf6cf79750112a24b2663</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\configure-network-for-azure-virtual-machines\includes\5-exercise-create-azure-vpn-gateway.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You want to ensure that you can connect clients or sites within your environment into Azure using encrypted tunnels across the public Internet.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll create a point-to-site VPN gateway, and then connect to that gateway from your client computer.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You'll use native Azure certificate authentication connections for security.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You will carry out the following process:</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Create a RouteBased VPN gateway.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Upload the public key for a root certificate for authentication purposes.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Generate a client certificate from the root certificate, and then install the client certificate on each client computer that will connect to the virtual network for authentication purposes.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Create VPN client configuration files, which contain the necessary information for the client to connect to the virtual network.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Setup</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To complete this module, you will use Azure PowerShell from your local Windows 10 computer.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>We'll start by setting up variables to be used when we create a virtual network.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Open a new PowerShell session and create the following variables:</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Configure a virtual network</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Create a resource group.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Create subnet configurations for the virtual network.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>These have the name <bpt id="p1">**</bpt>FrontEnd, BackEnd<ept id="p1">**</ept>, and <bpt id="p2">**</bpt>GatewaySubnet<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>All of these subnets exist within the virtual network prefix.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Next, create the virtual network using the subnet values and a static DNS server.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Now specify the variables for this network that you have just created.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Request a dynamically assigned public IP address.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Create the VPN gateway</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>When creating this VPN gateway:</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>GatewayType must be Vpn</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>VpnType must be RouteBased</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Note that this part of the exercise can take up to 45 minutes to complete.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To create the VPN gateway, run the following command and press Enter.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Wait for the command output to appear.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Add the VPN client address pool</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Run the following command and press Enter.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Wait for the command output to appear.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Generate a client certificate</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>With the network infrastructure created on Azure, we need to create a self-signed client certificate on our local machine.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This can be done similarly on most operating systems, but we will cover how to generate your client certificate on Windows 10 using PowerShell with the Azure PowerShell module and the Windows <bpt id="p1">**</bpt>Certificate Manager<ept id="p1">**</ept> utility.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Our first step is to create the self-signed root certificate.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Run the following command.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Next, generate a client certificate signed by your new root certificate.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>With our certificates generated, we need to export our root certificate's public key.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Run <ph id="ph1">`certmgr`</ph> from PowerShell to open the Certificate Manager.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Navigate to <bpt id="p1">**</bpt>Personal<ept id="p1">**</ept><ph id="ph1"> &gt; </ph><bpt id="p2">**</bpt>Certificates<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Find and right-click the <bpt id="p1">**</bpt>P2SRootCert<ept id="p1">**</ept> certificate in the list and select <bpt id="p2">**</bpt>All tasks<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Export...<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>In the Certificate Export Wizard, click <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Ensure that <bpt id="p1">**</bpt>No, do not export the private key<ept id="p1">**</ept> is selected, and then click <bpt id="p2">**</bpt>Next<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Export File Format<ept id="p1">**</ept> page, ensure that <bpt id="p2">**</bpt>Base-64 encoded X.509 (.CER)<ept id="p2">**</ept> is selected, and then click <bpt id="p3">**</bpt>Next<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>File to Export<ept id="p1">**</ept> page, under <bpt id="p2">**</bpt>File name<ept id="p2">**</ept>, navigate to a location you'll remember and save the file as <bpt id="p3">**</bpt>P2SRootCert.cer<ept id="p3">**</ept>, and then click Next.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Completing the Certificate Export Wizard<ept id="p1">**</ept> page, click <bpt id="p2">**</bpt>Finish<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Certificate Export Wizard<ept id="p1">**</ept> message box, click <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Upload the root certificate public key information</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>In the PowerShell window, execute the following command to declare a variable for the certificate name:</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Replace the <ph id="ph1">`&lt;cert-path&gt;`</ph> placeholder with the export location of your root certificate and execute the following command:</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>With the group name set, upload the certificate to Azure with the following command.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Azure will now recognize this certificate as a trusted root certificate for our virtual network.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Configure the native VPN client</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Execute the following command to create VPN client configuration files in .ZIP format.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Copy the URL returned in the output from this command and paste it into your browser.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Your browser should start downloading a .ZIP file.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Extract the archive contents and put them in a suitable location.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Some browsers will initially attempt to block downloading this ZIP file as a dangerous download.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>You will need to override this in your browser to be able to extract the archive contents.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>In the extracted folder, navigate to either the <bpt id="p1">**</bpt>WindowsAmd64<ept id="p1">**</ept> folder (for 64-bit Windows computers) or the <bpt id="p2">**</bpt>WindowsX86<ept id="p2">**</ept> folder (for 32-bit computers).</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If you want to configure a VPN on a non-Windows machine, you can use the certificate and settings files from the <bpt id="p1">**</bpt>Generic<ept id="p1">**</ept> folder.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Double-click on the <bpt id="p1">**</bpt>VpnClientSetup{architecture}.exe<ept id="p1">**</ept> file, with <ph id="ph1">`{architecture}`</ph> reflecting your architecture.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Windows protected your PC<ept id="p1">**</ept> screen, click <bpt id="p2">**</bpt>More info<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Run anyway<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>User Account Control<ept id="p1">**</ept> dialog box, click <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>VNetData<ept id="p1">**</ept> dialog box, click <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Connect to Azure</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Press the Windows key, type <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> and press Enter.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> window, click <bpt id="p2">**</bpt>Network and Internet<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>In the left-hand pane, click <bpt id="p1">**</bpt>VPN<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>In the right-hand pane, click <bpt id="p1">**</bpt>VNetData<ept id="p1">**</ept>, and then click <bpt id="p2">**</bpt>Connect<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>In the VNetData window, click <bpt id="p1">**</bpt>Connect<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>In the next VNetData window, click <bpt id="p1">**</bpt>Continue<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>User Account Control<ept id="p1">**</ept> message box, click <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>If these steps do not work, you may need to restart your computer.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Verify your connection</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>In a new Windows command prompt, run <ph id="ph1">`IPCONFIG /ALL`</ph>.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Copy the IP address under PPP adapter VNetData, or write it down.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Confirm that IP address is in the <bpt id="p1">**</bpt>VPNClientAddressPool range of 172.16.201.0/24<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>You have successfully made a connection to the Azure VPN gateway.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>You just set up a VPN gateway, allowing you to make an encrypted client connection to a virtual network in Azure.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>This approach is great with client computers and smaller site-to-site connections.</source>
+        </trans-unit></group></body></file></xliff>

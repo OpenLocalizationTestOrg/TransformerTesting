@@ -1,0 +1,23 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-knowledge-check.581203a201d1df9e26f0bef1866e2eecefb35543.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">610e53df27a542b202b73a88ac38c4561c9974d0</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\databricks\perform-text-analytics-with-azure-databricks\4-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.performing-text-analytics-with-azure-databricks.4-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.performing-text-analytics-with-azure-databricks.4-knowledge-check">
+          <source>Test your knowledge by answering questions about skills you learned from the lab.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.performing-text-analytics-with-azure-databricks.4-knowledge-check">
+          <source>Knowledge Check</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.performing-text-analytics-with-azure-databricks.4-knowledge-check">
+          <source>Text Analytics Learning Quiz</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.performing-text-analytics-with-azure-databricks.4-knowledge-check">
+          <source>Which of the following is correct?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.performing-text-analytics-with-azure-databricks.4-knowledge-check">
+          <source>Word embeddings convert words to their shortest common form.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.performing-text-analytics-with-azure-databricks.4-knowledge-check">
+          <source>Word embeddings convert text data to vectors.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.performing-text-analytics-with-azure-databricks.4-knowledge-check">
+          <source>Featurization of text data only needs to be performed during model training.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.performing-text-analytics-with-azure-databricks.4-knowledge-check">
+          <source>When scoring predictions against text data, the same featurization process used during training must be applied against the text to score.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.performing-text-analytics-with-azure-databricks.4-knowledge-check">
+          <source>Machine learning algorithms only understand vectors (arrays of numbers), not text.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.performing-text-analytics-with-azure-databricks.4-knowledge-check">
+          <source>In order to apply machine learning algorithms, one must apply some process to convert the text to a vector.</source>
+        </trans-unit></group></body></file></xliff>

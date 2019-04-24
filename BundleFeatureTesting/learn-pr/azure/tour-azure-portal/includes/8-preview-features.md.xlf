@@ -1,0 +1,93 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="8-preview-features.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8-preview-features.185d31dd719d5cfc43d9e230e73cf684a3cc3948.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8390b9decd014ceb9bfe0a9832bedb3f78387cce</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\tour-azure-portal\includes\8-preview-features.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Microsoft offer previews of Azure features for evaluation purposes.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>With <bpt id="p1">_</bpt>Azure Preview Features<ept id="p1">_</ept>, you can test beta and other pre-release features, products, services, software, and regions.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Some of the common areas you will see previews for include:</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>New storage types</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>New Azure services, such as Machine Learning enhancements</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>New or enhanced integration with other platforms</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>New APIs for services</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Azure feature previews are available under certain terms and conditions that are specific to each particular Azure preview.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Also, some previews are not covered by customer support.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Once a feature has been evaluated and tested successfully, it might be released to customers as part of Azure's default product set.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This release is referred to as <bpt id="p1">**</bpt>General Availability<ept id="p1">**</ept> (GA).</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Feature preview categories</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>There are two types of previews available:</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Private Preview<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This means that an Azure feature is available to * specific* Azure customers for evaluation purposes.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This is typically by invite only and issued directly by the product team responsible for the feature or service.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Public Preview<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This means that an Azure feature is available to <bpt id="p1">*</bpt>all<ept id="p1">*</ept> Azure customers for evaluation purposes.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>These previews can be turned on through the preview features page as detailed below.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Finding preview features</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can learn about preview features through the <bpt id="p1">[</bpt>preview features page<ept id="p1">](https://azure.microsoft.com/services/preview/?azure-portal=true)</ept>.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This page lists the preview features that are available for evaluation.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To access a preview feature, select its entry on this page and learn more about how to evaluate it.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You can also use the <bpt id="p1">**</bpt>RSS Feed<ept id="p1">**</ept> button on this page to subscribe to notifications and stay informed.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You can also find Azure preview features in the portal as follows:</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Sign in to Azure portal.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Create a resource<ept id="p1">**</ept> in the resources panel to open the <bpt id="p2">**</bpt>New<ept id="p2">**</ept> blade.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Enter the word <bpt id="p1">*</bpt>preview<ept id="p1">*</ept> into the search box at the top of the <bpt id="p2">**</bpt>New<ept id="p2">**</ept> blade.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A list of available preview features is displayed, with the word <bpt id="p1">**</bpt>(preview)<ept id="p1">**</ept> next to each one.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Azure portal preview features</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Another preview area you can try is the next version of the Azure portal.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Use the URL <bpt id="p1">[</bpt><ph id="ph1">https://preview.portal.azure.com</ph><ept id="p1">](https://preview.portal.azure.com?azure-portal=true)</ept> (notice the <bpt id="p2">**</bpt>preview<ept id="p2">**</ept> prefix).</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Typical portal preview features provide performance, navigation, and accessibility improvements to the Azure portal interface.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>It will be branded with an orange "Preview" banner, so you always know you are in the preview portal.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Provide feedback on preview features</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>If you utilize the preview portal or a preview feature, Microsoft wants to hear about your experience.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You can provide feedback through the "smiley" face icon on the portal or by posting ideas and suggestions on the Azure portal Feedback Forum.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Get notified about GA releases</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The Azure portal "What's New" link on the <ph id="ph1">`?`</ph> help menu provides a list of recent updates you can periodically check to see what's changed in Azure.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can use the <bpt id="p1">[</bpt>Azure Updates<ept id="p1">](https://azure.microsoft.com/updates/)</ept> page.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This page provides additional information and features including:</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Which updates are in general availability, preview, or development.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Browse updates by product category or update type, by using the provided dropdown lists.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Search for updates by keyword by entering search terms into a text-entry field.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Subscribe to get Azure update notifications by RSS.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Access the Microsoft Connect page to read Azure product news and announcements.</source>
+        </trans-unit></group></body></file></xliff>

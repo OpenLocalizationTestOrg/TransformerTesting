@@ -1,0 +1,39 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="8-installing-software.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8-installing-software.1f4c7e892e0c8a2b9e03a1c8e3aa8d2e45e4e42a.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">41f27a03346a9341bd15188d6512c39e398ae76d</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\manage-virtual-machines-with-azure-cli\includes\8-installing-software.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The last thing we want to try on our VM is to install a web server.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>One of the easiest packages to install is <ph id="ph1">`nginx`</ph>.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Install NGINX web server</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Locate the public IP address of your Linux virtual machine.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Remember you can use the <ph id="ph1">`vm list-ip-addresses`</ph> command to look it up.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Next, open an <ph id="ph1">`ssh`</ph> connection to the machine like you did when we tested it.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Remember you will need to pass in the admin name ("<bpt id="p1">**</bpt>aldis<ept id="p1">**</ept>").</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In the presented shell, execute the following command to install the <ph id="ph1">`nginx`</ph> web server.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Exit the Secure Shell.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Retrieve our default page</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In Azure Cloud Shell, use <ph id="ph1">`curl`</ph> to read the default page from your Linux web server.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can open a new browser tab and browse to the public IP address.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>It will fail because the Linux virtual machine doesn't expose port 80 (<ph id="ph1">`http`</ph>) through the built-in firewall.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Luckily, the Azure CLI has a command for that: <ph id="ph1">`vm open-port`</ph>.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Type the following into Cloud Shell to open port 80:</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>It will take a moment to add the network rule and open the port through the firewall.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Try <ph id="ph1">`curl`</ph> again.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This time it should return data.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can see the page in a browser as well.</source>
+        </trans-unit></group></body></file></xliff>

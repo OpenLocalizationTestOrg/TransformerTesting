@@ -1,0 +1,193 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-creating-and-executing-an-azure-function.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-creating-and-executing-an-azure-function.eb2a30fdfc04217ecc948ccacb0e180f68745ed9.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">da339a2f305a26119f1ef8b53c34fc869bf20097</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-serverless-logic-with-azure-functions\includes\4-creating-and-executing-an-azure-function.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Now that we have a function app created, let's look at how to build, configure, and execute a function.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Triggers</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Functions are event driven, which means they run in response to an event.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The type of event that starts the function is called a <bpt id="p1">**</bpt>trigger<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You must configure a function with exactly one trigger.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Azure supports triggers for the following services.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Service</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Trigger description</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Blob storage</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Start a function when a new or updated blob is detected.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Cosmos DB</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Start a function when inserts and updates are detected.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Event Grid</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Start a function when an event is received from Event Grid.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>HTTP</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Start a function with an HTTP request.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Microsoft Graph Events</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Start a function in response to an incoming webhook from the Microsoft Graph.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Each instance of this trigger can react to one Microsoft Graph resource type.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Queue storage</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Start a function when a new item is received on a queue.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The queue message is provided as input to the function.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Service Bus</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Start a function in response to messages from a Service Bus queue.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Timer</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Start a function on a schedule.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Bindings</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Bindings are a declarative way to connect data and services to your function.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Bindings know how to talk to different services, which means you don't have to write code in your function to connect to data sources and manage connections.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The platform takes care of that complexity for you as part of the binding code.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Each binding has a direction - your code reads data from <bpt id="p1">*</bpt>input<ept id="p1">*</ept> bindings and writes data to <bpt id="p2">*</bpt>output<ept id="p2">*</ept> bindings.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Each function can have zero or more bindings to manage the input and output data processed by the function.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A trigger is a special type of input binding that has the additional capability of initiating execution.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Azure provides a <bpt id="p1">[</bpt>large number of bindings<ept id="p1">](https://docs.microsoft.com/azure/azure-functions/functions-triggers-bindings#supported-bindings)</ept> to connect to different storage and messaging services.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>A sample binding definition</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Let's look at an example of configuring a function with an input binding (trigger) and an output binding.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Let's say we want to write a new row to Azure Table storage whenever a new message appears in Azure Queue storage.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This scenario can be implemented using an Azure Queue storage <bpt id="p1">_</bpt>trigger<ept id="p1">_</ept> and an Azure Table storage <bpt id="p2">_</bpt>output binding<ept id="p2">_</ept>.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The following snippet is the <bpt id="p1">_</bpt>function.json<ept id="p1">_</ept> file for this scenario.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Our JSON configuration specifies that our function will be triggered when a message is added to a queue named <bpt id="p1">**</bpt>myqueue-items<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The return value of our function is then written to the <bpt id="p1">**</bpt>outTable<ept id="p1">**</ept> table in Azure Table storage.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This example is a simple illustration of how we configure bindings for a function.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>We could change the output to be an email using a SendGrid binding, or put an event onto a Service Bus to notify some other component in our architecture, or even have multiple output bindings to push data to various services.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>To view and edit the contents of <bpt id="p1">_</bpt>function.json<ept id="p1">_</ept> in the Azure portal, click the <bpt id="p2">**</bpt>Advanced<ept id="p2">**</ept> editor option on the <bpt id="p3">**</bpt>Integrate<ept id="p3">**</ept> tab of your function.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Creating a function in the Azure portal</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Azure provides several pre-made function templates for common scenarios.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Quickstart templates</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>When adding your first function, you are presented with the Quickstart screen.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This screen allows you to choose a trigger type (HTTP, Timer, or Data) and programming language (C#, JavaScript, F# or Java).</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Then, based on your selections, Azure will generate the function code and configuration for you with some sample code provided to display out the input data received in the log.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Custom function templates</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The selection of Quickstart templates provides easy access to the most common scenarios.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>However, Azure provides over 30 additional templates you can start with.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>These can be selected from the template list screen when creating subsequent functions or be selected by using the <bpt id="p1">**</bpt>Custom function<ept id="p1">**</ept> option on the Quickstart screen.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>HTTP trigger w/ C#, F#, or JavaScript</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Timer trigger w/ C#, F#, or JavaScript</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Queue trigger w/ C#, F#, or JavaScript</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Service Bus Queue trigger w/ C#, F#, or JavaScript</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Cosmos DB trigger w/ C# or JavaScript</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>IoT Hub (Event Hub) w/ C#, F#, or JavaScript</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>... and many more</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Navigating to your function and files</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>When you create a function from a template, several files are created.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>For example, if you opted to use the Webhook + API Quickstart using JavaScript, the files generated would be a configuration file, <bpt id="p1">**</bpt>function.json<ept id="p1">**</ept>, and a source code file, <bpt id="p2">**</bpt>index.js<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The functions you create in a function app appear under the <bpt id="p1">**</bpt>Functions<ept id="p1">**</ept> menu item in the function app portal.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>When you select a function in your function app, a code editor opens and displays the code for your function, as illustrated in the following screenshot.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Azure portal showing the function editor blade, including the expanded View files menu, with the selected "HttpTriggerJS1" function in our app service navigation and the View files menu highlighted.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>As you can see in the preceding screenshot, there's a flyout menu on the right that includes a tab to <bpt id="p1">**</bpt>View files<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Selecting this tab shows the file structure that makes up your function.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Testing your Azure function</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Once you've created a function, you'll want to test it.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>There are a couple of approaches: manual execution and testing from within the Azure portal itself.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Manual execution</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>You can start a function by manually triggering the configured trigger.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>For instance, if you are using an HTTP trigger - you can use a tool such as Postman or cURL to initiate an HTTP request to your function endpoint URL, which is available from the HTTP trigger definition (<bpt id="p1">**</bpt>Get function URL<ept id="p1">**</ept>).</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Testing in the Azure portal</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The portal also provides a convenient way to test your functions.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>On the right side of the code window, there is a flyout tabbed navigation menu.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This menu contains a <bpt id="p1">**</bpt>Test<ept id="p1">**</ept> item.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Expanding the menu and selecting this tab gives you another way to execute your function and view the result.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>When you click <bpt id="p1">**</bpt>Run<ept id="p1">**</ept> in this test window, the results are displayed in the output window, along with a status code.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Monitoring dashboard</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The ability to monitor your functions is critical during development and in production.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The Azure portal provides a monitoring dashboard available if you turn on the Application Insights integration.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>In the function app navigation menu, once you expand the function node you'll see a <bpt id="p1">**</bpt>Monitor<ept id="p1">**</ept> menu item.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>This monitor dashboard provides a quick way to view the history of function executions and displays the timestamp, result code, duration, and operation ID populated by Application Insights.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Azure portal showing an HTTP function Monitor blade with several function results and their corresponding HTTP status codes, with the Module menu item of the function highlighted.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Streaming log window</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>You're also able to add logging statements to your function for debugging in the Azure portal.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The called methods for each language are passed a "logging" object, which may be used to log information to the log window located in a tabbed flyout menu located at the bottom of the code window.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The following JavaScript code snippet shows how to log a message using the <ph id="ph1">`context.log`</ph> method (the <ph id="ph2">`context`</ph> object is passed to the handler).</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>We could do the same thing in C# using the <ph id="ph1">`log.Info`</ph> method.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>In this case, the <ph id="ph1">`log`</ph> object is passed to the C# method processing the function.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Errors and warnings window</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>You can locate the errors and warnings window tab in the same flyout menu as the log window.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>This window will show compilation errors and warnings within your code.</source>
+        </trans-unit></group></body></file></xliff>

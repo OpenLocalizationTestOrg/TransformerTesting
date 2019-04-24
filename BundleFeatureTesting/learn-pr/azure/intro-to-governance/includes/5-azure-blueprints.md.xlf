@@ -1,0 +1,45 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-azure-blueprints.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-azure-blueprints.96a10f25c8206e406d4690a75e942e60a6c87b50.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e6b285413723d374d91368bb665cd9fcf445a272</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-governance\includes\5-azure-blueprints.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Adhering to security or compliance requirements, whether government or industry requirements, can be difficult and time-consuming.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>To help you with auditing, traceability, and compliance with your deployments, use <bpt id="p1">**</bpt>Azure Blueprint<ept id="p1">**</ept> artifacts and tools.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Icon representing Azure Blueprint</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Blueprint<ept id="p1">**</ept> allows you to define a repeatable set of Azure resources that implement and adhere to your organization's standards, patterns, and requirements.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Blueprint enables development teams to rapidly build and deploy new environments with the knowledge that they're building within organizational compliance with a set of built-in components that speed up development and delivery.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Azure Blueprint is a declarative way to orchestrate the deployment of various resource templates and other artifacts, such as:</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Role assignments</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Policy assignments</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Azure Resource Manager templates</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Resource groups</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The process of implementing Azure Blueprint consists of the following high-level steps:</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Create an Azure Blueprint</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Assign the blueprint</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Track the blueprint assignments</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>With Azure Blueprint, the relationship between the blueprint definition (what <bpt id="p1">_</bpt>should be<ept id="p1">_</ept> deployed) and the blueprint assignment (what <bpt id="p2">_</bpt>was<ept id="p2">_</ept> deployed) is preserved.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This connection supports improved deployment tracking and auditing.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Azure Blueprints are different from Azure Resource Manager Templates.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When Azure Resource Manager Templates deploy resources, they have no active relationship with the deployed resources (they exist in a local environment or source control).</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>By contrast, with Azure Blueprint, each deployment is tied to an Azure Blueprint package.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This means that the relationship with resources will be maintained, even after deployment.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Managing relationships, in this way, improves auditing and tracking capabilities.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Azure Blueprints are also useful in Azure DevOps scenarios, where blueprints are associated with specific build artifacts and release pipelines and can be tracked more rigorously.</source>
+        </trans-unit></group></body></file></xliff>

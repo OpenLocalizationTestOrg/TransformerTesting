@@ -1,0 +1,137 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-choose-the-right-azure-service-for-your-data.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-choose-the-right-azure-service-for-your-data.3cbe7751c2cb3c5a4648ad26dff5ecc16554cfe1.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">52c64494e2ff89128ba426c99fe552d62738e4b4</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\choose-storage-approach-in-azure\includes\5-choose-the-right-azure-service-for-your-data.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Choosing the correct storage solution can lead to better performance, cost savings, and improved manageability.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Here, you'll apply what you've learned about the data in your online retail scenario, and find the best Azure service for each data set.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Product catalog data</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Data classification:<ept id="p1">**</ept> Semi-structured because of the need to extend or modify the schema for new products</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Operations:<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Customers require a high number of read operations, with the ability to query on many fields within the database.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The business requires a high number of write operations to track the constantly changing inventory.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Latency &amp; throughput:<ept id="p1">**</ept> High throughput and low latency</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Transactional support:<ept id="p1">**</ept> Required</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Recommended service: Azure Cosmos DB</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Azure Cosmos DB supports semi-structured data, or NoSQL data, by design.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>So, supporting new fields, such as the "Bluetooth-enabled" field or any new fields you need in the future, is a given with Azure Cosmos DB.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Azure Cosmos DB supports SQL for queries and every property is indexed by default.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can create queries so that your customers can filter on any property in the catalog.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Azure Cosmos DB is also ACID-compliant, so you can be assured that your transactions are completed according to those strict requirements.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>As an added plus, Azure Cosmos DB also enables you to replicate your data anywhere in the world with the click of a button.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>So, if your e-commerce site has users concentrated in the US, France, and England, you can replicate your data to those data centers to reduce latency, as you've physically moved the data closer to your users.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Even with data replicated around the world, you can choose from one of five consistency levels.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>By choosing the right consistency level, you can determine the tradeoffs to make between consistency, availability, latency, and throughput.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can scale up to handle higher customer demand during peak shopping times, or scale down during slower times to conserve cost.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Why not other Azure services?</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Azure SQL Database would be an excellent choice for this data set, were it not for the need to extend the schema ad-hoc for new products.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In Azure SQL Database, all data needs to adhere to a schema.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Azure SQL Database can provide many of the same benefits of Azure Cosmos DB, but it cannot handle heterogeneous data.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Other Azure services, such as Azure Table storage, Azure HBase as a part of HDInsight, and Azure Cache for Redis, can also store NoSQL data.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>In this scenario, users will want to query on multiple fields, so Azure Cosmos DB is a better fit.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Azure Cosmos DB indexes every field by default, whereas the other services are limited in the data they index, and querying on non-indexed fields results in reduced performance.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Photos and videos</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Data classification:<ept id="p1">**</ept> Unstructured</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Operations:<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Only need to be retrieved by ID.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Customers require a high number of read operations with low latency.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Creates and updates will be somewhat infrequent and can have higher latency than read operations.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Latency &amp; throughput:<ept id="p1">**</ept> Retrievals by ID need to support low latency and high throughput.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Creates and updates can have higher latency than read operations.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Transactional support:<ept id="p1">**</ept> Not required</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Recommended service: Azure Blob storage</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Azure Blob storage supports storing files such as photos and videos.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>It also works with Azure Content Delivery Network (CDN) by caching the most frequently used content and storing it on edge servers.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Azure CDN reduces latency in serving up those images to your users.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>By using Azure Blob storage, you can also move images from the hot storage tier to the cool or archive storage tier, to reduce costs and focus throughput on the most frequently viewed images and videos.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Why not other Azure services?</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You could upload your images to Azure App Service, so that the same server that is running your app is serving up your images.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This solution would work if you didn't have many files.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>But if you have lots of files, and a global audience, you'll get more performant results by using Azure Blob storage with Azure CDN.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Business data</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Data classification:<ept id="p1">**</ept> Structured</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Operations:<ept id="p1">**</ept> Read-only, complex analytical queries across multiple databases</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Latency &amp; throughput:<ept id="p1">**</ept> Some latency in the results is expected based on the complex nature of the queries.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Transactional support:<ept id="p1">**</ept> Required</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Recommended service: Azure SQL Database</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Business data will most likely be queried by business analysts, who are more likely to know SQL than any other query language.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Azure SQL Database could be used as the solution by itself, but pairing it with Azure Analysis Services enables data analysts to create a semantic model over the data in SQL Database.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The data analysts can then share it with business users, so that they only need to connect to the model from any business intelligence (BI) tool to immediately explore the data and gain insights.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Why not other Azure services?</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Azure SQL Data Warehouse supports OLAP solutions and SQL queries.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>But your business analysts will need to perform cross-database queries, which SQL Data Warehouse does not support.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Azure Analysis Services could be used in addition to Azure SQL Database.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>But your business analysts are more well-versed in SQL than in working with Power BI.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>So they'd like a database that supports SQL queries, which Azure Analysis Services does not.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>In addition, the financial data you're storing in your business data set is relational and multidimensional in nature.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Azure Analysis Services supports tabular data stored on the service itself, but not multidimensional data.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>To analyze multidimensional data with Azure Analysis Services, you can use a direct query to the SQL Database.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Azure Stream Analytics is a great way to analyze data and transform it into actionable insights, but its focus is on real-time data that is streaming in.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>In this scenario, the business analysts are looking at historical data only.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Each type of data has different storage requirements, and it's your job to figure out which solution is best.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Always consider the type of data, the operations required, expected latency, and the need for transactional support.</source>
+        </trans-unit></group></body></file></xliff>

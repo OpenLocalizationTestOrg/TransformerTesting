@@ -1,0 +1,73 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-exercise-resize-disks.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-exercise-resize-disks.9c638bd2ec3637822bb94a727089ffdcc0bee435.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1229cf7c0d2f3e3bf1cb88d694680ec51dca0424</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\add-and-size-disks-in-azure-virtual-machines\includes\6-exercise-resize-disks.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Let's say you underestimated how large some of the uploaded files would be and that your upload disk is running out of space.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You decide to double the space from 64 GB to 128 GB.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Here you'll practice the process you learned about in the previous units.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Resize the data disk</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To resize a disk, you need the ID or name of the disk.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In this case, you already know the name, <bpt id="p1">**</bpt>uploadDataDisk1<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>But in case you didn't remember that, or it was created by someone else, you can run <ph id="ph1">`az disk list`</ph> to find the name.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Run <ph id="ph1">`az disk list`</ph> to print the list of the managed disks in the resource group.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This list might include other disks if you have multiple VMs in the same resource group.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You see the disk named <bpt id="p1">**</bpt>uploadDataDisk1<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Run the following <ph id="ph1">`az vm deallocate`</ph> command to stop and de-allocate your VM.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This does not delete your VM, but puts it in a state where you can modify the virtual disks.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Run <ph id="ph1">`az disk update`</ph> to resize the disk to 128 GB.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Run <ph id="ph1">`az vm start`</ph> to restart the VM.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>But we aren't finished yet.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The operating system on the VM cannot use the extra space yet.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This is done in the next section.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Expand the disk partition</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The final step is to tell the OS about the available space.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Just like the partitioning and format steps you did earlier, this process is identical to the one you'd follow to expand a physical, on-premises, disk.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Although you can reserve a fixed public IP address for your VM, by default your VM receives a new public IP address when it is de-allocated and restarted.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Run the following <ph id="ph1">`az vm show`</ph> command to update your Bash variable with your VM's new public IP address.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>As you did earlier, run <ph id="ph1">`lsblk`</ph> on your VM over SSH to understand its current state.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You can see that disk <ph id="ph1">`sdc/sdc1`</ph> still has a size of 64 GB.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Similar to what you did previously to initialize your disk, run this <ph id="ph1">`az vm extension set`</ph> command to tell the OS on the VM about the newly available space by executing a pre-made Bash script we create to help you along.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>While the command runs, you can <bpt id="p1">[</bpt>examine the Bash script<ept id="p1">](https://raw.githubusercontent.com/MicrosoftDocs/mslearn-add-and-size-disks-in-azure-virtual-machines/master/resize-data-disk.sh?azure-portal=true)</ept> from a separate browser tab if you'd like.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To summarize, the script:</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Unmounts the disk <ph id="ph1">`/dev/sdc1`</ph>.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Resizes partition 1 to be 128 GB.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Verifies partition consistency.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Resizes the filesystem.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Remounts the drive <ph id="ph1">`/dev/sdc1`</ph> back to the mount point <ph id="ph2">`/uploads`</ph>.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To verify the configuration, run <ph id="ph1">`lsblk`</ph> on your VM over SSH a second time.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This time, you see that disk <ph id="ph1">`sdc/sdc1`</ph> is expanded to accommodate the increased size of your disk.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>As a final verification step, run the operating system's <ph id="ph1">`df`</ph> utility on your VM over SSH to prove that the OS can see it correctly.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You see that the drive's size is 128 GB.</source>
+        </trans-unit></group></body></file></xliff>

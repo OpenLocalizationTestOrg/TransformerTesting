@@ -1,0 +1,61 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.fa56796ec061b52cbef15ef645b1dd38a81776a9.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c34ec24226480625689e0455e3f321a180dc6ef6</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-containers\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Rapid deployment is key to business agility.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Modern organizations must be able to release apps quickly to attract and retain business.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Containerization saves time and reduces costs.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You don't have to configure hardware and spend time installing operating systems and software to host a deployment.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Multiple apps can run in their own isolated containers on the same hardware.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>It's possible to scale out quickly by starting additional instances of containers.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The images that run in containers are extensible; you can start with a working base image, and layer additional functionality on top to create a new image.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Suppose you work for an online clothing retailer that is planning the development of a handful of internal apps but hasn’t yet decided how to host them.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You're looking for maximum compatibility, and the apps may be hosted on-prem, in Azure or in another cloud provider.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Some of the apps might share IaaS infrastructure.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In these cases, the company requires the apps be fairly isolated from each other.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Apps can share the hardware resources, but an app shouldn't be able to interfere with the files, memory space, or other resources used by other apps.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The company values the efficiency of its resources and wants something with an effective app development story.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Docker seems an ideal solution to these requirements.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>With Docker, you can quickly build and deploy an app and run it in its own tailored environment, either locally or in the cloud.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In this module, you'll take an existing application and package it up as a Docker image.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You'll automate the image-build process defining the build steps in a Dockerfile.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You'll test the app locally by using Docker for Windows.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Finally, you'll upload the image to Azure Container Registry, and run the application using the Azure Container Instance service.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>By the end of this module, you'll be able to build Docker images and run them from Azure.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Create a Dockerfile for a new container image based on a starter image from Docker Hub</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Add files to an image using Dockerfile commands</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Configure an image’s startup command with Dockerfile commands</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Build and run a web application packaged in a Docker image</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Deploy a Docker image using the Azure Container Instance service</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Familiarity with basic web application development concepts</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The exercises in this module require a local installation of Docker.</source>
+        </trans-unit></group></body></file></xliff>

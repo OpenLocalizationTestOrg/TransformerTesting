@@ -1,0 +1,37 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.052634a388d156465e97b403363fe8e20f4ef038.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ce5d8f217be8cf03b1a6efcff7f8e45c19ac2d54</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\design-for-performance-and-scalability-in-azure\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Whether you're running a public facing application that handles massive amounts of traffic or an internal business API that manages critical data for internal systems, your users expect a system that performs well.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Scaling your system to handle load, identifying network bottlenecks, and optimizing your storage performance are important to ensure your users have the best experience.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In this module, we'll see how to make your application perform at its best.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>As we learn about architecting our cloud solutions for performance and scalability, we'll see how one fictional Azure customer puts these principles to work.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Lamna Healthcare is a national healthcare provider with several thousand physicians and clinicians across multiple facilities throughout the country.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Their IT organization has recently undertaken an effort to reduce their datacenter footprint and move the majority of their IT systems to Azure.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>They have a mixture of in-house developed applications, open source, and off-the-shelf applications, with varying architectures and technology platforms.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>They want to make their journey to the cloud successful, and would like to learn what they need to focus on to help make it possible.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The concepts discussed in this module are not all-inclusive, but represent some of the important considerations when building a solution on the cloud.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Microsoft publishes a broad set of patterns, guidelines, and examples on designing applications on Azure.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>It is highly recommended that you look through the content in the <bpt id="p1">[</bpt>Azure Architecture Center<ept id="p1">](https://docs.microsoft.com/azure/architecture/)</ept> as you start planning and designing your architecture.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Adjust your capacity based on workload by scaling up and scaling out</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Optimize network performance</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Optimize storage and database performance</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>None</source>
+        </trans-unit></group></body></file></xliff>

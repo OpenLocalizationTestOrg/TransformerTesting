@@ -1,0 +1,57 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-initiatives.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-initiatives.0389f1fef759c769b1e625a6d1ddbbec82d90ffb.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e5a67270ee54c3cf45145eb1174b2c5f5e27a814</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-governance\includes\3-initiatives.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Managing a few policy definitions is easy, but once you have more than a few, you will want to organize them.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>That's where <bpt id="p1">_</bpt>initiatives<ept id="p1">_</ept> come in.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Initiatives work alongside policies in Azure Policy.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">*</bpt>initiative definition<ept id="p1">*</ept> is a set or group of policy definitions to help track your compliance state for a larger goal.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Even if you have a single policy, we recommend using initiatives if you anticipate increasing the number of policies over time.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Like a policy assignment, an <bpt id="p1">*</bpt>initiative assignment<ept id="p1">*</ept> is an initiative definition assigned to a specific scope.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Initiative assignments reduce the need to make several initiative definitions for each scope.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This scope could also range from a management group to a resource group.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Once defined, initiatives can be assigned just as policies can - and they apply all the associated policy definitions.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Defining initiatives</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initiative definitions simplify the process of managing and assigning policy definitions by grouping a set of policies into a single item.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For example, you could create an initiative named <bpt id="p1">*</bpt>Enable Monitoring in Azure Security Center<ept id="p1">*</ept>, with a goal to monitor all the available security recommendations in your Azure Security Center.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Under this initiative, you would have the following policy definitions:</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Policy definition</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Purpose</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Monitor unencrypted SQL Database in Security Center</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For monitoring unencrypted SQL databases and servers.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Monitor OS vulnerabilities in Security Center</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For monitoring servers that do not satisfy the configured baseline.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Monitor missing Endpoint Protection in Security Center</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For monitoring servers without an installed endpoint protection agent.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You can define initiatives using the Azure portal, or command-line tools.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In the portal, you use the "Authoring" section.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Screenshot showing Azure portal defining initiatives and definitions</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Assigning initiatives</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Like a policy assignment, an <bpt id="p1">*</bpt>initiative assignment<ept id="p1">*</ept> is an initiative definition assigned to a specific scope.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Initiative assignments reduce the need to make several initiative definitions for each scope.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This scope could also range from a management group to a resource group.</source>
+        </trans-unit></group></body></file></xliff>

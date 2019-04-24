@@ -1,0 +1,45 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-exercise-add-the-azure-storage-lib.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-exercise-add-the-azure-storage-lib.bc211143360279b1ef6ba0e71adddfa23e74b760.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fabf16dff37d6487fe23fe5390e1fa978281a390</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\connect-an-app-to-azure-storage\includes\6-exercise-add-the-azure-storage-lib.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Let's integrate the Azure Storage client library into your .NET Core console application.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The Azure storage client library for .NET is distributed with NuGet.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You will want to add the <bpt id="p1">**</bpt>WindowsAzure.Storage<ept id="p1">**</ept> package to your .NET or .NET Core applications.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Add the Azure Storage NuGet package</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In the terminal, <ph id="ph1">`cd`</ph> to the PhotoSharingApp directory if you aren't already there.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Add the <bpt id="p1">**</bpt>WindowsAzure.Storage<ept id="p1">**</ept> package to the application.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This should result in some console activity while the client library and all the required dependencies are downloaded.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Once it's done, go ahead and build and run the app again to make sure everything is ready to go.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>As before, it should output "Hello World!".</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Let's integrate the <bpt id="p1">**</bpt>Microsoft Azure Storage Client Library for Node.js and JavaScript<ept id="p1">**</ept> into your application.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The client library for Node.js is available through the Node Package manager (NPM).</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You will want to add the <bpt id="p1">**</bpt>azure-storage<ept id="p1">**</ept> package to your <bpt id="p2">**</bpt>packages.json<ept id="p2">**</ept> file.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Microsoft Azure Storage Client Library for Node.js and JavaScript<ept id="p1">**</ept> is intended for server applications.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If you are doing client-side JavaScript, you will want to use the <bpt id="p1">**</bpt>Azure Storage Client Library for JavaScript<ept id="p1">**</ept>, which provides the same functionality but is tailored to running in a browser.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Add the Azure Storage package</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In Cloud Shell, <ph id="ph1">`cd`</ph> to the PhotoSharingApp directory if you aren't already there.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Add the <bpt id="p1">**</bpt>azure-storage<ept id="p1">**</ept> package to the application.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Make sure to supply the <ph id="ph1">`--save`</ph> option so it persists to <bpt id="p1">**</bpt>packages.json<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This should result in some console activity while the client library and all the required dependencies are downloaded.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Once it's done, go ahead and build and run the app again to make sure everything is ready to go.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>As before, it should output "Hello, World!"</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Now that we have the necessary libraries in place, let's look at the common tasks you'll do in your code to work with Azure storage.</source>
+        </trans-unit></group></body></file></xliff>

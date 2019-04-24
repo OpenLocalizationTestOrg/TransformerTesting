@@ -1,0 +1,27 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.ad4612a3bfbffd88758f5561e9a78ca166cb339a.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5b550fad5fb8fa736c796a27e7f9e69290a6f1e7</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\secure-azure-storage-account\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Azure Storage accounts provide a wealth of security options that protect your cloud-based data.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Azure services such as Blob storage, Files share, Table storage, and Data Lake Store all build on Azure Storage.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Because of this foundation, the services benefit from the fine-grained security controls in Azure Storage.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Imagine the network administrator at Contoso is auditing the security of the assets within the domain.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>At the end of the audit, she needs to be satisfied that all the data stored in Azure strictly follows Contoso's security policy.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>As Contoso's primary data consultant, you'll help the network administrator understand how Azure Storage can help her meet Contoso's security requirements.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In this module you will:</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Investigate the ways Azure Storage protects your data</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Explore the authentication options to access data</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Learn about Advanced Threat Protection</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Learn how to control network access to data</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Explore the Azure Data Lake enterprise-class security features</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="0-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0-introduction.a28d15cdaa00c0506f78f8940b7be32dabf3f5b5.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ada37c398f7fd600562f46093d16720eb0bfa025</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\send-location-over-sms-using-azure-functions-twilio\includes\0-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>When you book cab using your mobile app, have you ever wondered how your exact location gets shared with the cab driver via SMS.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Just Imagine if you could have access to similar aap of your own that could share your exact geographical location through an SMS with a bunch of your friends at the same time, all in a single click.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You can easliy do this by creating a mobile app using Azure Functions and Twilio.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Twilio is a communications platform that is supported by Azure Functions using Twilio SMS output bindings.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In this module, you'll create a cross-platform Xamarin.Forms app with a serverless back end.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This app will get the user's location from their device and send it with a list of phone numbers to Azure Functions.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The function will then use a binding to a third-party service (Twilio) to send your location as an SMS message to all the phone numbers provided.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This process involves the following steps:</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The app captures your location using Xamarin.Essentials as an abstraction over device-specific location APIs.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The location and phone numbers are packaged up into a JSON payload and sent to Azure Functions.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The Azure Functions decodes the JSON payload and creates SMS messages.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The SMS messages are sent via <bpt id="p1">[</bpt>Twilio<ept id="p1">](https://www.twilio.com/?azure-portal=true)</ept>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The following illustration shows an overview of this process.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>An illustration showing a high-level architecture of the process of sharing location through text message.</source>
+        </trans-unit></group></body></file></xliff>

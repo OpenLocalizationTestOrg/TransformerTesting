@@ -1,0 +1,81 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-implementing-optimistic-concurrency.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-implementing-optimistic-concurrency.1360d646976e74508ff96aa610bccf6c64029bdd.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ade0d992374ecb0a654b5ba805d32c16b41c7d0e</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\support-concurrency-blob-storage\includes\4-implementing-optimistic-concurrency.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In optimistic concurrency, the application checks whether a blob has changed since the last time it was read.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Azure Blob storage generates an identifier for every object when it changes state.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Optimistic concurrency makes use of this identifier to determine if another user has changed the content since it was last read.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If the object has been changed since it was last read, the commit will not complete.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Workflow of optimistic strategy</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To implement an optimistic approach to accessing storage, the environment, or service, needs to give a value for the current state of a file.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>One example could be to use the last modified date, or you could use a combination of file name, size, and modified date.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You need to have confidence that there's no changes to the file since you last accessed it.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In the example, both reporters were trying to write to the same storage, but neither checked if the file had changed before they tried to update it.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If the app had checked, it would have detected that the file had been changed by something else.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Reporter A's app won't allow the changes to be saved to the blob storage, as it would overwrite Reporter B's work.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Azure Blob Storage</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Azure provides a unique identifier that is updated anytime a change occurs on a blob.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This identifier known as an entity tag (ETag), and its value can be read at any time and stored.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>An app can store the ETag, complete the processing it needs to, and try saving the changes.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The stored value it has for the ETag is passed at the point of saving.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Azure blob storage service can now do an atomic action of checking its current value of the ETag against the stored version sent by the app.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If they match, it can perform the update.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If they don't match, the update fails and the app who made the request is notified using the HTTP protocol.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The failed update is returned as a 412 error (precondition has failed).</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The precondition being the ETags must match before an update will be processed.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>All the methods that can update storage in block blob storage support this approach.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The first step is to get the current value for the ETag:</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The app needs to store the value <ph id="ph1">`current-ETag-value`</ph> in a variable so it can send it with the <ph id="ph2">`UploadText`</ph> call.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For the simple example app, the null parameters are features of the <ph id="ph1">`UploadTextAsync`</ph> that aren't required.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Now the processing is complete the app can try to save those changes with the above code.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Reading from left to right, upload some text (<ph id="ph1">`text-to-upload`</ph>) to a file (<ph id="ph2">`file-to-change`</ph>), and when accessing the current file on the server does it have the same ETag that I've sent you (<ph id="ph3">`current-ETag-value`</ph>).</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>An app can always check before updating storage that no other process, or app, has changed it on the meantime.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Advantages and disadvantages</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Optimistic concurrency is a good choice in environments when there's a low contention for data.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Optimistic concurrency works well because data isn't locked.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This approach doesn't block connections from trying to update data at the same time.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The process starts with an attempt to write data.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>It's called optimistic because you hope that no one else has changed the file since you read it.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Optimistic concurrency doesn't put a lock on data, but instead it checks to see if data has changed at the point of trying to update it.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Also, optimistic concurrency assumes there won't be any interference between multiple users.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Because of this, optimistic concurrency is more appropriate in environments where there's low contention.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A disadvantage is that every app must implement the optimistic checks on the ETag.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Apps that don't would be free to make updates and data can still be lost.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Optimistic concurrency isn't enforced, it requires all apps that use the storage to adopt it.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,223 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-exercise-call-the-text-analytics-api-using-the-api-testing-console.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-exercise-call-the-text-analytics-api-using-the-api-testing-console.c1d24a7861049a252dd0d5199d539b638c1b63f3.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dc15131bffc2144a67cca670cba3e902c5575724</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\classify-user-feedback-with-the-text-analytics-api\includes\3-exercise-call-the-text-analytics-api-using-the-api-testing-console.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>To see the Text Analytics API in action, let's make some calls using the built-in API testing console tool located in the online reference documentation.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Before we do that, we'll need an access key to make those calls.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Create an access key</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Every call to Text Analytics API requires a subscription key.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Often called an access key, it is used to validate that you have access to make the call.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>We'll use the Azure portal to grab a key.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Sign into the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept> using the same account you activated the sandbox with.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Create a resource<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Search the Marketplace<ept id="p1">**</ept> search box, type in <bpt id="p2">*</bpt>text analytics<ept id="p2">*</ept> and hit return.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Text Analytics<ept id="p1">**</ept> in the search results and then select the <bpt id="p2">**</bpt>Create<ept id="p2">**</ept> button in the bottom right of the screen.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Create<ept id="p1">**</ept> page that opens, enter the following values into each field.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Property</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Value</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Name</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>MyTextAnalyticsAPIAccount</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The name of the Cognitive Services account.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>We recommend using a descriptive name.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Valid characters are <ph id="ph1">`a-z`</ph>, <ph id="ph2">`0-9`</ph>, and <ph id="ph3">`-`</ph>.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Subscription</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Concierge Subscription</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The subscription under which this new Cognitive Services API account with <bpt id="p1">**</bpt>Text Analytics API<ept id="p1">**</ept> is created.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Location</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>choose a region from the dropdown<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Since you're using the free sandbox, select a location from the dropdown that is <bpt id="p1">**</bpt>also<ept id="p1">**</ept> on the sandbox region list shown below.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Pricing tier</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>F0 Free<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The cost of your Cognitive Services account depends on the actual usage and the options you choose.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>We recommend selecting the free tier for our purposes here.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Resource group</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Use existing<ept id="p1">**</ept> and choose <bpt id="p2">&lt;rgn&gt;</bpt>[sandbox resource group name]<ept id="p2">&lt;/rgn&gt;</ept></source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Name for the new resource group in which to create your Cognitive Services Text Analytics API account.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Sandbox region list</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Remember the location you selected when creating the Text Analytics cognitive services account.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You'll use it to make API calls shortly.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Create<ept id="p1">**</ept> at the bottom of the page to start the account creation process.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Watch for a notification that the deployment is in progress.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You'll then get a notification that the account has been deployed successfully to your resource group.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Deployment succeeded notification with a Go to resource button and a Pin to dashboard button.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Get the access key</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Now that we have our Cognitive Services account, let's find the access key so we can start calling the API.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Click on the <bpt id="p1">**</bpt>Go to resource<ept id="p1">**</ept> button on the <bpt id="p2">*</bpt>Deployment succeeded<ept id="p2">*</ept> notification.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This action opens the account Quickstart.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Keys<ept id="p1">**</ept> menu item from the menu on the left, or in the <bpt id="p2">*</bpt>Grab your keys<ept id="p2">*</ept> section of the quickstart.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This action opens the <bpt id="p1">**</bpt>Manage keys<ept id="p1">**</ept> page.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Copy one of the keys using the copy button.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Manage keys user interface showing the name of the Cognitive Services account and the Key 1 and Key 2 entries.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Always keep your access keys safe and never share them.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Store this key for the rest of this module.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>We'll use it shortly to make API calls from the testing console and throughout the rest of the module.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Call the API from the testing console</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Now that we have our key, we can head over to the testing console and take the API for a spin.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Navigate to the following URL in your favorite browser.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Replace <ph id="ph1">`[location]`</ph> with the location you selected when creating the Text Analytics cognitive services account earlier in this unit.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>For example, if you created the account in <bpt id="p1">*</bpt>eastus<ept id="p1">*</ept>, you'd replace <ph id="ph1">`[location]`</ph> with <ph id="ph2">`eastus`</ph> in the URL.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The landing page displays a menu on the left and content to the right.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The menu lists the POST methods you can call on the Text Analytics API.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>These endpoints are <bpt id="p1">**</bpt>Detect Language<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Entities<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Key Phrases<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Sentiment<ept id="p4">**</ept>.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To call one of these operations, we need to do a few things.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Select the method we want to call.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Add the access key that we saved earlier in the lesson to each call.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>From the left menu, select <bpt id="p1">**</bpt>Sentiment<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This selection opens the Sentiment documentation to the right.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>As the documentation shows, we'll be making a REST call in the following format.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`[location]`</ph> is replaced with the location that you selected when you created the Text Analytics account.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>We'll pass in our subscription key, or access key, in the <bpt id="p1">**</bpt>ocp-Apim-Subscription-Key<ept id="p1">**</ept> header.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Make some API calls</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Open API testing console<ept id="p1">**</ept> section of this page, select the button corresponding to the location or region in which you created  the Cognitive Services account.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Selecting this button opens the live, interactive, API console.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Paste the access key you saved earlier into the field labeled <bpt id="p1">**</bpt>Ocp-Apim-Subscription-Key<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Notice that the key is written automatically into the HTTP request window as a header value.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Scroll to the bottom of the page and click <bpt id="p1">**</bpt>Send<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Let's examine the sections of this screen in more detail.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>In the Headers section of the user interface, we set the access, or subscription, key in the header of our request.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Screenshot of headers section.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Next, we have the request body section, which holds a <bpt id="p1">**</bpt>documents<ept id="p1">**</ept> array.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Each document in the array has three properties.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The properties are <bpt id="p1">*</bpt>"language"<ept id="p1">*</ept>, <bpt id="p2">*</bpt>"id"<ept id="p2">*</ept>, and <bpt id="p3">*</bpt>"text"<ept id="p3">*</ept>.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>"id"<ept id="p1">*</ept> is a number in this example, but it can be anything you want as long as it's unique in the documents array.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>In this example, we're also passing in documents written in three different languages.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Over 15 languages are supported in the Sentiment feature of the Text Analytics API.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>For more information, check out <bpt id="p1">[</bpt>Supported languages in the Text Analytics API<ept id="p1">](https://docs.microsoft.com/azure/cognitive-services/text-analytics/text-analytics-supported-languages)</ept>.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The maximum size of a single document is 5,000 characters, and one request can have up to 1,000 documents.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Screenshot of Request Body section</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The complete request, including the headers and the request URL are displayed in the next section.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>In this example, you can see that the requests are routed to a URL that begins with <ph id="ph1">`westus`</ph>.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The URL differs depending on the location you selected when you created your Text Analytics account.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">![</ph>Screenshot of section number four showing the request URL.<ph id="ph2">](../media/4-marker.PNG)</ph></source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">![</ph>Screenshot of the section number five showing detailed HTTP request.<ph id="ph2">](../media/5-marker.PNG)</ph></source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Then we have information about the response.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>In the example, we see that the request was a success and code <ph id="ph1">`200`</ph> was returned.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>We can also see that the round trip took 38 ms.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Screenshot of section number five showing the response status</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Finally, we see the response to our request.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The response holds the insight the Text Analytics API had about our documents.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>An array of documents is returned to us, without the original text.</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>We get back an <bpt id="p1">*</bpt>"id"<ept id="p1">*</ept> and <bpt id="p2">*</bpt>"score"<ept id="p2">*</ept> for each document.</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The API returns a numeric score between 0 and 1.</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Scores close to 1 indicate positive sentiment, while scores close to 0 indicate negative sentiment.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>A score of 0.5 indicates the lack of sentiment, a neutral statement.</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>In this example, we have two pretty positive documents and one negative document.</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Screenshot of the section number five showing the response content.</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Congratulations!</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>You've made your first call to the Text Analytics API without writing a line of code.</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Feel free to stay in the console and try out more calls.</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Here are some suggestions:</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Change the documents in section number 2 and see what the API returns.</source>
+        </trans-unit><trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Try the other methods, <bpt id="p1">**</bpt>Detect Language<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Entities<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Key Phrases<ept id="p3">**</ept>, using the same subscription key.</source>
+        </trans-unit><trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Try to make a call from a different region with your subscription and observe what happens.</source>
+        </trans-unit><trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The API testing console is a great way to explore the capabilities of this API.</source>
+        </trans-unit><trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Now that you've explored for yourself, let's move on to putting this intelligence into a real-world scenario.</source>
+        </trans-unit></group></body></file></xliff>

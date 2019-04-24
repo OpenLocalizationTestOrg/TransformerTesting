@@ -1,0 +1,147 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-build-your-xamarin-app.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-build-your-xamarin-app.79c6a1ca0f34aa23435f22657c96e056ba02d970.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ec6508129c73a3302c7ff9647ac171d5f4fd4878</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\send-location-over-sms-using-azure-functions-twilio\includes\3-build-your-xamarin-app.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>At this point, the mobile app is a simple "Hello World" app.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll add the UI and some basic application logic.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The UI for the app will consist of:</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>A text-entry control to enter some phone numbers.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A button to send your location to those numbers using Azure Functions.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A label that will show a message to the user of the current status, such as the location being sent and location sent successfully.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Xamarin.Forms supports a design pattern called Model-View-ViewModel (MVVM).</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can read more about MVVM in the <bpt id="p1">[</bpt>Xamarin MVVM docs<ept id="p1">](https://docs.microsoft.com/xamarin/xamarin-forms/enterprise-application-patterns/mvvm?azure-portal=true)</ept>, but the essence of it is, each page (View) has a ViewModel that exposes properties and behavior.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>ViewModel properties are 'bound' to components on the UI by name, and this binding synchronizes data between the View and ViewModel.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For example, a <ph id="ph1">`string`</ph> property on a ViewModel called <ph id="ph2">`Name`</ph> could be bound to the <ph id="ph3">`Text`</ph> property of a text-entry control on the UI.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The text-entry control shows the value in the <ph id="ph1">`Name`</ph> property and, when the user changes the text in the UI, the <ph id="ph2">`Name`</ph> property is updated.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If the value of the <ph id="ph1">`Name`</ph> property is changed in the ViewModel, an event is raised to tell the UI to update.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>ViewModel behavior is exposed as command properties, a command being an object that wraps an action that is executed when the command is invoked.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>These commands are bound by name to controls like buttons, and tapping a button will invoke the command.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Create a base ViewModel</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>ViewModels implement the <ph id="ph1">`INotifyPropertyChanged`</ph> interface.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This interface has a single event, <ph id="ph1">`PropertyChanged`</ph>, which is used to notify the UI of any updates.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This event has event args that contain the name of the property that has changed.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>It's common practice to create a base ViewModel class implementing this interface and providing some helper methods.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Right-click ImHere project and select <bpt id="p1">_</bpt>Add<ept id="p1">_</ept><ph id="ph1"> &gt; </ph><bpt id="p2">_</bpt>class<ept id="p2">_</ept>.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Name the new class "BaseViewModel" and click <bpt id="p1">**</bpt>Add<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Add a using directive for <ph id="ph1">`System.ComponentModel`</ph> and <ph id="ph2">`System.Runtime.CompilerServices`</ph>.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Make the class <ph id="ph1">`public`</ph> and derive from <ph id="ph2">`INotifyPropertyChanged`</ph>.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Implement the <ph id="ph1">`INotifyPropertyChanged`</ph> interface by adding the <ph id="ph2">`PropertyChanged`</ph> event:</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Add <ph id="ph1">`Set`</ph> method to trigger the <ph id="ph2">`PropertyChanged`</ph> event.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This method refers to the backing field, the new value, and the property name.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If the field hasn't changed, the method returns, otherwise, the field is updated and the <ph id="ph1">`PropertyChanged`</ph> event is raised.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`propertyName`</ph> parameter on the <ph id="ph2">`Set`</ph> method is a default parameter and is marked with the <ph id="ph3">`CallerMemberName`</ph> attribute.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>When this method is called from a property setter, this parameter is normally left as the default value.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The compiler will then automatically set the parameter value to be the name of the calling property.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The full code for this class is below.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Create a ViewModel for the page</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`MainPage`</ph> will have a text-entry control for phone numbers and a label to display a message.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>These controls will be bound to properties on a ViewModel.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Create a class called <ph id="ph1">`MainViewModel`</ph> in the <ph id="ph2">`ImHere`</ph> .NET Standard project.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Add a using directive for <ph id="ph1">`Xamarin.Forms`</ph> and <ph id="ph2">`System.Threading.Tasks`</ph>.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Make this class public and derive from <ph id="ph1">`BaseViewModel`</ph>.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Add two <ph id="ph1">`string`</ph> properties, <ph id="ph2">`PhoneNumbers`</ph> and <ph id="ph3">`Message`</ph>, each with a backing field.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>In the property setter, use the base class <ph id="ph1">`Set`</ph> method to update the value and raise the <ph id="ph2">`PropertyChanged`</ph> event.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Add a read-only command property called <ph id="ph1">`SendLocationCommand`</ph>.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This command will have a type of <ph id="ph1">`ICommand`</ph> from the <ph id="ph2">`System.Windows.Input`</ph> namespace.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Add a constructor to the class, and in this constructor, initialize the <ph id="ph1">`SendLocationCommand`</ph> as a new Xamarin.Forms <ph id="ph2">`Command`</ph>.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The complete code for this class is shown below.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Create the user interface</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Xamarin.Forms UIs can be built using XAML.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Open the <ph id="ph1">`MainPage.xaml`</ph> file from the <ph id="ph2">`ImHere`</ph> project.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The page will open in the XAML editor.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`ImHere.UWP`</ph> project also contains a file called <ph id="ph2">`MainPage.xaml`</ph>.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Make sure you're editing the one in the .NET Standard library.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Add the following XAML inside the top-level <ph id="ph1">`ContentPage`</ph> to set an instance of the ViewModel as the binding context of the page.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Overwrite the <ph id="ph1">`StackLayout`</ph> with the following code:</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Editor`</ph> control will be used to add phone numbers, and the <ph id="ph2">`Label`</ph> above describes the purpose of this field to the user.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`StackLayout`</ph> child controls stack either horizontally or vertically in the order in which the controls are added, so adding the <ph id="ph2">`Label`</ph> first will put it above the <ph id="ph3">`Editor`</ph>.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Editor`</ph> controls are multi-line entry controls, allowing the user to enter multiple phone numbers, one per line.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Text`</ph> property on the <ph id="ph2">`Editor`</ph> is bound to the <ph id="ph3">`PhoneNumbers`</ph> property on the <ph id="ph4">`MainViewModel`</ph>.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The syntax for binding is to set the property value to <ph id="ph1">`"{Binding &lt;property name&gt;}"`</ph>.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The curly braces will tell the XAML compiler that this value is special and should be treated differently from a simple <ph id="ph1">`string`</ph>.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Add a <ph id="ph1">`Button`</ph> below the <ph id="ph2">`Editor`</ph> control.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>We'll use this button to send the user's location.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Command`</ph> property is bound to the <ph id="ph2">`SendLocationCommand`</ph> command on the ViewModel.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>When the button is tapped, the command will be executed.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Add a <ph id="ph1">`Label`</ph> below the <ph id="ph2">`Button`</ph> control.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>We'll display status messages in this label.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The full code for this page is below.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Run the app to see the new UI.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If you want to validate the bindings at this point, you can do so by adding breakpoints to the properties or the <ph id="ph1">`SendLocation`</ph> method.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>When you compile this app, you will see a warning about <ph id="ph1">`SendLocation`</ph> lacking <ph id="ph2">`await`</ph> modifiers.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You can ignore this warning as this will be resolved once more code is added to this method in the next unit.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The new app UI</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>In this unit, you learned how to create the UI for the app using XAML, along with a ViewModel to handle the application's logic.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>You also learned how to bind the ViewModel to the UI.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>In the next unit, you'll add location lookup to the ViewModel.</source>
+        </trans-unit></group></body></file></xliff>

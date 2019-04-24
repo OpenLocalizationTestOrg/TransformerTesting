@@ -1,0 +1,47 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="8-summary.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8-summary.c91cd570613da8f7169c044ea2a8f07589417668.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">53a97ca94cc991d3456055d411e1efdf7d4afa75</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\chain-azure-functions-data-using-bindings\includes\8-summary.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>This module was all about integrating data and services into your functions.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>We started off with a quick tour of the binding types that show up when you add them to a function.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>We then looked at reading data from an Azure Cosmos DB by using an input binding.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The platform takes care of managing connection strings, and we saw how easy it is to read data in our code by using the binding.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Finally, we focused our attention on writing data to different sources with the help of output bindings.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This journey is summarized in the following table:</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can apply the approaches you have learned here to add and test bindings in your functions.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Here are a few interesting ideas to get more practice with bindings and to build on what you have learned here.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Create another function to read from Blob storage and other input bindings that we haven't used in this module.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Create another function to write to more destinations by using other supported output binding types.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In the preceding unit, we introduced a queue and posted messages to it with an output binding.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>As a next step, consider adding another function that reads the messages in the queue and prints out the <bpt id="p1">**</bpt>MESSAGE TEXT<ept id="p1">**</ept> to the console with <ph id="ph1">`console.log()`</ph>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>As we saw in this module, the Azure portal offers easy-to-use features to start building functions and connecting them to data and other services.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If you're interested in doing serverless integrations like these with visual workflows and little or no custom code, check out Azure Logic Apps as well.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Additional Resources</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Although this is not intended to be an exhaustive list, the following are some resources related to the topics covered in this module that you might find interesting:</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure Functions documentation<ept id="p1">](https://docs.microsoft.com/azure/azure-functions/)</ept></source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>The Azure Functions Challenge<ept id="p1">](https://aka.ms/afc)</ept></source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure Serverless Computing Cookbook<ept id="p1">](https://azure.microsoft.com/resources/azure-serverless-computing-cookbook/)</ept></source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>How to use Queue storage from Node.js<ept id="p1">](https://docs.microsoft.com/azure/storage/queues/storage-nodejs-how-to-use-queues)</ept></source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Introduction to Azure Cosmos DB: SQL API<ept id="p1">](https://docs.microsoft.com/azure/cosmos-db/sql-api-introduction)</ept></source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>A technical overview of Azure Cosmos DB<ept id="p1">](https://azure.microsoft.com/blog/a-technical-overview-of-azure-cosmos-db/)</ept></source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure Cosmos DB documentation<ept id="p1">](https://docs.microsoft.com/azure/cosmos-db/)</ept></source>
+        </trans-unit></group></body></file></xliff>

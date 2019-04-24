@@ -1,0 +1,131 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-cloud-deployment-models.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-cloud-deployment-models.49526b3fad66fc5dd536d59c22269c38fe326cd2.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bea9d48f10e16a4b893bcf1d00d88acef38befe8</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\principles-cloud-computing\includes\4-cloud-deployment-models.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>There are three different cloud deployment models.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A cloud deployment model defines where your data is stored and how your customers interact with it – how do they get to it, and where do the applications run?</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>It also depends on how much of your own infrastructure you want or need to manage.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Explore the three deployment methods of cloud computing</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Public versus Private versus Hybrid</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Public cloud</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This is the most common deployment model.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In this case, you have no local hardware to manage or keep up-to-date – everything runs on your cloud provider’s hardware.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In some cases, you can save additional costs by sharing computing resources with other cloud users.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Businesses can use multiple public cloud providers of varying scale.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Microsoft Azure is an example of a public cloud provider.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Public cloud icon</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Advantages</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>High scalability/agility – you don’t have to buy a new server in order to scale</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Pay-as-you-go pricing – you pay only for what you use, no CapEx costs</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You’re not responsible for maintenance or updates of the hardware</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Minimal technical knowledge to set up and use - you can leverage the skills and expertise of the cloud provider to ensure workloads are secure, safe, and highly available</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A common use case scenario is deploying a web application or a blog site on hardware and resources that are owned by a cloud provider.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Using a public cloud in this scenario allows cloud users to get their website or blog up quickly, and then focus on maintaining the site without having to worry about purchasing, managing or maintaining the hardware on which it runs.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Disadvantages</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Not all scenarios fit the public cloud.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Here are some disadvantages to think about:</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>There may be specific security requirements that cannot be met by using public cloud</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>There may be government policies, industry standards, or legal requirements which public clouds cannot meet</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You don't own the hardware or services and cannot manage them as you may want to</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Unique business requirements, such as having to maintain a legacy application might be hard to meet</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Private cloud</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>In a private cloud, you create a cloud environment in your own datacenter and provide self-service access to compute resources to users in your organization.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This offers a simulation of a public cloud to your users, but you remain completely responsible for the purchase and maintenance of the hardware and software services you provide.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Private cloud icon</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Advantages</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This approach has several advantages:</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You have complete control over the resources and can ensure the configuration can support any scenario or legacy application</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You have complete control (and responsibility) over security</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Private clouds can meet strict security, compliance, or legal requirements in ways a public cloud might not be able to</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Disadvantages</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Some reasons teams move away from the private cloud are:</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You have upfront CapEx costs and must purchase the hardware for startup and maintenance</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Owning the equipment limits the agility - to scale you must buy, install, and setup new hardware</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Private clouds require IT skills and expertise that's hard to come by</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A use case scenario for a private cloud would be when an organization has data that cannot be put in the public cloud, perhaps for legal reasons.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For example, they may have medical data that cannot be exposed publicly.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Another scenario may be where government policy requires specific data to be kept in-country or privately.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>A private cloud can provide cloud functionality to external customers as well, or to specific internal departments such as Accounting or Human Resources.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Hybrid cloud</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A hybrid cloud combines public and private clouds, allowing you to run your applications in the most appropriate location.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For example, you could host a website in the public cloud and link it to a highly secure database hosted in your private cloud (or on-premises datacenter).</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Hybrid cloud icon</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This is helpful when you have some things that cannot be put in the cloud, maybe for legal reasons.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For example, you may have some specific pieces of data that cannot be exposed publicly (such as medical data) which needs to be held in your private datacenter.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Another example is one or more applications that run on old hardware that can’t be updated.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>In this case, you can keep the old system running locally, and connect it to the public cloud for authorization or storage.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Advantages</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Some advantages of a hybrid cloud are:</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>You can keep any systems running and accessible that use out-of-date hardware or an out-of-date operating system</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>You have flexibility with what you run locally versus in the cloud</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You can take advantage of economies of scale from public cloud providers for services and resources where it's cheaper, and then supplement with your own equipment when it's not</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>You can use your own equipment to meet security, compliance, or legacy scenarios where you need to completely control the environment</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Disadvantages</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Some concerns you'll need to watch out for are:</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>It can be more expensive than selecting one deployment model since it involves some CapEx cost up front</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>It can be more complicated to set up and manage</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Cloud computing is flexible and gives you the ability to choose how you want to deploy it.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The cloud deployment model you choose depends on your budget, and on your security, scalability, and maintenance needs.</source>
+        </trans-unit></group></body></file></xliff>

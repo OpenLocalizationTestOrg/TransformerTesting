@@ -1,0 +1,27 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-identity-management.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-identity-management.16408268e4340295a27313a1485cad95283185a0.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">102ce98c038f1636903b33a75640387277905251</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\design-for-security-in-azure\3-identity-management.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.design-for-security.3-identity-management">
+          <source>Identity management</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.design-for-security.3-identity-management">
+          <source>Identity management</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.design-for-security.3-identity-management">
+          <source>In this unit we'll discuss how to protect your identities</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.design-for-security.3-identity-management">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.design-for-security.3-identity-management">
+          <source>Which of the following is NOT a benefit of single sign-on?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.design-for-security.3-identity-management">
+          <source>Increased complexity assigning permissions to users</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.design-for-security.3-identity-management">
+          <source>Single sign-on can reduce the complexity needed to assign permissions to users because there are less identities to manage.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.design-for-security.3-identity-management">
+          <source>Fewer IDs and passwords for users to remember</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.design-for-security.3-identity-management">
+          <source>Single sign-on can reduce the complexity needed to assign permissions to users because there are less identities to manage.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.design-for-security.3-identity-management">
+          <source>Lower administration effort when users change roles or leave an organization</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.design-for-security.3-identity-management">
+          <source>Single sign-on can reduce the complexity needed to assign permissions to users because there are less identities to manage.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.design-for-security.3-identity-management">
+          <source>Ensures a consistent password policy across applications</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.design-for-security.3-identity-management">
+          <source>Single sign-on can reduce the complexity needed to assign permissions to users because there are less identities to manage.</source>
+        </trans-unit></group></body></file></xliff>

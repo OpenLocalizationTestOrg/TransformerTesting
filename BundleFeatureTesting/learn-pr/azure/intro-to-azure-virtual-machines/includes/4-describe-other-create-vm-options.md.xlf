@@ -1,0 +1,215 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-describe-other-create-vm-options.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-describe-other-create-vm-options.f9bfcfd43f76a29b6826fc30e2bb82a4befb4704.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d8d92ef532ae4fdab21b09a390cbbaef8ba86b94</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-azure-virtual-machines\includes\4-describe-other-create-vm-options.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The Azure portal is the easiest way to create resources such as VMs when you are getting started.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>However, it's not necessarily the most efficient or quickest way to work with Azure, particularly if you need to create several resources together.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In our case, we will eventually be creating dozens of VMs to handle different tasks.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Creating them manually in the Azure portal wouldn't be a fun task!</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Let's look at some other ways to create and administer resources in Azure:</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Azure Resource Manager</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Azure PowerShell</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Azure CLI</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Azure REST API</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Azure Client SDK</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Azure VM Extensions</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Azure Automation Services</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Azure Resource Manager</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Let's assume you want to create a copy of a VM with the same settings.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You could create a VM image, upload it to Azure, and reference it as the basis for your new VM.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This process is inefficient and time-consuming.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Azure provides you with the option to create a template from which to create an exact copy of a VM.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Typically, your Azure infrastructure will contain many resources, many of them related to one another in some way.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For example, the VM we created has the virtual machine itself, storage, network interface, web server, and a database - all created together to run the WordPress site.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Resource Manager<ept id="p1">**</ept> makes working with these related resources more efficient.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>It organizes resources into named <bpt id="p1">**</bpt>resource groups<ept id="p1">**</ept> that let you deploy, update, or delete all of the resources together.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>When we created the WordPress site, we identified the resource group as part of the VM creation, and Resource Manager placed the associated resources into the same group.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Resource Manager also allows you to create <bpt id="p1">_</bpt>templates<ept id="p1">_</ept>, which can be used to create and deploy specific configurations.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>What are Resource Manager templates?</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resource Manager templates<ept id="p1">**</ept> are JSON files that define the resources you need to deploy for your solution.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You can create resource templates from the <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> section for a specific VM by selecting the Automation script option.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Automation script for our VM</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You have the option to save the resource template for later use or immediately deploy a new VM based on this template.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For example, you might create a VM from a template in a test environment and find it doesn’t quite work to replace your on-premises machine.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can delete the resource group, which deletes all of the resources, tweak the template, and try again.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If you only want to make changes to the existing deployed resources, you can change the template used to create it and deploy it again.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Resource Manager will change the resources to match the new template.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Once you have it working the way you want it, you can take that template and easily re-create multiple versions of your infrastructure, such as staging and production.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You can parameterize fields such as the VM name, network name, storage account name, etc., and load the template repeatedly, using different parameters to customize each environment.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You can use automation scripting tools such as the Azure CLI, Azure PowerShell, or even the Azure REST APIs with your favorite programming language to process resource templates, making this a powerful tool for quickly spinning up your infrastructure.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Azure PowerShell</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Creating administration scripts is a powerful way to optimize your workflow.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You can automate everyday, repetitive tasks, and once a script has been verified, it will run consistently, likely reducing errors.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure PowerShell<ept id="p1">**</ept> is ideal for one-off interactive tasks and/or the automation of repeated tasks.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>PowerShell is a cross-platform shell that provides services like the shell window and command parsing.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Azure PowerShell is an optional add-on package that adds the Azure-specific commands (referred to as <bpt id="p1">**</bpt>cmdlets<ept id="p1">**</ept>).</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You can learn more about installing and using Azure PowerShell in a separate training module.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For example, you can use the <ph id="ph1">`New-AzVM`</ph> cmdlet to create a new Azure virtual machine.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>As shown here, you supply various parameters to handle the large number of VM configuration settings available.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Most of the parameters have reasonable values; you only need to specify the required parameters.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Learn more about creating and managing VMs with Azure PowerShell in the <bpt id="p1">**</bpt>Automate Azure tasks using scripts with PowerShell<ept id="p1">**</ept> module.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Azure CLI</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Another option for scripting and command-line Azure interaction is the <bpt id="p1">**</bpt>Azure CLI<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The Azure CLI is Microsoft's cross-platform command-line tool for managing Azure resources such as virtual machines and disks from the command line.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>It's available for macOS, Linux, and Windows, or in the browser using the Cloud Shell.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Like Azure PowerShell, the Azure CLI is a powerful way to streamline your administrative workflow.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Unlike Azure PowerShell, the Azure CLI does not need PowerShell to function.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>For example, you can create an Azure VM with the <ph id="ph1">`az vm create`</ph> command.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The Azure CLI can be used with other scripting languages, for example, Ruby and Python.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Both languages are commonly used on non-Windows-based machines where the developer might not be familiar with PowerShell.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Learn more about creating and managing VMs in the <bpt id="p1">**</bpt>Manage virtual machines with the Azure CLI tool<ept id="p1">**</ept> module.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Programmatic (APIs)</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Generally speaking, both Azure PowerShell and Azure CLI are good options if you have simple scripts to run and want to stick to command-line tools.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>When it comes to more complex scenarios, where the creation and management of VMs form part of a larger application with complex logic, another approach is needed.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>You can interact with every type of resource in Azure programmatically.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Azure REST API</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The Azure REST API provides developers with operations categorized by resource as well as the ability to create and manage VMs.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Operations are exposed as URIs with corresponding HTTP methods (<ph id="ph1">`GET`</ph>, <ph id="ph2">`PUT`</ph>, <ph id="ph3">`POST`</ph>, <ph id="ph4">`DELETE`</ph>, and <ph id="ph5">`PATCH`</ph>) and a corresponding response.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The Azure Compute APIs give you programmatic access to virtual machines and their supporting resources.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>With this API, you have operations to:</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Create and manage availability sets</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Add and manage virtual machine extensions</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Create and manage managed disks, snapshots, and images</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Access the platform images available in Azure</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Retrieve usage information of your resources</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Create and manage virtual machines</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Create and manage virtual machine scale sets</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Azure Client SDK</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Even though the REST API is platform and language agnostic, most often developers will look toward a higher level of abstraction.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The Azure Client SDK encapsulates the Azure REST API, making it much easier for developers to interact with Azure.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The Azure Client SDKs are available for a variety of languages and frameworks, including .NET-based languages such as C#, Java, Node.js, PHP, Python, Ruby, and Go.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Here's an example snippet of C# code to create an Azure VM using the <ph id="ph1">`Microsoft.Azure.Management.Fluent`</ph> NuGet package:</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Here's the same snippet in Java using the <bpt id="p1">**</bpt>Azure Java SDK<ept id="p1">**</ept>:</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Azure VM Extensions</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Let's assume you want to configure and install additional software on your virtual machine after the initial deployment.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>You want this task to use a specific configuration, monitored and executed automatically.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure VM extensions<ept id="p1">**</ept> are small applications that allow you to configure and automate tasks on Azure VMs after initial deployment.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure VM extensions<ept id="p1">**</ept> can be run with the Azure CLI, PowerShell, Azure Resource Manager templates, and the Azure portal.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>You bundle extensions with a new VM deployment or run them against an existing system.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Azure Automation Services</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Saving time, reducing errors, and increasing efficiency are some of the most significant operational management challenges faced when managing remote infrastructure.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>If you have a lot of infrastructure services, you might want to consider using higher-level services in Azure to help you operate from a higher level.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Automation<ept id="p1">**</ept> allows you to integrate services that allow you to automate frequent, time-consuming, and error-prone management tasks with ease.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>These services include <bpt id="p1">**</bpt>process automation<ept id="p1">**</ept>, <bpt id="p2">**</bpt>configuration management<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>update management<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Process Management<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Let's assume you have a VM that is monitored for a specific error event.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>You want to take action and fix the problem as soon as it's reported.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Process automation allows you to set up watcher tasks that can respond to events that may occur in your datacenter.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Configuration Management<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Perhaps you want to track software updates that become available for the operating system that runs on your VM.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>There are specific updates you may want to include or exclude.</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Configuration management allows you to track these updates and take action as required.</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>You use <bpt id="p1">**</bpt>System Center Configuration Manager<ept id="p1">**</ept> to manage your company's PC, servers, and mobile devices.</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>You can extend this support to your Azure VMs with Configuration Manager.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Update Management<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>This is used to manage updates and patches for your VMs.</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>With this service, you're able to assess the status of available updates, schedule installation, and review deployment results to verify updates applied successfully.</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Update management incorporates services that provide process and configuration management.</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>You enable update management for a VM directly from your <bpt id="p1">**</bpt>Azure Automation<ept id="p1">**</ept> account.</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>You can also allow update management for a single virtual machine from the virtual machine blade in the portal.</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>As you can see, Azure provides a variety of tools to create and administer resources so that you can integrate management operations into a process <bpt id="p1">_</bpt>that works for you<ept id="p1">_</ept>.</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Let's examine some of the other Azure services to make sure your infrastructure resources are running smoothly.</source>
+        </trans-unit></group></body></file></xliff>

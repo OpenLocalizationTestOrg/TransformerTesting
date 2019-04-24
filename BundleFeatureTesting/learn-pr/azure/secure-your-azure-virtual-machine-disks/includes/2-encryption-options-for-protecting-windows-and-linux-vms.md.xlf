@@ -1,0 +1,137 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-encryption-options-for-protecting-windows-and-linux-vms.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-encryption-options-for-protecting-windows-and-linux-vms.05473b1915f89676b772259ceecca39c787b8f37.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">af4aefac76f8ad507a1b2c1409d532d125c5e053</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\secure-your-azure-virtual-machine-disks\includes\2-encryption-options-for-protecting-windows-and-linux-vms.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Suppose your company's trading partners have security policies who require their trading data is protected with strong encryption.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You use a B2B application that runs on your Windows servers, and stores data on the server data disk.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Now that you're transitioning to the cloud, you need to demonstrate to your trading partners that data stored on your Azure VMs cannot be accessed by unauthorized users, devices, or applications.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You need to decide on a strategy for implementing encryption of your B2B data.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Your audit requirements dictate that your encryption keys be managed in-house, and not by any third party.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You're also concerned that the performance and manageability of your Azure-based servers is maintained.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>So before you implement encryption, you want to be sure that there won't be a performance hit.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>What is encryption?</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Encryption is about converting meaningful information into something that appears meaningless, such as a random sequence of letters and numbers.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The process of encryption uses some form of <bpt id="p1">**</bpt>key<ept id="p1">**</ept> as part of the algorithm that creates the encrypted data.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>A key is also needed to perform the decryption.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Keys may be <bpt id="p1">**</bpt><bpt id="p2">_</bpt>symmetric<ept id="p2">_</ept><ept id="p1">**</ept>, where the same key is used for encryption and decryption, or <bpt id="p3">**</bpt><bpt id="p4">_</bpt>asymmetric<ept id="p4">_</ept><ept id="p3">**</ept>, where different keys are used.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>An example of the latter is the <bpt id="p1">**</bpt>public-private<ept id="p1">**</ept> key pairs used in digital certificates.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Symmetric encryption</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Algorithms that use symmetric keys, such as Advanced Encryption Standard (AES), are typically faster than public key algorithms, and are often used for protecting large data stores.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Because there's only one key, procedures must be in place to prevent the key from becoming publicly known.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Asymmetric encryption</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>With asymmetric algorithms, only the private key member of the pair must be kept private and secure; as its name suggests, the public key can be made available to anyone without compromising the encrypted data.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The downside of public key algorithms, however, is that they're much slower than symmetric algorithms, and cannot be used to encrypt large amounts of data.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Key management</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In Azure, your encryption keys can be managed by Microsoft or the customer.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Often the demand for customer-managed keys comes from organizations that need to demonstrate compliance with HIPAA, or other regulations.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Such compliance may require that access to keys is logged, and that regular key changes are made and recorded.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Azure disk encryption technologies</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The main encryption-based disk protection technologies for Azure VMs are:</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Storage Service Encryption (SSE)</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Azure Disk Encryption (ADE)</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Storage Service Encryption is performed on the physical disks in the data center.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If someone were to directly access the physical disk the data would be encrypted.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>When the data is accessed from the disk, it is decrypted and loaded into memory.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Azure Disk Encryption encrypts the virtual machine's virtual hard disks (VHDs).</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If VHD is protected with ADE, the disk image will only be accessible by the virtual machine that owns the disk.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>It's possible to use both services to protect your data.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Storage Service Encryption</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Azure Storage Service Encryption (SSE) is an encryption service built into Azure used to protect data at rest.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The Azure storage platform automatically encrypts data before it's stored to several storage services, including Azure Managed Disks.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Encryption is enabled by default using 256-bit AES encryption, and is managed by the storage account administrator.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Storage Service Encryption is enabled for all new and existing storage accounts and cannot be disabled.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Your data is secured by default; you don't need to modify your code or applications to take advantage of Storage Service Encryption.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Storage Service Encryption does not affect the performance of Azure storage services.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Azure Disk Encryption</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Azure Disk Encryption (ADE) is managed by the VM owner.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>It controls the encryption of Windows and Linux VM-controlled disks, using <bpt id="p1">**</bpt>BitLocker<ept id="p1">**</ept> on Windows VMs and <bpt id="p2">**</bpt>DM-Crypt<ept id="p2">**</ept> on Linux VMs.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>BitLocker Drive Encryption is a data protection feature that integrates with the operating system, and addresses the threats of data theft or exposure from lost, stolen, or inappropriately decommissioned computers.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Similarly, DM-Crypt encrypts data at rest for Linux before writing to storage.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>ADE ensures that all data on VM disks are encrypted at rest in Azure storage, and ADE is required for VMs backed up to the Recovery Vault.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>With ADE, VMs boot under customer-controlled keys and policies.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>ADE is integrated with Azure Key Vault for the management of these disk-encryption keys and secrets.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>ADE does not support the encryption of Basic tier VMs, and you cannot use an on-premises Key Management Service (KMS) with ADE.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>When to use encryption?</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Computer data is at risk when it's in transit (transmitted across the Internet or other network), and when it's at rest (saved to a storage device).</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The at-rest scenario is the primary concern when protecting data on Azure VM disks.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>For example, someone might download the Virtual Hard Disk (VHD) file associated with an Azure VM, and save it on their laptop.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If the VHD is not encrypted, the contents of the VHD are potentially accessible to anyone who can mount the VHD file on their computer.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>For operating system (OS) disks, data such as passwords are encrypted automatically, so even if the VHD is not itself encrypted, it's not easy for such information to be accessed.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Applications may also automatically encrypt their own data.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>However, even with such protections, if someone with malicious intent were to gain access to a data disk, and the disk itself was not encrypted, they might then be in a position to exploit any known weaknesses in that application's data protection.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>With disk encryption in place, such exploits are not possible.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Storage Service Encryption (SSE) is part of Azure itself, and there should be no noticeable performance impact on the VM disk IO when using SSE.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Managed disks with SSE are now the default, and there should be no reason to change it.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Azure Disk Encryption (ADE) makes use of VM operating system tools (BitLocker and DM-Crypt), so the VM itself has to do some work when encryption or decryption on VM disks is being performed.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The impact of this additional VM CPU activity is typically negligible, except in certain situations.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For instance, if you have a CPU-intensive application, there may be a case for leaving the OS disk unencrypted to maximize performance.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>In a situation such as this, you can store application data on a separate encrypted data disk, getting you the performance you need without compromising security.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Azure provides two complementary encryption technologies that are used to secure Azure VM disks.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>These technologies, SSE and ADE, encrypt at different layers, and serve different purposes.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Both use AES 256-bit encryption.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Using both technologies provides a defense-in-depth protection against unauthorized access to your Azure storage, and to specific VHDs.</source>
+        </trans-unit></group></body></file></xliff>

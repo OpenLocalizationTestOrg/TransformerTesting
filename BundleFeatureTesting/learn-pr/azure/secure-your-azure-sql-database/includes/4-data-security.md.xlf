@@ -1,0 +1,171 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-data-security.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-data-security.d796e8c67292ae9b551df014b9aa4a9112adb46f.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">64cb1a676131293b994f9ab4dee0a73a4c56b6e4</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\secure-your-azure-sql-database\includes\4-data-security.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">_</bpt>marketplaceDb<ept id="p1">_</ept> database stores information that is sensitive, such as physical addresses, email addresses, and phone numbers.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>If exposed, this could be used by malicious attackers to harm our business or our customers.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Let's look at how we can use encryption and data masking to enhance the security of our database.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>TLS network encryption</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Azure SQL Database enforces Transport Layer Security (TLS) encryption at all times for all connections, which ensures all data is encrypted "in transit" between the database and the client.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>By using TLS encryption, you can ensure that anyone who may have intercepted the traffic between the app server and database would not be able to read the data.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>TLS encryption is a standard of securing traffic over the internet, and in this case ensures your network traffic to and from your Azure SQL database is secure by default.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Transparent data encryption</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Azure SQL Database protects your data at rest using transparent data encryption (TDE).</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>TDE performs real-time encryption and decryption of the database, associated backups, and transaction log files at rest without requiring changes to the application.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Using a database encryption key, transparent data encryption performs real-time I/O encryption and decryption of the data at the page level.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Each page is decrypted when it's read into memory and then encrypted before being written to disk.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>By default, TDE is enabled for all newly deployed Azure SQL databases.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>It's important to check that data encryption hasn’t been turned off, and older Azure SQL Server databases may not have TDE enabled.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Let's take a look in the portal at where TDE is configured on our <bpt id="p1">_</bpt>marketplaceDb<ept id="p1">_</ept> database.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Sign into the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept> using the same account you activated the sandbox with.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In the search bar at the top of the portal, search for <bpt id="p1">**</bpt>marketplaceDb<ept id="p1">**</ept>, then select the database in the portal.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>In the left menu, in the <bpt id="p1">**</bpt>Security<ept id="p1">**</ept> section, select the <bpt id="p2">**</bpt>Transparent data encryption<ept id="p2">**</ept> option.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In the data encryption option, verify that <bpt id="p1">**</bpt>Data encryption<ept id="p1">**</ept> is set to <bpt id="p2">**</bpt>On<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You should also see an encryption status of <bpt id="p1">**</bpt>Encrypted<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Since new databases are encrypted by default, we can be sure that our data is encrypted on disk from as soon as we create the database.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Azure includes a built in service called Azure Security Center that gives you visibility into the security of your environment, including Azure SQL databases.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Azure Security Center will flag any databases that don't have TDE enabled on them, giving you the ability to report and take action to secure your data.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Dynamic data masking</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You might have noticed when we ran our query in the previous unit that some of the information in the database is sensitive; there are phone numbers, email addresses, and other information that we may not want to fully display to everyone with access to the data.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Maybe we don't want our users to be able to see the full phone number or email address, but we'd still like to make a portion of the data available for customer service representatives to identify a customer.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>By using the dynamic data masking feature of Azure SQL Database, we can limit the data that is displayed to the user.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Dynamic data masking is a policy-based security feature that hides the sensitive data in the result set of a query over designated database fields, while the data in the database is not changed.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Data masking rules consist of the column to apply the mask to, and how the data should be masked.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can create your own masking format, or use one of the standard masks such as:</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Default value, which displays the default value for that data type instead.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Credit card value, which only shows the last four digits of the number, converting all other numbers to lower case x’s.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Email, which hides the domain name and all but the first character of the email account name.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Number, which specifies a random number between a range of values.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For example, on the credit card expiry month and year, you could select random months from 1 to 12 and set the year range from 2018 to 3000.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Custom string.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This allows you to set the number of characters exposed from the start of the data, the number of characters exposed from the end of the data, and the characters to repeat for the remainder of the data.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>When querying the columns, database administrators will still see the original values, but non-administrators will see the masked values.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You can allow other users to see the non-masked versions by adding them to the SQL users excluded from masking list.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Let's take a look at how this would work in our <bpt id="p1">_</bpt>marketplaceDb<ept id="p1">_</ept> database.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>While still in the portal on the <bpt id="p1">_</bpt>marketplaceDb<ept id="p1">_</ept> database panel, in the <bpt id="p2">**</bpt>Security<ept id="p2">**</ept> section in the left menu select <bpt id="p3">**</bpt>Dyanmic Data Masking<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The Masking rules screen shows a list of existing dynamic data masks, and recommendations for columns that should potentially have a dynamic data mask applied.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Azure portal showing a list of the recommended masks for the various database columns of a sample database.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Let's add a mask for the phone number that only displays the last four digits.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>+ Add mask<ept id="p1">**</ept> button at the top to open the <bpt id="p2">**</bpt>Add masking rule<ept id="p2">**</ept> dialog.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Select the following values.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Setting<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Value<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Schema<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>SalesLT</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Table<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Customer</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Column<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Phone (nvarchar)</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Masking field format<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Custom string (prefix [padding] suffix)</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Exposed Prefix<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>0</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Padding String<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>XXX-XXX-</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Exposed Suffix<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>4</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> to add the masking rule.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Azure portal showing the values to add a masking rule.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Let's add one more for the email address.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>+ Add mask<ept id="p1">**</ept> button at the top again to open up the <bpt id="p2">**</bpt>Add masking rule<ept id="p2">**</ept> dialog.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Setting<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Value<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Schema<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>SalesLT</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Table<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Customer</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Column<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>EmailAddress (nvarchar)</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Masking field format<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Email (<ph id="ph1">aXXX@XXX.com</ph>)</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> to add the masking rule.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Each new mask will be added to the masking rules list.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> button to apply the masks.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Let's take a look at how this changes our query.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Now let's log back in to the database, but as the <bpt id="p1">_</bpt>ApplicationUser<ept id="p1">_</ept> user.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Run the following query.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Look at how the output has been masked.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>With the masking rules we created, our data is masked with format that we've specified.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>This allows our customer service reps to verify a customer with the last four digits of their phone number, but hides the full number and the customer's email address from reps view.</source>
+        </trans-unit></group></body></file></xliff>

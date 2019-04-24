@@ -1,0 +1,19 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-summary.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-summary.197551beb0ecacc35fc64ca0e33f3ca12610b1ad.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8f6b246eb9a0e3278920a90bf73edd1970cd59c9</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\pillars-of-a-great-azure-architecture\includes\7-summary.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Architecture is the foundation of your application's design.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A great architecture will give you the confidence that your app can sustainably meet the needs of your customers both now and in the future.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The architectural priorities and needs of every app are different, but the four pillars of architecture are an excellent guidepost you can use to make sure that you have given enough attention to every aspect of your application:</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Security<ept id="p1">**</ept>: Safeguarding access and data integrity and meeting regulatory requirements</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Performance and scalability<ept id="p1">**</ept>: Efficiently meeting demand in every scenario</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Availability and recoverability<ept id="p1">**</ept>: Minimizing downtime and avoiding permanent data loss</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Efficiency and operations<ept id="p1">**</ept>: Maximizing maintainability and ensuring requirements are met with monitoring</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Focusing on these pillars when designing your architecture will ensure you're laying a solid foundation for your applications in the cloud.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>With a solid foundation, you'll be able to drive innovation through your environment, build solutions that your users will love, and foster the trust of your customers.</source>
+        </trans-unit></group></body></file></xliff>

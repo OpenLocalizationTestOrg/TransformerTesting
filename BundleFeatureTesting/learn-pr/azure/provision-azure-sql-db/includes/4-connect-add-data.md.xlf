@@ -1,0 +1,167 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-connect-add-data.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-connect-add-data.c68e64761abbb9670018c8dffdac9b8386049b71.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">685e09fb5deae92d364851cfdb1468e3a40a75e6</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\provision-azure-sql-db\includes\4-connect-add-data.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Before you connect the database to your app, you want to check that you can connect to it, add a basic table, and work with sample data.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>We maintain the infrastructure, software updates, and patches for your Azure SQL database.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Beyond that, you can treat your Azure SQL database like you would any other SQL Server installation.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>For example, you can use Visual Studio, SQL Server Management Studio, Azure Data Studio, or other tools to manage your Azure SQL database.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>How you access your database and connect it to your app is up to you.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>But to get some experience working with your database, here you'll connect to it directly from the portal, create a table, and run a few basic CRUD operations.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You'll learn:</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>What Cloud Shell is and how to access it from the portal.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>How to access information about your database from the Azure CLI, including connection strings.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>How to connect to your database using <ph id="ph1">`sqlcmd`</ph>.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>How to initialize your database with a basic table and some sample data.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>What is Azure Cloud Shell?</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Azure Cloud Shell is a browser-based shell experience to manage and develop Azure resources.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Think of Cloud Shell as an interactive console that runs in the cloud.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Behind the scenes, Cloud Shell runs on Linux.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>But depending on whether you prefer a Linux or Windows environment, you have two experiences to choose from: Bash and PowerShell.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Cloud Shell is accessible from anywhere.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Besides the portal, you can also access Cloud Shell from <bpt id="p1">[</bpt>shell.azure.com<ept id="p1">](https://shell.azure.com/)</ept>, the Azure mobile app, or from Visual Studio Code.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The panel on the right is a Cloud Shell terminal for you to use during this exercise.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Cloud Shell includes popular tools and text editors.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Here's a brief look at <ph id="ph1">`az`</ph>, <ph id="ph2">`jq`</ph>, and <ph id="ph3">`sqlcmd`</ph>, three tools you'll use for our current task.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`az`</ph> is also known as the Azure CLI.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>It's the command-line interface for working with Azure resources.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You'll use this to get information about your database, including the connection string.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`jq`</ph> is a command-line JSON parser.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You'll pipe output from <ph id="ph1">`az`</ph> commands to this tool to extract important fields from JSON output.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`sqlcmd`</ph> enables you to execute statements on SQL Server.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You'll use <ph id="ph1">`sqlcmd`</ph> to create an interactive session with your Azure SQL database.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Get information about your Azure SQL database</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Before you connect to your database, it's a good idea to verify it exists and is online.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Here, you use the <ph id="ph1">`az`</ph> utility to list your databases and show some information about the <bpt id="p1">**</bpt>Logistics<ept id="p1">**</ept> database, including its maximum size and status.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`az`</ph> commands you'll run require the name of your resource group and the name of your Azure SQL logical server.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To save typing, run this <ph id="ph1">`azure configure`</ph> command to specify them as default values.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Replace <ph id="ph1">`&lt;server-name&gt;`</ph> with the name of your Azure SQL logical server.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Note that depending on the blade you are on in the portal this may show as a FQDN (servername.database.windows.net), but you only need the logical name without the .database.windows.net suffix.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Run <ph id="ph1">`az sql db list`</ph> to list all databases on your Azure SQL logical server.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You see a large block of JSON as output.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Since we want just the database names, run the command a second time.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This time, pipe the output to <ph id="ph1">`jq`</ph> to print out only the name fields.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You should see this output.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Logistics<ept id="p1">**</ept> is your database.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Like SQL Server, <bpt id="p1">**</bpt>master<ept id="p1">**</ept> includes server metadata, such as sign-in accounts and system configuration settings.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Run this <ph id="ph1">`az sql db show`</ph> command to get details about the <bpt id="p1">**</bpt>Logistics<ept id="p1">**</ept> database.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>As before, you see a large block of JSON as output.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Run the command a second time.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This time, pipe the output to <ph id="ph1">`jq`</ph> to limit output to only the name, maximum size, and status of the <bpt id="p1">**</bpt>Logistics<ept id="p1">**</ept> database.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>You see that the database is online and can hold around 2 GB of data.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Connect to your database</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Now that you understand a bit about your database, let's connect to it using <ph id="ph1">`sqlcmd`</ph>, create a table that holds information about transportation drivers, and perform a few basic CRUD operations.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Remember that CRUD stands for <bpt id="p1">**</bpt>create<ept id="p1">**</ept>, <bpt id="p2">**</bpt>read<ept id="p2">**</ept>, <bpt id="p3">**</bpt>update<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>delete<ept id="p4">**</ept>.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>These terms refer to operations you perform on table data and are the four basic operations you need for your app.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Now's a good time to verify you can perform each of them.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Run this <ph id="ph1">`az sql db show-connection-string`</ph> command to get the connection string to the <bpt id="p1">**</bpt>Logistics<ept id="p1">**</ept> database in a format that <ph id="ph2">`sqlcmd`</ph> can use.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Your output resembles this.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Run the <ph id="ph1">`sqlcmd`</ph> statement from the output of the previous step to create an interactive session.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Remove the surrounding quotes and replace <ph id="ph1">`&lt;username&gt;`</ph> and <ph id="ph2">`&lt;password&gt;`</ph> with the username and password you specified when you created your database.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Here's an example.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Place your password in quotes so that "&amp;" and other special characters aren't interpreted as processing instructions.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>From your <ph id="ph1">`sqlcmd`</ph> session, create a table named <ph id="ph2">`Drivers`</ph>.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The table contains four columns: a unique identifier, the driver's last and first name, and the driver's city of origin.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The language you see here is Transact-SQL, or T-SQL.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Verify that the <ph id="ph1">`Drivers`</ph> table exists.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>You should see this output.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Run this <ph id="ph1">`INSERT`</ph> T-SQL statement to add a sample row to the table.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This is the <bpt id="p1">**</bpt>create<ept id="p1">**</ept> operation.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>You see this to indicate the operation succeeded.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Run this <ph id="ph1">`SELECT`</ph> T-SQL statement to list the <ph id="ph2">`DriverID`</ph> and <ph id="ph3">`OriginCity`</ph> columns from all rows in the table.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>This is the <bpt id="p1">**</bpt>read<ept id="p1">**</ept> operation.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>You see one result with the <ph id="ph1">`DriverID`</ph> and <ph id="ph2">`OriginCity`</ph> for the row you created in the previous step.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Run this <ph id="ph1">`UPDATE`</ph> T-SQL statement to change the city of origin from "Springfield" to "Boston" for the driver with a <ph id="ph2">`DriverID`</ph> of 123.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This is the <bpt id="p1">**</bpt>update<ept id="p1">**</ept> operation.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>You should see the following output.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Notice how the <ph id="ph1">`OriginCity`</ph> reflects the update to Boston.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Run this <ph id="ph1">`DELETE`</ph> T-SQL statement to delete the record.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>This is the <bpt id="p1">**</bpt>delete<ept id="p1">**</ept> operation.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Run this <ph id="ph1">`SELECT`</ph> T-SQL statement to verify the <ph id="ph2">`Drivers`</ph> table is empty.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>You see that the table contains no rows.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Now that you have the hang of working with Azure SQL Database from Cloud Shell, you can get the connection string for your favorite SQL management tool <ph id="ph1">&amp;ndash;</ph> whether that's from SQL Server Management Studio, Visual Studio, or something else.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Cloud Shell makes it easy to access and work with your Azure resources.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Because Cloud Shell is browser-based, you can access it from Windows, macOS, or Linux <ph id="ph1">&amp;ndash;</ph> essentially any system with a web browser.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>You gained some hands-on experience running Azure CLI commands to get information about your Azure SQL database.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>As a bonus, you practiced your T-SQL skills.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Finally, let's wrap up and see how to tear down your database.</source>
+        </trans-unit></group></body></file></xliff>

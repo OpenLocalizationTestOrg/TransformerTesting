@@ -1,0 +1,101 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="8-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8-knowledge-check.2bfb6f2292dd937abe0a9dd3d50e9217ed3ea9ce.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6f0c489fadabeefb32a591b4dce892f8d449788a</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-azure-government\8-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Knowledge Check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Knowledge Check</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Azure Government - Knowledge Check</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Which one of the following is a key difference between global Azure and Azure Government?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Azure Government has a marketplace from which you can deploy pre-built images from Microsoft and partners.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Both global Azure and Azure Government offer a marketplace</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Azure Government has a portal from which you can manage your resources.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Both global Azure and Azure Government have a portal experience.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Azure Government is a physically separate instance of Azure.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Correct!</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Azure Government is a sovereign cloud and is physically separate in its own set of data centers.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Azure Government uses different technology that global Azure.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Azure Government uses same underlying technologies as global Azure, which includes the core components of Infrastructure-as-a-Service (IaaS), Platform-as-a-Service (PaaS), and Software-as-a-Service (SaaS).</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>How many Azure Governments regions are available?</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>4</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Incorrect</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>12</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Incorrect</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>7</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Incorrect</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>8</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Azure Government cloud has an advanced infrastructure with robust networking in 8 announced regions across the United States.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Azure Government is available exclusively to three distinct types of customers.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Which of the following customer types is it <bpt id="p1">**</bpt>NOT<ept id="p1">**</ept> available to?</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>A US government entity in its governmental capacity, such as a federal agency.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>A government entity such as a federal agency will have access to Azure Government cloud.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>A private entity building cloud solutions for the private sector.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>This type of customer will not have access to Azure Government cloud.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>A partner using Azure Government to deliver a solution that provides services or solutions to US government customers through direct or indirect contracts.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Azure Government is available to partners in this scenario.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>A commercial entity with data subject to government regulations.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Commercial entities with data subject to government regulations is allowed.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>Which one of the following addresses is the correct URL for accessing the Azure Government portal?</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>portal.azure.com</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>This is the URL to access the global Azure portal.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>portal.azure.gov</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>This is not a valid URL.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>portal.azure.us</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>The Azure Government portal can be accessed at <ph id="ph1">https://portal.azure.us</ph></source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>portal.azure.fed</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-government.8-knowledge-check">
+          <source>This is not a valid URL.</source>
+        </trans-unit></group></body></file></xliff>

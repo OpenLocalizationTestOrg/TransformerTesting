@@ -1,0 +1,43 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-Summary-and-resources.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-Summary-and-resources.a5d5d9ef33df6791c55283063b5fc06061d5d127.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">623856c37a9365a45f9806e5623495466b5fc5a1</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\wwl-mba\intro-azure-areas-and-solutions\includes\6-Summary-and-resources.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Azure enables digital transformation through flexible solutions that evolve along with your business.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Whether you're designing for on-premises, cloud, or hybrid, Azure can help meet your digital transformation goals.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Now that you have reviewed this module, you should be able to:</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Explain why Azure.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Define the unique value that Azure provides.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Describe the Azure solutions.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Key takeaways</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Here are the two key takeaways from this module:</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Icon of key</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Wherever you are on your cloud adoption journey, Azure delivers unique value in four areas: productive, hybrid, intelligent, and trusted.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Azure provides technologies and services across the following solution areas:</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Apps and Infrastructure Migration and Modernization</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Data Estate Migration and Modernization</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Artificial intelligence (AI)</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Internet of Things (IoT)</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Modern business intelligence (BI)</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Resources</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Use these resources to discover more.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To open a resource link, right-click it, and then select “Open in new tab or window."</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>That way, you can check out the resource and easily return to the module tab to unlock your achievement when you're done.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure.com – depth on Azure capabilities<ept id="p1">](http://azure.com/)</ept></source>
+        </trans-unit></group></body></file></xliff>

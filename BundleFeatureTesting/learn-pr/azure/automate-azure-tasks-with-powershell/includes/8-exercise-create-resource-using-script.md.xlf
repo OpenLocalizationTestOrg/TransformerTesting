@@ -1,0 +1,69 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="8-exercise-create-resource-using-script.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8-exercise-create-resource-using-script.9389aaaf772dcf2bc7023412ec3c66041fc0b83f.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dda5b96ada4514ed75bdf9d9fec569538c3f593d</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\automate-azure-tasks-with-powershell\includes\8-exercise-create-resource-using-script.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this unit, you will continue with the example of a company that makes Linux admin tools.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Recall that you plan to use Linux VMs to let potential customers test your software.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You have a resource group ready and now it is time to create the VMs.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Your company has paid for a booth at a big Linux trade show.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You plan a demo area containing three terminals each connected to a separate Linux VM.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>At the end of each day, you want to delete the VMs and recreate them, so they start fresh every morning.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Creating the VMs manually after work when you are tired would be error prone.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You want to write a PowerShell script to automate the VM creation process.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Write a script that creates Virtual Machines</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Follow these steps in the Cloud Shell on the right to write the script:</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Switch to your home folder in the Cloud Shell.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Create a new text file named <bpt id="p1">**</bpt>ConferenceDailyReset.ps1<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Open the integrated editor and select the <bpt id="p1">**</bpt>ConferenceDailyReset.ps1<ept id="p1">**</ept> file.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The integrated Cloud Shell also supports vim, nano, and emacs if you'd prefer to use one of those editors.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Start by capturing the input parameter in a variable.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Add the following line to your script:</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Normally, you'd have to authenticate with Azure using your credentials using <ph id="ph1">`Connect-AzAccount`</ph> and this could be done in the script.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>However, in the Cloud Shell environment you will already be authenticated so this is unnecessary.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Prompt for a username and password for the VM's admin account and capture the result in a variable:</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Create a loop that executes three times:</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In the loop body, create a name for each VM and store it in a variable and output it to the console:</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Next, create a VM using the <ph id="ph1">`$vmName`</ph> variable:</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Save the file.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You can use the "..." menu at the top right corner of the editor.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>There are also common accelerator keys for Save.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The completed script should look like this:</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Execute the script</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Close the editor through the "..." context menu.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Execute the script.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The script will take several minutes to complete.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When it is finished, verify that it ran successfully by looking at the resources you now have in your resource group:</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You should see three VMs, each with a unique name.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You wrote a script that automated the creation of three VMs in the resource group indicated by a script parameter.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The script is short and simple but automates a process that would take a long time to complete manually with the portal.</source>
+        </trans-unit></group></body></file></xliff>

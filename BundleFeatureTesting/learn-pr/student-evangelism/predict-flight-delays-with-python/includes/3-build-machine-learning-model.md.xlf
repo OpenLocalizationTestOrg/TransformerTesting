@@ -1,0 +1,183 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-build-machine-learning-model.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-build-machine-learning-model.c1f4a1bcb3a8b6cb892faa5bff5b0b7e79e4f55a.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">12b20e1ad2770dd63d325538997df12c894d45bd</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\student-evangelism\predict-flight-delays-with-python\includes\3-build-machine-learning-model.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>To create a machine learning model, you need two datasets: one for training and one for testing.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In practice, you often have only one dataset, so you split it into two.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In this exercise, you will perform an 80-20 split on the DataFrame you prepared in the previous lab so you can use it to train a machine learning model.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You will also separate the DataFrame into feature columns and label columns.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The former contains the columns used as input to the model (for example, the flight's origin and destination and the scheduled departure time), while the latter contains the column that the model will attempt to predict — in this case, the ARR_DEL15 column, which indicates whether a flight will arrive on time.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Switch back to the Azure notebook that you created in the previous section.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If you closed the notebook, you can sign back into the <bpt id="p1">[</bpt>Microsoft Azure Notebooks portal<ept id="p1">](https://notebooks.azure.com?azure-portal=true)</ept>, open your notebook, and use the <bpt id="p2">**</bpt>Cell<ept id="p2">**</ept><ph id="ph1"> -&gt; </ph><bpt id="p3">**</bpt>Run All<ept id="p3">**</ept> to rerun the all of the cells in the notebook after opening it.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In a new cell at the end of the notebook, enter and execute the following statements:</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The first statement imports scikit-learn's <bpt id="p1">[</bpt>train_test_split<ept id="p1">](http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html)</ept> helper function.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The second line uses the function to split the DataFrame into a training set containing 80% of the original data, and a test set containing the remaining 20%.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`random_state`</ph> parameter seeds the random-number generator used to do the splitting, while the first and second parameters are DataFrames containing the feature columns and the label column.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`train_test_split`</ph> returns four DataFrames.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Use the following command to display the number of rows and columns in the DataFrame containing the feature columns used for training:</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Now use this command to display the number of rows and columns in the DataFrame containing the feature columns used for testing:</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>How do the two outputs differ, and why?</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Can you predict what you would see if you called <ph id="ph1">`shape`</ph> on the other two DataFrames, <ph id="ph2">`train_y`</ph> and <ph id="ph3">`test_y`</ph>?</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If you're not sure, try it and find out.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>There are many types of machine learning models.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>One of the most common is the regression model, which uses one of a number of regression algorithms to produce a numeric value — for example, a person's age or the probability that a credit-card transaction is fraudulent.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You'll train a classification model, which seeks to resolve a set of inputs into one of a set of known outputs.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A classic example of a classification model is one that examines e-mails and classifies them as "spam" or "not spam."</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Your model will be a binary classification model that predicts whether a flight will arrive on-time or late ("binary" because there are only two possible outputs).</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>One of the benefits of using scikit-learn is that you don't have to build these models — or implement the algorithms that they use — by hand.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Scikit-learn includes a variety of classes for implementing common machine learning models.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>One of them is <bpt id="p1">[</bpt>RandomForestClassifier<ept id="p1">](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)</ept>, which fits multiple decision trees to the data and uses averaging to boost the overall accuracy and limit <bpt id="p2">[</bpt>overfitting<ept id="p2">](https://en.wikipedia.org/wiki/Overfitting)</ept>.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Execute the following code in a new cell to create a <ph id="ph1">`RandomForestClassifier`</ph> object and train it by calling the <bpt id="p1">[</bpt>fit<ept id="p1">](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html#sklearn.ensemble.RandomForestClassifier.fit)</ept> method.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The output shows the parameters used in the classifier, including <ph id="ph1">`n_estimators`</ph>, which specifies the number of trees in each decision-tree forest, and <ph id="ph2">`max_depth`</ph>, which specifies the maximum depth of the decision trees.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The values shown are the defaults, but you can override any of them when creating the <ph id="ph1">`RandomForestClassifier`</ph> object.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Training the model</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Training the model<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Now call the <bpt id="p1">[</bpt>predict<ept id="p1">](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html#sklearn.ensemble.RandomForestClassifier.predict)</ept> method to test the model using the values in <ph id="ph1">`test_x`</ph>, followed by the <bpt id="p2">[</bpt>score<ept id="p2">](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html#sklearn.ensemble.RandomForestClassifier.score)</ept> method to determine the mean accuracy of the model:</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Confirm that you see the following output:</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Testing the model</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Testing the model<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The mean accuracy is 86%, which seems good on the surface.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>However, mean accuracy isn't always a reliable indicator of the accuracy of a classification model.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Let's dig a little deeper and determine how accurate the model really is — that is, how adept it is at determining whether a flight will arrive on time.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>There are several ways to measure the accuracy of a classification model.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>One of the best overall measures for a binary classification model is <bpt id="p1">[</bpt>Area Under Receiver Operating Characteristic Curve<ept id="p1">](https://en.wikipedia.org/wiki/Receiver_operating_characteristic)</ept> (sometimes referred to as "ROC AUC"), which essentially quantifies how often the model will make a correct prediction regardless of the outcome.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll compute an ROC AUC score for the model you built previously and learn about some of the reasons why that score is lower than the mean accuracy output by the <ph id="ph1">`score`</ph> method.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You'll also learn about other ways to gauge the accuracy of the model.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Before you compute the ROC AUC, you must generate <bpt id="p1">*</bpt>prediction probabilities<ept id="p1">*</ept> for the test set.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>These probabilities are estimates for each of the classes, or answers, the model can predict.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For example, <ph id="ph1">`[0.88199435,  0.11800565]`</ph> means that there's an 89% chance that a flight will arrive on time (ARR_DEL15 = 0) and a 12% chance that it won't (ARR_DEL15 = 1).</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The sum of the two probabilities adds up to 100%.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Run the following code to generate a set of prediction probabilities from the test data:</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Now use the following statement to generate an ROC AUC score from the probabilities using scikit-learn's <bpt id="p1">[</bpt>roc_auc_score<ept id="p1">](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html)</ept> method:</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Confirm that the output shows a score of 67%:</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Generating an AUC score</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Generating an AUC score<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Why is the AUC score lower than the mean accuracy computed in the previous exercise?</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The output from the <ph id="ph1">`score`</ph> method reflects how many of the items in the test set the model predicted correctly.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This score is skewed by the fact that the dataset the model was trained and tested with contains many more rows representing on-time arrivals than rows representing late arrivals.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Because of this imbalance in the data, you're more likely to be correct if you predict that a flight will be on time than if you predict that a flight will be late.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>ROC AUC takes this into account and provides a more accurate indication of how likely it is that a prediction of on-time <bpt id="p1">*</bpt>or<ept id="p1">*</ept> late will be correct.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>You can learn more about the model's behavior by generating a <bpt id="p1">[</bpt>confusion matrix<ept id="p1">](https://en.wikipedia.org/wiki/Confusion_matrix)</ept>, also known as an <bpt id="p2">*</bpt>error matrix<ept id="p2">*</ept>.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The confusion matrix quantifies the number of times each answer was classified correctly or incorrectly.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Specifically, it quantifies the number of false positives, false negatives, true positives, and true negatives.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>This is important, because if a binary classification model trained to recognize cats and dogs is tested with a dataset that is 95% dogs, it could score 95% simply by guessing "dog" every time.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>But if it failed to identify cats at all, it would be of little value.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Use the following code to produce a confusion matrix for your model:</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The first row in the output represents flights that were on time.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The first column in that row shows how many flights were correctly predicted to be on time, while the second column reveals how many flights were predicted as delayed but weren't.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>From this, the model appears to be adept at predicting that a flight will be on time.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Generating a confusion matrix</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Generating a confusion matrix<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>But look at the second row, which represents flights that were delayed.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The first column shows how many delayed flights were incorrectly predicted to be on time.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The second column shows how many flights were correctly predicted to be delayed.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Clearly, the model isn't nearly as adept at predicting that a flight will be delayed as it is at predicting that a flight will arrive on time.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>What you <bpt id="p1">*</bpt>want<ept id="p1">*</ept> in a confusion matrix is large numbers in the upper-left and lower-right corners, and small numbers (preferably zeros) in the upper-right and lower-left corners.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Other measures of accuracy for a classification model include <bpt id="p1">*</bpt>precision<ept id="p1">*</ept> and <bpt id="p2">*</bpt>recall<ept id="p2">*</ept>.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Suppose the model was presented with three on-time arrivals and three delayed arrivals, and that it correctly predicted two of the on-time arrivals, but incorrectly predicted that two of the delayed arrivals would be on time.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>In this case, the precision would be 50% (two of the four flights it classified as being on time actually were on time), while its recall would be 67% (it correctly identified two of the three on-time arrivals).</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>You can learn more about precision and recall from <ph id="ph1">&lt;https://en.wikipedia.org/wiki/Precision_and_recall&gt;</ph></source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Scikit-learn contains a handy method named <bpt id="p1">[</bpt>precision_score<ept id="p1">](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_score.html)</ept> for computing precision.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>To quantify the precision of your model, execute the following statements:</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Examine the output.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>What is your model's precision?</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Measuring precision</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Measuring precision<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Scikit-learn also contains a method named <bpt id="p1">[</bpt>recall_score<ept id="p1">](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html)</ept> for computing recall.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>To measure you model's recall, execute the following statements:</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>What is the model's recall?</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Measuring recall</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Measuring recall<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>File<ept id="p1">**</ept><ph id="ph1"> -&gt; </ph><bpt id="p2">**</bpt>Save and Checkpoint<ept id="p2">**</ept> command to save the notebook.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>In the real world, a trained data scientist would look for ways to make the model even more accurate.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Among other things, they would try different algorithms and take steps to <bpt id="p1">*</bpt>tune<ept id="p1">*</ept> the chosen algorithm to find the optimum combination of parameters.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Another likely step would be to expand the dataset to millions of rows rather than a few thousand and also attempt to reduce the imbalance between late and on-time arrivals.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>But for our purposes, the model is fine as-is.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.df3d740f1c935d9c80f220267903e16880f2b5dd.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">036b659fce1f45be2a7c13f7e6b9187717aa7412</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\align-requirements-in-azure\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Cloud computing provides configurable computing resources and services that can be quickly provisioned with minimal management effort.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>There are Azure services for almost any business computing need.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Do you need an interactive website?</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>A back end for a mobile app?</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Secure storage for your client data?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>All of these and more are available.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>And these resources are available when you need them, and you're typically only charged for the amount you use.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Hopefully, the cloud is an attractive option, but what if you already have existing on-premises infrastructure?</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Or you have highly sensitive data that you're not willing or able to store off-site?</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Azure provides several configurations allowing you to blend or transition between on-premises and a solution hosted completely in the cloud.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Compare each cloud computing deployment model (public, private, and hybrid).</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Understand the advantages of each cloud computing service model.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Decide which deployment and service model you should use for your services.</source>
+        </trans-unit></group></body></file></xliff>

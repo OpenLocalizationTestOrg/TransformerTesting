@@ -1,0 +1,319 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-maximize-efficiency-of-cloud-spend.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-maximize-efficiency-of-cloud-spend.dafab4cf478d0503cbf997b16ccf7ece79f6cd0d.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1256ee82788ecc2f95ed78593b7bb5a8c9f60b88</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\design-for-efficiency-and-operations-in-azure\includes\2-maximize-efficiency-of-cloud-spend.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You are a solution architect.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Your organization, Lamna Healthcare has moved its workloads to the cloud.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Recently, the bill for these resources and workflows has increased more than Lamna had anticipated.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You have been asked to determine whether the increase is natural, efficient growth, or whether the cost can be reduced by being more efficient with the organization's cloud resources.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Maximize efficiency of cloud spend</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>How the cloud changes your expenses</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>One of the differences between the public cloud and on-premises infrastructure is how you pay for the services you use.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In an on-premises datacenter, hardware procurement time is long, hardware is sized for maximum capacity, and some of the costs, such as power and space, can be hidden from the business unit consuming the resources.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Purchasing physical infrastructure ties up investments in long-term assets, hindering your ability to be agile with your resources.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Shifting to the cloud introduces a pay-for-what-you-use cost model.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You no longer need to tie up investments in assets, and if your resource requirements change, you can respond by adding, moving, or removing resources.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Workloads vary between and within services, demand can be unpredictable, and your growth patterns shift over time.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Since you only pay for what you use in the cloud, your cost structure can move in sync with the changes in resources.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Cloud infrastructure can handle fluctuating resource usage scenarios.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Resources that have significant periods of inactivity can be shut down when not in use and not incur any cost at all.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Resources can grow with a successful service as it grows, rather than having to wait for the next procurement cycle.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>More resources can be dynamically added and removed to respond to predictable and unpredictable bursts of demand.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The following illustration shows why the on-premises infrastructure cannot handle all these fluctuating scenarios.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>An illustration showing disadvantages of using on-premises infrastructure.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In an efficient architecture, provisioned resources match the demand for those resources.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If a virtual machine is less than 10% utilized the majority of the time, you are wasting resources, both in compute and cost.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Conversely, a virtual machine that is running 90% utilized is using the majority of the available resources and is an efficient use of money.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Running a system to 100% utilization runs the risk of introducing performance issues.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>It is important to ensure that maximizing efficiency doesn't negatively impact the performance of your system.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Demand is rarely constant, so adjusting resources when possible to match demand is important to ensure efficiency.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Track your cloud spend</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In order to make intelligent decisions, you need data.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>By looking at where your money is going, you can start comparing that to utilization to uncover where you may have waste within your environment.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>An export of your billing data is available at any time.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Using your billing data, you can track where your costs are going and how they're allocated across your resources.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The challenge is that the billing data shows cost but not utilization.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You'll have data that indicates you're paying for that large VM, but how much are you actually using it?</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Azure Cost Management gives you insights where your spend is going, as well as underutilized resources.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Azure Cost Management tracks your total spend, cost by service, and cost over time.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You can drill down into resource types and instances.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can also break down your costs by organization or cost center by tagging resources with those categories.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Azure Advisor also has a cost component.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>It recommends VM resizing, buying reserved instances when more cost effective than pay-as-you-go instances.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>It identifies unused ExpressRoute circuits and idle virtual network gateways.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Advisor makes additional recommendations in the areas of performance, high availability, and security.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The important part is to take time to review your spend and evaluate where your money is going.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Identify areas of inefficiency to ensure you're operating as efficiently as possible.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Organize to optimize</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Putting some organization to your resources can help track where some of your costs are going.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>There are ways to group resources together, establishing a relationship so you know where your costs are related.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>From a billing perspective, resources can be easily grouped by:</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Assigning resources to different subscriptions.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Assigning resources to different resource groups.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Applying tags to resources.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Using subscriptions and resource groups to organize resources is an easy way to logically group resources and can be leveraged when going through billing data.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Tags come into play when resource relationships span the boundaries of subscriptions and resource groups.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Tags are key/value pairs that can be added to any resource, and are exposed in billing data, allowing you to associate a department or cost center with your resource.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Tags improve your ability to report on cost, as well as giving each department in your organization accountability for their own costs.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The following illustration shows how you can apply the same tag to resources in different resource groups and even in different subscriptions.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>An illustration showing resources organized using tags, resource groups, and subscriptions.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Adding some organization to your resources can go a long way and can really aid in your ability to understand where your costs are going.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Now let's take a look at some ways to optimize costs.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Optimizing IaaS costs</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>When using Infrastructure as a Service (IaaS) resources such as virtual machines (VM) as part of your solution, the cost associated with VMs is often the biggest portion of spend.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The compute costs are typically the biggest piece, followed by storage.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Taking time to optimize pay-for-what-you-use resources can have a large impact on the size of your monthly bill.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Let's take a look at best practices to reduce your compute and storage costs.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Compute</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>There are different options available to achieve cost savings for virtual machines.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Choose a smaller virtual machine instance size.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Reduce the number of hours a virtual machine runs.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Use discounts for the compute costs.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Right size virtual machines</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Right sizing a virtual machine is the process of matching the virtual machine size with the resource demand required of the VM.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>If a VM is running 25% idle, reducing the size of the VM will immediately reduce your cost.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Virtual machine costs are linear within an instance family; each next size larger will double your cost.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Conversely, reducing a VM by a single instance size will reduce your cost in half.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The following illustration shows a 50% savings achieved by moving one size down within the same series.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>An illustration to demonstrate savings achieved by downsizing an under-utilized virtual machine.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Azure Advisor identifies which virtual machines are underutilized.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Advisor monitors your virtual machine usage for 14 days and then identifies underutilized virtual machines.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Virtual machines whose CPU utilization is 5 percent or less and network usage is 7 MB or less for four or more days are considered underutilized virtual machines.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Implement shutdown schedules for virtual machines</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>If you have VM workloads that are only used periodically, but are running continuously, you're wasting money.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>These VMs can be shut down when not in use saving you compute costs while the VM is deallocated.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>For example, a development environment is a good candidate because development generally happens only during business hours.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>You have several options to deallocate a VM.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>You can use Azure Automation to run your VMs only during those times that your workloads require.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>You can use the auto-shutdown feature on a virtual machine to schedule a one-off automated shutdown.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Finally, you can stop a VM manually in the Azure portal.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>You should always use the Azure controls to stop your VMs; shutting down the OS from inside a VM does not deallocate its Azure resource so you will continue to accrue costs.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Apply compute cost discounts</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The Azure Hybrid Benefit allows you to further optimize your costs for both Windows Server and SQL Server by allowing you to use your on-premises Windows Server or SQL Server licenses with Software Assurance to be used as a discount toward the compute cost of these VMs, eliminating the costs for Windows and SQL Server on enabled instances.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Some virtual machines need to be up and running all the time.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Maybe you have a web application server farm for a production workload or maybe a domain controller supporting various servers on a virtual network.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>If you know with certainty that these virtual machines will run over the coming year or maybe longer, you can get further cost savings by purchasing a reserved instance.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Azure Reserved Virtual Machine Instances can be purchased for one year or three years of compute capacity, at a discount compared to pay-as-you-go compute resources.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Azure Reserved Virtual Machine Instances can significantly reduce your virtual machine costs, up to 72 percent on pay-as-you-go prices, with one-year or three-year upfront commitment.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The following illustration shows savings achieved when you combine your on-premises license with the Azure Hybrid Benefit and when you combine your on-premises license with both Azure RI and the Azure Hybrid Benefit.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>An illustration showing the savings on Azure products when you have on-premises licenses with Software Assurance.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Virtual machine disk storage cost optimization</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>For workloads that do not require high reliability and performance disks, you can use the reduced-cost standard storage.</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>You might choose to use standard storage for development and test environments that are not required to be an identical match for a production workload.</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Ensure you don't have any orphaned disks remaining in your environment.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Disks that aren't associated with a VM still incur storage costs.</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>If you've removed a VM but not the disks, the orphaned disks may be a place to reduce your storage cost.</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Similar to orphaned disks, if you have any orphaned snapshots lingering around, take some time to clean them up.</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Pricing for these is lower than the disks themselves, but it's still a good practice to eliminate costs of unnecessary resources.</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Optimizing PaaS costs</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Platform as a Service (PaaS) services are typically optimized for costs over IaaS services, but there are opportunities to identify waste and optimize for minimal costs.</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Let's take a look at ways to reduce Azure SQL Database and Azure Blob storage costs.</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Optimizing Azure SQL Database costs</source>
+        </trans-unit><trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>When creating an Azure SQL database, you have to select an Azure SQL Server and decide on a performance tier.</source>
+        </trans-unit><trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Each tier provides a performance level either in database transaction units (DTUs) or virtual cores (vCores).</source>
+        </trans-unit><trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>For database loads that are steady, it's easy to optimize by selecting the properly sized tier for the needed performance.</source>
+        </trans-unit><trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>But what if your database has unpredictable bursts or spikes in activity?</source>
+        </trans-unit><trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Elastic pools can reduce costs for unpredictable workloads.</source>
+        </trans-unit><trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>SQL Database elastic pools are a simple, cost-effective solution for managing and scaling several databases that have varying and unpredictable usage demands.</source>
+        </trans-unit><trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The databases in an elastic pool are on a single Azure SQL Database server and share a set number of resources at a set price.</source>
+        </trans-unit><trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Pools are well suited for a large number of databases with specific utilization patterns.</source>
+        </trans-unit><trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>For a given database, this pattern is characterized by low average utilization with relatively infrequent utilization spikes.</source>
+        </trans-unit><trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The more databases you can add to a pool, the greater your savings become.</source>
+        </trans-unit><trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The following illustration shows the capabilities of the three types of Elastic Database Pools: basic, standard, and premium.</source>
+        </trans-unit><trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Basic auto scales up to 5 eDTUs per DB, standard auto scales up to 100 eDTUs per DB, and Premium that auto scales up to 1000 eDTUs per DB.</source>
+        </trans-unit><trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>An illustration showing auto-scaling capacity of different types of Elastic Database Pools.</source>
+        </trans-unit><trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Elastic pools are a great way to spread costs across multiple databases and can make a significant impact on reducing your Azure SQL Database costs.</source>
+        </trans-unit><trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Optimizing Blob storage costs</source>
+        </trans-unit><trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Blob storage is a cost-effective way to store data, but as the amount of data grows, your bill can benefit from optimizing how the data is stored.</source>
+        </trans-unit><trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Let's return to Lamna Healthcare.</source>
+        </trans-unit><trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>You have a medical-imaging application that stores images in blob storage.</source>
+        </trans-unit><trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Due to the quantity and size of the images, the storage ends up being a notable cost for the application.</source>
+        </trans-unit><trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>When an image has been taken for a patient, it's likely that in the first week, that image will be viewed several times, and the performance of image retrieval is expected to be high.</source>
+        </trans-unit><trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Conversely, an image taken two years ago may be accessed infrequently and has a lower retrieval performance expectation.</source>
+        </trans-unit><trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>You can use storage tiering to optimize the cost of image retrieval, given the reduced performance required as the image ages.</source>
+        </trans-unit><trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Azure Storage offers three storage tiers for blob object storage.</source>
+        </trans-unit><trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The Azure hot storage tier is optimized for storing data that is accessed frequently.</source>
+        </trans-unit><trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The Azure cool storage tier is optimized for storing data that is infrequently accessed and stored for at least 30 days.</source>
+        </trans-unit><trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The Azure archive storage tier is optimized for storing data that is rarely accessed and stored for at least 180 days with flexible latency requirements.</source>
+        </trans-unit><trans-unit id="234" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Hot access tier<ept id="p1">**</ept> - Highest storage costs but the lowest access costs.</source>
+        </trans-unit><trans-unit id="235" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Cool access tier<ept id="p1">**</ept> - Lower storage costs and higher access costs compared to hot storage.</source>
+        </trans-unit><trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>This tier is intended for data that will stay in the cool tier for at least 30 days.</source>
+        </trans-unit><trans-unit id="237" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Archive access tier<ept id="p1">**</ept> - Lowest storage cost and highest data retrieval costs compared to hot and cool storage.</source>
+        </trans-unit><trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>This tier is intended for data that can tolerate several hours of retrieval latency and will stay in the archive tier for at least 180 days.</source>
+        </trans-unit><trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>For Lamna Healthcare, keeping new images on the hot access tier for a month makes sense, so that viewing the most recent images performs as fast as possible.</source>
+        </trans-unit><trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>You could then move images over one year old to the archive tier since it is likely that these images will not be retrieved.</source>
+        </trans-unit><trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>This would reduce their costs associated with storing these images.</source>
+        </trans-unit><trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Leverage consumption pricing models</source>
+        </trans-unit><trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Moving to PaaS services can also take the pay-as-you-go model even further into a true consumption pricing model.</source>
+        </trans-unit><trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Services such as Azure Functions have the ability to use <bpt id="p1">_</bpt>Consumption plans<ept id="p1">_</ept>.</source>
+        </trans-unit><trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>When you're using a Consumption plan, instances of the Azure Functions host are dynamically added and removed based on the number of incoming events.</source>
+        </trans-unit><trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>This serverless plan scales automatically, and you're charged for compute resources only when your functions are running.</source>
+        </trans-unit><trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>On a Consumption plan, a function execution times out after a configurable period of time.</source>
+        </trans-unit><trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Billing is based on number of executions, execution time, and memory used.</source>
+        </trans-unit><trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Billing is aggregated across all functions within a function app.</source>
+        </trans-unit><trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Moving to services that use a consumption pricing model can bring a new approach to cost savings into your architecture.</source>
+        </trans-unit><trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Cost optimization at Lamna Healthcare</source>
+        </trans-unit><trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Lamna Healthcare is making strides on reducing their costs.</source>
+        </trans-unit><trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>They have organized a monthly review of their costs, and each department has access to Azure Cost Management, where they can review their costs throughout the month.</source>
+        </trans-unit><trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>They've identified a number of places where reserved instances can be used and have purchased several to take advantage of this discount.</source>
+        </trans-unit><trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>They have implemented automated processes to stop development environments in off-hours, saving them additional costs during times when these resources were not being used.</source>
+        </trans-unit><trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Along with the optimization of blob storage for their imaging storage, they've managed to drop their bill notably over the past couple of months.</source>
+        </trans-unit><trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Optimizing the cost of your cloud infrastructure involves tracking your spend and ensuring that your resource utilization matches the demands of your workloads.</source>
+        </trans-unit><trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Using the right quality and performance tier for your resources can further optimize your cloud spend.</source>
+        </trans-unit></group></body></file></xliff>

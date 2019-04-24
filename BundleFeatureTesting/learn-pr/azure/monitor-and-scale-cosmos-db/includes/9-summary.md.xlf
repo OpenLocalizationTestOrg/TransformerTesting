@@ -1,0 +1,45 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="9-summary.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9-summary.c423f79ddb6d8f787eb6493c297107886d9069ae.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f481f3a8858480b471f04f801d4b5810307fecaa</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\monitor-and-scale-cosmos-db\includes\9-summary.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You now have the knowledge and tools to model, measure, and monitor the efficiency of your Cosmos DB collections.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>We've optimized the Orders collection for the online retail scenario.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This database can now scale according to the needs of the business.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can apply these methods to your own scenario to make the most of the Cosmos DB capacity you've allocated.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Clean up</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>It's important that you clean up any unused collections.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You're charged for the configured capacity not how much of the database is used.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For this module, we make these resources available to you free of charge.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>But you should get into the habit of deleting resources when you're done with them.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Open the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept>.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Search for sandbox resource group: <bpt id="p1">&lt;rgn&gt;</bpt>Sandbox Resource Group<ept id="p1">&lt;/rgn&gt;</ept>.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Select your Cosmos DB account.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Go to <bpt id="p1">**</bpt>Data Explorer<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To delete the mslearn database, select the ellipse <bpt id="p1">**</bpt>...<ept id="p1">**</ept> next to the database name.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Delete<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Enter the name of the database that you want to delete.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If you want to delete each collection individually, you select the ellipse <bpt id="p1">**</bpt>...<ept id="p1">**</ept>  next to the collection and select <bpt id="p2">**</bpt>Delete<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Resources</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To learn more about Cosmos DB, see the following resources:</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Cosmos DB documentation<ept id="p1">](https://docs.microsoft.com/azure/cosmos-db/)</ept>: This is the official Microsoft Documentation for Cosmos DB.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Cosmos DB calculator<ept id="p1">](https://www.documentdb.com/capacityplanner#)</ept>: Calculates Request Units for different workloads which is useful for estimating the volume of your JSON payload.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Cosmos DB benchmark code<ept id="p1">](https://github.com/Azure/azure-cosmos-dotnet-v2/tree/master/samples/documentdb-benchmark)</ept>: The utility code, that you used in this module, is based on this code.</source>
+        </trans-unit></group></body></file></xliff>

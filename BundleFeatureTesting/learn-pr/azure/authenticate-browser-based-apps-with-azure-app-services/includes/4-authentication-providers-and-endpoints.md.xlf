@@ -1,0 +1,265 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-authentication-providers-and-endpoints.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-authentication-providers-and-endpoints.28c90990c967401eac41e9e63180202f16092e40.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1610518c894e375cf8b317cf5e416ba98d1495c8</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\authenticate-browser-based-apps-with-azure-app-services\includes\4-authentication-providers-and-endpoints.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>As the web administrator for an online clothing store, you have deployed a test app, and now you need to explore how different authentication providers can work with your applications.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You have carried out a survey, and most of your customers have Microsoft accounts, so you will start by implementing a Microsoft login for your test web application.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>But you are also aware that some customers do not have a Microsoft account, so you need to be sure that other providers can also be supported concurrently.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>We will take a look at authentication providers, and how to enable these providers in your web apps.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Authenticated Users</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">**</bpt>authenticated user<ept id="p1">**</ept> is an identity that has successfully passed an authentication check using some form of credentials.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This means the server or service knows with reasonable certainty who is using the service.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Depending on the application, the authenticated user may then have been assigned specific user-related access rights to resources.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>By contrast, anonymous access does not involve any account verification, and is often used to enable anyone to access public or non-sensitive information on a web site.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Authentication Providers</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">**</bpt>authentication provider<ept id="p1">**</ept>, also sometimes called an <bpt id="p2">**</bpt>identity provider<ept id="p2">**</ept>, is a service that manages the authentication of a user with a set of stored credential information, which may include name, email address, password, bio-metric data, and so on.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Examples of such services include Microsoft Accounts, Facebook identities, and Google sign-in.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In addition to providing authentication to their own resources, authentication providers can support federated authentication by enabling trusted third-party services to make use of these authentication services.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>As a developer, such federation means that you do not have to write your own identity management and authentication code, nor do you have to support and secure the user credentials of all your users; this is all done by the authentication provider.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The Azure App service currently supports five authentication providers:</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Azure Active Directory</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Microsoft Account</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Facebook</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Google</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Twitter</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Authentication Flow</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Authentication endpoints<ept id="p1">**</ept> are specific app URIs for handling sign in, sign out, and other authentication operations.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>These endpoints can be called by your web app to initiate the authentication process, and to verify user identities while the app is being used.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">**</bpt>authentication token<ept id="p1">**</ept> is generated by the authentication provider, and may include information on the user's authentication status and a list of resources that the user may access.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Whenever a user attempts to access a protected resource through their web browser, their security token is presented.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The authentication service checks that the security token is valid by using the provider's sign-in endpoint, and if the security token is valid, the web app processes the user request.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Depending on whether you are doing everything within the browser, the authentication flow may differ slightly; for example, the authentication flow may vary between Javascript and a provider SDK for a language framework such as .NET.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>In a browser script:</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Not authenticated<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>User tries to access web app, but is not yet signed in.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>User sign-in<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Client is redirected to the federated Microsoft login page at <ph id="ph1">`/.auth/login/&lt;provider&gt;`</ph>.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Post-authentication<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The provider redirects the client to <ph id="ph1">`/.auth/login/&lt;provider&gt;/callback`</ph>.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Establish an authenticated session<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The Azure App Service adds an <bpt id="p1">**</bpt>authenticated<ept id="p1">**</ept> cookie to the response back to the client; this is the <bpt id="p2">**</bpt>AppServiceAuthSession<ept id="p2">**</ept> cookie.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Deliver authenticated content<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The client includes the authentication cookie in subsequent requests (this is automatically handled by the browser).</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Optional steps:</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Obtain access token<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Use JavaScript in your web app to call the <ph id="ph1">`/.auth/me`</ph> endpoint to get an access token; your app can use this token to access resources managed by Express, Graph, and other APIs.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Refresh token<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If the access token expires, use JavaScript in your app to call the <ph id="ph1">`/.auth/refresh`</ph> endpoint, and then to call to the <ph id="ph2">`/.auth/me`</ph> endpoint to obtain the refreshed token.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Sign out<ept id="p1">**</ept>. Provide a sign-out option in your app, by providing a link to the <ph id="ph1">`/.auth/logout`</ph> endpoint.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>When using a provider SDK, the steps are slightly different:</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>User sign-in<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Client code is used to sign in the user with the provider's SDK, and the user's browser receives an authentication token.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Post-authentication<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Client code sends the authentication token to <ph id="ph1">`/.auth/login/&lt;provider&gt;`</ph> for validation.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Establish an authenticated session<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The Azure App Service returns its own authentication token to client code.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Deliver authenticated content<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Client code sends this authentication token within the <ph id="ph1">`X-ZUMO-AUTH`</ph> header; (this is automatically handled by the client SDKs for Mobile Apps).</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Configuring an Authentication Provider</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>At the App Service level, you configure the way your apps will handle authentication.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>App Service Authentication (OFF)<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This is the default setting, and means that authentication and authorization are not managed by the Azure App Service, and all client requests are allowed.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Choose this option if you don't need authentication and authorization, or if you want to write your own authentication and authorization code.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>App Service Authentication (ON)<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>With authentication enabled, you can now set the default action if your app receives an unauthenticated client request by using the <bpt id="p1">**</bpt>Action to take when request is not authenticated<ept id="p1">**</ept> setting; the options are:</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Allow Anonymous requests (no action)<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>With this setting, all requests are allowed.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>If a client has already been authenticated, App Service passes this authentication information to the app in the HTTP headers.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>If the client has not been authenticated, you will need to use app code to control what should happen next, such as redirection to the sign-in endpoint to force authentication.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Sign in with <ph id="ph1">\&lt;</ph>provider<ph id="ph2">\&gt;</ph><ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>With this setting, the Azure App Service redirects all anonymous requests to <ph id="ph1">`/.auth/login/&lt;provider&gt;`</ph> for the provider you choose.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The effect of this setting is that only authenticated requests are allowed.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You don't need to write any authentication code in your app.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>There are specific configuration options for each Authentication Provider that you enable; for example, the Microsoft, Facebook, Google, and Twitter providers, all require some form of key or ID and client secret:</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Provider</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Key name</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Password name</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Configurable scope?</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Microsoft Account</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Client ID</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Client Secret</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Facebook</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>App ID</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>App Secret</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Google</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Client ID</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Client Secret</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>No</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Twitter</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>API Key</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>API Secret</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>No</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>For Microsoft Account authentication, the <bpt id="p1">**</bpt>App Registration Portal<ept id="p1">**</ept> is used to generate the Client ID and Client Secret, referred to as Application ID and Password in the portal.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The Microsoft and Facebook providers also support configurable <bpt id="p1">**</bpt>scopes<ept id="p1">**</ept>, so you can choose how much user information your app can request to access; for example, you might want your app to be able to read a user's birthdate from their profile in order to generate special offer alerts.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>However, it is up the user to agree to such requests; your app cannot obtain this data without permission.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Sign Out</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>If you want your users to be able to sign out of your application, you'll need to enable your app to send a <ph id="ph1">`GET`</ph> request to the app's <ph id="ph2">`/.auth/logout`</ph> endpoint.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>After this request has been sent:</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Authentication cookies will be cleared from the current session.</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The current user's tokens will be deleted from the token store (if used).</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>For Azure Active Directory and Google, a server-side sign-out is initiated on the identity provider.</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Token store is covered in Unit 6.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Here's a simple sign-out link in a webpage:</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Redirect URLs</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>A Redirect URL is used to control your app's authentication and post-authentication behavior.</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>For example, after a successful sign-in, you typically want to ensure that your users are redirected to your app's default page.</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Similarly, if you provide a <bpt id="p1">**</bpt>Sign-out<ept id="p1">**</ept> link, you might want to redirect signed out users back to your app's sign in page, to give users the option to sign in again.</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>For Microsoft Account authentication, the <bpt id="p1">**</bpt>App Registration Portal<ept id="p1">**</ept> is used to register redirect URLs.</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Using Multiple Authentication Providers in Your Web App</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The Azure portal doesn't have an option for supporting multiple providers, so you need to first configure each identity provider you want to enable, then in the <bpt id="p1">**</bpt>Action to take when request is not authenticated<ept id="p1">**</ept> setting, select <bpt id="p2">**</bpt>Allow Anonymous requests (no action)<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>In your web app, add a sign-in link to each of the providers you enabled (<ph id="ph1">`/.auth/login/&lt;provider&gt;`</ph>).</source>
+        </trans-unit><trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+        </trans-unit><trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Steps to Configure Authentication Providers and Endpoints</source>
+        </trans-unit><trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The following information summarizes the key steps for configuring the Microsoft authentication provider and endpoints.</source>
+        </trans-unit><trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Open the configuration settings for authentication</source>
+        </trans-unit><trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>To enable authentication, open your web app in the Azure portal, and then go to the <bpt id="p1">**</bpt>Authentication / Authorization<ept id="p1">**</ept> pane; the default setting is <bpt id="p2">**</bpt>Anonymous access is enabled on the App Service app. Users will not be prompted for login<ept id="p2">**</ept>:</source>
+        </trans-unit><trans-unit id="214" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Default authentication setting is for anonymous access<ept id="p1">]</ept><bpt id="p2">(../media/4-anonymous-login.png "</bpt>Anonymous access<ept id="p2">")</ept></source>
+        </trans-unit><trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>To enable authentication, under <bpt id="p1">**</bpt>App Service Authentication<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>On<ept id="p2">**</ept>, and in the list of available Authentication Providers, select the provider you want to use, such as <bpt id="p3">**</bpt>Microsoft<ept id="p3">**</ept>:</source>
+        </trans-unit><trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Enabling App Service Authentication<ept id="p1">]</ept><bpt id="p2">(../media/4-enable-authentication.png "</bpt>App Service Authentication<ept id="p2">")</ept></source>
+        </trans-unit><trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Create authentication endpoints</source>
+        </trans-unit><trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Go to the <bpt id="p1">**</bpt>App Registration Portal<ept id="p1">**</ept> at <ph id="ph1">https://apps.dev.microsoft.com/</ph>, and add a new app.</source>
+        </trans-unit><trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Make a note of the <bpt id="p1">**</bpt>Application ID<ept id="p1">**</ept>, and add <bpt id="p2">**</bpt>Web<ept id="p2">**</ept> as a platform:</source>
+        </trans-unit><trans-unit id="220" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Using App Registration Portal<ept id="p1">]</ept><bpt id="p2">(../media/4-app-registration.png "</bpt>App Registration Portal<ept id="p2">")</ept></source>
+        </trans-unit><trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Redirect URLs<ept id="p1">**</ept> box, enter <bpt id="p2">**</bpt>https://&lt;<bpt id="p3">_</bpt>your_app_name<ept id="p3">_</ept><ph id="ph1">\&gt;</ph>.azurewebsites.net/.auth/login/microsoftaccount/callback<ept id="p2">**</ept>; be sure to include the period (.) before auth (/.auth/login).</source>
+        </trans-unit><trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Application Secrets<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Generate New Password<ept id="p2">**</ept>, and copy the password from the popup window, and save it to a temporary location.</source>
+        </trans-unit><trans-unit id="223" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>App Registration Portal Password Popup<ept id="p1">]</ept><bpt id="p2">(../media/4-app-registration-password.png "</bpt>App Registration Portal Password Popup<ept id="p2">")</ept></source>
+        </trans-unit><trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Configure the Microsoft Authentication provider</source>
+        </trans-unit><trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Using the Azure portal, in the <bpt id="p1">**</bpt>Microsoft Account Authentication Settings<ept id="p1">**</ept> blade, enter the  <bpt id="p2">**</bpt>Application ID<ept id="p2">**</ept> from the Registration Portal into the <bpt id="p3">**</bpt>Client ID<ept id="p3">**</ept> box, and the <bpt id="p4">**</bpt>Application Password<ept id="p4">**</ept> into the <bpt id="p5">**</bpt>Client Secret<ept id="p5">**</ept> box, then save the authentication settings.</source>
+        </trans-unit><trans-unit id="226" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Configuring the Microsoft Authentication Provider<ept id="p1">]</ept><bpt id="p2">(../media/4-microsoft-provider.png "</bpt>Microsoft Authentication Provider<ept id="p2">")</ept></source>
+        </trans-unit><trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Configure the Microsoft Authentication provider for Forced Authentication</source>
+        </trans-unit><trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>If you want your app to force users to authenticate, then on the <bpt id="p1">**</bpt>Authentication / Authorization<ept id="p1">**</ept> blade in the Azure portal, under <bpt id="p2">**</bpt>Action to take when request is not authenticated<ept id="p2">**</ept>, select <bpt id="p3">**</bpt>Login with Microsoft Account<ept id="p3">**</ept>, and then save the authentication settings.</source>
+        </trans-unit><trans-unit id="229" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">![</bpt>Configuring forced authentication<ept id="p1">]</ept><bpt id="p2">(../media/4-forced-authentication.png "</bpt>Configuring forced authentication<ept id="p2">")</ept></source>
+        </trans-unit><trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>In this unit, you looked at the authentication providers supported by the Azure App Service, and how to enable these providers in your web apps.</source>
+        </trans-unit><trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>You looked at the steps required to use the Microsoft authentication provider with a web app, and also at how you would support other providers.</source>
+        </trans-unit><trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>You'll use this knowledge in the next Unit, when you add Microsoft authentication to a web app.</source>
+        </trans-unit></group></body></file></xliff>

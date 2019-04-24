@@ -1,0 +1,45 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-view-activity-logs.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-view-activity-logs.c017b45d99a3056aca9cba0c8e5a91b2c77fe1fe.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cd78349e578e86fe3cdc326edfa991f486b352db</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\secure-azure-resources-with-rbac\includes\6-view-activity-logs.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>First Up Consultants reviews role-based access control (RBAC) changes quarterly for auditing and troubleshooting purposes.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You know that changes get logged in <bpt id="p1">[</bpt>Azure Activity Log<ept id="p1">](/azure/monitoring-and-diagnostics/monitoring-overview-activity-logs)</ept>.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Your manager has asked if you can generate a report of the role assignment and custom role changes for the last month.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>View activity logs</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The easiest way to get started is to view the activity logs with the Azure portal.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>All services<ept id="p1">**</ept> and then find <bpt id="p2">**</bpt>Activity log<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Azure portal showing the location of Activity logs option</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Activity log<ept id="p1">**</ept> to open the activity log.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Azure portal showing the Activity logs</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Set the <bpt id="p1">**</bpt>Timespan<ept id="p1">**</ept> filter to <bpt id="p2">**</bpt>Last month<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Add an <bpt id="p1">**</bpt>Operation<ept id="p1">**</ept> filter and type <bpt id="p2">**</bpt>role<ept id="p2">**</ept> to filter the list.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Select the following RBAC operations:</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Create role assignment (roleAssignments)</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Delete role assignment (roleAssignments)</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Create or update custom role definition (roleDefinitions)</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Delete custom role definition (roleDefinitions)</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Screenshot showing a list of Operation filter with the four filters selected</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>After a few moments, you'll see all the role assignment and role definition operations for the last month.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>It also includes a link to download the activity log as a CSV file.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Click one of the operations to see the activity log details.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Screenshot show the details for an activity log</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In this unit, you learned how to use Azure Activity Log to list RBAC changes in the portal and generate a simple report.</source>
+        </trans-unit></group></body></file></xliff>

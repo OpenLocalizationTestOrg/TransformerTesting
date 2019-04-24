@@ -1,0 +1,137 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-serverless-computing.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-serverless-computing.1e938290e44b4bef3b1c44daf90dd92fed0f9f9c.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c97d257d16d390823581e63b70a0e137453095c7</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-azure-compute\includes\6-serverless-computing.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Image representing serverless computing</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>With <bpt id="p1">_</bpt>serverless<ept id="p1">_</ept> computing, Azure takes care of managing the server infrastructure and allocation/deallocation of resources based on demand.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Infrastructure isn't your responsibility.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Scaling and performance are handled automatically, and you are billed only for the exact resources you use.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>There's no need to even reserve capacity.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You focus solely on the logic you need to execute and the <bpt id="p1">_</bpt>trigger<ept id="p1">_</ept> that is used to run your code.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You configure your serverless apps to respond to <bpt id="p1">_</bpt>events<ept id="p1">_</ept>.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This could be a REST endpoint, a periodic timer, or even a message received from another Azure service.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The serverless app runs only when it's triggered by an event.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Serverless computing in Azure</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Azure has two implementations of serverless compute:</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Functions<ept id="p1">**</ept> which can execute code in almost any modern language.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Logic Apps<ept id="p1">**</ept> which are designed in a web-based designer and can execute logic triggered by Azure services without writing any code.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Azure Functions</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When you're concerned only about the code running your service, and not the underlying platform or infrastructure, Azure Functions are ideal.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>They're commonly used when you need to perform work in response to an event, often via a REST request, timer, or message from another Azure service and when that work can be completed quickly, within seconds or less.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Azure Functions scale automatically based on demand, so they're a solid choice when demand is variable.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For example, you may be receiving messages from an IoT solution used to monitor a fleet of delivery vehicles.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You'll likely have more data arriving during business hours.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Using a VM-based approach, you'd incur costs even when the VM is idle.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>With functions, Azure runs your code when it's triggered and automatically deallocates resources when the function is finished.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In this model, you're only charged for the CPU time used while your function runs.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Furthermore, Azure Functions can be either stateless (the default) where they behave as if they're restarted every time they respond to an event), or stateful (called "Durable Functions") where a context is passed through the function to track prior activity.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Azure Logic Apps</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Azure Logic Apps are similar to Functions - both enable you to trigger logic based on an event.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Where Functions execute code, Logic Apps execute <bpt id="p1">_</bpt>workflows<ept id="p1">_</ept> built from predefined logic blocks.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>They are specifically designed to automate your business processes.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You create Logic App workflows using a visual designer on the Azure Portal or in Visual Studio.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The workflows are persisted as a JSON file with a known workflow schema.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Azure provides over 200 different connectors and processing blocks to interact with different services - including most popular enterprise apps.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You can also build custom connectors and workflow steps if the service you need to interact with isn't covered.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You then use the visual designer to link connectors and blocks together, passing data through the workflow to do custom processing - often all without writing any code.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>As an example, let's say a ticket arrives in ZenDesk.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You could:</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Detect the intent of the message with cognitive services</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Create an item in Sharepoint to track the issue</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If the customer isn't in your database, add them to your Dynamics 365 CRM system</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Send a follow-up email to acknowledge their request</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>All of that could be designed in a visual designer making it easy to see the logic flow which is ideal for a business analyst role.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Functions vs. Logic Apps</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Functions and Logic Apps can both create complex orchestrations.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An orchestration is a collection of functions or steps, that are executed to accomplish a complex task.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>With Azure Functions, you write code to complete each step, with Logic Apps, you use a GUI to define the actions and how they relate to one another.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can mix and match services when you build an orchestration, calling functions from logic apps and calling logic apps from functions.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Here are some common differences between the two.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Functions</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Logic Apps</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>State</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Normally stateless, but Durable Functions provide state</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Stateful</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Development</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Code-first (imperative)</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Designer-first (declarative)</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Connectivity</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>About a dozen built-in binding types, write code for custom bindings</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Large collection of connectors, Enterprise Integration Pack for B2B scenarios, build custom connectors</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Actions</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Each activity is an Azure function; write code for activity functions</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Large collection of ready-made actions</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Monitoring</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Azure Application Insights</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Azure portal, Log Analytics</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Management</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>REST API, Visual Studio</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Azure portal, REST API, PowerShell, Visual Studio</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Execution context</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Can run locally or in the cloud</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Runs only in the cloud.</source>
+        </trans-unit></group></body></file></xliff>

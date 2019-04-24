@@ -1,0 +1,73 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-azure-accounts-and-subscriptions.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-azure-accounts-and-subscriptions.8ecbe460cf7d8068df6ccc5178f4472665cbffd8.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3b2bae3d630568ab845714b06f371b0e453e5fba</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-an-azure-account\includes\2-azure-accounts-and-subscriptions.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>With a free Azure account and subscription, you can build, test, and deploy enterprise applications, create custom web and mobile experiences, and gain insights from your data through machine learning and powerful analytics.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>What is an Azure account?</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">_</bpt>Azure account<ept id="p1">_</ept> is tied to a specific identity and holds information like:</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Name, email, and contact preferences</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Billing information such as a credit card</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>An Azure account is what you use to sign in to the Azure website and administer or deploy services.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Every Azure account is associated with one or more  <bpt id="p1">_</bpt>subscriptions<ept id="p1">_</ept>.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>What is an Azure subscription?</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">_</bpt>Azure subscription<ept id="p1">_</ept> is a logical container used to provision resources in Microsoft Azure.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>It holds the details of all your resources like virtual machines, databases, etc.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Subscription types</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Azure offers free and paid subscription options to suit different needs and requirements.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The most commonly used subscriptions are:</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Free</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Pay-As-You-Go</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Enterprise Agreement</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Student</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Azure free subscription</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>An Azure free subscription includes a <bpt id="p1">**</bpt>$200 credit<ept id="p1">**</ept> to spend on any service for the first 30 days, free access to the most popular Azure products for 12 months, and access to more than 25 products that are always free.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This is an excellent way for new users to get started.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To set up a free subscription, you need a phone number, a credit card, and a Microsoft account.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Credit card information is used for identity verification only.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You won’t be charged for any services until you upgrade.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Azure Pay-As-You-Go subscription</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A Pay-As-You-Go (PAYG) subscription charges you monthly for the services you used in that billing period.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This subscription type is appropriate for a wide range of users, from individuals to small businesses, and many large organizations as well.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Azure Enterprise Agreement</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>An Enterprise Agreement provides flexibility to buy cloud services and software licenses under one agreement, with discounts for new licenses and Software Assurance.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>It's targeted at enterprise-scale organizations.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Azure for Students subscription</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>An Azure for Students subscription includes <bpt id="p1">**</bpt>$100 in Azure credits<ept id="p1">**</ept> to be used within the first 12 months plus select free services without requiring a credit card at sign-up.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You must verify your student status through your organizational email address.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Whether you are an individual, a small business, an enterprise, or a student, you need a subscription to use Azure services.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The typical sequence is to start with a free subscription so that you can evaluate Azure services.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>When your trial period expires, you will convert from the free subscription to Pay-As-You-Go.</source>
+        </trans-unit></group></body></file></xliff>

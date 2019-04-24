@@ -1,0 +1,49 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-manage-cache-settings-with-powershell.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-manage-cache-settings-with-powershell.1fcdfc594996d660ea7d9f534db4cd496148635a.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7ae2d4185986af2da085f36bc7657c1bd4a583a3</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\caching-and-performance-azure-storage-and-disks\includes\5-manage-cache-settings-with-powershell.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Creating administration scripts is a powerful way to optimize your work flow.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You can automate common, repetitive tasks.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Once a script has been verified, it will run consistently, which will likely reduce errors.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In the previous exercise, we created a VM, added a data disk, and changed cache settings, all through the Azure portal.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>What if we needed to repeat these tasks across many VMs, in many regions?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>We can do that with Azure PowerShell.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>We cover Azure PowerShell in detail in the <bpt id="p1">**</bpt>Automate Azure Tasks with PowerShell<ept id="p1">**</ept> module.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Make sure to check that module out for more details on installing, configuring, and using PowerShell.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>What is Azure PowerShell?</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Azure PowerShell is a cross-platform command-line tool to connect to your Azure subscription and manage resources.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>It's combination of two things: <bpt id="p1">**</bpt>PowerShell<ept id="p1">**</ept>, which provides the command-line tool support; and the <bpt id="p2">**</bpt>Az<ept id="p2">**</ept> PowerShell module, which provides the commands (referred to as "cmdlets") to work with Azure.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Azure PowerShell has cmdlets to manipulate most aspects of Azure resources.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can work with resource groups, storage, virtual machines, Azure Active Directory, containers, machine learning, and so on.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>We cover all these details in other training modules.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>PowerShell cmdlets for managing Azure disk caching</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Azure PowerShell has specific cmdlets to help manage VMs and disks.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Command</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Gets the properties of a virtual machine.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Updates the state of an Azure virtual machine.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Creates a configurable disk object.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Adds a data disk to a virtual machine.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>With these, we can do all the tasks we did in the Azure portal.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Let's try it out on our VM.</source>
+        </trans-unit></group></body></file></xliff>

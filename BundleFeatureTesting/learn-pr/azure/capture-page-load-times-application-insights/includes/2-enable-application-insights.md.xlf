@@ -1,0 +1,127 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-enable-application-insights.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-enable-application-insights.ba37613e1d64b9f7d560126724cba8d7c9d5dc49.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f10f36ab38edcdf27f4f41eda837fc45809d8aec</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\capture-page-load-times-application-insights\includes\2-enable-application-insights.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You can enable runtime instrumentation, the type of Application Insights instrumentation that doesn't require you to change your app's code, when the app is first created or at any time afterwards.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Developers at your company want to start gathering instrumentation data about the video application quickly, without having to modify it.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll learn what Application Insights can do, and how to enable it.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>What is Application Insights?</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Application Insights is an Azure service that helps you to monitor the performance and behavior of web applications.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>It mostly captures two kinds of data: <bpt id="p1">*</bpt>events<ept id="p1">*</ept> and <bpt id="p2">*</bpt>metrics<ept id="p2">*</ept>.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Events are individual data points that can represent any kind of event that occurs in an app.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>These events can be technical events that occur within the application runtime or those that are related to the business domain of the application or actions taken by users.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Metrics are measurements of values, typically taken at regular intervals, that aren't tied to specific events.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Like events, metrics can be related to the application's runtime or infrastructure (like the length of a queue) or related to the application's business domain or users (like how many videos are viewed in an hour).</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Application Insights resources</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Application Insights is represented in Azure as a resource deployed to one of your subscriptions.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Each Application Insights resource you create is a repository for application telemetry data.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>It includes the various displays and configuration tools that you can view from the Azure portal.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To send telemetry data to an Application Insights resource from an app, you need to configure the app with the <bpt id="p1">*</bpt>instrumentation key<ept id="p1">*</ept> of the Application Insights resource.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>After the resource starts to receive telemetry data, you can use the Azure portal to explore and analyze it.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Visualizations</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>By viewing an Application Insights resource in the Azure portal, you can visualize the telemetry captured from your app in a variety of ways.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Live metrics streams:<ept id="p1">**</ept> Charts that display performance values as they vary in near-real time.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Metrics explorer:<ept id="p1">**</ept> Tool that shows how metrics vary over time.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Alerts:<ept id="p1">**</ept> Messages automatically sent to app admins when target metrics exceed specified thresholds.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You can use alerts to ensure your team is aware of critical issues immediately.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Profiler:<ept id="p1">**</ept> Shows how a set of requests, like those for a single web page, were delivered.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You can use these profiles, for example, to see which page elements load slowly.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Application Map:<ept id="p1">**</ept> Displays the components of an application and how they link to each other.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You can use the data shown with each component to diagnose performance bottlenecks and failure hotspots.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Usage analysis:<ept id="p1">**</ept> Information about your app's users.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For example, you can see numbers of unique users and sessions and information about user retention.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>These tools are all available in the Azure portal and in Visual Studio.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can also view Application Insights data in Power BI, which you might already be using for business intelligence.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Application Insight architecture</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Runtime instrumentation and build-time instrumentation</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>There are two ways to configure your app to send data to Application Insights:</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Runtime instrumentation:<ept id="p1">**</ept> Runtime instrumentation captures telemetry without requiring you to change the web app's source code.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You can quickly enable this turnkey solution from the Azure portal when you first create your web app or anytime afterwards.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Use this method when you want to set up Application Insights without involving developers or when code management policies prevent you from changing the app's source code.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Note that some advanced data displays aren't available when you use only runtime instrumentation.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Build-time instrumentation.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>With this method, developers add a server-side SDK to the web app's code.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For example, in an ASP.NET Core app, a developer could reference a NuGet package to access the SDK.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>When you instrument your app with the Application Insights SDK, you can enable full functionality and the richest set of visualizations in Application Insights.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This type of instrumentation also enables you to add custom events and telemetry to your code to monitor unusual or unique behavior.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You can enable <bpt id="p1">*</bpt>client-side instrumentation<ept id="p1">*</ept> for an app by including a standard Application Insights JavaScript library in pages delivered to your app's users.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Client-side instrumentation captures information about the user experience of the app, including page load times, details of browser exceptions, and performance data about AJAX calls.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You can configure Azure App Service web apps to automatically inject the client SDK and capture many client-side metrics.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Developers can add JavaScript code to capture data about specific events.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Client-side instrumentation enables displays like usage analysis.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>In this module, you'll enable runtime instrumentation and client-side instrumentation to begin quickly gathering telemetry about your app without needing to change it.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Web app requirements</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Runtime instrumentation and automatic client-side instrumentation is supported only on Windows web apps.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>These features rely on capabilities of IIS, the web server technology that powers Windows apps on App Service.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The use of Application Insights in Linux apps is fully supported, but you need to modify application code to reference the Application Insights SDK.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Any Windows App Service web app can benefit from the runtime instrumentation techniques described in this module.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>But web apps created with the ASP.NET or ASP.NET Core frameworks have the best integration with Application Insights.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>They automatically record framework-specific data, like stack traces and dependency information, in Application Insights.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Enabling runtime instrumentation</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You can enable runtime instrumentation for a Windows App Service web app when you create the app or at a later time.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>To enable it when you create the web app, on the web app <bpt id="p1">**</bpt>Create<ept id="p1">**</ept> blade, select <bpt id="p2">**</bpt>Application Insights<ept id="p2">**</ept> and then select <bpt id="p3">**</bpt>Enable<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Enable Application Insights you you create a web app</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If you choose to create a web app without enabling Application Insights, you can enable it later on the <bpt id="p1">**</bpt>Application Insights<ept id="p1">**</ept> page of the web app's blade.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Both options open a wizard that will help you create a new Application Insights resource if you don't already have one in your subscription.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Enabling automatic client-side telemetry</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>To automatically inject the JavaScript SDK and necessary configuration into pages served by your web app, add a new application setting named <bpt id="p1">**</bpt>APPINSIGHTS_JAVASCRIPT_ENABLED<ept id="p1">**</ept> and set the value to <bpt id="p2">**</bpt>true<ept id="p2">**</ept>.</source>
+        </trans-unit></group></body></file></xliff>

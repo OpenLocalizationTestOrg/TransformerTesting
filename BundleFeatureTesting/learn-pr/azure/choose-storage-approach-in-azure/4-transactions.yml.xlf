@@ -1,0 +1,37 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-transactions.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-transactions.ddc58a46f019f260751e052e1b65c0c09ae1f079.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">38a3be134f13aa5bf07fa39478a9dbbedd40b6ea</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\choose-storage-approach-in-azure\4-transactions.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.choose-storage-approach-in-azure.4-transactions">
+          <source>Group multiple operations in a transaction</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.choose-storage-approach-in-azure.4-transactions">
+          <source>Group multiple operations in a transaction</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.choose-storage-approach-in-azure.4-transactions">
+          <source>Group multiple operations in a transaction</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.choose-storage-approach-in-azure.4-transactions">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.choose-storage-approach-in-azure.4-transactions">
+          <source>Which type of transactional database system would work best for product data?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.choose-storage-approach-in-azure.4-transactions">
+          <source>OLAP</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.choose-storage-approach-in-azure.4-transactions">
+          <source>OLTP systems support a large set of users, have quick response times, handle large volumes of data, are highly available, and are great for small or relatively simple transactions.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.choose-storage-approach-in-azure.4-transactions">
+          <source>OLTP</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.choose-storage-approach-in-azure.4-transactions">
+          <source>OLTP systems support a large set of users, have quick response times, handle large volumes of data, are highly available, and are great for small or relatively simple transactions.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.choose-storage-approach-in-azure.4-transactions">
+          <source>Suppose the operations to update inventory and process payments are in the same transaction.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.choose-storage-approach-in-azure.4-transactions">
+          <source>A user is attempting to apply store credit for the full amount, and submitted the exact same order via phone and laptop at the same time.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.choose-storage-approach-in-azure.4-transactions">
+          <source>The database behind the scenes is an ACID-compliant database, what would happen?</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.choose-storage-approach-in-azure.4-transactions">
+          <source>Both orders would be processed and use the in-store credit.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.choose-storage-approach-in-azure.4-transactions">
+          <source>Once the second order determined that the in-store credit has already been used, it would roll back the transaction.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.choose-storage-approach-in-azure.4-transactions">
+          <source>One order would be processed and use the in-store credit, and the other order would update the remaining inventory for the items in the basket, but would not complete the order.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.choose-storage-approach-in-azure.4-transactions">
+          <source>Once the second order determined that the in-store credit has already been used, it would roll back the transaction.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.choose-storage-approach-in-azure.4-transactions">
+          <source>One order would be processed and use the in-store credit, and the other order would not be processed.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.choose-storage-approach-in-azure.4-transactions">
+          <source>Once the second order determined that the in-store credit has already been used, it would roll back the transaction.</source>
+        </trans-unit></group></body></file></xliff>

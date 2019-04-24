@@ -1,0 +1,265 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-choose-event-grid.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-choose-event-grid.29b6a30d5f620cabad5928b390cc23663c12e601.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a172b0ad562f5669df797539522cfedc308deebc</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\choose-a-messaging-model-in-azure-to-connect-your-services\includes\4-choose-event-grid.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Many applications use a publish-subscribe model to notify distributed components that something happened, or that some object changed.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Suppose you have a music-sharing application with a Web API that runs in Azure.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>When a user uploads a new song, you need to notify all the mobile apps installed on user devices around the world who are interested in that genre.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In this architecture, the publisher of the sound file doesn't need to know about any of the subscribers interested in the shared music.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Also, we want to have a one-to-many relationship where we can have multiple subscribers who can optionally decide whether they are interested in this new song.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Azure Event Grid is a perfect solution for this sort of architecture.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>What is Azure Event Grid?</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Azure Event Grid is a fully-managed event routing service running on top of Azure Service Fabric.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Event Grid distributes <bpt id="p1">_</bpt>events<ept id="p1">_</ept> from different sources, such as Azure Blob storage accounts or Azure Media Services, to different handlers, such as Azure Functions or Webhooks.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Event Grid was created to make it easier to build event-based and serverless applications on Azure.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Event Grid supports most Azure services as a publisher or subscriber and can be used with third-party services.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>It provides a dynamically scalable, low-cost, messaging system that allows publishers to notify subscribers about a status change.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The following illustration shows Azure Event Grid receiving messages from multiple sources and distributing them to event handlers based on subscription.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>There are several concepts in Azure Event Grid that connect a source to a subscriber:</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Events:<ept id="p1">**</ept> What happened.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Event sources:<ept id="p1">**</ept> Where the event took place.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Topics:<ept id="p1">**</ept> The endpoint where publishers send events.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Event subscriptions:<ept id="p1">**</ept> The endpoint or built-in mechanism to route events, sometimes to multiple handlers.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Subscriptions are also used by handlers to filter incoming events intelligently.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Event handlers:<ept id="p1">**</ept> The app or service reacting to the event.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>An illustration showing an Azure Event Grid positioned between multiple event sources and multiple event handlers.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The event sources send events to the Event Grid and the Event Grid forwards relevant events to the subscribers.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Event Grid use topics to decide which events to send to which handlers.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Events sources tag each event with one or more topics, and event handlers subscribe to the topics they are interested in.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>What is an event?</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Events<ept id="p1">**</ept> are the data messages passing through Event Grid that describe what has taken place.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Each event is self-contained, can be up to 64 KB, and contains several pieces of information based on a schema defined by Event Grid:</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>topic<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The full resource path to the event source.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Event Grid provides this value.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>subject<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Publisher-defined path to the event subject.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>id<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The unique identifier for event.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>eventType<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>One of the registered event types for this event source.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This is a value you can create filters against, e.g. <ph id="ph1">`CustomerCreated`</ph>, <ph id="ph2">`BlobDeleted`</ph>, <ph id="ph3">`HttpRequestReceived`</ph>, etc.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>eventTime<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The time the event was generated based on the provider's UTC time.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>data<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Specific information that is relevant to the type of event.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For example, an event about a new file being created in Azure Storage has details about the file, such as the <ph id="ph1">`lastTimeModified`</ph> value.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Or, an Event Hubs event has the URL of the Capture file.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This field is optional.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>dataVersion<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The schema version of the data object.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The publisher defines the schema version.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>metadataVersion<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The schema version of the event metadata.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Event Grid defines the schema of the top-level properties.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Event Grid provides this value.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Event Grid sends an event to indicate something has happened or changed.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>However, the <bpt id="p1">_</bpt>actual object<ept id="p1">_</ept> that was changed is not part of the event data.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Instead, a URL or identifier is often passed to reference the changed object.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>What is an event source?</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Event sources are responsible for sending events to Event Grid.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Each event source is related to one or more event types.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>For example, Azure Storage is the event source for blob created events.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>IoT Hub is the event source for device created events.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Your application is the event source for custom events that you define.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>We'll look at event sources in more detail in a moment.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Azure Event Hub has the concept of an event publisher which is often confused with the event source.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>A publisher to Event Hub is the user or organization that decides to send events to Event Grid.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>For example, Microsoft publishes events for several Azure services.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>You can publish events from your own application.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Organizations that host services outside of Azure can publish events through Event Grid.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The event source is the publisher and the specific service generating the event for that publisher.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>In this unit, we use "publisher" and "event source" interchangeably to represent the entity sending the message to Event Hub.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>What is an event topic?</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Event topics categorize events into groups.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Topics are represented by a public endpoint and are where the event source sends events <bpt id="p1">_</bpt>to<ept id="p1">_</ept>.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>When designing your application, you can decide how many topics to create.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Larger solutions will create a custom topic for each category of related events, while smaller solutions might send all events to a single topic.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>For example, consider an application that sends events related to modifying user accounts and processing orders.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>It's unlikely any event handler wants both categories of events.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Create two custom topics and let event handlers subscribe to the one that interests them.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Event subscribers can filter for the event types they want from a specific topic.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Topics are divided into <bpt id="p1">**</bpt>system<ept id="p1">**</ept> topics, and <bpt id="p2">**</bpt>custom<ept id="p2">**</ept> topics.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>System topics</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>System topics are built-in topics provided by Azure services.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>You don't see system topics in your Azure subscription because the publisher owns the topics, but you can subscribe to them.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>To subscribe, you provide information about the resource you want to receive events from.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>As long as you have access to the resource, you can subscribe to its events.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Custom topics</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Custom topics are application and third-party topics.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>When you create or are assigned access to a custom topic, you see that custom topic in your subscription.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>What is an event subscription?</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Event Subscriptions define which events on a topic an event handler wants to receive.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>A subscription can also filter events by their type or subject, so you can ensure an event handler only receives relevant events.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>What is an event handler?</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>An event handler (sometimes referred to as an event "subscriber") is any component (application or resource) that can receive events from Event Grid.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>For example, Azure Functions can execute code in response to the new song being added to the Blob storage account.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Subscribers can decide which events they want to handle and Event Grid will efficiently notify each interested subscriber when a new event is available - no polling required.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Types of event sources</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Events can be generated by the following Azure resource types:</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Subscriptions and Resource Groups:<ept id="p1">**</ept> Subscriptions and resource groups generate events related to management operations in Azure.</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>For example, when a user creates a virtual machine, this source generates an event.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Container registry:<ept id="p1">**</ept> The Azure Container Registry service generates events when images in the registry are added, removed, or changed.</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Event Hub:<ept id="p1">**</ept> Event Hub can be used to process and store events from a variety of data sources - typically logging or telemetry related.</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Event Hub can generate events to Event Grid when files are captured.</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Service Bus:<ept id="p1">**</ept> Service bus can generate events to Event Grid when there are active messages with no active listeners.</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Storage accounts:<ept id="p1">**</ept> Storage accounts can generate events when users add blobs, files, table entries, or queue messages.</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>You can use both blob accounts and General-purpose V2 accounts as event sources.</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Media Services:<ept id="p1">**</ept> Media Services hosts video and audio media and provides advanced management features for media files.</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Media Services can generate events when an encoding job is started or completed on a video file.</source>
+        </trans-unit><trans-unit id="208" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure IoT Hub:<ept id="p1">**</ept> IoT Hub communicates with and gathers telemetry from IoT devices.</source>
+        </trans-unit><trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>It can generate events whenever such communications arrive.</source>
+        </trans-unit><trans-unit id="210" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Custom events:<ept id="p1">**</ept> Custom events can be generated using the REST API, or with the Azure SDK on Java, GO, .NET, Node, Python, and Ruby.</source>
+        </trans-unit><trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>For example, you could create a custom event in the Web Apps feature of Azure App Service.</source>
+        </trans-unit><trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>This can happen in the worker role when it picks up a message from a storage queue.</source>
+        </trans-unit><trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>This deep integration with diverse event sources within Azure ensures that Event Grid can distribute events that relate to almost any Azure resource.</source>
+        </trans-unit><trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Event handlers</source>
+        </trans-unit><trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The following object types in Azure can receive and handle events from Event Grid:</source>
+        </trans-unit><trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Functions:<ept id="p1">**</ept> Custom code that runs in Azure, without the need for explicit configuration of a host virtual server or container.</source>
+        </trans-unit><trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Use an Azure function as an event handler when you want to code a custom response to the event.</source>
+        </trans-unit><trans-unit id="218" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Webhooks:<ept id="p1">**</ept> A webhook is a web API that implements a push architecture.</source>
+        </trans-unit><trans-unit id="219" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Logic Apps:<ept id="p1">**</ept> An Azure logic app hosts a business process as a workflow.</source>
+        </trans-unit><trans-unit id="220" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Microsoft Flow:<ept id="p1">**</ept> Flow also hosts workflows, but it is easier for non-technical staff to use.</source>
+        </trans-unit><trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Should you use Event Grid?</source>
+        </trans-unit><trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Use Event Grid when you need these features:</source>
+        </trans-unit><trans-unit id="223" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Simplicity:<ept id="p1">**</ept> It is straightforward to connect sources to subscribers in Event Grid.</source>
+        </trans-unit><trans-unit id="224" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Advanced filtering:<ept id="p1">**</ept> Subscriptions have close control over the events they receive from a topic.</source>
+        </trans-unit><trans-unit id="225" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Fan-out:<ept id="p1">**</ept> You can subscribe to an unlimited number of endpoints to the same events and topics.</source>
+        </trans-unit><trans-unit id="226" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Reliability:<ept id="p1">**</ept> Event Grid retries event delivery for up to 24 hours for each subscription.</source>
+        </trans-unit><trans-unit id="227" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Pay-per-event:<ept id="p1">**</ept> Pay only for the number of events that you transmit.</source>
+        </trans-unit><trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Event Grid is a simple but versatile event distribution system.</source>
+        </trans-unit><trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Use it to deliver discrete events to subscribers, which will receive those events reliably and quickly.</source>
+        </trans-unit><trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>We have one more messaging model to examine - what if we want to deliver a large <bpt id="p1">_</bpt>stream<ept id="p1">_</ept> of events?</source>
+        </trans-unit><trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>In this scenario, Event Grid isn't a great solution because it's designed for one-event-at-a-time delivery.</source>
+        </trans-unit><trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Instead, we need to turn to another Azure service: Event Hubs.</source>
+        </trans-unit></group></body></file></xliff>

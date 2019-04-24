@@ -1,0 +1,255 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-azure-dw-security-control.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-azure-dw-security-control.e88833214bf8886e3284a656b52a4eab86f4838c.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9b13ebe9439795cee91b5920721f848bc8523c0a</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\data-warehouse-security\includes\2-azure-dw-security-control.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Besides being a fundamental part of IT administration, data warehouse security is an essential and required component of many compliance certifications.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The Azure SQL Data Warehouse service enables security controls through various layers: platform security, infrastructure security, network security, and data security.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Data security controls are available for both data at rest and data in transit.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Authentication and authorization controls provide infrastructure security.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In the context of the data warehouse, authentication is a way to verify a user's identity.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Authorization is a way to control access to data and objects in the data warehouse.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Authorization checks are performed after authentication checks.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Create a sample data warehouse</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To demonstrate the security capabilities of Azure SQL Data Warehouse, we'll create an instance of Azure SQL Data Warehouse with a sample database that Azure provides.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Create the server and database from the Azure portal with the following options.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Screenshot of creating a SQL Data Warehouse instance by using the portal</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Set Azure Data Warehouse firewall access rules by using the portal</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Azure SQL Data Warehouse provides controls to restrict access to the data warehouse infrastructure via firewall rules.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Firewall rules are the first level of defense against unauthorized access to the data warehouse assets.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Firewall rules specify which IPs or IP ranges can access the data warehouse assets, and they reject any connections that come from IPs other than the allowed list or range.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The firewall rules are enforced at the server level.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To specify firewall rules:</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Go to the Azure portal from your browser.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>SQL databases<ept id="p1">**</ept> in the left pane.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Select the data warehouse that you created in the previous section.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Server name<ept id="p1">**</ept> in the right blade.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Screenshot of selecting a server name</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Show firewall settings<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Select a name for <bpt id="p1">**</bpt>RULE NAME<ept id="p1">**</ept>, <bpt id="p2">**</bpt>START IP<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>END IP<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Screenshot of selecting rule name, start IP, and end IP</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Create an Azure Data Warehouse login by using SQL Server Management Studio</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Azure SQL Data Warehouse supports two types of authentication to verify the identity of users who connect to it: SQL authentication and Azure Active Directory (Azure AD) authentication.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>With SQL authentication, users connect to the data warehouse by using a username/password combination.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The Azure portal does not provide the ability to configure SQL authentication.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To configure SQL authentication:</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Open SQL Server Management Studio (which you installed as a prerequisite) and connect to the data warehouse.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Get the server name from the Azure portal by going to the data warehouse, and use the username and password that you specified when you created the data warehouse.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Screenshot of opening SQL Server Management Studio</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Connect<ept id="p1">**</ept>, which logs you in to the data warehouse.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Right-click <bpt id="p1">**</bpt>Logins<ept id="p1">**</ept> under <bpt id="p2">**</bpt>Security<ept id="p2">**</ept> in the left pane, and select <bpt id="p3">**</bpt>New Login<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Screenshot of creating a new login</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>After the query pane appears with commands to create a login, change the username and password as desired and select <bpt id="p1">**</bpt>Execute<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Screenshot of executing a new query</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Right-click <bpt id="p1">**</bpt>Logins<ept id="p1">**</ept> under <bpt id="p2">**</bpt>Security<ept id="p2">**</ept> in the left pane, and select <bpt id="p3">**</bpt>Refresh<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The newly created login appears under <bpt id="p1">**</bpt>Logins<ept id="p1">**</ept> in the left pane.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Screenshot of executing a login query</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Azure Active Directory is a central location to manage identities for all Microsoft online and cloud services.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Azure AD authentication is beyond the scope of this lesson.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>It broadly involves four steps:</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Create and populate an Azure AD instance for your organization.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Associate the newly created Azure AD instance with your Azure subscription.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Create an Azure AD administrator for your data warehouse.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Map database users to Azure AD identities.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Create a new Azure Data Warehouse user by using SQL Server Management Studio</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Creating a login provides access to the data warehouse server but not its databases or database objects.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To provide access to logins for specific databases and objects, you need to create a user and assign a role.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Roles allow various levels of user access to a database.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This approach to security is called role-based security.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>You can either use the several built-in roles or create custom roles to control users' access to the databases in the data warehouse.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>In this example, we'll assign the built-in <ph id="ph1">`db_datareader`</ph> role to the user that we create.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Open SQL Server Management Studio and connect to the data warehouse.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Get the server name from the Azure portal by going to the data warehouse, and use the username and password that you specified when you created the data warehouse.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Screenshot of opening SQL Server Management Studio for SQL Data Warehouse</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Connect<ept id="p1">**</ept>, which logs you in to the SQL data warehouse.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Expand <bpt id="p1">**</bpt>Databases<ept id="p1">**</ept> in the left pane, and expand <bpt id="p2">**</bpt>DemoDW<ept id="p2">**</ept> (which you created in the prerequisites).</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Expand <bpt id="p1">**</bpt>Security<ept id="p1">**</ept>, and expand <bpt id="p2">**</bpt>Users<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Right-click <bpt id="p1">**</bpt>Users<ept id="p1">**</ept>, and select <bpt id="p2">**</bpt>New User<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Screenshot of creating a new user</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>After the query pane appears with commands to create a user:</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>a.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Change the username parameter to a unique username.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>b.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Change the login that you created in the previous section as the login parameter to the second command in the query pane.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>c Enter <ph id="ph1">`db_datareader`</ph> as the first parameter, and enter the database user that you selected in the first step as the second parameter.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>d.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Execute<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Right-click <bpt id="p1">**</bpt>Users<ept id="p1">**</ept> under <bpt id="p2">**</bpt>Security<ept id="p2">**</ept> in the left pane, and select <bpt id="p3">**</bpt>Refresh<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The newly created user appears under <bpt id="p1">**</bpt>Users<ept id="p1">**</ept> in the left pane.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Screenshot that shows the newly created user</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Enable data encryption on a data warehouse by using the portal</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Encrypt data at rest</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Data encryption at rest helps protect data in your data warehouse and satisfies a critical compliance requirement.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Azure SQL Data Warehouse provides transparent data-at-rest encryption capabilities without affecting the client applications that connect to it.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>To turn on transparent data-at-rest encryption, use the following steps:</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Go to the database that you created in the Azure portal.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Security<ept id="p1">**</ept> in the options pane, select <bpt id="p2">**</bpt>Transparent data encryption<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>ON<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Screenshot of configuring encryption</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Encrypt data in transit in your application</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Data in transit is a method to prevent man-in-the-middle attacks.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>To encrypt data in transit, specify <ph id="ph1">`encrypt=true`</ph> in the connection string in your client applications as follows.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>This ensures that all data sent between your client application and SQL data warehouse is encrypted with SSL.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Restrict data access with granular security controls by using SQL Server Management Studio</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>In specific scenarios, granular security controls are essential for privacy and compliance.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>For instance, in a data warehouse that hosts data for all employees in a company, you would want to restrict access to individual columns or rows in tables to specific groups of management, depending on their role and function.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Azure SQL Data Warehouse provides fine-grained security controls via column-level security and row-level security.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>In this section, we'll walk through how to enforce these controls on your data stored in Azure SQL Data Warehouse.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Grant read access to data by using column-level security</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Use the following steps to grant access to specific users to only certain columns of a table:</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Open SQL Server Management Studio and connect to the data warehouse.</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Get the server name from the Azure portal by going to the data warehouse, and use the username and password that you specified when you created the data warehouse.</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Screenshot of opening SQL Server Management Studio for SQL Data Warehouse</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Connect<ept id="p1">**</ept>, which logs you in to the SQL data warehouse.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Go to the <bpt id="p1">**</bpt>DemoDW<ept id="p1">**</ept> database and expand the <bpt id="p2">**</bpt>Tables<ept id="p2">**</ept> node.</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>You see the <bpt id="p1">**</bpt>dbo.DimEmployee<ept id="p1">**</ept> table, which is the table where we'll limit access to the user that we previously created, <bpt id="p2">**</bpt>demodw_user<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Screenshot of the dbo.DimEmployee table</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> menu, select <bpt id="p2">**</bpt>New<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Query with Current Connection<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Screenshot of creating a new query with the current connection</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>In the query pane, type the following command and select the <bpt id="p1">**</bpt>Execute<ept id="p1">**</ept> button.</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Command to create a query</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The user <bpt id="p1">**</bpt>demodw_user<ept id="p1">**</ept> can now access only the four columns in the table for which it was granted access.</source>
+        </trans-unit><trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>No other columns are visible to that user.</source>
+        </trans-unit><trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Restrict access to data by using row-level security</source>
+        </trans-unit><trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Azure SQL Data Warehouse provides predicate-based row-level security.</source>
+        </trans-unit><trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The rows in a table that don't satisfy the predicates are silently excluded from queries.</source>
+        </trans-unit><trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Enforcing row-level security in Azure SQL Data Warehouse is a two-step process:</source>
+        </trans-unit><trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Creation of a table-valued function to define the access criteria</source>
+        </trans-unit><trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Creation of a security policy that adds filter predicates created in the previous step to any tables for which row-level access needs to be restricted</source>
+        </trans-unit><trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Follow these steps to enforce row-level security for the <bpt id="p1">**</bpt>dbo.DimEmployee<ept id="p1">**</ept> table in the <bpt id="p2">**</bpt>DemoDW<ept id="p2">**</ept> database:</source>
+        </trans-unit><trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Open SQL Server Management Studio and connect to the data warehouse.</source>
+        </trans-unit><trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Get the server name from the Azure portal by going to the data warehouse, and use the username and password that you specified when you created the data warehouse.</source>
+        </trans-unit><trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Screenshot of opening SQL Server Management Studio for SQL Data Warehouse</source>
+        </trans-unit><trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Connect<ept id="p1">**</ept>, which logs you in to the SQL data warehouse.</source>
+        </trans-unit><trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Go to the <bpt id="p1">**</bpt>DemoDW<ept id="p1">**</ept> database and expand the <bpt id="p2">**</bpt>Tables<ept id="p2">**</ept> node.</source>
+        </trans-unit><trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>You see the <bpt id="p1">**</bpt>dbo.DimEmployee<ept id="p1">**</ept> table, which is the table where we'll limit access to the user that we previously created, <bpt id="p2">**</bpt>demodw_user<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Screenshot of the dbo.DimEmployee table</source>
+        </trans-unit><trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> menu, select <bpt id="p2">**</bpt>New<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Query with Current Connection<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Screenshot for creating a new query with the current connection</source>
+        </trans-unit><trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>In the query pane, type the following command and select the <bpt id="p1">**</bpt>Execute<ept id="p1">**</ept> button.</source>
+        </trans-unit><trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Now, only <bpt id="p1">**</bpt>demodw_user<ept id="p1">**</ept> can access the rows in the <bpt id="p2">**</bpt>DimEmployee<ept id="p2">**</ept> table.</source>
+        </trans-unit><trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Screenshot of the query result</source>
+        </trans-unit></group></body></file></xliff>

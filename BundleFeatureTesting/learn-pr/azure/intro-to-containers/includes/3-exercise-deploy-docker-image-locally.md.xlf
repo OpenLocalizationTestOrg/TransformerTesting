@@ -1,0 +1,95 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-exercise-deploy-docker-image-locally.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-exercise-deploy-docker-image-locally.a2d5733178bdeccabe8f38d8d51c561abbff68d1.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5199410d3d1b180518036a332d334cc87c764a1a</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-containers\includes\3-exercise-deploy-docker-image-locally.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>A good starting point for building and running your own Docker images is to take an existing image from Docker Hub and run it locally on your computer.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>As a proof-of-concept for the company's applications, you decide to try running a sample image from Docker Hub.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The image you have selected implements a basic .NET Core ASP.NET web app.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Once you've established a process for deploying a Docker image, you'll be able to run one of your company's own web apps using Docker.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In this exercise, you'll pull an image from Docker Hub and run it.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You'll examine the local state of Docker to help understand the elements that are deployed.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Finally, you'll remove the container and image from your computer.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This exercise takes place on your computer, not in Azure.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You need a local installation of Docker to proceed with the exercise.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Pull and run a sample application from Docker Hub</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Open a command prompt window on your local computer.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Pull the <bpt id="p1">**</bpt>ASP.NET Sample<ept id="p1">**</ept> app image from the Docker Hub registry.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This image contains a sample web app developed by Microsoft.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>It's based on the default ASP.NET template available in Visual Studio.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Verify that the image has been stored locally.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You should see a repository named <bpt id="p1">*</bpt>microsoft/dotnet-samples<ept id="p1">*</ept> with a tag of <bpt id="p2">*</bpt>aspnetapp<ept id="p2">*</ept>.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Start the sample app.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Specify the <bpt id="p1">*</bpt>-d<ept id="p1">*</ept> flag to run it as a background, non-interactive app.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">*</bpt>-p<ept id="p1">*</ept> flag to map port 80 in the container that is created to port 8080 locally, to avoid conflicts with any web apps already running on your computer.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The command will respond with a lengthy hexadecimal identifier for the instance.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Open a web browser and go to the page for the sample web app at <ph id="ph1">http://localhost:8080</ph>.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The page looks like the following screenshot.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Screenshot of the sample web app running in a browser</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Examine the container in the local Docker registry</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>At the command prompt, view the running containers in the local registry.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The output should look similar to this:</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>COMMAND<ept id="p1">**</ept> field shows the container started by running the command <bpt id="p2">*</bpt>dotnet aspnetapp.dll<ept id="p2">*</ept>.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This command invokes the .NET Core runtime to start the code in the aspnetapp.dll (the code for the sample web app).</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>PORTS<ept id="p1">*</ept> field indicates port 80 in the image was mapped to port 8080 on your computer.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>STATUS<ept id="p1">*</ept> field shows the application is still running.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Make a note of the container's <bpt id="p1">*</bpt>NAME<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Stop the Docker container.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Specify the container name for the web app in the following command, in place of <ph id="ph1">`&lt;NAME&gt;`</ph>.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Verify that the container is no longer running.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The following command shows the status of the container as <bpt id="p1">*</bpt>Exited<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>-a<ept id="p1">*</ept> flag indicates that the command shows the status of all containers, not just those that are still running.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Return to the web browser and refresh the page for the sample web app.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>It should fail with a <bpt id="p1">*</bpt>Connection Refused<ept id="p1">*</ept> error.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Remove the container and image from the local registry</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Although the container has stopped, it's still loaded and can be restarted.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Remove it using the following command.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>As before, replace <ph id="ph1">`&lt;NAME&gt;`</ph> with the name of your container.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Verify that the container has been removed with the following command.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The command should no longer list the container.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>List the images currently available on your computer.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Remove the image from the registry.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>List the images again to verify that the image for the <bpt id="p1">*</bpt>microsoft/dotnet-samples<ept id="p1">*</ept> web app has disappeared.</source>
+        </trans-unit></group></body></file></xliff>

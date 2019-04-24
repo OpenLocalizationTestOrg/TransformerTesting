@@ -1,0 +1,65 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-knowledge-check-identify-factors.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-knowledge-check-identify-factors.387bec2ba885f0c88b021d445778654cee396c1f.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e9d032afe814b5a463e57ba723c87b37a353c0aa</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\app-service-autoscale-rules\5-knowledge-check-identify-factors.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>Knowledge Check - Identify factors for implementing autoscaling</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>Knowledge Check - Identify factors for implementing autoscaling</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>Knowledge Check - Identify factors for implementing autoscaling</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>You have defined an autoscale condition with four autoscale rules.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>The first rule scales out when the CPU utilization reaches 70 percent.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>The second rule scales back in when the CPU utilization drops below 50 percent.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>The third rule scales out if memory occupancy exceeds 75 percent.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>The fourth rule scales back in when memory occupancy falls below 50 percent.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>When will the system scale-out?</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>When CPU utilization reaches 70 percent, <bpt id="p1">**</bpt>or<ept id="p1">**</ept> memory occupancy exceeds 75 percent</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>This answer is correct</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>When CPU utilization reaches 70 percent, <bpt id="p1">**</bpt>and<ept id="p1">**</ept> memory occupancy exceeds 75 percent</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>No.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>The system will scale out when <bpt id="p1">**</bpt>either<ept id="p1">**</ept> of the rules are satisfied.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>You can't do this with a single autoscale condition.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>An autoscale condition can only contain autoscale rules that use the same metric</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>No.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>The rules in an autoscale condition can reference different metrics.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>An autoscale rule defines a scale-out action that increases the instance count when the disk queue length exceeds 10.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>The system scaled out two minutes ago, but the disk queue length is still over 10.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>When will the system scale-out again?</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>The autoscale rule will trigger another autoscale action immediately, and will continue doing so until the disk queue length drops below 10, or the maximum number of instances have been created.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>No.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>The autoscale rule will not trigger the action again until the <bpt id="p1">*</bpt>cool down<ept id="p1">*</ept> period for the rule has expired.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>If the disk queue length is still over 10 at this time, the action will be performed.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>The autoscale rule will not run again until the system has scaled back in.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>No.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>The autoscale rule can run again without scaling in first, but only after the <bpt id="p1">*</bpt>cool down<ept id="p1">*</ept> period for the rule has expired.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>The autoscale rule will not trigger the action again until the <bpt id="p1">*</bpt>cool down<ept id="p1">*</ept> period for the rule has expired.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>If the disk queue length is still over 10 at this time, the action will be performed.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn.app-service-autoscale-rules.5-knowledge-check-identify-factors">
+          <source>This answer is correct</source>
+        </trans-unit></group></body></file></xliff>

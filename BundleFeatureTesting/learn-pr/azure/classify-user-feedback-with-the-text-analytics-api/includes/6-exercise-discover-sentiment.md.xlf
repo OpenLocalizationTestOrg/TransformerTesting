@@ -1,0 +1,141 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-exercise-discover-sentiment.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-exercise-discover-sentiment.512ce5ee76034df8a537657b4c1715a2f338a78c.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c61639abce0a50e897a06c765ff5358f7bc435f4</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\classify-user-feedback-with-the-text-analytics-api\includes\6-exercise-discover-sentiment.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Let's update our function implementation to call the Text Analytics API service and get back a sentiment score.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Select our function, <ph id="ph1">[!INCLUDE [func-name-discover](./func-name-discover.md)]</ph>, in our function app in the portal.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Expand the <bpt id="p1">**</bpt>View files<ept id="p1">**</ept> menu on the right of the screen.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Under the <bpt id="p1">**</bpt>View files<ept id="p1">**</ept> tab, select <bpt id="p2">**</bpt>index.js<ept id="p2">**</ept> to open the code file in the editor.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Replace the entire content of <bpt id="p1">**</bpt>index.js<ept id="p1">**</ept> with the following JavaScript and <bpt id="p2">**</bpt>Save<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Update the value of <ph id="ph1">`accessKey`</ph> in the code you pasted with the access key for the Text Analytics API that you saved earlier in this module.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Update the <ph id="ph1">`uri`</ph> value with the region from which you obtained your access key.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Let's look at what's happening in this code:</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Each call to the Text Analytics service, needs the access key, which we add as the <ph id="ph1">`Ocp-Apim-Subscription-Key`</ph> header.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Each call is made to a region-specific endpoint, defined by <ph id="ph1">`uri`</ph> in our code.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>At the bottom of the code file, we've defined a <ph id="ph1">`documents`</ph> array.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This array is the payload we send to the Text Analytics service.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`documents`</ph> array has a single entry in this case, which is the queue message that triggered our function.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Although we only have one document in our array, it doesn't mean that our solution can only handle one message at a time.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The Azure Functions runtime retrieves and processes messages in batches, calling several instances of our function <bpt id="p1">*</bpt>in parallel<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Currently, the default batch size is 16 and the maximum batch size is 32.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`id`</ph> must be unique within the array.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`language`</ph> property specifies the language of the document text.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>We then call our method <ph id="ph1">`get_sentiments`</ph>, which uses the HTTPS module to make the call to Text Analytics API.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Notice that we pass our subscription, or access, key in the header of every request.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>When the service returns, our <ph id="ph1">`response_handler`</ph> is called, and we log the response to the console using <ph id="ph2">`context.log`</ph></source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Try it out</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Before we look at sorting into queues, let's take what we have for a test run.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>With our function, <ph id="ph1">[!INCLUDE [func-name-discover](./func-name-discover.md)]</ph>, selected in the Function Apps area of the portal, click on the <bpt id="p1">**</bpt>Test<ept id="p1">**</ept> menu item on the far right.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Test<ept id="p1">**</ept> menu item, and verify that you have the test panel open.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Add a string of text into the request body as shown in the screenshot.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Screenshot showing the function Test Panel expanded.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Run<ept id="p1">**</ept> at the bottom of the test panel.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Make sure the <bpt id="p1">**</bpt>Logs<ept id="p1">**</ept> tab is expanded at the bottom left of the main screen, under the code editor.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Verify that the <bpt id="p1">**</bpt>Logs<ept id="p1">**</ept> tab displays log information that the function completed.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The window will also display the response from the Text Analytics API call.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Screenshot showing Test Panel and result of a successful test.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Congratulations!</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">[!INCLUDE [func-name-discover](./func-name-discover.md)]</ph> works as designed.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>In this example, we passed in a very upbeat message and received a score of over 0.98.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Try changing the message to something less optimistic, rerun the test, and note the response.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Add a message to the queue</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Let's repeat the test.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This time, instead of using the Test window of the portal, we'll actually place a message into the input queue and watch what happens.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Navigate to your resource group in the <bpt id="p1">**</bpt>Resource Groups<ept id="p1">**</ept> section of the portal.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">&lt;rgn&gt;</bpt>[sandbox resource group name]<ept id="p1">&lt;/rgn&gt;</ept>, the resource group used in this lesson.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Resource group<ept id="p1">**</ept> panel that appears, locate the Storage Account entry, and select it.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Screenshot storage account selected in the Resource Group window</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Storage Explorer (preview)<ept id="p1">**</ept> from the left menu of the Storage Account main window.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This action opens the Azure Storage Explorer inside the portal.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Screenshot of Storage Explorer showing our storage account, with no queues currently.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>As you can see, we don't have any queues in this storage account yet, so let's add one.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If you remember from earlier in this lesson, we named the queue associated with our trigger <bpt id="p1">**</bpt>new-feedback-q<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Right-click on the <bpt id="p1">**</bpt>Queues<ept id="p1">**</ept> item in the Storage Explorer, and select <bpt id="p2">*</bpt>Create Queue<ept id="p2">*</ept>.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>In the dialog that opens, enter <bpt id="p1">**</bpt>new-feedback-q<ept id="p1">**</ept> and click <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>We now have our input queue.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Select the new queue in the left-hand menu to see the data explorer for this queue.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>As expected, the queue is empty.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Let's add a message to the queue using the <bpt id="p1">**</bpt>Add Message<ept id="p1">**</ept> command at the top of the window.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Add Message<ept id="p1">**</ept> dialog, enter "This message came from our input queue, new-feedback-q" into the <bpt id="p2">**</bpt>Message text<ept id="p2">**</ept> field, and click <bpt id="p3">**</bpt>OK<ept id="p3">**</ept> at the bottom of the dialog.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Observe the message, similar to the message in the following screenshot, in the data explorer.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">![</ph>Screenshot of Storage Explorer showing our storage account, with the message we created in the queue.<ph id="ph2">](../media/message-in-input-queue.png)</ph></source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>After a few seconds, click <bpt id="p1">**</bpt>Refresh<ept id="p1">**</ept> to refresh the view of the queue.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Observe that the queue is <bpt id="p1">**</bpt>empty<ept id="p1">**</ept> once again.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Something must have read the message from the queue.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Navigate back to our function in the portal, and open the <bpt id="p1">**</bpt>Monitor<ept id="p1">**</ept> tab. Select the newest message in the list.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Observe that our function processed the queue message we had posted to the new-feedback-q.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Results may be delayed by in this log, so you might have to wait a few minutes and hit <bpt id="p1">*</bpt>Refresh<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Screenshot of Monitor dashboard showing an entry that tells us that our function processed the queue message that we posted to new-feedback-q.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>In this test, we did a complete round trip of posting something into our queue and then seeing the function process it.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>We're making progress with our solution!</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Our function is now doing something useful.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>It's receiving text from our input queue and then calling out to the Text Analytics API service to get a sentiment score.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>We've also learned how to test our function through the Azure portal and the Storage Explorer.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>In the next exercise, we'll see how easy it is to write to queues using output bindings.</source>
+        </trans-unit></group></body></file></xliff>

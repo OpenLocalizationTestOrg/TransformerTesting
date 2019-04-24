@@ -1,0 +1,33 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-Introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-Introduction.cd485ee055744139f9e169b20cd8c98d47ea48ba.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e0ddb24bc0c561b0f4ec6c5e26e399c547ae7c27</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\optimize-your-web-apps-with-redis\includes\1-Introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You work at a company that tracks professional sports statistics and provides an API to query results.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>It helps fans track and review games and scores, both live and historical.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Users can also request team statistics using a natural language search, such as, "How many times has John Smith hit a home run against a left-handed pitcher?"</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>During times of peak demand, such as during playoffs, response time of your service slows down because the back-end service doesn't have the capacity to meet demand.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You want to improve performance for your users and reduce the workload on your back-end and data storage services.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Your metrics show that 50% to 80% of the data returned is for read-only or recently requested values.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Implementing a cache of commonly used data could improve performance and reduce latency.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Describe what a Redis cache is and how you can use it for your business needs</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Create a design and plan to use a Redis cache</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Provision a Redis cache in Azure</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Connect an application to the cache</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Experience with app development</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Experience using data in apps</source>
+        </trans-unit></group></body></file></xliff>

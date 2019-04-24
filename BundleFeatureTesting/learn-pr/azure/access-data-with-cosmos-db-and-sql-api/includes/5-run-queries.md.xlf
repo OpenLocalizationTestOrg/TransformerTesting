@@ -1,0 +1,37 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-run-queries.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-run-queries.ba2133dfdf4726e1a32e1c2ed88134040da9a042.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f88acd405e60420fb019b3de1678cf107a9456d1</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\access-data-with-cosmos-db-and-sql-api\includes\5-run-queries.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Now that you've learned about what kinds of queries you can create, let's use the Data Explorer in the Azure portal to retrieve and filter your product data.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In your Data Explorer window, by default, the query on the <bpt id="p1">**</bpt>Document<ept id="p1">**</ept> tab is set to <ph id="ph1">`SELECT * FROM c`</ph> as shown in the following image.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This default query retrieves and displays all documents in the collection.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Default query in Data Explorer is SELECT * FROM c</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Create a new query</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In Data Explorer, click <bpt id="p1">**</bpt>New SQL Query<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The default query on the new  <bpt id="p1">**</bpt>Query 1<ept id="p1">**</ept> tab is again <ph id="ph1">`SELECT * from c`</ph>, which will return all documents in the collection.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Execute Query<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This query returns all results in the database.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Change the default query by adding ORDER BY c._ts DESC and clicking Apply Filter</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Now, let's run some of the queries discussed in the previous unit.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>On the query tab, delete <ph id="ph1">`SELECT * from c`</ph>, copy and paste the following query, and then click <bpt id="p1">**</bpt>Execute Query<ept id="p1">**</ept>:</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The results return the product whose <ph id="ph1">`id`</ph> is 1.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Query for an id of 1</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Delete the previous query, copy and paste the following query, and click <bpt id="p1">**</bpt>Execute Query<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This query returns the price, description, and product ID for all products, ordered by price, in ascending order.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You've now completed some basic queries on your data in Azure Cosmos DB.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.4f6404b6d0896a612ec0d6220304bb682cf9e40c.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8cd471d2752351dfe495736ad62ed4a8629c6416</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\optimize-archive-costs-blob-storage\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.azure.optimize-blob-storage-costs">
+          <source>Optimize storage performance and costs using Azure Blob storage tiers</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.azure.optimize-blob-storage-costs">
+          <source>Learn what the different storage tiers are for blob storage and how they can improve performance and reduce costs.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.azure.optimize-blob-storage-costs">
+          <source>Optimize storage performance and costs using Blob storage tiers</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.azure.optimize-blob-storage-costs">
+          <source>Compare storage tiers and assign appropriate levels for data types.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.azure.optimize-blob-storage-costs">
+          <source>Use Azure tools and code to retrieve and set storage tier for accounts and blobs.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.azure.optimize-blob-storage-costs">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.azure.optimize-blob-storage-costs">
+          <source>Describe the key features of each Azure Blob Storage tier</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.azure.optimize-blob-storage-costs">
+          <source>Determine appropriate use cases for each storage tier</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.azure.optimize-blob-storage-costs">
+          <source>Use tools and code to configure the storage tier for resources in Azure Storage</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.azure.optimize-blob-storage-costs">
+          <source>Basic familiarity with Azure storage and Blob objects</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.azure.optimize-blob-storage-costs">
+          <source>Experience in basic Azure web app development and deployment</source>
+        </trans-unit></group></body></file></xliff>

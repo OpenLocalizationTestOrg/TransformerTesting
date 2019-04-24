@@ -1,0 +1,97 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-instrument-the-application.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-instrument-the-application.3ded4318762d33b54dc7bf6a9406759ec2a8d741.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c055a7a8aee49b0577758759690bea4bff841870</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\instrument-web-app-code-with-application-insights\includes\5-instrument-the-application.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You can generate custom events and metrics from an app by using the <ph id="ph1">`TelemetryClient`</ph> object from the Application Insights SDK.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>For the video app, the development team has added and initialized the SDK in their code and is ready to start adding logic to generate data about application-specific events and measurements.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In this exercise, you'll instrument your code with a custom event, run it to generate event occurrences, and view the results in the Azure portal.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Add an action to the app</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In this exercise, we'll track an event based on a user action.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>We'll present a <bpt id="p1">**</bpt>Like<ept id="p1">**</ept> button to users of the video app.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When they select it, the code that runs will track an occurrence of an event called <ph id="ph1">`Liked`</ph> as part of its work.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Let's add the button and action on the main page of the app.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Open the code editor if it isn't open already.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Use the file navigator of the Azure Cloud Shell editor to open  <bpt id="p1">*</bpt>Views/Home/Index.cshtml<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>At the bottom of the file, paste in the following code to add a button:</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Use the file navigator to open <bpt id="p1">*</bpt>Controllers/HomeController.cs<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To add an action that will run in response to the button click, add the following method inside the <ph id="ph1">`HomeController`</ph> class:</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Instantiate the TelemetryClient object and track metrics</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Now that we have a button in our app and some code that will run when a user selects it, we can add code that uses the Application Insights SDK to send telemetry.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Still working in <bpt id="p1">*</bpt>HomeController.cs<ept id="p1">*</ept>, at the top of the code file, add the <ph id="ph1">`ApplicationInsights`</ph> using statement:</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>At the top of the <ph id="ph1">`HomeController`</ph> class, create a <ph id="ph2">`TelemetryClient`</ph> field named <ph id="ph3">`aiClient`</ph>:</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Add a constructor to the <ph id="ph1">`HomeController`</ph> class that accepts a <ph id="ph2">`TelemetryClient`</ph> object and assign it to your <ph id="ph3">`aiClient`</ph> field:</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Within the <bpt id="p1">**</bpt>Like<ept id="p1">**</ept> action, before the two existing lines of code, call <ph id="ph1">`TrackEvent`</ph> on <ph id="ph2">`aiClient`</ph>:</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Save any open files and close the code editor.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Deploy the web app and generate data</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Run the following commands in the Cloud Shell from within the <bpt id="p1">*</bpt>videowebapp<ept id="p1">*</ept> folder to build the application and deploy it to App Service.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Run the app and generate telemetry data</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>When the deployment is complete, switch to the Azure portal.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept> view to navigate to your web app.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> page for your web app, select <bpt id="p2">**</bpt>Browse<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The web app opens in a new tab.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Like<ept id="p1">**</ept> button near the bottom of the page.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The page will reload and display the "Thank you for your response" message.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Like<ept id="p1">**</ept> button a few more times to simulate multiple clicks entering the app.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Close the browser tab and return to the Azure portal.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>View information in the Azure portal</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>We can use the Application Insights search tool to locate and display the events we just created.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Take the following steps:</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>On the navigation menu of the window for your web app, select <bpt id="p1">**</bpt>Application Insights<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In the window that opens, select <bpt id="p1">**</bpt>View Application Insights data<ept id="p1">**</ept> to go to the app's Application Insights resource.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>On the navigation menu, select <bpt id="p1">**</bpt>Search<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Access the search tool in Application Insights</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>At the top of the window, select <bpt id="p1">**</bpt>Filters<ept id="p1">**</ept> and then select <bpt id="p2">**</bpt>Clear filters<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Filter<ept id="p1">**</ept> window, scroll down to the <bpt id="p2">**</bpt>Properties<ept id="p2">**</ept> section, and then expand <bpt id="p3">**</bpt>Event name<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>LikeClicked<ept id="p1">**</ept> and then select <bpt id="p2">**</bpt>Done<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Searching for LikeClicked events</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">**</bpt>LikeClicked<ept id="p1">**</ept> isn't available in the <bpt id="p2">**</bpt>Event names<ept id="p2">**</ept> section, close the <bpt id="p3">**</bpt>Filter<ept id="p3">**</ept> window, select the <bpt id="p4">**</bpt>Refresh<ept id="p4">**</ept> button near the top of the Application Insights window, and wait a moment before re-opening the <bpt id="p5">**</bpt>Filter<ept id="p5">**</ept> window to try again.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Telemetry data generated by your app is buffered and sent to the Application Insights resource in bursts.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>It might not arrive for a minute or two after the event has occurred.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Until the first occurrence of the <ph id="ph1">`LikeClicked`</ph> event arrives, it won't be available for filtering.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Close the <bpt id="p1">**</bpt>Filter<ept id="p1">**</ept> window.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The search tool shows all the <ph id="ph1">`LikeClicked`</ph> events you recorded in a timeline and a list.</source>
+        </trans-unit></group></body></file></xliff>

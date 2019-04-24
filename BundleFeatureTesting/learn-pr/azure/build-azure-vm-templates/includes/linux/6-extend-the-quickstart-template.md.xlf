@@ -1,0 +1,83 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-extend-the-quickstart-template.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-extend-the-quickstart-template.5239dd34ddf511289d918c8ee56cf1fc88f08a7c.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04793b05ed79c13f2a1789b986e18da980cf8c11</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\build-azure-vm-templates\includes\linux\6-extend-the-quickstart-template.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Now that you've defined the template resource for the Custom Script Extension that configures Nginx on your VM, let's add it to the existing VM template and run it.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Here's what the Nginx configuration will look like.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A web browser showing the resulting Nginx configuration</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Build the template</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Here you'll download the template and modify it.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>From Cloud Shell, run <ph id="ph1">`curl`</ph> to download the template you used previously from GitHub.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Open <bpt id="p1">**</bpt>azuredeploy.json<ept id="p1">**</ept> through the Cloud Shell editor.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In the file, locate the <ph id="ph1">`resources`</ph> section.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Add the Custom Script Extension resource you built in the previous part to the top of this section, then save the file.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Here's the code as a refresher.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Note the comma <ph id="ph1">`,`</ph> character at the end, which is needed to separate resources.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The order you define resources doesn't matter, but here you add it to the top for simplicity.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If you get stuck or want to compare your work, you can download the resulting file from GitHub.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You're all done editing files.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Ensure that you saved changes to <bpt id="p1">**</bpt>azuredeploy.json<ept id="p1">**</ept> and then close the editor.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To close the editor, click the ellipses in the corner and then select <bpt id="p1">**</bpt>Close Editor<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Verify the template</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Here you'll validate the template from the CLI.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In practice, you might run lint tests or run your template through the Azure Resource Manager Visualizer before you run a test deployment.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Similar to what you did previously, run <ph id="ph1">`az group deployment validate`</ph> to validate your template.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Notice that this time you use the <ph id="ph1">`--template-file`</ph> argument, and not <ph id="ph2">`--template-uri`</ph>, because you are referencing a local file.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If you see errors, refer back to the previous part or compare your code to the <bpt id="p1">[</bpt>reference implementation<ept id="p1">](https://raw.githubusercontent.com/MicrosoftDocs/mslearn-build-azure-vm-templates/master/linux/azuredeploy.json?azure-portal=true)</ept>.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Deploy the template</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Here you'll run a command that's similar to the one you ran earlier to deploy the template.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Because you haven't modified any existing resources <ph id="ph1">&amp;ndash;</ph> the VM, its network settings, or the storage account <ph id="ph2">&amp;ndash;</ph> Resource Manager won't take any action on those resources.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>It will only apply the resource you just added that runs the Custom Script Extension that installs Nginx on your VM.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Run <ph id="ph1">`az group deployment create`</ph> to update your deployment.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Again, notice that this time you use the <ph id="ph1">`--template-file`</ph> argument because you are referencing a local file.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The command takes a couple minutes to complete.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You see a large block of JSON as output, which describes the deployment.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Verify the deployment</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The deployment succeeded, so let's see the resulting configuration in action.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Run <ph id="ph1">`az vm show`</ph> to get the VM's IP address and store the result in a Bash variable.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Run <ph id="ph1">`curl`</ph> to access your web server.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You see this.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>From a separate browser tab, navigate to your web site.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>First, print the IP address.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Navigate to the IP address you see from a separate browser tab. You see this.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>A web browser showing the resulting Nginx configuration</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Great work!</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>With the Custom Script Extension resource in place, you're able to extend your deployment to do more.</source>
+        </trans-unit></group></body></file></xliff>

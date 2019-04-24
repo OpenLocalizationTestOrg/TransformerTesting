@@ -1,0 +1,59 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-complete-labs-in-azure-databricks.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-complete-labs-in-azure-databricks.288160ae8140d0c8e8d9478c25331add406e60bb.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c675dfe2ad48b66503a5b3ba518ca12273088626</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\databricks\create-data-visualizations-using-azure-databricks-and-power-bi\includes\3-complete-labs-in-azure-databricks.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>To do some hands-on exercises for visualizing data by using Databricks, switch to your Databricks workspace.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>We'll use a sample dataset to run simple queries and data analysis.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Then, we'll use some built-in Databricks functions to visualize data.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Finally, we'll use Power BI and Matplotlib to see how we can integrate these tools for better visualizations of our data.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To complete the following procedures, you must have already deployed your Databricks workspace in your Azure portal.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Clone the Databricks archive</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>From the Azure portal, go to your Databricks workspace and select <bpt id="p1">**</bpt>Launch workspace<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In the left pane, select <bpt id="p1">**</bpt>Workspace<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Users<ept id="p2">**</ept>, and then select your username (the entry with the house icon).</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In the pane that appears, select the downward-pointing chevron next to your name, and then select <bpt id="p1">**</bpt>Import<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A screenshot showing the menu option to import the archive</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Import Notebooks<ept id="p1">**</ept> pane, select <bpt id="p2">**</bpt>URL<ept id="p2">**</ept>, and paste in the following URL:</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Import<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A folder named after the archive should appear.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Select that <bpt id="p1">*</bpt>07-Visualization<ept id="p1">*</ept> folder.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The folder contains one or more notebooks that you'll use in completing this lab.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Open the data-visualization exercises</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To do the data-visualization exercises, continue working within your Databricks workspace and open the new <bpt id="p1">*</bpt>07-Visualization<ept id="p1">*</ept> folder.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Within the folder, you'll find <bpt id="p1">*</bpt>Python<ept id="p1">*</ept>, <bpt id="p2">*</bpt>Scala<ept id="p2">*</ept>, and <bpt id="p3">*</bpt>Spark<ept id="p3">*</ept> subfolders.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Choose the language you prefer to use, open the corresponding folder, and then open the <bpt id="p1">*</bpt>01-Querying-Files<ept id="p1">*</ept> notebook.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Follow the instructions in the notebook until you've finished the entire notebook.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You'll find corresponding notebooks within the <bpt id="p1">*</bpt>Solutions<ept id="p1">*</ept> subfolder.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>These notebooks contain finished cells for exercises that ask you to complete one or more challenges.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Refer to these if you get stuck or simply want to see the solution.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Complete the following notebooks</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>01-Querying-Files<ept id="p1">*</ept>: This notebook contains some basic visualizations that use built-in Databricks functions and DataFrames.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>02-Exploratory-Data-Analysis<ept id="p1">*</ept>: In this notebook, you do some basic exploratory analysis on a sample dataset to prepare it for advanced visualization in the next notebooks.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>03-Power-BI<ept id="p1">*</ept>: In this notebook, you connect your Databricks cluster to Power BI and create visualizations by using Power BI tools.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>04-Matplotlib<ept id="p1">*</ept>: In this notebook, you use Matplotlib to create custom visualizations for your data.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>After you've completed the notebooks, return to this screen, and continue to the next step.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-estimate-costs-with-the-azure-pricing-calculator.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-estimate-costs-with-the-azure-pricing-calculator.b7aee67637f48ed0a27b26067f83b4eb441f702c.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fef20a355593080297b69575110a693b38fe4ac1</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\predict-costs-and-optimize-spending\2-estimate-costs-with-the-azure-pricing-calculator.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending.2-estimate-costs-with-the-azure-pricing-calculator">
+          <source>Estimate costs with the Azure pricing calculator</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending.2-estimate-costs-with-the-azure-pricing-calculator">
+          <source>Estimate costs with the Azure pricing calculator</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending.2-estimate-costs-with-the-azure-pricing-calculator">
+          <source>In this unit, we'll discuss how to estimate costs with the Azure pricing calculator</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending.2-estimate-costs-with-the-azure-pricing-calculator">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending.2-estimate-costs-with-the-azure-pricing-calculator">
+          <source>Which tab of the Azure pricing calculator will you use to put together your estimate?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending.2-estimate-costs-with-the-azure-pricing-calculator">
+          <source>Estimate</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending.2-estimate-costs-with-the-azure-pricing-calculator">
+          <source>This tab has all of your previously saved estimates.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending.2-estimate-costs-with-the-azure-pricing-calculator">
+          <source>Products</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending.2-estimate-costs-with-the-azure-pricing-calculator">
+          <source>This tab has all the Azure services listed and is where you'll add or remove services to get your estimate.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending.2-estimate-costs-with-the-azure-pricing-calculator">
+          <source>True or false: You can share your estimate through an Excel spreadsheet or through a URL.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending.2-estimate-costs-with-the-azure-pricing-calculator">
+          <source>True</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending.2-estimate-costs-with-the-azure-pricing-calculator">
+          <source>Clicking <bpt id="p1">*</bpt>Export<ept id="p1">*</ept> at the bottom of the estimate will export an Excel spreadsheet that you can share, or you can click <bpt id="p2">*</bpt>Share<ept id="p2">*</ept> to get a URL link that you can share with your team.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending.2-estimate-costs-with-the-azure-pricing-calculator">
+          <source>False</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending.2-estimate-costs-with-the-azure-pricing-calculator">
+          <source>Clicking <bpt id="p1">*</bpt>Export<ept id="p1">*</ept> at the bottom of the estimate will export an Excel spreadsheet that you can share, or you can click <bpt id="p2">*</bpt>Share<ept id="p2">*</ept> to get a URL link that you can share with your team.</source>
+        </trans-unit></group></body></file></xliff>

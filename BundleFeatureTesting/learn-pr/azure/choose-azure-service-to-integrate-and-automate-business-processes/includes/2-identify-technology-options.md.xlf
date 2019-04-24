@@ -1,0 +1,313 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-identify-technology-options.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-identify-technology-options.2241c667f5535ed644ec86fe5409fd9b374e4164.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9c31398c8130bf09e9eb557037061fc8c0250089</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\choose-azure-service-to-integrate-and-automate-business-processes\includes\2-identify-technology-options.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You don't have much time to get business processes properly integrated between your existing bike rental system and the system in use in the second campus.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You'd like to make the most of your existing Azure expertise and you've read that Azure includes several different technologies that you can use to solve problems like this.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In this unit, we'll explore the Azure technology options that are available to you.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Common Business Problems</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In business, one way to guarantee a high-quality service to users and high-quality products is to design and implement strict business processes.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Such processes may involve multiple steps, multiple people, and multiple software packages.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Each process may run in a simple line of activities that workers perform one after the other or they may branch or loop.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Each process may also run quickly or take days or weeks to complete.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Frequently, a business runs into issues when it merges with a second business or integrates with a partner organization.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>How can administrators integrate the separate processes used in the two organizations, which may have been implemented using different software?</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Business processes modeled in software are often called <bpt id="p1">**</bpt>workflows<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Azure includes four different technologies that you can use to build and implement workflows that integrate multiple systems:</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Logic Apps</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Microsoft Flow</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>WebJobs</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Azure Functions</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>These four technologies have some similarities.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>They can all accept <bpt id="p1">**</bpt>inputs<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>An input is a piece of data or a file that is supplied to the workflow.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>They can all run <bpt id="p1">**</bpt>actions<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>An action is a simple operation that the workflow executes and may often modify data or cause another action to be performed.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>They can all include <bpt id="p1">**</bpt>conditions<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A condition is a test, often run against an input, that may decide which action to execute next.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>They can all produce <bpt id="p1">**</bpt>outputs<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>An output is a piece of data or a file that is created by the workflow.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In addition, workflows created with these technologies can either start based on a schedule or they can be triggered by some external event.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Design-first technologies</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>When business analysts discuss and plan a business process, they may draw a flow diagram on paper.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>With Logic Apps and Microsoft Flow, you can take a similar approach to designing a workflow.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>They both include user interfaces in which you can draw out the workflow.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>We call this approach a <bpt id="p1">*</bpt>design-first<ept id="p1">*</ept> approach.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Logic Apps</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Logo for Azure Logic Apps</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Logic Apps is a service within Azure that you can use to automate, orchestrate, and integrate disparate components of a distributed application.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>By using the design-first approach in Logic Apps, you can draw out complex workflows that model complex business processes.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The following screenshot shows the Logic Apps Designer and design canvas that you use to define your workflow.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Logic Apps workflow designer in the Azure portal</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Alternatively, if you prefer to work in code, you can create or edit a workflow in JSON notation by using the code view, as illustrated in the following screenshot.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Logic Apps code editor in the Azure portal</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>One reason why Logic Apps is so good at integration is that over 200 connectors are included.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">*</bpt>connector<ept id="p1">*</ept> is a Logic Apps component that provides an interface to an external service.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For example, the Twitter connector allows you to send and retrieve tweets, while the Office 365 Outlook connector lets you manage your email, calendar, and contacts.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Logic Apps provides hundreds of pre-built connectors that you can use to create your apps.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If you have an unusual or unique system that you want to call from a Logic Apps, you can create your own connector if your system exposes a REST API.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Microsoft Flow</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Logo Microsoft Flow</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Microsoft Flow is a service that you can use to create workflows even when you have no development or IT Pro experience.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>You can create workflows that integrate and orchestrate many different components by using the website or the Microsoft Flow mobile app.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>There are four different types of flow that you can create:</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Automated<ept id="p1">**</ept>: A flow that is started by a trigger from some event.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>For example, the event could be the arrival of a new tweet or a new file being uploaded.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Button<ept id="p1">**</ept>: Use a button flow to run a repetitive task with a single click from your mobile device.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Scheduled<ept id="p1">**</ept>: A flow that executes on a regular basis such as once a week, on a specific date, or after 10 hours.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Business process<ept id="p1">**</ept>: A flow that models a business process such as the stock ordering process or the complaints procedure.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Microsoft Flow provides an easy-to-use design surface that anyone can use to create flows of the above types.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>As the following screenshot illustrates, the designer makes it easy to design and layout your process.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Microsoft Flow designer showing a workflow with a file trigger, an Office action to get a user's profile and an Outlook action to send an email.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Under the hood, Microsoft Flow is built on Logic Apps.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>This fact means that Flow supports the same range of connectors and actions.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>You can also use custom connectors in Microsoft Flow.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Design-first technologies compared</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>As you can see from the following table, Microsoft Flow is more appropriate for use by non-technical staff.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>If your workflow designers are IT professionals, developers, or DevOps practitioners, Logic Apps are usually a better fit:</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Microsoft Flow</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Logic Apps</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Intended users<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Office workers and business analysts</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Developers and IT pros</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Intended scenarios<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Self-service workflow creation</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Advanced integration projects</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Design tools<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>GUI only.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Browser and mobile app</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Browser and Visual Studio designer.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Code editing is possible</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Application Lifecycle Management<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Flow includes testing and production environments</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Logic Apps source code can be included in Azure DevOps and source code management systems</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Code-first technologies</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The developers on your team will likely prefer to write code when they want to orchestrate and integrate different business applications into a single workflow.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>This is the case when you need more control over the performance of your workflow or need to write custom code as part of the business process.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>For such people, Azure includes WebJobs and Functions.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>WebJobs and the WebJobs SDK</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Azure WebJobs</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The Azure App Service is a cloud-based hosting service for web applications, mobile back-ends, and RESTful APIs.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>These applications often need to perform some kind of background task.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>For example, in your bike rental system, when a user uploads a photo of a bike, you may need to generate a smaller thumbnail photograph.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>WebJobs are a part of the Azure App Service that you can use to run a program or script automatically.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>There are two kinds of WebJob:</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Continuous.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>These WebJobs run in a continuous loop.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>For example, you could use a continuous WebJob to check a shared folder for a new photo.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Triggered.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>These WebJobs run when you manually start them or on a schedule.</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>To determine what actions your WebJobs takes, you can write code in several different languages.</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>For example, you can script the WebJob by writing code in a Shell Script (Windows, PowerShell, Bash).</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can write a program in PHP, Python, Node.js, or Java.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>You can also program a WebJob by using the .NET Framework or the .NET Core Framework and a .NET language such as C# or VB.NET.</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>In this case, you can also use the WebJobs SDK to make the task easier.</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The SDK includes a range of classes, such as <ph id="ph1">`JobHostConfiguration`</ph> and <ph id="ph2">`HostBuilder`</ph>, which reduce the amount of code required to interact with the Azure App Service.</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The WebJobs SDK only supports C# and the NuGet package manager.</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Azure Functions</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Azure Functions</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>An Azure Function is a simple way for you to run small pieces of code in the cloud, without having to worry about the infrastructure required to host that code.</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>You can write the Function in C#, F# Node.js, Java, or PHP and you only pay for the time when the code runs.</source>
+        </trans-unit><trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Azure automatically scales your function in response to the demand from users.</source>
+        </trans-unit><trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>When you create an Azure Function, you can start by writing the code for it in the portal.</source>
+        </trans-unit><trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Alternatively, if you need source code management, you can use GitHub or Azure DevOps Services.</source>
+        </trans-unit><trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>To create an Azure Function, choose from the range of templates.</source>
+        </trans-unit><trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The following list is an example of some of the templates available to you.</source>
+        </trans-unit><trans-unit id="213" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>HTTPTrigger<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Use this template when you want the code to execute in response to a request sent through the HTTP protocol.</source>
+        </trans-unit><trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>TimerTrigger<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Use this template when you want the code to execute according to a schedule.</source>
+        </trans-unit><trans-unit id="217" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>BlobTrigger<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Use this template when you want the code to execute when a new blob is added to an Azure Storage account.</source>
+        </trans-unit><trans-unit id="219" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>CosmosDBTrigger<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Use this template when you want the code to execute in response to new or updated documents in a NoSQL database.</source>
+        </trans-unit><trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Azure Functions can integrate with many different services both within Azure and from third parties.</source>
+        </trans-unit><trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>These services can trigger your function, or send data input to your function, or receive data output from your function.</source>
+        </trans-unit><trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Code-first technologies compared</source>
+        </trans-unit><trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>In most cases, the simple administration and more flexible coding model provided by Azure Functions may lead you to choose them in preference to WebJobs.</source>
+        </trans-unit><trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>However, you may choose WebJobs for the following reasons:</source>
+        </trans-unit><trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>You want the code to be a part of an existing App Service application and to be managed as part of that application, for example in the same Azure DevOps environment.</source>
+        </trans-unit><trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>You need close control over the object that listens for events that trigger the code.</source>
+        </trans-unit><trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>This object in question is the <ph id="ph1">`JobHost`</ph> class, and you have more flexibility to modify its behavior in WebJobs.</source>
+        </trans-unit><trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Azure WebJobs</source>
+        </trans-unit><trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Azure Functions</source>
+        </trans-unit><trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Supported languages</source>
+        </trans-unit><trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>C# if you are using the WebJobs SDK</source>
+        </trans-unit><trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>C#, F#, JavaScript, Java</source>
+        </trans-unit><trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Automatic scaling</source>
+        </trans-unit><trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>No</source>
+        </trans-unit><trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+        </trans-unit><trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Development and testing in a browser</source>
+        </trans-unit><trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>No</source>
+        </trans-unit><trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+        </trans-unit><trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Pay-per-use pricing</source>
+        </trans-unit><trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>No</source>
+        </trans-unit><trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+        </trans-unit><trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Integration with Logic Apps</source>
+        </trans-unit><trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>No</source>
+        </trans-unit><trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+        </trans-unit><trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Package managers</source>
+        </trans-unit><trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>NuGet if you are using the WebJobs SDK</source>
+        </trans-unit><trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Nuget and NPM</source>
+        </trans-unit><trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Can be part of an App Service application</source>
+        </trans-unit><trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+        </trans-unit><trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>No</source>
+        </trans-unit><trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Provides close control of <ph id="ph1">`JobHost`</ph></source>
+        </trans-unit><trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+        </trans-unit><trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>No</source>
+        </trans-unit><trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Now you know what design-first and code-first technologies are available to you, how do you narrow you choice down for a given scenario?</source>
+        </trans-unit><trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>We'll look at this question in the next unit.</source>
+        </trans-unit></group></body></file></xliff>

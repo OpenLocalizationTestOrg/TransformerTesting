@@ -1,0 +1,35 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.3dfe6f97d97c829c31da49d3d8d51ee9078cc427.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3a8ace9cf849beeee3cbd5a5903d6adfa31152ee</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\aspnetcore\build-web-api-net-core\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Imagine you're an employee of an online dog toy retailer named Contoso Pets.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Your manager has asked you to develop a RESTful inventory management service as a prerequisite for the company's web storefront.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The service has to support adding, viewing, modifying, and removing products<ph id="ph1">&amp;mdash;</ph>a standardized usage of HTTP action verbs better known as <bpt id="p1">**</bpt>C<ept id="p1">**</ept>reate, <bpt id="p2">**</bpt>R<ept id="p2">**</ept>ead, <bpt id="p3">**</bpt>U<ept id="p3">**</ept>pdate, <bpt id="p4">**</bpt>D<ept id="p4">**</ept>elete (CRUD).</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This module explores creating a cross-platform RESTful service using ASP.NET Core web API with .NET Core and C#.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>An in-memory database will be created to persist the products data.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Entity Framework (EF) Core will be used as the <bpt id="p1">**</bpt>O<ept id="p1">**</ept>bject-<bpt id="p2">**</bpt>R<ept id="p2">**</ept>elational <bpt id="p3">**</bpt>M<ept id="p3">**</ept>apper (O/RM) for reading and managing products data.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This module uses the <bpt id="p1">[</bpt>.NET Core CLI<ept id="p1">](https://docs.microsoft.com/dotnet/core/tools/)</ept> to demonstrate web API development.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>After completing this module, you can apply its concepts using a development environment like Visual Studio (Windows), Visual Studio for Mac (macOS), or Visual Studio Code (Windows, Linux, &amp; macOS).</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Use the .NET Core CLI to create an ASP.NET Core web API project.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Create an in-memory database for persisting products.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Add CRUD action methods to the web API.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Test the web API actions from the command shell.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A basic understanding of C#</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Knowledge of RESTful services and HTTP action verbs</source>
+        </trans-unit></group></body></file></xliff>

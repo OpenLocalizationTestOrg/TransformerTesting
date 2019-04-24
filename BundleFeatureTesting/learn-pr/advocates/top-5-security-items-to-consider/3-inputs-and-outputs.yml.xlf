@@ -1,0 +1,63 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-inputs-and-outputs.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-inputs-and-outputs.2cf5f813f2d7122e8d3fc96558e0049b99c75dc5.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6c4e776f085790814c51fa814ef5072e329e18fa</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\top-5-security-items-to-consider\3-inputs-and-outputs.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>Inputs and Outputs</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>Inputs and Outputs</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>Inputs and Outputs</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>Which of the following data sources need to be validated?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>Data from a 3rd party API</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>This is just one of many sources that needs to be validated.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>Data from the URL parameter</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>This is just one of many sources that needs to be validated</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>Data collected from the user via an input field</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>This is just one of many sources that needs to be validated.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>All of the above</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>All these sources of data need to be validated.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>Never trust any data that could have been modified.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>Parameterized queries (stored procedures in SQL) are a secure way to talk to the database because:</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>They are more organized than inline database commands, and therefore less confusing for users.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>Organization of the code is not the reason that parameterized queries are more secure than inline SQL.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>There is a clear outline of the script in the stored procedure, ensuring better visibility.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>Clear outline of the script is not the reason that parameterized queries are more secure than inline SQL.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>Parameterized queries substitute variables before running queries, meaning it avoids the opportunity for code to be submitted in place of a variable.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>Parameter fields used in parameterized queries are treated as data, not code, protecting against injection vulnerabilities.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>For more information on how to implement parameterized queries please see the <bpt id="p1">[</bpt>OWASP Query Parameterization Cheat Sheet<ept id="p1">]( https://www.owasp.org/index.php/Query_Parameterization_Cheat_Sheet)</ept>.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>Which of the following data needs to be output encoded?</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>Data saved to the database</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>Although data saved to the database needs to be validated to ensure the data is good, we do not need to encode it for output.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>Data to be output to the screen</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>Data sent to the screen needs to be output encoded to ensure it is never interpreted as code.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>Data sent to a 3rd party API</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>Although data sent to a 3rd party API needs to be validated to ensure the data is good, we do not need to encode it for output.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>Data in the URL parameters</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.top-5-security-items-to-consider.3-inputs-and-outputs">
+          <source>Although data from URL Parameters needs to be validated before it is used in our application, we do not need to encode it for output.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,75 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-summary.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-summary.13d87debf5f4d72ee0aac230752f6a3e75441bdd.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a848bdbb76f93b176195da5faee3a7bffd74333b</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\explore-azure-dsvm-types\6-summary.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>You want to learn about how to use Azure services related to machine learning with as little fuss as possible installing and configuring software and locating demonstration scripts.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>Which Data Science Virtual Machine type would best suit these needs?</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>Deep Learning DSVM</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>This is not correct.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>It is built on a Linux image which does not support some of the Microsoft tools.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>Also, the Deep Learning VM is much more expensive to run.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>Windows 2016 DSVM</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>This is correct.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>The Windows 2016 gives you the most popular data science tools installed and configured and includes many sample scripts for using Azure machine learning related services.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>Geo AI Data Science VM with ArcGIS DSVM</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>This is not correct.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>This virtual machine is more expensive and intended for specific use cases that involve geospatial problems.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>You need to train deep learning models to do image recognition using a lot of training data in the form of images.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>Which DSVM configuration would be best for the fastest model training?</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>Windows 2016 with standard CPUs.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>This is not correct.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>This VM is not optimized to support deep learning.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>Geo AI Data Science VM with ArcGIS DSVM</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>This is not correct.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>Although this VM can perform deep learning, it also includes addition unneeded commercial software that adds to the cost.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>Deep Learning VM which is configured to use GPUs.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>This is correct.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>The DSVM includes all the software needed for training deep learning models and use graphic processor units (GPUs) which perform calculations much faster than standard CPUs.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>Which Linux-Based version DSVM supports deep learning?</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>Ubuntu Linux DSVM</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>This is correct.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>Only the Data Science VM running on Ubuntu supports deep learning.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>CentOS Linux DSVM</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>This is not correct.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>The Data Science VM running on CentOS does not include the tools for deep learning.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>Fedora Linux DSVM</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>This is not correct.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve" uid="learn.data-ai.explore-azure-dsvm-types.summary">
+          <source>A Fedora DSVM is not available.</source>
+        </trans-unit></group></body></file></xliff>

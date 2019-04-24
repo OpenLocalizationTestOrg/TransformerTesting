@@ -1,0 +1,57 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-saas.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-saas.fd0288f03fc97ee27ad241cea137f7fa007bb65c.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e167e43a6a5cedbed085207f65eed4749b41f2db</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\align-requirements-in-azure\includes\6-saas.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Software as a service (SaaS) allows users to connect to and use cloud-based apps over the Internet.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Common examples are email, calendaring, and office tools such as Microsoft Office 365.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>SaaS provides a complete software solution that you purchase on a pay-as-you-go basis from a cloud service provider.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can <bpt id="p1">*</bpt>rent<ept id="p1">*</ept> the use of an application for your organization.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Your users connect to the service over the Internet, usually with a web browser.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>All of the underlying infrastructure, middleware, app software, and app data are located in the service provider’s data center.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The service provider manages the hardware and software, and with the appropriate service agreement, will ensure the availability and the security of the app and your data as well.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>SaaS allows your organization to get quickly up and running with an app at minimal upfront cost.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If you’ve used a web-based email service such as Outlook, Hotmail, or Yahoo!</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Mail, then you’ve already used a form of SaaS.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>With these services, you log into your account over the Internet, often from a web browser.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The email software is located on the service provider’s network, and your messages are stored there too.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can access your email and stored messages from a web browser on any computer or Internet-connected device.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Common scenarios</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Let's imagine your healthcare company requires a customer relationship management (CRM) solution for its sales team.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The team is global.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can use a SaaS CRM provider to quickly implement a solution to your organization's sales team.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For organizational use, you can rent productivity apps, such as email, collaboration, and calendaring; and sophisticated business applications such as customer relationship management (CRM), enterprise resource planning (ERP), and document management.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You pay for the use of these apps by subscription or according to the level of use.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Advantages</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Gain access to sophisticated applications:<ept id="p1">**</ept> To provide SaaS apps to users, you don’t need to purchase, install, update, or maintain any hardware, middleware, or software.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>SaaS makes even sophisticated enterprise applications, such as ERP and CRM, affordable for organizations that lack the resources to buy, deploy, and manage the required infrastructure and software themselves.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Pay only for what you use.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You also save money because the SaaS service automatically scales up and down according to the level of usage.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Use free client software:<ept id="p1">**</ept> Users can run most SaaS apps directly from their web browser without needing to download and install any software.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You don't need to purchase or deploy client software for your users.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Access app data from anywhere:<ept id="p1">**</ept> With data stored in the cloud, users can access their information from any Internet-connected computer or mobile device.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>And as app data is stored in the cloud, no data is lost if a user’s computer or device fails.</source>
+        </trans-unit></group></body></file></xliff>

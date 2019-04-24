@@ -1,0 +1,95 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-blob-trigger.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-blob-trigger.5845cd32670e34c345d8832cf1215b1216a5127f.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3bab851dff407a4da7af6ec4676eed72433bcbfa</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\execute-azure-function-with-triggers\includes\7-blob-trigger.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Imagine you're a photographer and you have a website where you display your pictures of the day.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Because you're busy, you don't have a consistent upload schedule, but you want to notify your fans when you upload a picture.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You decide to create an Azure function to automatically send a tweet whenever you upload an image to your Azure Storage blob container.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Here, you learn how to create a blob trigger and instruct it to monitor a specific location in your Azure Storage blob container.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>What is Azure Storage?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Azure Storage is Microsoft's cloud storage solution that supports all types of data, including: blobs, queues, and NoSQL.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The goal of Azure Storage is to provide data storage that's:</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Highly available</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Secure</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Scalable</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Managed</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>We're not going to focus on Azure Storage too much.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Instead, we use it to create blobs that will trigger our function to run.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>What is Azure Blob storage?</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Azure Blob storage is an object storage solution that's designed to store large amounts of unstructured data.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For example, Azure Blob storage is great at doing things like:</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Storing files</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Serving files</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Streaming video and audio</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Logging data</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>There are three types of blobs: <bpt id="p1">**</bpt>block blobs<ept id="p1">**</ept>, <bpt id="p2">**</bpt>append blobs<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>page blobs<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Block blobs are the most common type.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>They allow you to store text or binary data efficiently.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Append blobs are like block blobs, but they're designed more for append operations like creating a log file that's being constantly updated.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Finally, page blobs are made up of pages and are designed for frequent random read and write operations.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>What is a blob trigger?</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A blob trigger is a trigger that executes a function when a file is uploaded or updated in Azure Blob storage.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To create a blob trigger, you create an Azure Storage account and provide a location that the trigger monitors.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>How to create a blob trigger</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Just like the other triggers we've seen so far, we create a blob trigger in the Azure portal.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Inside your Azure function, select <bpt id="p1">**</bpt>Blob trigger<ept id="p1">**</ept> from the list of predefined trigger types.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Then enter the logic to execute when a blob is created or updated.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>One setting that you'll want to look at is the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> tells the blob trigger where to monitor to see if a blob is uploaded or updated.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>By default, the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> value is:</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>samples-workitems/{name}</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Let's break down this concept into two pieces: <bpt id="p1">*</bpt>samples-workitems<ept id="p1">*</ept> and <bpt id="p2">*</bpt>{name}<ept id="p2">*</ept>.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The first part, <bpt id="p1">*</bpt>samples-workitems<ept id="p1">*</ept>, represents the blob container that the trigger monitors.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The second part, <bpt id="p1">*</bpt>{name}<ept id="p1">*</ept> means that every type of file will cause the trigger to invoke the function.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The function is invoked because there's no filter.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For example, I could make the trigger invoke the function only when a PNG file is added by using syntax like:</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>samples-workitems/{name}.png</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The last significant piece of information with this concept is the text <bpt id="p1">*</bpt>name<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>name<ept id="p1">*</ept> represents a parameter in your Azure function that receives the name of the added file.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For example, if I upload a file named <bpt id="p1">*</bpt>resume.txt<ept id="p1">*</ept>, my Azure function receives that value as a string through a parameter called <bpt id="p2">*</bpt>name<ept id="p2">*</ept>.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A blob trigger invokes an Azure function when it sees activity at a specific location in your Azure Storage blob account.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>You set the location to monitor by modifying the <bpt id="p1">**</bpt>Path<ept id="p1">**</ept> value in the Azure portal.</source>
+        </trans-unit></group></body></file></xliff>

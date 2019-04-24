@@ -1,0 +1,21 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.1a437be3e6b993ff89c8f805cca18664722c2e8e.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cd8e0f45c38452c76da134797857fe819ffc01af</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\wwl-mba\azure-iot-strategy-and-solutions\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn-wwl.azure-iot-strategy-and-solutions">
+          <source>Microsoft Azure IoT strategy and solutions</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn-wwl.azure-iot-strategy-and-solutions">
+          <source>This module provides an overview of Azure IoT and demonstrates Microsoft tools, services, and infrastructure that can help bring IoT to life for your organization and customers.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn-wwl.azure-iot-strategy-and-solutions">
+          <source>Microsoft Azure IoT strategy and solutions</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn-wwl.azure-iot-strategy-and-solutions">
+          <source>This module provides an overview of Azure IoT and demonstrates Microsoft tools, services, and infrastructure that can help bring IoT to life for your organization and customers.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn-wwl.azure-iot-strategy-and-solutions">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn-wwl.azure-iot-strategy-and-solutions">
+          <source>Learn about the Microsoft vision for Azure IoT.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn-wwl.azure-iot-strategy-and-solutions">
+          <source>Understand what Azure IoT is, how it works, and how it's built.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn-wwl.azure-iot-strategy-and-solutions">
+          <source>Identify ways you can use Azure IoT.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn-wwl.azure-iot-strategy-and-solutions">
+          <source>Learn how Azure IoT enables digital transformation to address business challenges.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn-wwl.azure-iot-strategy-and-solutions">
+          <source>None</source>
+        </trans-unit></group></body></file></xliff>

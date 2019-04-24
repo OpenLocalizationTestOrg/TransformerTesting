@@ -1,0 +1,31 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.62fa52a23880248115763b918baf4e13d44c2609.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1473c2264d75a1c6a218f37ebc7951cdc5faffc7</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\keep-your-virtual-machines-updated\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Introduction</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Imagine you are the server administrator for a regional fire department (RFD) covering dozens of stations.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Your department has recently migrated their on-premises systems to the cloud; specifically, they've migrated existing servers to virtual machines hosted in Azure.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The department has public-facing and private websites supporting email, patient records, and internal applications.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>As a part of your effort to keep your infrastructure secure, you need to ensure that the virtual machines in your cloud environment are  up-to-date with the latest security and critical updates.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You will learn about the Azure Update Management solution.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You will learn how to deploy Update Management to a  virtual machine and how to schedule automatic deployment of critical and security updates.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>deploy Update Management to a virtual machine</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>schedule recurring security updates</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>schedule recurring critical updates</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Experience administering Azure resources using the Azure portal</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You will need your own Azure subscription to complete the exercises in this module.</source>
+        </trans-unit></group></body></file></xliff>

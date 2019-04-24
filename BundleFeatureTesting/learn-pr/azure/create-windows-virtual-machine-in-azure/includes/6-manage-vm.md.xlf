@@ -1,0 +1,101 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-manage-vm.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-manage-vm.c9d69768138f06addf07f0f538299c9f8cedcdbb.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">98ff3c1eed8f85972585964162de79b5f4e1ef56</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-windows-virtual-machine-in-azure\includes\6-manage-vm.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>We've installed our custom software, set up an FTP server, and configured the VM to receive our video files.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>However, if we try to connect to our public IP address with FTP, we'll find that it's blocked.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Making adjustments to server configuration is commonly performed with equipment in your on-premises environment.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In this sense, you can consider Azure VMs to be an extension of that environment.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can make configuration changes, manage networks, open or block traffic, and more through the Azure portal, Azure CLI, or Azure PowerShell tools.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You've already seen some of the basic information and management options in the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> panel for the virtual machine.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Let's explore network configuration a bit more.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Opening ports in Azure VMs</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>By default, new VMs are locked down.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Apps can make outgoing requests, but the only inbound traffic allowed is from the virtual network (e.g. other resources on the same local network), and from Azure's Load Balancer (probe checks).</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>There are two steps to adjusting the configuration to support FTP.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>When you create a new VM you have an opportunity to open a few common ports (RDP, HTTP, HTTPS, and SSH).</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>However, if you require other changes to the firewall, you will need to do them yourself.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The process for this involves two steps:</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Create a Network Security Group.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Create an inbound rule allowing traffic on port 20 and 21 for active FTP support.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>What is a Network Security Group?</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Virtual networks (VNets) are the foundation of the Azure networking model and provide isolation and protection.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Network Security Groups (NSGs) are the main tool you use to enforce and control network traffic rules at the networking level.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>NSGs are an optional security layer that provides a software firewall by filtering inbound and outbound traffic on the VNet.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Security groups can be associated to a network interface (for per-host rules), a subnet in the virtual network (to apply to multiple resources), or both levels.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Security group rules</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>NGSs use <bpt id="p1">_</bpt>rules<ept id="p1">_</ept> to allow or deny traffic moving through the network.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Each rule identifies the source and destination address (or range), protocol, port (or range), direction (inbound or outbound), a numeric priority, and whether to allow or deny the traffic that matches the rule.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The following illustration shows NSG rules applied at the subnet and network interface levels.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>An illustration showing the architecture of network security groups in two different subnets.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In one subnet, there are two virtual machines, each with their own network interface rules.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The subnet itself has a set of rules that applies to both the virtual machines.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Each security group has a set of default security rules to apply the default network rules described above.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>These default rules cannot be modified, but <bpt id="p1">_</bpt>can<ept id="p1">_</ept> be overridden.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>How Azure uses network rules</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For inbound traffic, Azure processes the security group associated to the subnet, then the security group applied to the network interface.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Outbound traffic is processed in the opposite order (the network interface first, followed by the subnet).</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Keep in mind that security groups are optional at both levels.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>If no security group is applied then <bpt id="p1">**</bpt>all traffic is allowed<ept id="p1">**</ept> by Azure.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>If the VM has a public IP, this could be a serious risk particularly if the OS doesn't provide some sort of firewall.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The rules are evaluated in <bpt id="p1">_</bpt>priority-order<ept id="p1">_</ept>, starting with the <bpt id="p2">**</bpt>lowest priority<ept id="p2">**</ept> rule.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Deny rules always <bpt id="p1">**</bpt>stop<ept id="p1">**</ept> the evaluation.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For example, if an outbound request is blocked by a network interface rule, any rules applied to the subnet will not be checked.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>In order for traffic to be allowed through the security group, it must pass through <bpt id="p1">_</bpt>all<ept id="p1">_</ept> applied groups.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The last rule is always a <bpt id="p1">**</bpt>Deny All<ept id="p1">**</ept> rule.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This is a default rule added to every security group for both inbound and outbound traffic with a priority of 65500.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>That means to have traffic pass through the security group <bpt id="p1">_</bpt>you must have an allow rule<ept id="p1">_</ept> or it will be blocked by the default final rule.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>SMTP (port 25) is a special case, depending on your subscription level and when your account was created, outbound SMTP traffic may be blocked.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You can make a request to remove this restriction with business justification.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Since we didn't create a security group for this VM, let's do that and apply it.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Creating Network Security Groups</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Security groups are managed resources like most everything in Azure, you can create them in the Azure portal or through command-line scripting tools.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The challenge is in defining the rules.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Let's look at defining a new rule to allow FTP access.</source>
+        </trans-unit></group></body></file></xliff>

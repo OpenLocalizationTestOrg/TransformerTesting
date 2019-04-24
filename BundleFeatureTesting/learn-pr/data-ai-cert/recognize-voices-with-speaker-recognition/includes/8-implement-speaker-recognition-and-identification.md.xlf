@@ -1,0 +1,99 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="8-implement-speaker-recognition-and-identification.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8-implement-speaker-recognition-and-identification.9009d7cf111418c314ca99feb400a7aeb6537267.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">666b2c1e60e2f5cc57fccf0b1d7de822d66ae33b</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\recognize-voices-with-speaker-recognition\includes\8-implement-speaker-recognition-and-identification.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The speaker-verification process consists of three major steps:</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Create a verification profile.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Create three verification phrase enrollments.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Attempt to verify a speaker.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To verify a speaker, you must send an authorized web request to the subscription endpoint and observe the information returned from the call via the <ph id="ph1">`Verify`</ph> method in the Speaker Verification API.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Verify`</ph> method accepts an audio file (as a binary file payload) that <bpt id="p1">*</bpt>must<ept id="p1">*</ept> meet the same criteria as the files used for enrollments in both speaker verification and speaker identification.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>To review, these audio file requirements are:</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Property</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Required value</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Container<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>WAV</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Encoding<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>PCM</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Rate<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>16K</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Sample format<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>16-bit</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Channels<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Mono</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Verify`</ph> method doesn't accept any additional parameters.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>It requires only an audio clip (as a binary file) to verify.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In C#, a binary payload can come from an audio file (containing a "new" voice recording of the verification phrase) located on a local computer:</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Return values</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The information returned from a call to the <ph id="ph1">`Verify`</ph> method provides all the information necessary to verify a speaker:</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Result`</ph>: A value of <ph id="ph2">`Accept`</ph> or <ph id="ph3">`Reject`</ph></source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Confidence`</ph>: A value of <ph id="ph2">`Low`</ph>, <ph id="ph3">`Normal`</ph>, or <ph id="ph4">`High`</ph></source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Phrase`</ph>: The recognized verification phrase from the audio file</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>When verification is finished, a well-formatted JSON object or array is returned:</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The value <ph id="ph1">`&lt;Recognized phrase&gt;`</ph> is populated with the extracted phrase that was recognized in the audio.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Depending on the scenario, the information returned might require additional logic in your app or service.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For example, in highly sensitive environments, a confidence level of <ph id="ph1">`Normal`</ph> might indicate the need for reverification until a confidence level of <ph id="ph2">`High`</ph> is reported.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Otherwise, a value of <ph id="ph1">`Accept`</ph> might be sufficient by itself.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>After you're familiar with the process of speaker verification, you'll find that the speaker-identification process is similar.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Speaker identification</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Like speaker verification, the speaker-identification process consists of three major steps:</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Create an identification profile.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Create an identification enrollment.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Attempt to identify a speaker.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Similar to speaker verification, to identify a speaker, you must send an authorized web request to the subscription endpoint and observe the information returned from the call via the <ph id="ph1">`Identify`</ph> method in the Speaker Identification API.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The audio file you send in your request must meet the same criteria as all other audio files in the system.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Identify`</ph> method doesn't take any additional parameters, only an audio clip (as a binary file) that contains any manner of spoken content.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In C#, a binary payload could come from an audio file (containing a "new" speech recording) located on a local computer:</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Identification return values</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The information returned from a call to the <ph id="ph1">`Identify`</ph> method provides all the information necessary to identify a speaker:</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`identifiedProfileId`</ph>: The <ph id="ph2">`identificationProfileId`</ph> value of the identified speaker's profile</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Confidence`</ph>: A value of <ph id="ph2">`Low`</ph>, <ph id="ph3">`Normal`</ph>, or <ph id="ph4">`High`</ph></source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>When identification is finished, a JSON object is returned:</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`identifiedProfileId`</ph> property returns a value of <ph id="ph2">`00000000-0000-0000-0000-000000000000`</ph>, no speaker-identification profile has been identified.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>In other words, the audio file to be identified doesn't match any of the provided speaker-identification profiles.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,87 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-publish-azure-functions.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-publish-azure-functions.5cc8a6cb048c1a4fe4aba55a9d768af0039b2299.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f968e533ce18b78b47d2d7c0a5ba8d5b0231f952</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\develop-test-deploy-azure-functions-with-visual-studio\includes\4-publish-azure-functions.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>An Azure Function runs in the cloud in the context of an Azure Function App.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A function app is a container that specifies the operating system for running an Azure Function, together with the resources available, such as the memory, computing power, and disk space.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The Azure Function App also provides the public URL for running your functions.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Behind the scenes, an Azure Function App is a collection of one or more virtual machines, running a web server.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When you publish an Azure Function, you deploy it to these virtual machines.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In the luxury watch online website scenario, you'll deploy the Azure Functions you create to the cloud.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You need to create an Azure Function App, and then publish your functions to this app.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You want to determine the best way to do this.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>There are several of options available for publishing an Azure Function.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll learn about some of these options.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Deploy from Visual Studio</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Azure Functions tools for Visual Studio enable you to deploy an Azure Function directly from Visual Studio.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The Azure Functions template provides a Publish wizard.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Using this wizard, you connect to your Azure account, and either specify an existing Azure Function App, or create a new one.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The functions in your project are rebuilt and then deployed to the Azure Function App.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Publish<ept id="p1">**</ept> wizard requires that you either have access to the Azure Function App that will host your functions, or you have an Azure subscription that you can use to create an Azure Function App as part of the publication process.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You'll investigate the <bpt id="p1">**</bpt>Publish<ept id="p1">**</ept> wizard in more detail in the exercise that follows this unit.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Deployment from Visual Studio is great feature for developers.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If developers have access to an Azure subscription, they can create an Azure Function App and publish code to Azure, to perform testing in an environment that is similar to production environment.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Once a function is stable, it can be deployed to an Azure Function App providing the production environment.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Continuous deployment</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Azure Functions makes it easy to deploy your function app using App Service continuous integration.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Azure Functions integrates with BitBucket, Dropbox, GitHub, and Azure DevOps.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This enables a workflow where function code updates made by using one of these integrated services triggers deployment to Azure.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Continuous deployment is a great option for projects where multiple and frequent contributions are being integrated.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>It also lets you maintain source control on your functions code.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The following deployment sources are currently supported:</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Bitbucket</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Dropbox</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>External repository (Git or Mercurial)</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Git local repository</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>GitHub</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>OneDrive</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Azure DevOps</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Deployment Center page in an Azure Functions App</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can configure continuous deployment from the Azure portal, using the <bpt id="p1">*</bpt>Deployment Center<ept id="p1">*</ept> feature of an Azure Function App.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Deployment is configured on a per-function app basis.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Zip deployment</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Azure Function can be deployed from a zip file using the push deployment technique.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You can do this with the Azure CLI, or by using the REST interface.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The zip file contains the executable code for your functions.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Zip deployment copies these files to the <ph id="ph1">`wwwwroot`</ph> folder in the function app.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You can perform zip deployment using the <ph id="ph1">`functionapp deployment`</ph> command in the Azure CLI.</source>
+        </trans-unit></group></body></file></xliff>

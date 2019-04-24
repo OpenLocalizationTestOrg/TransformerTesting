@@ -1,0 +1,19 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="10-summary.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">10-summary.739ff7706ad2469f67ea3e6c9e8c4eb2671159f7.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2abceecfa5b2f893548b22cf20c01cfbb4d56e2f</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\replace-faces-with-emojis-matching-emotion\includes\10-summary.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this module, you created The Mojifier, a Slack slash command that lets you:</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Calculate the emotion of any people in the image</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Match emotions to emojis</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Replace faces in the image with emojis</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Post the updated image to Slack as a reply</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You created this command using the Azure Cognitive Services Face API and Azure functions written in TypeScript.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You developed and debugged these functions on your local machine, then deployed them to Azure from Visual Studio Code.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Resources</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If you've got more questions about debugging in Visual Studio Code, you can <bpt id="p1">[</bpt>learn more on Docs<ept id="p1">](https://code.visualstudio.com/docs/editor/debugging?azure-portal=true)</ept>.</source>
+        </trans-unit></group></body></file></xliff>

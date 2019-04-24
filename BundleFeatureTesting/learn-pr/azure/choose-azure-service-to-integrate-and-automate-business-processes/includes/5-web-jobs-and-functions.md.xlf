@@ -1,0 +1,117 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-web-jobs-and-functions.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-web-jobs-and-functions.2982da542fcb83a47473e4b25f83dcff85359d67.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">85dfb65d22870362b7198b04d741992c2582ee74</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\choose-azure-service-to-integrate-and-automate-business-processes\includes\5-web-jobs-and-functions.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this exercise, we'll look at another process from our bike rental business and decide what technology best fits our needs.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>We'll consider the technical aspects of the process as well as audience and how our process needs to evolve.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Scenario</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Your bike technicians currently use a spreadsheet to record the actions they took to repair and maintain each bike when it arrives back from a hire.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Difficulties have arisen when spare parts are needed, because the hire staff have no way of knowing when a bike is waiting for repairs or parts.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This problem has resulted in bikes being rented to customers with worn brake pads, flat tires, and other faults that make damage our brand as a high-quality bike rental company.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You want to build a system that governs the maintenance and repair process and allows everyone to find answers to the following questions.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>What jobs have been completed on a bike?</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>What jobs remain to be completed before the bike can be hired out?</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Which bikes are currently available to hire?</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Which bikes are currently unavailable to hire?</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For each bike that is unavailable:</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Why can't we hire them out?</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Are we waiting for any parts, and what are those parts?</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When is the bike likely to be available again for hire?</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You'd like to integrate this system with the bike booking and hire process from the last unit so that, when shop staff search for available bikes, they find only those bicycles that are currently available to hire.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Your manager has asked you to be the developer on this project.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Business Process</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You want to ensure that bike technicians on both campuses stick to the following workflow when they maintain a bike following a hire:</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Bike maintenance workflow</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The details are as follows:</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A customer returns a bike to any location.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The bike maintenance process starts.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A technician marks the bike as unavailable.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A technician completes a full list of checks including the tires, brakes, drive chain, and lights.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Are new parts required?</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>New parts are required, but we don't have the parts in stock.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The technician orders new parts</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Parts arrive</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Fit new parts</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A technician completes final changes.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A technician marks the bike as available for hire.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Choosing a technology</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To implement the business process and integrate with the bike location database, let's consider the following set of technologies.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Microsoft Flow</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Azure Logic Apps</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Azure Functions</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Azure Service Apps WebJobs</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>As in the previous scenario, any of these technologies could be used to build the workflow.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>However, there are two issues that determine the optimal choice.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Design-first or code-first?</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To implement this workflow using just Logic Apps or Flow would be difficult.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>While we haven't heard too many low-level details, it's clear that this process needs to access an inventory system, place orders with a third-party parts company.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This is new business logic and there is no requirement that we consider a design-first approach.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>We can wrap our solution in a custom connector to integrate with other workflows created with Logic Apps or Flow.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>As a developer, you have most flexibility by approaching this scenario from a code-first approach, so let's do that!</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Azure Functions or Azure Apps Service WebJobs?</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>We have to make a decision between the following two technologies.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Azure Functions</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Azure App Service WebJobs</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The following factors will influence your choice:</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Cost: With Web Jobs, you pay for the entire VM or App Service Plan that hosts the job.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Azure Function can run on a consumption plan, so you only pay when the function runs.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Since this process only kicks off when a bike is returned, we might stand to save by selecting Azure Functions.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Integrations: You want to integrate the maintenance workflow with the Logic App that you build for the bike booking and hire process in the previous unit.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Although it is possible to call a WebJob from a Logic App, the integration between Logic Apps and Functions is closer.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>For example, you can more easily control your call to a Function from the Logic Apps designer.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>For these reasons, we'll select Azure Function to manage your bike maintenance business process.</source>
+        </trans-unit></group></body></file></xliff>

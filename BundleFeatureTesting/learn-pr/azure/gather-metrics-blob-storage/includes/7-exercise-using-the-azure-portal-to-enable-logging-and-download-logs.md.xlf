@@ -1,0 +1,109 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-exercise-using-the-azure-portal-to-enable-logging-and-download-logs.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-exercise-using-the-azure-portal-to-enable-logging-and-download-logs.31f5f1d2e2c2876cfd6cfd0226eb0d5e4e8d7bc6.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d2044957612057f586c327dd71f5ea3b245397e5</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\gather-metrics-blob-storage\includes\7-exercise-using-the-azure-portal-to-enable-logging-and-download-logs.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Before moving client proofs into Azure Blob storage, you want to see how you can retrieve logging status and how to download the service log files from Azure.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>After downloading the log files, you would normally want to check what information is included in the log.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In this exercise, you will check the logging status for your storage account using PowerShell, then download and review a log file.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Check Logging Status for Blob Storage</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>First, you will create a virtual machine scale set using the Azure portal.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In the Azure portal, on the top toolbar, click <bpt id="p1">**</bpt>Cloud Shell<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In the Azure Cloud Shell pane, enter the following commands:</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Where <ph id="ph1">`&lt;StorageAccountName&gt;`</ph> is the name of the storage account you created in the first exercise; for example: <bpt id="p1">**</bpt>monitorstorageaccount<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Notice which operations are currently logged and the log retention period.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`LoggingOperations`</ph> is set to <ph id="ph2">`None`</ph>, then you will need to enable logging.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To do so, enter the following command the Azure Cloud Shell pane:</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Enabling Storage Logging and Accessing Log Data<ept id="p1">](https://docs.microsoft.com/rest/api/storageservices/enabling-storage-logging-and-accessing-log-data)</ept>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Download and install Azure Storage Explorer</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Download the Azure Storage Explorer tool in order to download the storage analytics log files.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Open a new tab in your browser, and navigate to <ph id="ph1">https://azure.microsoft.com/features/storage-explorer/</ph>.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Ensure you have the correct operating system selected, and then click <bpt id="p1">**</bpt>Download Storage Explorer free<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If a popup dialog appears asking what to do with the file, click <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When the download is complete, launch the downloaded file.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If prompted to approve <bpt id="p1">**</bpt>User Account Control<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Setup - Microsoft Azure Storage Explorer<ept id="p1">**</ept> dialog box, select <bpt id="p2">**</bpt>I accept the agreement<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Install<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Select Destination Location<ept id="p1">**</ept> page, click <bpt id="p2">**</bpt>Next<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Select Start Menu Folder<ept id="p1">**</ept> page, click <bpt id="p2">**</bpt>Next<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Completing the Microsoft Azure Storage Explorer Setup Wizard<ept id="p1">**</ept> page, click <bpt id="p2">**</bpt>Finish<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Use Azure Storage Explorer to download storage log files</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Launch the <bpt id="p1">**</bpt>Microsoft Azure Storage Explorer<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>On the left-side toolbar, click the icon for <bpt id="p1">**</bpt>Add Account<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>When the <bpt id="p1">**</bpt>Connect to Azure Storage<ept id="p1">**</ept> dialog box appears:</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Add an Azure Account<ept id="p1">**</ept>, and then click <bpt id="p2">**</bpt>Sign in<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Sign in<ept id="p1">**</ept> dialog box, enter your username for your Azure subscription, and then click <bpt id="p2">**</bpt>Next<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If a page appears asking you to select between <bpt id="p1">**</bpt>Work or school account<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Personal account<ept id="p2">**</ept>, select the appropriate option for your account.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Enter your password, and then click <bpt id="p1">**</bpt>Sign In<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If you are prompted for a Two-Factor Authentication (2FA) code, enter the code from your authenticator app, and then click <bpt id="p1">**</bpt>Verify<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If a dialog box appears with the message <bpt id="p1">**</bpt>Let Us Know What You Think<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>Dismiss<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">**</bpt>Microsoft Azure Storage Explorer<ept id="p1">**</ept>:</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>If you are prompted to choose an Azure subscription, make sure that you choose the subscription that you used when you created your Azure Storage Account, and then click <bpt id="p1">**</bpt>Apply<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In the Explorer view, under the associated Azure subscription, expand <bpt id="p1">**</bpt>Storage Accounts<ept id="p1">**</ept>, expand the storage account you created in the first exercise, and expand <bpt id="p2">**</bpt>Blob Containers<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>$logs<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>In the details pane, double-click the <bpt id="p1">**</bpt>blob<ept id="p1">**</ept> folder, double-click the folder for the current year, double-click the folder for the current month, double-click the folder for the current day, double-click a folder for the hour.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Select one of the log files, and on the toolbar, click <bpt id="p1">**</bpt>Open<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A notepad window should open showing the log entries.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Note that semicolons delimit each of the fields captured in an entry, and a new line denotes the next entry.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Close the <bpt id="p1">**</bpt>Notepad<ept id="p1">**</ept> window showing the contents of the log file.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Optional - View log data in Excel</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If you have microsoft Excel, you can download and import the log data for more easy analysis.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">**</bpt>Microsoft Azure Storage Explorer<ept id="p1">**</ept>, ensure that a log file is still selected, and on the toolbar, click <bpt id="p2">**</bpt>Download<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Specify where to save the downloaded blob<ept id="p1">**</ept> dialog box, select a location on your local computer, such as your <bpt id="p2">**</bpt>Downloads<ept id="p2">**</ept> folder, and then click <bpt id="p3">**</bpt>Save<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Start<ept id="p1">**</ept>, on the start menu, click <bpt id="p2">**</bpt>Excel<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">**</bpt>Excel<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>Blank workbook<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">**</bpt>Excel<ept id="p1">**</ept>, on the <bpt id="p2">**</bpt>Data<ept id="p2">**</ept> tab, click the <bpt id="p3">**</bpt>Get Data<ept id="p3">**</ept> menu, click <bpt id="p4">**</bpt>From File<ept id="p4">**</ept>, then click <bpt id="p5">**</bpt>From Text/CSV<ept id="p5">**</ept>.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Import Data<ept id="p1">**</ept> dialog box, in the <bpt id="p2">**</bpt>Text Files (<bpt id="p3">*</bpt>.prn;<ept id="p3">*</ept>.txt;*.csv)<ept id="p2">**</ept> drop down, select <bpt id="p4">**</bpt>All Files (<bpt id="p5">*</bpt>.<ept id="p5">*</ept>)<ept id="p4">**</ept>.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Import Data<ept id="p1">**</ept> dialog box, browse to the location you downloaded the log file, such as <bpt id="p2">**</bpt>Downloads<ept id="p2">**</ept>, select the downloaded log file, and click <bpt id="p3">**</bpt>Import<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>In the log file preview window, ensure that <bpt id="p1">**</bpt>Delimiter<ept id="p1">**</ept> shows <bpt id="p2">**</bpt>Semicolon<ept id="p2">**</ept>, and that the entries appear to have columns correctly separated by field, then click <bpt id="p3">**</bpt>Load<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Review the log data in Excel.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>You can use the log format reference from the previous unit to identify which columns show which information.</source>
+        </trans-unit></group></body></file></xliff>

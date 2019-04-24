@@ -1,0 +1,19 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.e710c48095cb74ffe10221d643d89d85c2aae264.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b86d5a919dd928f003f88df9a9280c4158b4c5bc</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\design-for-availability-and-recoverability-in-azure\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.design-for-availability-and-recoverability">
+          <source>Design for availability and recoverability in Azure</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.design-for-availability-and-recoverability">
+          <source>Learn how to handle infrastructure and service failure, recover from the loss if data, and recover from a disaster by designing availability and recoverability into your architecture.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.design-for-availability-and-recoverability">
+          <source>Design for availability and recoverability in Azure</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.design-for-availability-and-recoverability">
+          <source>Learn how to handle infrastructure and service failure, recover from the loss if data, and recover from a disaster by designing availability and recoverability into your architecture.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.design-for-availability-and-recoverability">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.design-for-availability-and-recoverability">
+          <source>Leverage Azure services to design a highly available application</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.design-for-availability-and-recoverability">
+          <source>Incorporate Azure disaster recovery capabilities into your architecture</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.design-for-availability-and-recoverability">
+          <source>Backup and restore on Azure to protect your application from data loss or corruption</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.design-for-availability-and-recoverability">
+          <source>None</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,121 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-make-your-custom-connector-available-to-the-entire-organization.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-make-your-custom-connector-available-to-the-entire-organization.a0beb7526791b829f75e3156d0a580f2ee162e40.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8d59fa6788800e62681b61a8fa5b94e518130df4</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\logic-apps-and-custom-connectors\includes\6-make-your-custom-connector-available-to-the-entire-organization.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Now that you have created the custom connector for the picture framing API, you want to make it available to all the users in your organization, so that they can call that API from their own Logic Apps workflows.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You also know that many of your customers use Logic Apps.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>If you can publish your new connector to them, they can make calls to your API easily.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Share a connector with your organization</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If you have created a custom connector and used it in a Logic Apps workflow, that connector is, by default, available to other users of Logic Apps in your organization.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>They can add it to their Logic Apps as long as, in their app's region:</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>They share the same Azure Active Directory tenant with you.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>They share the same Azure subscription with you.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Azure Logic Apps shares custom connectors automatically and users see them when they choose connectors in their apps.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>However, you might want to inform them about the new connector, its purpose, and how to use it.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Share a connector with the community</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If your API is available for external users to query, consider publishing the Logic Apps connector as well.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Publishing will make it much easier for anyone who wants to access your data and uses Logic Apps to build workflows.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>It will also help to promote your API and drive its adoption in the community.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The picture framing API is a good example: anyone can access it if they have a subscription and can write code that makes REST API calls.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>However, if you publish your new connector, those people who use Logic Apps can query the API from their workflows without writing any code.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Some people may be unaware of your picture framing API.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If they find your connector in the Logic Apps catalog, they may decide to use it and buy a subscription to it.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To publish your connector in the Logic Apps catalog, you have to submit it to Microsoft for certification.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If the connector meets the certification criteria, Microsoft will publish the connector and all Logic Apps users will see it.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Certification criteria</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Microsoft will only certify your connector if it meets the following criteria:</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Feature</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Required or Recommended</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Software-as-a-Service ownership</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Your organization must own the API that the connector provides access to.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Required</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Authentication</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Your API must support OAuth2, API Key, or basic authentication.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Required</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Support</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Provide a support contract to users so that customers can request help for technical problems.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Required</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Availability</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Guarantee at least 99.9% uptime in your Service Level Agreement (SLA)</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Recommended</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Things to check before submission</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You should fully test your connector before you submit it for certification.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Make sure you are confident that no bugs or other issues will arise.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Common problems that you should check for include:</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Errors in the OpenAPI definition<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Eliminate any invalid JSON code in the API definition file and ensure that it complies with the OpenAPI schema.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Full information in the definition<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Every operation, input parameter, and response attribute in the OpenAPI specification that you submit should have summary, description, and visibility information.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>How to submit a connector for certification</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The certification process takes around two weeks, but this duration depends on how well you have met the above criteria.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The process runs like with these steps:</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Nomination<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Visit the nomination form to submit your connector.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Microsoft will send a Partner Agreement.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Review<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Once the agreements are signed, a Microsoft employee reviews the connector.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>You may be required to provide the connector ID, the OpenAPI definition, an icon file, a test account, an email address for support, and other information.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Publish<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Microsoft stages the connector and publishes it as "Preview".</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Support and Updates<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Once the connector is published and people begin using it, monitor the related product forums to find out if customers are having any problems.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If you need to submit a new version, use the same nomination form.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>When the connector has been published for some time, you can ask your nomination contact to remove the "Preview" tag.</source>
+        </trans-unit></group></body></file></xliff>

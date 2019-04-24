@@ -1,0 +1,51 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="9-summary.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9-summary.1441e433b1433a0a6b4be9c9ec4dbe37c913f995.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e60f614f4b538565cec32f2faf395bdb94af0f87</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\tour-azure-portal\9-summary.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.tour-azure-portal-features.9-summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.tour-azure-portal-features.9-summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.tour-azure-portal-features.9-summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.tour-azure-portal-features.9-summary">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.tour-azure-portal-features.9-summary">
+          <source>An Azure dashboard is stored as which type of file?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.tour-azure-portal-features.9-summary">
+          <source>XML</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.tour-azure-portal-features.9-summary">
+          <source>Azure dashboards are stored as JSON files which allows them to be uploaded and downloaded to share with other members of the Azure directory.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.tour-azure-portal-features.9-summary">
+          <source>JSON</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.tour-azure-portal-features.9-summary">
+          <source>Azure dashboards are stored as JSON files which allows them to be uploaded and downloaded to share with other members of the Azure directory.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.tour-azure-portal-features.9-summary">
+          <source>PNG</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.tour-azure-portal-features.9-summary">
+          <source>Azure dashboards are stored as JSON files which allows them to be uploaded and downloaded to share with other members of the Azure directory.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.tour-azure-portal-features.9-summary">
+          <source>Azure Advisor provides advice on: (Select one)</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.tour-azure-portal-features.9-summary">
+          <source>Creating an Azure account</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.tour-azure-portal-features.9-summary">
+          <source>You must already have an account to use Azure Advisor.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.tour-azure-portal-features.9-summary">
+          <source>Best practices and Security for your services</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.tour-azure-portal-features.9-summary">
+          <source>Azure Advisor is a free service built into Azure that provides recommendations on high availability, security, performance, and cost.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.tour-azure-portal-features.9-summary">
+          <source>Using the Azure portal effectively</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.tour-azure-portal-features.9-summary">
+          <source>Azure Advisor is accessed from the Azure portal, but doesn't provide guidance on using the portal.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.tour-azure-portal-features.9-summary">
+          <source>True or false: Azure Cloud Shell is an interactive, browser-accessible shell for managing Azure resources?</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.tour-azure-portal-features.9-summary">
+          <source>True</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.tour-azure-portal-features.9-summary">
+          <source>Azure Cloud Shell is an interactive shell for managing Azure resources.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.tour-azure-portal-features.9-summary">
+          <source>You can control and administer all of your Azure resources in the current subscription through a command-line interface built right into the portal.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.tour-azure-portal-features.9-summary">
+          <source>False</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.tour-azure-portal-features.9-summary">
+          <source>Azure Cloud Shell is an interactive shell for managing Azure resources.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.tour-azure-portal-features.9-summary">
+          <source>You can control and administer all of your Azure resources in the current subscription through a command-line interface built right into the portal.</source>
+        </trans-unit></group></body></file></xliff>

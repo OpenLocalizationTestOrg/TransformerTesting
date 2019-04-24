@@ -1,0 +1,25 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.f44e8bdc254a7933da2d84246be48595b0fd77ee.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e4f89ef09a2636e04eb3d636412da21e8720df83</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\intro-to-site-reliability-engineering\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering">
+          <source>Introduction to Site Reliability Engineering (SRE)</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering">
+          <source>Organizations big and small have started to realize just how crucial system and application reliability is to their business.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering">
+          <source>They’ve also learned just how difficult it is to maintain that reliability while iterating at the speed demanded by the marketplace.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering">
+          <source>Site Reliability Engineering (SRE) is a proven approach to this challenge.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering">
+          <source>Introduction to Site Reliability Engineering (SRE)</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering">
+          <source>Organizations big and small have started to realize just how crucial system and application reliability is to their business.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering">
+          <source>They’ve also learned just how difficult it is to maintain that reliability while iterating at the speed demanded by the marketplace.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering">
+          <source>Site Reliability Engineering (SRE) is a proven approach to this challenge.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering">
+          <source>In this module you will:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering">
+          <source>Gain a basic understanding of Site Reliability Engineering (SRE)</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering">
+          <source>Learn how to get started with this valuable operations practice</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering">
+          <source>None</source>
+        </trans-unit></group></body></file></xliff>

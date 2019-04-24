@@ -1,0 +1,95 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-explore-the-azure-app-service.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-explore-the-azure-app-service.d56771f7c879d61072ce61bb94144ef5f56d8ca8.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1530b08dbcb2cbcd0bda32fc5b5563a3f3fb5103</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\publish-azure-web-app-with-visual-studio\includes\4-explore-the-azure-app-service.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You created a site and you want to deploy it to Azure.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Now we need to consider which Azure services to leverage to best support our needs.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>App Service provides a highly scalable, self-patching web hosting service for your applications.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Here, we look at how to use Visual Studio to publish your ASP.NET Core web application to an Azure App Service plan.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>What is the Azure App Service?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Azure App Service is a service for hosting web applications, REST APIs, and mobile backends.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>App Service supports code written in  .NET, .NET Core, Java, Ruby, Node.js, PHP, and Python.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>App Service is ideal for most websites, particularly if you don't need a lot of control over the hosting infrastructure.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>What is the App Service plan?</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The App Service plan defines the compute resources your app will consume, where those resources are located, how many additional resources the plan can consume, and the pricing tier.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>These compute resources are analogous to the server farm in conventional web hosting.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>One or more apps can be configured to run on the same App Service plan.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>When you deploy your apps, you can create an App Service plan or you can continue to add apps to an existing plan.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>However, apps in the same App Service plan share the same compute resources.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To determine whether the new app has the necessary resources, you need to understand the capacity of the existing App Service plan, and the expected load for the new app.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Overloading an App Service plan can cause reduced performance or downtime for your new and existing apps.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can define an App Service plan in advance in the Azure portal with PowerShell or the Azure CLI, or set one up as you publish your application in Visual Studio.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Each App Service plan defines:</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Region (West US, East US, and so on)</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Number of VM instances</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Size of VM instances (small, medium, large)</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Pricing tier (Free, Shared, Basic, Standard, Premium, Premium V2, Isolated)</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Specify the region</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>When creating an App Service plan, you have to define a region or location where that plan will be hosted.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Typically, you would choose a region geographically close to your expected customers.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>What are the pricing and reliability levels?</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Shared compute<ept id="p1">**</ept>: <bpt id="p2">**</bpt>Free<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Shared<ept id="p3">**</ept>, the two base tiers, run an app on the same Azure VM as other App Service apps, including apps of other customers.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>These tiers allocate CPU quotas to each app that runs on the shared resources, and the resources cannot scale out.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Free and Shared plans are best for small-scale personal projects with very limited traffic demands, with a set limit of 165 MB of outbound data every 24 hours.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Dedicated compute<ept id="p1">**</ept>: The <bpt id="p2">**</bpt>Basic, Standard, Premium, and Premium V2<ept id="p2">**</ept> tiers run apps on dedicated Azure VMs.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Only apps in the same App Service plan share the same compute resources.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The higher the tier, the more VM instances are available to you for scale out.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The Standard service plan is best suited for live production workloads, where you are publishing commercial applications to customers.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The Premium service plans support high-capacity web apps where you do not want the additional costs of a dedicated (isolated) plan.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Isolated<ept id="p1">**</ept>: This tier runs dedicated Azure VMs on dedicated Azure virtual networks, which provide network isolation on top of compute isolation to your apps.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>It provides the maximum scale-out capabilities.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You would only select an Isolated service plan when you have a specific requirement for the highest levels of security and performance.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Isolate your app into a new App Service plan when:</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The app is resource-intensive</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You want to scale the app independently from the other apps in the existing plan</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The app needs resources in a different geographical region</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Your App Service plan can be scaled up and down at any time.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You can choose a lower pricing tier at first and scale up later when you need more App Service features.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Specify the resource group</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>A resource group is a logical container into which Azure resources like web apps, databases, and storage accounts are deployed and managed.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>It is a mechanism for organizing resources for the purpose of management, monitoring and billing.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>You can use an existing resource group or create one directly from Visual Studio.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,147 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-create-tables-perform-queries.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-create-tables-perform-queries.b31b6d1554f6983be6772253a486d960734a04ee.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a2fff62c92569241c7e88552eb4da75a305dc676</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\databricks\understand-the-sql-dw-connector-with-azure-databricks\includes\5-create-tables-perform-queries.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll learn how to create distributed tables in SQL Data Warehouse.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>After you create the tables, you'll use Azure Data Studio to run some queries against them.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Create distributed tables</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SQL Data Warehouse divides your data into 60 databases.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Each individual database is called a <bpt id="p1">*</bpt>distribution<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>After you've loaded data into each table, SQL Data Warehouse has to know how to divide the data across these 60 distributions.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The distribution method is defined at the table level.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>There are three choices:</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Replicated<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The replicated table is fully copied to a distribution database on each Compute node.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Replicating a table removes the need to transfer data among Compute nodes before a join or aggregation.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Replicated tables are feasible only with small tables because of the extra storage required to store the full table on each Compute node.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Round robin<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Data is distributed evenly but randomly.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Hash distributed<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Data is distributed based on hashing values from a single column.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>By default, when you don't define a data distribution method, your table will use the round robin distribution method.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>As you become more sophisticated in your implementation, you'll want to consider using hash distributed tables to minimize data movement, which will in turn optimize query performance.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Create distributed tables that use the hash distributed method</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Open Azure Data Studio.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Go to the <bpt id="p1">**</bpt>Servers<ept id="p1">**</ept> list in the menu on the left side of Azure Data Studio.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Right-click the connection you made to the SQL Data Warehouse database and select <bpt id="p1">**</bpt>New Query<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Right-click the SQL Data Warehouse connection and select New Query</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Run these statements in the new query window to create a hash distributed table:</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In this <ph id="ph1">`CREATE TABLE`</ph> statement:</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`[dbo]`</ph> is the schema name.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`[EmployeeBasic]`</ph> is the table name.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`[EmployeeID], [EmployeeName] ... [BloodGroup]`</ph> are column definitions.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`WITH`</ph> clause defines one-to-many table options.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`CLUSTERED COLUMNSTORE INDEX`</ph> is a table structure option.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>It stores the table as a clustered columnstore index in which all data is compressed and stored by column.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Clustered columnstore index is the default structure for SQL Data Warehouse and applies to all table data.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`DISTRIBUTION = HASH`</ph> ( <bpt id="p1">*</bpt><ph id="ph2">`distribution_column_name`</ph><ept id="p1">*</ept> ) assigns each row to one distribution by hashing the value stored in <ph id="ph3">`distribution_column_name`</ph>.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The algorithm is deterministic, which means it always hashes the same value to the same distribution.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The  distribution column should be defined as <ph id="ph1">`NOT NULL`</ph> because all rows with <ph id="ph2">`NULL`</ph> will be assigned to the same distribution.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Create distributed tables that use the round robin method</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Run this statement in a new query window to create a round robin distributed table:</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`DISTRIBUTION = ROUND_ROBIN`</ph> distributes the rows evenly across all distributions in a round robin fashion.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>That is, there's no sorting done during the round robin process, which places your data.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This is the default distribution for SQL Data Warehouse.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Create a replicated table</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Run this statement in a new query window to create a replicated table.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Make sure SQL Data Warehouse is selected as target database in the query window.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Query SQL Data Warehouse</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Now we'll use Azure Data Studio to perform some queries against your data warehouse.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Create a table that uses the hash distribution method</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Create a table named <bpt id="p1">**</bpt>EmployeeBasic<ept id="p1">**</ept> that uses the hash distribution method, if you haven't created it in the previous section.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Create another table named <bpt id="p1">**</bpt>EmployeeRemuneration<ept id="p1">**</ept> that uses the hash distribution method:</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Create EmployeeRemuneration table</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Insert rows in both tables</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Clear the query window and run these INSERT statements to insert records in the <bpt id="p1">**</bpt>EmployeeBasic<ept id="p1">**</ept> table:</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>You should see six messages that state <ph id="ph1">`(1 row affected)`</ph>.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Insert rows into the EmployeeBasic table</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Insert a few rows into the EmployeeRemuneration table.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Run these INSERT statements:</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Run some basic queries</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Select all the rows of the <bpt id="p1">**</bpt>EmployeeBasic<ept id="p1">**</ept> table with all details:</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Select all the details of employees who were born in the year 1996:</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Select all the rows of the <bpt id="p1">**</bpt>EmployeeRemuneration<ept id="p1">**</ept> table with all details:</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Sort all employees by name:</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Sort all employees in <ph id="ph1">`[dbo].[EmployeeRemuneration]`</ph> by salary:</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Run some queries that use aggregation</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Select the sum of all the salaries in each department:</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Select the average of all the salaries in each department:</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Select the maximum of all the salaries in each department:</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Select the minimum of all the salaries in each department:</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Select the number of employees in each department:</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Run join queries</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Join the tables <bpt id="p1">**</bpt>EmployeeBasic<ept id="p1">**</ept> and <bpt id="p2">**</bpt>EmployeeRemuneration<ept id="p2">**</ept> using the key <bpt id="p3">**</bpt>EmployeeID<ept id="p3">**</ept>, and select <bpt id="p4">**</bpt>EmployeeID<ept id="p4">**</ept>,  <bpt id="p5">**</bpt>EmployeeName<ept id="p5">**</ept>, <bpt id="p6">**</bpt>EmployeeDesignation<ept id="p6">**</ept>, and <bpt id="p7">**</bpt>Salary<ept id="p7">**</ept>.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Use aggregations with join operations</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Get details about all employees who receive the maximum salary in their department:</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Select the second highest salary in each department.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>If there's only one employee in any department, return that employee's salary.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,67 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-knowledge-check.73d7368ee26ae670f9cf8b8cf76f40578b0b83eb.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">527d27ba9793c1d4fd4c695bf182c1bc059fad04</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\databricks\perform-model-training-evaluation-and-selection-with-azure-databricks\4-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>Test your knowledge by answering questions about skills you learned from the lab.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>Which of these descriptions best matches the purpose of training data?</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>A subset of the data that's used to test what the algorithm has learned.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>Testing the algorithm isn't the purpose of training data.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>The dataset used in its entirety to teach the algorithm.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>Only a subset of the complete dataset should be used for training data.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>A subset of the data that's used to teach the algorithm.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>This subset is the data that the algorithm will learn from.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>What's the likely cause when a supervised model makes predictions perfectly against all the training data but fails against new data?</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>Overfitting</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>Overfitting occurs when the model has effectively memorized the answers for the data that it's seen but hasn't learned to make predictions against data that it hasn't yet seen.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>Underfitting</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>Underfitting results in poor performance against both training data and data the model hasn't seen yet.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>What's used to guide the improvement of the model during model training?</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>Plotting the error</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>While plotting the error can be helpful to understanding the model's performance, it isn't what's ultimately used to train the model.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>Regression</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>Regression is a type of algorithm, not an approach used for model training.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>Minimizing the error</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>Supervised models use different variants of error calculations during training to find the coefficients that minimize the error observed between the prediction and the value expected from the training data.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>Which of these descriptions best summarizes the difference between regression and classification?</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>Regression predicts numeric outcomes, and classification predicts labels.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>Regression outputs numeric values, and classification outputs categories.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>Regression predicts a binary outcome.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>The output of regression is the prediction of a numeric outcome.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>Classification predicts a binary label.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn.performing-model-training-evaluation-and-selection-with-azure-databricks.4-knowledge-check">
+          <source>Classification algorithms can predict binary labels but can also be used to predict multiple labels.</source>
+        </trans-unit></group></body></file></xliff>

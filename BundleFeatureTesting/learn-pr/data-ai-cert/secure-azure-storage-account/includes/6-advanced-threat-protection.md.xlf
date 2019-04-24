@@ -1,0 +1,33 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-advanced-threat-protection.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-advanced-threat-protection.ae89b50a9bcd4686ba585a138628978b5ade4195.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4f0627952377ddd0b19983ea05ebb5d01b3958a5</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\secure-azure-storage-account\includes\6-advanced-threat-protection.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Detecting threats to your data is an important part of security.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You can check an audit trail for all activity against a storage account.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>But that will often only show you that an intrusion <bpt id="p1">_</bpt>has already occurred<ept id="p1">_</ept>.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>What you really want is a way to be notified when suspicious activity is happening.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>That's where the Advanced Threat Protection feature in Azure Storage can help.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Advanced Threat Protection, now in public preview, detects anomalies in account activity.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>It then notifies you of potentially harmful attempts to access your account.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You don't have to be a security expert or manage security monitoring systems to take advantage of this layer of threat protection.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Currently, Advanced Threat Protection for Azure Storage is available for the Blob service.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Security alerts are integrated with Azure Security Center.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The alerts are sent by email to subscription admins.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In the Azure portal, you can turn on threat protection on the configuration page of the Azure Storage account.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Advanced Threat Protection<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Turn <bpt id="p1">**</bpt>ON<ept id="p1">**</ept> Advanced Threat Protection.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> to save the Advanced Threat Protection policy.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Screenshot showing how to enable Advanced Threat Protection (preview)</source>
+        </trans-unit></group></body></file></xliff>

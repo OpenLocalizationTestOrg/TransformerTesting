@@ -1,0 +1,85 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-access-an-api-with-a-logic-apps-custom-connector.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-access-an-api-with-a-logic-apps-custom-connector.52b5a7ae05f04eb2f3933c6ede32734c9f723750.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0d23f4614d0bb43c66a3507eb5c3eece3e8f7200</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\logic-apps-and-custom-connectors\includes\4-access-an-api-with-a-logic-apps-custom-connector.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>As the lead developer for a print framing company, you want to call an in-house Web API from a Logic Apps workflow.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The API calculates a price for a picture frame, based on the dimensions of the frame.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>To access the API from your Logic Apps workflow, you'll need to first create a custom connector.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll learn how to create and use custom connectors within a Logic App.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Why custom connectors?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Sometimes pre-built connectors are not enough to satisfy your workflow scenario.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If you have in-house, custom, or less-known API you want to call from your workflow, the out-of-the-box connectors you get with Logic Apps won't help.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You must create a connector that describes that API.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Include Triggers when you want the Logic App to respond to an event in that API.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Include Actions when you want the Logic App to make a call to that API.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Describing a Web API for a custom connector</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can create a custom connector in the Azure portal and reference the target API.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The API must describe itself to the custom connector, so that the connector can present the right methods and parameters to Logic Apps.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In the Web API, you can implement this description by using an <bpt id="p1">**</bpt>OpenAPI<ept id="p1">**</ept> definition or a <bpt id="p2">**</bpt>Postman<ept id="p2">**</ept> collection.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Let's examine these two methods of describing an API a little further.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Postman<ept id="p1">**</ept> is an app that requires you to provide the request URL and any authentication needed.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You also specify the API Key and the content type along with the definition of the request body in JSON format.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When you send the request from Postman, the API returns a response.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Postman uses the response to generate a collection.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can export the collection and use it to describe the API to a custom connector.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">**</bpt>OpenAPI<ept id="p1">**</ept> definition file is a JSON file that lists the API's methods, parameters, and outputs.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In .NET, you can create an OpenAPI file by adding the <bpt id="p1">**</bpt>Swashbuckle<ept id="p1">**</ept> NuGet package to your API's project.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Then, add the code below to the Web API's source code.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Startup.cs<ept id="p1">**</ept> file, add a <ph id="ph1">`using`</ph> statement for Swashbuckle:</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Then add this code to the <bpt id="p1">**</bpt>ConfigureServices<ept id="p1">**</ept> method:</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Finally, add this code to the <bpt id="p1">**</bpt>Configure<ept id="p1">**</ept> method:</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>When this code is deployed, it installs the Swagger UI, which is a web page that you can use to test your Web API methods.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>It also generates and publishes a JSON file, compliant with the OpenAPI standard, that describes your API.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You can download that file and use it to create a custom connector in Logic Apps.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In the previous exercise, you deployed a pre-built Web API to Azure.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This included the above Swagger code by default.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>In the next exercise, you will upload the OpenAPI file that Swagger creates, to the custom connector.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>How to create a custom connector in the Azure portal</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Once you have implemented Postman or OpenAPI, you can build custom connectors in the Azure portal in this way:</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Create a new Logic Apps custom connector resource.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Upload the Postman collection or OpenAPI definition file.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Upload an OpenAPI file for a custom connector</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Use the configuration wizard to complete the connector.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For example, you can configure the title of the connector users will see in the Logic Apps designer, add descriptions to help Logic Apps developers to use the connector correctly, and configure secure connections.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Save your new connector.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You can now add the connector to Logic Apps.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You will create a connector in the next exercise.</source>
+        </trans-unit></group></body></file></xliff>

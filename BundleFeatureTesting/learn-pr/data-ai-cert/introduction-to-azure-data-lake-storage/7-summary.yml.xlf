@@ -1,0 +1,45 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-summary.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-summary.12a7899e700374a7564bdea8312a3f11c63ac73c.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4b989b3a9a492e12819f57db9ed115e0887be4a8</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\introduction-to-azure-data-lake-storage\7-summary.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.data-ai-introduction-to-azure-data-lake-storage.summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.data-ai-introduction-to-azure-data-lake-storage.summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.data-ai-introduction-to-azure-data-lake-storage.summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.data-ai-introduction-to-azure-data-lake-storage.summary">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.data-ai-introduction-to-azure-data-lake-storage.summary">
+          <source>Mike is creating an Azure Data Lake Storage Gen2 account.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.data-ai-introduction-to-azure-data-lake-storage.summary">
+          <source>He must configure this account to be able to processes analytical data workloads for best performance.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.data-ai-introduction-to-azure-data-lake-storage.summary">
+          <source>Which option should he configure when creating the storage account?</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.data-ai-introduction-to-azure-data-lake-storage.summary">
+          <source>On the <bpt id="p1">**</bpt>Basic<ept id="p1">**</ept> tab, set the <bpt id="p2">**</bpt>Performance<ept id="p2">**</ept> option to <bpt id="p3">**</bpt>Standard<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.data-ai-introduction-to-azure-data-lake-storage.summary">
+          <source>The <bpt id="p1">**</bpt>Performance<ept id="p1">**</ept> option determines the types of physical storage that the storage account will use.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.data-ai-introduction-to-azure-data-lake-storage.summary">
+          <source>On the <bpt id="p1">**</bpt>Basic<ept id="p1">**</ept> Tab, set the <bpt id="p2">**</bpt>Performance<ept id="p2">**</ept> option to <bpt id="p3">**</bpt>ON<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.data-ai-introduction-to-azure-data-lake-storage.summary">
+          <source>The <bpt id="p1">**</bpt>Performance<ept id="p1">**</ept> option set to <bpt id="p2">**</bpt>ON<ept id="p2">**</ept> is not a valid configuration.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.data-ai-introduction-to-azure-data-lake-storage.summary">
+          <source>On the <bpt id="p1">**</bpt>Advanced<ept id="p1">**</ept> tab, set the <bpt id="p2">**</bpt>Hierarchical Namespace<ept id="p2">**</ept> to <bpt id="p3">**</bpt>Enabled<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.data-ai-introduction-to-azure-data-lake-storage.summary">
+          <source>Correct!</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.data-ai-introduction-to-azure-data-lake-storage.summary">
+          <source>If you want to enable the best performance for analytical workloads in Data Lake Storage Gen2, then on the <bpt id="p1">**</bpt>Advanced<ept id="p1">**</ept> tab of the Storage Account creation set the <bpt id="p2">**</bpt>Hierarchical Namespace<ept id="p2">**</ept> to <bpt id="p3">**</bpt>Enabled<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.data-ai-introduction-to-azure-data-lake-storage.summary">
+          <source>In which phase of big data processing is Azure Data Lake Storage located?</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.data-ai-introduction-to-azure-data-lake-storage.summary">
+          <source>Ingestion</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.data-ai-introduction-to-azure-data-lake-storage.summary">
+          <source>Ingestion is the phase that typically includes technologies for ingesting data from a source such as Azure Data Factory.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.data-ai-introduction-to-azure-data-lake-storage.summary">
+          <source>Store</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.data-ai-introduction-to-azure-data-lake-storage.summary">
+          <source>Correct!</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.data-ai-introduction-to-azure-data-lake-storage.summary">
+          <source>Store is the phase in which Azure Data Lake Storage resides for processing big data solution.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.data-ai-introduction-to-azure-data-lake-storage.summary">
+          <source>Model &amp; Serve</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.data-ai-introduction-to-azure-data-lake-storage.summary">
+          <source>Model &amp; Serve is the phase that includes technologies for presenting data for end users such as Power BI.</source>
+        </trans-unit></group></body></file></xliff>

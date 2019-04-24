@@ -1,0 +1,57 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-knowledge-check.a13da8d17284a0159a044fdc669419352f6527d2.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8c3100193e7d2c4d1bd298aab78dc5f744c48cc9</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\welcome-to-azure\7-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.welcome-to-azure.7-knowledge-check">
+          <source>Knowledge Check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.welcome-to-azure.7-knowledge-check">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.welcome-to-azure.7-knowledge-check">
+          <source>Review what you've learned</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.welcome-to-azure.7-knowledge-check">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.welcome-to-azure.7-knowledge-check">
+          <source>What is Azure?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.welcome-to-azure.7-knowledge-check">
+          <source>Microsoft's cloud computing platform, which provides compute power, storage, and services over the Internet using a pay-as-you-go pricing model.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.welcome-to-azure.7-knowledge-check">
+          <source>Azure provides raw compute power and storage, as well as services to help you explore new software paradigms such as intelligent bots and mixed reality.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.welcome-to-azure.7-knowledge-check">
+          <source>A single data center located in Redmond, Washington.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.welcome-to-azure.7-knowledge-check">
+          <source>Azure is made up of data centers distributed throughout the world.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.welcome-to-azure.7-knowledge-check">
+          <source>A hosting environment specifically for virtual machines</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.welcome-to-azure.7-knowledge-check">
+          <source>While Azure provides raw compute power, such as virtual machines, it also provides many services to help you explore new software paradigms such as intelligent bots and mixed reality.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.welcome-to-azure.7-knowledge-check">
+          <source>Which of the following is an example of an Azure compute service?</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.welcome-to-azure.7-knowledge-check">
+          <source>Azure Virtual Machine</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.welcome-to-azure.7-knowledge-check">
+          <source>Azure Virtual Machines provide compute power and support both Windows and Linux operating systems.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.welcome-to-azure.7-knowledge-check">
+          <source>Azure Load Balancer</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.welcome-to-azure.7-knowledge-check">
+          <source>Azure Load Balancer provides networking capabilities to balance network traffic.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.welcome-to-azure.7-knowledge-check">
+          <source>Azure Table Storage</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.welcome-to-azure.7-knowledge-check">
+          <source>Azure Table Storage is a data storage model to store structured data.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.welcome-to-azure.7-knowledge-check">
+          <source>Azure Cache for Redis</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.welcome-to-azure.7-knowledge-check">
+          <source>Azure Cache for Redis is a caching storage technology to improve performance of servers.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.welcome-to-azure.7-knowledge-check">
+          <source>When should you <bpt id="p1">_</bpt>scale out<ept id="p1">_</ept> your deployment?</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.welcome-to-azure.7-knowledge-check">
+          <source>When your application or service requires a more powerful CPU or more memory to run faster.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.welcome-to-azure.7-knowledge-check">
+          <source>In this case, you might <bpt id="p1">_</bpt>scale up<ept id="p1">_</ept> by moving your application or service to more powerful hardware.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.welcome-to-azure.7-knowledge-check">
+          <source>When you need additional virtual machines to speed up your application.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.welcome-to-azure.7-knowledge-check">
+          <source>Scaling out means adding additional systems, such as virtual machines.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.welcome-to-azure.7-knowledge-check">
+          <source>For example, you might create many virtual machines configured in the same way and use a load balancer to distribute work across them.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.welcome-to-azure.7-knowledge-check">
+          <source>When you're using excess capacity that you don't need.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.welcome-to-azure.7-knowledge-check">
+          <source>In this case, you might <bpt id="p1">_</bpt>scale in<ept id="p1">_</ept> by tearing down systems you don't currently need.</source>
+        </trans-unit></group></body></file></xliff>

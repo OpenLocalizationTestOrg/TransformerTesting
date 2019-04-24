@@ -1,0 +1,111 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="8-summary.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8-summary.80461cb1c1e920281ef22e1ac043c83aa0546718.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6bf2bdc5e118d7a6014b7917cc3303b3a5793ddb</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-governance\8-summary.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Summary of Azure governance</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Review what you've learned and discover how to learn more.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>True or false: You can download published audit reports and other compliance-related information related to Microsoft’s cloud service from the Service Trust Portal</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>True</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>You can download published audit reports and other compliance-related information related to Microsoft’s cloud service from the Service Trust Portal.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>False</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>You can download published audit reports and other compliance-related information related to Microsoft’s cloud service from the Service Trust Portal.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Which Azure service allows you to configure fine-grained access management for Azure resources, enabling you to grant users only the rights they need to perform their jobs?</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Locks</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Locks help you prevent accidental deletion or modification of your Azure resources.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Policy</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>A policy definition expresses what to evaluate and what action to take.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>For example, you could prevent VMs from being deployed if they are exposed to a public IP address.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>You also could prevent a particular hard disk from being used when deploying VMs to control costs.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Initiatives</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Initiatives work alongside policies in Azure Policy.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>An initiative definition is a set of policy definitions to help track your compliance state for a larger goal.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Role-based Access Control</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Role-based access control is the correct answer.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Role-based access control (RBAC) provides fine-grained access management for Azure resources, enabling you to grant users only the rights they need to perform their jobs.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>RBAC is provided at no additional cost to all Azure subscriber.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Which Azure service allows you to create, assign, and, manage policies to enforce different rules and effects over your resources and stay compliant with your corporate standards and service-level agreements (SLAs)?</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Azure Policy</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Azure Policy is the correct answer.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Azure Policy is a service in Azure that you use to create, assign, and, manage policies.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>These policies enforce different rules and effects over your resources, so those resources stay compliant with your corporate standards and service-level agreements (SLAs).</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Azure Blueprints</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Azure Blueprints enables cloud architects to define a repeatable set of Azure resources that implement and adhere to an organization's standards, patterns, and requirements.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Azure Security Center</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Security Center provides analysis and details concerning security related issues.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Role-based Access Control</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Role-based access control (RBAC) provides fine-grained access management for Azure resources, enabling you to grant users only the rights they need to perform their jobs.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>RBAC is provided at no additional cost to all Azure subscriber.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Which of the following services provides up-to-date status information about the health of Azure services?</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Compliance Manager</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Compliance Manager enables you to track, assign, and verify your organization's regulatory compliance activities related to Microsoft professional services and Microsoft cloud services.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Azure Monitor</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Azure Monitor collects, analyzes, and provides actions on telemetry from your cloud and on-premises environments.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Service Trust Portal</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Service Trust Portal provides information about compliance with standards, laws, and regulations, in addition to hosting the Compliance Manager application.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Azure Service Health</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Azure Service Health is the correct answer, because it provides you with a global view of the health of Azure services.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>With Azure Status, a component of Azure Service Health, you can get up-to-the-minute information on service availability.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Where can you obtain details about the personal data Microsoft processes, how Microsoft processes it, and for what purposes?</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Microsoft Privacy Statement</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Microsoft Privacy Statement is the correct answer.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Compliance Manager</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Compliance Manager enables you to track, assign, and verify your organization's regulatory compliance activities related to Microsoft professional services and Microsoft cloud services.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Azure Service Health</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Azure Service Health will provide you with a global view of the health of your Azure services.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Trust Center</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Trust Center has some of this data, but it's not the definitive source.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve" uid="learn.intro-to-compliance.8-summary">
+          <source>Trust Center provides you with information about security, compliance, privacy, and transparency options available from Microsoft.</source>
+        </trans-unit></group></body></file></xliff>

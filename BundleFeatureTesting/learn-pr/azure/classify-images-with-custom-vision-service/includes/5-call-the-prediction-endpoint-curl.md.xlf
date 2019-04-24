@@ -1,0 +1,83 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-call-the-prediction-endpoint-curl.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-call-the-prediction-endpoint-curl.15513ceb3ee66951cbdf3b2ec9dc2635c57bcf42.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">020d2943240e410dc96c11776dab26df4a3cc414</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\classify-images-with-custom-vision-service\includes\5-call-the-prediction-endpoint-curl.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In the last exercise, we tested our trained model using the <bpt id="p1">**</bpt>Quick Test<ept id="p1">**</ept> feature of the Custom Vision Service portal.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This is a great way to quickly check the accuracy of the model with some test images.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Let's go a little further and make calls to the prediction endpoint of our model over HTTP.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Returning to your <bpt id="p1">**</bpt>Artworks<ept id="p1">**</ept><ph id="ph1">\*</ph> project in the Custom Vision Service portal, select the  <bpt id="p2">**</bpt>Performance<ept id="p2">**</ept> tab.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Screenshot of the top bar of the Artworks project with the Performance tab highlighted</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Publish<ept id="p1">**</ept> to publish the latest iteration.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Prediction URL<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This displays a dialog of the information we need to make our calls.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Screenshot of the prediction url dialog box showing the detailed information on how to use prediction API when you have image URL and when you have image file</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>As the dialog shows, we can call the prediction endpoint and pass it an image URL.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>We can also pass a raw image to the endpoint in the body of the request.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Take note of three pieces of information from this dialog.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Prediction-Key<ept id="p1">**</ept>: This key has to be set as a header in all requests.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>That's what gives us access to the endpoint.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Request URL<ept id="p1">**</ept>: The dialog shows two different URLs.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If we're posting an image URL, then use the first URL, which ends in <ph id="ph1">`/url`</ph>.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If we want to post a raw image in the body of our request, we use the second URL, which ends in <ph id="ph1">`/image`</ph>.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Content-Type<ept id="p1">**</ept>: If we're posting a raw image, we set the body of the request to the binary representation of the image and the content type to <ph id="ph1">`application/octet-stream`</ph>.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If we're posting an image URL, we put that as JSON in the body and set the content type to <ph id="ph1">`application/json`</ph>.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Copy and save the first URL and the <ph id="ph1">`Prediction-Key`</ph> value from the <bpt id="p1">**</bpt>How to use the Prediction API<ept id="p1">**</ept> dialog.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>cURL<ept id="p1">**</ept> is a command line tool that can be used to send or receive files.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>It's included with Linux, macOS, and Windows 10, and can be downloaded for most other operating systems.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>cURL supports numerous protocols like HTTP, HTTPS, FTP, FTPS, SFTP, LDAP, TELNET, SMTP, POP3, etc. For more information, refer to the links below:</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>cURL is already installed in the Azure Cloud Shell in the sandbox.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>So, we'll cURL in this exercise to make HTTP calls to our endpoint.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Execute the following command in the Cloud Shell.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Replace <bpt id="p1">**</bpt>[endpoint-URL]<ept id="p1">**</ept> with the URL you saved from the last step.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Replace <bpt id="p1">**</bpt>[Prediction-Key]<ept id="p1">**</ept> with the value of <ph id="ph1">`Prediction-Key`</ph> you saved from the last step.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>When the command completes, you'll see a JSON response similar to the following screenshot.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The API returns a probability for every tag in the model.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>As you can see, with a probability close to 1 for the <ph id="ph1">`"painting"`</ph> <bpt id="p1">**</bpt>tagName<ept id="p1">**</ept> value, this image is definitely a painting.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>However, it's not a painting by any of the artists with which we trained our model.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Screenshot of a JSON response showing probability for each tag</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Try more predictions by replacing the URL in the request body above, with the URLs in the following table.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Image</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>URL</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Thumbnail of test picasso image</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Thumbnail of test rembrandt image</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Thumbnail of test pollock image</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Our prediction endpoint is working as expected.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Calling the API is as simple as making a HTTP request to the endpoint with a Prediction-Key and an image URL.</source>
+        </trans-unit></group></body></file></xliff>

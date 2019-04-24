@@ -1,0 +1,69 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-summary.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-summary.54e1dde7471ab96fe2067a2ceecf2470922023ca.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3ae1efdb872a7ade684ee7a418a51d03b502b30e</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\provision-and-use-azure-dsvm\6-summary.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>What method did we use to log into a Windows-Based Data Science VM?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>Remote Desktop Protocol (RDP)</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>This is correct.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>A step by step walk through explains all the steps to connect to a Windows-based DSVM.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>HTTP</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>That is not correct.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>HTTP is not a method used to log into a DSVM.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>ODBC</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>This is not correct.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>ODBC is not a method used to log into a DSVM.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>What development environment has pre-loaded sample code available?</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>PyCharm</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>That is not correct.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>PyCharm was not discussed in the module.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>Zeppelin Notebook</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>That is not correct.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>Zeppelin Notebook was not discussed in the module.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>Jupyter Notebook</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>That is correct.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>We showed that many sample notebooks are installed that demonstrate how to use Microsoft Machine Learning technologies.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>What type of Jupyter Notebook cell is used to provide annotations?</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>Code cell</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>That is not correct.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>Code cells contain programming code to be executed.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>Markdown cell</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>That is correct.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>Markdown support rich formatting and is ideal for adding comments and annotations to your notebooks.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>Raw cell</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>That is not correct.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve" uid="learn.data-ai.provision-and-use-azure-dsvm.summary">
+          <source>Raw cells are used to support formatting output when using the NBConvert program.</source>
+        </trans-unit></group></body></file></xliff>

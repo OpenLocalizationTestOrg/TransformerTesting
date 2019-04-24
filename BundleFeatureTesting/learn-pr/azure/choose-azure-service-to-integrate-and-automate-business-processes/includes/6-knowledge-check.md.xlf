@@ -1,0 +1,47 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-knowledge-check.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-knowledge-check.57af33e81a2ea1d498cf3bf8e64a2ee06d815dc7.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b29f49038b12ef8fd768eff93474acf7eed55bf0</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\choose-azure-service-to-integrate-and-automate-business-processes\includes\6-knowledge-check.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Read the following scenarios and then answer the following questions:</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Scenario 1 - TV Adverts</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You work for a company that makes TV adverts.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You want to formalize two business processes:</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>The advert review process.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A completed advert is put through this editorial process to ensure that it meets the standards of taste, decency, grammar, style, and legal requirements in the jurisdiction where it will be broadcast.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>The feedback collection process.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>A completed advert is also put through this process in which  customers, the director, and members of the board of directors, can give feedback.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The advert review process should be managed by members of the creative team, because it will need to change regularly.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The creative team would prefer not to have to wait for a developer to become available whenever a change is needed.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The feedback collection process calls an on-premises SharePoint server.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Because this server is not as reliable as a cloud-based server would be, developers want to carefully control the way the workflow retries this connection, if there is a failure.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Scenario 2 - Camera Company Merger</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You work for a company that makes digital cameras.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The company has recently acquired a smaller company that makes lenses.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You want to ensure that the same procedures are in use throughout the company for the following processes:</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Lens quality control.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The company you acquired has a good reputation for lens reliability because of its quality control procedure.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You want to implement this procedure across the merged company and integrate it with your parts ordering system, which includes a REST API.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Ordering and dispatch.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The company you acquired had no formal order and dispatch procedure, so you want to ensure its employees use your original business procedure.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The ordering system has a user interface that is built as an Azure App service web app but you want to manage the order and dispatch workflow as a separate project.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You have hired a small team of developers to the work and you prefer a design-first approach.</source>
+        </trans-unit></group></body></file></xliff>

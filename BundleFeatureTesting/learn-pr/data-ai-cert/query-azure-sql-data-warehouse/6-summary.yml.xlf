@@ -1,0 +1,57 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-summary.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-summary.048c70a80ed0320fbb4b149ade2ef45b74d3889d.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">14e3b68ce4742a733c59a3e9eb690233dc1ef618</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\query-azure-sql-data-warehouse\6-summary.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.data-ai.query-azure-sql-data-warehouse.summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.data-ai.query-azure-sql-data-warehouse.summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.data-ai.query-azure-sql-data-warehouse.summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.data-ai.query-azure-sql-data-warehouse.summary">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.data-ai.query-azure-sql-data-warehouse.summary">
+          <source>What is the default port that's used to connect to an Azure SQL Server data warehouse?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.data-ai.query-azure-sql-data-warehouse.summary">
+          <source>TCP port 1344</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.data-ai.query-azure-sql-data-warehouse.summary">
+          <source>This answer is incorrect.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.data-ai.query-azure-sql-data-warehouse.summary">
+          <source>The default port that's used to connect to an Azure SQL Server data warehouse is TCP port 1433.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.data-ai.query-azure-sql-data-warehouse.summary">
+          <source>UDP port 1433</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.data-ai.query-azure-sql-data-warehouse.summary">
+          <source>This answer is incorrect.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.data-ai.query-azure-sql-data-warehouse.summary">
+          <source>The default port that's used to connect to an Azure SQL Server data warehouse is TCP port 1433.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.data-ai.query-azure-sql-data-warehouse.summary">
+          <source>TCP port 1433</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.data-ai.query-azure-sql-data-warehouse.summary">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.data-ai.query-azure-sql-data-warehouse.summary">
+          <source>The default port that's used to connect to an Azure SQL Server data warehouse is TCP port 1433</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.data-ai.query-azure-sql-data-warehouse.summary">
+          <source>The following query is used to retrieve the sales by business reseller, but the performance of the query is slow.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.data-ai.query-azure-sql-data-warehouse.summary">
+          <source>The query is as follows: SELECT S.[SalesAmount] AS [Sales], R.[BusinessType],R.[ResellerName] FROM [FactResellerSales] AS S JOIN [DimReseller] AS R ON S.[ResellerKey] = R.[ResellerKey].</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.data-ai.query-azure-sql-data-warehouse.summary">
+          <source>The tables referenced within the query are configured with a distribution of Round_Robin with a clustered columnstore index.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.data-ai.query-azure-sql-data-warehouse.summary">
+          <source>The data engineer wants to improve the performance of the query.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.data-ai.query-azure-sql-data-warehouse.summary">
+          <source>What operation can be used to improve the performance of the query?</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.data-ai.query-azure-sql-data-warehouse.summary">
+          <source>Remove the CLUSTERED COLUMNSTORE INDEX for both tables.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.data-ai.query-azure-sql-data-warehouse.summary">
+          <source>This answer is incorrect.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.data-ai.query-azure-sql-data-warehouse.summary">
+          <source>Removing the CLUSTERED COLUMNSTORE INDEX for both tables reduces the performance of this query.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.data-ai.query-azure-sql-data-warehouse.summary">
+          <source>Change the Distribution to HASH(GeographyKey) for both tables.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.data-ai.query-azure-sql-data-warehouse.summary">
+          <source>This answer is incorrect.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.data-ai.query-azure-sql-data-warehouse.summary">
+          <source>Placing Hash distribution on the GeographyKey on both the FactResellerSales and DimReseller won't help the performance of this query.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.data-ai.query-azure-sql-data-warehouse.summary">
+          <source>Change the Distribution to HASH(ResellerKey) for both tables.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.data-ai.query-azure-sql-data-warehouse.summary">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.data-ai.query-azure-sql-data-warehouse.summary">
+          <source>Placing Hash distribution on the ResellerKey on both the FactResellerSales and DimReseller improves the performance of the query.</source>
+        </trans-unit></group></body></file></xliff>

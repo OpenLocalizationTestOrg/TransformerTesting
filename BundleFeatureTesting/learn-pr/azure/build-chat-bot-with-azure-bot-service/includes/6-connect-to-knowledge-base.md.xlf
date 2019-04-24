@@ -1,0 +1,85 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-connect-to-knowledge-base.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-connect-to-knowledge-base.3f0d9ab4aca2f03ff55ad48ce29fcf1ae568f94b.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b243bfcd008f40878ce36b1e2adfc722ec3dd74e</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\build-chat-bot-with-azure-bot-service\includes\6-connect-to-knowledge-base.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this unit, you will connect your bot to the QnA Maker knowledge base you built earlier so that the bot can carry on an intelligent conversation.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Connecting to the knowledge base involves retrieving some information from the QnA Maker portal, copying it into the Azure portal, updating the bot code, and then redeploying the bot to Azure.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Connect the Factbot Knowledge Base to your Web App bot</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Open the QnA Maker portal at <ph id="ph1">&lt;https://www.qnamaker.ai&gt;</ph> in the browser and select the account/profile button in the upper-right corner.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Service Settings<ept id="p1">**</ept> from the menu that drops down.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Show<ept id="p1">**</ept> to show the <bpt id="p2">**</bpt>Primary<ept id="p2">**</ept> endpoint key and <bpt id="p3">**</bpt>Copy<ept id="p3">**</ept> to copy it to the clipboard.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Paste it into a text file, so you can easily retrieve it in a moment.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If you don't see any settings keys, sign out and back in to refresh the page.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Depending on your browser settings, you may need to allow third-party cookies to complete this unit.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>My knowledge bases<ept id="p1">**</ept> in the menu at the top of the page.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>View Code<ept id="p1">**</ept> for the knowledge base that you created earlier.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Copy<ept id="p1">**</ept> button to copy the defaults and paste it into an editor.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Save off the knowledge base ID from the first line and the host name from the second line.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Do not<ept id="p1">**</ept> include the "https://" prefix in the host name that you copy.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Screenshot of the QnA Maker portal showing the Sample HTTP Request with the endpoint knowledge base ID and host name highlighted.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Return to the Web App Bot in the Azure portal.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Application settings<ept id="p1">**</ept> in the menu on the left, and scroll down until you find application settings named "QnAKnowledgebaseId," "QnAAuthKey," and "QnAEndpointHostName."</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Show Values<ept id="p1">**</ept> to display editable fields.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Paste the knowledge base ID and host name you just obtained and the endpoint key obtained previously into these fields.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> at the top of the window to persist your changes.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Azure portal showing the bot blade and Application Settings details with the Application Settings menu item and appropriate setting keys highlighting.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Setup the Bot service code</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Switch to <bpt id="p1">**</bpt>Visual Studio Code<ept id="p1">**</ept> and replace the contents of <bpt id="p2">**</bpt>app.js<ept id="p2">**</ept> with the code below.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Then, save the file.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The call to create a <ph id="ph1">`QnAMakerDialog`</ph> instance on line 30.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This creates a dialog that integrates a bot built with the Azure Bot Service with a knowledge base built via Microsoft QnA Maker.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Publish the bot code</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Source Control<ept id="p1">**</ept> button in the activity bar in Visual Studio Code.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Hover over the <bpt id="p1">**</bpt>app.js<ept id="p1">**</ept> file and select the <bpt id="p2">__</bpt><ph id="ph1">+</ph><ept id="p2">__</ept> button to stage that file's changes for the next commit.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Type "Connected to knowledge base" into the message box, and select the check mark to commit your changes.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If you see changes to a <bpt id="p1">**</bpt>package.json<ept id="p1">**</ept> file ensure you do NOT include them in your commit.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Your commit should only include your changes to <bpt id="p1">**</bpt>app.js<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Then, select the ellipsis (<bpt id="p1">__</bpt>...<ept id="p1">__</ept>) button and use the <bpt id="p2">**</bpt>Publish Branch<ept id="p2">**</ept> command to push these changes to the remote repository and the Azure Web App.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Test the Azure Web App bot</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Return to the web app bot in the Azure portal, and select <bpt id="p1">**</bpt>Test in Web Chat<ept id="p1">**</ept> on the left to open the test console.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Type "What's the most popular software programming language in the world?"</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>into the box at the bottom of the chat window and press <bpt id="p1">**</bpt>Enter<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Confirm that the bot responds.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>In corporate environments, C# reigns supreme, where it’s used by over 75% of businesses worldwide.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Outside of corporate environments, Java and JavaScript still hold the numbers.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Congratulations!</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Your bot is connected to the knowledge base and can respond to questions.</source>
+        </trans-unit></group></body></file></xliff>

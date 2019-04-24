@@ -1,0 +1,73 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-summary.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-summary.0c441840d4698415e7b9037c12cfb27d74823a58.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1017eadcf79e2e6aa8224b195404f377e0f8eb4b</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\provision-azure-sql-db\5-summary.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>Summary and cleanup</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>Summary and cleanup</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>Summary and cleanup</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>Who's responsible for performing software updates on your Azure SQL databases and the underlying OS?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>You are.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>It's up to you to periodically log in and install the latest security patches and updates.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>Azure SQL databases are a Platform-as-a-Service (PaaS) offering, meaning much less maintenance to manage yourself.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>Microsoft Azure.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>Azure manages the hardware, software updates, and OS patches for you.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>Azure SQL databases are a Platform-as-a-Service (PaaS) offering.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>Azure manages the hardware, software updates, and OS patches for you.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>No one.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>Your database stays with its original OS and software configuration.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>Azure SQL databases are a Platform-as-a-Service (PaaS) offering.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>The cloud provider typically manages and updates PaaS services for you.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>What is an <bpt id="p1">_</bpt>Azure SQL logical server<ept id="p1">_</ept>?</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>An administrative container for your databases.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>You can control logins, firewall rules, and security policies through the logical server.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>Another name for an Azure SQL database instance.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>Remember that you can have multiple database instances.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>Is there a way to administer them collectively?</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>A server that defines the logical rules that sort and compare data.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source><bpt id="p1">_</bpt>Collation<ept id="p1">_</ept> refers to the rules that sort and compare data.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>Your Azure SQL database provides adequate storage and compute power.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>But you find that you need additional IO throughput.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>Which performance model might you use?</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>DTU</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>DTU, or Database Transaction Unit, provides a simple, preconfigured purchase option.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>To increase IO throughput, you would need to move to a higher tier that also increases your storage and compute power, things you don't need.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>vCore</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>vCore gives you greater control over what compute and storage resources you create and pay for.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>You can increase IO throughput but keep the existing amount of compute and storage.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>SQL elastic pool</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>SQL elastic pools enable you to buy a set of compute and storage resources that are shared among all the databases in the pool.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db.5-summary">
+          <source>This option won't help with IO performance because you're working with just one database.</source>
+        </trans-unit></group></body></file></xliff>

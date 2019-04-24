@@ -1,0 +1,37 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-identify-performance-bottlenecks-in-your-application.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-identify-performance-bottlenecks-in-your-application.28e9bf50cd2b92dc46c50322f983b8a2467f8ae3.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f301ea82e48b457408ddfe5f168239b2840fe86a</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\design-for-performance-and-scalability-in-azure\5-identify-performance-bottlenecks-in-your-application.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.5-identify-performance-bottlenecks-in-your-application">
+          <source>Identify performance bottlenecks in your application</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.5-identify-performance-bottlenecks-in-your-application">
+          <source>Identify performance bottlenecks in your application</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.5-identify-performance-bottlenecks-in-your-application">
+          <source>In this unit we'll discuss how to identify performance bottlenecks in your application</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.5-identify-performance-bottlenecks-in-your-application">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.5-identify-performance-bottlenecks-in-your-application">
+          <source>Which of the following best describes Application Insights?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.5-identify-performance-bottlenecks-in-your-application">
+          <source>A single view for all your monitoring needs in Azure</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.5-identify-performance-bottlenecks-in-your-application">
+          <source>While Application Insights can provide a wealth of data on your application performance, is it not a comprehensive Azure monitoring solution.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.5-identify-performance-bottlenecks-in-your-application">
+          <source>An implementation of the health endpoint monitoring pattern</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.5-identify-performance-bottlenecks-in-your-application">
+          <source>The health endpoint monitoring pattern focuses on monitoring endpoints exposed by your application for overall health.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.5-identify-performance-bottlenecks-in-your-application">
+          <source>A workspace to enable collection of logs across infrastructure and applications</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.5-identify-performance-bottlenecks-in-your-application">
+          <source>Log Analytics is a workspace that enables the collection of logs across infrastructure and applications.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.5-identify-performance-bottlenecks-in-your-application">
+          <source>A service to monitor availability, performance, and usage of web applications</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.5-identify-performance-bottlenecks-in-your-application">
+          <source>Application Insights is a service to monitor availability, performance, and usage of web applications.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.5-identify-performance-bottlenecks-in-your-application">
+          <source>True or false: Log Analytics tracks custom logs and metrics.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.5-identify-performance-bottlenecks-in-your-application">
+          <source>True</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.5-identify-performance-bottlenecks-in-your-application">
+          <source>For custom logs and metrics, you can use the HTTP Data Collector API to write data to Log Analytics from any REST API client or an Azure Logic App to write data from a custom workflow.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.5-identify-performance-bottlenecks-in-your-application">
+          <source>False</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.5-identify-performance-bottlenecks-in-your-application">
+          <source>For custom logs and metrics, you can use the HTTP Data Collector API to write data to Log Analytics from any REST API client or an Azure Logic App to write data from a custom workflow.</source>
+        </trans-unit></group></body></file></xliff>
