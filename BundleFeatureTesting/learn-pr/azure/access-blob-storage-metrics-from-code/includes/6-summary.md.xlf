@@ -1,0 +1,39 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-summary.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-summary.f77dff2f044e064feb12c0d3915135f15eaa55a8.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7d91e44381ada7824156a6a7cb9152db71d562c2</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\access-blob-storage-metrics-from-code\includes\6-summary.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this module, you learned about two different types of APIs that you can use in order to create applications that access the metrics which Azure Storage accounts send to Azure Monitor when you use Blob storage:</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The Azure Storage REST API is a web service that you can access through HTTP requests through port 80.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In unit 3, you learned how to use the <bpt id="p1">**</bpt>curl<ept id="p1">**</ept> tool to send such requests from the Cloud Shell and view the results.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In unit 5, you learned how to use the Azure Storage .NET API to make a similar request.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can use this API to interact with Azure Monitor and access storage metrics for display in mobile apps, web applications, and many other types of custom project.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Clean up</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>It's important that you clean up any unused resources.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You're charged for the configured capacity not how much of the database is used.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For this module, we make these resources available to you free of charge.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>But you should get into the habit of deleting resources when you're done with them.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Go to the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/)</ept>.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In the navigation menu on the left, click <bpt id="p1">**</bpt>Resource Groups<ept id="p1">**</ept>, and then click the resource group that you created as part of the optional exercise in unit 3.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> pane, click <bpt id="p2">**</bpt>Delete resource group<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Enter the name of the resource group that you created to confirm, and then click <bpt id="p1">**</bpt>Delete<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Learn More</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure Storage metrics in Azure Monitor<ept id="p1">](https://docs.microsoft.com/azure/storage/common/storage-metrics-in-azure-monitor)</ept></source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure Monitor SDK<ept id="p1">](https://www.nuget.org/packages/Microsoft.Azure.Management.Monitor/)</ept></source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure Monitor REST API Reference<ept id="p1">](https://docs.microsoft.com/rest/api/monitor/)</ept></source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure Storage Metrics Migration<ept id="p1">](https://docs.microsoft.com/azure/storage/common/storage-metrics-migration)</ept></source>
+        </trans-unit></group></body></file></xliff>

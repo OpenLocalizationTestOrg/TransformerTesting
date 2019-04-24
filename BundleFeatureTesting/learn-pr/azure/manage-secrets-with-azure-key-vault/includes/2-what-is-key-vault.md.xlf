@@ -1,0 +1,49 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-what-is-key-vault.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-what-is-key-vault.f76646e0c02a1c8ca83bd8c36baccd1e9042a97f.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">23c21c5a66e35549e0c05ba57e21c6092fdc9049</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\manage-secrets-with-azure-key-vault\includes\2-what-is-key-vault.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Azure Key Vault is a <bpt id="p1">*</bpt>secret store<ept id="p1">*</ept>: a centralized cloud service for storing application secrets.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Key Vault helps you control your applications' secrets by keeping them in a single central location and providing secure access, permissions control, and access logging.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The main benefits of using Key Vault are:</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Reduced risk of accidental secret leaks by storing secrets securely, outside of configuration and source control, and eliminating scenarios where secrets are copied around in files or pasted into emails or chats</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Restricted secret access with access policies tailored to the applications and individuals that need them</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Centralized secret storage, so that multiple users and instances of applications can access secret values that only need to be updated in one place</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Access logging and monitoring to help you understand how and when secrets are accessed</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Secrets are stored in individual <bpt id="p1">*</bpt>vaults<ept id="p1">*</ept>, which are Azure resources with their own configuration and security policies that you can create with any of the standard Azure management tools like the Azure portal or the Azure CLI.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Secret access and vault management is accomplished via a REST API, which is also supported by all of the Azure management tools as well as client libraries available for many popular languages.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Every vault has a unique URL where its API is hosted.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Key Vault is designed to store configuration secrets for server applications.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>It's not intended for storing data belonging to your app's users, and it shouldn't be used in the client-side part of an app.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This is reflected in its performance characteristics, API, and cost model.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>User data should be stored elsewhere, such as in an Azure SQL database with Transparent Data Encryption, or a storage account with Storage Service Encryption.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Secrets used by your application to access those data stores can be kept in Key Vault.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>What is a secret in Key Vault?</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In Key Vault, a secret is a name-value pair of strings.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Secret names must be 1-127 characters long, contain only alphanumeric characters and dashes, and must be unique within a vault.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A secret value can be any UTF-8 string up to 25 KB in size.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Secret names don't need to be considered especially secret themselves.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can store them in your app's configuration if your implementation calls for it.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The same is true of vault names and URLs.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Key Vault supports two additional kinds of secrets beyond strings <ph id="ph1">&amp;mdash;</ph> <bpt id="p1">*</bpt>keys<ept id="p1">*</ept> and <bpt id="p2">*</bpt>certificates<ept id="p2">*</ept> <ph id="ph2">&amp;mdash;</ph> and provides useful functionality specific to their use cases.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This module does not cover these features and concentrates on secret strings like passwords and connection strings.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,189 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-backup-and-restore.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-backup-and-restore.574d59a107a88bc1721f42e1bb3d9ccda6590d8f.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1212fcd0c62baebc33c08a4e14cc99e7c516042c</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\design-for-availability-and-recoverability-in-azure\includes\4-backup-and-restore.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Backup is the final and most powerful line of defense against permanent data loss.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>An effective backup strategy requires more than simply making copies of data.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>It needs to take your application's data architecture and infrastructure into consideration.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Your app may manage many kinds of data of varying importance, spread widely across filesystems, databases, and other storage services both in the cloud and on-premises.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Using the right services and products for the job will simplify your backup process and decrease recovery time if a backup needs to be restored.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Establish backup and restoration requirements</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>As with a disaster recovery strategy, backup requirements are based on a cost-benefit analysis.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Analysis of your app's data should be guided by the relative importance of the different categories of data the app manages, as well as external requirements, such as data retention laws.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To establish backup requirements for your app, group your application's data based on the following requirements:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>How much of this type of data can afford to be lost, measured in duration</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The maximum amount of time a restore of this type of data should require</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Backup retention requirements: how long and at what frequency do backups need to remain available</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>These concepts map neatly to the concepts of Recovery Point Objective and Recovery Time Objective (RPO and RTO).</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The duration of acceptable loss will generally translate directly to required backup intervals and RPO.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The maximum amount of time a restore takes corresponds to the RTO for the data component of your application.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Both requirements should be developed relative to the cost of achieving them.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Every organization would like to say that they truly can't afford to lose <bpt id="p1">*</bpt>any<ept id="p1">*</ept> data, but often that's not the case when the cost of achieving that requirement is considered.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Backup absolutely plays a role in disaster recovery (DR), but backups, restores and their associated scenarios extend beyond the scope of DR.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Backups may need to be restored in non-disaster situations, including those where RTO and RPO aren't of great concern.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For example, if a small amount of data older than your backup interval is corrupted or deleted, but the application doesn't experience downtime, your application may never be in danger of missing its SLA and a successful restore will result in no data lost.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Your disaster recovery plan may or may not include guidance on performing restores in non-disaster situations.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Don't confuse <bpt id="p1">*</bpt>archival<ept id="p1">*</ept>, <bpt id="p2">*</bpt>replication<ept id="p2">*</ept>, and <bpt id="p3">*</bpt>backup<ept id="p3">*</ept>.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Archival is the storage of data for long-term preservation and read access.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Replication is the near-real-time copying of data between replicas to support high availability and certain disaster recovery scenarios.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Some requirements, such as data retention laws, may influence your strategies for all three of these concerns.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Archival, replication, and backup all require separate analysis and implementation.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Azure backup and restore capabilities</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Azure offers several backup-related services and features for various scenarios, including data in Azure as well as on-premises data.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Most Azure services offer some kind of backup functionality.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Here, we'll look at a few of the most popular backup-related Azure offerings.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Azure Backup</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Azure Backup is a family of backup products that back up data to Azure Recovery Services vaults for storage and recovery.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Recovery Service vaults are storage resources in Azure that are dedicated to holding data and configuration backups for virtual machines, servers, and individual workstations and workloads.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Both Azure Backup and Azure Site Recovery use Azure Recovery Service vaults for storage.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Azure Backup is a general-purpose backup solution.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Azure Site Recovery can coordinate replication and failover and support low RPO and RTO disaster recovery operations.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Azure Backup serves as a general-purpose backup solution for cloud and on-premises workflows that run on VMs or physical servers.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>It's designed to be a drop-in replacement for traditional backup solutions that stores data in Azure instead of archive tapes or other local physical media.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Four different products and services can use Azure Backup to create backups:</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Backup Agent<ept id="p1">**</ept> is a small Windows application that backs up files, folders, and system state from the Windows VM or server on which it's installed.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>It works in a way that's similar to many consumer cloud-based backup solutions, but requires configuration of an Azure Recovery vault.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Once you download and install it onto a Windows server or VM, you can configure it to create backups up to three times a day.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>System Center Data Protection Manager<ept id="p1">**</ept> is a robust, fully featured, enterprise-level backup and recovery system.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Data Protection Manager is a Windows Server application that can back up filesystems and virtual machines (Windows and Linux), create bare-metal backups of physical servers, and perform application-aware backup of many Microsoft server products, such as SQL Server and Exchange.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Data Protection Manager is part of the System Center family of products and is licensed and sold with System Center, but it's considered part of the Azure Backup family because it can store backups in an Azure Recovery vault.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Backup Server<ept id="p1">**</ept> is similar to Data Protection Manager, but it's licensed as part of an Azure subscription and doesn't require a System Center license.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Azure Backup Server supports the same functionality as Data Protection Manager except for local tape backup and integration with the other System Center products.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure IaaS VM Backup<ept id="p1">**</ept> is a turnkey backup and restore feature of Azure Virtual Machines.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>VM backup supports once-per-day backups for Windows and Linux virtual machines.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>It supports recovery of individual files, full disks, and entire VMs, and can also perform application-consistent backups.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Individual applications can be made aware of backup operations and get their filesystem resources into a consistent state before the snapshot is taken.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>An illustration showing an Azure backup agent configured with recovery vault and an Azure virtual machine backup.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The backup agent and Azure virtual machine backup saves all the data to the recovery vault.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Azure Backup can add value and contribute to the backup and restore strategy for IaaS and on-premises applications of virtually any size and shape.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Azure Blob storage</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Azure Storage doesn't include an automated backup feature, but blobs are commonly used to back up all kinds of data from various sources.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Many services that provide backup capabilities use blobs to store their data, and blobs are a common target for scripts and tools in every kind of backup scenario.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>General Purpose v2 storage accounts support three different blob storage tiers of varying performance and cost.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Cool<ept id="p1">**</ept> storage offers the best cost-to-performance ratio for most backups, as opposed to <bpt id="p2">**</bpt>hot<ept id="p2">**</ept> storage, which offers lower access costs but higher storage costs.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Archive<ept id="p1">**</ept>-tier storage may be appropriate for secondary backups or backups of data with low expectations for recovery time.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>It's low in cost, but requires up to 15 hours of lead time to access.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Immutable blob storage is configurable to be non-erasable and non-modifiable for a user-specified interval.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Immutable blob storage was designed primarily to fulfill strict requirements for certain kinds of data, such as financial data.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>It's a great option for ensuring that backups are protected against accidental deletion or modification.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Azure SQL Database</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Comprehensive, automatic backup functionality is included with Azure SQL Database at no extra charge.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Full backups are created weekly, with differential backups performed every 12 hours, and log backups created every five minutes.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Backups created by the service can be used to restore a database to a specific point in time, even if it's been deleted.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Restores can be performed using the Azure portal, PowerShell, or the REST API.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Backups for databases encrypted with Transparent Data Encryption, enabled by default, are also encrypted.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>SQL Database backup is enterprise-grade, production ready, and enabled by default.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If you're evaluating different database options for an app, it should be included as part of cost-benefit analysis, as it's a significant benefit of the service.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Every app that uses Azure SQL Database should take advantage of it by including it in their disaster recovery plan and backup/restore procedures.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Azure App Service</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Web applications hosted in the Azure App Service Standard and Premium tiers support turnkey scheduled and manual backups.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Backups include configuration and file contents as well as contents of databases used by the app.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>They also support simple filters for excluding files.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Restore operations can target different App Service instances, making App Service back up a simple way to move one app's contents to another.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>App Service backups are limited to 10 GB total, including app and database content.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>They're a good solution for new apps under development and small-scale apps.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>More mature applications won't generally use App Service backup.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>They will instead rely on robust deployment and rollback procedures, storage strategies that don't use application disk storage, and dedicated backup strategies for databases and persistent storage.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Verify backups and test restore procedures</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>No backup system is complete without a strategy for verifying backups and testing restore procedures.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Even if you use a dedicated backup service or product, you should still document and practice recovery procedures to ensure that they're well-understood and return the system to the expected state.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Strategies for verifying backups vary and will depend on the nature of your infrastructure.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>You may want to consider techniques, such as creating a new deployment of the application, restoring the backup to it, and comparing the state of the two instances.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>In many cases, this technique closely mimics actual disaster recovery procedures.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Simply performing a comparison of a subset of the backup data with the live data immediately after creating a backup is enough.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>A common component of backup verification is attempting to restore old backups to ensure that they're still available and operational, and that the backup system hasn't changed in a way that renders them incompatible.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Any strategy is better than finding out that your backups are corrupted or incomplete while attempting to recover from a disaster.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>A backup and restore strategy is an important part of ensuring your architecture can recover from the loss or corruption of data.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Review your architecture to define your backup and restore requirements.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Azure provides several services and features to provide backup and restore capabilities to any architecture.</source>
+        </trans-unit></group></body></file></xliff>

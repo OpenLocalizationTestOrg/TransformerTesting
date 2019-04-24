@@ -1,0 +1,75 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-knowledge-check.a2487c9d67d24ba275e9fd6e785ae9b2ca9b8dfc.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ee004ac24ae3d2c75adff6778158493af0a8d23c</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\aspnetcore\build-web-api-net-core\7-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>Suppose you need to update a product's name.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>Which HTTP action verb is the best fit for this request?</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>POST</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>The POST verb is intended for use when creating a new product.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>PUT</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>The PUT verb is intended for use when modifying an existing product.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>Additionally, PATCH may be used to update individual properties.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>DELETE</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>The DELETE verb is intended for use when removing a product.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>Suppose you have successfully created a product via the POST verb.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>The response contains a <ph id="ph1">`Location`</ph> header.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>What's the purpose of that <ph id="ph1">`Location`</ph> header?</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>To identify the location of the new resource that was created by the request.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>The <ph id="ph1">`Location`</ph> response header contains the URL to the newly created product.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>It typically resolves to a <ph id="ph1">`GetById`</ph> type of action method.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>To provide the client with a URL for the POST action.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>The client already used POST to create the product.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>This header is found in the response to that action.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>To identify an existing product with the same name.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>Multiple products can exist with the same name, because we haven't written any code to validate otherwise.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>In which scenario is it most appropriate to return an HTTP 404 status code, and how is it accomplished in ASP.NET Core?</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>The product was successfully updated in the database.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>Call the <ph id="ph1">`BadRequest`</ph> method to generate a 404.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>When a product is successfully updated, a 204 should be returned.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>Use the <ph id="ph1">`NoContent`</ph> method.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>When model validation fails because the action's required parameters are missing.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>Call the <ph id="ph1">`BadRequest`</ph> method to generate a 404.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>When model validation fails, an HTTP 400 status code is returned.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>If the controller is annotated with the <ph id="ph1">`[ApiController]`</ph> attribute, there's no need to explicitly call <ph id="ph2">`BadRequest`</ph>.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>When you've requested a product by ID and a match doesn't exist in the underlying data store.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>Call the NotFound method to generate a 404.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>The <ph id="ph1">`NotFound`</ph> method generates an HTTP 400 status code in the response.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve" uid="learn.build-web-api-net-core.7-knowledge-check">
+          <source>This is best way to communicate that the requested data doesn't exist.</source>
+        </trans-unit></group></body></file></xliff>

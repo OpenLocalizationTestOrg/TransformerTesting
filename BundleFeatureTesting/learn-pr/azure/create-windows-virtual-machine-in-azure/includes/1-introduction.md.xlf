@@ -1,0 +1,35 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.d81b2aee5c656547c584497505a6587efd9fdd18.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3329a4dfc2a4062f4dcf11abf1bfc32e799040bc</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-windows-virtual-machine-in-azure\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Imagine you work for a company that does video data processing and pattern analysis.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You are building a new prototype platform to process the video from traffic cameras, analyze trends, and provide actionable data for traffic and road improvements.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>To improve your algorithms, you have made arrangements with several new cities to collect their traffic camera data.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>However not all of the video data is in the same format, and many of the formats only have Windows codecs to decode the data.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Because of this, you have decided to use Virtual Machines (VMs) to do the initial processing and then push the data onto Azure Functions that will process a standard format.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This approach will allow you to bring on new data formats dynamically without stopping the entire system.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Azure provides a robust virtual machine hosting solution that can meet your needs.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Let's explore how to create and work with Windows virtual machines in Azure.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Understand the options that are available for virtual machines in Azure.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Create a Windows virtual machine using the Azure portal.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Connect to a running Windows virtual machine using Remote Desktop.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Install software and change the network configuration on a VM using the Azure portal.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Basic understanding of Azure Virtual Machines from <bpt id="p1">**</bpt>Introduction to Azure Virtual Machines<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Remote Desktop client</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.75f6de1bcf153c85617e78225feb23d4f3b0342e.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7cdc096b70dc3972aceacc56349ddef81ebb8018</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\build-a-faq-chat-bot-with-qna-maker-and-azure-bot-service\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.data-ai.build-a-faq-chat-bot-with-qna-maker-and-azure-bot-service">
+          <source>Build an FAQ chatbot with QnA Maker and Azure Bot Service</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.data-ai.build-a-faq-chat-bot-with-qna-maker-and-azure-bot-service">
+          <source>In this module, you'll learn about QnA Maker and how to integrate it with a bot</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.data-ai.build-a-faq-chat-bot-with-qna-maker-and-azure-bot-service">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.data-ai.build-a-faq-chat-bot-with-qna-maker-and-azure-bot-service">
+          <source>Learn what QnA Maker is.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.data-ai.build-a-faq-chat-bot-with-qna-maker-and-azure-bot-service">
+          <source>Learn about key features of QnA Maker and how to create a knowledge base.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.data-ai.build-a-faq-chat-bot-with-qna-maker-and-azure-bot-service">
+          <source>Publish a QnA Maker knowledge base.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.data-ai.build-a-faq-chat-bot-with-qna-maker-and-azure-bot-service">
+          <source>Integrate a knowledge base with a bot.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.data-ai.build-a-faq-chat-bot-with-qna-maker-and-azure-bot-service">
+          <source>Build an FAQ chatbot with QnA Maker and Azure Bot Service</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.data-ai.build-a-faq-chat-bot-with-qna-maker-and-azure-bot-service">
+          <source>Learn about QnA Maker and how to integrate it with a bot</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.data-ai.build-a-faq-chat-bot-with-qna-maker-and-azure-bot-service">
+          <source>None</source>
+        </trans-unit></group></body></file></xliff>

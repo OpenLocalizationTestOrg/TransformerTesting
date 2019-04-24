@@ -1,0 +1,49 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-Modernization-triggers.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-Modernization-triggers.c7476765e8008cbbc93a58af31b507a4ec7c13b6.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">48d6f966ccd82ee02c7419294ff25468120e632e</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\wwl-mba\cloud-operating-model\includes\3-Modernization-triggers.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>What is a modernization trigger?</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">*</bpt>modernization trigger<ept id="p1">*</ept> is an event that initiates the cloud migration journey for an organization.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This is where you can identify new opportunities for your business.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Types of modernization triggers</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Let’s look at the most common modernization triggers:</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Graph representing the eight modernization triggers</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Datacenter contracts expiring:<ept id="p1">**</ept> This is a great opportunity for organizations to evaluate if moving to the cloud is a better option than renewing datacenter leases.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Generally, moving to the cloud means a cost reduction, better performance, and reliability.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Deliver applications and features faster:<ept id="p1">**</ept> It’s easier, faster, and less costly to integrate processes of newly acquired companies into the operations of the buyer company if the transitions take place in a cloud environment.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Urgent capacity needs:<ept id="p1">**</ept> Companies can sometimes face an urgent need to scale an application or piece of infrastructure for a period of time.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Azure responds to this need with global scaling features.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Software or hardware refresh:<ept id="p1">**</ept> Refreshes present a great opportunity to ask if the cloud is a better option.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Azure ensures higher productivity and greater performance with lower costs than maintaining on-premises hardware and software.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Address security threats:<ept id="p1">**</ept> Cloud providers can recognize sophisticated threats sooner to help keep you protected.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Compliance:<ept id="p1">**</ept> Many industries have compliance standards they must meet.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Azure is certified in many domestic and international standards.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Application innovation to enable new business:<ept id="p1">**</ept> Delivering apps faster is one of the key benefits of moving to the cloud.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Tools like DevOps, cloud-based dev/test environments, and other services help with faster development.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Software end of support:<ept id="p1">**</ept> Reaching software end of support often means buying licenses for new software and costly hardware to support it, as well as time spent training people to use it.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can move those servers to the cloud to reduce cost, improve performance, and ensure better reliability.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Icon of lightbulb</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>There are many reasons—or triggers—for cloud migration. Which triggers are most relevant to your business? Where do you see the most opportunity to take advantage of the benefits of cloud migration? Identifying these opportunities will help you develop your cloud adoption strategy.<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You’ve just learned about the modernization triggers that begin a cloud migration journey.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Next, let’s talk about developing a business strategy for your cloud adoption journey.</source>
+        </trans-unit></group></body></file></xliff>

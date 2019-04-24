@@ -1,0 +1,93 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="8-integrate-with-azure-databricks.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8-integrate-with-azure-databricks.cd88dbcb1eb84902dcb5183e661b5d21b0042997.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4f5833eeff2c9fcd21b697c735cb20d03f88c878</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\databricks\understand-the-sql-dw-connector-with-azure-databricks\includes\8-integrate-with-azure-databricks.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll process the data by using Apache Spark on Azure Databricks.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You'll learn how to extract and transform data by using Spark.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You'll also learn how Spark and Azure SQL Data Warehouse can work together to meet big data needs.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In this unit, you will:</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Access data from an Azure storage account in a Databricks cluster.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Create a DataFrame and perform operations on it.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Learn Spark SQL.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Learn how to extract and transform data in Spark and load output to SQL Data Warehouse.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>What is Azure Databricks?</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Azure Databricks is a fully managed, cloud-based big data and machine learning platform.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>It enables developers to accelerate AI implementation by simplifying the process of building enterprise-grade production data applications.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Built in a joint effort by Microsoft and the team that started Apache Spark, Azure Databricks provides data science and engineering teams with a single platform for big data processing and machine learning.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>By combining an end-to-end, managed Apache Spark platform optimized for the cloud with the enterprise scale and security of the Azure platform, Azure Databricks makes it easy to run large-scale Spark workloads.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Azure Databricks and Azure SQL Data Warehouse together</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can access SQL Data Warehouse from Azure Databricks by using the SQL Data Warehouse connector.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>SQL Data Warehouse connector is a data source implementation for Apache Spark that uses Azure Blob storage and PolyBase in SQL Data Warehouse to transfer large volumes of data efficiently between an Azure Databricks cluster and a SQL Data Warehouse instance.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Both the Azure Databricks cluster and the SQL Data Warehouse instance access a common Blob storage container to exchange data.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>In Azure Databricks, Spark jobs are triggered by the SQL Data Warehouse connector to read data from and write data to the Blob storage container.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>On the SQL Data Warehouse side, data loading and unloading operations performed by PolyBase are triggered by the SQL Data Warehouse connector through JDBC.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>When you ran the PowerShell script at the beginning of this module, you created a common Blob storage container.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>As you recall, you copied the account name and account key values after you created it.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`dwtemp`</ph> is the common container that the Azure Databricks cluster and the SQL Data Warehouse instance will use.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Make a connection to SQL Data Warehouse</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Open Azure Data Studio.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Go to the <bpt id="p1">**</bpt>Servers<ept id="p1">**</ept> list in the menu on the left side of Azure Data Studio.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Right-click the SQL Data Warehouse connection that you made earlier and select <bpt id="p1">**</bpt>New Query<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Right-click the SQL Data Warehouse connection and select New Query</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Create a database master key</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Run this statement in the query window to create a database master key:</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You'll receive this message if you already have a master key defined in the database:</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If you see this message, you can ignore it and continue with the following steps.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Clone the Databricks archive</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>In the Azure portal, go to your deployed Azure Databricks workspace and select <bpt id="p1">**</bpt>Launch Workspace<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In the workspace, on the menu on the left side, select <bpt id="p1">**</bpt>Workspace<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Users<ept id="p2">**</ept>, and then select your user name (the entry with house icon).</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>In the blade that appears, select the down arrow next to your name, and then select <bpt id="p1">**</bpt>Import<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Import Notebooks<ept id="p1">**</ept> dialog box, select <bpt id="p2">**</bpt>URL<ept id="p2">**</ept> and paste in this URL:</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Import<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A folder called <ph id="ph1">`02-azure-sql-dw`</ph> should appear.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Select that folder.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The folder should contain two notebooks that you'll use to complete this exercise.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Complete the notebooks</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>01 Using Spark<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This notebook provides a quick overview of using the Apache Spark engine within Azure Databricks.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>02 Data Ingestion<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This notebook provides instructions for connecting your notebook to an Azure SQL Data Warehouse instance and writing data to a new external table.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>After you complete the notebooks, return to this screen and continue to the knowledge check.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,135 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-exercise-encrypt-existing-vm-disks.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-exercise-encrypt-existing-vm-disks.b4628b66932c4440ef27ad0f853f1e2970f280e5.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9dcb30b6ddaf6b81dc7a3fea095a57d341e895c1</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\secure-your-azure-virtual-machine-disks\includes\4-exercise-encrypt-existing-vm-disks.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Suppose you are developing a financial management application for new business startups.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You want to ensure that all your customers' data is secured, so you have decided to implement Azure Disk Encryption (ADE) across all OS and data disks on the servers that will host this application.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>As part of your compliance requirements, you also need to be responsible for your own encryption key management.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll encrypt disks on an existing virtual machine, and manage the encryption keys using your own Azure Key Vault.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Prepare the environment</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>We'll start by deploying a new Windows VM in an Azure Virtual Machine.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Deploy Windows VM</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Use the Azure PowerShell to create and deploy a new Windows virtual machine.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Define a PowerShell variable to hold the selected location.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>We'll use the same region as the resource group.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Next, define a few more convenient variables to capture the <bpt id="p1">_</bpt>name<ept id="p1">_</ept> of the VM and the <bpt id="p2">_</bpt>resource group<ept id="p2">_</ept>.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Note that we are using the pre-created resource group here, normally you would create a <bpt id="p1">_</bpt>new<ept id="p1">_</ept> resource group in your subscription using <ph id="ph1">`New-AzResourceGroup`</ph>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Use <ph id="ph1">`New-AzVm`</ph> to create a new virtual machine.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Enter a username and password for the VM when you are prompted by the Cloud Shell.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This will be used as the initial account created for the VM.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This command will use some defaults since we didn't supply a bunch of options.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Specifically, this will create a <bpt id="p1">_</bpt>Windows 2016 Server<ept id="p1">_</ept> image with the size to <bpt id="p2">_</bpt>Standard_DS1_v2<ept id="p2">_</ept>.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Remember that the Basic tier VMs do not support ADE if you decide to specify the VM size.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Once the VM finishes deploying, capture the VM details in a variable.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can use this variable to explore what was created.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can see the OS disk attached to the VM:</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Check the current status of encryption on the OS disk (and any data disks).</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>As you can see the disks are current <bpt id="p1">_</bpt>unencrypted<ept id="p1">_</ept>.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Let's change that.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Encrypt the VM disks with Azure Disk Encryption</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>We need to protect this data, so let's encrypt the disks.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Recall that there are several steps we need to perform:</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Create a key vault.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Set the key vault up to support disk encryption.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Tell Azure to encrypt the VM disks using the key stored in the Key Vault.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>We're going to walk through the steps individually, but when you're doing this task in your own subscription, you can use a handy PowerShell script which is linked in the Summary of this module.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Create a key vault</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To create an Azure Key Vault, we need to enable the service in our subscription.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This is a one-time requirement.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Depending on your subscription, you might need to enable the <bpt id="p1">**</bpt>Microsoft.KeyVault<ept id="p1">**</ept> provider with the <ph id="ph1">`Register-AzResourceProvider`</ph> cmdlet.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This is not necessary in the Azure sandbox subscription.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Decide on a name for your new key vault.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>It must be unique and can be between 3 and 24 characters, composed of numbers, letters, and and dashes.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Try adding some random numbers to the end, replacing the "1234" below.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Create an Azure Key Vault with <ph id="ph1">`New-AzKeyVault`</ph>.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Make sure it's placed in the same resource group <bpt id="p1">_</bpt>and<ept id="p1">_</ept> location as your VM.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Enable the Key Vault for use with disk encryption.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Specify a unique Key Vault name.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You will get a warning from this command about no users having access.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This is ok since we are just using the vault to store the encryption keys for the VM and users won't need to access this data.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Encrypt the disk</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>We are almost ready to encrypt the disks.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Before we do, a warning about creating backups.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If this were a production system, we would need to perform a backup of the managed disks - either using Azure Backup, or by creating a snapshot.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>You can create snapshots in the Azure portal, or through the command line.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>In PowerShell, use the <ph id="ph1">`New-AzSnapshot`</ph> cmdlet.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Since this is a simple exercise and we're going to throw this data away when you're done, we're going to skip this step.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Start by defining a variable to hold the Key Vault information.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Then, use the <ph id="ph1">`Set-AzVmDiskEncryptionExtension`</ph> cmdlet to encrypt the VM disks.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`VolumeType`</ph> parameter allows you to specify which disks to encrypt: [<bpt id="p1">_</bpt>All<ept id="p1">_</ept><ph id="ph2"> | </ph><bpt id="p2">_</bpt>OS<ept id="p2">_</ept><ph id="ph3"> | </ph><bpt id="p3">_</bpt>Data<ept id="p3">_</ept>].</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>It will default to <bpt id="p1">_</bpt>All<ept id="p1">_</ept>.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You can only encrypt data disks for some distributions of Linux.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>You have to supply the <ph id="ph1">`SkipVmBackup`</ph> flag for managed disks or the command will fail because there is no snapshot.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The cmdlet will warn you that the VM must be taken offline, and that the task may take several minutes to complete.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Go ahead and let it continue.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Once it's complete, check the encryption status again.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Now the OS disk should be encrypted.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Any attached data disks that are visible to Windows will also be encrypted.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>New disks added after encryption will <bpt id="p1">_</bpt>not<ept id="p1">_</ept> be automatically encrypted.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You can re-run the <ph id="ph1">`Set-AzVMDiskEncryptionExtension`</ph> cmdlet to encrypt new disks.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Make sure to provide a new sequence number if you add disks to a VM that has already had disks encrypted.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>In addition, disks that are not visible to the operating system will not be encrypted - the disk must be properly partitioned, formatted, and mounted to be seen by the Bitlocker extension.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,83 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-exercise-configure-vnet-peering-connections-using-azure-cli-commands.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-exercise-configure-vnet-peering-connections-using-azure-cli-commands.63d736f071b51a8fa4b9b5ab5d55d737915ea7fd.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bff5b06ee7ec240bc7249d6e82f9a99c9d44dc17</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\integrate-vnets-with-vnet-peering\includes\4-exercise-configure-vnet-peering-connections-using-azure-cli-commands.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Now you have created virtual networks and have run virtual machines (VMs) within them.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>But the virtual networks have no connectivity, and none of these systems can communicate with each other.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>To enable communication, you need to create peering connections for the virtual networks.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To satisfy your company's requirements, configure a hub and spoke topology, and permit virtual network access when you create the peering connections.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Create virtual network peering connections</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Follow these steps to create connections between the virtual networks and to configure the behavior of each connection.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In Cloud Shell, run the following command to create the peering connection between the <bpt id="p1">**</bpt>SalesVNet<ept id="p1">**</ept> and <bpt id="p2">**</bpt>MarketingVNet<ept id="p2">**</ept> virtual networks.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This command also permits virtual network access across this peering connection.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Run the following command to create a reciprocal connection from <bpt id="p1">**</bpt>MarketingVNet<ept id="p1">**</ept> to <bpt id="p2">**</bpt>SalesVNet<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This step completes the connection between these virtual networks.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Now that you have connections between Sales and Marketing, create connections between Marketing and Research.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In Cloud Shell, run the following command to create the peering connection between the <bpt id="p1">**</bpt>MarketingVNet<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ResearchVNet<ept id="p2">**</ept> virtual networks.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Run the following command to create the reciprocal connection between <bpt id="p1">**</bpt>ResearchVNet<ept id="p1">**</ept> and <bpt id="p2">**</bpt>MarketingVNet<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Check the virtual network peering connections</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Now that you've created the peering connections between the virtual networks, make sure the connections work.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In Cloud Shell, run the following command to check the connection between <bpt id="p1">**</bpt>SalesVNet<ept id="p1">**</ept> and <bpt id="p2">**</bpt>MarketingVNet<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You've created only one connection from <bpt id="p1">**</bpt>SalesVNet<ept id="p1">**</ept>, so you see only one result.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>PeeringState<ept id="p1">**</ept> column, make sure the status is <bpt id="p2">**</bpt>Connected<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Run the following command to check the peering connection between the <bpt id="p1">**</bpt>ResearchVNet<ept id="p1">**</ept> and <bpt id="p2">**</bpt>MarketingVNet<ept id="p2">**</ept> virtual networks.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Again, you've created only one connection from <bpt id="p1">**</bpt>ResearchVNet<ept id="p1">**</ept>, so you see only one result.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>PeeringState<ept id="p1">**</ept> column, make sure the status is <bpt id="p2">**</bpt>Connected<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Run the following command to check the peering connections for the <bpt id="p1">**</bpt>MarketingVNet<ept id="p1">**</ept> virtual network.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Remember that you created connections from Marketing to Sales and from Marketing to Research, so you should see two connections.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>PeeringState<ept id="p1">**</ept> column, make sure the status of both connections is <bpt id="p2">**</bpt>Connected<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Your peering connections between the virtual networks should now look like this:</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The resulting virtual network peering connections</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Check effective routes</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You can further check the peering connection by looking at the routes that apply to the network interfaces of the VMs.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Run the following command to look at the routes that apply to the <bpt id="p1">**</bpt>SalesVM<ept id="p1">**</ept> network interface.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The output table shows the effective routes for the VM's network interface.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">**</bpt>SalesVMVMNic<ept id="p1">**</ept>, you should see a route to <bpt id="p2">**</bpt>10.2.0.0/16<ept id="p2">**</ept> with a next hop type of <bpt id="p3">**</bpt>VNetPeering<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This is the network route for the peering connection from <bpt id="p1">**</bpt>SalesVNet<ept id="p1">**</ept> to <bpt id="p2">**</bpt>MarketingVNet<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Look at the routes for <bpt id="p1">**</bpt>MarketingVM<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The output table shows the effective routes for the VM's network interface.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">**</bpt>MarketingVMVMNic<ept id="p1">**</ept>, you should see a route to <bpt id="p2">**</bpt>10.1.0.0/16<ept id="p2">**</ept> and <bpt id="p3">**</bpt>10.3.0.0/16<ept id="p3">**</ept> with a next hop type of <bpt id="p4">**</bpt>VNetGlobalPeering<ept id="p4">**</ept>.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This is the network route for the peering connection from <bpt id="p1">**</bpt>MarketingVNet<ept id="p1">**</ept> to <bpt id="p2">**</bpt>SalesVNet<ept id="p2">**</ept> and from <bpt id="p3">**</bpt>SalesVNet<ept id="p3">**</ept> to <bpt id="p4">**</bpt>ResearchVNet<ept id="p4">**</ept>.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Look at the routes for <bpt id="p1">**</bpt>ResearchVM<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The output table shows the effective routes for the VM's network interface.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">**</bpt>ResearchVMVMNic<ept id="p1">**</ept>, you should see a route to <bpt id="p2">**</bpt>10.2.0.0/16<ept id="p2">**</ept> with a next hop type of <bpt id="p3">**</bpt>VNetPeering<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This is the network route for the peering connection from <bpt id="p1">**</bpt>ResearchVNet<ept id="p1">**</ept> to <bpt id="p2">**</bpt>MarketingVNet<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Now that your peering is configured, let's take a look at how this affects the communication between VMs.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,153 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-exercise-publish-azure-functions.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-exercise-publish-azure-functions.55b3dad161231fe21f429e05347b38ae8e821883.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">049c8b393e7a43042e3f21ee12a82a9a08f00d59</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\develop-test-deploy-azure-functions-with-visual-studio\includes\5-exercise-publish-azure-functions.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Publish<ept id="p1">**</ept> wizard in the Azure Functions template provides the most straightforward way to deploy Azure Functions, especially for testing purposes.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In the luxury watch online website scenario, you decide to use Visual Studio to deploy your functions to an Azure Functions App in the cloud.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>First, you'll create an Azure Function App, and you'll use the <bpt id="p1">**</bpt>Publish<ept id="p1">**</ept> wizard in Visual Studio to deploy your functions.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In this exercise, you'll see how to use the Azure portal to create an Azure Functions App.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Then, you'll deploy the <bpt id="p1">**</bpt>WatchInfo<ept id="p1">**</ept> function.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Finally, you'll test the function to verify that it has been deployed correctly.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Create an Azure Functions App using the Azure portal</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Sign into the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept> using the same account you activated the sandbox with.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Create a resource<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>Compute<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Function App<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Function App<ept id="p1">**</ept> window, specify the following settings:</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The function app must have a unique name.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>We suggest using something like <bpt id="p1">**</bpt><ph id="ph1">\&lt;</ph><bpt id="p2">*</bpt>your name or initials<ept id="p2">*</ept><ph id="ph2">\&gt;</ph>watchfunctions<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Use this name wherever you see <bpt id="p1">*</bpt><ph id="ph1">\&lt;</ph>your-function-app-name<ph id="ph2">\&gt;</ph><ept id="p1">*</ept> in this exercise.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Property</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Value</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Name</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt><ph id="ph1">\&lt;</ph>your-function-app-name<ph id="ph2">\&gt;</ph><ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Subscription</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Concierge Subscription</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Resource Group</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Use the existing resource group <bpt id="p1">&lt;rgn&gt;</bpt>[Sandbox resource group]<ept id="p1">&lt;/rgn&gt;</ept></source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>OS</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Windows</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Hosting Plan</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Consumption</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Location</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Accept the default location</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Runtime Stack</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>.NET</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Storage</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Create new, accept the default name</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Create<ept id="p1">**</ept>, and wait while the function app is created before continuing.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Deploy the WatchInfo function to the Azure Functions App</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>On your desktop, return to Visual Studio.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Solution Explorer<ept id="p1">**</ept> window, right-click the <bpt id="p2">**</bpt>WatchPortalFunction<ept id="p2">**</ept> project, and then click <bpt id="p3">**</bpt>Publish<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Screenshot of Visual Studio, showing the Publish option for the WatchPortalFunctions project</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Pick a publish target<ept id="p1">**</ept> window, under <bpt id="p2">**</bpt>Azure App Service<ept id="p2">**</ept>, click <bpt id="p3">**</bpt>Select Existing<ept id="p3">**</ept>, and then click <bpt id="p4">**</bpt>Publish<ept id="p4">**</ept></source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Pick a public target window.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The user has chosen the Select Existing option</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>App Service<ept id="p1">**</ept> window, select your Azure account.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If you aren't already signed in to Azure, then click <bpt id="p1">**</bpt>Add an account<ept id="p1">**</ept> first and sign in.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Screenshot of the App Service window.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The user isn't currently signed in, so needs to click Add an account</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>After signing in, enter the following details in the <bpt id="p1">**</bpt>App Service<ept id="p1">**</ept> window.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Property</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Value</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Subscription</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Concierge Subscription</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>View</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Resource Group</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>In the lower <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> box, expand the resource group that is displayed, click your Azure Functions App, and then click <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Wait for your functions to be deployed.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Output<ept id="p1">**</ept> window in Visual Studio shows the progress of the build and publish processes.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If everything works, the final two messages should be <bpt id="p1">**</bpt>Publish Succeeded<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Publish completed<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Output window in Visual Studio.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The final two messages indicate that the functions were published successfully</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Verify the functions have been deployed</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Return to the Azure portal.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept>, and select <bpt id="p2">*</bpt><ph id="ph1">\&lt;</ph>your-function-app-name<ph id="ph2">\&gt;</ph><ept id="p2">*</ept>.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">*</bpt><ph id="ph1">\&lt;</ph>your-function-app-name<ph id="ph2">\&gt;</ph><ept id="p1">*</ept> window, expand <bpt id="p2">**</bpt>Functions<ept id="p2">**</ept>, and verify that the <bpt id="p3">**</bpt>Function1<ept id="p3">**</ept> and  <bpt id="p4">**</bpt>WatchInfo<ept id="p4">**</ept> functions are listed.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>In the right pane, check that the status of the Azure Functions App is <bpt id="p1">**</bpt>Running<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Azure Functions App in the portal, showing the Function1 and WatchInfo functions.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The functions are marked as <bpt id="p1">*</bpt>Read Only<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>You cannot modify their settings or configuration from the Azure portal because you published them from Visual Studio.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>If you need to update either of these functions, make the changes in Visual Studio and publish them again.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>In the right pane, click the <bpt id="p1">**</bpt>URL<ept id="p1">**</ept> (highlighted in the image above).</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A browser window will open, and confirm that the functions app is up and running.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Screenshot of web browser window confirming that the functions app is running.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Append the URL of the <bpt id="p1">**</bpt>watchinfo<ept id="p1">**</ept> function, <ph id="ph1">`api/watchinfo`</ph> to the URL in the browser and refresh the display.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This invokes the <bpt id="p1">**</bpt>WatchInfo<ept id="p1">**</ept> function without a query string.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>You'll see the error response with the message <bpt id="p1">*</bpt>Please provide a watch model in the query string<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Screenshot of web browser window showing the error message from the function</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Add the querystring <ph id="ph1">`?model=abc`</ph>  to the URL and refresh the browser window.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This time, you'll see the details of the watch model returned by the function.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Screenshot of web browser window showing the details of the watch model returned by the function.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>You've now created an Azure Functions App in the cloud, and published your functions to this app from Visual Studio.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,53 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-knowledge-check.9c770ef27180475a8190029d3133f4c2ff5ca041.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">125c9c5185e455780ee90d091d7f6153d1281219</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\monitor-and-manage-device-with-iot-central\6-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.monitor-manage-device-with-iotcentral.6-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.monitor-manage-device-with-iotcentral.6-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.monitor-manage-device-with-iotcentral.6-knowledge-check">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.monitor-manage-device-with-iotcentral.6-knowledge-check">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.monitor-manage-device-with-iotcentral.6-knowledge-check">
+          <source>Which statement best describes the information in a device template?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.monitor-manage-device-with-iotcentral.6-knowledge-check">
+          <source>The hardware specification of a device connected to your application.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.monitor-manage-device-with-iotcentral.6-knowledge-check">
+          <source>Hardware details are not captured by a device template.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.monitor-manage-device-with-iotcentral.6-knowledge-check">
+          <source>The data and commands a device can exchange with your application.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.monitor-manage-device-with-iotcentral.6-knowledge-check">
+          <source>The template is a specification that captures all the potential information and commands that can be exchanged between your code and the physical device.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.monitor-manage-device-with-iotcentral.6-knowledge-check">
+          <source>The over-the-wire protocol used to communicate with a device.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.monitor-manage-device-with-iotcentral.6-knowledge-check">
+          <source>The communication protocol is not part of a device template.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.monitor-manage-device-with-iotcentral.6-knowledge-check">
+          <source>True or false: you must have a physical device to test your IoT Central application.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.monitor-manage-device-with-iotcentral.6-knowledge-check">
+          <source>True</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.monitor-manage-device-with-iotcentral.6-knowledge-check">
+          <source>You can use simulated devices for testing.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.monitor-manage-device-with-iotcentral.6-knowledge-check">
+          <source>False</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.monitor-manage-device-with-iotcentral.6-knowledge-check">
+          <source>IoT Central automatically creates a simulated device for you when you create a device template.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.monitor-manage-device-with-iotcentral.6-knowledge-check">
+          <source>You can also code custom software simulations.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.monitor-manage-device-with-iotcentral.6-knowledge-check">
+          <source>These options let you thoroughly test your application before connecting a physical device.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.monitor-manage-device-with-iotcentral.6-knowledge-check">
+          <source>Suppose you have five physical devices communicating with IoT Central.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.monitor-manage-device-with-iotcentral.6-knowledge-check">
+          <source>How many connection strings would you have?</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.monitor-manage-device-with-iotcentral.6-knowledge-check">
+          <source>One: the connection string is shared by all connected devices.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.monitor-manage-device-with-iotcentral.6-knowledge-check">
+          <source>Shared connection strings would not allow IoT Central to uniquely identify each device.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.monitor-manage-device-with-iotcentral.6-knowledge-check">
+          <source>Two: one in active use and one backup in case the primary is compromised.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.monitor-manage-device-with-iotcentral.6-knowledge-check">
+          <source>Shared connection strings would not allow IoT Central to uniquely identify each device.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.monitor-manage-device-with-iotcentral.6-knowledge-check">
+          <source>Five: every device needs a unique connection string.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.monitor-manage-device-with-iotcentral.6-knowledge-check">
+          <source>The connection string identifies the device to IoT Central, so each device needs its own.</source>
+        </trans-unit></group></body></file></xliff>

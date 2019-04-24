@@ -1,0 +1,81 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-Azure-IoT-services.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-Azure-IoT-services.789c7e4e1d33548d03531fb9a4dfa5cb219680e0.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">38ec85ea8a9050b55e9de1a220326412000e2153</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\wwl-mba\azure-iot-strategy-and-solutions\includes\4-Azure-IoT-services.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Now that you’ve learned about how Azure IoT has been applied to various industries, let’s learn more about when and how you can utilize these services.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Azure IoT Services</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Business Need</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Azure Services</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Benefits</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Experience fully managed software as a service for IoT—no cloud expertise required.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Azure IoT Central</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Azure IoT Central is a fully managed global IoT SaaS solution that makes it easy to connect, monitor, and manage your IoT assets at scale.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Azure IoT Central helps you derive new insights from connected devices to enable better products and experiences for your customers.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In addition, it can create new business opportunities for your organization.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Connect, monitor, and control billions of IoT assets.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Azure IoT Hub</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A managed service hosted in the cloud, Azure IoT Hub acts as a central message hub for bi-directional communication between your IoT application and the devices it manages.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>It provides reliable and secure communications between millions of IoT devices and a cloud-hosted solution backend.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Azure IoT Hub monitoring helps you maintain the health of your solution by tracking events such as device creation, device failures, and device connections.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Extend intelligence from the cloud to your edge devices.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Azure IoT Edge</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Azure IoT Edge is a service that builds on top of Azure IoT Hub.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This service is meant for customers who want to analyze data on devices, a.k.a.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>"at the edge," instead of in the cloud.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Azure IoT Edge devices can be deployed and executed locally.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A cloud-based interface that enables you to remotely monitor and manage Azure IoT Edge devices without having to continuously push data to the cloud.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Create a digital model of your physical space or assets.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Azure Digital Twins</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Azure Digital Twins is an IoT service that creates comprehensive models of the physical environment.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The solution can query data from a physical space rather than from many disparate sensors.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This service helps you build spatially aware experiences that link streaming data across the digital and physical world.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This can be used to build solutions to manage building operations more efficiently.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In addition, it can increase and optimize the efficiency of the building and design process by modeling physical environments.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Build and connect highly secure microcontroller (MCU)-powered devices.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Azure Sphere</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>An Azure Sphere is a microcontroller unit (MCU) that can be embedded in a connected device, either alongside, or in place of, existing MCU(s), to enhance security, productivity, and opportunity for product manufacturers.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>With Azure Sphere, product manufacturers can create secure, connected devices that can be updated, controlled, monitored, and maintained remotely.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This can be used to create a secured application environment to minimize security risks due to spoofing, rogue software, or denial of service attacks, among others.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For more details on the full set of Azure IoT products and services, use the products tab on azure.com.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>See links in the “Summary and resources” unit at the end of the module.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Icon of lightbulb</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Azure IoT solutions offer a wide range of capabilities while adapting to your existing infrastructure. Whether you are just embarking on your IoT journey, or you already have IoT assets to manage and deploy, Azure IoT solutions can help you take your next step. First, take a moment to reflect on the outcomes you would like to achieve. Then, consider any possibilities you can imagine with IoT to further drive your digital transformation.<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Now, let's wrap up everything you've learned with a knowledge check.</source>
+        </trans-unit></group></body></file></xliff>

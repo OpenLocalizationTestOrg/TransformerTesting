@@ -1,0 +1,11 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-summary.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-summary.3311127f32819814c12c7c185d7cc0eec06b86ab.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">06f14e0b3408e1c56b36b744e3fd2cb5785b0c22</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\intro-to-site-reliability-engineering\Includes\7-summary.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Welcome to the world of site reliability engineering!</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Hopefully this module has given you a good start in your understanding of SRE.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Together we've covered some of its key principles and practices and placed it in the appropriate context.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>We’ve talked about how you might begin to go deeper into the topic yourself and explore it in your workplace.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>We hope you'll join us for future modules on the topic.</source>
+        </trans-unit></group></body></file></xliff>

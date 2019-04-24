@@ -1,0 +1,171 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-shared-responsibility.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-shared-responsibility.267469ba22d701f4ea48bae711d81ec09a6fc164.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a54b04b27d07a67d18ee92c0dde6c7b868eea63e</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-security-in-azure\includes\2-shared-responsibility.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>As computing environments move from customer-controlled data centers to cloud data centers, the responsibility of security also shifts.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Security is now a concern shared both by cloud providers and customers.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>For every application and solution, it's important to understand what's your responsibility and what's Azure's responsibility.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Understand security threats</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Azure security: you versus the cloud</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Share security responsibility with Azure</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The first shift you’ll make is from on-premises data centers to infrastructure as a service (IaaS).</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>With IaaS, you are leveraging the lowest-level service and asking Azure to create virtual machines (VMs) and virtual networks.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>At this level, it's still your responsibility to patch and secure your operating systems and software, as well as configure your network to be secure.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>At Contoso Shipping, you are taking advantage of IaaS when you start using Azure VMs instead of your on-premises physical servers.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In addition to the operational advantages, you receive the security advantage of having outsourced concern over protecting the physical parts of the network.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Moving to platform as a service (PaaS) outsources a lot of security concerns.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>At this level, Azure is taking care of the operating system and of most foundational software like database management systems.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Everything is updated with the latest security patches and can be integrated with Azure Active Directory for access controls.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>PaaS also comes with a lot of operational advantages.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Rather than building whole infrastructures and subnets for your environments by hand, you can "point and click" within the Azure portal or run automated scripts to bring complex, secured systems up and down, and scale them as needed.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Contoso Shipping uses Azure Event Hubs for ingesting telemetry data from drones and trucks <ph id="ph1">&amp;mdash;</ph> as well as a web app with an Azure Cosmos DB back end with its mobile apps <ph id="ph2">&amp;mdash;</ph> which are all examples of PaaS.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>With software as a service (SaaS), you outsource almost everything.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>SaaS is software that runs with an internet infrastructure.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The code is controlled by the vendor but configured to be used by the customer.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Like so many companies, Contoso Shipping uses Office 365, which is a great example of SaaS!</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>An illustration showing how cloud providers and customers share security responsibilities under different types of compute service implementation: on-premises, infrastructure as a service, platform as a service, and software as a service.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A layered approach to security</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Defense in depth<ept id="p1">*</ept> is a strategy that employs a series of mechanisms to slow the advance of an attack aimed at acquiring unauthorized access to information.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Each layer provides protection so that if one layer is breached, a subsequent layer is already in place to prevent further exposure.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Microsoft applies a layered approach to security, both in physical data centers and across Azure services.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The objective of defense in depth is to protect and prevent information from being stolen by individuals who are not authorized to access it.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Defense in depth can be visualized as a set of concentric rings, with the data to be secured at the center.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Each ring adds an additional layer of security around the data.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This approach removes reliance on any single layer of protection and acts to slow down an attack and provide alert telemetry that can be acted upon, either automatically or manually.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Let's take a look at each of the layers.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>An illustration showing Defense in depth with Data at the center.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The rings of security around data are: application, compute, network, perimeter, identity and access, and physical security.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Image representing data</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Data<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In almost all cases, attackers are after data:</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Stored in a database</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Stored on disk inside virtual machines</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Stored on a SaaS application such as Office 365</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Stored in cloud storage</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>It's the responsibility of those storing and controlling access to data to ensure that it's properly secured.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Often, there are regulatory requirements that dictate the controls and processes that must be in place to ensure the confidentiality, integrity, and availability of the data.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Image of a file on the network</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Application<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Ensure applications are secure and free of vulnerabilities.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Store sensitive application secrets in a secure storage medium.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Make security a design requirement for all application development.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Integrating security into the application development life cycle will help reduce the number of vulnerabilities introduced in code.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>We encourage all development teams to ensure their applications are secure by default, and that they're making security requirements non-negotiable.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A terminal representing compute</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Compute<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Secure access to virtual machines.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Implement endpoint protection and keep systems patched and current.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Malware, unpatched systems, and improperly secured systems open your environment to attacks.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The focus in this layer is on making sure your compute resources are secure, and that you have the proper controls in place to minimize security issues.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Three connected systems representing networking</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Networking<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Limit communication between resources.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Deny by default.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Restrict inbound internet access and limit outbound, where appropriate.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Implement secure connectivity to on-premises networks.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>At this layer, the focus is on limiting the network connectivity across all your resources to allow only what is required.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>By limiting this communication, you reduce the risk of lateral movement throughout your network.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>A physical barrier representing the network perimeter</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Perimeter<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Use distributed denial of service (DDoS) protection to filter large-scale attacks before they can cause a denial of service for end users.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Use perimeter firewalls to identify and alert on malicious attacks against your network.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>At the network perimeter, it's about protecting from network-based attacks against your resources.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Identifying these attacks, eliminating their impact, and alerting you when they happen are important ways to keep your network secure.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A badge representing a secure access</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Identity and access<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Control access to infrastructure and change control.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Use single sign-on and multi-factor authentication.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Audit events and changes.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The identity and access layer is all about ensuring identities are secure, access granted is only what is needed, and changes are logged.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A security camera representing physical security</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Physical security<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Physical building security and controlling access to computing hardware within the data center is the first line of defense.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>With physical security, the intent is to provide physical safeguards against access to assets.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>This ensures that other layers can't be bypassed, and loss or theft is handled appropriately.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>We've seen here that Azure helps a lot with your security concerns.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>But security is still a <bpt id="p1">**</bpt>shared responsibility<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>How much of that responsibility falls on us depends on which model we use with Azure.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>We use the <bpt id="p1">*</bpt>defense in depth<ept id="p1">*</ept> rings as a guideline for considering what protections are adequate for our data and environments.</source>
+        </trans-unit></group></body></file></xliff>

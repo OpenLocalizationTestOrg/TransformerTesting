@@ -1,0 +1,139 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-what-is-n-tier-architecture.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-what-is-n-tier-architecture.87350b902e4be5a1934f42ed9cd78b78bef031e9.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">23859084fdc5dba0240b74c271a29509242c6e1e</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\n-tier-architecture\includes\2-what-is-n-tier-architecture.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>An N-tier architecture divides an application into <bpt id="p1">**</bpt>logical layers<ept id="p1">**</ept> and <bpt id="p2">**</bpt>physical tiers<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>N<ept id="p1">**</ept> represents the number of physical tiers the application is separated into, which typically correlates with the number of layers.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>We could have a two-tier architecture (client-server), or even a five-tier architecture, though it's common, and often best to keep the number of tiers to four or less.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Let's talk about what makes up the layers and tiers.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>What are layers?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Layers logically separate the application code that makes up an application.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Each layer has a specific responsibility such as handling requests from users, running business logic, or handling the storage of data.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>By separating an application into these logical layers, we treat each layer independently.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This makes the components of the application modular and allows us to more easily maintain the app.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>We can optimize the application for each responsibility.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The layer handling web requests focuses on its primary task: handling web requests.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>It doesn't need to be concerned with the storage of data or running business logic.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Conversely, the data access layer focuses on optimizing communication to the data store, and disregards details about how the data is presented to the user.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This concept of limiting focus on particular features is called <bpt id="p1">*</bpt>separation of concerns<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Here's a diagram that shows layers in a common N-tier architecture.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Each layer handles one aspect of the application.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The business layer manages communication between the user interface layer and the data access layer.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Visualization of layers</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>What are tiers?</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Tiers represent the physical separation of parts of your application on separate compute resources.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In general, each <bpt id="p1">**</bpt>physical<ept id="p1">**</ept> tier runs one <bpt id="p2">**</bpt>logical<ept id="p2">**</ept> layer of the application.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Separating the architecture into physical tiers comes with several benefits:</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The application components can be scaled separately by adding resources to each tier.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The application can be more resilient by adding load balancing to detect failed resources and redirect requests to healthy systems.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The application can be more secure by restricting network communication between tiers and only allowing the access that is required.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Communication between tiers should be in a top-down fashion.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Each tier is allowed talk to the next tier below it, but generally is not allowed to skip tiers.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This is done to improve security by limiting the exposed surface area of a tier.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Visualization of tiers</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The three-tier architecture</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Of all N-tier architectures, a three-tier architecture is the most common.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The responsibilities and names of each layer and tier vary by application and business, but a typical three-tier application has: a presentation tier, an application or middle tier, and a data tier.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This is the most common N-tier style, and for the rest of this module we'll reference a three-tier model with each tier running a single layer of the application, and refer to them synonymously as tiers.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Presentation tier</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The presentation tier typically facilitates user requests.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>These could be end users accessing a web page, or public access to your application through an exposed API.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The focus at this tier is on the user experience, providing things like an intuitive interface and ensuring secure communication between the end user and your application.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>At this tier you're not concerned with the data itself, other than how it's presented to the end user.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Typically there is no data processing or data access that is happening at this tier.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This is the responsibility of the lower tiers.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Application tier</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The application tier (also often called the middle tier) typically focuses on handling the business logic of the application.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This could be handling a customer order, tracking a shipment, or updating inventory based on materials received.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This tier is also responsible for create, read, update, delete (CRUD) activities against the data tier.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This is also a good location to make calls to dependent services, such as external APIs.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This tier isn't concerned with how the information is presented back to the user, nor is it concerned with how the data is stored and retrieved.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The focus is on the business logic required to fulfill the request that the application has received.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Data tier</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>At this tier, the focus is on data storage.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Storage of the data in tables, files, or other medium is the responsibility of this tier.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This tier provides an interface (such as T-SQL) to access the data.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>In a three-tier architecture, the data layer provides data access to the application tier.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This tier is not focused on how the data is presented to the user, nor is it focused on any logic around the data.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The usage of stored procedures may sit in this tier, but most of the logic around the data itself should be handled at a higher tier.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>When to use N-tier architectures</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Now that we've talked about what an N-tier architecture is, let's discuss when would you use an architecture of this style.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Consider an N-tier architecture for:</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Small to medium-sized web applications</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Migrating an on-premises application to Azure with minimal refactoring</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Leveraging skill sets and developer capabilities with on premises dev experience</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Web applications are a good use case for architectures of this style.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Because of the reduced complexity of this architectural style, and the often natural separation between responsibilities in web applications, N-tier architectures may work well.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>These could be public facing applications, or line-of-business applications used internally by an organization.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>For smaller or less complex applications, a two-tier (client/server) architecture might be sufficient, with the presentation and application tiers combined instead of separated.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>N-tier architectures are common in traditional on-premises applications, so it's a natural fit for migrating existing workloads to Azure.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Applications in this style are often migrated to Azure with minimal refactoring or modifications, simplifying the initial migration.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Once on Azure, you can take advantage of platform-as-a-service (PaaS) services to further improve your application.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Since this is a common architectural style, engineers often have a higher level of experience and familiarity with it.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>By choosing this architecture, you can use  existing skill sets to deploy applications without ramping up on new architectural patterns.</source>
+        </trans-unit></group></body></file></xliff>

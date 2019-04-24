@@ -1,0 +1,143 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-Knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-Knowledge-check.fc80703ee5537b886682feb27d1890972c327474.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f030f848bf9f9c36d78315a220ec4816e410ad45</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\wwl-mba\data-estate-migration-and-modernization\6-Knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Which of the following statements best articulates the importance for organizations to modernize their data estate?</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Organizations in industries that are subject to data restrictions need an on-premises solution to remain compliant.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>This may be true of a very limited number of organizations, but it does not broadly address the importance of data estate modernization.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Organizations that do not modernize their data estates will no longer be able to run legacy applications.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Data estate modernization is not a requirement for running legacy software.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Changes in the regulatory environment require organizations to modernize their data estates.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>While regulatory changes may be a reason for modernization, there is no requirement for modernization.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>The scale and economics of cloud make it possible to capture and harness data, and organizations with data estates can unlock transformative insights with advances in AI.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>The scale and economics of the cloud make it possible to capture and harness data, and layering on advances in AI can help unlock the potential to drive transformative insights from all types of data.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Azure provides organizations with many options for modernizing data.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Which approach offers easy migration with no code changes and near zero downtime?</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Azure SQL Database Managed Instance</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>With Azure SQL Database Managed Instance, databases can be easily migrated with no code changes and near zero downtime.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>SQL Server on Infrastructure as a Service (IaaS)</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>This option is better suited to organizations who prefer to run SQL Server on Azure Virtual Machines.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Open Source Software (OSS)</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>This option is the correct choice for organizations using OSS databases.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Hybrid</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>This option is best suited to organizations who would like to maintain some server applications running on-premises and some in the cloud.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Which Microsoft solution helps customers develop cloud-native, multi-model apps with turnkey global distribution and elastic scale-out?</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Power BI</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Power BI helps businesses derive insights from data, but it is not a solution for delivering cloud-native apps with turnkey global distribution.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>SQL Server 2017</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>SQL Server 2017 is a step towards to modernizing to Azure, but it is not the solution needed for cloud-native, multi-model apps with turnkey global distribution and elastic scale-out.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Azure Database Migration Service</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Azure Database Migration Services can be used for to achieve data modernization, but it is not a solution in and of itself.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Azure Cosmos DB</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Azure Cosmos DB (Microsoft’s NoSQL database) is a database for building fast, scalable applications with native support for NoSQL.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Cloud scale analytics is a comprehensive set of big-data solutions that help organizations gather, store, process, analyze, and visualize data.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Which of the following represents an offering of cloud scale analytics that maps to a common business need?</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Ingest data whether it is structured or unstructured</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>While cloud scale analytics includes this stage of data analytics, it does not represent a key opportunity for organizations.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>High availability enabled by applications that can replicate data anywhere in the world</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Globally distributed data enables high availability through applications that can transparently replicate data anywhere in the world.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Advanced analytics that can help companies predict when customers churn</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Gathering data and insights at scale can enable advanced analytics for users.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Well-defined consistency models that help build scalable applications</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Azure Cosmos DB is a database for building fast and scalable applications, offering multiple well-defined consistency models.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Organizations have enormous amounts of data, and the ultimate goal is getting important insights that can help you drive business forward.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Which Microsoft solution can deliver business insights with data connections to many cloud data sources and SaaS apps?</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Azure Cosmos DB</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Azure Cosmos DB is a database for building fast, scalable applications with native support for NoSQL.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Power BI</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>In the cloud, we are primarily relying on Power BI to deliver business insights, with data connections to many cloud data sources and SaaS apps.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Azure Data Factory</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Azure Data Factory provides code-free data ingestion, but it is not the solution that enables businesses to derive insights from their data.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Azure SQL Database Managed Instance</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve" uid="learn-wwl.data-estate-migration-and-modernization.6-knowledge-check">
+          <source>Azure SQL Database Managed Instance is a modernization option, but it is not a solution that delivers business insights.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,117 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-pillars-of-a-great-azure-architecture.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-pillars-of-a-great-azure-architecture.9717de5cd2c0fa8d9b9f005756fe500a6e4d27e2.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">42e4bb7bb0cfa256c1ffd78d515394a95ab08b4e</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\pillars-of-a-great-azure-architecture\includes\2-pillars-of-a-great-azure-architecture.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The cloud has changed the way organizations solve their business challenges, and how applications and systems are designed.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The role of a solution architect is not only to deliver business value through the functional requirements of the application, but to ensure the solution is designed in ways that are scalable, resilient, efficient and secure.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Solution architecture is concerned with the planning, design, implementation, and ongoing improvement of a technology system.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The architecture of a system must balance and align the business requirements with the technical capabilities needed to execute those requirements.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>It includes an evaluation of risk, cost, and capability throughout the system and its components.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Design a great Azure Architecture</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>While there is no one-size-fits-all approach to designing an architecture, there are some universal concepts that will apply regardless of the architecture, technology, or cloud provider.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>While these are not all-inclusive, focusing on these concepts will help you build a reliable, secure, and flexible foundation for your application.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>A great architecture starts with a solid foundation built on four pillars:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Security</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Performance and scalability</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Availability and recoverability</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Efficiency and operations</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>An illustrations showing the Pillars of a great Azure architecture</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Security</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Data is the most valuable piece of your organization's technical footprint.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In this pillar, you'll be focused on securing access to your architecture through authentication and protecting your application and data from network vulnerabilities.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The integrity of your data should be protected as well, using tools like encryption.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You must think about security throughout the entire lifecycle of your application, from design and implementation to deployment and operations.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The cloud provides protections against a variety of threats, such as network intrusion and DDoS attacks, but you still need to build security into your application, processes, and organizational culture.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>An illustration showing the types of security threats and attacks that might affect your data in the cloud.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Performance and scalability</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For an architecture to perform well and be scalable, it should properly match resource capacity to demand.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Traditionally, cloud architectures do so by scaling applications dynamically based on activity in the application.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Demand for services change, so it's important for your architecture to have the ability to adjust to demand as well.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>By designing your architecture with performance and scalability in mind, you'll provide a great experience for your customers while being cost-effective.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>An illustration showing how resources in the cloud scale dynamically based on demand resulting in highly efficient usage.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>On the contrary when resources are implemented at a fixed level, it results in inefficient usage during low demand and shortage during the high demand periods.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Availability and recoverability</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Every architect’s worst fear is having your architecture go down with no way to recover it.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A successful cloud environment is designed in a way that anticipates failure at all levels.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Part of anticipating these failures is designing a system that can recover from the failure, within the time required by your stakeholders and customers.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>An illustration showing two virtual machines in a virtual network.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>One of the machines is shown as failed while the other is working to service customer requests.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Efficiency and operations</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You will want to design your cloud environment so that it's cost-effective to operate and develop against.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Inefficiency and waste in cloud spending should be identified to ensure you're spending money where we can make the greatest use of it.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You need to have a good monitoring architecture in place so that you can detect failures and problems before they happen or, at a minimum, before your customers notice.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You also need to have some visibility in to how your application is using its available resources, through a robust monitoring framework.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>An illustration showing increasing quality, speed, and efficiency while maintaining decreasing costs.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Shared responsibility</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Moving to the cloud introduces a model of shared responsibility.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In this model, your cloud provider will manage certain aspects of your application, leaving you with the remaining responsibility.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>In an on-premises environment you are responsible for everything.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>As you move to infrastructure as a service (IaaS), then to platform as a service (PaaS) and software as a service (SaaS), your cloud provider will take on more of this responsibility.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This shared responsibility will play a role in your architectural decisions, as they can have implications on cost, operational capabilities, security, and the technical capabilities of your application.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>By shifting these responsibilities to your provider you can focus on bringing value to your business and move away from activities that aren't a core business function.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>An illustration showing the level of shared responsibilities in each type of Cloud service models</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Design choices</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>In an ideal architecture, we would build the most secure, high performance, highly available, and efficient environment possible.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>However, as with everything, there are trade-offs.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To build an environment with the highest level of all these pillars, there is a cost.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>That cost may be in actual money, time to deliver, or operational agility.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Every organization will have different priorities that will impact the design choices made in each pillar.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>As you design your architecture, you will need to determine what trade-offs are acceptable and which are not.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>When building an Azure architecture, there are many considerations to keep in mind.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You want your architecture to be secure, scalable, available, and recoverable.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>To make that possible, you'll have to make decisions based on cost, organizational priorities, and risk.</source>
+        </trans-unit></group></body></file></xliff>

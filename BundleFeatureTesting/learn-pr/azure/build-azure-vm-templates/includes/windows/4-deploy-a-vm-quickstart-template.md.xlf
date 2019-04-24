@@ -1,0 +1,157 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-deploy-a-vm-quickstart-template.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-deploy-a-vm-quickstart-template.4330a7e849440e5df95a6f80df3c3ce9b12de383.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e43da25cad1e71c5086e90644fa005c546a974bd</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\build-azure-vm-templates\includes\windows\4-deploy-a-vm-quickstart-template.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Here you'll deploy the Quickstart template you explored in the previous part.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The Quickstart template brings up a basic virtual machine configuration.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Before you do that, let's briefly review the deployment process.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>How do I deploy a Resource Manager template?</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can use automation scripting tools such as the Azure CLI, Azure PowerShell, or even the Azure REST APIs with your favorite programming language to deploy resources from templates.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can also deploy your templates through Visual Studio, Visual Studio Code, and the Azure portal.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Shortly, you'll deploy a Resource Manager template using the Azure CLI from Cloud Shell.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Verifying a template</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Before you run your template, you might want to verify it first.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A good first step is to process your template with a <bpt id="p1">_</bpt>linter<ept id="p1">_</ept>, a tool that verifies that the JSON syntax of your template is correct.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can find JSON linting tools that run on the command line, in a browser, or in your favorite code editor.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Visual Studio Code provides many <bpt id="p1">[</bpt>built-in features<ept id="p1">](https://code.visualstudio.com/docs/languages/json?azure-portal=true)</ept> that make it easier to work with JSON files.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Your favorite editor may provide similar built-in features or plugins.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The next step might be to visualize your template.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure Resource Manager Visualizer<ept id="p1">](http://armviz.io?azure-portal=true)</ept> enables you to upload your Resource Manager template and graphically see how your resources relate to one another.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can inspect this visualization to verify that the deployment is set up correctly and meets your requirements.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Finally, you can perform a test deployment from the Azure CLI or Azure PowerShell.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A test deployment doesn't create any resources, but it provides you with feedback on what would happen when the deployment runs.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You'll perform a test deployment shortly to see the process in action.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Creating resources in Azure</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Normally, the first thing we'd do is to create a <bpt id="p1">_</bpt>resource group<ept id="p1">_</ept> to hold all the things that we need to create.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This allows us to administer all the VMs, disks, network interfaces, and other elements that make up our solution as a unit.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>We can use the Azure CLI to create a resource group with the <ph id="ph1">`az group create`</ph> command.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>It takes a <ph id="ph1">`--name`</ph> to give it a unique name in our subscription, and a <ph id="ph2">`--location`</ph> to tell Azure what area of the world we want the resources to be located by default.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Since we are in the free Azure sandbox environment, you don't need to do this step, instead, you will use the pre-created resource group <bpt id="p1">**</bpt><bpt id="p2">&lt;rgn&gt;</bpt>[Resource Group Name]<ept id="p2">&lt;/rgn&gt;</ept><ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Create template parameters</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Recall that a Resource Manager template is divided into sections, one of them being <bpt id="p1">**</bpt>Parameters<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Near the start of the template, you see a section named <ph id="ph1">`parameters`</ph>.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This section defines these five parameters:</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The source code for the template's parameters section, highlighting each parameter name</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Two of these parameters <ph id="ph1">&amp;ndash;</ph> <ph id="ph2">`windowsOSVersion`</ph> and <ph id="ph3">`location`</ph> <ph id="ph4">&amp;ndash;</ph> have default values.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The default value for <ph id="ph1">`windowsOSVersion`</ph> is "2016-Datacenter" and the default value for <ph id="ph2">`location`</ph> is the parent resource group's location.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Let's keep these parameters at their default values.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For the remaining three parameters, you have two options:</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Provide the values in a JSON file.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Provide the values as command-line arguments.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>For learning purposes, here you'll provide the values as command-line arguments.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To make the template easy to deploy, you'll start by storing these values as Bash variables.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>From Cloud Shell, create a username.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For this example, let's use <bpt id="p1">**</bpt>azureuser<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Run the <bpt id="p1">**</bpt>openssl<ept id="p1">**</ept> utility to generate a random password.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>There are many ways generate random passwords.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The method you choose depends on your workflow and requirements.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This method uses the <bpt id="p1">**</bpt>openssl<ept id="p1">**</ept> utility to generate 32 random bytes and base64 encode the output.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Base64 encoding ensures that the result contains only printable characters.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Generate a unique DNS label prefix.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The DNS label prefix must be unique.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The DNS label prefix begins with "mydeployment" followed by a random number.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`$RANDOM`</ph> is a Bash function that generates a random positive whole number.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>In practice, you would choose a DNS label prefix that fits your requirements.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Validate and launch the template</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>With your parameters in place, you have everything you need to launch the template.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>As a final verification step, you'll begin by validating that the template is syntactically correct.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>From Cloud Shell, run <ph id="ph1">`az group deployment validate`</ph> to validate the template.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`--template-uri`</ph> argument points to the template on GitHub.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The template's filename is <bpt id="p1">**</bpt>azuredeploy.json<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Later, you'll see how to validate and run a template on your local filesystem.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>You see a large JSON block as output, which tells you that the template passed validation.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Azure Resource Manager fills in the template parameters and checks whether the template would successfully run in your subscription.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If validation failed, you would see a detailed description of the failure in the output.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Run <ph id="ph1">`az group deployment create`</ph> to deploy the template.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This command resembles the previous command, but also includes the <ph id="ph1">`--name`</ph> argument to give your deployment a name.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This command takes 4-5 minutes to complete.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>While you wait, now's a great time to take a <bpt id="p1">[</bpt>closer look at the source code<ept id="p1">](https://github.com/Azure/azure-quickstart-templates/blob/master/101-vm-simple-windows/azuredeploy.json?azure-portal=true)</ept> for this template.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Remember, the contents of a Resource Manager template will become more familiar to you as you read existing templates and create your own.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>When the deployment completes, you see another large JSON block as output that describes the deployment.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Verify the deployment</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The deployment succeeded.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>But let's run a few commands just to verify.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Run <ph id="ph1">`az group deployment show`</ph> to verify the deployment.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>You see the same JSON block as you did previously.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>You can run this command later if you ever need these details about the deployment.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The output is structured as JSON to make it easier to feed into other tools you might use to track your deployments and cloud usage.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Run <ph id="ph1">`az vm list`</ph> to see which VMs are running.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Your output resembles this.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Your region is shown under the <bpt id="p1">**</bpt>Location<ept id="p1">**</ept> column.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Recall that the template names the VM "SimpleWinVM".</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Here you see that this VM exists in your resource group.</source>
+        </trans-unit></group></body></file></xliff>

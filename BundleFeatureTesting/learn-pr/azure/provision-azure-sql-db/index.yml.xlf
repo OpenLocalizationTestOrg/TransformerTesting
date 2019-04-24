@@ -1,0 +1,21 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.1be055ef9f1f1e8fc3b8940050020a99af3f1ee6.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8bf039591587426f9d4409d6843dff7662c22a4f</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\provision-azure-sql-db\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db">
+          <source>Provision an Azure SQL database to store application data</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db">
+          <source>Use the Azure Portal and Cloud Shell to provision, connect, and manage Azure SQL databases.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db">
+          <source>Provision an Azure SQL database to store application data</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db">
+          <source>Use the Azure Portal and Cloud Shell to provision, connect, and manage Azure SQL databases.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db">
+          <source>In this module, you will learn:</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db">
+          <source>Why Azure SQL Database is a good choice for running your relational database</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db">
+          <source>What configuration and pricing options are available for your Azure SQL database</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db">
+          <source>How to create an Azure SQL database from the portal</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db">
+          <source>How to use Azure Cloud Shell to connect to your Azure SQL database, add a table, and work with data</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.provision-azure-sql-db">
+          <source>None</source>
+        </trans-unit></group></body></file></xliff>

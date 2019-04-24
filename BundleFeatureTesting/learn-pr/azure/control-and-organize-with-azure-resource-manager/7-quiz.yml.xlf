@@ -1,0 +1,65 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-quiz.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-quiz.026db86833aa43cdd91153a762e28a5ffd286d29.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">67fe871ad0b0d3ab2060f75103c82a46f82144bf</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\control-and-organize-with-azure-resource-manager\7-quiz.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>Check your Knowledge</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>Tags can be applied to any type of resource on Azure</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>True</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>Not all resources support tags, so you will want to confirm that your resource type supports them.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>False</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>Tags applied at a resource group level are propagated to resources within the resource group.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>True</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>Tags are not inherited.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>You need to apply tags to every supported resource that you need tagged.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>False</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>Which of the following is not a feature of resource groups?</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>Resources can be in only one resource group.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>Resources can be moved from one resource group to another resource group.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>Resource groups can be nested.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>Role based access control can be applied to the resource group.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>Which of the following might be a good usage of tags?</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>Using tags to associate a cost center with resources for internal chargeback</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>Using tags in conjunction with Azure Automation to schedule maintenance windows</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>Using tags to store environment and department association</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>All of the above are good ways to use tags</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>Which of the following would be the most efficient way to ensure a naming convention was followed across your subscription?</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>Send out an email with the details of your naming conventions and hope it is followed</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>Create a policy with your naming requirements and assign it to the scope of your subscription</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>Give all other users except for yourself read-only access to the subscription.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>Have all requests to create resources sent to you so you can review the names being assigned to resources, and then create them.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>Which of the following would be good to put a resource lock on?</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>An ExpressRoute circuit with connectivity back to your on-premises network</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>A non-production virtual machine used to test occasional application builds</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn.control-and-organize-with-resource-manager.7-quiz">
+          <source>A storage account used to temporarily store images processed in a development environment</source>
+        </trans-unit></group></body></file></xliff>

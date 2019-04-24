@@ -1,0 +1,51 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-summary.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-summary.3791e72ef002eb0842892a9bfb18a1b718dc1fbe.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">73ecb5b432d6a15d6d42af756022f5d4f470acf1</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\manage-secrets-with-azure-key-vault\7-summary.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.7-summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.7-summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.7-summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.7-summary">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.7-summary">
+          <source>Which of the following is <bpt id="p1">**</bpt>not<ept id="p1">**</ept> a benefit of Azure Key Vault?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.7-summary">
+          <source>Secure storage of private user information.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.7-summary">
+          <source>Key Vault is intended for storing application secrets, not user secrets.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.7-summary">
+          <source>Synchronizing application secrets among multiple instances of an application.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.7-summary">
+          <source>Reducing the need for application developers to directly handle application secrets.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.7-summary">
+          <source>Controlling access to application secrets with assignable permissions.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.7-summary">
+          <source>Which of these statements best describes Azure Key Vault's authentication and authorization process?</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.7-summary">
+          <source>Applications authenticate to a vault with the username and password of the lead developer and have full access to all secrets in the vault.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.7-summary">
+          <source>Applications and users authenticate to a vault with a Microsoft account and are authorized to access specific secrets.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.7-summary">
+          <source>Applications and users authenticate to a vault with their Azure Active Directory identities and are authorized to perform actions on all secrets in the vault.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.7-summary">
+          <source>Authentication to Key Vault uses Azure Active Directory identities.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.7-summary">
+          <source>Access policies are used to provide authorization for actions that apply to every secret in the vault.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.7-summary">
+          <source>Applications authenticate to a vault with the username and password of a user that signs in to the web app, and is granted access to secrets owned by that user.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.7-summary">
+          <source>How does Azure Key Vault help protect your secrets after they have been loaded by your app?</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.7-summary">
+          <source>Azure Key Vault automatically generates a new secret after every use.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.7-summary">
+          <source>The Azure Key Vault client library protects regions of memory used by your application to prevent accidental secret exposure.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.7-summary">
+          <source>Azure Key Vault double-encrypts secrets, requiring your app to decrypt them locally every time they're used.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.7-summary">
+          <source>It doesn't protect your secrets.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.7-summary">
+          <source>Secrets are unprotected once they're loaded by your application.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.7-summary">
+          <source>Once secrets have been loaded by an app, they are unprotected.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.manage-secrets-with-azure-key-vault.7-summary">
+          <source>Make sure to not log them, store them, or return them in client responses.</source>
+        </trans-unit></group></body></file></xliff>

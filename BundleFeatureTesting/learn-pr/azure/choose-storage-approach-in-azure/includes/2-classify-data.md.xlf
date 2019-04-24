@@ -1,0 +1,129 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-classify-data.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-classify-data.c08f4d26671de1194e7d9da3a9e1816ba76f8f0a.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6f0ab45f0a28c51becb1c7581d1923ee06fc9e70</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\choose-storage-approach-in-azure\includes\2-classify-data.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>An online retail business has different types of data.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Each type of data may benefit from a different storage solution.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Application data can be classified in one of three ways: structured, semi-structured, and unstructured.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Here, you'll learn how to classify your data so that you can choose the appropriate storage solution.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Approaches to storing data in the cloud</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Structured data</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Structured data is data that adheres to a schema, so all of the data has the same fields or properties.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Structured data can be stored in a database table with rows and columns.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Structured data relies on keys to indicate how one row in a table relates to data in another row of another table.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Structured data is also referred to as relational data, as the data's schema defines the table of data, the fields in the table, and the clear relationship between the two.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Structured data is straightforward in that it's easy to enter, query, and analyze.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>All of the data follows the same format.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>However, forcing a consistent structure also means evolution of the data is more difficult as each record has to be updated to conform to the new structure.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Examples of structured data include:</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Sensor data</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Financial data</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Semi-structured data</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Semi-structured data is less organized than structured data, and is not stored in a relational format, as the fields do not neatly fit into tables, rows, and columns.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Semi-structured data contains tags that make the organization and hierarchy of the data apparent.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Semi-structured data is also referred to as non-relational or NoSQL data.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>What is NoSQL?</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Examples of semi-structured data include:</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Key / Value pairs</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Graph data</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>JSON files</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>XML files</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Unstructured data</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The organization of unstructured data is generally ambiguous.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Unstructured data is often delivered in files, such as photos or videos.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The video file itself may have an overall structure and come with semi-structured metadata, but the data that comprises the video itself is unstructured.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Therefore, photos, videos, and other similar files are classified as unstructured data.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Examples of unstructured data include:</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Media files, such as photos, videos, and audio files</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Office files, such as Word documents</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Text files</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Log files</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Now that you know the differences between each kind of data, let's look at the data sets used in an online retail business, and classify them.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Product catalog data</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Product catalog data for an online retail business is fairly structured in nature, as each product has a product SKU, a description, a quantity, a price, size options, color options, a photo, and possibly a video.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>So, this data appears relational to start with, as it all has the same structure.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>However, as you introduce new products or different kinds of products, you may want to add different fields as time goes on.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For example, new tennis shoes you're carrying are Bluetooth-enabled, to relay sensor data from the shoe to a fitness app on the user’s phone.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This appears to be a growing trend, and you want to enable customers to filter on "Bluetooth-enabled" shoes in the future.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You don't want to go back and update all your existing shoe data with a Bluetooth-enabled property, you simply want to add it to new shoes.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>With the addition of the Bluetooth-enabled property, your shoe data is no longer homogenous, as you've introduced differences in the schema.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If this is the only exception you expect to encounter, you can go back and normalize the existing data so that all products included a "Bluetooth-enabled" field to maintain a structured, relational organization.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>However, if this is just one of many specialty fields that you envision supporting in the future, then the classification of the data is semi-structured.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The data is organized by tags, but each product in the catalog can contain unique fields.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Data classification: <bpt id="p1">**</bpt>Semi-structured<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Photos and videos</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The photos and videos displayed on product pages are unstructured data.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Although the media file may contain metadata, the body of the media file is unstructured.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Data classification: <bpt id="p1">**</bpt>Unstructured<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Business data</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Business analysts want to implement business intelligence to perform inventory pipeline evaluations and sales data reviews.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>In order to perform these operations, data from multiple months needs to be aggregated together, and then queried.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Because of the need to aggregate similar data, this data must be structured, so that one month can be compared against the next.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Data classification: <bpt id="p1">**</bpt>Structured<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Data may be classified in one of three ways: structured, semi-structured, and unstructured.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Understanding the differences so that you can classify your own data will help you choose the correct storage solution.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>To recap, structured data is organized data that neatly fits into rows and columns in tables.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Semi-structured data is still organized and has clear properties and values, but there's variety to the data.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Unstructured data doesn't fit neatly into tables, nor does it have a schema.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,63 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-sre-in-context.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-sre-in-context.633645eb894ff93695a61382bbb2566488a3a38d.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3c795ae1fff79f9a8c48d8c189ac5c6fb3486dd4</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\intro-to-site-reliability-engineering\3-sre-in-context.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>SRE in context</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>SRE in context</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>SRE in context</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>Given the origin of SRE, which discipline has had the most impact on it?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>Customer service</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>Approaching the work with a customer-centric mindset is crucial to SRE, but customer service was not part of its origin.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>Mainframe operations</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>Though we can learn from other operations specialties, SRE did not start with this one.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>Software engineering</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>SRE was started with software engineering mindset.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>Architecture</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>Architecture (especially software architecture) is definitely a component of SRE work, but it was not part of its origin.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>Which came first, DevOps or SRE?</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>DevOps</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>They developed roughly in parallel.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>SRE</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>They developed roughly in parallel.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>Neither, they developed roughly in parallel.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>Is SRE the next evolutionary step from DevOps?</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>Yes, SRE is the future of DevOps.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>DevOps personnel should strive to become SREs</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>DevOps and SRE are separate operations practices that attempt to address similar challenges.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>No, SRE and DevOps are separate operations practices</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>DevOps and SRE are indeed separate even though they attempt to address similar challenges.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>What are two best practices that are central to both DevOps and SRE?</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>Automation and monitoring/observability</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>Coding and ticket systems</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>While coding is important (more so in SRE), ticket systems are not central to SRE.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>Help desk automation and bug tracking</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.3-sre-in-context">
+          <source>Though useful, help desk automation is not core to either operations practice.</source>
+        </trans-unit></group></body></file></xliff>

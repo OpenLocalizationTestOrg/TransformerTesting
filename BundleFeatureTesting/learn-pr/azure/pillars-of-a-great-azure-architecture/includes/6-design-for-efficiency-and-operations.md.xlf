@@ -1,0 +1,87 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-design-for-efficiency-and-operations.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-design-for-efficiency-and-operations.fdee75228a17ad4cf5b9c1e92ae57acd5a684f5a.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d8d6e4eb0918c85867e9719d9a8c0c521a126d97</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\pillars-of-a-great-azure-architecture\includes\6-design-for-efficiency-and-operations.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Your organization has moved a majority of their systems to the cloud, but are now seeing cost increases in areas they didn't expect.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>After some observation, you realize you're inefficient across your environment, and are still doing manual operational work.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Here, we'll take a look at some ways they can eliminate waste and improve operational efficiencies.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Importance of efficiency and operations</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Efficiency is focused on identifying and eliminating waste within your environment.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The cloud is a pay-as-you-go service and waste typically comes from provisioning more capacity than demand requires.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>There are operational costs that go along with this as well.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>These operational costs show up as wasted time and increased error.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Focusing on these as you design your architecture will help you identify and eliminate waste across your environment.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Waste can show up in several ways.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Let's look at a few examples:</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A virtual machine that is always 90% idle</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Paying for a license included in a virtual machine when a license is already owned</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Retaining infrequently accessed data on a storage medium optimized for frequent access</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Manually repeating the build of a non-production environment</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In each of these cases, more money is being spent than it should, and each presents an opportunity for cost reduction.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Operationally, it's important to have a robust monitoring strategy.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This helps you identify areas of waste, troubleshoot issues, and optimize the performance of your application.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A multilayered approach is essential.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Gathering data points from components at every layer will let you alert when values are outside of acceptable values and track spending over time.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Efficiency best practices</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>There are several ways to optimize your environment and maximize efficiency.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A great place to start is to look at cost optimization steps like sizing virtual machines properly and deallocating virtual machines that aren't in use.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Now that you are paying for what you use, you want to be sure that you aren't wasting any of these resources.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Where possible, you want to move from IaaS to PaaS services.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>PaaS services typically cost less than IaaS, and typically bring reduced operational costs along as well.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>With PaaS services, you don’t have to worry about patching or maintaining VMs because those activities are typically handled by the cloud provider.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Not all applications can be moved to PaaS, but with the cost savings that are there with PaaS services, it's certainly something worth considering.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Operational best practices</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Automate as much as possible.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The human element is costly, injecting time and error into operational activities.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You can use automation to build, deploy, and administer resources.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>By automating common activities, you can eliminate the delay in waiting for a human to intervene.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Throughout your architecture, you want to have a thorough monitoring, logging, and instrumentation system.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This will always give you the capability to see what’s going on.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>It will ensure you know when something is not right before your users are impacted.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>With a comprehensive approach, you'll be able to identify performance issues, cost inefficiencies, correlate events, and gain a greater ability to troubleshoot issues.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Lastly, modern architectures should be designed with DevOps and continuous integration in mind.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This will give you the ability to automate deployments using infrastructure as code, automate application testing, and build new environments as needed.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>DevOps is as much cultural as it is technical, but can bring many benefits to organizations that embrace it.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Efficiency is about identifying and eliminating waste within your environment.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>With cloud computing, you're paying for what you use, so you want to make sure you aren't wasting resources.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To help ensure efficiency, try to automate as much as possible, move systems from IaaS to PaaS, and design your architectures with DevOps in mind.</source>
+        </trans-unit></group></body></file></xliff>

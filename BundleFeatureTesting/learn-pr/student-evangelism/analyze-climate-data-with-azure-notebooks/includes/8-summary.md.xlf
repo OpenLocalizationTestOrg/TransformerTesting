@@ -1,0 +1,21 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="8-summary.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8-summary.6a2f5b136ea1803953bb701e4410406659337b11.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">973e557029b3cc2674b68270dc511bf4b0ac12f0</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\student-evangelism\analyze-climate-data-with-azure-notebooks\includes\8-summary.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>There's much more to do and learn with Azure Notebooks, like integrate with Azure Machine Learning, and connect the notebook to your own Azure compute source.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The Azure Notebooks Web site contains several sample notebooks that you can experiment with and learn from.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Here are two great examples.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Discover Sentiments in Tweets<ept id="p1">](https://notebooks.azure.com/Microsoft/libraries/samples/html/Discover%20Sentiments%20in%20Tweets.ipynb)</ept> performs sentiment analysis on 160,000 tweets, and uses the <bpt id="p2">[</bpt>word_cloud<ept id="p2">](https://github.com/amueller/word_cloud)</ept> package to generate word clouds from the tweets.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Introduction to Cognitive Toolkit<ept id="p1">](https://notebooks.azure.com/cntk/libraries/tutorials)</ept> is a library of notebooks that demonstrate how to use the <bpt id="p2">[</bpt>Microsoft Cognitive Toolkit<ept id="p2">](https://www.microsoft.com/research/product/cognitive-toolkit/)</ept> to build sophisticated machine-learning models.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Check out the Azure Notebooks home page for additional sample notebooks, and use them to deepen your understanding of Jupyter and sharpen your data-science skills.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Learn more</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure Notebooks Web site<ept id="p1">](https://notebooks.azure.com/)</ept></source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure Notebooks documentation<ept id="p1">](https://docs.microsoft.com/azure/notebooks/)</ept></source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure Notebooks samples<ept id="p1">](https://github.com/Microsoft/AzureNotebooks)</ept></source>
+        </trans-unit></group></body></file></xliff>

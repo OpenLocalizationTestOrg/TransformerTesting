@@ -1,0 +1,89 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-what-is-sre-and-why-does-it-matter.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-what-is-sre-and-why-does-it-matter.eab9ed5110e884e22de4e92dfd247839d9934d7c.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b07b4ce69215159bb6e14f777b4a4905de924b9b</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\intro-to-site-reliability-engineering\Includes\2-what-is-sre-and-why-does-it-matter.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The best place to start is often the beginning.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Let’s start by just asking the basic question “What is Site Reliability Engineering?”</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>There are a number of answers to this question floating around, including <bpt id="p1">[</bpt>the one often quoted<ept id="p1">](https://landing.google.com/sre/book/chapters/introduction.html)</ept> by the person who coined the term (Ben Treynor Sloss at Google), but this is the most practical answer we can offer:</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Site Reliability Engineering is an engineering discipline devoted to helping an organization achieve the appropriate level of reliability in their systems, services, and products.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Later on we may bring some other definitions into the picture, but lets start from here.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>There are two crucial parts to this definition we need to unpack that will leads us right to the “Why does it matter?”</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>question.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Reliability</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>At the very heart of (and smack in the middle of the name "SRE") is that word Reliability.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The definition doesn’t say “appropriate level of performance” or “appropriate level of efficiency” or “appropriate level of stability” or even “achieve the appropriate level of income”.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>It says “appropriate level of reliability”.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Why?</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Let’s look at a quick demonstration.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Here’s a screenshot.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>What do you think it is showing?</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Try not to move on until you have an idea or you give up.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Note: if it is hard to detect very much detail in the picture below that’s fine, it is rendering perfectly in your browser.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A blank screenshot representing a PHP app that fails to load.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This picture is a screenshot of what a PHP app (without other debugging support added) looks like when it fails.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You might see something like this for a Java app:</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A screenshot of failed java app with HTTPS Status 500 error.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Why are we looking at these examples?</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Each of them represents an application that potentially took a business huge amounts of time, energy, and resources to create.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>But if the application isn’t up--if it isn’t operational when a customer needed to access it--if it isn’t reliable—-it does no one, especially the business any good.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In fact, a lack of reliability can do actual harm (reputational, economic, contractual, morale, and so on) to a business.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This is why reliability is so important and why SRE chooses to focus on it as a fundamental property, perhaps the fundamental property of the service, system, or product.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Reliability can encompass a number of things (we’ll talk about this some more later), but lets move on to the second crucial part of the definition.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Appropriate levels of reliability</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You may not have caught it the first time you read the definition, but lets emphasize another important word:</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Site Reliability Engineering is an engineering discipline devoted to helping an organization achieve the <bpt id="p1">*</bpt>appropriate<ept id="p1">*</ept> level of reliability in their systems, services, and products.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Why does that word matter so much?</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>An important observation made by the SRE world is there are very few systems and services that have to be 100% reliable.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Life and death situations like aviation, medical devices, etc. are a notable exception.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In fact, there are very few situations where it is even desirable.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The effort and resources (and hence the cost) needed to achieve greater reliability rises at a steep rate as greater reliability is sought.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To say it another way, chasing after reliability you don’t need is a waste of time and money.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>You want to achieve the appropriate level of reliability in your system, services, and products.<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The level needs to match the business needs and be pragmatic.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For example, if your customers connect to you over a network that isn’t 100% reliable (let’s say it is up 90% of the time), spending the effort and money to make sure your service is 95% reliable is by definition a waste of time and money.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>You want to achieve the appropriate level of reliability in your system, services, and products.<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>SRE takes this pragmatism one more step.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If we can now think about there being a desirable level of reliability, is there something we should do if we are successful at meeting or surpassing that level?</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Similarly, what if we don’t achieve it?</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>We'll answer these questions later in the module.</source>
+        </trans-unit></group></body></file></xliff>

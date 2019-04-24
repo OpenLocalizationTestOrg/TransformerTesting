@@ -1,0 +1,27 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-benefits-of-running-deep-learning-experiments-in-docker.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-benefits-of-running-deep-learning-experiments-in-docker.9fade918bded196b6307811880496d874ab4a939.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8f3ef4036da62795bbbbb95f1c3ad73b60cbe3ab</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\interactive-deep-learning\includes\4-benefits-of-running-deep-learning-experiments-in-docker.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Docker logo</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Docker is a tool that allows you to deploy your applications in a sandbox to run on a host operating system of your choice.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>It allows you to package your app with all of its dependencies in a standardized unit.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>But if the DSVM base image comes with the most popular deep learning frameworks already pre-installed, why would you use Docker?</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When attempting to run deep learning tasks, developers find themselves facing dependency issues.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Having to build custom packages - Deep learning researchers tend to think less about production when they publish code to GitHub.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If they can get a package working on their own development environment, they often just assume that others will be able to do so as well.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>GPU driver versioning - CUDA is a parallel computing platform and application programming interface (API) developed by NVIDIA.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>It allows developers to use a CUDA-enabled graphics processing unit (GPU) for general-purpose processing.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Certain versions of Tensorflow will not work with versions of CUDA above 9.1.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Other frameworks, such as PyTorch, seem to perform better with later versions of CUDA.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To get around these issues and to increase the usability of code, you can use Docker or its GPU variant NVIDIA Docker to manage and run deep learning projects.</source>
+        </trans-unit></group></body></file></xliff>

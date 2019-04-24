@@ -1,0 +1,63 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="8-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8-knowledge-check.e91b74621fa8f666352a9be5ef9afc546a06a1c7.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">174e46f4fd60caed06064a9b862122ae9d423c12</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\build-chat-bot-with-azure-bot-service\8-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>Knowledge check for "Build a chat bot with the Azure Bot Service"</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>Knowledge check for "Build a chat bot with the Azure Bot Service"</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>True or false: The <bpt id="p1">*</bpt>Web App Bot<ept id="p1">*</ept> template creates a <bpt id="p2">*</bpt>Web App<ept id="p2">*</ept> and a <bpt id="p3">*</bpt>Bot<ept id="p3">*</ept>.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>True</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>The template creates a Bot and an Azure Web App to host the Bot.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>It also configures the Bot to use a QnA Maker knowledge base.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>You will need to create the knowledge base yourself and connect it to the Bot.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>False</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>The template name is descriptive, it does create a Web App and a Bot.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>What is QnA Maker used to create?</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>A knowledge base that can be used by a bot.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>QnA Maker takes in questions and answers and processes them into a format a bot can use to answer questions.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>Surveys you can embed in your bot to get user feedback.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>QnA Maker is not a survey service.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>It helps provide information to users, it does not try to extract data from them.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>A bot</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>QnA Maker can be associated with a bot, but it doesn't create one.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>How can you input your data into QnA Maker?</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>Manually.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>You can manually populate the knowledge base, but there are other ways.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>Upload a text file.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>QnA Maker supports text files in many different formats such as tab-separated-values and Excel spreadsheet.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>However, this is not the only way to populate the knowledge base.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>Provide the URL of a FAQ page.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>QnA Maker can extract questions and answers from many different FAQ-page formats.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>However, a FAQ URL isn't the only way to populate the knowledge base.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>All of the above.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>QnA Maker is flexible enough to handle your input data in several of the most common formats: text files, FAQ pages, and even product manuals.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.build-azure-bot-services-bot.8-knowledge-check">
+          <source>The goal is to make it convenient for you to import your data without reformatting.</source>
+        </trans-unit></group></body></file></xliff>

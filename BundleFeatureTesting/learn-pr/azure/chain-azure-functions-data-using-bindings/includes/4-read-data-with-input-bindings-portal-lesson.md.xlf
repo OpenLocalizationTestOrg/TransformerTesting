@@ -1,0 +1,69 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-read-data-with-input-bindings-portal-lesson.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-read-data-with-input-bindings-portal-lesson.850944fa70c002b75212fff9f090718022e374a3.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7a22bbaf3479233b9a02f27ee3a63b635c236370</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\chain-azure-functions-data-using-bindings\includes\4-read-data-with-input-bindings-portal-lesson.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>To connect to a data source, you have to configure an <bpt id="p1">*</bpt>input binding<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This binding makes it possible to write minimal code to create a message.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You don't have to write code for tasks such as opening a storage connection.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The Azure Functions runtime and binding take care of those tasks for you.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Input binding types</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>There are multiple types of input.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>However, not all types support both input and output.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You'll use them anytime you want to ingest data of that type.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Here, we'll look at the types that support input bindings and when to use them.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Blob storage<ept id="p1">**</ept>  Blob storage bindings allow you to read from a blob.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Cosmos DB<ept id="p1">**</ept>  The Azure Cosmos DB input binding uses the SQL API to retrieve one or more Azure Cosmos DB documents and passes them to the input parameter of the function.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The document ID or query parameters can be determined based on the trigger that invokes the function.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Microsoft Graph<ept id="p1">**</ept>  Microsoft Graph input bindings allow you to read files from OneDrive, read data from Excel, and get auth tokens so you can interact with any Microsoft Graph API.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Mobile Apps<ept id="p1">**</ept>  The Mobile Apps input binding loads a record from a mobile table endpoint and passes it into your function.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Table storage<ept id="p1">**</ept>  You can read data and work with Azure Table storage.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To create a binding as an input, you must define the <ph id="ph1">`direction`</ph> as <ph id="ph2">`in`</ph>.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The parameters for each type of binding may vary.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>What is a binding expression?</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A binding expression is specialized text in <bpt id="p1">**</bpt>function.json<ept id="p1">**</ept>, function parameters, or code that is evaluated when the function is invoked to yield a value.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For example, if you have a Service Bus Queue binding you could use a binding expression to get the name of the queue from App Settings.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Types of binding expressions</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>App settings</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Trigger file name</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Trigger metadata</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>JSON payloads</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>New GUID</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Current date and time</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Most expressions are identified by wrapping them in curly braces.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>However, app setting binding expressions are wrapped in percent signs rather than curly braces.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>For example if the blob output binding path is <ph id="ph1">`%Environment%/newblob.txt`</ph> and the Environment app setting value is Development, a blob will be created in the Development container.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Input bindings allow you to connect your function to a data source.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You can connect to several types of data sources, and the parameters for each vary.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To resolve values from various sources, you can use binding expressions in the <bpt id="p1">*</bpt>function.json<ept id="p1">*</ept> file, function parameters, or code.</source>
+        </trans-unit></group></body></file></xliff>

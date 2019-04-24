@@ -1,0 +1,61 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-key-principles-2-human-side-of-sre.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-key-principles-2-human-side-of-sre.aee297fd20b80aa3747aff093f35b75872c78aef.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8d216d0eca24bf08b78c15ad32801fe214fb1560</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\intro-to-site-reliability-engineering\Includes\5-key-principles-2-human-side-of-sre.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>A successful operations process, one that achieves the desired reliability and sustains it, is as much dependent on how we treat the machines as it is how we treat the humans responsible for that environment.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Site reliability engineering acknowledges this truth in a number of ways that are crucial to its practice.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Toil</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The first is a focus on the notion of “toil”.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In an SRE context, toil refers to operations work being done by a human that has certain characteristics.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Toil has no long term redeeming value.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>It doesn't move the service forward in any meaningful way.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>It is often repetitive and largely manual (even though it could be automated).</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>As the service or systems gets bigger over time, the number of requests for that system will also probably increase in quantity at a proportional rate and require even more manual labor.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For example, if a service requires the SRE team to reset something every week, or to provision new accounts and disk space by hand, or repeatedly restart it by hand this is operational load that is toil.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Completing those actions hasn’t made the service better in any long-term, persistent way.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>These actions will likely have to be repeated over and over.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Even if you keep requests of this nature in some sort of ticket system as many places do, performing the action and resolving a ticket is still toil.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>It's just well-tracked toil.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>SREs hate toil.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>They work to eliminate it whenever possible and appropriate.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This is one of the places automation comes into play in SRE.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If these requests can be handled automatically, that frees up the team to work on more rewarding and impactful things than draining the request queue.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>It should be mentioned that the use of the word “appropriate” here is similar to its use around reliability.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>There are situations where toil elimination work is of lower priority than other work, but on the whole, stripping toil from a service is a key focus for an SRE.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Project work vs. reactive "ops" work</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To do the work necessary to remove toil, or improve the reliability of a system, an SRE’s time has to be allocated in such a way that they aren’t spending all of their time firefighting, replying to pages, or just processing a ticket queue.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>They need to have the time set aside to write code to eliminate the toil, construct self-service automation so tickets aren’t necessary, build projects that make the service and the people more efficient.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The figure usually cited (which comes from the original Google model) is one of no more than 50% operational load on a team.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>50% is a somewhat arbitrary number, but in practice it seems to work as a reasonable goal for many people.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>There are moments in an SRE’s life when all of their time is devoted to firefighting, but that can’t be a steady state.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If a team’s reactive "ops" work (much of it toil) takes up more than 50% of their time for an extended period, that’s a recipe for burnout and poor reliability.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>In this situation, the virtuous cycles we discussed before cannot operate or be constructed.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>SRE similarly pays attention to poorly balanced on-call load because that too has the potential for a very strong negative impact on the team.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Now that we’ve had a chance to see some of the core practices and principles of SRE, let’s talk a bit about how to get started.</source>
+        </trans-unit></group></body></file></xliff>

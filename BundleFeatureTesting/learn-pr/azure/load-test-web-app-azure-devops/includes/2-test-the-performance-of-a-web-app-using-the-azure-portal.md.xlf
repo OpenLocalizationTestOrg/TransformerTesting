@@ -1,0 +1,143 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-test-the-performance-of-a-web-app-using-the-azure-portal.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-test-the-performance-of-a-web-app-using-the-azure-portal.c4ddae9d5c82ca5a384b2a6a4669e8a6286ed26e.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">558a63da2a33815238e2f94e2ad1b81a28d7c624</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\load-test-web-app-azure-devops\includes\2-test-the-performance-of-a-web-app-using-the-azure-portal.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>There are times when a basic load test is all you, as a web developer, need.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The Azure portal provides an easy way to create these tests and view the results.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You might want to test after changing back-end database connectivity strings or after updating front-end UI stylesheets.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>As the lead web developer for the costume rental company, you know that running some basic tests on your existing web app will help as you prepare to scale up your service.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Plan your performance tests</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When you're ready to start performance testing, the first thing you should do is create a separate App Service plan.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You should use this plan exclusively for testing.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>By creating a separate plan for testing, you ensure that users of your live app aren't affected by the load overhead during the test period.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To ensure the testing is realistic, your testing App Service plan should be at the same tier as your production tier.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Your performance testing tier doesn't need to be a permanently billed test environment, so you could delete it after you finish testing.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Load performance tests are created and saved within Azure DevOps, but when you plan your tests, you can choose what tools to use to run your tests.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In Azure, there are two environments that can help you test your Azure web apps: the Azure portal and Azure DevOps.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can also run Azure DevOps performance tests from within Visual Studio.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Create tests in the Azure portal</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The Azure portal provides shortcuts for creating performance tests.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>These shortcuts might be all you need during the early stage of web app development.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Configuration options for performance testing in the Azure portal are limited.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>But because all tests are actually part of Azure DevOps, you can later review and rerun these tests by using the Azure DevOps Portal as you move through your web app development cycle.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Create tests in Azure DevOps</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The Azure DevOps Portal provides more control over your performance testing and lets you easily compare results from different test runs.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>One of the key components of Azure DevOps is Test Plans, which can be used in a wide range of scenarios.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In this module, you're going to look at the load testing features of Azure Test Plans.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>These are the tests that are also available from the Azure portal.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Azure DevOps load tests</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Azure DevOps includes these features:</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Multiple URLs can be tested concurrently.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Requests can be configured to use a specific user agent string.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Tests can be configured to simulate a specific mix of user browser types.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The user load during a test can be increased gradually or stepwise.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Recorded user sessions can be replayed as the test parameters.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Performance testing in the Azure portal</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The high-level steps to configure and run a performance test by using the Azure portal are outlined here.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>1. Open your web app</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Open your web app in the Azure portal, and then open the performance test page:</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Configuring a new performance test</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>2. Link to your Azure DevOps account</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If you're running the first test for the web app, set up a link to your Azure DevOps organization:</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Set your Azure DevOps organization</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If you don't have an organization, select <bpt id="p1">**</bpt>Create new<ept id="p1">**</ept> and then select your Azure subscription:</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Create an Azure DevOps organization</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>3. Configure the test</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Now you can configure your test parameters.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Configure basic performance test</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>URL<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>By default, the app's default URL is selected, but you can change this to test other pages as long as the URL is for HTTP GET requests.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Name<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Give your test a meaningful name.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Location<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>By default, tests will be run from the app's location (as long as this location is also an Azure location that supports load testing), but you can also change the location manually.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>You'd typically select a location at or near the app location.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>But, to test for local conditions and latency, at times you might want to select other locations for generating load, like if you were planning the rollout of a local service to a wider geographic area.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>User load<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This option specifies the number virtual users that will be used during the test.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If you're using the Free App Service plan tier, you're limited to 40 users.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Duration<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This option specifies how long the test will run.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If you're using the Free App Service plan tier, you're limited to a one-minute test.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The Shared and Basic/Standard/Premium App Service tiers have different limits.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>4. Run the test</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>After you've configured your test, simply select <bpt id="p1">**</bpt>Run test<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Your test is placed in a queue.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>It might remain in a queued state for 10 or 15 minutes before the test run starts.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Queued performance test</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>5. Running the test again</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You might want to repeat your test several times in case the first results were not representative.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>You should also repeat your test after you make changes to your app.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>To repeat a test from the Azure portal, simply open the test and select <bpt id="p1">**</bpt>Rerun<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The test will run again with the same parameters.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>To compare the results of multiple test runs, you need to use Azure DevOps.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>You'll do this in a later unit.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>In the next unit, you'll configure and run a performance test on an Azure web app.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,77 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="8-improve-app-slas.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8-improve-app-slas.d780abefe8770dccda9713cc1aa60903251fd0fa.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a4173adaa71af46f72a9c7a3d06babb77d1c1a40</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\explore-azure-infrastructure\includes\8-improve-app-slas.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You can use SLAs to evaluate how your Azure solutions meet business requirements and the needs of your clients and users.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>By creating your own SLAs, you can set performance targets to suit your specific Azure application.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This approach is known as an <bpt id="p1">*</bpt>Application SLA<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Understand your app requirements</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Building an efficient and reliable Azure solution requires knowing your workload requirements.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can then select Azure products and services, and provision resources according to those requirements.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>It's important to understand the Azure SLAs that define performance targets for the Azure products and services within your solution.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This understanding will help you create achievable Application SLAs.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In a distributed system, failures will happen.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Hardware can fail.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The network can have transient failures.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>It's rare for an entire service or region to experience a disruption, but even this must be planned for.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Resiliency</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Resiliency<ept id="p1">*</ept> is the ability of a system to recover from failures and continue to function.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>It's not about avoiding failures, but responding to failures in a way that avoids downtime or data loss.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The goal of resiliency is to return the application to a fully functioning state following a failure.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>High availability and disaster recovery are two crucial components of resiliency.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When designing your architecture you need to design for resiliency, and you should perform a <bpt id="p1">*</bpt>Failure Mode Analysis<ept id="p1">*</ept> (FMA).</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The goal of an FMA is to identify possible points of failure and to define how the application will respond to those failures.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Cost and complexity vs. high availability</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Availability<ept id="p1">*</ept> refers to the time that a system is functional and working.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Maximizing availability requires implementing measures to prevent possible service failures.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>However, devising preventative measures can be difficult and expensive, and often results in complex solutions.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>As your solution grows in complexity, you will have more services depending on each other.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Therefore, you might overlook possible failure points in your solution if you have several interdependent services.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For example: A workload that requires 99.99 percent uptime shouldn't depend upon a service with a 99.9 percent SLA.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Most providers prefer to maximize the availability of their Azure solutions by minimizing downtime.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>However, as you increase availability, you also increase the cost and complexity of your solution.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For example: An SLA that defines an <bpt id="p1">*</bpt>uptime of 99.99% only allows for about 5 minutes of total downtime per month.<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The risk of potential downtime is cumulative across various SLA levels, which means that complex solutions can face greater availability challenges.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Therefore, how critical high-availability is to your requirements will determine how you handle the addition of complexity and cost to your application SLAs.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Considerations for defining application SLAs</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If your application SLA defines four 9's (99.99%) performance targets, recovering from failures by manual intervention may not be enough to fulfill your SLA.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Your Azure solution must be self-diagnosing and self-healing instead.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>It is difficult to respond to failures quickly enough to meet SLA performance targets above four 9's.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Carefully consider the time window against which your application SLA performance targets are measured.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The smaller the time window, the tighter the tolerances.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>If you define your application SLA as hourly or daily uptime, you need to understand these tighter tolerances might not allow for achievable performance targets.</source>
+        </trans-unit></group></body></file></xliff>

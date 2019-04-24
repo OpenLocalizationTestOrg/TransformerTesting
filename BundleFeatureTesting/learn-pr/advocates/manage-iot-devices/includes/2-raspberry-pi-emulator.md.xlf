@@ -1,0 +1,49 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-raspberry-pi-emulator.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-raspberry-pi-emulator.0f60dfacc28258d33be0de79aae3aa366fc01787.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">598ddd150ad0bb5bc5b80cf32d79a1553b69363d</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\manage-iot-devices\includes\2-raspberry-pi-emulator.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Raspberry Pi boards have garnered much interest of late for testing theories or even making cool things.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>While the cost on this boards are quite low, some may be interested in testing out the Raspberry Pi functionality before investing in one.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Microsoft has built an online <bpt id="p1">[</bpt>Raspberry Pi Azure IoT Simulator<ept id="p1">](https://azure-samples.github.io/raspberry-pi-web-simulator?azure-portal=true)</ept> allowing users to control the emulated hardware via code.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The emulator portrays a graphic of a Raspberry Pi connected to a temperature, humidity, pressure sensor, and a red LED via breadboard allowing circuits to be wired together.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The displayed side panel allows users to enter Node.js JavaScript code to control the LED and collect dummy data from the simulated sensor.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Raspberry Pi Simulator</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Raspberry Pi Azure IoT Online Simulator</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>At first run, the simulator operates a sample temperature capture program which is displayed via the command line.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The same sample application can also be run on a real Pi as the simulator is designed to allow people to test code before transferring it to a real device.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>There are three areas in the web simulator:</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Assembly Area<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This is where you can see your device status.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>By default, this is a Pi connecting with a BME280 sensor and an LED light.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This configuration isn't customizable at this time.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Coding Area<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>An online code editor for you to make an app on Raspberry Pi with Node.js.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The default sample application helps to collect sensor data from the BME280 sensor and sends it to your Azure IoT Hub.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Integrated console window<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This is where you can see the output of your app.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Within the console there are three functions:</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`run`</ph> - Runs the sample code (When sample is running, code is read-only).</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Stop`</ph> - Stops the sample code running.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Reset`</ph> - Resets the code.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Now that you have an overview of the Raspberry Pi simulator, we'll explore the IoT Hub in Azure where you will create a new resource to capture data from the simulator.</source>
+        </trans-unit></group></body></file></xliff>

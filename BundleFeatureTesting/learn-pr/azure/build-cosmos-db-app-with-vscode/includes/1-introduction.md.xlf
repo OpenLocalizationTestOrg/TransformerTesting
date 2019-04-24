@@ -1,0 +1,29 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.5f67621c276e271dfc29fa03e74c9e2a197a64d0.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c6c1b9da14e083c0096e4aa5ff6de8ed1f4f803a</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\build-cosmos-db-app-with-vscode\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Imagine you're managing storage for an online retailer.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You need tools to create, update, and delete your user and product data.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In this module, you will build a .NET Core console application in Visual Studio Code to create, update, and delete user records, query your data, and perform stored procedures using C#.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Your data will be stored in Azure Cosmos DB, which has a convenient Visual Studio Code extension so you can easily create an Azure Cosmos DB account, database, and collection, and copy your connection string into the app without having to open the Azure portal.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Create an Azure Cosmos DB account, database, and collection in Visual Studio Code using the Azure Cosmos DB extension</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Create an application to store and query data in Azure Cosmos DB</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Use the Terminal in Visual Studio Code to quickly create a console application</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Add Azure Cosmos DB functionality with the help of the Azure Cosmos DB extension for Visual Studio Code</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Must have <bpt id="p1">[</bpt>Visual Studio Code<ept id="p1">](https://code.visualstudio.com/)</ept> installed</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Must have <bpt id="p1">[</bpt>.NET Core 2.1<ept id="p1">](https://www.microsoft.com/net/download)</ept> installed</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Must have the <bpt id="p1">[</bpt>Azure Account<ept id="p1">](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account)</ept> extension installed in Visual Studio Code</source>
+        </trans-unit></group></body></file></xliff>

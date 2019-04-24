@@ -1,0 +1,53 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-summary.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-summary.2213f593a8b7a6ab1ac53298790c93ebc8bfa613.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">adffa6e6663db5809693e82c628bf055ab22e219</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\design-azure-sql-data-warehouse\7-summary.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.data-ai.design-azure-sql-data-warehouse.summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.data-ai.design-azure-sql-data-warehouse.summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.data-ai.design-azure-sql-data-warehouse.summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.data-ai.design-azure-sql-data-warehouse.summary">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.data-ai.design-azure-sql-data-warehouse.summary">
+          <source>Which of the following terms refers to the compute scale that's used in a data warehouse in Azure SQL Data Warehouse?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.data-ai.design-azure-sql-data-warehouse.summary">
+          <source>RTU</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.data-ai.design-azure-sql-data-warehouse.summary">
+          <source>RTU is a compute scale unit of Azure Cosmos DB.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.data-ai.design-azure-sql-data-warehouse.summary">
+          <source>DWU</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.data-ai.design-azure-sql-data-warehouse.summary">
+          <source>DWU refers to a data warehouse unit.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.data-ai.design-azure-sql-data-warehouse.summary">
+          <source>It is the measure of compute scale that is assigned to a data warehouse in Azure SQL Data Warehouse.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.data-ai.design-azure-sql-data-warehouse.summary">
+          <source>DTU</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.data-ai.design-azure-sql-data-warehouse.summary">
+          <source>A DTU is a compute scale unit of Azure SQL Database.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.data-ai.design-azure-sql-data-warehouse.summary">
+          <source>You have an Azure SQL Data Warehouse database.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.data-ai.design-azure-sql-data-warehouse.summary">
+          <source>Within the database, you have a dimension table named Stores that contains store information.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.data-ai.design-azure-sql-data-warehouse.summary">
+          <source>You have a total of 263 stores nationwide.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.data-ai.design-azure-sql-data-warehouse.summary">
+          <source>Store information is retrieved in more than half of the queries that are issued against this database.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.data-ai.design-azure-sql-data-warehouse.summary">
+          <source>These queries include staff information per store, sales information per store, and finance information.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.data-ai.design-azure-sql-data-warehouse.summary">
+          <source>You want to improve the query performance of these queries by configuring the table geometry of the Stores table.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.data-ai.design-azure-sql-data-warehouse.summary">
+          <source>Which is the appropriate table geometry to select for the Stores table?</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.data-ai.design-azure-sql-data-warehouse.summary">
+          <source>Round-robin</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.data-ai.design-azure-sql-data-warehouse.summary">
+          <source>Round-robin distribution is a table geometry that is useful for initial data loads.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.data-ai.design-azure-sql-data-warehouse.summary">
+          <source>Non-clustered</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.data-ai.design-azure-sql-data-warehouse.summary">
+          <source>Non-clustered is not a valid table geometry in Azure SQL Data Warehouse.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.data-ai.design-azure-sql-data-warehouse.summary">
+          <source>Replicated table</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.data-ai.design-azure-sql-data-warehouse.summary">
+          <source>A replicated table is an appropriate table geometry choice because the size of the data in the table is less than 200 m.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.data-ai.design-azure-sql-data-warehouse.summary">
+          <source>The table will be replicated to every distribution node of a data warehouse in Azure SQL Data Warehouse to improve performance.</source>
+        </trans-unit></group></body></file></xliff>

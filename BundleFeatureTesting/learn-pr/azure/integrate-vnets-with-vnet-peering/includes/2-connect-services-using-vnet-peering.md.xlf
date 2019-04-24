@@ -1,0 +1,129 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-connect-services-using-vnet-peering.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-connect-services-using-vnet-peering.1646eadc7644aaf86db0fe4d85f3704f317fcdd7.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">876c83d6a2ca853b159a9fdeedccd9f6f45bc125</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\integrate-vnets-with-vnet-peering\includes\2-connect-services-using-vnet-peering.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You can use virtual network peering to directly connect Azure virtual networks.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>When you use peering to connect virtual networks, virtual machines (VMs) in these networks can communicate with each other as if they were in the same network.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In peered virtual networks, traffic between virtual machines is routed through the Azure network.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The traffic uses only private IP addresses.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>It doesn't rely on internet connectivity, gateways, or encrypted connections.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The traffic is always private, and it takes advantage of the high bandwidth and low latency of the Azure backbone network.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>A basic diagram of two virtual networks that are connected by virtual network peering</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The two types of peering connections are created in the same way:</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Virtual network peering<ept id="p1">**</ept> connects virtual networks in the same Azure region, such as two virtual networks in North Europe.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Global virtual network peering<ept id="p1">**</ept> connects virtual networks that are in different Azure regions, such as a virtual network in North Europe and a virtual network in West Europe.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Virtual network peering doesn't affect or disrupt any resources that you've already deployed to the virtual networks.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>But when you use virtual network peering, consider the key features that the following sections define.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Reciprocal connections</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When you create a virtual network peering connection in only one virtual network to connect to a peer in another network, you're not connecting the networks together.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To connect the networks by using virtual network peering, you have to create connections in each virtual network.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Think of how you connect two network switches together.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You connect a cable to each switch and maybe configure some settings so that the switches can communicate.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Virtual network peering requires similar connections in each virtual network.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Reciprocal connections provide this functionality.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Cross-subscription virtual network peering</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can use virtual network peering even when both virtual networks are in different subscriptions.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This might be necessary for mergers and acquisitions or to connect virtual networks in subscriptions that different departments manage.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Virtual networks can be in different subscriptions, and the subscriptions can use the same or different Azure Active Directory tenants.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>When you use virtual network peering across subscriptions, you might find that an administrator of one subscription doesn't administer the peer network's subscription.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The administrator might not be able to configure both ends of the connection.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To peer the virtual networks when both subscriptions are in different Azure Active Directory tenants, the administrators of each subscription must grant the peer subscription's administrator the <ph id="ph1">`Network Contributor`</ph> role on their virtual network.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Transitivity</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Virtual network peering is nontransitive.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Only virtual networks that are directly peered can communicate with each other.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The virtual networks can't communicate with the peers of their peers.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Suppose, for example, that your three virtual networks (A, B, C) are peered like this: A &lt;-&gt; B &lt;-&gt; C. Resources in A can't communicate with resources in C because that traffic can't transit through virtual network B. If you need communication between virtual network A and virtual network C, you must explicitly peer these two virtual networks.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gateway transit</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You can configure transitive connections on-premises if you use virtual network gateways as transit points.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Using gateway transit, you can enable on-premises connectivity without deploying virtual network gateways to all your virtual networks.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This method might reduce cost and complexity.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>By using gateway peering, you can configure a single virtual network as a hub network.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Connect this hub network to your on-premises datacenter and share its virtual network gateway with peers.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To enable gateway transit, configure the <bpt id="p1">**</bpt>Allow gateway transit<ept id="p1">**</ept> option in the hub virtual network where you deployed the gateway connection to your on-premises network.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Also configure the <bpt id="p1">**</bpt>Use remote gateways<ept id="p1">**</ept> option in any spoke virtual networks.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>If you want to enable the <bpt id="p1">**</bpt>Use remote gateways<ept id="p1">**</ept> option in a spoke network peering, you can't deploy a virtual network gateway in the spoke virtual network.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Additionally, gateway transit currently isn't supported with global virtual network peering.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Overlapping address spaces</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>IP address spaces of connected networks within Azure and between Azure and your on-premises system can't overlap.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This is also true for peered virtual networks.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Keep this rule in mind when you're planning your network design.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>In any networks you connect through virtual network peering, VPN, or ExpressRoute, assign different address spaces that don't overlap.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A comparison of overlapping and nonoverlapping network addressing</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Alternative connectivity methods</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Virtual network peering is the least complex way to connect virtual networks.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Other methods focus primarily on connectivity between on-premises and Azure networks rather than connections between virtual networks.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>You can also connect virtual networks together through the ExpressRoute circuit.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>ExpressRoute is a dedicated, private connection between an on-premises datacenter and the Azure backbone network.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The virtual networks that connect to an ExpressRoute circuit are part of the same routing domain and can communicate with each other.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>ExpressRoute connections don't go over the public internet, so your communications with Azure services are as secure as possible.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>VPNs use the internet to connect your on-premises datacenter to the Azure backbone through an encrypted tunnel.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>You can use a site-to-site configuration to connect virtual networks together through VPN gateways.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>VPN gateways have higher latency than virtual network peering setups.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>They're more complex to manage, and they can cost more.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>When virtual networks are connected through both a gateway and virtual network peering, traffic flows through the peering configuration.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>When to choose virtual network peering</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Virtual network peering can be a great way to enable network connectivity between services that are in different virtual networks.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Because it's easy to implement and deploy, and it works well across regions and subscriptions, virtual network peering should be your first choice when you need to integrate Azure virtual networks.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Peering might not be your best option if you have existing VPN or ExpressRoute connections or services behind Azure Basic Load Balancers that would be accessed from a peered virtual network.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>In these cases, you should research alternatives.</source>
+        </trans-unit></group></body></file></xliff>

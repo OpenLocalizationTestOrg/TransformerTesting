@@ -1,0 +1,57 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-exercise-create-blob-storage.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-exercise-create-blob-storage.2b7c71dcd80f6e2a307f96add09b9e7de80f58f6.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cfaf6fb3b04ca3513d1d87bf50d4abf92f5a3428</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\import-data-into-asdw-with-polybase\includes\4-exercise-create-blob-storage.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Next, let's create an Azure Storage account and Blob storage container to hold the data we want to import into our data warehouse.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This exercise is optional.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>If you don't have an Azure account, or prefer not to do the exercise in your account, you can read through the instructions to understand the steps involved in creating the Blob storage container and associated storage account.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Create the Azure Storage account</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Sign in to the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com)</ept> with your Azure account.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Create a Resource<ept id="p1">**</ept> in the left sidebar.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Storage<ept id="p1">**</ept><ph id="ph1"> &gt; </ph><bpt id="p2">**</bpt>Storage account<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Storage account option selection from the list</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Basics<ept id="p1">**</ept> tab, select your subscription and use the <bpt id="p2">**</bpt>mslearn-demodw<ept id="p2">**</ept> resource group.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Name your storage account <bpt id="p1">**</bpt>demodwstorage<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Select the same <bpt id="p1">**</bpt>Location<ept id="p1">**</ept> where you placed your database.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Review + create<ept id="p1">**</ept> to validate the account details.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>After validation passes, select <bpt id="p1">**</bpt>Create<ept id="p1">**</ept> to start the deployment process.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Wait for the deployment to finish.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You get a popup notification from the browser.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You also can select the <bpt id="p1">**</bpt>Notification<ept id="p1">**</ept> icon in the toolbar to monitor the deployment progress.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Create the blob container for the import data</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Next, create a blob container that holds the source data.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Go to resource<ept id="p1">**</ept> from the deployment page.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You also can find your new storage account by using the search bar at the top of the window.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Blobs<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>Services<ept id="p2">**</ept> section of the <bpt id="p3">**</bpt>Overview<ept id="p3">**</ept> page.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Creating a blob in the storage account option</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To create a container to store the files, select <bpt id="p1">**</bpt>+ Container<ept id="p1">**</ept> on the top menu.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Name the container <bpt id="p1">**</bpt>data-files<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Set <bpt id="p1">**</bpt>Public access level<ept id="p1">**</ept> to <bpt id="p2">**</bpt>Blob (anonymous read access for blobs only)<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>New blob creation screen with details filled in</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> to create the container.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Data-files container in the blob account</source>
+        </trans-unit></group></body></file></xliff>

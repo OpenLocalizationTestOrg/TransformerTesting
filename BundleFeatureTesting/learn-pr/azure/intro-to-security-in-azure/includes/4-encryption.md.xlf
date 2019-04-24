@@ -1,0 +1,205 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-encryption.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-encryption.fd437cb6175e4c81dfbc1a0ff04b389bc6157131.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ad2f57dd8959005b10fa6178f9337ac8a17f0b7d</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-security-in-azure\includes\4-encryption.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>For most organizations, data is the most valuable and irreplaceable asset.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Encryption serves as the last and strongest line of defense in a layered security strategy.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Contoso Shipping knows that encryption is the only protection its data has once it leaves the data center and is stored on mobile devices that could potentially be hacked or stolen.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>What is encryption?</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Encryption is the process of making data unreadable and unusable to unauthorized viewers.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To use or read the encrypted data, it must be <bpt id="p1">*</bpt>decrypted<ept id="p1">*</ept>, which requires the use of a secret key.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>There are two top-level types of encryption: <bpt id="p1">**</bpt>symmetric<ept id="p1">**</ept> and <bpt id="p2">**</bpt>asymmetric<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Symmetric encryption<ept id="p1">**</ept> uses the same key to encrypt and decrypt the data.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Consider a desktop password manager application.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You enter your passwords and they are encrypted with your own personal key (your key is often derived from your master password).</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>When the data needs to be retrieved, the same key is used, and the data is decrypted.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Asymmetric encryption<ept id="p1">**</ept> uses a public key and private key pair.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Either key can encrypt but a single key can't decrypt its own encrypted data.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To decrypt, you need the paired key.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Asymmetric encryption is used for things like Transport Layer Security (TLS) (used in HTTPS) and data signing.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Both symmetric and asymmetric encryption play a role in properly securing your data.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Encryption is typically approached in two ways:</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Encryption at rest</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Encryption in transit</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Encryption at rest</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Data at rest is the data that has been stored on a physical medium.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This could be data stored on the disk of a server, data stored in a database, or data stored in a storage account.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Regardless of the storage mechanism, encryption of data at rest ensures that the stored data is unreadable without the keys and secrets needed to decrypt it.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If an attacker was to obtain a hard drive with encrypted data and did not have access to the encryption keys, the attacker would not compromise the data without great difficulty.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The actual data that is encrypted could vary in its content, usage, and importance to the organization.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This could be financial information critical to the business, intellectual property that has been developed by the business, personal data about customers or employees that the business stores, and even the keys and secrets used for the encryption of the data itself.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Here's a diagram that shows what encrypted customer data might look like as it sits in a database.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>An illustration showing an example of encryption at rest.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The data is saved in the storage in an encrypted form accessed only through a key.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Encryption in transit</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Data in transit is the data actively moving from one location to another, such as across the internet or through a private network.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Secure transfer can be handled by several different layers.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>It could be done by encrypting the data at the application layer prior to sending it over a network.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>HTTPS is an example of application layer in transit encryption.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You can also set up a secure channel, like a virtual private network (VPN), at a network layer, to transmit data between two systems.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Encrypting data in transit protects the data from outside observers and provides a mechanism to transmit data while limiting risk of exposure.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This diagram shows the process.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Here, customer data is encrypted as it's sent over the network.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Only the receiver has the secret key that can decrypt the data to a usable form.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>An illustration showing an example of encryption in transit.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The data is encrypted before it is transferred.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Once it reaches the destination, the data is then decrypted.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Encryption on Azure</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Let's take a look at some ways that Azure enables you to encrypt data across services.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Image representing encrypted storage</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Encrypt raw storage<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Storage Service Encryption<ept id="p1">**</ept> for data at rest helps you protect your data to meet your organizational security and compliance commitments.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>With this feature, the Azure storage platform automatically encrypts your data before persisting it to Azure Managed Disks, Azure Blob storage, Azure Files, or Azure Queue storage, and decrypts the data before retrieval.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The handling of encryption, encryption at rest, decryption, and key management in Storage Service Encryption is transparent to applications using the services.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Image representing an encrypted virtual machine</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Encrypt virtual machine disks<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Storage Service Encryption provides low-level encryption protection for data written to physical disk, but how do you protect the virtual hard disks (VHDs) of virtual machines?</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If malicious attackers gained access to your Azure subscription and got the VHDs of your virtual machines, how would you ensure they would be unable to access the stored data?</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Disk Encryption<ept id="p1">**</ept> is a capability that helps you encrypt your Windows and Linux IaaS virtual machine disks.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Azure Disk Encryption leverages the industry-standard BitLocker feature of Windows and the dm-crypt feature of Linux to provide volume encryption for the OS and data disks.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The solution is integrated with Azure Key Vault to help you control and manage the disk encryption keys and secrets (and you can use managed service identities for accessing Key Vault).</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>For Contoso Shipping, using VMs was one of the first moves toward the cloud.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Having all the VHDs encrypted is a very easy, low-impact way to ensure that you are doing all you can to secure your company's data.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Image representing an encrypted database</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Encrypt databases<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Transparent data encryption (TDE)<ept id="p1">**</ept> helps protect Azure SQL Database and Azure Data Warehouse against the threat of malicious activity.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>It performs real-time encryption and decryption of the database, associated backups, and transaction log files at rest without requiring changes to the application.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>By default, TDE is enabled for all newly deployed Azure SQL Database instances.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>TDE encrypts the storage of an entire database by using a symmetric key called the database encryption key.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>By default, Azure provides a unique encryption key per logical SQL Server instance and handles all the details.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Bring your own key (BYOK) is also supported with keys stored in Azure Key Vault (see below).</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Because TDE is enabled by default, you are confident that Contoso Shipping has the proper protections in place for data stored in the company's databases.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Image representing an encrypted secret</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Encrypt secrets<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>We've seen that the encryption services all use keys to encrypt and decrypt data, so how do we ensure that the keys themselves are secure?</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Corporations may also have passwords, connection strings, or other sensitive pieces of information that they need to securely store.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>In Azure, we can use <bpt id="p1">**</bpt>Azure Key Vault<ept id="p1">**</ept> to protect our secrets.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Azure Key Vault is a centralized cloud service for storing your application secrets.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Key Vault helps you control your applications' secrets by keeping them in a single, central location and by providing secure access, permissions control, and access logging capabilities.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>It is useful for a variety of scenarios:</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Secrets management<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>You can use Key Vault to securely store and tightly control access to tokens, passwords, certificates, <bpt id="p1">*</bpt>Application Programming Interface<ept id="p1">*</ept> (API) keys, and other secrets.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Key management<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>You also can use Key Vault as a key management solution.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Key Vault makes it easier to create and control the encryption keys used to encrypt your data.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Certificate management<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Key Vault lets you provision, manage, and deploy your public and private <bpt id="p1">*</bpt>Secure Sockets Layer/ Transport Layer Security<ept id="p1">*</ept> (SSL/ TLS) certificates for your Azure, and internally connected, resources more easily.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Store secrets backed by hardware security modules<ept id="p1">*</ept> (HSMs).</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The secrets and keys can be protected either by software, or by FIPS 140-2 Level 2 validated HSMs.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The benefits of using Key Vault include:</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Centralized application secrets<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Centralizing storage for application secrets allows you to control their distribution, and reduces the chances that secrets may be accidentally leaked.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Securely stored secrets and keys<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Azure uses industry-standard algorithms, key lengths, and HSMs, and access requires proper authentication and authorization.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Monitor access and use<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Using Key Vault, you can monitor and control access to company secrets.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Simplified administration of application secrets<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Key Vault makes it easier to enroll and renew certificates from public Certificate Authorities (CAs).</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>You can also scale up and replicate content within regions, and use standard certificate management tools.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Integrate with other Azure services<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>You can integrate Key Vault with storage accounts, container registries, event hubs and many more Azure services.</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Because Azure AD identities can be granted access to use Azure Key Vault secrets, applications with managed service identities enabled can automatically and seamlessly acquire the secrets they need.</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>As you may know, encryption is often the last layer of defense from attackers and is an important piece of a layered approach to securing your systems.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Azure provides built-in capabilities and services to encrypt and protect data from unintended exposure.</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Protection of customer data stored within Azure services is of paramount importance to Microsoft and should be included in any design.</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Foundational services such as Azure Storage, Azure Virtual Machines, Azure SQL Database, and Azure Key Vault can help secure your environment through encryption.</source>
+        </trans-unit></group></body></file></xliff>

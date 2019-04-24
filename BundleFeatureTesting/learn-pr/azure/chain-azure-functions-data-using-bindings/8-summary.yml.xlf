@@ -1,0 +1,67 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="8-summary.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8-summary.1c8aa3a2675185bc1549c6a71a49c09f0ec5bdde.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">35289adbfbf4b1961e7d582f09c3ec35f418c37e</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\chain-azure-functions-data-using-bindings\8-summary.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>What we've learned</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>Which of the following is an advantage of using bindings in your Azure Functions to access data sources and data sinks?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>They provide access to more data sources than are available using code.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>Bindings are optional; you can access data using code if you prefer.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>They let you connect to Azure resources without authentication.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>Using a binding does not change the security requirements for accessing Azure resources.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>They simplify the connection process; you don't need to code specific connection logic.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>Bindings provide a declarative way to connect to data.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>They let you avoid the complexity of coding connection logic like making a database connection or invoking web API interfaces.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>What is the name of the file that contains function configuration data?</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>config.txt</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>The configuration is written in JSON.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>config.json</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>It is a JSON file, but this is not the correct name.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>function.json</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>The configuration is named <ph id="ph1">`function.json`</ph>, which contains JSON configuration data such as binding declarations.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>How many triggers must a function have?</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>Zero</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>A function must have exactly one trigger.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>One</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>A function must have exactly one trigger.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>Two</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>A function must have exactly one trigger.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>Which of the following lines of JavaScript writes "hello" to an Azure Queue Storage queue using a function parameter called <bpt id="p1">**</bpt>myQueueItem<ept id="p1">**</ept>?</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>context.myQueueItem = "hello";</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>This is the correct parameter name, but it needs to be accessed through the context of the object.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>context.bindings.myQueueItem = "hello";</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>context.bindings returns a named object that contains all your input and output data.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>myQueueItem = "hello";</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings.8-summary">
+          <source>This is the correct parameter name, but it needs to be accessed through the context of the object.</source>
+        </trans-unit></group></body></file></xliff>

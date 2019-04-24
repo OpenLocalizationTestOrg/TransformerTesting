@@ -1,0 +1,85 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-architecturing-project.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-architecturing-project.5492e682a6b45517f50435e410859c2110b54338.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1b62e336ec301f1d297563eb6d1a12e23aaa6020</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\data-engineering-processes\includes\4-architecturing-project.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Here's an example of how to holistically design a data engineering project by following the five phases: source, ingest, prepare, analyze, and consume.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Contoso Health Network recently deployed IoT devices to its intensive care unit (ICU).</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Here are the goals of the project:</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Capture data on patient biometric monitoring in real time to help physicians treat their patients.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Store the biometric data so that Contoso's research center can further analyze it in the future.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Use Azure Machine Learning to understand which treatments improve the quality of care and reduce the likelihood that a patient will be readmitted to the hospital.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Create a visualization of the data's history for Contoso's chief medical officer.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>After reviewing the business case, Contoso's technical architect proposes the following technologies:</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure IoT Hub<ept id="p1">**</ept> to capture real-time data from the ICU's IoT devices.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Stream Analytics<ept id="p1">**</ept> to stream and enrich the IoT data, to create windows and aggregations, and to integrate Azure Machine Learning.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Data Lake Storage Gen2<ept id="p1">**</ept> to store the biometric data at high speed.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Data Factory<ept id="p1">**</ept> to perform the extract, load, transform, and load (ELTL) process to move the data from the data lake store to Azure SQL Data Warehouse.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure SQL Data Warehouse<ept id="p1">**</ept> to provide data warehousing services to support the chief medical officer's needs.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Power BI<ept id="p1">**</ept> to create the patient dashboard.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Part of the dashboard will show real-time telemetry about the patient's condition.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The other part will show the patient's recent history.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Machine Learning<ept id="p1">**</ept> to process both raw and aggregated data.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Researchers will use this to perform predictive analytics on patient readmittance.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Contoso's data engineer creates a work plan to implement the ELTL operations.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The plan includes a provisioning workflow and a holistic workflow.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The provisioning workflow:</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Provision Azure Data Lake Storage Gen2.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Provision Azure SQL Data Warehouse.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Provision Azure IoT Hub.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Provision Azure Stream Analytics.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Provision Azure Machine Learning.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Provision Azure Data Factory.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Provision Power BI.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The holistic workflow:</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Set up Azure IoT Hub to capture data from the ICU IoT devices.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Connect Azure IoT Hub to Azure Stream Analytics.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Set up window-creation functions for the ICU data.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The functions will aggregate the data for each window.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>At the same time, set up the IoT Hub to move the streaming data to Azure Data Lake Storage by using Azure Functions.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Set up Azure Functions to store the Azure Stream Analytics aggregates in Azure Data Lake Storage Gen2.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Use Azure Data Factory to load data from the data lake into Azure SQL Data Warehouse to support the chief medical officer's needs.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>After the data is loaded, transformations can occur within Azure SQL Data Warehouse.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>In parallel, connect the Azure Machine Learning service to Azure Data Lake Storage to perform predictive analytics.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Connect Power BI to Stream Analytics to pull the real-time aggregates for the patient data.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Connect SQL Data Warehouse to pull the historical data to create a combined dashboard.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The following diagram provides a high-level visualization of the solution:</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Diagram of the solution's high-level architecture</source>
+        </trans-unit></group></body></file></xliff>

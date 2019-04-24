@@ -1,0 +1,83 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-work-with-the-cli.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-work-with-the-cli.328e6abd09769d60d9bf00f7c54a566ea37b8d7d.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fcc394207fbd9928e92fc1ae36517759193972d0</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\control-azure-services-with-cli\includes\4-work-with-the-cli.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The Azure CLI lets you type commands and execute them immediately from the command line.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Recall that the overall goal in the software development example is to deploy new builds of a web app for testing.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Let's talk about the sorts of tasks you can do with the Azure CLI.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>What Azure resources can be managed using the Azure CLI?</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The Azure CLI lets you control nearly every aspect of every Azure resource.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can work with resource groups, storage, virtual machines, Azure Active Directory (Azure AD), containers, machine learning, and so on.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Commands in the CLI are structured in <bpt id="p1">_</bpt>groups<ept id="p1">_</ept> and <bpt id="p2">_</bpt>subgroups<ept id="p2">_</ept>.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Each group represents a service provided by Azure, and the subgroups divide commands for these services into logical groupings.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For example, the <ph id="ph1">`storage`</ph> group contains subgroups including <bpt id="p1">**</bpt>account<ept id="p1">**</ept>, <bpt id="p2">**</bpt>blob<ept id="p2">**</ept>, <bpt id="p3">**</bpt>storage<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>queue<ept id="p4">**</ept>.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>So, how do you find the particular commands you need?</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>One way is to use <ph id="ph1">`az find`</ph>, the AI robot that uses the Azure documentation to tell you more about commands, the CLI and more.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Example - find the most popular commands related to the word <bpt id="p1">**</bpt>blob<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Example - Show me the most popular commands for an Azure CLI command group, such as <ph id="ph1">`az vm`</ph>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Example - Show me the most popular parameters and subcommands for an Azure CLI command.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If you already know the name of the command you want, the <ph id="ph1">`--help`</ph> argument for that command will get you more detailed information on the command, and for a command group, a list of the available subcommands.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>So, with our storage example, here's how you can get a list of the subgroups and commands for managing blob storage:</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>How to create an Azure resource</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When creating a new Azure resource, there are typically three steps: connect to your Azure subscription, create the resource, and verify that creation was successful.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The following illustration shows a high-level overview of the process.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>An illustration showing the steps to create an Azure resource using the command-line interface.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Each step corresponds to a different Azure CLI command.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Connect</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Since you're working with a local install of the Azure CLI, you'll need to authenticate before you can execute Azure commands, by using the Azure CLI <bpt id="p1">**</bpt>login<ept id="p1">**</ept> command.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The Azure CLI will typically launch your default browser to open the Azure sign-in page.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If this doesn't work, follow the command-line instructions and enter an authorization code at <bpt id="p1">[</bpt><ph id="ph1">https://aka.ms/devicelogin</ph><ept id="p1">](https://aka.ms/devicelogin)</ept>.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>After a successful sign in, you'll be connected to your Azure subscription.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Create</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You'll often need to create a new resource group before you create a new Azure service, so we'll use resource groups as an example to show how to create Azure resources from the CLI.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The Azure CLI <bpt id="p1">**</bpt>group create<ept id="p1">**</ept> command creates a resource group.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You must specify a name and location.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The name must be unique within your subscription.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The location determines where the metadata for your resource group will be stored.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You use strings like "West US", "North Europe", or "West India" to specify the location; alternatively, you can use single word equivalents, such as westus, northeurope, or westindia.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The core syntax is:</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You do not need to create a resource group when using the free Azure sandbox.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Instead, you will use a pre-created resource group.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Verify</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For many Azure resources, the Azure CLI provides a <bpt id="p1">**</bpt>list<ept id="p1">**</ept> subcommand to view resource details.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For example, the Azure CLI <bpt id="p1">**</bpt>group list<ept id="p1">**</ept> command lists your Azure resource groups.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This is useful here to verify whether creation of the resource group was successful:</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>To get a more concise view, you can format the output as a simple table:</source>
+        </trans-unit></group></body></file></xliff>

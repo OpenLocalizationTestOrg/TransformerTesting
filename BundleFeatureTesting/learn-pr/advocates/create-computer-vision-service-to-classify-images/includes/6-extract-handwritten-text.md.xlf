@@ -1,0 +1,53 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-extract-handwritten-text.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-extract-handwritten-text.225c49982590e34e9b8db7d5b192a71e50ad1905.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a1cdd9dadf066fb7476641c2a7ca8e0b1b205bca</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\create-computer-vision-service-to-classify-images\includes\6-extract-handwritten-text.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>We saw how the Computer Vision API can extract printed text from images.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In this exercise, we'll use the service to detect handwritten text.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Calling the Computer Vision API to extract handwritten text</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`recognizeText`</ph> operation detects and extracts handwritten text from notes, letters, essays, whiteboards, forms, and other sources.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The request URL has the following format:</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>All calls must be made to the region where the account was created.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If present, the <ph id="ph1">`mode`</ph> parameter must be set to <ph id="ph2">`Handwritten`</ph> or <ph id="ph3">`Printed`</ph> and is case-sensitive.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If the parameter is set to <ph id="ph1">`Handwritten`</ph> or is not specified, handwriting recognition is performed.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If the parameter is set to <ph id="ph1">`Printed`</ph>, then printed text recognition is performed.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The time it takes to get a result from this call depends on the amount of writing in the image.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In this example, we'll:</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Print the response headers to the console using cUrl's <ph id="ph1">`-D`</ph> option</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Copy the <ph id="ph1">`Operation-Location`</ph> header value from the headers we receive in the response</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>After a few seconds, check the URL specified by the <ph id="ph1">`Operation-Location`</ph> for the results</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Detect and extract handwritten text from an image</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>We'll use the following image in this example, but you're free to try the same command with URLs to other images.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Picture of a handwriting sample on a note</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Execute the following commands in Azure Cloud Shell.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Replace <ph id="ph1">`&lt;region&gt;`</ph> in the command with the region of your cognitive services account.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The above dumps the headers of this operation to the console.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Here's an example:</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Operation-Location`</ph> header is where the results will be posted once complete.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Copy the <ph id="ph1">`Operation-Location`</ph> header value.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Execute the following command in Azure Cloud Shell replacing <ph id="ph1">`"&lt;Operation-Location&gt;"`</ph> with the value for the <bpt id="p1">**</bpt>Operation-Location<ept id="p1">**</ept> header you copied from the preceding step.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If the operation has completed, you'll receive a JSON file containing the result of the handwriting recognition request.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For more information about the <ph id="ph1">`recognizeText`</ph> operation, see the <bpt id="p1">[</bpt>Recognize Handwritten Text<ept id="p1">](https://westus.dev.cognitive.microsoft.com/docs/services/5adf991815e1060e6355ad44/operations/587f2c6a154055056008f200)</ept> reference documentation.</source>
+        </trans-unit></group></body></file></xliff>

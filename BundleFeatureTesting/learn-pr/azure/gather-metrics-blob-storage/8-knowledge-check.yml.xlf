@@ -1,0 +1,101 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="8-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8-knowledge-check.289d79a772e0101f3288274dc8128619d8ae13ab.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7bd4c85674d8c99f1b2b1edd12914ac2c36079f1</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\gather-metrics-blob-storage\8-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Questions about blob storage account metrics and logging</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Which of the following is NOT a valid blob type in Azure storage?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Page blob</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Page blobs are a valid blob type in Azure storage.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Append blob</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Append blobs are a valid blob type in Azure storage.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Text blob</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Text blobs are not valid blob types in Azure storage.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>The only valid types are Page blobs, Append blobs, and Block blobs</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Block blob</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Block blobs are a valid blob type in Azure storage.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Which one of the following chart types works best with data that varies rapidly over time?</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Line</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Scatter charts are better for data that varies rapidly over time.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Area</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Scatter charts are better for data that varies rapidly over time.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Bar</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Scatter charts are better for data that varies rapidly over time.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Scatter</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Scatter charts are best for data that varies rapidly over time.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Which of the following types of content cannot be added to a dashboard markdown tile?</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Video</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Video content can be added to a dashboard markdown tile.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Basic HTML</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Basic HTML content can be added to a dashboard markdown tile.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Markdown</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Markdown content can be added to a dashboard markdown tile.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Javascript</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Javascript content cannot be added to a dashboard markdown tile.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Which of the following security principals can access shared dashboards in Azure?</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Only individual internal user assignments.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Azure portal dashboards can only be shared with internal users, assigned individually and as part of a security group.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Internal users, assigned individually and as part of a security group.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Azure portal dashboards can only be shared with internal users, assigned individually and as part of a security group.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Internal users and external users assigned individually.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Azure portal dashboards can only be shared with internal users, assigned individually and as part of a security group.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Internal users, individually and as part of a security group, and external users.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Azure portal dashboards can only be shared with internal users, assigned individually and as part of a security group.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Which services is Storage Analytics logging available for?</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Blob service only</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Storage Analytics logging is available for Blob, Queue, and Table services.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Blob and Queue services.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Storage Analytics logging is available for Blob, Queue, and Table services.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Blob, Queue, and Table services.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Storage Analytics logging is available for Blob, Queue, and Table services.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Blob, Queue, and File services.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve" uid="learn.azure.gather-metrics-from-blob-storage.8-knowledge-check">
+          <source>Storage Analytics logging is available for Blob, Queue, and Table services.</source>
+        </trans-unit></group></body></file></xliff>

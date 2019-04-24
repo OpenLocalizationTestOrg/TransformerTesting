@@ -1,0 +1,99 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-enable-sql-logging.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-enable-sql-logging.216f48b21df9728876e5bce3b7a1d7eb9562fa1f.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">49eb32df8f05a579d92875ee47906b979a695f95</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\aspnetcore\persist-data-ef-core\includes\7-enable-sql-logging.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>EF Core integrates automatically with the logging mechanisms of ASP.NET Core.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Since ASP.NET Core apps emit logs as console output by default, the text file <bpt id="p1">*</bpt>ContosoPets.Api.log<ept id="p1">*</ept> contains the EF Core log output.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>EF Core masks parameter values in the generated SQL appearing in the logs.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In the preceding output, note the <ph id="ph1">`@__id_0`</ph> parameter in the query's <ph id="ph2">`WHERE`</ph> clause.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`info`</ph> message in the output displays <ph id="ph2">`?`</ph> as the parameter's value.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A developer on the team has enlisted a database administrator (DBA) to assist with performance tuning of the generated SQL.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The DBA has requested that parameter values be displayed in the logs.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Company policy prohibits logging customer data in production.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Consequently, this feature should be enabled only in development mode.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To support troubleshooting in production, there should be a configuration value to toggle parameter value logging on or off.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To ease production troubleshooting, the Operations Manager wants SQL queries to be tagged with the calling method's name.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The tags should be visible in the Application Insights telemetry.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Modify the <ph id="ph1">`Logging`</ph> section of <bpt id="p1">*</bpt>ContosoPets.Api/appsettings.Development.json<ept id="p1">*</ept> to include a property named <ph id="ph2">`EnableSqlParameterLogging`</ph>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The property should have a value of <ph id="ph1">`true`</ph>.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Save your changes.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In the <ph id="ph1">`ConfigureServices`</ph> method of <bpt id="p1">*</bpt>Startup.cs<ept id="p1">*</ept>, chain the <ph id="ph2">`EnableSensitiveDataLogging`</ph> call after the <ph id="ph3">`UseSqlServer`</ph> call.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Save your changes.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The preceding code reads a <ph id="ph1">`Logging:EnableSqlParameterLogging`</ph> property value from the environment-specific application settings file.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The property value determines whether parameter logging is enabled.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Modify the <ph id="ph1">`GetOrderById`</ph> method of <bpt id="p1">*</bpt>Services/OrderService.cs<ept id="p1">*</ept> in the <bpt id="p2">*</bpt>ContosoPets.Data<ept id="p2">*</ept> project to include the highlighted line.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Save your changes.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The preceding code added a <ph id="ph1">`TagWith`</ph> call to emit a comment above the generated SQL in the logs.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The resulting double-hyphen SQL comment (<ph id="ph1">`--`</ph>) will contain the name of the method from which the generated SQL originated.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This technique is supported only for read queries.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>It becomes useful when sifting through large log files containing several distinct queries.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Modify the <ph id="ph1">`GetById`</ph> method of <bpt id="p1">*</bpt>Services/OrderService.cs<ept id="p1">*</ept> to include the highlighted line.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Save your changes.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The preceding code added another <ph id="ph1">`TagWith`</ph> call.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The resulting comment in the logs will resemble the following output:</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Run the following .NET Core CLI command to start the app:</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Run the following command to test the <ph id="ph1">`GetById`</ph> method of the <ph id="ph2">`OrderService`</ph> class:</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>JSON representing an order is displayed.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The output you see may differ.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Run the following command to view the log file:</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The following output is produced by the <ph id="ph1">`GetById`</ph> method of the <ph id="ph2">`OrderService`</ph> class.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Notice the <ph id="ph1">`@__id_0`</ph> and <ph id="ph2">`@_outer_Id`</ph> parameters' values display as <ph id="ph3">`2`</ph>.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>EF Core's parameter value masking has been suppressed.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Run the following command to query Application Insights telemetry:</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>JSON containing dependency telemetry is displayed.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This JSON contains the information Application Insights captured as the app executed the two most recent SQL queries.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Ingestion of telemetry information into Application Insights may take a short while.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If the telemetry doesn't seem correct, wait a few minutes and try again.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Run the following command to filter the output from the previous step and display only the SQL queries:</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The following output is produced:</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The SQL query is tagged with <ph id="ph1">`-- GetOrderById`</ph> and <ph id="ph2">`-- GetById`</ph>.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>By design, Application Insights discards potentially sensitive data such as parameter values.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Application Insights has captured detailed information at each step, including HTTP requests, their corresponding SQL queries, and performance metrics.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Explore Application Insights telemetry by navigating to the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept> and logging in with the same identity used for this module.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Quickly locate the Application Insights resource by searching for the string <bpt id="p1">*</bpt>appinsights<ept id="p1">*</ept>.</source>
+        </trans-unit></group></body></file></xliff>

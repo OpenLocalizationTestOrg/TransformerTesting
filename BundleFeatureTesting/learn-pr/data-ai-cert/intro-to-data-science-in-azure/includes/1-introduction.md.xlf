@@ -1,0 +1,43 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.a73096cb9309e9b5cc9a579437c0eff39f8ecd86.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">28eb1599382b37d1c7f0a2823f3696d2dd48da3d</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\intro-to-data-science-in-azure\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In recent years, the term <bpt id="p1">*</bpt>data science<ept id="p1">*</ept> has become more popular due to the influx of data in all areas of business.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Data science is about getting valuable insights from information, and answering questions by analyzing data using statistical methods, computing power, and automation.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>One of the core concepts behind data science is using historical data to predict the future.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To do this, you use data values you know to predict something you don't know.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>However, this requires that you have historical data with the outcome you want to predict and other data that correlates to this outcome.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For example, let's say you want to predict the likelihood a person will default on a loan.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If you have data points for a history of loans that were repaid versus those that defaulted, and their corresponding data such as income, employment status, and credit rating you can define a model to help predict loan defaults.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Other examples include predicting a technological problem occurring, or trying to understand the patterns in types of products customers are buying.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>As you can see, the types of questions that can be answered through data science vary greatly.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Data science is based on probabilities.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>So along with getting predicted outcomes, the estimated probability of the outcome is a critical consideration.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A business is looking to answer a data-driven question often follow a set of predefined steps known as the <bpt id="p1">*</bpt>data science process<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Learn the steps involved in the data science process</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Learn the machine learning modeling cycle</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Learn data cleansing and preparation</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Learn model feature engineering</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Learn model training and evaluation</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Learn about model deployment</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Discover the specialized roles in the data science process</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,117 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-sizing-vms.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-sizing-vms.d9efdfa0dd8fbcefbe0978599c07337f4264d421.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2dd7e1a38327dd9d9b0bfdb6e103051d0b4fa06b</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\manage-virtual-machines-with-azure-cli\includes\5-sizing-vms.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Virtual machines must be sized appropriately for the expected work.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A VM without the correct amount of memory or CPU will fail under load or run too slowly to be effective.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Pre-defined VM sizes</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>When you create a virtual machine, you can supply a <bpt id="p1">_</bpt>VM size<ept id="p1">_</ept> value that will determine the amount of compute resources that will be devoted to the VM.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This includes CPU, GPU, and memory that are made available to the virtual machine from Azure.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Azure defines a set of pre-defined VM sizes for Linux and Windows to choose from based on the expected usage.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Type</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Sizes</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>General purpose</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Dsv3, Dv3, DSv2, Dv2, DS, D, Av2, A0-7</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Balanced CPU-to-memory.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Ideal for dev/test and small to medium applications and data solutions.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Compute optimized</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Fs, F</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>High CPU-to-memory.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Good for medium-traffic applications, network appliances, and batch processes.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Memory optimized</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Esv3, Ev3, M, GS, G, DSv2, DS, Dv2, D</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>High memory-to-core.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Great for relational databases, medium to large caches, and in-memory analytics.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Storage optimized</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Ls</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>High disk throughput and IO.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Ideal for big data, SQL, and NoSQL databases.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>GPU optimized</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>NV, NC</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Specialized VMs targeted for heavy graphic rendering and video editing.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>High performance</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>H, A8-11</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Our most powerful CPU VMs with optional high-throughput network interfaces (RDMA).</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The available sizes change based on the region you're creating the VM in.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You can get a list of the available sizes using the <ph id="ph1">`vm list-sizes`</ph> command.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Try typing this into Azure Cloud Shell:</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Here's an abbreviated response for <ph id="ph1">`eastus`</ph>:</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Specifying a size during VM creation</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>We didn't specify a size when we created our VM - so Azure selected a default general-purpose size for us of <ph id="ph1">`Standard_DS1_v2`</ph>.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>However, we can specify the size as part of the <ph id="ph1">`vm create`</ph> command using the <ph id="ph2">`--size`</ph> parameter.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For example, you could use the following command to create a 16-core virtual machine:</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Your subscription tier <bpt id="p1">[</bpt>enforces limits<ept id="p1">](https://docs.microsoft.com/azure/azure-subscription-service-limits)</ept> on how many resources you can create, as well as the total size of those resources.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For example, you are capped to <bpt id="p1">**</bpt>20 virtual CPUs<ept id="p1">**</ept> with the pay-as-you-go subscription, and only <bpt id="p2">**</bpt>4 vCPUs<ept id="p2">**</ept> for a free tier.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The Azure CLI will let you know when you exceed this with a <bpt id="p1">**</bpt>Quota Exceeded<ept id="p1">**</ept> error.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If you hit this error in your own paid subscription, you can request to raise the limits associated with your paid subscription (up to 10,000 vCPUs!) through a <bpt id="p1">[</bpt>free online request<ept id="p1">](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-quota-errors)</ept>.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Resizing an existing VM</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>We can also resize an existing VM if the workload changes, or if it was incorrectly sized at creation.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Before a resize is requested, we must check to see if the desired size is available in the cluster our VM is part of.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>We can do this with the <ph id="ph1">`vm list-vm-resize-options`</ph> command:</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This will return a list of all the possible size configurations available in the resource group.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If the size we want isn't available in our cluster, but <bpt id="p1">_</bpt>is<ept id="p1">_</ept> available in the region, we can <bpt id="p2">[</bpt>deallocate the VM<ept id="p2">](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-deallocate)</ept>.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This command will stop the running VM and remove it from the current cluster without losing any resources.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Then we can resize it, which will re-create the VM in a new cluster where the size configuration is available.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The Azure sandbox is limited to a few VM sizes.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Most of the possibilities are not allowed in the free Microsoft Learn subscription.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To resize a VM, we use the <ph id="ph1">`vm resize`</ph> command.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>For example, perhaps we find our VM is underpowered for the task we want it to perform.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>We could bump it up a few levels to a DS3_v2 tier where it has 4 vCores and 14G of memory.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Type this command in Cloud Shell:</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>This command will take a few minutes to reduce the resources of the VM, and once it's done, it will return a new JSON configuration.</source>
+        </trans-unit></group></body></file></xliff>

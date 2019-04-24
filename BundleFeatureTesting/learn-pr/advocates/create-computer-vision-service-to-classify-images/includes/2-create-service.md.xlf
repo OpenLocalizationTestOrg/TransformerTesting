@@ -1,0 +1,205 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-create-service.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-create-service.197dbc290591ed22a1c818bb29593b6e535b1234.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8a6ca9639e33e3d479f3598ef452eb346355af55</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\create-computer-vision-service-to-classify-images\includes\2-create-service.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>What is Microsoft Cognitive Services?</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Microsoft Cognitive Services is a set of machine learning algorithms available as a service for anyone to use.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Instead of building this intelligence for our apps from scratch, we can use these services for vision, speech, language, knowledge, and search.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can try each service for free.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When you decide to integrate a service into your app, you sign up for a paid subscription.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>We'll focus our attention on the Computer Vision API in this model.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>To see a list of all Cognitive Services, check out the <bpt id="p1">[</bpt>Cognitive Services Directory<ept id="p1">](https://azure.microsoft.com/services/cognitive-services/directory/)</ept>.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>What is the Computer Vision API?</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The Computer Vision API provides algorithms to process images and return insights.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For example, you can find out if an image has mature content, or can use it to find all the faces in an image.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>It also has other features like estimating dominant and accent colors, categorizing the content of images, and describing an image with complete English sentences.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Additionally, it can also intelligently generate images thumbnails for displaying large images effectively.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The Computer Vision API is available in many regions across the globe.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To find the region nearest you, see the <bpt id="p1">[</bpt>Products available by region<ept id="p1">](https://azure.microsoft.com/global-infrastructure/services/?products=cognitive-services&amp;regions=all)</ept>.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can use the Computer Vision API to:</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Analyze images for insight</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Extract printed text from images using optical character recognition (OCR).</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Recognize printed and handwritten text from images</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Recognize celebrities and landmarks</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Analyze video</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Generate a thumbnail of an image</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>How to call the Computer Vision API</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You call Computer Vision in your application using client libraries or the REST API directly.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>We'll call the REST API in this module.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To make a call:</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Get an API access key</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You are assigned access keys when you sign up for a Computer Vision service account.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A key must be passed in the header of <bpt id="p1">**</bpt>every<ept id="p1">**</ept> request.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Make a POST call to the API</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Format the URL as follows: <bpt id="p1">**</bpt>region<ept id="p1">**</ept>.api.cognitive.microsoft.com/vision/v2.0/<bpt id="p2">**</bpt>resource<ept id="p2">**</ept><ph id="ph1">/</ph><bpt id="p3">**</bpt>[parameters]<ept id="p3">**</ept></source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>region<ept id="p1">**</ept> - the region where you created the account, for example, <bpt id="p2">*</bpt>westus<ept id="p2">*</ept>.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>resource<ept id="p1">**</ept> - the Computer Vision resource you are calling such as <ph id="ph1">`analyze`</ph>, <ph id="ph2">`describe`</ph>, <ph id="ph3">`generateThumbnail`</ph>, <ph id="ph4">`ocr`</ph>, <ph id="ph5">`models`</ph>, <ph id="ph6">`recognizeText`</ph>, <ph id="ph7">`tag`</ph>.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You can supply the image to be processed either as a raw image binary or an image URL.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The request header must contain the subscription key, which provides access to this API.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Parse the response</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The response holds the insight the Computer Vision API has about your image, as a JSON payload.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In this module, we'll run all exercises in the Azure CLI using the integrated Cloud Shell.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Let's find out a little more about this setup.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>What is the Azure CLI</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The Azure CLI is Microsoft's cross-platform command-line tool for managing Azure resources.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>It's available for macOS, Linux, and Windows, or in the browser using <bpt id="p1">[</bpt>Azure Cloud Shell<ept id="p1">](https://docs.microsoft.com/azure/cloud-shell/overview)</ept>.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>There are two versions of the Azure CLI tool available today: Azure CLI 1.0 and Azure CLI 2.0.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>We'll be using Azure CLI 2.0, which is the latest version and is recommended unless you're running legacy scripts.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Azure CLI 1.0 is started with the <ph id="ph1">`azure`</ph> command, and Azure CLI 2.0 is started with the <ph id="ph2">`az`</ph> command.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>az cognitiveservices commands</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The Azure CLI includes the <ph id="ph1">`cognitiveservices`</ph> command to manage Cognitive Services accounts in Azure.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>We can supply several subcommands to do specific tasks.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The most common include:</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Subcommand</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>List available Azure Cognitive Services accounts.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Get the details of an Azure Cognitive Services account.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Create an Azure Cognitive Services account.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Delete an Azure Cognitive Services account.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>List the keys of an Azure Cognitive Services account.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Let's create a Cognitive Services with the Azure CLI.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Create a Cognitive Services account</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>We need an API access key to make calls to the Computer Vision API.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To get access keys, we need a Cognitive Services account for the Computer Vision API.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>We'll use <ph id="ph1">`az cognitiveservices create`</ph> to create the account in our subscription.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The command <ph id="ph1">`az cognitiveservices create`</ph> is used to create a Cognitive Services account in a resource group.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The following five parameters must be supplied when calling this command.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Most flags for Azure CLI parameters can be abbreviated to a single character.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>For example, we could say <ph id="ph1">`-l`</ph> instead of <ph id="ph2">`--location`</ph>.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The long-form is used for clarity.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Parameter</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The resource group that will own the cognitive services account.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>In this interactive sandbox session, you'll use <bpt id="p1">&lt;rgn&gt;</bpt>[sandbox resource group name]<ept id="p1">&lt;/rgn&gt;</ept></source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The API name of cognitive services account.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For this exercise Computer Vision, but can be based on Content Moderator, Face API, etc.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Cognitive service account name.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The Sku (Stock Keeping Unit) of cognitive services account.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>For this exercise S1, but can be F0 (free tier), S1, S2, S3, or S4.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The location, or region, from which you want to make calls to this API.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Select one of the locations from the list below.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Execute the following command in Azure Cloud Shell.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Make sure to replace <ph id="ph1">`[location]`</ph> with a location near you.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Remember the location you have selected.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>You'll make all calls to the API from that region.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>We've created a cognitive services account for the <bpt id="p1">**</bpt>ComputerVision<ept id="p1">**</ept> API.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>We selected the <bpt id="p1">*</bpt>S1<ept id="p1">*</ept> sku and named our account <bpt id="p2">**</bpt>ComputerVisionService<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Our account is owned by the resource group <bpt id="p1">**</bpt><bpt id="p2">&lt;rgn&gt;</bpt>[sandbox resource group name]<ept id="p2">&lt;/rgn&gt;</ept><ept id="p1">**</ept> and we'll call the API from the location we set in the <ph id="ph1">`--location`</ph> parameter.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Once the command finishes creating the cognitive services account, you'll get a JSON response, which includes <bpt id="p1">**</bpt>provisioningState<ept id="p1">**</ept> property set to <bpt id="p2">**</bpt>Succeeded<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Get an access key</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Once we have our account successfully created we can retrieve the subscription keys, or access keys, for this account.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Execute the following command in Azure Cloud Shell:</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The above command returns the keys associated with the cognitive services account called <bpt id="p1">**</bpt>ComputerVisionService<ept id="p1">**</ept>, which is owned by the given resource group.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>It returns two keys - one is a spare key.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The keys are difficult to remember, so we'll store the first key in a variable that we'll use for all calls to the API.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Execute the following command in Azure Cloud Shell:</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The Azure CLI 2.0 uses the <ph id="ph1">`--query`</ph> argument to execute a JMESPath query on the results of commands.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>JMESPath is a query language for JSON, giving you the ability to select and present data from CLI output.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>These queries are executed on the JSON output before any display formatting.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`--query`</ph> argument is supported by all commands in the Azure CLI.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>In our example, we query the list of keys for an entry named "key1" and output the result to <bpt id="p1">**</bpt>tsv<ept id="p1">**</ept> format.</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>This format removes quotations around the string value.</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>We assign the result to a variable <bpt id="p1">**</bpt>key<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>We're going to use this key throughout the module, so saving it in a variable is a good idea.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>If you lose the value or the variable becomes unset, run the command again to set it.</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>To see the value of our key, execute the following command in Azure Cloud Shell:</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Now that we have an account and a key, it's time to make some calls to the API.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-write-data-with-output-bindings-portal-lesson.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-write-data-with-output-bindings-portal-lesson.5fded62e5733abd7ffd17b38ca607e8cdc1e0c4f.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">34d623c7d07b51c8358f03216c7601ce407bf56d</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\chain-azure-functions-data-using-bindings\includes\6-write-data-with-output-bindings-portal-lesson.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>As with input bindings, there are multiple types of output bindings.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>However not all types support both input and output.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You'll use them anytime you want to send or store data.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Here, we'll look at the types that support output bindings and when to use them.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Output binding types</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Blob Storage<ept id="p1">**</ept> - You can use the blob output binding to write blobs.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Cosmos DB<ept id="p1">**</ept> - The Azure Cosmos DB output binding lets you write a new document to an Azure Cosmos DB database using the SQL API.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Event Hubs<ept id="p1">**</ept> - Use the Event Hubs output binding to write events to an event stream.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You must have send permission to an event hub to write events to it.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>HTTP<ept id="p1">**</ept> - Use the HTTP output binding to respond to the HTTP request sender.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This binding requires an HTTP trigger and allows you to customize the response associated with the trigger's request.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This can also be used to connect to web hooks.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Microsoft Graph<ept id="p1">**</ept> - Microsoft Graph output bindings allow you to write to files in OneDrive, modify Excel data, and send email through Outlook.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Mobile Apps<ept id="p1">**</ept> - The Mobile Apps output binding writes a new record to a Mobile Apps table.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Notification Hubs<ept id="p1">**</ept> - You can send push notifications with Notification Hubs output bindings.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Queue Storage<ept id="p1">**</ept> - Use the Azure Queue storage output binding to write messages to a queue.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Send Grid<ept id="p1">**</ept> - Send emails using SendGrid bindings.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Service Bus<ept id="p1">**</ept> - Use Azure Service Bus output binding to send queue or topic messages.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Table storage<ept id="p1">**</ept> - Use an Azure Table storage output binding to write to a table in an Azure Storage account.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Twilio<ept id="p1">**</ept> - Send text messages with Twilio.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To create a binding as an output, you must define the <ph id="ph1">`direction`</ph> as <ph id="ph2">`out`</ph>.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The parameters for each type of binding may vary.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Combining input and output bindings</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>It's possible to apply multiple bindings to a single function.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This allows you to define both input and output bindings, and the input and output can even be the same binding type.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,197 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-estimate-costs-with-the-azure-pricing-calculator.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-estimate-costs-with-the-azure-pricing-calculator.47178fb57c1f3402c700eba86473815b79d31b38.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6da640f2153a6e001e271531cedab3b67378477d</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\predict-costs-and-optimize-spending\includes\2-estimate-costs-with-the-azure-pricing-calculator.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Imagine that you've been asked to build a system on Azure, and you've been asked for an estimate of what it might cost to run over the next 12 months.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You already know that Azure pricing is fully transparent and that you're billed monthly for only the services that you use.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>How would you get that estimate without deploying and running those services or without manually pricing out each service from the Azure service pricing pages?</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Introducing the Azure pricing calculator</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To make estimates easy for customers to create, Microsoft developed the <bpt id="p1">**</bpt>Azure pricing calculator<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The Azure pricing calculator is a free web-based tool that allows you to input Azure services and modify properties and options of the services.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>It outputs the costs per service and total cost for the full estimate.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The options that you can configure in the pricing calculator vary between products, but basic configuration options include:</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Option</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Region</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Lists the regions from which you can provision a product.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Southeast Asia, central Canada, the western United States, and Northern Europe are among the possible regions available for some resources.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Tier</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Sets the type of tier you wish to allocate to a selected resource, such as Free Tier, Basic Tier, etc.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Billing Options</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Highlights the billing options available to different types of customer and subscriptions for a chosen product.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Support Options</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Allows you to pick from included or paid support pricing options for a selected product.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Programs and Offers</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Allows you to choose from available price offerings according to your customer or subscription type.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Azure Dev/Test Pricing</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Lists the available development and test prices for a product.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Dev/Test pricing applies only when you run resources within an Azure subscription that is based on a Dev/Test offer.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Try out the Azure pricing calculator</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>In another browser window or tab, open the <bpt id="p1">[</bpt>Azure pricing calculator<ept id="p1">](https://azure.microsoft.com/pricing/calculator/)</ept>.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>On the pricing calculator page, you'll see three tabs:</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Products.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This tab is where you'll do most of your activity.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This tab has all the Azure services listed and is where you'll add or remove services to put together your estimate.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Estimates.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This tab has all of your previously saved estimates.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>We'll go through this process in a moment.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>FAQ.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Just as it says, this tab has answers to some frequently asked questions.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Let's start with the <bpt id="p1">**</bpt>Products<ept id="p1">**</ept> tab. You'll see the full listing of service categories down the left-hand side.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Clicking on any of the categories will display the services in that category.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>There's also a search box where you can search through all services for the service you're looking for.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Clicking on the service will add that service to your estimate.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You can add just one service, or you can add as many as you need, including multiples of the same service (for example, multiple virtual machines).</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>After you've added the services, you'll want to price them.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Scrolling down on the page will show you customizable details for that service that apply to pricing.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For example, on virtual machines, you can select details such as the region, operating system, and instance size, all of which will impact the pricing for the VM.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You'll see a subtotal for the service.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>And scrolling further down, you'll see a full total for all services included in the estimate.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Along with the total, you'll see buttons where you can export, save, and share the estimate.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Estimate a solution</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>From our original scenario, let's imagine that this system will run on two Azure VMs and will connect to an Azure SQL Database instance.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>We also want to have a layer 7 firewall in place to ensure we have enhanced load-balancing capabilities.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The following illustration shows an application gateway connected to two virtual machines that are connected to a single Azure SQL Database instance.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>An illustration of a sample architecture that will be used as an example to demonstrate estimating costs.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>We can use the Azure pricing calculator to figure out what the solution will cost and export our estimate to share with the team.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Make sure you have a clean calculator with nothing listed in the estimate.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If you have anything present in your estimate, click the trash can icon on each item to reset the estimate.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>In the Azure pricing calculator, on the <bpt id="p1">**</bpt>Products<ept id="p1">**</ept> tab, add the following services to the estimate by clicking on them:</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Virtual Machines in the Compute category</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Azure SQL Database in the Databases category</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Application Gateway in the Networking category</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>We can configure the details of each, on the <bpt id="p1">**</bpt>Estimates<ept id="p1">**</ept> tab, to get a solid estimate of our costs.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>West US<ept id="p1">**</ept> region for all resources.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Virtual Machines.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This is an ASP.NET application, so we'll need to use a <bpt id="p1">**</bpt>Windows OS<ept id="p1">**</ept> VM.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This application doesn't require a massive amount of computing power, so select the <bpt id="p1">**</bpt>D2 v3<ept id="p1">**</ept> instance size.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>We'll need two virtual machines, and they will run all the time (730 hours/month).</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>We're going to use standard SSD storage for these VMs and will require just one disk per VM of size <bpt id="p1">**</bpt>E10<ept id="p1">**</ept>, for a total of two disks.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>SQL Database.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>For the database, we're going to provision a <bpt id="p1">**</bpt>single database type<ept id="p1">**</ept> using the <bpt id="p2">**</bpt>vCore model<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>We want a General Purpose, Gen 5 database with 8 vCores.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>We'll need 32 GB of storage.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Application Gateway.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For Application Gateway, we're going to use the Web Application Firewall tier, so we have some protection for our environment.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>And we're going to go with just two instances and medium size, as our load isn't going to be high.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>We expect to process 1 TB of data per month.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>We don't expect to process any data in Europe (Zone 1).</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Looking through your estimate, you should see a summary cost for each service you've added and a full total for the entire estimate.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>In this case, your estimate should be around <bpt id="p1">**</bpt>$2,100.00 per month<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>You can try playing with some of the options - particularly the <bpt id="p1">_</bpt>location<ept id="p1">_</ept> you place these resources in to see the estimate go up and down.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>If you have resources that are not location-sensitive, you can save a lot of money by locating them in less expensive regions.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Checking the pricing calculator can help you determine the most cost-effective place to put these services.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Share and save your estimate</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>We now have an estimate for our solution.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>We can save this estimate, so we can come back to it later and adjust it if necessary.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>We can also export it to Excel for further analysis or share the estimate via a URL.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>To export the estimate, click <ph id="ph1">`Export`</ph> at the bottom of the estimate.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>This will download your estimate in Excel (<bpt id="p1">**</bpt>.xlsx<ept id="p1">**</ept>) format and will include all the services you added to your estimate.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>We can either share the Excel spreadsheet, or we can click on the <ph id="ph1">`Share`</ph> button in the calculator.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This gives you a URL that you can use to share this estimate.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Anyone with this link will be able to access it, making it easy to share with your team.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>If you are logged in with your Azure account, you can save the estimate, so you can come back to it later.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Go ahead and click the <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> button.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>If you are signed in, you should see a notification that your estimate was saved.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>If you aren't signed in, you'll see a message to sign in to save your estimate.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>After you've saved the estimate, scroll back up to the top of the page and select the <bpt id="p1">**</bpt>Estimates<ept id="p1">**</ept> tab. You will see your estimate there.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>You can then select it to pull it back up or delete it if you no longer need it.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>We have arrived at a cost estimate for a set of Azure services without spending any money.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>We didn't create anything, and we have a fully sharable estimate that we can do further analysis or modifications on in the future.</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>You can use this not only to create estimates for systems where you know the specific services you plan to use but also to compare how different services might impact your overall costs.</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>An example is Microsoft SQL Server on a VM vs. Azure SQL Database.</source>
+        </trans-unit></group></body></file></xliff>

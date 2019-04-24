@@ -1,0 +1,165 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-azure-management.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-azure-management.610fa081887e19d80636369b9ba05b2b509a6902.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">692bb4bfbf567e7815c8f0cd12923e15c2c757de</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\tour-azure-portal\includes\2-azure-management.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You can configure and manage Azure using a broad range of tools and platforms.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>There are tools available for the command line, language-specific Software Development Kits (SDKs), developer tools, tools for migration, and many others.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Tools that are commonly used for day-to-day management and interaction include:</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure portal<ept id="p1">**</ept> for interacting with Azure via a Graphical User Interface (GUI)</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure PowerShell<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Azure Command-Line Interface<ept id="p2">**</ept> (CLI) for command line and automation-based interactions with Azure</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Cloud Shell<ept id="p1">**</ept> for a web-based command-line interface</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure mobile app<ept id="p1">**</ept> for monitoring and managing your resources from your mobile device</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Azure portal</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com)</ept> is a public website that you can access with any web browser.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Once you sign in with your Azure account, you can create, manage and monitor any available Azure services.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can identify a service you're looking for, get links for help on a topic, and deploy, manage, and delete resources.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>It also guides you through complex administrative tasks using wizards and tooltips.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Azure portal</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The dashboard view provides high-level details about your Azure environment.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can customize the dashboard by moving and resizing tiles, and displaying services you're interested in.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The portal doesn't provide any way to automate repetitive tasks.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For example, to set up multiple VMs, you would need to create them one at a time by completing the wizard for each VM.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This makes the portal approach time-consuming and error-prone for complex tasks.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Azure PowerShell</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Azure PowerShell is a module that you can install for Windows PowerShell, or PowerShell Core, which is a cross-platform version of PowerShell that runs on Windows, Linux or macOS.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Azure PowerShell enables you to connect to your Azure subscription and manage resources.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell and PowerShell Core provide services such as the shell window and command parsing.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Azure PowerShell then adds the Azure-specific commands.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For example, Azure PowerShell provides the <ph id="ph1">`New-AzureRmVM`</ph> command that creates a virtual machine for you inside your Azure subscription.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To use it, you would launch PowerShell, install the Azure PowerShell module, sign in to your Azure account using the command <ph id="ph1">`Connect-AzureRMAccount`</ph>, and then issue a command such as:</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Creating administration scripts and using automation tools is a powerful way to optimize your workflow.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You can automate repetitive tasks.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Once a script is verified, it runs consistently, which can reduce errors.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Another scripting environment is the Azure CLI.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Azure CLI</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Azure CLI is a cross-platform command-line program that connects to Azure and executes administrative commands on Azure resources.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Cross-platform<ept id="p1">*</ept> means that it can be run on Windows, Linux, or macOS.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For example, to create a VM, you would open a command prompt window, sign in to Azure using the command <ph id="ph1">`az login`</ph>, create a resource group, then use a command such as:</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Azure Cloud Shell</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure Cloud Shell<ept id="p1">](https://shell.azure.com/)</ept> is a browser-based scripting environment for command-line administration of Azure resources.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>It provides support for two shell environments.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Linux users can opt for a Bash experience, while Windows users can use PowerShell.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Screenshot of Azure Cloud Shell</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Both environments support the Azure CLI and Azure PowerShell CLIs.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Linux defaults to the Azure CLI (with the <ph id="ph1">`az`</ph> command pre-installed), but you can switch to PowerShell for Linux by typing <ph id="ph2">`pwsh`</ph>.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The Windows-based environment has both CLI tools pre-installed.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In addition to these administrative tools, the Cloud Shell has a suite of developer tools, text editors, and other tools available including:</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Developer Tools<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>.NET Core</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Python</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Java</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Node.js</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Go</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Editors<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>code (Cloud Shell Editor)</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>vim</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>nano</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>emacs</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Other tools<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>git</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>maven</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>make</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>npm</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>and more...<ept id="p1">](https://docs.microsoft.com/azure/cloud-shell/features#tools)</ept></source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>You can create, build, and deploy apps right from this browser-based environment.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>It's all persistent as well - you're prompted to create an Azure Storage Account when you access the Azure Cloud Shell.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This storage area is used as your $HOME folder and any scripts or data you place here is kept across sessions.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Each subscription has a unique storage account associated with it so you can keep the data and tools you need right for each account you manage.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>We'll use the Cloud Shell in Microsoft Learn for many of the interactive exercises to try out Azure features.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Azure mobile app</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Azure mobile app</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">[</bpt>Microsoft Azure mobile app<ept id="p1">](https://aka.ms/azuremobileapp/)</ept> allows you to access, manage, and monitor all your Azure accounts and resources from your iOS or Android phone or tablet.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Once installed, you can:</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Check the current status and important metrics of your services</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Stay informed with notifications and alerts about important health issues</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Quickly diagnose and fix issues anytime, anywhere</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Review the latest Azure alerts</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Start, stop, and restart virtual machines or web apps</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Connect to your virtual machines</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Manage permissions with role-based access control (RBAC)</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Use the Azure Cloud Shell to run saved scripts or perform ad hoc administrative tasks</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>and more...</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Other options</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>There are also Azure SDKs for a range of languages and frameworks, and REST APIs that you can use to manage and control Azure resources programmatically.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>For a full list of tools available, see the <bpt id="p1">[</bpt>Downloads<ept id="p1">](https://azure.microsoft.com/downloads/)</ept> page.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>When starting with Azure, you'll most often use the Azure portal.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Let's take a closer look at the portal approach.</source>
+        </trans-unit></group></body></file></xliff>

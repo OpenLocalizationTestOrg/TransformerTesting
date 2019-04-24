@@ -1,0 +1,25 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-perform-linear-regression-with-numpy.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-perform-linear-regression-with-numpy.447ed895cd253fb4d39fbcf72fd73b870f81069a.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">564c78ebc67bd817129046a9fb118d2f1cc44dc6</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\student-evangelism\analyze-climate-data-with-azure-notebooks\includes\3-perform-linear-regression-with-numpy.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Scatter plots offer a handy means for visualizing data, but suppose you wanted to overlay the scatter plot with a trend line showing how the data is trending over time.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>One way to compute such trend lines is <bpt id="p1">[</bpt>linear regression<ept id="p1">](https://en.wikipedia.org/wiki/Linear_regression)</ept>.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In this exercise, you will use NumPy to perform a linear regression and Matplotlib to draw a trend line from the data.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Place the cursor in the empty cell at the bottom of the notebook.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Change the cell type to <bpt id="p1">**</bpt>Markdown<ept id="p1">**</ept> and enter "Perform linear regression" as the text.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Add a <bpt id="p1">**</bpt>Code<ept id="p1">**</ept> cell and paste in the following code.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Take a moment to read the comments (the lines that begin with # signs) to understand what the code is doing.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Now run the cell to display a scatter plot with a regression line.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Scatter plot with regression line</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Scatter plot with regression line<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>From the regression line, you can see that the difference between 30-year mean temperatures and 5-year mean temperatures is increasing over time.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Most of the computational work required to generate the regression line was done by NumPy's <ph id="ph1">`polyfit`</ph> function, which computed the values of <ph id="ph2">`m`</ph> and <ph id="ph3">`b`</ph> in the equation y = mx + b.</source>
+        </trans-unit></group></body></file></xliff>

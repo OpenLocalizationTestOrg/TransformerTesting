@@ -1,0 +1,35 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-Introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-Introduction.25f41396cafa50c1bfa994662bdd1df5a4aa39a1.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">782e5bc8fb70f0f3fd7b84a6eaf24ae3a06cdb57</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\work-with-mutable-and-partial-data-in-a-redis-cache\includes\1-Introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Imagine you're building an instant messaging mobile application.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Your application allows users to send messages to all members of a specific user-defined group.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>There's some data that needs to be stored about each user, like their username, email, and password.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>So you decide to use SQL Server to create a relational database for that information.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>However, the messages themselves need to be sent and accessed quickly and a relational database is too slow for that.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You decide to create an Azure Cache for Redis because of the number of benefits it provides.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Recall from the <bpt id="p1">**</bpt>Optimize your web applications by caching read-only data with Redis<ept id="p1">**</ept> module that a Redis Cache is an in-memory data structure store that can be used as a database, cache or message broker.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>With Azure Cache for Redis, you could use transactions to ensure a message with a picture and text are sent together.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Use data expiration to reset the name of the group chat after an hour.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Finally, use eviction policies to make sure the oldest messages are being deleted first when you're running low on memory.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Group multiple operations into a transaction</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Set an expiration time on your data</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Manage out-of-memory conditions</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Use the cache-aside pattern</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Use the ServiceStack.Redis package in a .NET Core console application</source>
+        </trans-unit></group></body></file></xliff>

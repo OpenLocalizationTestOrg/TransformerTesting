@@ -1,0 +1,33 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-region-pairs.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-region-pairs.1bacb597f2d1ab21e31eafb01d43ce69379266ad.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f5d8a7f6cd50b615503919a5781aa15f930d5f31</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\explore-azure-infrastructure\includes\5-region-pairs.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Availability zones are created using one or more datacenters, and there are a minimum of three zones within a single region.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>However, it's possible that a large enough disaster could cause an outage big enough to affect even two datacenters.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>That's why Azure also creates <bpt id="p1">_</bpt>region pairs<ept id="p1">_</ept>.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>What is a region pair?</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Each Azure region is always paired with another region within the same geography (such as US, Europe, or Asia) at least <bpt id="p1">**</bpt>300 miles away<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This approach allows for the replication of resources (such as virtual machine storage) across a geography that helps reduce the likelihood of interruptions due to events such as natural disasters, civil unrest, power outages, or physical network outages affecting both regions at once.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Examples of region pairs in Azure are West US paired with East US, and SouthEast Asia paired with East Asia.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Image showing the relationship between geography, region pair, region, and datacenter</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Since the pair of regions is directly connected and far enough apart to be isolated from regional disasters, you can use them to provide reliable services and data redundancy.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Some services offer automatic geo-redundant storage using region pairs.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Additional advantages of region pairs include:</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If there's an extensive Azure outage, one region out of every pair is prioritized to help reduce the time it takes to restore them for applications.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Planned Azure updates are rolled out to paired regions one region at a time to minimize downtime and risk of application outage.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Data continues to reside within the same geography as its pair (except for Brazil South) for tax and law enforcement jurisdiction purposes.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Having a broadly distributed set of datacenters allows Azure to provide a high guarantee of availability.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Let's explore what that means.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,81 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-use-data-volumes.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-use-data-volumes.90eb46250d4f1ba7a62262f9a79c347015135c24.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eb083e9b83b33e68fa00bd080c04e68ef0a2dab3</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\run-docker-with-azure-container-instances\includes\5-use-data-volumes.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>By default, Azure Container Instances are stateless.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>If the container crashes or stops, all of its state is lost.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>To persist state beyond the lifetime of the container, you must mount a volume from an external store.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Here, you'll mount an Azure file share to an Azure container instance to you can store data and access it later.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Create an Azure file share</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Here you'll create a storage account and a file share that you'll later make accessible to an Azure container instance.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Your storage account requires a unique name.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For learning purposes, run the following command to store a unique name in a Bash variable.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Run the following <ph id="ph1">`az storage account create`</ph> command to create your storage account.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Run the following command to place the storage account connection string into an environment variable named <ph id="ph1">`AZURE_STORAGE_CONNECTION_STRING`</ph>.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`AZURE_STORAGE_CONNECTION_STRING`</ph> is a special environment variable that's understood by the Azure CLI.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`export`</ph> part makes this variable accessible to other CLI commands you'll run shortly.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Run this command to create a file share, named <bpt id="p1">**</bpt>aci-share-demo<ept id="p1">**</ept>, in the storage account.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Get storage credentials</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To mount an Azure file share as a volume in Azure Container Instances, you need these three values:</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The storage account name</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The share name</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The storage account access key</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You already have the first two values.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The storage account name is stored in the <ph id="ph1">`STORAGE_ACCOUNT_NAME`</ph> Bash variable.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You specified <bpt id="p1">**</bpt>aci-share-demo<ept id="p1">**</ept> as the share name in the previous step.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Here you'll get the remaining value <ph id="ph1">&amp;mdash;</ph> the storage account access key.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Run the following command to get the storage account key.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The result is stored in a Bash variable named <ph id="ph1">`STORAGE_KEY`</ph>.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>As an optional step, print the storage key to the console.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Deploy a container and mount the file share</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To mount an Azure file share as a volume in a container, you specify the share and volume mount point when you create the container.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Run this <ph id="ph1">`az container create`</ph> command to create a container that mounts <ph id="ph2">`/aci/logs/`</ph> to your file share.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Run <ph id="ph1">`az container show`</ph> to get your container's public IP address.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>From a browser, navigate to your container's IP address.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You see this.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Azure Container Instances file share demo</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Enter some text into the form and click <bpt id="p1">**</bpt>Submit<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This action creates a file that contains the text you entered in the Azure file share.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Run this <ph id="ph1">`az storage file list`</ph> command to display the files that are contained in your file share.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Run <ph id="ph1">`az storage file download`</ph> to download a file to your Cloud Shell session.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Replace <bpt id="p1">**</bpt><ph id="ph1">\&lt;</ph>filename<ph id="ph2">\&gt;</ph><ept id="p1">**</ept> with one of the files that appeared in the previous step.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Run the <ph id="ph1">`cat`</ph> command to print the contents of the file.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Remember that your data persists when your container exits.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You can mount your file share to other container instances to make that data available to them.</source>
+        </trans-unit></group></body></file></xliff>

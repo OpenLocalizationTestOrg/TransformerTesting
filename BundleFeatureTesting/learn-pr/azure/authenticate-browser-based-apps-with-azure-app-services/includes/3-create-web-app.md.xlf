@@ -1,0 +1,135 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-create-web-app.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-create-web-app.8c5f84af34bd0ca3aeb57c188782fa8a22341ba5.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">92573b6b2af6d2f8c39e42cf7df3037d18928e1a</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\authenticate-browser-based-apps-with-azure-app-services\includes\3-create-web-app.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Suppose you are developing a photo sharing web app.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You need your users to sign in, and be able to manage their own private folders, as well as being able to share folders and photos with other users.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You do not want to create your own identity management and user authentication solution.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In this unit, you will lay the groundwork for this solution, by creating a basic Node.js web app, and deploying this app using the Azure App Service.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Create an App Service Plan</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Start by creating an App Service Plan, ready for your web apps.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Sign into the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept> using the same account you activated the sandbox with.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In the left menu in the portal, select <bpt id="p1">**</bpt>+  Create a resource<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In the marketplace search field, enter <bpt id="p1">**</bpt>App Service Plan<ept id="p1">**</ept> and then select the <bpt id="p2">*</bpt>App Service Plan<ept id="p2">*</ept> item from the dropdown list of search results.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Create<ept id="p1">**</ept> to open the <bpt id="p2">**</bpt>New App Service Plan<ept id="p2">**</ept> pane.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>New App Service Plan<ept id="p1">**</ept> pane, enter or select the following information:</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>App Service plan: <bpt id="p1">**</bpt>myAppServicePlan<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Subscription: Select <bpt id="p1">**</bpt>Concierge subscription<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Resource group: Select <bpt id="p1">**</bpt>Use existing<ept id="p1">**</ept>, and choose <bpt id="p2">&lt;rgn&gt;</bpt>[sandbox resource group name]<ept id="p2">&lt;/rgn&gt;</ept></source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Operating System: Select <bpt id="p1">**</bpt>Windows<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Location: Select a region near you, for the following list of sandbox regions.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Leave <bpt id="p1">**</bpt>Pricing tier<ept id="p1">**</ept>, as its default value.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>New App Service Plan<ept id="p1">**</ept> pane, select <bpt id="p2">**</bpt>Create<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Wait until the App Service plan has deployed before continuing with the exercise.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can verify status of the deployment through the notification bell icon on the top menu.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Create a Web App</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Now create a web app.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Note that web app names must be unique across Azure, so you may need to add a random string to the app name.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>In the left menu of the portal, select <bpt id="p1">**</bpt>+ Create a resource<ept id="p1">**</ept>, then in the <bpt id="p2">**</bpt>New<ept id="p2">**</ept> pane, select <bpt id="p3">**</bpt>Web<ept id="p3">**</ept>, and then select <bpt id="p4">**</bpt>Web App<ept id="p4">**</ept>.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Web App<ept id="p1">**</ept> pane, enter or select the following information:</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>App name: <bpt id="p1">**</bpt>my-webapp-<ph id="ph1">\&lt;</ph><bpt id="p2">_</bpt>random_number<ept id="p2">_</ept><ph id="ph2">\&gt;</ph><ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Subscription: <bpt id="p1">**</bpt>Concierge subscription<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Resource group: Select <bpt id="p1">**</bpt>Use existing<ept id="p1">**</ept>, and choose <bpt id="p2">&lt;rgn&gt;</bpt>[sandbox resource group name]<ept id="p2">&lt;/rgn&gt;</ept></source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>OS: Select <bpt id="p1">**</bpt>Windows<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Publish: Keep the default selection</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>App Service plan/Location: Ensure that <bpt id="p1">**</bpt>myAppServicePlan(<ph id="ph1">\&lt;</ph><bpt id="p2">_</bpt>your location<ept id="p2">_</ept><ph id="ph2">\&gt;</ph>)<ept id="p1">**</ept> is selected</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Application Insights: Leave with default value</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Create<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Wait until the web App has deployed before continuing with the exercise.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>As you saw earlier in this exercise, you can verify status of the deployment through the notification bell icon on the top menu.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Test a Web App</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Before you do anything else, do a quick check that your web app has been successfully deployed.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>In the left menu, click <bpt id="p1">**</bpt>Resource groups<ept id="p1">**</ept>, then click the available resource group, and then click your web app.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>my-webapp-<ph id="ph1">\&lt;</ph><bpt id="p2">_</bpt>your_string<ept id="p2">_</ept><ph id="ph2">\&gt;</ph><ept id="p1">**</ept> pane, next to the URL for your app, select the <bpt id="p3">**</bpt>Click to copy<ept id="p3">**</ept> button.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Open a new browser tab, paste the URL that was copied to the clipboard, and press Enter.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Verify that you get the default page, and then close the browser tab.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Set Node.js version for the Web App</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The app we'll deploy to the WQeb App is a Node.js app.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>To make sure it runs, we need to set the Node.js version for the Web App using a new App Setting as follows.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>In the Web App pane in the portal, select <bpt id="p1">**</bpt>Configuration<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Applciation Settings<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>+new application setting<ept id="p2">**</ept> to open.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>In the new setting form, enter the following name and value for our new setting:</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Name<ept id="p1">*</ept> <bpt id="p2">**</bpt>WEBSITE_NODE_DEFAULT_VERSION<ept id="p2">**</ept></source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Value<ept id="p1">*</ept> <bpt id="p2">**</bpt>8.9.4<ept id="p2">**</ept></source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>update<ept id="p1">**</ept> at the bottom of the page to update the list of settings.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> in the Configuration pane to save these changes.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>When comp[lete, the following setting will be in the Application settings list]</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>New application setting for Node.js version</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Upload App Code</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>You'll now download a node.js Hello World zip from GitHub and modify it.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>You use Kudu to upload your modified application to Azure.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>In your browser, go to <ph id="ph1">https://github.com/Azure-Samples/nodejs-docs-hello-world/archive/master.zip</ph>.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Extract ZIP file to a local folder on your computer.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>In the extracted files, locate <bpt id="p1">**</bpt>index.js<ept id="p1">**</ept>, and open this file using Notepad or other editor.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Change the string "Hello World" to "Welcome to my website!", and save the file.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Select all the files in the folder that contains index.js, and then zip these files to a new archive named <bpt id="p1">**</bpt>MyWebsite.zip<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>In a new browser tab, go to <bpt id="p1">**</bpt><ph id="ph1">https://my-webapp-\&lt;</ph><bpt id="p2">_</bpt>your_string<ept id="p2">_</ept><ph id="ph2">\&gt;</ph>.scm.azurewebsites.net/ZipDeployUI<ept id="p1">**</ept>, replacing <bpt id="p3">**</bpt><ph id="ph3">\&lt;</ph><bpt id="p4">_</bpt>your_string<ept id="p4">_</ept><ph id="ph4">\&gt;</ph><ept id="p3">**</ept> with the string you used to make your app name unique.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>On the Kudu ZipDeploy page, drag your <bpt id="p1">**</bpt>MyWebsite.zip<ept id="p1">**</ept> file onto the file items area.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Wait until you see a <bpt id="p1">**</bpt>Deployment successful message<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Open a new browser tab, paste the URL for your web app, and press Enter.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Verify that you now see your customized welcome page that says <bpt id="p1">*</bpt>Welcome to my website!<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>In this exercise, you deployed a basic Node.js web app that you'll use later with Azure App Service authentication.</source>
+        </trans-unit></group></body></file></xliff>

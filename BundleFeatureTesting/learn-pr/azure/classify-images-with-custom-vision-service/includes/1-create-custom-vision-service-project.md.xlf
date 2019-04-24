@@ -1,0 +1,43 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-create-custom-vision-service-project.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-create-custom-vision-service-project.1f12e27a388a2af29892319064e1c15364f23d4f.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2fc06ea3633190be92a970374e9dcdabb1cbbe69</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\classify-images-with-custom-vision-service\includes\1-create-custom-vision-service-project.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The first step in building an image-classification model with the Custom Vision Service is to create a project.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In this unit, you will use the Custom Vision Service portal to create a Custom Vision Service project.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Open the <bpt id="p1">[</bpt>Custom Vision Service portal<ept id="p1">](https://www.customvision.ai/?azure-portal=true)</ept> in your browser.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Then select <bpt id="p1">**</bpt>Sign In<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If you are asked to sign in, do so using the credentials for your Microsoft account.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If you are asked to let this app access your info, click <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>, and if prompted, agree to the terms of service.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>New Project<ept id="p1">**</ept> to create a new project.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Custom Vision Service portal with the New Project option highlighted</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Create new project<ept id="p1">**</ept> dialog, name the project <bpt id="p2">*</bpt>Artworks<ept id="p2">*</ept>.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Resource Group<ept id="p1">**</ept> you want to use for this project.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If you do not already have a resource group, select <bpt id="p1">**</bpt>create new<ept id="p1">**</ept> to create a new resource group.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>After you select the resource group, the following sections display:</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Project Types<ept id="p1">**</ept>: Select Classification.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Classification Types<ept id="p1">**</ept>: Select <bpt id="p2">**</bpt>Multilabel<ept id="p2">**</ept></source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Domains<ept id="p1">**</ept>: Select <bpt id="p2">**</bpt>General<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A domain optimizes a model for specific types of images.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For example, if your goal is to classify food images by the types of food they contain or the ethnicity of the dishes, then it might be helpful to select the Food domain.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For scenarios that don't match any of the offered domains, or if you are unsure of which domain to choose, select the General domain.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Create project<ept id="p1">**</ept> to create our project.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Create new project dialog box with the Name field, Domains list, and Create project button highlighted.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The next step is to upload images to the project and assign tags to those images to classify them.</source>
+        </trans-unit></group></body></file></xliff>

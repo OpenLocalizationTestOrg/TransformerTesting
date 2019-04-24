@@ -1,0 +1,91 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-configure-applications-to-send-or-receive-messages-through-an-event-hub.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-configure-applications-to-send-or-receive-messages-through-an-event-hub.28f577fece126001723a01b9266ac7c62bcd49ff.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">542cf2e8bb1e45cf07446c726a12358b4d447752</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\enable-reliable-messaging-for-big-data-apps-using-event-hubs\includes\4-configure-applications-to-send-or-receive-messages-through-an-event-hub.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>After you have created and configured your Event Hub, you'll need to configure applications to send and receive event data streams.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>For example, a payment processing solution will use some form of sender application to collect customer's credit card data and a receiver application to verify that the credit card is valid.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Although there are differences in how a Java application is configured, compared to a .NET application, there are general principles for enabling applications to connect to an Event Hub, and to successfully send or receive messages.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>So, although the process of editing Java configuration text files is different to preparing a .NET application using Visual Studio, the principles are the same.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>What are the minimum Event Hub application requirements?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To configure an application to send messages to an Event Hub, you must provide the following information, so that the application can create connection credentials:</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Event Hub namespace name</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Event Hub name</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Shared access policy name</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Primary shared access key</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To configure an application to receive messages from an Event Hub, provide the following information, so that the application can create connection credentials:</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Event Hub namespace name</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Event Hub name</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Shared access policy name</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Primary shared access key</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Storage account name</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Storage account connection string</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Storage account container name</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you have a receiver application that stores messages in Azure Blob Storage, you'll also need to first configure a storage account.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Azure CLI commands for creating a general-purpose standard storage account</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The Azure CLI provides a set of commands you can use to create and manage a storage account.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>We'll work with them in the next unit, but here's a basic synopsis of the commands.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>There are several MS Learn modules that cover storage accounts, starting in the module <bpt id="p1">**</bpt>Introduction to Azure Storage<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Command</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Create a general-purpose V2 Storage account.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Retrieve the storage account key.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Retrieve the connection string for an Azure Storage account.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Creates a new container in a storage account.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Shell command for cloning an application GitHub repository</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Git is a collaboration tool that uses a distributed version control model, and is designed for collaborative working on software and documentation projects.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Git clients are available for multiple platforms, including Windows, and the Git command line is included in the Azure Bash cloud shell.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>GitHub is a web-based hosting service for Git repositories.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If you have an application that is hosted as a project in GitHub, you can make a local copy of the project, by cloning its repository using the <bpt id="p1">**</bpt>git clone<ept id="p1">**</ept> command.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>We'll do this in the next unit.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Editing files in the Cloud SHell</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You can use one of the built-in editors in the Cloud Shell to modify all the files that make up the application and add your Event Hub namespace, Event Hub name, shared access policy name, and primary key.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The Cloud Shell supports <bpt id="p1">**</bpt>nano<ept id="p1">**</ept>, <bpt id="p2">**</bpt>vim<ept id="p2">**</ept> and <bpt id="p3">**</bpt>emacs<ept id="p3">**</ept> as well as a Visual Studio Code-like editor named <bpt id="p4">**</bpt>code<ept id="p4">**</ept>.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Just type the name of the editor you want and it will launch in the environment.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>We'll use the <bpt id="p1">**</bpt>code<ept id="p1">**</ept> editor in the next unit.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Sender and receiver applications must be configured with specific information about the Event Hub environment.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You create a storage account if your receiver application stores messages in Blob Storage.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If your application is hosted on GitHub, you have to clone it to your local directory.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Text editors, such as <bpt id="p1">**</bpt>nano<ept id="p1">**</ept> are used to add your namespace to the application.</source>
+        </trans-unit></group></body></file></xliff>

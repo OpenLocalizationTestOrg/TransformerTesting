@@ -1,0 +1,23 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="0-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0-introduction.66d74cbac262db04a95929dac13f5b45e58a88aa.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6ea88299d96e200f6c30155d97980798f625cac0</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\classify-images-with-custom-vision-service\includes\0-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Microsoft Cognitive Services<ept id="p1">]</ept><bpt id="p2">(https://azure.microsoft.com/services/cognitive-services/ "</bpt>Microsoft Cognitive Services<ept id="p2">")</ept> is a suite of services and APIs backed by machine learning that enables developers to incorporate intelligent features such as facial recognition in photos and videos, sentiment analysis in text, and language understanding into their applications.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The Microsoft <bpt id="p1">[</bpt>Custom Vision Service<ept id="p1">](https://azure.microsoft.com/services/cognitive-services/custom-vision-service/)</ept> is among the newest members of the Cognitive Services suite.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Its purpose is to create image classification models that "learn" from labeled images you provide.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Want to know if a photo contains a picture of a flower?</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Train the Custom Vision Service with a collection of flower images, and it can tell you whether the next image includes a flower — or even what type of flower it is.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Create a Custom Vision Service project</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Train a Custom Vision Service model with tagged images</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Test a Custom Vision Service model</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Call your custom model's prediction endpoint over HTTP</source>
+        </trans-unit></group></body></file></xliff>

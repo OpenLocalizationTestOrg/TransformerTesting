@@ -1,0 +1,117 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-reduce-latency-traffic-manager.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-reduce-latency-traffic-manager.29bfd398ec348a6d0123bbfe98068f6a214123d1.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">230a49bcdad363b053d9cf2bc564e5da1f2e181c</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-azure-networking\includes\4-reduce-latency-traffic-manager.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Previously, you saw how <bpt id="p1">**</bpt>Azure Load Balancer<ept id="p1">**</ept> helps you achieve high availability and minimize downtime.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Although your e-commerce site is more highly available, it doesn't solve the issue of latency or create resiliency across geographic regions.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>How can you make your site, which is located in the United States, load faster for users located in Europe or Asia?</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>What is network latency?</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A stopwatch representing latency</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Latency<ept id="p1">_</ept> refers to the time it takes for data to travel over the network.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Latency is typically measured in milliseconds.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Compare latency to bandwidth.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Bandwidth refers to the amount of data that can fit on the connection.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Latency refers to the time it takes for that data to reach its destination.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Factors such as the type of connection you use and how your application is designed can affect latency.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>But perhaps the biggest factor is distance.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Think about your e-commerce site on Azure, which is in the East US region.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>It would typically take less time to transfer data to Atlanta (a distance of around 400 miles) than to transfer data to London (a distance of around 4,000 miles).</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Your e-commerce site delivers standard HTML, CSS, JavaScript, and images.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The network latency for many files can add up.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>How can you reduce latency for users located far away geographically?</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Scale out to different regions</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Recall that Azure provides data centers in regions across the globe.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A globe representing region scale-out</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Think about the cost of building a data center.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Equipment costs aren't the only factor.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You need to provide the power, cooling, and personnel to keep your systems running at each location.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>It might be prohibitively expensive to replicate your entire data center.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>But doing so with Azure can cost much less, because Azure already has the equipment and personnel in place.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>One way to reduce latency is to provide exact copies of your service in more than one region.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The following illustration shows an example of global deployment.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>An illustration showing a world map with three Azure data centers highlighted.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Each data center is labelled with a unique domain name.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The diagram shows your e-commerce site running in three Azure regions: East US, North Europe, and East Asia.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Notice the DNS name for each.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>How can you connect users to the service that's closest geographically, but under the contoso.com domain?</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Use Traffic Manager to route users to the closest endpoint</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A sign post representing Azure Traffic Manager</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>One answer is <bpt id="p1">**</bpt>Azure Traffic Manager<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Traffic Manager uses the DNS server that's closest to the user to direct user traffic to a globally distributed endpoint.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The following illustration shows the role of the Traffic Manager.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>An illustration showing Azure Traffic Manager routing a user request to the nearest data center.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Traffic Manager doesn't see the traffic that's passed between the client and server.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Rather, it directs the client web browser to a preferred endpoint.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Traffic Manager can route traffic in a few different ways, such as to the endpoint with the lowest latency.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Although not shown here, this setup could also include your on-premises deployment running in California.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You can connect Traffic Manager to your own on-premises networks, enabling you to maintain your existing data center investments.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Or you can move your application entirely to the cloud.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The choice is yours.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Compare Load Balancer to Traffic Manager</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A magnifying glass</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Azure Load Balancer distributes traffic within the same region to make your services more highly available and resilient.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Traffic Manager works at the DNS level, and directs the client to a preferred endpoint.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This endpoint can be to the region that's closest to your user.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Load Balancer and Traffic Manager both help make your services more resilient, but in slightly different ways.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>When Load Balancer detects an unresponsive VM, it directs traffic to other VMs in the pool.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Traffic Manager monitors the health of your endpoints.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>In contrast, when Traffic Manager finds an unresponsive endpoint, it directs traffic to the next closest endpoint that is responsive.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Geographic distance is one of the biggest factors that contributes to latency.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>With Traffic Manager in place, you can host exact copies of your service in multiple geographic regions.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>That way, users in the United States, Europe, and Asia will all have a good experience using your e-commerce site.</source>
+        </trans-unit></group></body></file></xliff>

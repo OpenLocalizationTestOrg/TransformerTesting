@@ -1,0 +1,19 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="9-summary.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9-summary.308f12c03006f2326b6b58fdf2b662e54fd236ca.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0ac9e6606d7cbabbd54089819bffc43da3fa6aa9</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-azure-government\includes\9-summary.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this module, we learned about Azure Government, the sovereign cloud built specifically for the U.S. Government.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Whether you are creating solutions for Federal, state or local government, you can take advantage of the world-class security, protection, and compliance of Azure Government.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In addition to the large set of compliant services offered by Azure Government, you can also deploy pre-built images from Microsoft and its partners through the Azure Government marketplace.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If you are already familiar with global Azure, you will have mostly the same experience when you connect to Azure Government.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Resources</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure Government documentation<ept id="p1">](https://docs.microsoft.com/azure/azure-government/)</ept></source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure Government blog<ept id="p1">](https://blogs.msdn.microsoft.com/azuregov)</ept></source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Overview of Microsoft Azure compliance<ept id="p1">](https://aka.ms/AzureCompliance)</ept></source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>How to buy Azure Government<ept id="p1">](https://azure.microsoft.com/offers/azure-government/)</ept></source>
+        </trans-unit></group></body></file></xliff>

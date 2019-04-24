@@ -1,0 +1,199 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-how-azure-storage-meets-your-business-storage-needs.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-how-azure-storage-meets-your-business-storage-needs.193c9b05da104c4a72229e6c79fecd013d8f3b33.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ac007a40dd6ec462b1c23e475c8f1bfd234d1066</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-data-in-azure\includes\3-how-azure-storage-meets-your-business-storage-needs.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Looking at the benefits of Azure data storage, you understand that it offers the best options for storing your learning portal.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Now let's explore the benefits and options in detail to see how it fits your business needs.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>How Azure data storage can meet your business storage needs</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Azure provides several storage options that accommodate specific types of data storage needs.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Azure SQL Database</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure SQL Database<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Azure SQL Database is a relational database as a service (DaaS) based on the latest stable version of the Microsoft SQL Server database engine.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>SQL Database is a high-performance, reliable, fully managed and secure database.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can use it to build data-driven applications and websites in the programming language of your choice without needing to manage infrastructure.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can migrate your existing SQL Server databases with minimal downtime using the Azure Database Migration Service.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The service uses the <bpt id="p1">*</bpt>Microsoft Data Migration Assistant<ept id="p1">*</ept> to generate assessment reports that provide recommendations to help guide you through required changes prior to performing a migration.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Once you assess and perform any remediation required, you're ready to begin the migration process.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The Azure Database Migration Service performs all of the required steps.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You just change the connection string in your apps.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The following illustration shows the types of data from the online learning portal scenario that would be stored in an Azure SQL database.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>An illustration showing Azure SQL used to store student information such as transcripts, certifications, and study materials.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Azure Cosmos DB</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Cosmos DB<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Azure Cosmos DB is a globally distributed database service.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>It supports schema-less data that lets you build highly responsive and <bpt id="p1">**</bpt>Always On<ept id="p1">**</ept> applications to support constantly changing data.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can use this feature to store data that is updated and maintained by users around the world.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The following illustration shows a sample Azure Cosmos DB database that's used to store data that's accessed by people located across the globe.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>An illustration showing usage of Azure Cosmos DB in the online training scenario to store the course catalog.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Azure Cosmos DB is a good choice here because the catalog is updated by administrators and accessed by students all over the world.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Azure Blob storage</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Blob storage<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Azure Blob Storage is <bpt id="p1">*</bpt>unstructured<ept id="p1">*</ept>, meaning that there are no restrictions on the kinds of data it can hold.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Blobs are highly scalable and apps work with blobs in much the same way as they would work with files on a disk, such as reading and writing data.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Blob Storage can manage thousands of simultaneous uploads, massive amounts of video data, constantly growing log files, and can be reached from anywhere with an internet connection.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Blobs aren't limited to common file formats.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A blob could contain gigabytes of binary data streamed from a scientific instrument, an encrypted message for another application, or data in a custom format for an app you're developing.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Azure Blob storage lets you stream large video or audio files directly to the user's browser from anywhere in the world.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Blob storage is also used to store data for backup, disaster recovery, and archiving.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>It has the ability to store up to 8 TB of data for virtual machines.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The following illustration shows an example usage of Azure blob storage.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>An illustration showing Azure blob storage used to store and stream video or audio files.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Azure Data Lake Storage Gen2</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Data Lake Storage Gen2<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The Data Lake feature allows you to perform analytics on your data usage and prepare reports.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Data Lake is a large repository that stores both structured and unstructured data.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Data Lake Storage Gen2<ept id="p1">**</ept> combines the scalability and cost benefits of object storage with the reliability and performance of the Big Data file system capabilities.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The following illustration shows how Azure Data Lake stores all your business data and makes it available for analysis.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>An illustration showing the role of Azure Data Lake in preparing and storing your data for use by analysis tools.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Azure Data Lake can handle a variety of input types such as relational, video, or sensor data.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Azure Files</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Files<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Azure Files offers fully managed file shares in the cloud that are accessible via the industry standard Server Message Block (SMB) protocol.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Azure file shares can be mounted concurrently by cloud or on-premises deployments of Windows, Linux, and macOS.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Applications running in Azure virtual machines or cloud services can mount a file storage share to access file data, just as a desktop application would mount a typical SMB share.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Any number of Azure virtual machines or roles can mount and access the file storage share simultaneously.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Typical usage scenarios would be to share files anywhere in the world, diagnostic data, or application data sharing.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The following illustration shows Azure Files being used to share data between two geographical locations.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Azure Files uses the Server Message Block (SMB) protocol that ensures the data is encrypted at rest and in transit.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>An illustration showing the file sharing capabilities of Azure Files.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Azure Queue</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Queue<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Azure Queue storage is a service for storing large numbers of messages that can be accessed from anywhere in the world.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Azure Queue Storage can be used to help build flexible applications and separate functions for better durability across large workloads.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>When application components are decoupled, they can scale independently.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Queue storage provides asynchronous message queueing for communication between application components, whether they are running in the cloud, on the desktop, on-premises, or on mobile devices.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Typically, there are one or more sender components and one or more receiver components.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Sender components add messages to the queue, while receiver components retrieve messages from the front of the queue for processing.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The following illustration shows multiple sender applications adding messages to the Azure Queue and one receiver application retrieving the messages.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>An illustration showing a high-level architecture of Azure Queue storage</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You can use queue storage to:</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Create a backlog of work and to pass messages between different Azure web servers.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Distribute load among different web servers/infrastructure and to manage bursts of traffic.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Build resilience against component failure when multiple users access your data at the same time.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Disk Storage</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Disk Storage<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Disk storage provides disks for virtual machines, applications, and other services to access and use as they need, similar to how they would in on-premises scenarios.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Disk storage allows data to be persistently stored and accessed from an attached virtual hard disk.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The disks can be managed or unmanaged by Azure, and therefore managed and configured by the user.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Typical scenarios for using disk storage are if you want to lift and shift applications that read and write data to persistent disks, or if you are storing data that is not required to be accessed from outside the virtual machine to which the disk is attached.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Disks come in many different sizes and performance levels, from solid-state drives (SSDs) to traditional spinning hard disk drives (HDDs), with varying performance abilities.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>When working with VMs, you can use standard SSD and HDD disks for less critical workloads, and premium SSD disks for mission-critical production applications.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Azure Disks have consistently delivered enterprise-grade durability, with an industry-leading ZERO% annualized failure rate.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The following illustration shows an Azure virtual machine using separate disks to store different data.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>An illustration showing two disks inside a virtual machine, one that stores the operating system and one that stores data.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Storage tiers</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Storage tiers<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Azure offers three storage tiers for blob object storage:</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Hot storage tier<ept id="p1">**</ept>: optimized for storing data that is accessed frequently.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Cool storage tier<ept id="p1">**</ept>: optimized for data that is infrequently accessed and stored for at least 30 days.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Archive storage tier<ept id="p1">**</ept>: for data that is rarely accessed and stored for at least 180 days with flexible latency requirements.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Encryption and replication</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Encryption and replication<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Azure provides security and high availability to your data through encryption and replication features.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Encryption for storage services</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The following encryption types are available for your resources:</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Storage Service Encryption (SSE)<ept id="p1">**</ept> for data at rest helps you secure your data to meet the organization's security and regulatory compliance.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>It encrypts the data before storing it and decrypts the data before retrieving it.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The encryption and decryption are transparent to the user.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Client-side encryption<ept id="p1">**</ept> is where the data is already encrypted by the client libraries.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Azure stores the data in the encrypted state at rest, which is then decrypted during retrieval.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Replication for storage availability</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>A replication type is set up when you create a storage account.</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The replication feature ensures that your data is durable and always available.</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Azure provides regional and geographic replications to protect your data against natural disasters and other local disasters like fire or flooding.</source>
+        </trans-unit></group></body></file></xliff>

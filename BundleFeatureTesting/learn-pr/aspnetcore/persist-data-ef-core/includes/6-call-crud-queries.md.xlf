@@ -1,0 +1,113 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-call-crud-queries.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-call-crud-queries.de68bf538d1e199287d91f78e43ad7c8aa3ec42b.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cbd996aee51697f92b8c4ff2ab9818dc86188ec0</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\aspnetcore\persist-data-ef-core\includes\6-call-crud-queries.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this unit, the Azure SQL database's tables will be populated with data.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You'll then modify an ASP.NET Core web API project to consume the EF Core queries written in the previous unit.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Finally, you'll test the queries.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Run the following command to populate the Azure SQL database's tables:</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Remove the following code from <bpt id="p1">*</bpt>ContosoPets.Api.csproj<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Save your changes.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>With the preceding change, the <ph id="ph1">`OrdersController`</ph> class will compile the next time the project is built.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`OrdersController`</ph> is the facade that will be used for testing data access via the <ph id="ph2">`OrderService`</ph> class.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In the <ph id="ph1">`ConfigureServices`</ph> method of <bpt id="p1">*</bpt>Startup.cs<ept id="p1">*</ept>, replace the <ph id="ph2">`// Add the OrderService DI registration code`</ph> comment with the following code.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Save your changes.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The preceding code registers <ph id="ph1">`OrderService`</ph> as a scoped service in the DI system.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The scoped lifetime was selected because <ph id="ph1">`ContosoPetsContext`</ph> was also registered as scoped.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Because <ph id="ph1">`OrderService`</ph> relies on <ph id="ph2">`ContosoPetsContext`</ph>, it shouldn't be registered with a shorter lifetime than <ph id="ph3">`ContosoPetsContext`</ph>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">*</bpt>Startup.cs<ept id="p1">*</ept>, replace the <ph id="ph1">`// Add the ContosoPets.DataAccess.Services using statement`</ph> comment with the following code.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Save your changes.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Inclusion of the preceding namespace resolves the reference to <ph id="ph1">`OrderService`</ph> in the previous step.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Run the following .NET Core CLI command to run the app in development mode:</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The preceding command:</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Restores the project's NuGet packages.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Builds the project code.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Sets the hosting environment to <bpt id="p1">*</bpt>Development<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Hosts the web API with ASP.NET Core's Kestrel web server.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Displays the background task's process ID.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>.NET Core emits logging information and blocks command shell input.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The command shell needs to be usable to test the running app.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Therefore, the <ph id="ph1">`dotnet run`</ph> output is redirected to a <bpt id="p1">*</bpt>ContosoPets.Api.log<ept id="p1">*</ept> text file.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Additionally, the <ph id="ph1">`&amp;`</ph> runs the app as a background task to unblock command shell input.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The web API is hosted at both <ph id="ph1">`http://localhost:5000`</ph> and <ph id="ph2">`https://localhost:5001`</ph>.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This module uses the secure URL beginning with <ph id="ph1">`https`</ph>.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Run <ph id="ph1">`cat $srcWorkingDirectory/ContosoPets.Api.log`</ph> to view the log if you encounter any unexpected behavior.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If the build fails or other errors occur, the log file's information helps troubleshoot.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If you make code changes, run <ph id="ph1">`kill $(pidof dotnet)`</ph> to stop all .NET Core processes before attempting to build and run again.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Run the following command to test retrieval of a distinct order:</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The preceding command sends an HTTP GET request to the <ph id="ph1">`GetById`</ph> action of <ph id="ph2">`OrdersController`</ph> in <bpt id="p1">*</bpt>ContosoPets.Api<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The order corresponding to ID 2 is displayed in JSON format.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Run the following command to test updating an order:</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The order from the previous step has shipped to the customer.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The preceding code sends an HTTP PUT request to the <ph id="ph1">`SetFulfilled`</ph> action of <ph id="ph2">`OrdersController`</ph>.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`SetFulfilled`</ph> action calls <ph id="ph2">`OrderService.SetFulfilled`</ph> in <bpt id="p1">*</bpt>ContosoPets.DataAccess<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>An HTTP status code of 204 indicates success:</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Run the following command to confirm the order was marked as fulfilled:</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The result set consists of the <ph id="ph1">`OrderFulfilled`</ph> column.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Its value was set to the current timestamp.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Optional<ept id="p1">*</ept>: Analyze the completed data flow between the web API and the database.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The following are commands you can try:</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Retrieve and display all orders:</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Retrieve and display the specified order:</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Set the fulfillment date on the specified order:</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Create a new order:</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The preceding example assumes the customer, as represented by <ph id="ph1">`CustomerId`</ph>, already exists.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Delete the specified order:</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Observe changes in the database:</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>In this unit, you saw that <ph id="ph1">`OrderService`</ph> is modifying the database as expected.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>It's unnecessary to test every method.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>You may experiment with <bpt id="p1">**</bpt>curl<ept id="p1">**</ept> and <bpt id="p2">**</bpt>sqlcmd<ept id="p2">**</ept> to further investigate the end-to-end relationships.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>You can see the SQL generated by EF Core in the logs by running the following command:</source>
+        </trans-unit></group></body></file></xliff>

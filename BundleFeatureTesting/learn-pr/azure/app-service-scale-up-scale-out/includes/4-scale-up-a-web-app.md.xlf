@@ -1,0 +1,57 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-scale-up-a-web-app.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-scale-up-a-web-app.5315ba5ab871dad5ed77472eedf040154639fbdf.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">21597beed94dd2ce3cebfcb1380418306912028f</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\app-service-scale-up-scale-out\includes\4-scale-up-a-web-app.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Scaling out enables you to run more instances of a web app, but the resources available to each instance are determined by the pricing tier used by the App Service plan that hosts the web service.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Each pricing tier specifies the computing power provided, together with the memory and maximum number of instances that can be created.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>If you initially deploy a web app using a relatively cheap pricing tier, you might find the resources are sufficient to start with.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>But the resources might become too limited if demand for your web service grows, or if you add features that require more power.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In this case, you can scale up to a more powerful pricing tier.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In the hotel reservation system, you've noticed a steady increase in the number of visitors, beyond the variations caused by special offers or events.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>And your company is adding more features to the web app that require additional resources.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You're nearing the scale-out limits of your current App Service plan pricing tier, so you need to scale up to a tier that provides more instances and more powerful hardware.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll learn how to scale up the web app to meet the increasing resource requirements.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>App Service plan pricing tiers and hardware levels</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The different pricing tiers available for App Service plans offer various levels or resources.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The Basic, Standard, and Premium tiers are based on <bpt id="p1">*</bpt>A-Series<ept id="p1">*</ept> VMs that have different amounts of memory and IO capacity.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The PremiumV2 and Isolated tiers are based on <bpt id="p1">*</bpt>Dv2-Series<ept id="p1">*</ept> VMs.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Each of these tiers has three hardware levels, roughly corresponding to 1, 2, and 4 CPUs.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For detailed information about the pricing tiers and hardware levels, see <bpt id="p1">[</bpt>App Service pricing<ept id="p1">](https://azure.microsoft.com/pricing/details/app-service/windows/)</ept>.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Scale up a web app</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You scale an App Service plan up and down by changing the pricing tier and hardware level that it runs on.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can start with the Free tier and scale up as needed according to your requirements.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This process is manual.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can also scale down again if you no longer need the resources associated with a particular tier.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Scaling up can cause an interruption in service to client apps running at the time.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>They might need to disconnect from the service and reconnect if the scale-up occurs during an active call to the web app.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>And new connections might be rejected until scaling finishes.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Also, scaling up can cause the outgoing IP addresses for the web app to change.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If your web app depends on other services that have firewalls restricting incoming traffic, you'll need to reconfigure these services.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>As with scale-out, you should monitor the performance of your system to ensure that scaling up (or down) has the desired effect.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>It's also important to understand that scale up and scale out can work cooperatively together.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If you have scaled out to the maximum number of instances available for your pricing tier, you must scale up before you can scale out further.</source>
+        </trans-unit></group></body></file></xliff>

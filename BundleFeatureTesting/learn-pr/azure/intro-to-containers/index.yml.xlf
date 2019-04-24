@@ -1,0 +1,31 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.f61fd37295ef4068802e6e601fc8bbf6f0a3f844.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9aa2084d2adcee6d9acfc09aaab4962acc4ad86e</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-containers\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.intro-to-containers">
+          <source>Build a containerized web application with Docker</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.intro-to-containers">
+          <source>In this module, you'll learn how to use Docker to quickly deploy a web application.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.intro-to-containers">
+          <source>You'll download an existing Docker image from Docker Hub, and customize it to run your own application.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.intro-to-containers">
+          <source>You'll upload the image to an Azure Container Registry, and run the application in Azure from an Azure Container Instance.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.intro-to-containers">
+          <source>Build a containerized web application with Docker</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.intro-to-containers">
+          <source>Package a web app so that it can be deployed as a Docker image and run from an Azure Container Instance.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.intro-to-containers">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.intro-to-containers">
+          <source>Create a Dockerfile for a new container image based on a starter image from Docker Hub</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.intro-to-containers">
+          <source>Add files to an image using Dockerfile commands</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.intro-to-containers">
+          <source>Configure an image’s startup command with Dockerfile commands</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.intro-to-containers">
+          <source>Build and run a web application packaged in a Docker image</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.intro-to-containers">
+          <source>Deploy a Docker image using the Azure Container Instance service</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.intro-to-containers">
+          <source>Familiarity with basic web application development concepts</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.intro-to-containers">
+          <source>A Docker subscription</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.intro-to-containers">
+          <source>Docker installed on your desktop computer</source>
+        </trans-unit></group></body></file></xliff>

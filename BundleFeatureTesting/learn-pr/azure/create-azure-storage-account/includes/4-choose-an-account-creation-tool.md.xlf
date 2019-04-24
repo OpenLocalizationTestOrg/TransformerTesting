@@ -1,0 +1,39 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-choose-an-account-creation-tool.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-choose-an-account-creation-tool.f22fc10c60b9bcdebbad6a1f1aa9ffabef7abc88.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7ea6c8731affa43dfcc699b5ec32e32a3262ac0d</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-azure-storage-account\includes\4-choose-an-account-creation-tool.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>There are several tools that create a storage account.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Your choice is typically based on if you want a GUI and whether you need automation.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Available tools</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The available tools are:</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Azure Portal</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Azure CLI (Command-line interface)</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Azure PowerShell</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Management client libraries</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The portal provides a GUI with explanations for each setting.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This makes the portal easy to use and helpful for learning about the options.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The other tools in the above list all support automation.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The Azure CLI and Azure PowerShell let you write scripts, while the management libraries allow you to incorporate the creation into a client app.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>How to choose a tool</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Storage accounts are typically based on an analysis of your data, so they tend to be relatively stable.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>As a result, storage-account creation is usually a one-time operation done at the start of a project.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For one-time activities, the portal is the most common choice.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In the rare cases where you need automation, the decision is between a programmatic API or a scripting solution.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Scripts are typically faster to create and less work to maintain because there is no need for an IDE, NuGet packages, or build steps.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you have an existing client application, the management libraries might be an attractive choice; otherwise, scripts will likely be a better option.</source>
+        </trans-unit></group></body></file></xliff>

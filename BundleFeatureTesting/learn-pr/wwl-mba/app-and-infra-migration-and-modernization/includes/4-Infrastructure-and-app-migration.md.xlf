@@ -1,0 +1,99 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-Infrastructure-and-app-migration.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-Infrastructure-and-app-migration.4c53b8ef242d962a779336c71aabbf5afce33c32.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e604750aebe222a5dfed71013cd7fcb05a8e763f</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\wwl-mba\app-and-infra-migration-and-modernization\includes\4-Infrastructure-and-app-migration.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this unit, we’ll cover how to rehost your applications through migration—moving the application, infrastructure, and data to the cloud as-is.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Rehosting applications</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Rehosting is also referred to as a lift-and-shift migration.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The application is moved from an on-premises server into the IaaS environment of Azure, avoiding modifications to the system.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>With this approach, cloud benefits are quickly unlocked, and you can take advantage of advanced cloud capabilities, such as autoscaling and improved resiliency, while gradually modernizing afterwards.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Microsoft has designed the Azure IaaS solution to offer a large set of advantages, just by lifting-and-shifting an application into the cloud.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Here are some advantages:</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Infrastructure for all workloads:<ept id="p1">**</ept> Built to run all types of workloads from custom-built to purchased software.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Hybrid by design:<ept id="p1">**</ept> Capabilities to connect your on-premises and cloud solutions.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Secure and well-managed:<ept id="p1">**</ept> Advanced management tools for all your solutions.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Cost effective:<ept id="p1">**</ept> Less expensive than AWS.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Icon indicating play video</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Watch this video to get an end-to-end understanding of each of these benefits and how they enable digital transformation in your company.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>As you saw in the video, Azure offers an array of comprehensive benefits.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can consult with a partner, or Microsoft, to help you migrate to Azure.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Earlier in this unit, we covered that software end of support is a common migration trigger.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>See below for how you can take advantage of the end of support for Windows Server 2008 to start your journey to the cloud.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Prepare for Windows Server 2008 and SQL Server 2008 end of support (EOS)</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>There is no better time to move to the cloud.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>On January 14, 2020, support for Windows Server 2008 and 2008 R2 will end.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>On July 9, 2019, support for SQL Server 2008 and 2008 R2 will end.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>End of support means there will be no further updates, including regular security updates.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>With the increasing sophistication and frequency of cyberattacks, running apps and data on unsupported versions of Windows Server and SQL Server can create significant security and compliance risks.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Migrate to Azure, get free extended security updates</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>End of support is an ideal time to transform your business with the cloud, but we know that it can be hard to upgrade everything before the end of support timeline.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>One alternative is to rehost these workloads to Azure with no application code change.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Servers can be moved to run in IaaS Virtual Machines (VMs) without having to change the software or configurations on the workstations.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Once you migrate Windows Server 2008 or 2008 R2 to Azure, we will provide free extended security updates for the Azure-hosted versions for up to 3 years after the end of support for the stand-alone versions.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This gives you more time to plan your roadmap for modernizing your applications, including upgrading to newer versions such as SQL Server 2017 or Windows Server 2016 to utilize the rich set of platform and data services available in Azure.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Move your SAP workloads to Azure</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>According to research firm Gartner Inc., two-thirds of all business leaders believe that their companies must pick up the pace of digitalization to remain competitive.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>As leaders in enterprise software, SAP and Microsoft are aligning closely to provide customers with the safe and trusted path to digital transformation.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You can run your SAP applications in the robust and reliable Azure cloud environment that features the broadest global footprint, the largest compliance portfolio, embedded security, enterprise-grade SLAs, and industry-leading support.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Azure supports the largest SAP HANA workloads of any hyperscale cloud provider.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Microsoft is running SAP S/4HANA on Azure for their internal operations.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Microsoft is transforming its internal systems—which include legacy SAP finance applications—and will implement the SAP S/4HANA Finance solution running on Azure.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Microsoft also plans to connect SAP S/4HANA to Azure AI and analytics services for more efficient financial reporting and more powerful decision-making.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>SAP is migrating more than a dozen business-critical systems to Azure for the optimal efficiencies, flexibility and innovation the platform offers.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This includes the SAP S/4HANA software supporting Concur, an SAP company.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To succeed in today’s disruptive business environment, you can’t afford to wait to start planning the move of your SAP systems to the cloud.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>By marrying your SAP data to other data on Azure now, you’ll be able to use end-to-end, real-time insights to quickly enter new markets, fend off disruptive competition, improve your margins, and grow your business right away.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Let’s hear from some of our customers about this partnership.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The strategic partnership announced between Microsoft and SAP is an extremely important development for the Coca-Cola System.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The value of aligned engineering, sales, and delivery between these two strategic partners will allow our system to accelerate our digital agenda.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>The strategic partnership announced between Microsoft and SAP is an extremely important development for the Coca-Cola System. The value of aligned engineering, sales, and delivery between these two strategic partners will allow our system to accelerate our digital agenda.<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>⸺Barry Simpson, Senior Vice President and Chief Information Officer, The Coca-Cola Company</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>SAP and Microsoft are key partners with Costco, and this alliance will help drive our cloud strategy and digital business forward.<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>⸺Jim Rutherford, Senior Vice President of Information Systems at Costco Wholesale.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Now, we’ll learn more about modernizing your applications.</source>
+        </trans-unit></group></body></file></xliff>

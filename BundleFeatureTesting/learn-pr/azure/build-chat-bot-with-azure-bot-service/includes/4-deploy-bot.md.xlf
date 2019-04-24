@@ -1,0 +1,103 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-deploy-bot.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-deploy-bot.b196930ad81df5b9c83d60b484bbeb523605db15.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">45d4364418a2b0007d60122f1fc8c9cb792a25f6</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\build-chat-bot-with-azure-bot-service\includes\4-deploy-bot.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>When you created an Azure Web App Bot, an Azure Web App was deployed to host it.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>But the bot needs to be implemented with code, and it still needs to be deployed to the Azure web app.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Fortunately, the code was generated for you by the Azure Bot Service.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll use Visual Studio Code to place the code in a local Git repository and publish the bot to Azure by pushing changes from the local repository to a remote repository connected to the Azure web app that hosts the bot — a process known as Continuous Integration( <bpt id="p1">**</bpt>CI<ept id="p1">**</ept>).</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Download the Web App Bot source code</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Create a folder named <bpt id="p1">**</bpt>factbot<ept id="p1">**</ept> in the location of your choice on your hard disk to hold the bot's source code.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Return to the Azure portal in the browser and find the resource group created using the search box at the top, or the <bpt id="p1">**</bpt>Resource groups<ept id="p1">**</ept> section in the left-hand sidebar.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Locate and select the Web App Bot you created earlier.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Build<ept id="p1">**</ept> in the menu on the left, then select <bpt id="p2">**</bpt>Download Bot source code<ept id="p2">**</ept> to prepare a zip file containing the bot's source code.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Screenshot showing the Build &gt; Download Bot source code steps in the Azure portal for the Web app bot</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The portal will take a few minutes to zip up the code.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>When complete, the portal displays a <bpt id="p1">**</bpt>Download Bot source code<ept id="p1">**</ept> button similar to the following screenshot.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Download Bot source dialog</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Download Bot source code<ept id="p1">**</ept> to download the source as a zip file to your local machine.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When the download is complete, extract the contents of the <bpt id="p1">**</bpt>.zip<ept id="p1">**</ept> file to the <bpt id="p2">**</bpt>factbot<ept id="p2">**</ept> folder that you created on your local hard disk.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Setup the bot Git repository using Deployment Center</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Return to the Azure portal in the browser.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>In the Web App Bot's Build blade in the Azure portal, select the <bpt id="p1">**</bpt>Publish updates automatically to Azure with Continuous Deployment<ept id="p1">**</ept> link under the <bpt id="p2">**</bpt>Publish<ept id="p2">**</ept> area in the main view.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This is shown in the following screenshot.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Bot's Build user interface with the Publish link highlighted</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Deployment Center<ept id="p1">**</ept> panel, select <bpt id="p2">**</bpt>Local Git<ept id="p2">**</ept> as the deployment source and click <bpt id="p3">**</bpt>Continue<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>App Service Kudu build service<ept id="p1">**</ept> option and select <bpt id="p2">**</bpt>Continue<ept id="p2">**</ept> and then <bpt id="p3">**</bpt>Finish<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Deployment Credentials<ept id="p1">**</ept> from the top menu area, and then <bpt id="p2">**</bpt>User Credentials<ept id="p2">**</ept> in the opened view.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Enter a username and password (must be 10+ characters) and click <bpt id="p1">**</bpt>Save Credentials<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Take note of this username and password.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Azure portal showing the new bot App Service blade displaying the Deployment credentials screen with the Deployment credentials menu item and Save button highlighted.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Navigate back to the web app bot configuration and select <bpt id="p1">**</bpt>All App service settings<ept id="p1">**</ept> in the menu on the left.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This will display the underlying web app your bot is hosted in.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Note the <bpt id="p1">**</bpt>Git clone url<ept id="p1">**</ept> in the Overview pane.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This URL is the cloud-based Git repository that Azure has created to manage the project.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Create a local Git repository</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>We are going to use Visual Studio Code for this section which has an integrated Git experience, but you can create the Git repo using any other technique you prefer if you are familiar with the steps.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If you don't have Visual Studio Code installed, you can download it for free from <bpt id="p1">[</bpt>here<ept id="p1">](https://code.visualstudio.com/)</ept>.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Start <bpt id="p1">**</bpt>Visual Studio Code<ept id="p1">**</ept>, and use the <bpt id="p2">**</bpt>File<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Open Folder...<ept id="p3">**</ept> command to open the <bpt id="p4">**</bpt>factbot<ept id="p4">**</ept> folder where you copied the bot's source code.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Source Control<ept id="p1">**</ept> button in the activity bar on the left side of Visual Studio Code.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can hover over each button if the sidebar is collapsed.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Initialize Repository<ept id="p1">**</ept> icon at the top (on the right side of the <bpt id="p2">**</bpt>SOURCE CONTROL<ept id="p2">**</ept> title).</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Screenshot of Visual Studio Code with the Initialize Respository icon highlighted.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Initialize Repository<ept id="p1">**</ept> button in the dialog.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Type "First commit."</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>into the entry text box.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Select the check mark to commit your changes, staging all the files when prompted.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If you get a Git error about not having your identity set in Git, launch a Command Prompt and run the following commands, replacing the placeholder email and name values.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Then retry the commit button.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Terminal<ept id="p1">**</ept> from Visual Studio Code's <bpt id="p2">**</bpt>View<ept id="p2">**</ept> menu to open an integrated terminal.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Execute the following command in the integrated terminal, replacing <ph id="ph1">`{git-url}`</ph> in the following command with the Git clone URL you found in the Azure portal.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Return to the <bpt id="p1">**</bpt>Source Control<ept id="p1">**</ept> section in Visual Studio Code and select the ellipsis (the three dots) at the top of the SOURCE CONTROL panel.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Publish Branch<ept id="p1">**</ept> from the menu to push the bot code from the local repository to Azure.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If prompted for credentials, enter the username and password you setup in Deployment Center.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Your bot has been published to Azure.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>But before you test it there, let's run it locally and learn how to debug it in Visual Studio Code.</source>
+        </trans-unit></group></body></file></xliff>

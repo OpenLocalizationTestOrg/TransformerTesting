@@ -1,0 +1,101 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-storage-security-features.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-storage-security-features.0ec96b0da9989bbfa935b39d0c51a35e96abeffd.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">57067fa70878142a11af5d37be9a9ece667ddb8b</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\secure-azure-storage-account\includes\2-storage-security-features.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Contoso relies heavily on massive amounts of data in Azure Storage.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Their many applications rely on blobs, unstructured table storage, Azure Data Lake, and Server Message Block (SMB)-based file shares.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>After Contoso's competitor has a data breach, Contoso tasks the network administrator to check the organization's data security.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>As Contoso's data consultant, you assure the network administrator that Azure Storage accounts provide several high-level security benefits for the data in the cloud:</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Protect the data at rest</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Protect the data in transit</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Support browser cross-domain access</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Control who can access data</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Audit storage access</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Encryption at rest</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>All data written to Azure Storage is automatically encrypted by Storage Service Encryption (SSE) with a 256-bit Advanced Encryption Standard (AES) cipher.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>SSE automatically encrypts data when writing it to Azure Storage.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>When you read data from Azure Storage, Azure Storage decrypts the data before returning it.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This process incurs no additional charges and doesn't degrade performance.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>It can't be disabled.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For virtual machines (VMs), Azure lets you encrypt virtual hard disks (VHDs) by using Azure Disk Encryption.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This encryption uses BitLocker for Windows images, and it uses dm-crypt for Linux.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Azure Key Vault stores the keys automatically to help you control and manage the disk-encryption keys and secrets.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>So even if someone gets access to the VHD image and downloads it, they can't access the data on the VHD.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Encryption in transit</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Keep your data secure by enabling <bpt id="p1">_</bpt>transport-level security<ept id="p1">_</ept> between Azure and the client.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Always use <bpt id="p1">*</bpt>HTTPS<ept id="p1">*</ept> to secure communication over the public internet.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>When you call the REST APIs to access objects in storage accounts, you can enforce the use of HTTPS by requiring <bpt id="p1">[</bpt>secure transfer<ept id="p1">](https://docs.microsoft.com/azure/storage/storage-require-secure-transfer)</ept> for the storage account.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>After you enable secure transfer, connections that use HTTP will be refused.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This flag will also enforce secure transfer over SMB by requiring SMB 3.0 for all file share mounts.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>CORS support</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Contoso stores several website asset types in Azure Storage.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>These types include images and videos.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To secure browser apps, Contoso locks GET requests down to specific domains.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Azure Storage supports cross-domain access through cross-origin resource sharing (CORS).</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>CORS uses HTTP headers so that a web application at one domain can access resources from a server at a different domain.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>By using CORS, web apps ensure that they load only authorized content from authorized sources.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>CORS support is an optional flag you can enable on Storage accounts.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The flag adds the appropriate headers when you use HTTP GET requests to retrieve resources from the Storage account.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Role-based access control</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To access data in a storage account, the client makes a request over HTTP or HTTPS.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Every request to a secure resource must be authorized.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The service ensures that the client has the permissions required to access the data.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You can choose from several access options.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Arguably, the most flexible option is role-based access.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Azure Storage supports Azure Active Directory and role-based access control (RBAC) for both resource management and data operations.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To security principals, you can assign RBAC roles that are scoped to the storage account.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Use Active Directory to authorize resource management operations, such as configuration.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Active Directory is supported for data operations on Blob and Queue storage.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>To a security principal or a managed identity for Azure resources, you can assign RBAC roles that are scoped to a subscription, a resource group, a storage account, or an individual container or queue.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Auditing access</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Auditing is another part of controlling access.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>You can audit Azure Storage access by using the built-in Storage Analytics service.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Storage Analytics logs every operation in real time, and you can search the Storage Analytics logs for specific requests.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Filter based on the authentication mechanism, the success of the operation, or the resource that was accessed.</source>
+        </trans-unit></group></body></file></xliff>

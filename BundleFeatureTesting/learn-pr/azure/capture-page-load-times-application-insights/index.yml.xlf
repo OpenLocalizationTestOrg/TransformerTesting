@@ -1,0 +1,25 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.61c5dba3278f84e04500d5e2f3bfc6ae52f96329.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c7668c97bb66301031eaa8342423bd9b600ce707</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\capture-page-load-times-application-insights\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights">
+          <source>Capture and view page load times in your Azure web app with Application Insights</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights">
+          <source>In this module, you'll configure Application Insights and use it to study page load data for an Azure web app.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights">
+          <source>Capture and view page load times in your Azure web app with Application Insights</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights">
+          <source>Application Insights is an Azure service that you can use to  monitor the behavior and performance of a web application.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights">
+          <source>If you run  a web app in Azure, you can take advantage of several benefits provided  by Application Insights simply by enabling it, without changing any of  your code.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights">
+          <source>When you complete this module, you'll know how to enable  Application Insights and client-side monitoring and view metrics in the  portal.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights">
+          <source>In this module, you'll:</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights">
+          <source>Enable Application Insights runtime instrumentation on an Azure web app.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights">
+          <source>Learn about the Application Insights telemetry visualization features of the portal.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights">
+          <source>Create a chart to view a specific metric.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights">
+          <source>Ability to create and deploy Azure App Service web apps.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights">
+          <source>Basic knowledge of web application development.</source>
+        </trans-unit></group></body></file></xliff>

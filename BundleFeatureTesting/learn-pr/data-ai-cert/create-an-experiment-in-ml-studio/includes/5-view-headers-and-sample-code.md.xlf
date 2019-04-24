@@ -1,0 +1,51 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-view-headers-and-sample-code.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-view-headers-and-sample-code.a1b76f98a2177951494ba42da20f3cf90a1794c3.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2cc83bd4090038a5bb0ace2556f86b57a4da34e3</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\create-an-experiment-in-ml-studio\includes\5-view-headers-and-sample-code.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Clients consume your experiment's web service by using RESTful API calls.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Azure Machine Learning Studio gives you some sample header information that shows how to call the web service.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>View the request and response headers</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>API Help Page for the Default Endpoint<ept id="p1">**</ept>, select the <bpt id="p2">**</bpt>Request/Response<ept id="p2">**</ept> link.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Machine Learning Studio opens another browser tab or window to show the API documentation for this web service.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Scroll down to <bpt id="p1">**</bpt>Request Headers<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Request Body<ept id="p2">**</ept> to get an idea of how the request will be formed.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This request will be sent to the web service for evaluation.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>It's in JSON format.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Scroll down more and evaluate the <bpt id="p1">**</bpt>Response Headers<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Response Body<ept id="p2">**</ept> sample.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This section shows the format of the data that will be returned along with a sample JSON response.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Use this sample to understand how to parse the JSON code for the data you want to use in your application.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Scroll down more to find information about the input and output parameters.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>These parameters include the expected names and data types.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If you create a class to represent the returned information, you can use these parameters to create the proper data types for your member variables.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The last two returned items map a <bpt id="p1">**</bpt>Scored Label Mean<ept id="p1">**</ept> value to a <bpt id="p2">**</bpt>Scored Label Standard Deviation<ept id="p2">**</ept> value.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Evaluate the sample code</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You'll use the sample code as a reference or basis to create a client application that will consume the web service for the experiment.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Review the code to see how to create the request and consume the response in your app.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Sample Code<ept id="p1">**</ept> entry contains samples in C#, Python, and R.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To view the sample code:</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Scroll all the way to the bottom of the web service API documentation window.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Select the tab of the language you're most familiar with.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Then review the code to see what it's doing.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Notice the placeholder for the API key.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You'll need to replace the value <bpt id="p1">**</bpt>abc123<ept id="p1">**</ept> with a valid API key.</source>
+        </trans-unit></group></body></file></xliff>

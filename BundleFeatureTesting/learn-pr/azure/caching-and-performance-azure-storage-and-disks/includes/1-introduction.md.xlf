@@ -1,0 +1,35 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.600b6c47484a7ee43a1c486914fa3e4e990899e4.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">143ea04a9fd65957af569541ceca8cad43cbaf93</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\caching-and-performance-azure-storage-and-disks\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You manage your corporate database infrastructure of SQL Server VMs running in Azure.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Times are good, and you need to scale up your operation, while still controlling costs.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Some database operations involve many reads of existing data.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The regular invoice and reporting runs are write-heavy operations.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You'd like to find a way to optimize your infrastructure to handle all operation types.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Before investing in infrastructure improvements, you decide to explore VM disk caching options first.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Caching is a common approach to speeding up computing resources.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Azure supports a range of caching technologies to help optimize data access across the Azure landscape, including specific cache options for the Azure storage and disks used by Azure Virtual Machines (VMs).</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>We're going to explore the available disk caching options in Azure and learn how to manage disk caching with the portal and PowerShell.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Describe the key considerations around disk performance in Azure</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Describe the effects of caching on disk performance in Azure</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Enable and manage cache settings with the Azure portal</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Enable and manage cache settings with PowerShell</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>None</source>
+        </trans-unit></group></body></file></xliff>

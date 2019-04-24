@@ -1,0 +1,67 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-understand-job-responsibility.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-understand-job-responsibility.66c76083aa17cd5c73dfe414b6a535156b75451d.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">02efd0c00e143e2c39f17e34136b51fec83c0985</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\evolving-world-of-data\includes\4-understand-job-responsibility.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Your skills need to evolve from managing on-premises database server systems, such as SQL Server, to managing cloud-based data systems.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>If you're a SQL Server professional, over time you'll focus less on SQL Server and more on data in general.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You'll be a <bpt id="p1">*</bpt>data engineer<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>SQL Server professionals generally work only with relational database systems.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Data engineers also work with unstructured data and a wide variety of new data types, such as streaming data.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To master data engineering, you'll need to learn a new set of tools, architectures, and platforms.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>As a SQL Server professional, your primary data manipulation tool might be T-SQL.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>As a data engineer you might use additional technologies like Azure HDInsight and Cosmos DB.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To manipulate the data in big-data systems, you might use languages such as Hive or Python.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Change data processes</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>As a data engineer you'll <bpt id="p1">*</bpt>extract<ept id="p1">*</ept> raw data from a structured or unstructured data pool and migrate it to a staging data repository.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Because the data source might have a different structure than the target destination, you'll transform the data from the source schema to the destination schema.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This process is called <bpt id="p1">*</bpt>transformation<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You'll then <bpt id="p1">*</bpt>load<ept id="p1">*</ept> the transformed data into the data warehouse.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Together, these steps form a process called extract, transform, and load (ETL).</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A disadvantage of the ETL approach is that the transformation stage can take a long time.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This stage can potentially tie up source system resources.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>An alternative approach is extract, load, and transform (ELT).</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In ELT, the data is immediately extracted and loaded into a large data repository such as Azure Cosmos DB or Azure Data Lake Storage.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This change in process reduces the resource contention on source systems.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Data engineers can begin transforming the data as soon as the load is complete.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>ELT also has more architectural flexibility to support multiple transformations.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For example, how the marketing department needs to transform the data can be different than how the operations department needs to transform that same data.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Move from implementing to provisioning servers</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>SQL Server professionals typically work with versions of on-premises SQL Server to meet the data requirements of their organization.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>They install and configure servers and services to provide the infrastructure to support a solution.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This process can take days to complete.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>In high-availability environments, the process can even take weeks.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Azure reduces the complexity of building and deploying servers.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>As a data engineer, you'll use a web user interface for simple deployments.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For more complex deployments, you can create and automate powerful scripts.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>In less time than it takes you to read this module, you can set up a database that's globally distributed, sophisticated, and highly available.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You spend less time setting up services, and you focus more on security and on deriving business value from your data.</source>
+        </trans-unit></group></body></file></xliff>

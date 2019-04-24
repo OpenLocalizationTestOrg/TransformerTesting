@@ -1,0 +1,23 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.994a99910a186c0bc9272fa3c372c7e0dcd10401.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cd3c7aa4723689f45cb542f861aba7150f9b8205</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\intro-to-azure-machine-learning-service\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>One of the primary tasks a data scientist undertakes is to build predictive models from a dataset.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>These models can then be incorporated into a workstream to make cost predictions, forecast changes, or analyze event patterns to find discrepancies.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Azure Machine Learning service provides a set of SDKs and cloud services to help with the various steps of preparing data and building a model.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>With Azure Machine Learning service, you can implement key services to scale data wrangling, model training, model evaluation, deployment, and model management, which vastly improves your ability to deliver solutions.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Learn the difference between Azure Machine Learning Studio and Azure Machine Learning service</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>See how Azure Machine Learning service fits into the data science process</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Learn the concepts related to an Azure Machine Learning service experiment</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Explore the Azure Machine Learning service pipeline</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Train a model using Azure Machine Learning service</source>
+        </trans-unit></group></body></file></xliff>

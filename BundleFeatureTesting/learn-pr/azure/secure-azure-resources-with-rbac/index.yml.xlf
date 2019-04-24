@@ -1,0 +1,23 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.c0bc29265435aba6f379752ff5573fcc905d67a4.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">be86782e40c9e326320149666c413a909ff82fc0</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\secure-azure-resources-with-rbac\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.secure-azure-resources-with-rbac">
+          <source>Secure your Azure resources with role-based access control (RBAC)</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.secure-azure-resources-with-rbac">
+          <source>Role-based access control (RBAC) is a system that provides fine-grained access management of resources in Azure.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.secure-azure-resources-with-rbac">
+          <source>Using RBAC, you can segregate duties within your team and grant only the amount of access to users that they need to perform their jobs.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.secure-azure-resources-with-rbac">
+          <source>This module shows you how to use RBAC to manage access to resources in Azure.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.secure-azure-resources-with-rbac">
+          <source>Secure your Azure resources with role-based access control (RBAC)</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.secure-azure-resources-with-rbac">
+          <source>Learn how to use RBAC to manage access to resources in Azure.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.secure-azure-resources-with-rbac">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.secure-azure-resources-with-rbac">
+          <source>Verify access to resources for yourself and others</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.secure-azure-resources-with-rbac">
+          <source>Grant access to resources</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.secure-azure-resources-with-rbac">
+          <source>View activity logs of RBAC changes</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.secure-azure-resources-with-rbac">
+          <source>Knowledge of basic Azure concepts, such as the Azure portal and resource groups</source>
+        </trans-unit></group></body></file></xliff>

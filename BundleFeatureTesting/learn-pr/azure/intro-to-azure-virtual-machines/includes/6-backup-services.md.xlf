@@ -1,0 +1,87 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-backup-services.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-backup-services.354d612f4f212a9009c30522ff88efbf4afe3631.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">21bc0465030a45b1ed6fe031e414ab9c940acf11</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-azure-virtual-machines\includes\6-backup-services.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Data backup and recovery is a necessary piece of the planning for any good infrastructure.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Perhaps it's a bug that erases some data, or maybe you need to retrieve some archived data for auditing purposes.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Maintaining a good backup strategy will ensure you aren't scrambling when data or software needs to be restored.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Backup<ept id="p1">**</ept> is a <bpt id="p2">_</bpt>backup as a service<ept id="p2">_</ept> offering that protects physical or virtual machines no matter where they reside: on-premises or in the cloud.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Azure Backup can be used for a wide range of data backup scenarios, such as the following:</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Files and folders on Windows OS machines (physical or virtual, local or cloud)</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Application-aware snapshots (Volume Shadow Copy Service)</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Popular Microsoft server workloads such as Microsoft SQL Server, Microsoft SharePoint, and Microsoft Exchange</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Native support for Azure Virtual Machines, both Windows, and Linux</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Linux and Windows 10 client machines</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>An illustration showing Azure Backup Vault being used to store different workloads from an Azure virtual machine such as folders, files, exchange, sharepoint, and SQL server.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Advantages of using Azure Backup</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Traditional backup solutions don't always take full advantage of the underlying Azure platform.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The result is a solution that tends to be expensive or inefficient.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The solution either offers too much or too little storage, does not offer the correct types of storage, or has cumbersome and long-winded administrative tasks.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Azure Backup was designed to work in tandem with other Azure services and provides several distinct benefits.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Automatic storage management<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Azure Backup automatically allocates and manages backup storage and uses a pay-as-you-use model.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You only pay for what you use.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Unlimited scaling<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Azure Backup uses the power and scalability of Azure to deliver high availability.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Multiple storage options<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Azure Backup offers locally redundant storage where all copies of the data exist within the same region and geo-redundant storage where your data is replicated to a secondary region.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Unlimited data transfer<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Azure Backup does not limit the amount of inbound or outbound data you transfer.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Azure Backup also does not charge for the data that is transferred.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Data encryption<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Data encryption allows for secure transmission and storage of your data in Azure.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Application-consistent backup<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>An application-consistent backup means that a recovery point has all required data to restore the backup copy.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Azure Backup provides application-consistent backups.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Long-term retention<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Azure doesn't limit the length of time you keep the backup data.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Using Azure Backup</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Azure Backup utilizes several components that you download and deploy to each computer you want to back up.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The component that you deploy depends on what you want to protect.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Azure Backup agent</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>System Center Data Protection Manager</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Azure Backup Server</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Azure Backup VM extension</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Azure Backup uses a Recovery Services vault for storing the backup data.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A vault is backed by Azure Storage blobs, making it a very efficient and economical long-term storage medium.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>With the vault in place, you can select the machines to back up and define a backup policy (when snapshots are taken and for how long they’re stored).</source>
+        </trans-unit></group></body></file></xliff>

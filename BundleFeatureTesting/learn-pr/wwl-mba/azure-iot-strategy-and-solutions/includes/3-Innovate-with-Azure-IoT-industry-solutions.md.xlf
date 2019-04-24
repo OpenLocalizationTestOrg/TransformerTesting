@@ -1,0 +1,111 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-Innovate-with-Azure-IoT-industry-solutions.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-Innovate-with-Azure-IoT-industry-solutions.2e2833e688885b7238a2373f3302ede7c7d54b19.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">21aadd5c0662f0adcf496dcd780a94ffeedb3b76</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\wwl-mba\azure-iot-strategy-and-solutions\includes\3-Innovate-with-Azure-IoT-industry-solutions.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Insights uncovered from connected devices and backend systems can be transformed into powerful applications and services that help you improve operational and business performance.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Industries with opportunity to innovate with IoT include:</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Manufacturing</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Transportation and logistics</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Energy and natural resources</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Agriculture</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Retail</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Government</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Healthcare</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Financial services</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Smart spaces</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Azure IoT solutions applied across industries</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Azure IoT solutions tend to be horizontal and span multiple industries.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Industry experts may use different terminology to describe IoT applications, but they are generally referring to the five common scenarios listed below.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Later in the module, we will also review how these solutions can be applied with Azure IoT services.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Scenario</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Industry Example</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Remote monitoring<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Remote monitoring is the foundation for all IoT solutions.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>It helps to monitor products and systems to collect performance data and diagnose issues remotely.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Remote monitoring solutions of freight or equipment in the logistics industry help to reduce servicing costs, improve up-time, and increase user satisfaction.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Predictive maintenance<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Predictive maintenance is a power use case that is common for device manufacturers.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The solution monitors the condition of in-service equipment to predict when maintenance is performed vs. time-based systems.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>At its core, this is remote monitoring and machine learning.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The manufacturing industry utilizes predictive maintenance to monitor equipment to determine if components are performing properly or can remain in-service.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Facilities management<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Facilities management enables the ability to optimize usage, user experience, and energy consumption in any facility.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>For example, Digital Twin is a variant of IoT Hub that provides spatial intelligence capabilities for scenarios like facilities management.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The energy industry uses facilities management combined with remote monitoring to manage energy usage to reduce cost, optimize, and compare performance.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Connected manufacturing<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Connected manufacturing is the ability to manage production lines (or other commercial applications) using embedded devices and sensors.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The renewable energy industry uses real-time performance monitoring of solar panel production lines to improve efficiency through preventative maintenance and failure prediction for controlled shutdowns.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This solution is the combination of remote monitoring and predictive maintenance, but with support from industrial equipment to work together securely.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Fleet management<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Fleet management is the ability to monitor a fleet of vehicles with connect sensors, such as planes, trains, trucks, cars, forklifts, etc.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The transportation industry uses real-time visibility to track location and speed of vehicles, resulting in fewer insurance claims and lower fuel costs.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>They enable IoT assets such as “connected” or “smart vehicle solutions” for tracking.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>How Azure IoT works for preventative maintenance and analytics</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>With preventative maintenance and analytics through IoT, you can adjust processes and systems to trigger actions that can be prevented.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In addition, you can translate insights from the data your organization collects on manufacturing equipment to identify operational changes.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Icon indicating play video</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Watch this video to see how Rolls-Royce has made use of Azure IoT solutions.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Through a greater understanding of maintenance planning, Rolls-Royce’s airline customers were able to reduce flight disruptions while saving millions of dollars per year.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>How Azure IoT works for transportation and smart cities</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The Alaska Department of Transportation uses Azure IoT technologies to make informed decisions about deploying road crews that address challenges and better meet citizen expectations.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Icon indicating play video</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Watch this video to see how Alaska Department of Transportation has made use of Azure IoT solutions.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>With Azure IoT solutions, including Azure IoT Edge and Azure IoT Hub, the Alaska Department of Transportation found a scalable IoT solution to fight winter storms.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Azure IoT is not only a transformative tool for driving business outcomes, it is a catalyst for greater change within an organization.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>When you connect equipment, machines, and tools, you can draw insights for innovation and opportunities.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Icon of lightbulb</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Take another look at the variety of business outcomes supported by Azure IoT. Which ones are relevant to your industry and your organization? Are there solutions from other industries that you can also leverage?<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Now that you’ve seen examples of IoT being applied to some industries, let’s take a look at IoT solutions.</source>
+        </trans-unit></group></body></file></xliff>

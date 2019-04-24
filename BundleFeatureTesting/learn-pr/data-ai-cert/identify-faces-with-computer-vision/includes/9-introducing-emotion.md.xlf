@@ -1,0 +1,33 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="9-introducing-emotion.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9-introducing-emotion.1f52dbee41ce4c7326e23c909334c13ee6d79e2f.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6a6eba0065b92c416c29b33138bed28174a63538</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\identify-faces-with-computer-vision\includes\9-introducing-emotion.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>While working with your Face API service, you might notice that it can return general emotion values through the <bpt id="p1">**</bpt>Detect method emotion<ept id="p1">**</ept> attribute.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You probably also notice that the returned information is sparse and typically only registers a level of happiness.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The Cognitive Services Emotion API builds on these results by using additional methods and algorithms to detect a rich set of emotions in images of human faces.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Two people's faces express emotion</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The Emotion API provides advanced face analysis algorithms to assign a confidence level for the following emotions: anger, contempt, disgust, fear, happiness, neutral (the absence of emotion), sadness, and surprise.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Scores and locations</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>As in the Face API, the Emotion API associates detected faces with face <bpt id="p1">*</bpt>locations<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>But the Emotion API adds a collection of values to the payload describing the likelihood of various emotions.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The analysis is based on a variation of confidence levels, referred to as <bpt id="p1">*</bpt>scores<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Score<ept id="p1">**</ept>: The likelihood or level of confidence that a face displays a specific emotion</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Location<ept id="p1">**</ept>: The top, left, height, and width of a region in the image that displays a face</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A group of faces are analyzed by the Emotion API.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>JSON code shows the scores and locations of the faces</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Scores, just like confidence levels, are similar to percentages.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Their range is 0.0 to 1.0.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The higher the value, the more certain the service is that the emotion is accurate.</source>
+        </trans-unit></group></body></file></xliff>

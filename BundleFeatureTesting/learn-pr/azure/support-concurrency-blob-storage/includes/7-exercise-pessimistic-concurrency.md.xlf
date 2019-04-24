@@ -1,0 +1,51 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-exercise-pessimistic-concurrency.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-exercise-pessimistic-concurrency.d90c09b7b5fd5b42e50fa75f5d14104bbbb51c05.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">853e94d5bccddb106bd58beddc6744017dc1a69f</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\support-concurrency-blob-storage\includes\7-exercise-pessimistic-concurrency.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Now that you have seen optimistic concurrency, you decide to implement a pessimistic approach to concurrency.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You'll use a lease to lock the Azure blob storage while the reporter writes their story.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In this exercise you'll:</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Change the <ph id="ph1">`SimulateReporter`</ph> method to use a lease</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Test the updated app</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Add pessimistic concurrency to the existing code</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Open the Program.cs file.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Change the code in the <ph id="ph1">`SimulateReporter`</ph> method from using ETags to using a lease.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Delete these lines:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>and replace them with these:</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This code modifies the simulated news editor app to acquire a lease on the blob before the reporter starts writing their story.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The first reporter to perform this action will successfully acquire the lease.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Other users who attempt to acquire a lease while it is already held will fail.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Change the <ph id="ph1">`accessCondition`</ph> for the <ph id="ph2">`UploadTextAsync`</ph> method to use the lease.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Remove this line:</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>and replace it with this line:</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Unlike the AccessCondition used to enforce optimistic concurrency, a lease condition with the correct lease ID is <bpt id="p1">*</bpt>required<ept id="p1">*</ept> for the operation to complete successfully.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Any application attempting to modify a leased blob must prove that it "owns" the lease by providing the lease ID with all operations.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Save your changes with CTRL+S.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Test the changes</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In the Cloud Shell, build and run the app with these commands.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The results are:</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This time, Reporter B is unable to acquire a lease on the blob, and the news editor application prevents him from continuing.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If you have been unable to complete this unit, you can find a fully working version in the PessimisticNewsEditor directory.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>After adding your Azure blob storage connection string, you run the app with <ph id="ph1">`dotnet run`</ph>.</source>
+        </trans-unit></group></body></file></xliff>

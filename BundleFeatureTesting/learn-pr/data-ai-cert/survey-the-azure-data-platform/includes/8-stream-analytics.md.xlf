@@ -1,0 +1,101 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="8-stream-analytics.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8-stream-analytics.b57e95cd4b6067a74d4a8a84c87b9f507c2f8319.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5e801ede834c356b34b4f5568a530794d4d974ac</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\survey-the-azure-data-platform\includes\8-stream-analytics.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Applications, sensors, monitoring devices, and gateways broadcast continuous event data known as <bpt id="p1">*</bpt>data streams<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Streaming data is high volume and has a lighter payload than nonstreaming systems.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Data engineers use Azure Stream Analytics to process streaming data and respond to data anomalies in real time.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can use Stream Analytics for Internet of Things (IoT) monitoring, web logs, remote patient monitoring, and point of sale (POS) systems.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Diagram showing how to apply Stream Analytics in a system</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When to use Stream Analytics</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If your organization must respond to data events in real time or analyze large batches of data in a continuous time-bound stream, Stream Analytics is a good solution.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Your organization must decide whether to work with streaming data or batch data.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In real time, Stream Analytics ingests streaming data from applications or IoT devices and gateways into an event hub or IoT hub.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The event hub or IoT hub then streams the data into Stream Analytics for real-time analysis.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Batch systems process groups of data that are stored in an Azure Blob store.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>They do this in a single job that runs at a predefined interval.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Don't use batch systems for business intelligence systems that can't tolerate the predefined interval.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For example, an autonomous vehicle can't wait for a batch system to adjust its driving.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Similarly, a fraud-detection system must decline a questionable financial transaction in real time.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Data ingestion</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>As a data engineer, set up data ingestion in Stream Analytics by configuring data inputs from first-class integration sources.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>These sources include Azure Event Hubs, Azure IoT Hub, and Azure Blob storage.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>An IoT hub is the cloud gateway that connects IoT devices.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>IoT hubs gather data to drive business insights and automation.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Features in Azure IoT Hub enrich the relationship between your devices and your back-end systems.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Bidirectional communication capabilities mean that while you receive data from devices, you can also send commands and policies back to devices.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Take advantage of this ability, for example, to update properties or invoke device management actions.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Azure IoT Hub can also authenticate access between the IoT device and the IoT hub.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Azure Event Hubs provides big-data streaming services.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>It's designed for high data throughput, allowing customers to send billions of requests per day.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Event Hubs uses a partitioned consumer model to scale out your data stream.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This service is integrated into the big-data and analytics services of Azure.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>These include Databricks, Stream Analytics, Azure Data Lake Storage, and HDInsight.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Event Hubs provides authentication through a shared key.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You can use Azure Storage to store data before you process it in batches.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Table comparing streaming IoT capabilities</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Data processing</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To process streaming data, set up Stream Analytics jobs with input and output pipelines.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Inputs are provided by Event Hubs, IoT Hubs, or Azure Storage.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Stream Analytics can route job output to many storage systems.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>These systems include Azure Blob, Azure SQL Database, Azure Data Lake Storage, and Azure Cosmos DB.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>After storing the data, run batch analytics in Azure HDInsight.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Or send the output to a service like Event Hubs for consumption.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Or use the Power BI streaming API to send the output to Power BI for real-time visualization.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Queries</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To define job transformations, use a simple, declarative Stream Analytics query language.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The language should let you use simple SQL constructs to write complex temporal queries and analytics.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The Stream Analytics query language is consistent with the SQL language.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If you're familiar with the SQL language, you can start creating jobs.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Data security</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Stream Analytics handles security at the transport layer between the device and Azure IoT Hub.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Streaming data is generally discarded after the windowing operations finish.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Event Hubs uses a shared key to secure the data transfer.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If you want to store the data, your storage device will provide security.</source>
+        </trans-unit></group></body></file></xliff>

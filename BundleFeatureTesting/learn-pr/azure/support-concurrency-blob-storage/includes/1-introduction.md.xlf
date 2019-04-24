@@ -1,0 +1,37 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.c4b3370b3d60c546a0c2de435a92b0a9cfc4711f.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c431da3616180d78d43f0dc5a5596a8f22afdb37</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\support-concurrency-blob-storage\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Concurrency strategies in Azure Blob storage allow you to avoid conflicts when multiple users are viewing and updating content simultaneously.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You're a developer for an online financial news organization.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The company uses Blob storage to store content prior to publication.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The newsroom is a chaotic place and factors affecting the market change quickly throughout the day, frequently resulting in multiple reporters trying to edit content at the same time.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The online copywriting and editing application used by your company's reporters needs to provide a good experience in these situations, making sure that reporters can't save their changes to the cloud without being aware of changes that others have made at the same time.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>There are three main concurrency strategies to consider:</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>optimistic concurrency</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>pessimistic concurrency</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>last writer wins</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>By the end of this module you'll understand how to write code to handle concurrency issues when writing and reading from Blob storage.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Identify issues associated with concurrency in multi-user applications</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Identify the three concurrency strategies used for data in Blob storage along with their tradeoffs</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Implement optimistic concurrency with blobs using ETags</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Implement pessimistic concurrency with blobs using leases</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Experience editing C# .NET code at a beginner level</source>
+        </trans-unit></group></body></file></xliff>

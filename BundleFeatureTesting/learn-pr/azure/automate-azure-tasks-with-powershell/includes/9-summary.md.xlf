@@ -1,0 +1,17 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="9-summary.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9-summary.f0557419052b7136f92aec32678ea9bc527a2979.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">53da2e3afa80faecb7fe7b299a2825f55200527e</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\automate-azure-tasks-with-powershell\includes\9-summary.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this module, we wrote a script to automate the creation of multiple VMs.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Even though the script was relatively short, you can see the potential power when you combine loops, variables, and functions from PowerShell with cmdlets from Azure PowerShell.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Azure PowerShell is a good automation choice for admins with PowerShell experience.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The combination of clean syntax and a powerful scripting language also makes it worth considering even if you are new to PowerShell.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This level of automation for time-consuming and error-prone tasks should help you reduce administrative time and increase quality.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When you are running in your own subscription, you can use the following PowerShell cmdlet to delete the resource group (and all related resources).</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When you are asked to confirm the delete, answer <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>, or you can add the <ph id="ph1">`-Force`</ph> parameter to skip the prompt.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The command may take several minutes to complete.</source>
+        </trans-unit></group></body></file></xliff>

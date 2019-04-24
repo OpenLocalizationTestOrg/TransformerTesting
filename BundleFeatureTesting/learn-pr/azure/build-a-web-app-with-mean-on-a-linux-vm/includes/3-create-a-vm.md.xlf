@@ -1,0 +1,55 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-create-a-vm.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-create-a-vm.4009efea2042c7c219ebeeb3a0e1e2684e9f70c7.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d0c22eca5453ccac3e412d6e1bfb49d185ce30cc</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\build-a-web-app-with-mean-on-a-linux-vm\includes\3-create-a-vm.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Like most application frameworks, you can run your MEAN stack application in many different environments.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You can run your application on a physical computer in your server room, on a virtual machine, or in containers.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Here you'll run your application on a VM running on Azure.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>MEAN supports many different operating systems.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For learning purposes, here you'll use Ubuntu Linux.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Create an Ubuntu Linux VM</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Normally, you create a <bpt id="p1">_</bpt>resource group<ept id="p1">_</ept> before you create other resources on Azure.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>A resource group is a container that holds the resources that are related for an Azure solution.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For this exercise, the Azure sandbox provides a resource group for you.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>However, when you are working in your own Azure subscription, you would use the following command to create a resource group in a location near you.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>From Cloud Shell, run the <ph id="ph1">`az vm create`</ph> command to create an Ubuntu VM.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The command takes about two minutes to complete.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>When the command finishes, you'll see output similar to this.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The VM's name is "MeanStack".</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You'll use this name in future commands to identify the VM you want to work with.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Open port 80 on the VM to allow incoming HTTP traffic to the web application you'll later create.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Create an SSH connection to your VM.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Although the output from the <ph id="ph1">`az vm create`</ph> command displays your VM's public IP address, you may find it useful to store the address in a Bash variable.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Start by running <ph id="ph1">`az vm show`</ph>.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This command saves the IP address in a Bash variable named <ph id="ph1">`ipaddress`</ph>.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Connect to your VM like this.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>When prompted, answer "yes" to save the VM's identity locally so future connections are trusted.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Keep your SSH connection open.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You'll use it to configure software in the next parts.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>With your Ubuntu VM ready to go, you're ready to install each component of the MEAN stack.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You'll start by installing MongoDB.</source>
+        </trans-unit></group></body></file></xliff>

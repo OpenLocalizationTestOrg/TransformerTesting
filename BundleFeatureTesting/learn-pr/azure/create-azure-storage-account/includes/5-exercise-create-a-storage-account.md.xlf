@@ -1,0 +1,179 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-exercise-create-a-storage-account.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-exercise-create-a-storage-account.2601578abd60c97ee2da6270b7814f419fe9ef09.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">032d534892a82c591e775102c8fd12c8554c9016</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-azure-storage-account\includes\5-exercise-create-a-storage-account.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll use the Azure portal to create a storage account that is appropriate for a fictitious southern California surf report web app.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The surf report site lets users upload photos and videos of local beach conditions.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Viewers will use the content to help them choose the beach with the best surfing conditions.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Your list of design and feature goals is:</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Video content must load quickly.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The site must handle unexpected spikes in upload volume.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Outdated content must be removed as surf conditions change so the site always shows current conditions.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To fulfill these requirements, you decide to buffer uploaded content in an Azure Queue for processing and then transfer it to an Azure Blob for persistent storage.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You need a storage account that can hold both queues and blobs while delivering low-latency access to your content.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Use the Azure portal to create a storage account</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Sign into the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept> using the same account you activated the sandbox with.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In the top left of the Azure portal, select <bpt id="p1">**</bpt>Create a resource<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In the selection panel that appears, select <bpt id="p1">**</bpt>Storage<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>On the right side of that pane, select <bpt id="p1">**</bpt>Storage account<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Azure portal showing the Create a resource pane with the Storage category and Storage account option highlighted.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Configure the basic options</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>PROJECT DETAILS<ept id="p1">**</ept>:</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Select the appropriate <bpt id="p1">**</bpt>Subscription<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Select the existing Resource Group ("<bpt id="p1">**</bpt><bpt id="p2">&lt;rgn&gt;</bpt>[sandbox resource group name]<ept id="p2">&lt;/rgn&gt;</ept><ept id="p1">**</ept>") from the drop-down list.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This free Resource Group has been provided by Microsoft as part of the learning experience.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>When you create an account for a real application, you'll want to create a new Resource Group in your subscription to hold all the resources for the app.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>INSTANCE DETAILS<ept id="p1">**</ept>:</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Enter a <bpt id="p1">**</bpt>Storage account name<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The name will be used to generate the public URL used to access the data in the account.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The name must be unique across all existing storage account names in Azure.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Names must be 3 to 24 characters long and can contain only lowercase letters and numbers.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Select a <bpt id="p1">**</bpt>Location<ept id="p1">**</ept> near to you from the list above.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">_</bpt>Standard<ept id="p1">_</ept> for the <bpt id="p2">**</bpt>Performance<ept id="p2">**</ept> option.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This decides the type of disk storage used to hold the data in the Storage account.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Standard uses traditional hard disks, and Premium uses solid-state drives (SSD) for faster access.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>However, remember that Premium only supports <bpt id="p1">_</bpt>page blobs<ept id="p1">_</ept>.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You'll need <bpt id="p1">_</bpt>block blobs<ept id="p1">_</ept> for your videos, and a queue for buffering - both of which are only available with the <bpt id="p2">_</bpt>Standard<ept id="p2">_</ept> option.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">_</bpt>StorageV2 (general purpose v2)<ept id="p1">_</ept> for the <bpt id="p2">**</bpt>Account kind<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This provides access to the latest features and pricing.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>In particular, Blob storage accounts have more options available with this account type.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You need a mix of blobs and a queue, so the <bpt id="p1">_</bpt>Blob storage<ept id="p1">_</ept> option will not work.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>For this application, there would be no benefit to choosing a <bpt id="p1">_</bpt>Storage (general purpose v1)<ept id="p1">_</ept> account, since that would limit the features you could access and would be unlikely to reduce the cost of your expected workload.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">_</bpt>Locally-redundant storage (LRS)<ept id="p1">_</ept> for the <bpt id="p2">**</bpt>Replication<ept id="p2">**</ept> option.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Data in Azure storage accounts are always replicated to ensure high availability - this option lets you choose how far away the replication occurs to match your durability requirements.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>In our case, the images and videos quickly become out-of-date and are removed from the site.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>As a result, there is little value to paying extra for global redundancy.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If a catastrophic event results in data loss, you can restart the site with fresh content from your users.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Set the <bpt id="p1">**</bpt>Access tier<ept id="p1">**</ept> to <bpt id="p2">_</bpt>Hot<ept id="p2">_</ept>.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This setting is only used for Blob storage.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Hot Access Tier<ept id="p1">**</ept> is ideal for frequently accessed data, and the <bpt id="p2">**</bpt>Cool Access Tier<ept id="p2">**</ept> is better for infrequently accessed data.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Note that this only sets the <bpt id="p1">_</bpt>default<ept id="p1">_</ept> value - when you create a Blob, you can set a different value for the data.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>In our case, we want the videos to load quickly, so you'll use the high-performance option for your blobs.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The following screenshot shows the completed settings for the <bpt id="p1">**</bpt>Basics<ept id="p1">**</ept> tab. Note that the resource group, subscription, and name will have different values.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Screenshot of a Create a storage account pane with the **Basics** tab selected.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Configure the advanced options</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Next: Advanced &gt;<ept id="p1">**</ept> button to move to the <bpt id="p2">**</bpt>Advanced<ept id="p2">**</ept> tab, or select the <bpt id="p3">**</bpt>Advanced<ept id="p3">**</ept> tab at the top of the screen.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Set <bpt id="p1">**</bpt>Secure transfer required<ept id="p1">**</ept> to <bpt id="p2">_</bpt>Enabled<ept id="p2">_</ept>.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Secure transfer required<ept id="p1">**</ept> setting controls whether <bpt id="p2">**</bpt>HTTP<ept id="p2">**</ept> can be used for the REST APIs used to access data in the Storage account.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Setting this option to <bpt id="p1">_</bpt>Enabled<ept id="p1">_</ept> will force all clients to use SSL (<bpt id="p2">**</bpt>HTTPS<ept id="p2">**</ept>).</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Most of the time you'll want to set this to <bpt id="p1">_</bpt>Enabled<ept id="p1">_</ept> as using HTTPS over the network is considered a best practice.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If this option is enabled, it will enforce some additional restrictions.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Azure files service connections without encryption will fail, including scenarios using SMB 2.1 or 3.0 on Linux.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Because Azure storage doesn’t support SSL for custom domain names, this option cannot be used with a custom domain name.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Set the <bpt id="p1">**</bpt>Virtual networks<ept id="p1">**</ept> option to <bpt id="p2">_</bpt>All networks<ept id="p2">_</ept>.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>This option allows you to isolate the storage account on an Azure virtual network.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>We want to use public Internet access.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Our content is public facing and you need to allow access from public clients.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Leave the <bpt id="p1">**</bpt>Data Lake Storage Gen2<ept id="p1">**</ept> option as <bpt id="p2">_</bpt>Disabled<ept id="p2">_</ept>.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>This is for big-data applications that aren't relevant to this module.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The following screenshot shows the completed settings for the <bpt id="p1">**</bpt>Advanced<ept id="p1">**</ept> tab.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Screenshot of a Create a storage account pane with the **Advanced** tab selected.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Create</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You can explore the <bpt id="p1">**</bpt>Tags<ept id="p1">**</ept> settings if you like.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This lets you associate key/value pairs to the account for your categorization and is a feature available to any Azure resource.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Review + create<ept id="p1">**</ept> to review the settings.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This will do a quick validation of your options to make sure all the required fields are selected.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If there are issues, they'll be reported here.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Once you've reviewed the settings, click <bpt id="p1">**</bpt>Create<ept id="p1">**</ept> to provision the storage account.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>It will take a few minutes to deploy the account.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>While Azure is working on that, let's explore the APIs we'll use with this account.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Verify</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Storage accounts<ept id="p1">**</ept> link in the left sidebar.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Locate the new storage account in the list to verify that creation succeeded.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>When you're working in your own subscription, you can use the following steps in the Azure portal to delete the resource group and all associated resources.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Resource groups<ept id="p1">**</ept> link in the left sidebar.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Locate the resource group you created in the list.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Right-click on the resource group entry and select <bpt id="p1">**</bpt>Delete resource group<ept id="p1">**</ept> from the context menu.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>You can also click the "..." menu element on the right side of the entry to get to the same context menu.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Type the resource group name into the confirmation field.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Delete<ept id="p1">**</ept> button.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>This may take several minutes.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>You created a storage account with settings driven by your business requirements.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>For example, you might have selected a West US datacenter because your customers were primarily located in southern California.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>This is a typical flow: first analyze your data and goals, and then configure the storage account options to match.</source>
+        </trans-unit></group></body></file></xliff>

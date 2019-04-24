@@ -1,0 +1,137 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-virtual-machines.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-virtual-machines.95572a29b737ff5a86efad2012ef86888ef0ae85.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a2196ab855244b4d2363c80dc5de8c5bfe0e84f3</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-azure-compute\includes\3-virtual-machines.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Image representing Azure virtual machines</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Azure Virtual Machines (VMs) let you create and use virtual machines in the cloud.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>They provide infrastructure as a service (IaaS) in the form of a virtualized server and can be used in many ways.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Just like a physical computer, you can customize all of the software running on the VM.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>VMs are an ideal choice when you need:</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Total control over the operating system (OS)</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The ability to run custom software, or</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To use custom hosting configurations</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can create and provision a VM in minutes when you select a pre-configured VM image.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Selecting an image is one of the most important decisions you'll make when creating a VM.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>An image is a template used to create a VM.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>These templates already include an OS and often other software, like development tools or web hosting environments.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Moving to the cloud with VMs</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>VMs are also an excellent choice when moving from a physical server to the cloud ("lift and shift").</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can create an image of the physical server and host it within a VM with little or no changes.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Just like a physical on-premises server, you must maintain the VM.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Update the OS and the software it runs.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Scaling VMs in Azure</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can run single VMs for testing, development, or minor tasks, or group VMs together to provide high availability, scalability, and redundancy.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Azure has several features so that no matter what your uptime requirements are, Azure can meet them.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>These features include:</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Availability sets</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Virtual Machine Scale Sets</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Azure Batch</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>What are availability sets?</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">**</bpt>availability set<ept id="p1">**</ept> is a logical grouping of two or more VMs that help keep your application available during planned or unplanned maintenance.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">_</bpt>planned maintenance event<ept id="p1">_</ept> is when the underlying Azure fabric that hosts VMs is updated by Microsoft.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A planned maintenance event is done to patch security vulnerabilities, improve performance, and add or update features.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Most of the time these updates are done without any impact to the guest VMs.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>But sometimes VMs require a reboot to complete an update.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When the VM is part of an availability set, the Azure fabric updates are sequenced so not all of the associated VMs are rebooted at the same time.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>VMs are put into different <bpt id="p1">_</bpt>update domains<ept id="p1">_</ept>.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Update domains indicate groups of VMs and underlying physical hardware that can be rebooted at the same time.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Update domains are a logical part of each data center and are implemented with software and logic.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Unplanned maintenance events<ept id="p1">_</ept> involve a hardware failure in the data center, such as a power outage or disk failure.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>VMs that are part of an availability set automatically switch to a working physical server so the VM continues to run.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The group of virtual machines that share common hardware are in the same <bpt id="p1">_</bpt>fault domain<ept id="p1">_</ept>.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A fault domain is essentially a rack of servers.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>It provides the physical separation of your workload across different power, cooling, and network hardware that support the physical servers in the data center server racks.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>In the event the hardware that supports a server rack becomes unavailable, only that rack of servers is affected by the outage.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>With an availability set, you get:</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Up to three fault domains that each have a server rack with dedicated power and network resources</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Five logical update domains</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Your VMs are then sequentially placed across the fault and update domains.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The following diagram shows an example where you have six VMs in an availability set distributed across the two fault domains and five update domains.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Diagram that shows availability sets update and fault domains that are duplicated across servers</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>There's no cost for an availability set.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>You only pay for the VMs within the availability set.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>We highly recommend that you place each workload in an availability set to avoid a single point of failure in your VM architecture.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>What are virtual machine scale sets?</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Azure Virtual Machine Scale Sets let you create and manage a group of identical, load balanced VMs.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Imagine you're running a website that enables scientists to upload astronomy images that need to be processed.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If you duplicated the VM, you'd normally need to configure an additional service to route requests between multiple instances of the website.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>VM Scale Sets could do that work for you.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Scale sets allow you to centrally manage, configure, and update a large number of VMs in minutes to provide highly available applications.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The number of VM instances can automatically increase or decrease in response to demand or a defined schedule.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>With VM Scale Sets, you can build large-scale services for areas such as compute, big data, and container workloads.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>What is Azure Batch?</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Azure Batch enables large-scale job scheduling and compute management with the ability to scale to tens, hundreds, or thousands of VMs.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>When you're ready to run a job, Batch:</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Starts a pool of compute VMs for you</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Installs applications and staging data</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Runs jobs with as many tasks as you have</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Identifies failures</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Requeues work</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Scales down the pool as work completes</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>There may be situations in which you need raw computing power or supercomputer level compute power.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Azure provides these capabilities.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,123 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-write-transformation-query.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-write-transformation-query.b046ba0115ba10552fe87194093b106dc8c06119.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d66c02af02cf4612685e6be2fae8b5b604945bd9</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\transform-data-with-azure-stream-analytics\includes\6-write-transformation-query.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>An Azure Stream Analytics query transforms an input data stream and produces an output.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Queries are written in a language like SQL that's a subset of the Transact-SQL (T-SQL) language.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In this exercise, we'll transform the input data in a simple way to demonstrate the transformation-query capabilities that Stream Analytics exposes.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This exercise is optional.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If you don't have an Azure account or prefer not to do the exercise in your account, just read through the instructions so you understand how to set up an input file and change the transformation query in a Stream Analytics job.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Let's imagine you need to pull elements out of some census data.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In this case, you want the coordinates of each city in the census data.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You'll use a simple JSON file as your input.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Run a transformation query to pull coordinates out of the data, and then write the results to a new file in your Blob storage.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Create the sample input file</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Start by creating a simple input file named <bpt id="p1">**</bpt>input.json<ept id="p1">**</ept> on your local computer.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The file has these contents:</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Upload the input file</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Next, upload the JSON file to a Blob storage container:</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Open the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com?azure-portal=true)</ept>.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Go to your source Blob storage account (<bpt id="p1">**</bpt>streamsrc<ept id="p1">**</ept>).</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To find resources by name, use the Search field at the top of the Azure portal.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To find related resources, use your resource group.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>streamsource<ept id="p1">**</ept> Blob storage account you created earlier.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Blob service<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Blobs<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Screenshot showing how to set up an input Blob container</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>learn-container<ept id="p1">**</ept> container you created.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>It should be empty.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Upload<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Next to the Files input, select the folder icon, and then select the JSON file.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Expand the <bpt id="p1">**</bpt>Advanced<ept id="p1">**</ept> options if they're not expanded already.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Upload to folder<ept id="p1">**</ept> field, enter <bpt id="p2">**</bpt>input/[YYYY-MM-DD]<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Here, <bpt id="p1">_</bpt>YYYY-MM-DD<ept id="p1">_</ept> is the current date.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Leave the default values in the other fields.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Upload<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Screenshot showing how to upload the JSON file</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>After the file is uploaded, you should see the <bpt id="p1">**</bpt>input<ept id="p1">**</ept> folder in the container.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Select it to explore the blob hierarchy and see the data.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Set up the output Blob storage container</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Next, set up the destination for the transformed data:</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Go to your destination Blob storage account (<bpt id="p1">**</bpt>streamsink<ept id="p1">**</ept>).</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>From the choices on the overview page, select <bpt id="p1">**</bpt>Storage Explorer (preview)<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Screenshot of Storage Explorer in Azure portal</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>On the right, go to <bpt id="p1">**</bpt>BLOB CONTAINERS<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Select the container you created.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>From the menu above the container details, select <bpt id="p1">**</bpt>New Folder<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If you don't see this option, open the <bpt id="p1">**</bpt>More<ept id="p1">**</ept> list to find it.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For the folder name, type <bpt id="p1">**</bpt>output<ept id="p1">**</ept>, and then select <bpt id="p2">**</bpt>Create<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Here you're creating a placeholder.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Azure won't show the folder until you add a file to it.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Write the transformation query</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Now you're ready to write your transformation query.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>You'll need to pull the coordinates from the input data and write them to the output.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>You'll do that by using a <ph id="ph1">`SELECT`</ph> statement.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Find the query options online or by using the link in this module's summary.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Use the search field to find your Stream Analytics job in the Azure portal.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Its name is <bpt id="p1">**</bpt>SimpleTransfomer<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Job topology<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Query<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Query<ept id="p1">**</ept> pane, add this query:</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Screenshot showing how to write a query</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Test the query</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Before you run a job, it's a good idea to test the query to make sure it does what you want.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>In the Azure portal, go to your Stream Analytics job.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Job topology<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Query<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Test<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>To start the test, just upload sample data for the query.</source>
+        </trans-unit></group></body></file></xliff>

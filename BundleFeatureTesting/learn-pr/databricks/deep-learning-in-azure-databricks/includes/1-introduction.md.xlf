@@ -1,0 +1,27 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.e119e110c3462b6f55d16447687ca62ca6308a18.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fba700a4f3fd77852c21f09c093ed54b22bcaf9a</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\databricks\deep-learning-in-azure-databricks\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Deep learning is a subset of machine learning that uses algorithms based on the structure and functions of the human brain.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>These algorithms are called artificial neural networks, and they learn from large amounts of data.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Artificial neural networks include several deep layers that enable them to solve problems that require human-like thought processes.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Deep-learning techniques have the following advantages:</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Accuracy:<ept id="p1">**</ept> Deep neural networks produce highly accurate results in some of the most complex situations, such as image classification.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Scalability:<ept id="p1">**</ept> Deep-learning methods work efficiently on large volumes of data and are scalable based on the dataset.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Robustness:<ept id="p1">**</ept> Artificial neural networks can work directly on a raw dataset without requiring any cleanup or engineering.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Adaptability:<ept id="p1">**</ept> Pretrained deep neural networks can be easily transferred and used with varied domains.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In this module, you'll:</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Identify how artificial neural networks work and learn about the use cases for deep-learning algorithms.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Train and evaluate a classifier built by using TensorFlow.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Create an image classifier by using deep learning.</source>
+        </trans-unit></group></body></file></xliff>

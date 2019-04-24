@@ -1,0 +1,37 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-maximize-efficiency-of-cloud-spend.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-maximize-efficiency-of-cloud-spend.d74303938eca5ee4d728b5518f7506d5aea77a7d.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c572cefaffbcea1799897fa60f4b8cfd06bcedd3</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\design-for-efficiency-and-operations-in-azure\2-maximize-efficiency-of-cloud-spend.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.design-for-efficiency-and-operations.2-maximize-efficiency-of-cloud-spend">
+          <source>Maximize efficiency of cloud spend</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.design-for-efficiency-and-operations.2-maximize-efficiency-of-cloud-spend">
+          <source>Maximize efficiency of cloud spend</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.design-for-efficiency-and-operations.2-maximize-efficiency-of-cloud-spend">
+          <source>In this unit, we'll discuss how to maximize the efficiency of your cloud expenditures</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.design-for-efficiency-and-operations.2-maximize-efficiency-of-cloud-spend">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.design-for-efficiency-and-operations.2-maximize-efficiency-of-cloud-spend">
+          <source>Which of the following is the best candidate for a reserved instance?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.design-for-efficiency-and-operations.2-maximize-efficiency-of-cloud-spend">
+          <source>A web application deployed on Azure App Service.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.design-for-efficiency-and-operations.2-maximize-efficiency-of-cloud-spend">
+          <source>Azure App Service is a PaaS service, reserved instances are a feature for select compute services.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.design-for-efficiency-and-operations.2-maximize-efficiency-of-cloud-spend">
+          <source>A non-production virtual machine that is automatically shut down in off-hours when not in use.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.design-for-efficiency-and-operations.2-maximize-efficiency-of-cloud-spend">
+          <source>Since this virtual machine will not be running the majority of the time it will not fully utilize the instance reservation, and is not a good candidate for a reserved instance.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.design-for-efficiency-and-operations.2-maximize-efficiency-of-cloud-spend">
+          <source>An ExpressRoute circuit.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.design-for-efficiency-and-operations.2-maximize-efficiency-of-cloud-spend">
+          <source>ExpressRoute is a network service, reserved instances are a feature for select compute services.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.design-for-efficiency-and-operations.2-maximize-efficiency-of-cloud-spend">
+          <source>A database server for an HR system for a global business.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.design-for-efficiency-and-operations.2-maximize-efficiency-of-cloud-spend">
+          <source>Because of the criticality and global nature of this system, it is likely that it would be running the majority of the time, making it a great candidate for a reserved instance.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.design-for-efficiency-and-operations.2-maximize-efficiency-of-cloud-spend">
+          <source>When do compute costs associated with a VM stop accruing?</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.design-for-efficiency-and-operations.2-maximize-efficiency-of-cloud-spend">
+          <source>When you shut down the virtual machine from inside the OS.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.design-for-efficiency-and-operations.2-maximize-efficiency-of-cloud-spend">
+          <source>If you shut down the OS of the virtual machine, it is still allocated on the Azure platform and will continue to accrue compute costs.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.design-for-efficiency-and-operations.2-maximize-efficiency-of-cloud-spend">
+          <source>When you click the Stop button in the Azure portal.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.design-for-efficiency-and-operations.2-maximize-efficiency-of-cloud-spend">
+          <source>Clicking the Stop button will deallocate the virtual machine from the Azure platform and it will no longer accrue compute costs.</source>
+        </trans-unit></group></body></file></xliff>

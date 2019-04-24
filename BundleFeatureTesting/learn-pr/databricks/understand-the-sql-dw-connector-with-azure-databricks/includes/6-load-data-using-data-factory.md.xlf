@@ -1,0 +1,235 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-load-data-using-data-factory.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-load-data-using-data-factory.e30256c980e3df0ea0b10a46c6b4051ae1628c7a.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4283336b5af98bdff9707293355f148e0cbeb81e</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\databricks\understand-the-sql-dw-connector-with-azure-databricks\includes\6-load-data-using-data-factory.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll learn how to use Azure Data Factory to load data into SQL Data Warehouse.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure Data Factory<ept id="p1">](https://docs.microsoft.com/azure/data-factory/introduction)</ept> is a cloud-based data integration service.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>It lets you create data-driven workflows in the cloud for orchestrating and automating data movement and data transformation.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Data Factory supports various data stores.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For this exercise, we'll use Azure SQL Database as a data source.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The steps in this unit show you how to load data from a table in Azure SQL Database to a table in SQL Data Warehouse.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Access the data warehouse</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Sign in to the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/)</ept>.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Locate the SQL Data Warehouse instance that you created earlier and select it to open it.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>SQL Data Warehouse instance</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Open Data Factory</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In the menu on the left side of the data warehouse, select <bpt id="p1">**</bpt>Load Data<ept id="p1">**</ept> under <bpt id="p2">**</bpt>Common Tasks<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Select Load Data</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Load Data<ept id="p1">**</ept> blade, select <bpt id="p2">**</bpt>Azure Data Factory<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Select Azure Data Factory</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Create a data factory</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Select Data Factory<ept id="p1">**</ept> page, select the <bpt id="p2">**</bpt>Create new data factory<ept id="p2">**</ept> link to create a new instance.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Select Create new data factory</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>New Data Factory<ept id="p1">**</ept> window, enter the following values and then select <bpt id="p2">**</bpt>Create<ept id="p2">**</ept> at the bottom of the window.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Data Factory name<ept id="p1">_</ept>: Enter a name for the data factory, or use the default name.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Subscription<ept id="p1">_</ept>: Select the subscription that you used to create the resources for this module.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Select resource group<ept id="p1">_</ept>: Select the resource group that you created for this module.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Select region<ept id="p1">_</ept>: Select an appropriate region for the deployment of the data factory.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>New Data Factory window</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Wait until the data factory is created and you're returned to the <bpt id="p1">**</bpt>Select Data Factory<ept id="p1">**</ept> window.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Select Data Factory<ept id="p1">**</ept> window, select <bpt id="p2">**</bpt>Load data<ept id="p2">**</ept> and then select <bpt id="p3">**</bpt>Next<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Select Load data</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Configure data factory properties</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>On the data factory configuration page, you'll provide details for the source and destination databases.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Properties<ept id="p1">**</ept> tab, enter the following values and then select <bpt id="p2">**</bpt>Next<ept id="p2">**</ept> to move to the next tab.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Task name<ept id="p1">_</ept>: Enter a name for the task, or use the default value.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Task description<ept id="p1">_</ept>: Provide a description for the task, if you want.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This field is optional.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Task cadence or Task Schedule<ept id="p1">_</ept>: Select <bpt id="p2">**</bpt>Run once now<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Expiration time<ept id="p1">_</ept>: Keep the default value.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Data factory properties</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Select the source</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>On <bpt id="p1">**</bpt>Source<ept id="p1">**</ept> tab, select <bpt id="p2">**</bpt>Azure SQL Database<ept id="p2">**</ept> as the source and then select <bpt id="p3">**</bpt>Next<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Select Azure SQL Database</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Specify the Azure SQL database<ept id="p1">**</ept> page, enter the following values to set up the source database and then select <bpt id="p2">**</bpt>Next<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Connection name<ept id="p1">_</ept>: Enter a name for the Azure SQL Database connection, or use the default name.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Server / database selection method<ept id="p1">_</ept>: Select <bpt id="p2">**</bpt>From Azure subscriptions<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Azure subscription<ept id="p1">_</ept>: Select the Azure subscription that you used to create the resources for this module.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Server name<ept id="p1">_</ept>: Select the name of the SQL Server instance that you created earlier.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Database name<ept id="p1">_</ept>: Select database <bpt id="p2">**</bpt>retaildb<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>User name<ept id="p1">_</ept>: Enter <bpt id="p2">**</bpt>dwlab<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This is the user name that you entered when you created the SQL Server instance.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Password<ept id="p1">_</ept>: Enter the password that you entered when you created the SQL Server instance.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Specify the source values</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Dataset<ept id="p1">**</ept> tab, you'll select the tables that you want to copy.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt><ph id="ph1">\[</ph>dbo<ph id="ph2">\]</ph>.<ph id="ph3">\[</ph>AnalyzeCampaigns<ph id="ph4">\]</ph><ept id="p1">**</ept> table from the <bpt id="p2">**</bpt>Existing Tables<ept id="p2">**</ept> list, and then select <bpt id="p3">**</bpt>Next<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Select dbo.AnalyzeCampaigns</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Select the destination</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Destination<ept id="p1">**</ept> tab, you'll provide details about the SQL Data Warehouse instance.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Enter the following values and then select <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Connection name<ept id="p1">_</ept>: Enter a name for the connection to SQL Data Warehouse, or use the default name.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Server / database selection method<ept id="p1">_</ept>: Select <bpt id="p2">**</bpt>From Azure subscriptions<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Azure subscription<ept id="p1">_</ept>: Select the Azure subscription that you used to create the resources in this module.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Server name<ept id="p1">_</ept>: Select the name of the SQL Server instance that you created earlier in this module.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Database name<ept id="p1">_</ept>: Select the SQL Data Warehouse instance that you created in earlier in this module.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>User name<ept id="p1">_</ept>: Enter <bpt id="p2">**</bpt>dwlab<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This is the user name that you entered when you created the SQL Server instance.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Password<ept id="p1">_</ept>: Enter the password that you entered when you created the SQL Server instance.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Specify the destination values</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>On <bpt id="p1">**</bpt>Table mapping<ept id="p1">**</ept> tab, you'll set the mapping between the source and destination tables.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>You can map the source table to an existing destination table, or you can create a new destination table.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>For this exercise, we'll create a new destination table and load data into it.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Keep the default mapping<ept id="p1">*</ept> as shown in the following image.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Next<ept id="p1">**</ept> to continue.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The table <ph id="ph1">`[dbo].[AnalyzeCampaigns]`</ph> will be created in the new SQL data warehouse.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Leave the default mapping</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Schema mapping<ept id="p1">**</ept> tab, you'll set the mapping between the source and destination columns.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Because we're creating new a destination table in SQL Data Warehouse, the destination table will be created with the source schema.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>You can specify whether a column in the source table is included in the destination table by selecting the box under <bpt id="p1">**</bpt>Include this column<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Make sure all columns are selected, and then select <bpt id="p1">**</bpt>Next<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Select all columns</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Configure settings</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> tab, you'll specify actions to take if there are incompatible rows between the source and the destination.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>You'll also provide details for the storage account that's required for staging.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Fault tolerance settings<ept id="p1">**</ept>, in the <bpt id="p2">**</bpt>Actions<ept id="p2">**</ept> box, select <bpt id="p3">**</bpt>Abort copy activity on first incompatible row<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Performance settings<ept id="p1">**</ept>, enter these values:</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Use staging account<ept id="p1">_</ept>: Select <bpt id="p2">**</bpt>New connection<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Connection name<ept id="p1">_</ept>: Enter a name for the connection, or use the default.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Account selection method<ept id="p1">_</ept>: Select <bpt id="p2">**</bpt>From Azure subscriptions<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Azure subscription<ept id="p1">_</ept>: Select the Azure subscription that you used to create the resources for this module.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Storage account name<ept id="p1">_</ept>: Select the name of the storage account that you created in the resource group created for this module.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>You created this storage account by running the PowerShell script.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Configure settings</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Next<ept id="p1">**</ept> to move to the next tab.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Verify the details</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Summary<ept id="p1">**</ept> tab summarizes all the details that you've entered.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>You can also change the values on this tab.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Runtime Region<ept id="p1">**</ept> that corresponds to the region of the resources you've created for this module.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This will help ensure that transferred data stays in the same region to reduce costs and transfer lag.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>You can change the values in each section by selecting the <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept> link for the section.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>If all details are correct, select <bpt id="p1">**</bpt>Next<ept id="p1">**</ept> to start deployment.</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Summary tab</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Monitor deployment</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Deployment<ept id="p1">**</ept> tab provides the status of various deployment activities.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>You'll see the status update for each of the configured steps for the new pipeline as it deploys.</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Deploying section of the Deployment tab</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>After validation passes, select the <bpt id="p1">**</bpt>Monitor<ept id="p1">**</ept> link at the top of the page.</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The data factory pipeline monitoring page for the onetime pipeline that you created will appear.</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Monitoring the new onetime deployment pipeline</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Wait until the data factory pipeline status becomes <bpt id="p1">**</bpt>Ready<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Pipeline in the Ready status</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Verify copy activity</source>
+        </trans-unit><trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>We can verify the copy activity by checking whether the table was created in SQL Data Warehouse.</source>
+        </trans-unit><trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Access SQL Data Warehouse in Azure Data Studio.</source>
+        </trans-unit><trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Expand the SQL Data Warehouse node under <bpt id="p1">**</bpt>Servers<ept id="p1">**</ept> to connect, and then expand the <bpt id="p2">**</bpt>Tables<ept id="p2">**</ept> node.</source>
+        </trans-unit><trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>You'll see the new <bpt id="p1">**</bpt>dbo.AnalyzeCampaigns<ept id="p1">**</ept> table.</source>
+        </trans-unit><trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Right-click the <bpt id="p1">**</bpt>dbo.AnalyzeCampaigns<ept id="p1">**</ept> table and click <bpt id="p2">**</bpt>Select Top 1000<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Right-click the new table and click Select Top 1000</source>
+        </trans-unit><trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The new query window will automatically execute the SELECT statement.</source>
+        </trans-unit><trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>You should see results from the new table.</source>
+        </trans-unit><trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Query results</source>
+        </trans-unit><trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can run this query in a new query window:</source>
+        </trans-unit></group></body></file></xliff>

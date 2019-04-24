@@ -1,0 +1,13 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-summary.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-summary.7e9c1061e2fe05503a962c83bd3ed307c2a72c0d.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8b20c88f19f891987067c547d6fbfeb2e95e82af</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\provision-and-use-azure-dsvm\includes\6-summary.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this module you learned how to provision, connect to, and use a DSVM.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You also explored the Jupyter notebook and learned about its uses.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You also learned that a DSVM is a powerful learning tool with software, sample code, and data to learn how to use many of the Azure data and AI services.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Further reading</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For more information about using Jupyter notebooks, see <bpt id="p1">[</bpt>the Jupyter website<ept id="p1">](http://Jupyter.org)</ept>.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Browse the <bpt id="p1">[</bpt>Data Science Virtual Machine documentation<ept id="p1">](https://docs.microsoft.com/azure/machine-learning/data-science-virtual-machine/dsvm-samples-and-walkthroughs)</ept> to find more samples and walkthroughs using a DSVM.</source>
+        </trans-unit></group></body></file></xliff>

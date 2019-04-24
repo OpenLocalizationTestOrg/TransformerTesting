@@ -1,0 +1,151 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-key-principles-1-virtuous-cycles.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-key-principles-1-virtuous-cycles.111f163f4f0a33f87ac17f06864279933aba913f.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9aea6868e8dd8aa85cefa970a2e23e9d5d984e86</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\intro-to-site-reliability-engineering\Includes\4-key-principles-1-virtuous-cycles.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>If it is really true that in some sense “you are what you do”, then we’ve come to the heart of this module.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In this unit we are going to look at two of the practices that are often considered core to the practice of SRE.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Both originate from the principle that it is important to create “virtuous cycles."</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Virtuous cycles in this context are practices that build feedback loops in an organization that help that organization continuously get better.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>There will be entire follow-on modules on exactly these two practices so we’re only going to skim the surface with an overview of each here.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Virtuous cycle #1: SLIs and SLOs</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Earlier in this module, we made a big deal about working towards the “appropriate level of reliability”.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This is precisely the place where that concept gets brought to bear.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Let’s say you have a new service you are planning to bring to production (either one that has been constructed or one that is still in the planning process).</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>As part of that process, it is important to make some decisions about its desired reliability.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If you are not writing all of the code yourself, these decisions are made (and this is crucial) in collaboration with the developers making the thing.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The first decision that gets made is what will be used as indicators of the service’s health (a Service Level Indicator or SLI).</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Another way to ask this will be “How do you know when it's up/working well?”.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>There are lots of ways to track this which we'll explore in detail later, but these things are typically success vs. failure measures (does the service successfully complete an operation some percentage of the time), measures of timing (did we return an answer within a certain threshold of time), measures of throughput (did we process a certain amount of data) or combinations of all of these.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For a simple example, we might say an SLI for our service is how often it returned success, indicated via an HTTP 200 code (vs. a 500 or some other code).</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Now that we have a clear indicator for how to tell how the service is doing, we’re going to want to decide what level of reliability we expect or desire from it.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For example, do we expect over a period of a day that we'll see a failure rate of 20% from the service?</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>We're using round and large numbers here because they're easy to reason about in the beginning.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In later modules, we’ll increase the complexity and precision of statements like this (“which users will see that error rate? some of them? most of them?”</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>and so on).</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>That expectation, created in collaboration with the service’s developer, is a Service Level Objective (SLO).</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The SLO needs to be something that can be accurately measured and represented in your monitoring system.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>It’s meant to be an objective, well understood goal for the reliability for the service—what is the number that is good enough?</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>There's no “well, I think the service has been doing ok for the last week or so, but it's kind of hard to tell” going on here.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Either the service is meeting its SLO or it isn’t, the data should be clear.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If it isn't meeting its SLO (especially repeatedly over a span of time), then something is wrong and needs to be addressed.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Error budgets</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>It can be straightforward to understand that an organization might snap into action if a service doesn’t meet its SLO, but SRE takes this whole concept another step forward for the cases where the SLO is being met or exceeded.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Some organizations use SLOs to construct what they call “error budgets”.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To demonstrate this idea, lets use the sample service we’ve been discussing and its SLO of 80% success (think of it as “must be up 80% of the time”).</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>With the SLO of 80% uptime we’ve declared that our service must be up 80% of time.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>But what about the other 20%?</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If our service is down that other 20%, we don’t really “care” because we’ve decided being up that extra 20% isn’t important to us as a service goal.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>So if we don’t care about what happens during that time, what can we do with the service?</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>One thing we can certainly do is perturb the running service by upgrading it, perhaps with a new release that adds some features.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>If that new release stays up and doesn’t add any downtime, great.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If that new release causes the service to be less stable and return errors another 10% of time as it gets debugged, still just fine.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>We’re within our budget of allowed unreliability.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>An error budget is the difference between the service’s potential perfect reliability and its desired reliability (100% - 80% = 20%).</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>In this case, the error budget gives us a fund of 20% unreliability—20% time where we “don’t care whether it is up or not because it will still be in spec”.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>We can draw on and spend that 20% time any way we’d like (perhaps with more releases) until it is exhausted just like any other budget.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Error budgets are also used in some organizations for the less happy case, the one where you aren’t making your SLO.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In that case, you might choose to do something a little more stringent than just “take an action” as mentioned above.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Let’s say our service has been having some issues and has been up just 60% of the time as indicated by the SLI we chose earlier.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>We didn’t make our objective (the SLO).</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Our service has used up its error budget.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The organization may choose to hold back on a planned release because it knows that perturbing the system even further at this point is likely to only further worsen the reliability situation.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Error budgets are usually calculated for a set period of time--a month, quarter, and so on--or on a rolling basis so eventually if the service reliability improves, that budget returns.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>During this time of gated releases, the organization might choose to pivot some engineering resources away from feature development towards reliability work to help uncover and improve the source of the problems that caused the service to blow its SLO.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The reason why we say “some organizations” when it comes to error budgets is their implementation, especially in the case where it's used to gate releases, requires a certain institutional buy-in.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The organization has to be willing to say that when faced with a release decision, if the reliability of the service to date hasn’t been up to snuff, that release will be held back.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>That’s not a decision all organizations are willing to make.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This is also not the only possible response to a depleted error budget, but it is the one most talked about.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>We’ll be talking in considerably more detail about SLIs, SLOs, and error budgets in a separate module, but it is worthwhile highlighting the virtuous cycle aspect of these practices.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>In theory, it provides a way for an organization to describe, communicate, and act on the reliability of a service in a way that gets everyone working towards better reliability.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This feedback loop can be incredibly important.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Virtuous cycle #2: blameless postmortems</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The idea of a postmortem—the retrospective analysis of a significant, usually undesired event—is not even remotely specific to site reliability engineering.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>It isn't even uncommon to the operations world.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>One thing that is closer to being distinctive is SRE’s insistence that postmortems need to be “blameless.”</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>They need to focus on the failure of the process or the technology doing the incident, not the actions of specific people.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>“What was it about the process we had in place that allowed X to do the thing that led to the failure?</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>What information did that person not have available, or even prominent at the moment that led to them coming to the wrong conclusion?</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>What sort of guardrails should have been in place so it wasn’t possible to have such a catastrophic failure take place?”</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>These are the sort of questions that are asked in a blameless postmortem.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The tenor and direction of these questions is crucial.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>They are searching for ways to improve the systems or processes, not ways to punish the individuals whose use of those systems or processes in good faith contributed to the outage.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>It's important to remember “You can’t fire your way to reliable”.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>In our experience, an organization that fires a person every time there is a production incident (with very few exceptions), will not learn from those incidents.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Instead, there will be a single individual left, shaking in the corner, afraid to make any changes to anything at all.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>But a well functioning post-mortem process in an organization creates a virtuous cycle.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>It lets the organization learn from its outages and continuously improve its systems (providing proper analysis and followup is done).</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This relationship to failures and errors—embraced by the organization as opportunities for learning and improvement—is a core principle of site reliability engineering.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The construction of virtuous cycles to make use of these opportunities and to guide the organization towards greater reliability is another.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Let’s explore some other principles and practices, those centered on the human side of SRE, in our next unit.</source>
+        </trans-unit></group></body></file></xliff>

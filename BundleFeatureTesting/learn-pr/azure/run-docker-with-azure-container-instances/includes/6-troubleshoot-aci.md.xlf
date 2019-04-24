@@ -1,0 +1,73 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-troubleshoot-aci.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-troubleshoot-aci.2cf944717722a4c2476d9ce3da0e3cdb4339e04e.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ffc4608a0473be6e053d2b2b503cab14f76423e2</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\run-docker-with-azure-container-instances\includes\6-troubleshoot-aci.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>To help you understand basic ways to troubleshoot container instances, here you'll perform some basic operations such as:</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Pulling container logs</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Viewing container events</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Attaching to a container instance</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Create a container</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Run the following <ph id="ph1">`az container create`</ph> command to create a basic container.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>microsoft/sample-aks-helloworld<ept id="p1">**</ept> image runs a web server that displays a basic web page.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Get logs from your container instance</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Run the following <ph id="ph1">`az container logs`</ph> command to see the output from the container's running application.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You see output that resembles the following.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Get container events</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`az container attach`</ph> command provides diagnostic information during container startup.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Once the container has started, it also writes standard output and standard error streams to your local terminal.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Run <ph id="ph1">`az container attach`</ph> to attach to your container.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You see output that resembles the following.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Enter <bpt id="p1">&lt;kbd&gt;</bpt>Ctrl+C<ept id="p1">&lt;/kbd&gt;</ept> to disconnect from your attached container.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Execute a command in your container</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>As you diagnose and troubleshoot issues, you may need to run commands directly on your running container.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To see this in action, run the following <ph id="ph1">`az container exec`</ph> command to start an interactive session on your container.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>At this point, you are effectively working inside of the container.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Run the <ph id="ph1">`ls`</ph> command to display the contents of the working directory.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You can explore the system further if you wish.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>When you're done, run the <ph id="ph1">`exit`</ph> command to stop the interactive session.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Monitor CPU and memory usage on your container</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Here you'll see how to monitor CPU and memory usage on your container.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Run the following <ph id="ph1">`az container show`</ph> command to get the ID of your Azure container instance and store the ID in a Bash variable.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Run the <ph id="ph1">`az monitor metrics list`</ph> command to retrieve CPU usage information.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Note the <ph id="ph1">`--metric`</ph> argument.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Here, <bpt id="p1">**</bpt>CPUUsage<ept id="p1">**</ept> specifies to retrieve CPU usage.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You see output similar to this.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Run this <ph id="ph1">`az monitor metrics list`</ph> command to retrieve memory usage information.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Here, you specify <bpt id="p1">**</bpt>MemoryUsage<ept id="p1">**</ept> for the <ph id="ph1">`--metric`</ph> argument to retrieve memory usage information.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You see output similar to this.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>CPU and memory information is also available through the Azure portal.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To see a visual representation of CPU and memory usage information, navigate to the Azure portal overview page for your container instance.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Azure portal view of Azure Container Instances CPU and memory usage information</source>
+        </trans-unit></group></body></file></xliff>

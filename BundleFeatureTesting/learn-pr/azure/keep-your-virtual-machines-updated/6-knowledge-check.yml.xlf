@@ -1,0 +1,39 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-knowledge-check.0a2714118911e05dd525e776883c1244352412b4.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0b52ae24b861e3081066f35f45897ed4cbd6717b</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\keep-your-virtual-machines-updated\6-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.keep-your-virtual-machines-updated.6-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.keep-your-virtual-machines-updated.6-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.keep-your-virtual-machines-updated.6-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.keep-your-virtual-machines-updated.6-knowledge-check">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.keep-your-virtual-machines-updated.6-knowledge-check">
+          <source>Suppose you want to ensure that your VMs are updated without signing into the VM.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.keep-your-virtual-machines-updated.6-knowledge-check">
+          <source>Which operation of update management helps achieve this objective?</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.keep-your-virtual-machines-updated.6-knowledge-check">
+          <source>Replication policy</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.keep-your-virtual-machines-updated.6-knowledge-check">
+          <source>Replication policy is a characteristic of a storage account.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.keep-your-virtual-machines-updated.6-knowledge-check">
+          <source>Every member in the storage account must use the same policy.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.keep-your-virtual-machines-updated.6-knowledge-check">
+          <source>If you need some data to use the geo-replication strategy and other data to use the local replication strategy, then you will need two storage accounts.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.keep-your-virtual-machines-updated.6-knowledge-check">
+          <source>Compliance Scan</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.keep-your-virtual-machines-updated.6-knowledge-check">
+          <source>A compliance scan is by default, performed every 12 hours on a Windows computer and every 3 hours on a Linux computer.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.keep-your-virtual-machines-updated.6-knowledge-check">
+          <source>Schedule Updates</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.keep-your-virtual-machines-updated.6-knowledge-check">
+          <source>You specify a schedule to approve and designate a period of time during which updates can be installed.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.keep-your-virtual-machines-updated.6-knowledge-check">
+          <source>True or false: Microsoft Monitoring Agent is a component used by Update Management to perform assessments and update deployments.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.keep-your-virtual-machines-updated.6-knowledge-check">
+          <source>True</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.keep-your-virtual-machines-updated.6-knowledge-check">
+          <source>MMA agent forwards the compliance scan information in bulk to Azure Log Analytics.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.keep-your-virtual-machines-updated.6-knowledge-check">
+          <source>False</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.keep-your-virtual-machines-updated.6-knowledge-check">
+          <source>MMA agent forwards the compliance scan information in bulk to Azure Log Analytics.</source>
+        </trans-unit></group></body></file></xliff>

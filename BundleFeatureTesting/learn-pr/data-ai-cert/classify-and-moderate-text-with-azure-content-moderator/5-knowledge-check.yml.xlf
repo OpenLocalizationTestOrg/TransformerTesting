@@ -1,0 +1,41 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-knowledge-check.28f51e8affb68618d799e6f6384c0fd5cb20f728.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ac89f896a9d0f6414b980d9156f89fef72444814</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\classify-and-moderate-text-with-azure-content-moderator\5-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.data-ai.classify-and-moderate-text-with-azure-content-moderator.knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.data-ai.classify-and-moderate-text-with-azure-content-moderator.knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.data-ai.classify-and-moderate-text-with-azure-content-moderator.knowledge-check">
+          <source>Check your knowledge of content moderation for text.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.data-ai.classify-and-moderate-text-with-azure-content-moderator.knowledge-check">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.data-ai.classify-and-moderate-text-with-azure-content-moderator.knowledge-check">
+          <source>Under the classification of the text, what type of value is returned for the category?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.data-ai.classify-and-moderate-text-with-azure-content-moderator.knowledge-check">
+          <source>A percentage indicating which category is most appropriate</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.data-ai.classify-and-moderate-text-with-azure-content-moderator.knowledge-check">
+          <source>Returned results for categories aren't in percentages.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.data-ai.classify-and-moderate-text-with-azure-content-moderator.knowledge-check">
+          <source>A value between 0 and 1</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.data-ai.classify-and-moderate-text-with-azure-content-moderator.knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.data-ai.classify-and-moderate-text-with-azure-content-moderator.knowledge-check">
+          <source>The categories are rated with a value between 0 and 1, with values closer to 1 being more positive for the match.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.data-ai.classify-and-moderate-text-with-azure-content-moderator.knowledge-check">
+          <source>A Boolean value indicating that a human review is necessary</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.data-ai.classify-and-moderate-text-with-azure-content-moderator.knowledge-check">
+          <source>Although this Boolean value depends on the scoring values for the categories, it isn't a category score itself.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.data-ai.classify-and-moderate-text-with-azure-content-moderator.knowledge-check">
+          <source>What is the purpose of the ListId value in a response from the profanity check?</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.data-ai.classify-and-moderate-text-with-azure-content-moderator.knowledge-check">
+          <source>It's the identifier of the profanity word list that was used for the check.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.data-ai.classify-and-moderate-text-with-azure-content-moderator.knowledge-check">
+          <source>Although you can create a custom list, this ID doesn't represent a specific list that was used.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.data-ai.classify-and-moderate-text-with-azure-content-moderator.knowledge-check">
+          <source>It's the language ID that the list used for testing.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.data-ai.classify-and-moderate-text-with-azure-content-moderator.knowledge-check">
+          <source>The ListId isn't used to determine the language.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.data-ai.classify-and-moderate-text-with-azure-content-moderator.knowledge-check">
+          <source>It's the identifier of a term in a custom term list.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.data-ai.classify-and-moderate-text-with-azure-content-moderator.knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.data-ai.classify-and-moderate-text-with-azure-content-moderator.knowledge-check">
+          <source>The ListId identifies a specific term found in a custom term list, if such lists are available.</source>
+        </trans-unit></group></body></file></xliff>

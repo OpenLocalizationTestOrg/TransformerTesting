@@ -1,0 +1,129 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-create-the-mojifyimage-azure-function.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-create-the-mojifyimage-azure-function.a58012593653804eabf0181f530139c624fb6f93.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">86579b59ac2cfe78ccf85647bd846b48706e36b3</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\replace-faces-with-emojis-matching-emotion\includes\5-create-the-mojifyimage-azure-function.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Now that you've created your Azure Function project, and a minimal JavaScript Azure function, you're going to develop this Azure Function in TypeScript.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The final function will read an image URL from its query parameters, use the Face API to find the faces and their emotions in the image, then replace the face(s) with matching emoji(s).</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>It returns this composite image as raw image data.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Convert to TypeScript</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The Azure function extension created a JavaScript function.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>We need to convert it to TypeScript.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Rename the <ph id="ph1">`index.js`</ph> file to <ph id="ph2">`index.ts`</ph></source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If you're running <ph id="ph1">`npm run build`</ph> and the related <ph id="ph2">`tsc -w`</ph> command, then the <ph id="ph3">`index.ts`</ph> file is instantly compiled to <ph id="ph4">`index.js`</ph>.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>It should also create an <ph id="ph1">`index.js.map`</ph> file.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`index.js`</ph> and <ph id="ph2">`index.js.map`</ph> files are not automatically created, check whether the <ph id="ph3">`npm run build`</ph> command is running and that the output doesn't show any errors.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Replace the code in <ph id="ph1">`index.ts`</ph> with the following code:</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>With Azure Functions we use <ph id="ph1">`context.log`</ph> instead of <ph id="ph2">`console.log`</ph> to log output to the console.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Test your function</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Make sure the local Azure function application is running using one of the methods you previously used: either use <ph id="ph1">`func host start`</ph> or run it from the debug menu using the <bpt id="p1">**</bpt>Attach to JavaScript Function<ept id="p1">**</ept> task.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If the function app started correctly, then the output window should show something like this output:</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Visit the URL in your browser.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If everything is functioning correctly, it should print out <ph id="ph1">`Hello!`</ph>.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If you see <ph id="ph1">`Hello`</ph>, you've converted your function trigger from TypeScript to JavaScript.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Configure your Face API environment variables</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To make your code more secure, you shouldn't hard-code private data in your code.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Instead we use environment variables to store the Face API URL and key.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>When you create an Azure Functions project, it creates a file called <ph id="ph1">`local.settings.json`</ph>.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This file is in the <ph id="ph1">`.gitignore`</ph> file so it isn't checked into source control.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>It's a place to store sensitive or local configurations that you don't want to be published.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Anything in the <ph id="ph1">`Values`</ph> object is made available to your Node.js code as an environment variable.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Open <ph id="ph1">`local.settings.json`</ph> in Visual Studio Code.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>By default, the file has these contents:</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Replace<ept id="p1">**</ept> the contents of this file with your Face API variables (i.e. remove the default settings from the file).</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Replace the <ph id="ph1">`&lt;face-api-url&gt;`</ph> and <ph id="ph2">`&lt;face-api-key&gt;`</ph> values with the variables that you saved, when you created your Face API Azure resource.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`FACE_API_URL`</ph> and <ph id="ph2">`FACE_API_KEY`</ph> variables will be available to Node.js as environment variables.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The variables are used in the <bpt id="p1">[</bpt>calls to the Face API<ept id="p1">](https://github.com/MicrosoftDocs/mslearn-the-mojifier/blob/master/shared/faceapi/index.ts)</ept></source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Write the MojifyImage function</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Replace the code in <ph id="ph1">`MojifyImage/index.ts`</ph> with the following code:</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You'll be developing the <ph id="ph1">`createMojifiedImage`</ph> function and the <ph id="ph2">`index`</ph> function in this unit.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Call the Face API with an image and get a response</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Replace the body of the <ph id="ph1">`index(context, req)`</ph> function in the <ph id="ph2">`index.ts`</ph> file with the following code.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Run this function in your browser</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You should see the json response that the Face API returns when passed an image: <ph id="ph1">`http://localhost:7071/api/MojifyImage?imageUrl=&lt;image&gt;`</ph>.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Look at the code in <bpt id="p1">[</bpt><ph id="ph1">`shared/faceapi/index.ts`</ph><ept id="p1">](https://github.com/MicrosoftDocs/mslearn-the-mojifier/blob/master/shared/faceapi/index.tsazure-portal=true)</ept> to see how the response from the Face API is being converted into an instance of an array of <ph id="ph2">`Face`</ph> objects.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Each <ph id="ph1">`Face`</ph> object contains the emotive coordinates, the location of the face in the image, the matching emoji, and the emoji icon.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Create the mojified image</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Next, fill in the <ph id="ph1">`createMojifiedImage(context, imageUrl, faces)`</ph> TypeScript function to create the composite image consisting of the original image along with its matching emoji(s).</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This function uses the <ph id="ph1">`Jimp`</ph> npm package, an open-source image manipulation library.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Replace the <ph id="ph1">`TODO`</ph> line in this function with the following code:</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Let's break this code down step by step</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To load an image using Jimp, you use the <ph id="ph1">`Jimp.read`</ph> function.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>There is a directory of png files for each emoji in <ph id="ph1">`shared/emojis`</ph>.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For each face in the image</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Load up the emoji image</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Resize the emoji image to the size of the face found in the image</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Create a composite image of the original image and the resized emoji located on the face in the image</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Return the composite image as a buffer</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Set up the return HTTP response in the <ph id="ph1">`index`</ph> function</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Add the following code to the top of the <ph id="ph1">`index(context, req)`</ph> TypeScript function to configure the HTTP response:</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Add the call to <ph id="ph1">`createMojifiedImage`</ph> from the <ph id="ph2">`index`</ph> function, replacing the <ph id="ph3">`try`</ph> block with:</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Try it out</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Make sure that the local Azure function application is running using one of the methods you previously used: either use <ph id="ph1">`func host start`</ph> or run it from the debug menu using the <bpt id="p1">**</bpt>Attach to JavaScript Function<ept id="p1">**</ept> task.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If the function app started correctly, then the output window should show something like this output:</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Visit the URL in your browser.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Remember to pass in the URL of an image via the <ph id="ph1">`imageUrl`</ph> query parameter.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>It should return a mojified version of the image.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You've written an Azure function in TypeScript to mojify an image!</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">👏</ph><ph id="ph2">👏</ph><ph id="ph3">👏</ph></source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Mojified Image</source>
+        </trans-unit></group></body></file></xliff>

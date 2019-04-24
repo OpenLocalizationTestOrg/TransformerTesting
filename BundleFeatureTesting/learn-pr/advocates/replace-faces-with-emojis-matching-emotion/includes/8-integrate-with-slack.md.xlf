@@ -1,0 +1,81 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="8-integrate-with-slack.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8-integrate-with-slack.aa1175dea6f5753c78106b655199e90db024aa41.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a73c47e930d5775643bc415532d29176d07acbc1</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\replace-faces-with-emojis-matching-emotion\includes\8-integrate-with-slack.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You've created all the required Azure Functions, and deployed them!</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Let's connect the Azure Functions with Slack and create a Slack slash command to calls the Azure Function and displays the resulting mojified image in the Slack window.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Create a Slack app</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>A slash command exists as part of a Slack app, also known as a Slack bot.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Create a Slack app<ept id="p1">](https://api.slack.com/apps/new?azure-portal=true)</ept>.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Choose an <bpt id="p1">**</bpt>App Name<ept id="p1">**</ept> and associate it with the <bpt id="p2">**</bpt>Workspace<ept id="p2">**</ept> you created at the start of this module, then select <bpt id="p3">**</bpt>Create App<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Create Slack App.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Go to your Slack app and create a slash command.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Select on the <ph id="ph1">`slash Commands`</ph> menu item.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Create a slack app screen.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The dialog asks for an app name and development slack workspace.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Create New Command<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Provide whatever name you want for your slash command in the <bpt id="p1">**</bpt>command<ept id="p1">**</ept> field.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Enter the Azure function app public URL into the <bpt id="p1">**</bpt>Request URL<ept id="p1">**</ept> field.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For our <ph id="ph1">`mojifier-slack-function-app`</ph> used in the previous unit, our function app public URL would be <ph id="ph2">`https://mojifier-slack-function-app.azurewebsites.net`</ph>.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Append <ph id="ph1">`/api/RespondToSlackCommand`</ph> to the URL.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Add a <bpt id="p1">**</bpt>Short Description<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Usage Hint<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>slash Command</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If successful, you should see the slash command appear in your list of <bpt id="p1">**</bpt>Slash Commands<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The slash command appears in the list of all slash commands.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>There's only the mojifier showing in this list.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To get this working, you need to install the Slack app in the workspace.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Basic Information<ept id="p1">**</ept> in the menu.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Expand <bpt id="p1">**</bpt>Install your app to your workspace<ept id="p1">**</ept> and select <bpt id="p2">**</bpt>Install app to workspace<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Install app to workspace is listed under the Building apps for slack menu in the Slack API page.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If asked, <bpt id="p1">**</bpt>Authorize<ept id="p1">**</ept> your app.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Authenticate App To Workspace interstitial screen appears, with either authorize or cancel options.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Try it out</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You've created and connected your slash command to your deployed Azure Functions.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Now, you can test it.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Open your Slack workspace.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Open a chat window and type <ph id="ph1">`/mojify`</ph>.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If you named the app something else, enter that command instead.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>If everything has worked correctly, you should see <ph id="ph1">`mojify`</ph> as an option.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The slash command menu is popped up above the text.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>It shows the app name as Mojifier and the command as "/mojify images of people's faces", with a description that says "replaces people's faces with emojis."</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Enter <ph id="ph1">`/mojify`</ph> and add an image URL.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The slack command is running and mojified the provided image URL.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>An emoji appears directly over the face of the man in the image.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,65 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-how-to-choose-a-partition-key.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-how-to-choose-a-partition-key.99dfae0795f6f3182019ac78f6f2d5a9c34a0abf.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b20eb3ceb69f28d3088c7844d23dfbf212b1d38b</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-cosmos-db-for-scale\includes\4-how-to-choose-a-partition-key.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The online retailer that you work for plans to expand to a new geographical area soon.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This move will increase your customer base and transaction volume.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You must ensure that your database is equipped to handle expansion whenever required.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Having a partition strategy ensures that when your database needs to grow, it can do so easily and continue to perform efficient queries and transactions.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>What is a partition strategy?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If you continue to add new data to a single server or a single partition, it will eventually run out of space.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>To prepare for this, you need a partitioning strategy to <bpt id="p1">**</bpt>scale out<ept id="p1">**</ept> instead of up.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Scaling out is also called horizontal scaling, and it enables you to add more partitions to your database as your application needs them.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The partition and scale-out strategy in Azure Cosmos DB is driven by the partition key, which is a value set when you create a collection.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Once the partition key is set, it cannot be changed without recreating the collection, so selecting the right partition key is an important decision to make early in your development process.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In this unit, you will learn how to choose a partition key that's right for your scenario and will take advantage of the autoscaling that Azure Cosmos DB can do for you.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>What is a partition key?</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A partition key is the value by which Azure organizes your data into logical divisions.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In our online retail scenario, using the <ph id="ph1">`userID`</ph> or <ph id="ph2">`productId`</ph> value as the partition key is a good choice because it will be unique and likely used to lookup records.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`userID`</ph> is a good choice, as your application frequently needs to retrieve the personalization settings, shopping cart, order history, and profile information for the user, just to name a few.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`productId`</ph> is also a good choice, as your application needs to query inventory levels, shipping costs, color options, warehouse locations, and more.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A partition key should aim to distribute operations across the database.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You want to distribute requests to avoid hot partitions.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A hot partition is a single partition that receives many more requests than the others, which can create a throughput bottleneck.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For example, for your e-commerce application, the current time would be a poor choice of partition key, because all the incoming data would go to a single partition key.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`userID`</ph> or <ph id="ph2">`productId`</ph> would be better, as all the users on your site would likely be adding and updating their shopping cart or profile information at about the same frequency, which distributes the reads and writes across all the user and product partitions.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The storage space for the data associated with each partition key cannot exceed 10 GB, which is the size of one physical partition in Azure Cosmos DB.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>So, if your single <ph id="ph1">`userID`</ph> or <ph id="ph2">`productId`</ph> record is going to be larger than 10 GB, think about using a composite key instead so that each record is smaller.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>An example of a composite key would be <ph id="ph1">`userID-date`</ph>, which would look like <bpt id="p1">**</bpt>CustomerName-08072018<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This composite key approach would enable you to create a new partition for each day a user visited the site.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Best practices</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>When you're trying to determine the right partition key and the solution isn't obvious, here are a few tips to keep in mind.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Don’t be afraid of choosing a partition key that has a large number of values.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The more values your partition key has, the more scalability you have.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To determine the best partition key for a read-heavy workload, review the top three to five queries you plan on using.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The value most frequently included in the WHERE clause is a good candidate for the partition key.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For write-heavy workloads, you'll need to understand the transactional needs of your workload, because the partition key is the scope of multi-document transactions.</source>
+        </trans-unit></group></body></file></xliff>

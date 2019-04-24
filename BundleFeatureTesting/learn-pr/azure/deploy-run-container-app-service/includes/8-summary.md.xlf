@@ -1,0 +1,17 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="8-summary.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8-summary.e8af549c0865897a3ac6353e23d21d6bc092c8b9.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">afcbc1a41dcfe86b7da08dcf4b535177d83f5e90</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\deploy-run-container-app-service\includes\8-summary.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You can use Azure Container Registry to hold Docker images, and you can construct web apps based on these images.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>By using a webhook, you can configure continuous deployment for a web app.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This process monitors the image for the web app in Container Registry and causes the web app to be redeployed automatically if the image changes.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Learn more</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Container Registry<ept id="p1">](https://azure.microsoft.com/services/container-registry/)</ept></source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Use a custom Docker image for Web App for Containers<ept id="p1">](https://docs.microsoft.com/azure/app-service/containers/tutorial-custom-docker-image)</ept></source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Tutorial: Build and deploy container images in the cloud with Azure Container Registry Tasks<ept id="p1">](https://docs.microsoft.com/azure/container-registry/container-registry-tutorial-quick-task)</ept></source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Tutorial: Automate container image builds in the cloud when you commit source code<ept id="p1">](https://docs.microsoft.com/azure/container-registry/container-registry-tutorial-build-task)</ept></source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-geographies.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-geographies.e28ad11703ebc18c63f9b781fdbf181b463ab4de.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0153cfd4d1929d6eea8e3121f5657d37f8502dcb</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\explore-azure-infrastructure\includes\3-geographies.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Azure divides the world into <bpt id="p1">*</bpt>geographies<ept id="p1">*</ept> that are defined by geopolitical boundaries or country borders.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>An Azure geography is a discrete market typically containing two or more regions that preserve data residency and compliance boundaries.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This division has several benefits.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Geographies allow customers with specific data residency and compliance needs to keep their data and applications close.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Geographies ensure that data residency, sovereignty, compliance, and resiliency requirements are honored within geographical boundaries.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Geographies are fault-tolerant to withstand complete region failure through their connection to dedicated high-capacity networking infrastructure.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Data residency refers to the physical or geographic location of an organization's data or information.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>It defines the legal or regulatory requirements imposed on data based on the country or region in which it resides and is an important consideration when planning out your application data storage.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Geographies are broken up into the following areas:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Americas</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Europe</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Asia Pacific</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Middle East and Africa</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Each region belongs to a single geography and has specific service availability, compliance, and data residency/sovereignty rules applied to it.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Check the documentation for more information (a link is available in the summary unit).</source>
+        </trans-unit></group></body></file></xliff>

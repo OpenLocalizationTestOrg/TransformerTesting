@@ -1,0 +1,79 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-configure-db-connection.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-configure-db-connection.b00f274485f62660ad2193d86e7944358f8aa820.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6a986ab860227bdc6e97479b831d9c42983ad715</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\aspnetcore\persist-data-ef-core\includes\3-configure-db-connection.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll configure a database connection to an existing, empty <bpt id="p1">*</bpt>ContosoPets<ept id="p1">*</ept> Azure SQL database.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The Code-First workflow will be used to create tables in the database from C# code.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">[</bpt>.NET Core Secret Manager<ept id="p1">](https://docs.microsoft.com/aspnet/core/security/app-secrets#secret-manager)</ept> will be used as a development-grade mechanism for securely storing secrets, such as database credentials.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Secret Manager isn't intended for production deployments.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Consider using <bpt id="p1">[</bpt>Azure Key Vault<ept id="p1">](https://docs.microsoft.com/azure/key-vault/key-vault-overview)</ept>.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">*</bpt>ContosoPets.Api/ContosoPets.Api.csproj<ept id="p1">*</ept> file, replace the <ph id="ph1">`&lt;!-- Replace this comment with the UserSecretsId element --&gt;`</ph> comment with the following XML.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Save your changes.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Secret Manager uses the <ph id="ph1">`UserSecretsId`</ph> element's inner text to associate secrets with the project.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The inner text must be a string that uniquely identifies the app on the development machine or server.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In the preceding example, the MSBuild <ph id="ph1">`AssemblyName`</ph> project property resolves to the assembly name <bpt id="p1">*</bpt>ContosoPets.Api<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Run the following command to store the Azure SQL database credentials using Secret Manager:</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">*</bpt>appsettings.Development.json<ept id="p1">*</ept>, replace the <ph id="ph1">`// Add the ConnectionStrings:ContosoPets JSON`</ph> comment with the following.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Save your changes.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>appsettings.Development.json<ept id="p1">*</ept> file will be used whenever the app is run in a development environment.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The following are two options for setting the environment:</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`ASPNETCORE_ENVIRONMENT`</ph> environment variable</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`--environment`</ph> command-line parameter</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Run the following command to print the database connection string.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Copy the resulting connection string to your clipboard.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">*</bpt>appsettings.Development.json<ept id="p1">*</ept>, replace the <ph id="ph1">`ContosoPets`</ph> key's value of <ph id="ph2">`""`</ph> with the connection string stored in your clipboard.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Save your changes.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The file now resembles the following JSON:</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">*</bpt>Startup.cs<ept id="p1">*</ept> file's <ph id="ph1">`ConfigureServices`</ph> method, replace the <ph id="ph2">`// Add the SqlConnectionStringBuilder code`</ph> comment with the following code.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Save your changes.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The preceding code:</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Instantiates a <ph id="ph1">`SqlConnectionStringBuilder`</ph> object, which is used for concatenating strings to produce a valid database connection string.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Retrieves the database connection string from the <ph id="ph1">`ConnectionStrings:ContosoPets`</ph> property of the <bpt id="p1">*</bpt>appsettings.Development.json<ept id="p1">*</ept> file.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Retrieves the <ph id="ph1">`UserId`</ph> and <ph id="ph2">`Password`</ph> property values from the <ph id="ph3">`ContosoPets`</ph> section of the local secret store.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Injects the <ph id="ph1">`UserId`</ph> and <ph id="ph2">`Password`</ph> property values into the database connection string.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In the same <ph id="ph1">`ConfigureServices`</ph> method, replace the <ph id="ph2">`// Add the UseSqlServer code`</ph> comment with the following code.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Save your changes.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The preceding code:</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Registers <ph id="ph1">`ContosoPetsContext`</ph> as a scoped service in the dependency injection (DI) system.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>With the scoped lifetime, the <ph id="ph1">`ContosoPetsContext`</ph> object is created once per request.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Defines the Database Provider as SQL Server.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Provides a connection string to the Database Provider for the Azure SQL database.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">*</bpt>Startup.cs<ept id="p1">*</ept>, replace the <ph id="ph1">`// Add the System.Data.SqlClient using statement`</ph> comment with the following code.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Save your changes.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Inclusion of the preceding namespace resolves the reference to <ph id="ph1">`SqlConnectionStringBuilder`</ph> in the previous step.</source>
+        </trans-unit></group></body></file></xliff>

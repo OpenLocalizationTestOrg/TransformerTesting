@@ -1,0 +1,45 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-design-for-performance-and-scalability.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-design-for-performance-and-scalability.e5b566d5d2ce93fed02330cf51a5cf29dcefaedb.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6b11e77335cfaa0b0f971f5c1bab44288579e75c</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\pillars-of-a-great-azure-architecture\4-design-for-performance-and-scalability.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.pillars-of-a-great-azure-architecture.4-design-for-performance-and-scalability">
+          <source>Design for performance and scalability</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.pillars-of-a-great-azure-architecture.4-design-for-performance-and-scalability">
+          <source>Design for performance and scalability</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.pillars-of-a-great-azure-architecture.4-design-for-performance-and-scalability">
+          <source>Design for performance and scalability</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.pillars-of-a-great-azure-architecture.4-design-for-performance-and-scalability">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.pillars-of-a-great-azure-architecture.4-design-for-performance-and-scalability">
+          <source>Which of the following is an example of scaling up?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.pillars-of-a-great-azure-architecture.4-design-for-performance-and-scalability">
+          <source>Updating your application to use a queuing service</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.pillars-of-a-great-azure-architecture.4-design-for-performance-and-scalability">
+          <source>Including a queuing service in your application can be a smart architecual decision, but is not an example of scaling up.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.pillars-of-a-great-azure-architecture.4-design-for-performance-and-scalability">
+          <source>Adding more web servers into a web farm</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.pillars-of-a-great-azure-architecture.4-design-for-performance-and-scalability">
+          <source>Adding more web servers into a web farm is an example of scaling out.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.pillars-of-a-great-azure-architecture.4-design-for-performance-and-scalability">
+          <source>Adding another virtual machine into a database cluster</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.pillars-of-a-great-azure-architecture.4-design-for-performance-and-scalability">
+          <source>Adding another virtual machine into a database cluster is not an example of scaling up.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.pillars-of-a-great-azure-architecture.4-design-for-performance-and-scalability">
+          <source>Updating a virtual machine to a larger size</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.pillars-of-a-great-azure-architecture.4-design-for-performance-and-scalability">
+          <source>Changing a virtual machine to a larger size increases the resources available to the instance, and is an example of scaling up.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.pillars-of-a-great-azure-architecture.4-design-for-performance-and-scalability">
+          <source>Which of the following is an example of scaling out?</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.pillars-of-a-great-azure-architecture.4-design-for-performance-and-scalability">
+          <source>Updating a virtual machine to a larger size</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.pillars-of-a-great-azure-architecture.4-design-for-performance-and-scalability">
+          <source>Changing a virtual machine to a larger size increases the resources available to the instance, and is an example of scaling up.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.pillars-of-a-great-azure-architecture.4-design-for-performance-and-scalability">
+          <source>Adding more storage to a virtual machine</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.pillars-of-a-great-azure-architecture.4-design-for-performance-and-scalability">
+          <source>Adding more storage to a virtual machine is not an example of scaling out.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.pillars-of-a-great-azure-architecture.4-design-for-performance-and-scalability">
+          <source>Adding more web servers into a web farm</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.pillars-of-a-great-azure-architecture.4-design-for-performance-and-scalability">
+          <source>Adding more web servers into a web farm is an example of scaling out.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.pillars-of-a-great-azure-architecture.4-design-for-performance-and-scalability">
+          <source>Replicating backups to another region</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.pillars-of-a-great-azure-architecture.4-design-for-performance-and-scalability">
+          <source>Replicating backups to another region is not applicable to scaling of resources.</source>
+        </trans-unit></group></body></file></xliff>

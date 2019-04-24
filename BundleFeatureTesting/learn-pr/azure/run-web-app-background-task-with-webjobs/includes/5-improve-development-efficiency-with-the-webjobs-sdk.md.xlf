@@ -1,0 +1,113 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-improve-development-efficiency-with-the-webjobs-sdk.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-improve-development-efficiency-with-the-webjobs-sdk.8c8fb4266dba10e66413fe49fcc35020ab2c5fc6.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d192b7d2c408f852964fbd1bcf09c3b6dede5ef3</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\run-web-app-background-task-with-webjobs\includes\5-improve-development-efficiency-with-the-webjobs-sdk.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>If you're using the .NET Framework to build a WebJob, the WebJobs SDK will make several programming tasks easier and quicker.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>As the senior web developer responsible for the watch dealer's web site, you have already deployed continuous WebJobs that regularly poll a message queue.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You now need to look at how the WebJobs SDK can be used to create new messages, without using the infinite loop.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Here, you will learn about the <ph id="ph1">`JobHost`</ph> object, triggers, bindings, and other tools in the WebJobs SDK.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The WebJobs SDK</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The WebJobs SDK is a .NET library that can help simplify many programming tasks common to WebJobs.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>It's not required to use the SDK in your WebJob, but it can be helpful and should reduce development time and costs.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The WebJobs SDK has many built-in features for working with Azure Storage and Service Bus, scheduling tasks, and handling errors.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In Visual Studio, when you add an WebJob project to an existing web app, the template automatically adds the WebJobs SDK to the new project for you, including these NuGet packages:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The template also adds some code to the console application's <ph id="ph1">`Main()`</ph> method, and a new code file called <bpt id="p1">**</bpt>Functions.cs<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You'll learn about these features of the template later in this unit.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>WebJob connection strings</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A WebJob that interacts with Azure, usually needs two connection strings:</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>A Storage Account connection string.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For example, if the WebJob executes when a Blob is added to a storage account, the WebJob needs to know how to connect to that storage account.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>A WebJobs dashboard connection string.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The WebJobs dashboard displays information about a WebJob such as its current status and the results of previous executions.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Each WebJob stores this information in a separate storage account, and you must configure the connection string to that account as well.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Add these connection strings to the <bpt id="p1">**</bpt>app.config<ept id="p1">**</ept> file in the WebJob project:</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can find these connection strings in the Azure portal.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Look on the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> page for each storage account:</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Obtaining a connection string for a Storage account</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>WebJob Host</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>In each WebJob that uses the SDK, there is a <ph id="ph1">`JobHost`</ph> object.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This object will listen for trigger events and call functions.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The WebJob project template adds code to the 'Main()' function in the <bpt id="p1">**</bpt>Program.cs<ept id="p1">**</ept> file that configures the <ph id="ph1">`JobHost`</ph>:</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The code creates a <ph id="ph1">`HostBuilder`</ph> object, which you use to configure the WebJob.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>In this case, the extensions for Azure Storage services are added.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The code calls the <ph id="ph1">`Build()`</ph> method to create a WebJob host and then calls the <ph id="ph2">`Run()`</ph> method on that host.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>How to code a function</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>In a WebJob, a function is a procedure that executes in response to a trigger event.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Write this procedure to match a certain signature, so that the WebJob host recognizes it as a function to call when an event occurs.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Common trigger events that you can respond to include:</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A new Blob appears in a storage account.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>A new item appears in a storage account queue.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>An entity is added to a Cosmos DB database.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>An event occurs in a WebHook.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The schedule in the <bpt id="p1">**</bpt>settings.json<ept id="p1">**</ept> file triggers the WebJob.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>A function has this form:</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Each function is a public, static method that returns no value.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You can use any name for the function, but make sure you use a trigger attribute on the first parameter.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The example above uses the <ph id="ph1">`QueueTrigger`</ph> attribute, because the function fires when an item appears in an Azure Store queue.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This function only logs the message in the item, but your code could do whatever you like.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If you want to respond when a Blob is added to a storage account, use a function like this code:</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>In this code, the <ph id="ph1">`{name}`</ph> token creates a binding expression.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>You'll learn about bindings later in this unit.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Here's another, more complicated function, that triggers when data is added to a Cosmos DB database:</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>In this example, the <ph id="ph1">`CosmosDBTrigger`</ph> attribute is used to set a connection string and tell the function what database and collection to monitor.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Bindings</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Use bindings to avoid hard-coding input and output details in your functions.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>For example, if the name of your Cosmos DB database might change, use a binding to set that detail declaratively.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>A binding to a source of data is an <bpt id="p1">*</bpt>input<ept id="p1">*</ept> binding.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A binding for sending data is an <bpt id="p1">*</bpt>output<ept id="p1">*</ept> binding.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To use bindings, create a new file named <bpt id="p1">**</bpt>functions.json<ept id="p1">**</ept> in the WebJob project.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Here's an example that uses queue for input and a storage table for output:</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>In the next unit, you'll use the WebJobs SDK in your WebJob project.</source>
+        </trans-unit></group></body></file></xliff>

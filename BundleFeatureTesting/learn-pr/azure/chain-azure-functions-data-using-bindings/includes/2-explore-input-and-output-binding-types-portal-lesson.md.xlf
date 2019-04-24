@@ -1,0 +1,137 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-explore-input-and-output-binding-types-portal-lesson.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-explore-input-and-output-binding-types-portal-lesson.cca537e05ed0c5362203e7cd21776be3b03cc6ab.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5d7d15afd5d9c2692119c512a93132eef8fcef79</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\chain-azure-functions-data-using-bindings\includes\2-explore-input-and-output-binding-types-portal-lesson.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Accessing and processing data are key tasks in many software solutions.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Consider some of these scenarios:</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You've been asked to implement a way to move incoming data from Blob storage to Azure Cosmos DB.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You want to post incoming messages to a queue for processing by another component in your enterprise.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Your service needs to grab gamer scores from a queue and update an online scoreboard.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>All of these examples are about moving data.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The data source and destinations differ from scenario to scenario, but the pattern is similar.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You connect to a data source, and you read and write data.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Azure Functions helps you integrate with data and services by using bindings.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>What is a binding?</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In Azure Functions, bindings provide a declarative way to connect to data from within your code.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>They make it easier to integrate with data streams consistently in a function.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can have multiple bindings providing access to different data elements.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This is powerful because you can connect to your data sources without having to code specific connection logic (like database connections or web API interfaces).</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Types of bindings</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>There are two kinds of bindings you can use with functions:</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Input binding<ept id="p1">**</ept> An input binding is a connection to a data <bpt id="p2">**</bpt>source<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Our function can read data from these inputs.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Output binding<ept id="p1">**</ept> An output binding is a connection to a data <bpt id="p2">**</bpt>destination<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Our function can write data to these destinations.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>There are also triggers.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Triggers are special types of input bindings that cause a function to execute.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For example, an Azure Event Grid notification can be configured as a trigger.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>When an event occurs, the function will run.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Types of supported bindings</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>type<ept id="p1">*</ept> of binding defines where we are reading or sending data.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>There is a binding to respond to web requests and a large selection of bindings to interact directly with various Azure services as well as third-party services.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A binding type can be used as an input, an output or both.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For example, a function can write to Azure Blob Storage output binding, but a blob storage update could trigger another function.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Some common binding types are listed below:</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Blob Storage</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Azure Service Bus Queues</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Azure Cosmos DB</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Azure Event Hubs</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>External Files</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>External Tables</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>HTTP endpoints</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>These types are just a sample.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>There are more, plus functions have an extensibility model to add more bindings.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Binding properties</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Three properties are required in all bindings.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You may have to supply additional properties based on the type of binding and storage you are using.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Name<ept id="p1">**</ept> Defines the function parameter through which you access the data.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For example, in a queue input binding, this is the name of the function parameter that receives the queue message content.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Type<ept id="p1">**</ept> Identifies the type of binding, i.e., the type of data or service we want to interact with.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Direction<ept id="p1">**</ept> Indicates the direction data is flowing, i.e., is it an input or output binding?</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Additionally, most binding types also need a fourth property:</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Connection<ept id="p1">**</ept> Provides the name of an app setting key that contains the connection string.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Bindings use connection strings stored in app settings to keep secrets out of the function code.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This makes your code more configurable and secure.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Create a binding</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Bindings are defined in JSON.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A binding is configured in your function's configuration file, which is named <bpt id="p1">*</bpt>function.json<ept id="p1">*</ept> and lives in the same folder as your function code.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Let's examine a sample <bpt id="p1">*</bpt>input binding<ept id="p1">*</ept>:</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>To create this binding, we:</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Create a binding in our <bpt id="p1">*</bpt>function.json<ept id="p1">*</ept> file.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Provide the value for the <ph id="ph1">`name`</ph> variable.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>In this example, the variable holds the blob data.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Provide the storage <ph id="ph1">`type`</ph>.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>In the preceding example, we are using Blob storage.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Provide the <ph id="ph1">`path`</ph>, which specifies the container and the item name that goes in it.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`path`</ph> property is required for blobs.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Provide the <ph id="ph1">`connection`</ph> string setting name defined in the application's settings file.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>It's used as a key to find the connection string to connect to your storage account.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Define the <ph id="ph1">`direction`</ph> as <ph id="ph2">`in`</ph>.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>It reads data from the blob.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Bindings are used to connect to data in your function.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>In this example, we used an input binding to connect user images to be processed by our function as thumbnails.</source>
+        </trans-unit></group></body></file></xliff>

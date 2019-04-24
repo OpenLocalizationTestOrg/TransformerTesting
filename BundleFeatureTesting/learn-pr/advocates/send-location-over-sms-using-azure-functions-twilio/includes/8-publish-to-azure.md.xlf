@@ -1,0 +1,105 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="8-publish-to-azure.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8-publish-to-azure.a0547f8364891f9682ca6326ce8d58937f0c41c5.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">080e3b0d6e28bfd44e3c1471454784ebbd34e6b9</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\send-location-over-sms-using-azure-functions-twilio\includes\8-publish-to-azure.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The app and Azure Functions are now complete and running locally.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll publish the function to Azure to run in the cloud.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You'll publish your function from Visual Studio.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This is a great way to get started for proof-of-concepts, prototypes, and learning, but for a production-quality app you should <bpt id="p1">**</bpt>not<ept id="p1">**</ept> use this method.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You should use some form of CI-based deployment.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can read more about doing this in the <bpt id="p1">[</bpt>Azure Functions Deployment docs<ept id="p1">](https://docs.microsoft.com/azure/azure-functions/functions-continuous-deployment?azure-portal=true)</ept>.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Publishing your app to Azure</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Azure Functions can be published to Azure from inside Visual Studio.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Stop the local Azure Functions runtime if it's still running from the previous unit.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Right-click on the <ph id="ph1">`ImHere.Functions`</ph> app in the solution explorer and select <bpt id="p1">*</bpt>Publish...<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Right-click publish on the Functions app</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>Pick a publish target<ept id="p1">**</ept> dialog, select <bpt id="p2">*</bpt>Azure Function App<ept id="p2">*</ept>, and for <bpt id="p3">**</bpt>Azure App Service<ept id="p3">**</ept>, select <bpt id="p4">*</bpt>Create New<ept id="p4">*</ept>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Publish<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Creating a new Azure App Service to publish to</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Sign in to your Azure account.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Enter a name for you app.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Select your <bpt id="p1">_</bpt>Subscription<ept id="p1">_</ept>, <bpt id="p2">_</bpt>Resource Group<ept id="p2">_</ept>, <bpt id="p3">_</bpt>Hosting Plan<ept id="p3">_</ept>, and <bpt id="p4">_</bpt>Storage Account<ept id="p4">_</ept>.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Create<ept id="p1">**</ept> to provision all the resources on Azure and publish your Azure Functions app.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Create the App Service</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You may be asked if you want to update the functions version on Azure.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If this dialog appears, select <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> to ensure your function app is published with the latest Azure Functions runtime version.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">![</ph>The update Azure Functions dialog<ph id="ph2">](../media/8-update-functions-on-azure.png)</ph></source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Provisioning will take a couple of minutes to complete.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The following resources will be provisioned:</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A storage account to store the files needed for the Azure Functions app</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>An App Service plan to manage the compute resources needed by the Azure Functions app</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The App Service that runs the Azure Functions</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The function will now be published and available to call at <bpt id="p1">**</bpt>https://<ph id="ph1">\&lt;</ph>your-app-name<ph id="ph2">\&gt;</ph>.azurewebsites.net/api/SendLocation<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Configuring your app</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>When the Azure Functions was running locally, it was using Twilio credentials that were stored in a <ph id="ph1">`local.settings.json`</ph> file.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>As the name suggests, this file is for local settings, not Azure settings.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Before the Azure Functions can be called inside Azure, the <ph id="ph1">`TwilioAccountSid`</ph> and <ph id="ph2">`TwilioAuthToken`</ph> settings need to be configured.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>From the Publish tab, click the <bpt id="p1">**</bpt>Manage Application Settings<ept id="p1">**</ept> option.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The Manage Application Settings option</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Application Settings<ept id="p1">**</ept> dialog will show application settings with both a local and remote value - the local coming from your <ph id="ph1">`local.settings.json`</ph> file, and the remote value is the one your function will use when it is hosted in Azure.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Copy the values from the <bpt id="p1">*</bpt>Local<ept id="p1">*</ept> to the <bpt id="p2">*</bpt>Remote<ept id="p2">*</ept> boxes for the <bpt id="p3">**</bpt>TwilioAccountSid<ept id="p3">**</ept> and <bpt id="p4">**</bpt>TwilioAuthToken<ept id="p4">**</ept> values.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Setting the Twilio credentials in the application settings</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This will publish the values to the Azure Functions app.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Pointing the mobile app to Azure</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>From the Publish tab, copy the <bpt id="p1">**</bpt>Site URL<ept id="p1">**</ept> using the <bpt id="p2">**</bpt>Copy to clipboard<ept id="p2">**</ept> button next to the value.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Copy the site URL from the publish tab</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Open the <ph id="ph1">`MainViewModel`</ph> from the <ph id="ph2">`ImHere`</ph> project.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Update the value of the <ph id="ph1">`baseUrl`</ph> field to be the site URL copied from the Publish tab.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Test it out</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Set the <ph id="ph1">`ImHere.UWP`</ph> app as the startup app and run it.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Enter a phone number and click the <bpt id="p1">**</bpt>Send Location<ept id="p1">**</ept> button.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>You should receive the location as an SMS message.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If you get back a <bpt id="p1">*</bpt>Service Unavailable<ept id="p1">*</ept> error, check what version of the "Microsoft.Azure.WebJobs.Extensions.Twilio" NuGet package your functions app is using, it should be 3.0.0-rc1, NOT 3.0.0.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If you get back a <bpt id="p1">*</bpt>Service Unavailable<ept id="p1">*</ept> error, check what version of the "Microsoft.Azure.WebJobs.Extensions.Twilio" NuGet package your functions app is using, it should be 3.0.0-rc1, <bpt id="p2">**</bpt>NOT<ept id="p2">**</ept> 3.0.0.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>In this unit, you learned how to publish an Azure Functions project to Azure from inside Visual Studio and configure application settings.</source>
+        </trans-unit></group></body></file></xliff>

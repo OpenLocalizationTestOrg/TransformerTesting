@@ -1,0 +1,135 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-exercise-connect-to-a-linux-vm-using-ssh.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-exercise-connect-to-a-linux-vm-using-ssh.d8b744442bcd38ff6508df92f770f9c4f5c6551c.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ad6bd50fe6161df0b717b6936ecc6ca8d9fa9c85</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-linux-virtual-machine-in-azure\includes\6-exercise-connect-to-a-linux-vm-using-ssh.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Let's connect to our Linux VM with SSH, and configure Apache, so we have a running web server.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Get the public IP address of the VM</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept>, ensure the <bpt id="p2">**</bpt>Overview<ept id="p2">**</ept> panel for the virtual machine that you created earlier is open.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can find the VM under <bpt id="p1">**</bpt>All Resources<ept id="p1">**</ept> if you need to open it.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The overview panel allows you to</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>See if the VM is running</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Stop or restart the VM</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Get the public IP address of the VM</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>See the activity of the CPU, disk, and network</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Connect<ept id="p1">**</ept> button at the top of the pane.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Connect to virtual machine<ept id="p1">**</ept> panel, note the <bpt id="p2">**</bpt>IP address<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Port number<ept id="p3">**</ept> settings.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>SSH<ept id="p1">**</ept> tab, you will also find the command you need to execute locally to connect to the VM.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Copy the command to the clipboard.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Azure portal showing the Connect to a virtual machine panel configured to connect via SSH to the newly created Linux VM.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Connect with SSH</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Paste the command from your clipboard into the Azure Cloud Shell.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>It should look something like the sample below; however, it will have a different IP address (and perhaps a different username if you didn't use <bpt id="p1">**</bpt>jim<ept id="p1">**</ept>!):</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The first time we connect, SSH will ask us about authenticating against an unknown host.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>SSH is telling you that you've never connected to this server before.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If that's true, then it's perfectly normal, and you can respond with <bpt id="p1">**</bpt>yes<ept id="p1">**</ept> to save the fingerprint of the server in the known host file:</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This command will open an SSH connection and place you at a shell command prompt for Linux.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Try executing a few Linux commands</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`ls -la /`</ph> to show the root of the disk</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`ps -l`</ph> to show all the running processes</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`dmesg`</ph> to list all the kernel messages</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`lsblk`</ph> to list all the block devices - here you will see your drives</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The more interesting thing to observe in the list of drives is what is <bpt id="p1">_</bpt>missing<ept id="p1">_</ept>.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Notice that our <bpt id="p1">**</bpt>Data<ept id="p1">**</ept> drive (<ph id="ph1">`sdc`</ph>) is present but not mounted into the file system.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Azure added a VHD but didn't initialize it.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Initialize data disks</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Any additional drives you create from scratch need to be initialized and formatted.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The process for initializing is identical to a physical disk:</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>First, identify the disk.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>We did that above.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You could also use <ph id="ph1">`dmesg | grep SCSI`</ph>, which will list all the messages from the kernel for SCSI devices.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Once you know the drive (<ph id="ph1">`sdc`</ph>) you need to initialize, you can use <ph id="ph2">`fdisk`</ph> to do that.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You will need to run the command with <ph id="ph1">`sudo`</ph> and supply the disk you want to partition.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>We can use the following command to create a new primary partition:</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Next, we need to write a file system to the partition with the <ph id="ph1">`mkfs`</ph> command.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Finally, we need to mount the drive to the file system.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Let's assume we will have a <ph id="ph1">`data`</ph> folder.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Let's create the mount point folder and mount the drive.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>We initialized the disk and mounted it.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If you are interested in more details on this process go through the <bpt id="p1">**</bpt>Add and size disks in Azure virtual machines<ept id="p1">**</ept> module.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This task is covered in more detail there.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Install software onto the VM</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>As you can see, SSH allows you to work with the Linux VM just like a local computer.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>You can administer this VM as you would any other Linux computer: installing software, configuring roles, adjusting features, and other everyday tasks.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Let's focus on installing software for a moment.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>You can also install software from the internet when you are connected to the VM via SSH.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Azure machines are, by default, internet connected.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>You can use standard commands to install popular software packages directly from standard repositories.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Let's use this approach to install Apache.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Install the Apache web server</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Apache is available within Ubuntu's default software repositories, so we will install it using conventional package management tools:</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Start by updating the local package index to reflect the latest upstream changes:</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Next, install Apache:</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>It should start automatically - we can check the status using <ph id="ph1">`systemctl`</ph>:</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`systemctl`</ph> command returns something like:</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>It's trivial to execute commands like this, however it's a manual process - if we always need to install some software, you might consider automating the process using scripting.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Finally, we can try retrieving the default page through the public IP address.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>However, even though the web server is running on the VM, you won't get a valid connection or response.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Do you know why?</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>We need to perform one more step to be able to interact with the web server.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Our virtual network is blocking the inbound request.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>We can change that through configuration.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Let's look at allowing the inbound request next.</source>
+        </trans-unit></group></body></file></xliff>

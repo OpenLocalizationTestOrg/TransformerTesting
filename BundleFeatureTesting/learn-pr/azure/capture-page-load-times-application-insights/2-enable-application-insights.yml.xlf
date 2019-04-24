@@ -1,0 +1,55 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-enable-application-insights.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-enable-application-insights.5dcbfc6023efac530b884e6541ab3a1324822ca8.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5a6906ed441e73161bd3c1798b547151c41ce69d</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\capture-page-load-times-application-insights\2-enable-application-insights.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights.2-enable-application-insights">
+          <source>Enable Application Insights on an Azure web app</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights.2-enable-application-insights">
+          <source>Enable Application Insights on an Azure web app</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights.2-enable-application-insights">
+          <source>How to enable Application Insights for an existing Azure web app.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights.2-enable-application-insights">
+          <source>Enable Application Insights on an Azure web app</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights.2-enable-application-insights">
+          <source>You want to make sure that admins know as soon as a web app becomes overloaded.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights.2-enable-application-insights">
+          <source>Which feature of Application Insights should you use?</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights.2-enable-application-insights">
+          <source>Alerts</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights.2-enable-application-insights">
+          <source>You can create an alert that triggers when a condition is satisfied - for example, when the web app is overloaded.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights.2-enable-application-insights">
+          <source>When the alert triggers, you can configure it to send an email, for example, to inform admins.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights.2-enable-application-insights">
+          <source>Live metrics streams</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights.2-enable-application-insights">
+          <source>Live metrics streams will show whether a web app is overloaded but only when admins are looking at them.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights.2-enable-application-insights">
+          <source>To ensure admins know about overloads as soon as the app is overloaded, use an alert.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights.2-enable-application-insights">
+          <source>Usage Analysis</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights.2-enable-application-insights">
+          <source>Usage Analysis will show past periods of heavy web app utilization, but only when admins review it.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights.2-enable-application-insights">
+          <source>To ensure admins know about overloads as soon as the app is overloaded, use an alert.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights.2-enable-application-insights">
+          <source>You have a Linux-based web app that runs in the Azure App Service.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights.2-enable-application-insights">
+          <source>You want to display basic performance data in an Application Insights dashboard.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights.2-enable-application-insights">
+          <source>Which method should you use to instrument your app?</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights.2-enable-application-insights">
+          <source>Runtime instrumentation</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights.2-enable-application-insights">
+          <source>Runtime instrumentation is available only for Windows apps because it relies on features of IIS.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights.2-enable-application-insights">
+          <source>For Linux-based apps, which run on Apache, you need to use build-time instrumentation.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights.2-enable-application-insights">
+          <source>Automatic client-side telemetry</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights.2-enable-application-insights">
+          <source>Automatic client-side telemetry is available only for Windows apps because it relies on features of IIS.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights.2-enable-application-insights">
+          <source>For Linux-based apps, which run on Apache, you need to use build-time instrumentation.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights.2-enable-application-insights">
+          <source>Build-time instrumentation</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights.2-enable-application-insights">
+          <source>Because your app is based on Linux, you need to use build-time instrumentation.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.capture-page-load-times-application-insights.2-enable-application-insights">
+          <source>Runtime instrumentation and automatic client-side telemetry are available only for Windows apps.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.758e675fbf7bf96acae8b4bac4b00514fd8a034c.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ad436512b5fe0a59d461463468494e48e40ff3e4</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\communicate-between-apps-with-azure-queue-storage\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Imagine you work for a major news organization that reports breaking news alerts.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Our company employs a worldwide network of journalists that are constantly sending updates through a web portal and a mobile app.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A middle tier web service layer then takes those alert updates and publishes them online through several channels.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>However, it's been noticed the system is missing alerts when globally significant events occur.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This is a <bpt id="p1">_</bpt>huge<ept id="p1">_</ept> problem because we're being "scooped" by our competition!</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You've been hand-selected as the company's top developer to identify and fix the problem.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The middle tier provides plenty of capacity to handle normal loads.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>However, a look at the server logs revealed the system was overloaded when several journalists tried to upload larger breaking stories at the same time.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Some writers complained the portal became unresponsive, and others said they lost their stories altogether.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You've spotted a direct correlation between the reported issues and the spike in demand on the middle tier servers.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Clearly, you need a way to handle these unexpected peaks.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You don't want to add more instances of the website and middle tier web service because they're expensive and, under normal conditions, redundant.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>We could dynamically spin up instances, but this takes time and we'd have the issue waiting for new servers to come online.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can solve this problem by using Azure Queue storage.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A storage queue is a high-performance message buffer that can act as a broker between the front-end components (the "producers") and the middle tier (the "consumer").</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Our front-end components place a message for each new alert into a queue.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The middle tier then retrieves these messages one at a time from the queue for processing.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>At times of high-demand, the queue may grow in length, but no stories will be lost, and the application will remain responsive.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>When demand drops back to normal levels, the web service will catch up by working through the queue backlog.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Let's learn how to use Azure Queue storage to handle high demand and improve resilience in your distributed applications.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Create an Azure Storage account that supports queues.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Create a queue using C# and the Azure Storage Client Library for .NET.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Add, retrieve, and remove messages from a queue using C# and the Azure Storage Client Library for .NET.</source>
+        </trans-unit></group></body></file></xliff>

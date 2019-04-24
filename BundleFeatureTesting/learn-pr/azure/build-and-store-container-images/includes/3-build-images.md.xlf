@@ -1,0 +1,55 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-build-images.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-build-images.8b0b6ffef27a1add32da9beb5c0d7fed95c6d294.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a1f4f3594cf2a764fe334d353d8ac944cefd20c5</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\build-and-store-container-images\includes\3-build-images.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Suppose your company makes use of container images to manage compute workloads.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You use the local Docker tooling to build your container images.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You can now use Azure Container Registry Tasks to build these containers.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Container Registry Tasks also allows for DevOps process integration with automated build on source code commit.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Let's automate the creation of a container image using Azure Container Registry Tasks.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Create a container image with Azure Container Registry Tasks</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>A standard Dockerfile provides build instructions.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Azure Container Registry Tasks allows you to reuse any Dockerfile currently in your environment, including multi-staged builds.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>We'll use a new Dockerfile for our example.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The first step is to create a new file named <ph id="ph1">`Dockerfile`</ph>.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can use any text editor to edit the file.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>We'll use Cloud Shell Editor for this example.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Enter the following command into the Cloud Shell window to open the editor.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Copy the following contents into the editor.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Use the key combination <bpt id="p1">&lt;kbd&gt;</bpt>Ctrl+S<ept id="p1">&lt;/kbd&gt;</ept> (<bpt id="p2">&lt;kbd&gt;</bpt>Cmd+S<ept id="p2">&lt;/kbd&gt;</ept> for Mac) to save your changes.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Name the file <ph id="ph1">`Dockerfile`</ph> when prompted.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This configuration adds a Node.js application to the <ph id="ph1">`node:9-alpine`</ph> image.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>After that, it configures the container to serve the application on port 80 via the <bpt id="p1">*</bpt>EXPOSE<ept id="p1">*</ept> instruction.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Run the following Azure CLI command to build the container image from the Dockerfile.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>$ACR_NAME<ept id="p1">*</ept> is the variable you defined in the preceding unit to hold your container registry name.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Don't forget the period <ph id="ph1">`.`</ph> at the end of the preceding command.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>It represents the source directory containing the docker file, which in our case is the current directory.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Since we didn't specify the name of a file with the --file parameter, the command looks for a file called <bpt id="p1">**</bpt>Dockerfile<ept id="p1">**</ept> in our current directory.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Verify the image</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to verify that the image has been created and stored in the registry.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The output from this command should look similar to the following:</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`helloacrtasks`</ph> image is now ready to be used.</source>
+        </trans-unit></group></body></file></xliff>

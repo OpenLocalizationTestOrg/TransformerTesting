@@ -1,0 +1,23 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.d7711557b6dd38ab5789529cf2958ea7188bfb52.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7b611b7b4676725b9affb1521d05bb81c227ea4a</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\introduction-to-azure-data-lake-storage\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.data-ai.introduction-to-azure-data-lake-storage">
+          <source>Introduction to Azure Data Lake storage</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.data-ai.introduction-to-azure-data-lake-storage">
+          <source>Learn how Azure Data Lake Storage provides a cloud storage service that is highly available, secure, durable, scalable, and redundant, and brings new efficiencies to processing big data analytics workloads</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.data-ai.introduction-to-azure-data-lake-storage">
+          <source>Introduction to Azure Data Lake storage</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.data-ai.introduction-to-azure-data-lake-storage">
+          <source>Learn how Azure Data Lake Storage provides a cloud storage service that is highly available, secure, durable, scalable, and redundant and brings new efficiencies to processing big data analytics workloads.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.data-ai.introduction-to-azure-data-lake-storage">
+          <source>In this module you will:</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.data-ai.introduction-to-azure-data-lake-storage">
+          <source>Decide when you should use Azure Data Lake Storage Gen2</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.data-ai.introduction-to-azure-data-lake-storage">
+          <source>Create an Azure storage account by using the Azure portal</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.data-ai.introduction-to-azure-data-lake-storage">
+          <source>Compare Azure Data Lake Storage Gen2 and Azure Blob storage</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.data-ai.introduction-to-azure-data-lake-storage">
+          <source>Explore the stages for processing big data by using Azure Data Lake Store</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.data-ai.introduction-to-azure-data-lake-storage">
+          <source>List the supported open-source platforms</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.data-ai.introduction-to-azure-data-lake-storage">
+          <source>None</source>
+        </trans-unit></group></body></file></xliff>

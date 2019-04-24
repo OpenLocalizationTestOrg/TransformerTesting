@@ -1,0 +1,245 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-defense-in-depth.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-defense-in-depth.abf5c0fcfa7bd0a8266474bd432dfcdac48e8ecb.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2a93123a4011af3f0f904c030545ff0e842962a3</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\design-for-security-in-azure\includes\2-defense-in-depth.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>There's no "easy button" for security and no solution that solves all your problems from a security perspective.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Let's imagine that Lamna Healthcare has neglected security in its environment.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The company has realized it needs to put some major focus in this area.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Lamna is not exactly sure where to start, or if it’s possible to just buy a solution to make the environment secure.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The company knows it needs a holistic approach but is unsure what really fits into that.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Here, we'll identify key concepts of defense in depth, identify key security technologies and approaches to support a defense in depth strategy, and discuss how to apply these concepts when architecting your own Azure services.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Defense in depth</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>A layered approach to security</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Defense in depth<ept id="p1">*</ept> is a strategy that employs a series of mechanisms to slow the advance of an attack aimed at acquiring unauthorized access to information.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Each layer provides protection so that if one layer is breached, a subsequent layer is already in place to prevent further exposure.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Microsoft applies a layered approach to security, both in our physical datacenters and across Azure services.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The objective of defense in depth is to protect and prevent information from being stolen by individuals not authorized to access it.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The common principles used to define a security posture are confidentiality, integrity, and availability, known collectively as CIA.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">__</bpt>Confidentiality<ept id="p1">__</ept> - Principle of least privilege.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Restricts access to information only to individuals explicitly granted access.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This information includes protection of user passwords, remote access certificates, and email content.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">__</bpt>Integrity<ept id="p1">__</ept> - The prevention of unauthorized changes to information at rest or in transit.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A common approach used in data transmission is for the sender to create a unique fingerprint of the data using a one-way hashing algorithm.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The hash is sent to the receiver along with the data.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The data's hash is recalculated and compared to the original by the receiver to ensure the data wasn't lost or modified in transit.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">__</bpt>Availability<ept id="p1">__</ept> - Ensure services are available to authorized users.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Denial of service attacks are a prevalent cause of loss of availability to users.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Natural disasters also drive system design to prevent single points of failure and deploy multiple instances of an application to geo-dispersed locations.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Security layers</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Defense in depth can be visualized as a set of concentric rings, with the data to be secured at the center.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Each ring adds an additional layer of security around the data.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This approach removes reliance on any single layer of protection and acts to slow down an attack and provide alert telemetry that can be acted upon, either automatically or manually.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Let's take a look at each of the layers.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>An illustration showing Defense in depth with Data at the center.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The rings of security around data are: application, compute, network, perimeter, identity and access, and physical security.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Data</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>In almost all cases, attackers are after data:</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Stored in a database</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Stored on disk inside virtual machines</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Stored on a SaaS application such as Office 365</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Stored in cloud storage</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>It's the responsibility of those storing and controlling access to data to ensure that it's properly secured.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Often there are regulatory requirements that dictate the controls and processes that must be in place to ensure the confidentiality, integrity, and availability of the data.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Applications</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Ensure applications are secure and free of vulnerabilities</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Store sensitive application secrets in a secure storage medium</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Make security a design requirement for all application development</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Integrating security into the application development life cycle will help reduce the number of vulnerabilities introduced in code.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Encourage all development teams to ensure their applications are secure by default.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Make security requirements non-negotiable.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Compute</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Secure access to virtual machines</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Implement endpoint protection and keep systems patched and current</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Malware, unpatched systems, and improperly secured systems open your environment to attacks.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The focus in this layer is on making sure your compute resources are secure, and that you have the proper controls in place to minimize security issues.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Networking</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Limit communication between resources through segmentation and access controls</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Deny by default</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Restrict inbound internet access and limit outbound where appropriate</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Implement secure connectivity to on-premises networks</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>At this layer, the focus is on limiting the network connectivity across all your resources to only allow what is required.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Segment your resources and use network level controls to restrict communication to only what is needed.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>By limiting this communication, you reduce the risk of lateral movement throughout your network.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Perimeter</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Use distributed denial-of-service (DDoS) protection to filter large-scale attacks before they can cause a denial of service for end users</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Use perimeter firewalls to identify and alert on malicious attacks against your network</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>At the network perimeter, it's about protecting from network-based attacks against your resources.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Identifying these attacks, eliminating their impact, and alerting on them is important to keep your network secure.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Policies &amp; access</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Control access to infrastructure, change control</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Use single sign-on and multi-factor authentication</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Audit events and changes</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The policy &amp; access layer is all about ensuring identities are secure, and that access granted is only what is needed, and changes are logged.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Physical security</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Physical building security and controlling access to computing hardware within the data center is the first line of defense.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>With physical security, the intent is to provide physical safeguards against access to assets.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>This ensures that other layers can't be bypassed, and loss or theft is handled appropriately.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Each layer can implement one or more of the CIA concerns.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Ring</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Example</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Principle</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>1</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Data</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Data encryption at rest in Azure blob storage</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Integrity</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>2</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Application</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>SSL/TLS encrypted sessions</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Integrity</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>3</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Compute</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Regularly apply OS and layered software patches</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Availability</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>4</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Network</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Network security rules</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Confidentiality</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>5</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Perimeter</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>DDoS protection</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Availability</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>6</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Policies &amp; Access</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Azure Active Directory user authentication</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Integrity</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>7</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Physical Security</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Azure data center biometric access controls</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Confidentiality</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Shared responsibilities</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>As computing environments move from customer-controlled datacenters to cloud datacenters, the responsibility of security also shifts.</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Security is now a concern shared by both cloud providers and customers.</source>
+        </trans-unit><trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>An illustration showing how cloud providers and customers share security responsibilities under different types of compute service implementation: on-premises, infrastructure as a service, platform as a service, and software as a service.</source>
+        </trans-unit><trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Continuous improvement</source>
+        </trans-unit><trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The threat landscape is evolving in real time and at massive scale, therefore a security architecture is never complete.</source>
+        </trans-unit><trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Microsoft and our customers require the ability to respond to these threats intelligently, quickly, and at scale.</source>
+        </trans-unit><trans-unit id="212" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure Security Center<ept id="p1">](https://azure.microsoft.com/services/security-center/)</ept> provides customers with unified security management and advanced threat protection to understand and respond to security events on-premises and in Azure.</source>
+        </trans-unit><trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>In turn, Azure customers have a responsibility to continually re-evaluate and evolve their security architecture.</source>
+        </trans-unit><trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Defense in depth at Lamna Healthcare</source>
+        </trans-unit><trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Lamna Healthcare has put a strong focus on defense in depth across all IT teams.</source>
+        </trans-unit><trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Since the organization is responsible for a substantial amount of sensitive health care data, they realize that a comprehensive approach is their best path forward.</source>
+        </trans-unit><trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>They've formed a virtual team, with representatives from each IT team along with their security team, that is focused on driving this across the organization.</source>
+        </trans-unit><trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>They work on educating engineers and architects on vulnerabilities, how to address them, and provide guidance as projects move through the organization.</source>
+        </trans-unit><trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>They realize that this effort is never done, and have put in place regular policy, process, technical, and architectural reviews to ensure they are constantly looking at ways to improve security.</source>
+        </trans-unit><trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>We've looked at what a defense in depth approach to security looks like, what the layers of this approach look like, and what each layer is focused on.</source>
+        </trans-unit><trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Using this approach to secure your architecture will put you on a path forward to ensure you're addressing security comprehensively across your environment instead of focusing on one single layer or technology.</source>
+        </trans-unit></group></body></file></xliff>

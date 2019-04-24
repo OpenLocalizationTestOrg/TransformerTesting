@@ -1,0 +1,67 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-knowledge-check.665bbe13bac5093bc19913a19bd6108464b4738b.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9ab022dc3f69940a953ba5006ccf258fcd8d0d0e</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\handle-transient-errors-in-your-app\3-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>Knowledge check for transient errors</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>Why should an app back-off from trying to read from a database that is responding too slowly?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>The database could be under heavy load, so backing-off could give it time to recover.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>If a database is responding, but taking longer than normal, it could be under excessive load.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>The database server is being upgraded, so retrying will cause the upgrade to fail.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>The database is responding, if the service was being upgraded then the app wouldn't be getting any response.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>Backing-off means that the app can retry the operation quicker, to get a faster response.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>Retrying when a service, or database is slow to respond could make the situation worse by increasing the load on it.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>Why is it important that operations are idempotent if they're being retried?</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>Retrying the operation leads to data being incremented the number of times the operation is processed successfully.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>This is an example of the operation not being idempotent.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>Data can be incorrectly incremented if operations are duplicated.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>If the operation is going to be retried, and previous operations have all failed, the data will be incorrect.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>This is incorrect because idempotent operations don't rely on previous requests working.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>They can be applied once or many times.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>If the operation is going to be retried, and previous operations have been successful, the data won't be duplicated or corrupted.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>Idempotent operations are important to ensure values aren't corrupted if they are applied multiple times.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>What's the main difference between permanent and terminal errors?</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>Permanent errors need to be handled and then quit the app.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>Terminal errors automatically quit the app.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>Permanent errors can allow the app to keep running, since data might be available from cache.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>Terminal errors don't automatically quit the app.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>Permanent errors can be handled by using data from elsewhere.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>Terminal errors mean the app can't continue and should quit.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>With permanent errors, the app can't expect a response from the service, and it should try to get the data from another service or a local cache.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>An app can no longer do anything useful when it receives a terminal error and should therefore quit.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>Permanent errors are unrecoverable, log the data and quit.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>Terminal errors shouldn't log data and quit.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>Permanent errors can allow the app to keep running, data might be available from cache.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn.azure.handle-transient-errors-in-your-app.3-knowledge-check">
+          <source>All errors should log data.</source>
+        </trans-unit></group></body></file></xliff>

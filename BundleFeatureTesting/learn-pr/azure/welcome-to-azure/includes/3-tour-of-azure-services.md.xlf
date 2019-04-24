@@ -1,0 +1,429 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-tour-of-azure-services.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-tour-of-azure-services.cdc33257f8f157880b763fffde394278539cc82e.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e820a1354bf0e76c8e75f08b1e65b86855996cfd</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\welcome-to-azure\includes\3-tour-of-azure-services.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Azure can help you tackle tough business challenges.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You bring your requirements, creativity, and favorite software development tools.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Azure brings a massive global infrastructure that's always available for you to build your applications on.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Let's take a quick tour of the high-level services Azure offers.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Azure: the big picture</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Azure services</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Here's a big-picture view of the available services and features in Azure.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt> <ph id="ph1">![</ph>Diagram showing the big picture view of Azure services<ph id="ph2">](../media/3-azure-services.png)</ph> <ept id="p1">](../media/3-azure-services.png#lightbox)</ept></source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Let's take a closer look at the most commonly-used categories:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Compute</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Networking</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Storage</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Mobile</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Databases</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Web</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Internet of Things</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Big Data</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Artificial Intelligence</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>DevOps</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Compute</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Compute services are often one of the primary reasons why companies move to the Azure platform.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Azure provides a range of options for hosting applications and services.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Here are some examples of compute services in Azure:</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Service name</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Service function</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Azure Virtual Machines</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Windows or Linux virtual machines (VMs) hosted in Azure</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Azure Virtual Machine Scale Sets</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Scaling for Windows or Linux VMs hosted in Azure</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Azure Kubernetes Service</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Enables management of a cluster of VMs that run containerized services</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Azure Service Fabric</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Distributed systems platform.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Runs in Azure or on-premises</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Azure Batch</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Managed service for parallel and high-performance computing applications</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Azure Container Instances</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Run containerized apps on Azure without provisioning servers or VMs</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Azure Functions</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>An event-driven, serverless compute service</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Networking</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Linking compute resources and providing access to applications is the key function of Azure networking.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Networking functionality in Azure includes a range of options to connect the outside world to services and features in the global Microsoft Azure datacenters.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Azure networking facilities have the following features:</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Service name</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Service function</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Azure Virtual Network</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Connects VMs to incoming Virtual Private Network (VPN) connections</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Azure Load Balancer</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Balances inbound and outbound connections to applications or service endpoints</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Azure Application Gateway</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Optimizes app server farm delivery while increasing application security</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Azure VPN Gateway</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Accesses Azure Virtual Networks through high-performance VPN gateways</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Azure DNS</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Provides ultra-fast DNS responses and ultra-high domain availability</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Azure Content Delivery Network</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Delivers high-bandwidth content to customers globally</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Azure DDoS Protection</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Protects Azure-hosted applications from distributed denial of service (DDOS) attacks</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Azure Traffic Manager</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Distributes network traffic across Azure regions worldwide</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Azure ExpressRoute</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Connects to Azure over high-bandwidth dedicated secure connections</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Azure Network Watcher</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Monitors and diagnoses network issues using scenario-based analysis</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Azure Firewall</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Implements high-security, high-availability firewall with unlimited scalability</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Azure Virtual WAN</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Creates a unified wide area network (WAN), connecting local and remote sites</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Storage</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Azure provides four main types of storage services.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>These services are:</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Service name</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Service function</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Azure Blob storage</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Storage service for very large objects, such as video files or bitmaps</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Azure File storage</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>File shares that you can access and manage like a file server</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Azure Queue storage</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>A data store for queuing and reliably delivering messages between applications</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Azure Table storage</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>A NoSQL store that hosts unstructured data independent of any schema</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>These services all share several common characteristics:</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Durable<ept id="p1">**</ept> and highly available with redundancy and replication.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Secure<ept id="p1">**</ept> through automatic encryption and role-based access control.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Scalable<ept id="p1">**</ept> with virtually unlimited storage.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Managed<ept id="p1">**</ept>, handling maintenance and any critical problems for you.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Accessible<ept id="p1">**</ept> from anywhere in the world over HTTP or HTTPS.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Mobile</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Azure enables developers to create mobile backend services for iOS, Android, and Windows apps quickly and easily.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Features that used to take time and increase project risks, such as adding corporate sign-in and then connecting to on-premises resources such as SAP, Oracle, SQL Server, and SharePoint, are now simple to include.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Other features of this service include:</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Offline data synchronization.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Connectivity to on-premises data.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Broadcasting push notifications.</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Autoscaling to match business needs.</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Databases</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Azure provides multiple database services to store a wide variety of data types and volumes.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>And with global connectivity, this data is available to users instantly.</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Service name</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Service function</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Azure Cosmos DB</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Globally distributed database that supports NoSQL options</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Azure SQL Database</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Fully managed relational database with auto-scale, integral intelligence, and robust security</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Azure Database for MySQL</source>
+        </trans-unit><trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Fully managed and scalable MySQL relational database with high availability and security</source>
+        </trans-unit><trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Azure Database for PostgreSQL</source>
+        </trans-unit><trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Fully managed and scalable PostgreSQL relational database with high availability and security</source>
+        </trans-unit><trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>SQL Server on VMs</source>
+        </trans-unit><trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Host enterprise SQL Server apps in the cloud</source>
+        </trans-unit><trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Azure SQL Data Warehouse</source>
+        </trans-unit><trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Fully managed data warehouse with integral security at every level of scale at no extra cost</source>
+        </trans-unit><trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Azure Database Migration Service</source>
+        </trans-unit><trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Migrates your databases to the cloud with no application code changes</source>
+        </trans-unit><trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Azure Cache for Redis</source>
+        </trans-unit><trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Caches frequently used and static data to reduce data and application latency</source>
+        </trans-unit><trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Azure Database for MariaDB</source>
+        </trans-unit><trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Fully managed and scalable MariaDB relational database with high availability and security</source>
+        </trans-unit><trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Web</source>
+        </trans-unit><trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Having a great web experience is critical in today's business world.</source>
+        </trans-unit><trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Azure includes first-class support to build and host web apps and HTTP-based web services.</source>
+        </trans-unit><trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The Azure services focused on web hosting include:</source>
+        </trans-unit><trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Service Name</source>
+        </trans-unit><trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Azure App Service</source>
+        </trans-unit><trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Quickly create powerful cloud web-based apps</source>
+        </trans-unit><trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Azure Notification Hubs</source>
+        </trans-unit><trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Send push notifications to any platform from any back end.</source>
+        </trans-unit><trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Azure API Management</source>
+        </trans-unit><trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Publish APIs to developers, partners, and employees securely and at scale.</source>
+        </trans-unit><trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Azure Search</source>
+        </trans-unit><trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Fully managed search as a service.</source>
+        </trans-unit><trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Web Apps feature of Azure App Service</source>
+        </trans-unit><trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Create and deploy mission-critical web apps at scale.</source>
+        </trans-unit><trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Azure SignalR Service</source>
+        </trans-unit><trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Add real-time web functionalities easily.</source>
+        </trans-unit><trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Internet of Things</source>
+        </trans-unit><trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>People are able to access more information than ever before.</source>
+        </trans-unit><trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>It began with personal digital assistants (PDAs), then morphed into smartphones.</source>
+        </trans-unit><trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Now there are smart watches, smart thermostats, even smart refrigerators.</source>
+        </trans-unit><trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Personal computers used to be the norm.</source>
+        </trans-unit><trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Now the internet allows any item that's online-capable to access valuable information.</source>
+        </trans-unit><trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>This ability for devices to garner and then relay information for data analysis is referred to as the Internet of Things (IoT).</source>
+        </trans-unit><trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>There are a number of services that can assist and drive end-to-end solutions for IoT on Azure.</source>
+        </trans-unit><trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Service Name</source>
+        </trans-unit><trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>IoT Central</source>
+        </trans-unit><trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Fully-managed global IoT software as a service (SaaS) solution that makes it easy to connect, monitor, and manage your IoT assets at scale</source>
+        </trans-unit><trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Azure IoT Hub</source>
+        </trans-unit><trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Messaging hub that provides secure communications and monitoring between millions of IoT devices</source>
+        </trans-unit><trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>IoT Edge</source>
+        </trans-unit><trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Push your data analysis onto your IoT devices instead of in the cloud allowing them to react more quickly to state changes.</source>
+        </trans-unit><trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Big Data</source>
+        </trans-unit><trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Data comes in all formats and sizes.</source>
+        </trans-unit><trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>When we talk about Big Data, we're referring to <bpt id="p1">_</bpt>large<ept id="p1">_</ept> volumes of data.</source>
+        </trans-unit><trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Data from weather systems, communications systems, genomic research, imaging platforms, and many other scenarios generate hundreds of gigabytes of data.</source>
+        </trans-unit><trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>This amount of data makes it hard to analyze and make decisions around.</source>
+        </trans-unit><trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>It's often so large that traditional forms of processing and analysis are no longer appropriate.</source>
+        </trans-unit><trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Open source cluster technologies have been developed to deal with these large data sets.</source>
+        </trans-unit><trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Microsoft Azure supports a broad range of technologies and services to provide big data and analytic solutions.</source>
+        </trans-unit><trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Service Name</source>
+        </trans-unit><trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Azure SQL Data Warehouse</source>
+        </trans-unit><trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Run analytics at a massive scale using a cloud-based Enterprise Data Warehouse (EDW) that leverages massive parallel processing (MPP) to run complex queries quickly across petabytes of data</source>
+        </trans-unit><trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Azure HDInsight</source>
+        </trans-unit><trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Process massive amounts of data with managed clusters of Hadoop clusters in the cloud</source>
+        </trans-unit><trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Azure Databricks (preview)</source>
+        </trans-unit><trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Collaborative Apache Spark–based analytics service that can be integrated with other Big Data services in Azure.</source>
+        </trans-unit><trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Artificial Intelligence</source>
+        </trans-unit><trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Artificial Intelligence, in the context of cloud computing, is based around a broad range of services, the core of which is Machine Learning.</source>
+        </trans-unit><trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Machine Learning is a data science technique that allows computers to use existing data to forecast future behaviors, outcomes, and trends.</source>
+        </trans-unit><trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Using machine learning, computers learn without being explicitly programmed.</source>
+        </trans-unit><trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Forecasts or predictions from machine learning can make apps and devices smarter.</source>
+        </trans-unit><trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>For example, when you shop online, machine learning helps recommend other products you might like based on what you've purchased.</source>
+        </trans-unit><trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Or when your credit card is swiped, machine learning compares the transaction to a database of transactions and helps detect fraud.</source>
+        </trans-unit><trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>And when your robot vacuum cleaner vacuums a room, machine learning helps it decide whether the job is done.</source>
+        </trans-unit><trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Some of the most common Artificial Intelligence and Machine Learning service types in Azure are:</source>
+        </trans-unit><trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Service Name</source>
+        </trans-unit><trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Azure Machine Learning Service</source>
+        </trans-unit><trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Cloud-based environment you can use to develop, train, test, deploy, manage, and track machine learning models.</source>
+        </trans-unit><trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>It can auto-generate a model and auto-tune it for you.</source>
+        </trans-unit><trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>It will let you start training on your local machine, and then scale out to the cloud</source>
+        </trans-unit><trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Azure Machine Learning Studio</source>
+        </trans-unit><trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Collaborative, drag-and-drop visual workspace where you can build, test, and deploy machine learning solutions using pre-built machine learning algorithms and data-handling modules</source>
+        </trans-unit><trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>A closely related set of products are the <bpt id="p1">_</bpt>cognitive services<ept id="p1">_</ept>.</source>
+        </trans-unit><trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>These are pre-built APIs you can leverage in your applications to solve complex problems.</source>
+        </trans-unit><trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Service Name</source>
+        </trans-unit><trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Vision</source>
+        </trans-unit><trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Image-processing algorithms to smartly identify, caption, index, and moderate your pictures and videos.</source>
+        </trans-unit><trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Speech</source>
+        </trans-unit><trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Convert spoken audio into text, use voice for verification, or add speaker recognition to your app.</source>
+        </trans-unit><trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Knowledge mapping</source>
+        </trans-unit><trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Map complex information and data in order to solve tasks such as intelligent recommendations and semantic search.</source>
+        </trans-unit><trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Bing Search</source>
+        </trans-unit><trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Add Bing Search APIs to your apps and harness the ability to comb billions of webpages, images, videos, and news with a single API call.</source>
+        </trans-unit><trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Natural Language processing</source>
+        </trans-unit><trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Allow your apps to process natural language with pre-built scripts, evaluate sentiment and learn how to recognize what users want.</source>
+        </trans-unit><trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>DevOps</source>
+        </trans-unit><trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>DevOps (Development and Operations) brings together people, processes, and technology, automating software delivery to provide continuous value to your users.</source>
+        </trans-unit><trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>Azure DevOps Services allows you to create <bpt id="p1">_</bpt>build<ept id="p1">_</ept> and <bpt id="p2">_</bpt>release<ept id="p2">_</ept> pipelines that provide continuous integration, delivery, and deployment for your applications.</source>
+        </trans-unit><trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>You can integrate repositories and application tests, perform application monitoring, and work with build artifacts.</source>
+        </trans-unit><trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>You can also work with and backlog items for tracking, automate infrastructure deployment and integrate a range of third-party tools and services such as Jenkins and Chef.</source>
+        </trans-unit><trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>All of these functions and many more are closely integrated with Azure to allow for consistent, repeatable deployments for your applications to provide streamlined build and release processes.</source>
+        </trans-unit><trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Some of the main DevOps services available with Azure are Azure DevOps Services and Azure DevTest Labs.</source>
+        </trans-unit><trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>Service Name</source>
+        </trans-unit><trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Azure DevOps</source>
+        </trans-unit><trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Azure DevOps Services (formerly known as Visual Studio Team Services, or VSTS), provides development collaboration tools including high-performance pipelines, free private Git repositories, configurable Kanban boards, and extensive automated and cloud-based load testing</source>
+        </trans-unit><trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Azure DevTest Labs</source>
+        </trans-unit><trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Quickly create on-demand Windows and Linux environments you can use to test or demo your applications directly from your deployment pipelines</source>
+        </trans-unit></group></body></file></xliff>

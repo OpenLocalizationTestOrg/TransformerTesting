@@ -1,0 +1,17 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-summary.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-summary.445b10f594fefca936996f95ad260ea1aeb78f82.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c1a3b95df33ae8c102e3b7cce8ef77acd0dbc80f</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\intro-to-azure-machine-learning-service\includes\7-summary.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You learned that the Azure Machine Learning service provides callable services to scale, monitor, and deploy machine learning models.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>It's meant to augment and extend the data science pipeline with integrated Azure services.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>By using the Azure Machine Learning service SDK, you can use any of the services you need when you need them.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can start model development on your local computer with the Python tools and open-source frameworks of your choice.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can then use the Azure Machine Learning service via Python modules to speed up model training and evaluation, hyperparameter tuning, and deployment, complete with a callable REST API.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You learned how the Azure Machine Learning service applies to various steps of the data science process to create an automated machine learning pipeline.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You learned how to create an Azure Machine Learning workspace by using the portal and directly in your Python script.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>A workspace is a container for the objects that your experiments need.</source>
+        </trans-unit></group></body></file></xliff>

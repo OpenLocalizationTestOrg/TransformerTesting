@@ -1,0 +1,35 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-what-are-hyperparameters.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-what-are-hyperparameters.398a4bfe0df5e7260722fad23d255cbc083cb810.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f8a5b4b393748f0fb4e4fab73af665af2720307b</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\train-local-model-with-azure-mls\includes\5-what-are-hyperparameters.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The term <bpt id="p1">_</bpt>hyperparameters<ept id="p1">_</ept> was mentioned in the prior unit but we didn't stop and explore what they are.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Hyperparameters are <bpt id="p1">**</bpt>parameters<ept id="p1">**</ept> that cannot be directly learned from the regular training process.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>For example, to train a decision tree, there are many hyperparameters to tune such as <bpt id="p1">_</bpt>splitter<ept id="p1">_</ept>, which is the strategy behind splitting at each node, and <bpt id="p2">_</bpt>max_depth<ept id="p2">_</ept> which defines the maximum depth of the tree.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Another example would be <bpt id="p1">[</bpt>random forest<ept id="p1">](https://en.wikipedia.org/wiki/Random_forest)</ept> algorithm, a collection of decision trees.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In random forest, the number of trees and the depth of each tree would also be hyperparameters.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Hyperparameters are usually fixed before the actual training process begins, while the actual parameters are learned during the training process.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In machine learning and deep learning use cases, sometimes the performance of the model depends heavily on the selected hyperparameter values, including training scheme parameters such as learning rate, batch size, and model architecture hyperparameters, such as the number of nodes in a deep neural network.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>How are hyperparameters decided?</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Though there's much active research in this space, in practice, data scientists often tune those hyperparameters using a technique called grid-searching, then observe the difference between the evaluation metrics for different model training executions and select the hyperparameter values that provide the best result.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>As you can imagine, hand tuning and exploring those hyperparameters can be time-consuming if there are many hyperparameters to tune.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This is because the search space is vast, and the evaluation of each configuration can be expensive.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In Azure Machine Learning, you can automate hyperparameter exploration by using the <bpt id="p1">**</bpt>HyperDrive service<ept id="p1">**</ept> to save significant time and resources.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>What is HyperDrive?</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>HyperDrive is a built-in service that automatically launches multiple experiments in parallel each with different parameter configurations.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Azure Machine Learning then automatically finds the configuration that results in the best performance measured by the metric you choose.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The service will terminate poorly performing training runs to minimize compute resources usage.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Using HyperDrive is beyond the scope of this module but if you would like to explore this topic, you can use the sample notebook referenced in the summary that provides a detailed walk through of using the service.</source>
+        </trans-unit></group></body></file></xliff>

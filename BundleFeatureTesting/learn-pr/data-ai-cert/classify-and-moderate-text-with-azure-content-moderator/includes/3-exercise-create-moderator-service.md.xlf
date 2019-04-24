@@ -1,0 +1,39 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-exercise-create-moderator-service.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-exercise-create-moderator-service.4a5e995a74173d1f235058c6ca4f27b962f98f67.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bcd7e16bc3bdfecfebee7c6546c724bde73cb667</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\classify-and-moderate-text-with-azure-content-moderator\includes\3-exercise-create-moderator-service.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Before you can begin to test content moderation or integrate it into your custom applications, you need to create and subscribe to a Content Moderator resource and get the subscription key for accessing the resource.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In this exercise, you'll create a new Content Moderator resource in the Azure portal.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Create and subscribe to a Content Moderator resource</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Sign in to the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com?azure-portal=true)</ept>.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In the left pane, select <bpt id="p1">**</bpt>Create a resource<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In the search box, enter <bpt id="p1">**</bpt>Content Moderator<ept id="p1">**</ept>, and then press Enter.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>From the search results, select <bpt id="p1">**</bpt>Content Moderator<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Create<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Enter a unique name for your resource, choose a subscription, and select a location close to you.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>F0<ept id="p1">**</ept> pricing tier for this resource, then choose <bpt id="p2">**</bpt>S0<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Create a new resource group named <bpt id="p1">**</bpt>LearnRG<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Create<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Specify the settings for the Content Moderator resource</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The resource will take a few minutes to deploy.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>After it does, go to the new resource.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Copy the subscription key</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To access your Content Moderator resource, you'll need a subscription key:</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>In the left pane, under <bpt id="p1">**</bpt>RESOURCE MANAGEMENT<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Keys<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Copy one of the subscription key values for later use.</source>
+        </trans-unit></group></body></file></xliff>

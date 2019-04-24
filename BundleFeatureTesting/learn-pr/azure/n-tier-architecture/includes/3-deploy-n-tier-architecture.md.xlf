@@ -1,0 +1,137 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-deploy-n-tier-architecture.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-deploy-n-tier-architecture.7f1e42d573b865704f9b6372f16403f0c10fa809.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cff22252caf46d244c2a8ef6c7add7733a4d05c8</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\n-tier-architecture\includes\3-deploy-n-tier-architecture.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Remember our scenario of migrating an application from on-premises to Azure.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>What might this architecture look like?</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Your organization has a non-critical application that is a good candidate try out. It's an application written to solve the all-too-common problem of picking what's for lunch.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Think of the last time you went out to lunch with a group of friends or colleagues.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Did you find it easy to make a decision or did you spend a lot of time trying to figure out what everyone really meant when they said "I like everything"?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Let's deploy an application based on a three-tier architecture that might help you solve this problem.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This application that lets you make lunch suggestions and everyone can vote for their preferred choice.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>We've created a template for this application that deploys each tier as Azure resources, then deploys the actual code.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This is an ASP.NET Core MVC application deployed on Linux servers, but this architectural style can be used regardless of the underlying OS platforms or SDK.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Here's a high-level visualization of what is deployed with this template.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Visualization of the N-tier architecture to be deployed in this unit</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Deploy an N-tier architecture</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Run the following command to start the deployment.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`az group deployment create`</ph> command starts a deployment into our sandbox resource group using the template file and parameters we specify.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>We also specify a random 32 character string generated from the <ph id="ph1">`head /dev/urandom | tr -dc A-Za-z0-9 | head -c 32`</ph> command as the password parameter.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The deployment takes approximately 5 minutes to complete.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>View deployed resources and test the application</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Once the deployment has completed, test the application.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Run the following command, which will return the URL for the app.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Open a web browser and visit the site.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You see a box where you can add food choices.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Once an option is added, clicking it adds a vote.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Screenshot of the sample voting application</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Three tiers of "What's For Lunch?"</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This application is intentionally minimal in its complexity.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>It's a fun application, but still demonstrates a three-tier architecture.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The template creates two Virtual Machines (VMs), an Azure SQL database, and the resources needed to support these resources, such as disks, NICs, and virtual networks.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>It also deploys the code to run the application on each tier.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The virtual network we've deployed has two subnets, one for the presentation tier and one for the application tier, providing a security boundary for each tier.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>We also applied tags to the resources as part of the deployment to reflect the tier the resource is supporting (<ph id="ph1">`tier:presentation`</ph>, <ph id="ph2">`tier:application`</ph>, <ph id="ph3">`tier:data`</ph>).</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Tags are a method of applying metadata to Azure resources, and in this case they allow us to easily filter the resources for each tier.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Let's look closer at each tier.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Here's a detailed visualization of the resources we just deployed.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Visualization of the N-tier architecture to be deployed in this unit</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Presentation tier</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Run the following command to list out the presentation tier resources.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In the three-tier architecture we've been referencing, this represents the presentation tier.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The code responsible for the web interface was deployed on this tier, it presents the UI and directly handles user requests.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This tier is only concerned with the presentation of the web site to the user.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>It doesn't have direct access to the data, and doesn't include business logic.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>We've deployed a web server called <bpt id="p1">**</bpt>demo-web-vm<ept id="p1">**</ept> that is running the web site we're accessing.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The server has a network interface, <bpt id="p1">**</bpt>demo-web-vm-nic<ept id="p1">**</ept>, that has a public IP address, <bpt id="p2">**</bpt>demo-web-vm-nic-pip<ept id="p2">**</ept>, associated with it, that being the IP address we retrieved earlier.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>It also has a network security group <bpt id="p1">**</bpt>demo-web-nsg<ept id="p1">**</ept>, that allows only port 80 (HTTP) traffic inbound from the internet.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This restricts access to only the web site, and prevents access via unnecessary ports that could be used maliciously.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This tier communicates with the presentation tier over HTTP to fulfill the request for the user.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Application tier</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Run the following command to list the application tier resources.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The application tier has been deployed on a virtual machine called <bpt id="p1">**</bpt>demo-biz-vm<ept id="p1">**</ept> that is running the business logic.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>It also has a network interface, <bpt id="p1">**</bpt>demo-biz-vm-nic<ept id="p1">**</ept>, but this network interface only has a private IP address, providing no mechanism for direct inbound connectivity to the server.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>It also has a network security group, <bpt id="p1">**</bpt>demo-biz-nsg<ept id="p1">**</ept>, that only allows access from the subnet of the presentation tier.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This tier is the conduit for the application to access the data.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The code that exposes the API that the presentation tier calls is deployed on this server.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>No data is stored here, and users are not able to access this server directly.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To access data and fulfill user requests, this tier communicates with the data tier through T-SQL commands.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>There is a simple example of business logic incorporated in the application at this tier.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>There is server-side validation of the lunch suggestions, comparing them to a list of acceptable values.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If you try to add something that isn't on this list, it's not accepted, and a message is returned with the valid lunch options.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Data tier</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Run the following command to list out the data tier resources.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The data tier is an Azure SQL Database server, <bpt id="p1">**</bpt>demo-dbserver-abc123<ept id="p1">**</ept> (we add a random string to the server name for global uniqueness).</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>This server stores the data for the application in a database called <bpt id="p1">**</bpt>demo-sqldb<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This tier of the application is solely concerned with the storage of data, and providing a method to access it, in this case through T-SQL the application executes against the database.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>We're not handling any business logic at this tier, nor are we doing any presentation of data back to the user.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>This tier exposes connectivity over port 1433 through a VNet service endpoint.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>VNet service endpoints are a mechanism to connect PaaS services (such as Azure SQL Database) to a subnet and restrict connectivity to only the resources within that subnet.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>This is also an example of using Platform as a Service (PaaS) services in place of Infrastructure as a Service (IaaS) virtual machines to run a tier of an application.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>N-tier applications are often thought of as VM-based applications, but that is not a requirement.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>By using PaaS services in place of VMs, you will lower your costs, increase security, and reduce administration requirements.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="8-summary.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8-summary.03ff6fb8600ff61e3af8797a32f2cefee3af325a.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">16eb52eada3cbf443cfb57813a727299f2cf6cfb</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-security-in-azure\includes\8-summary.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this module, we discussed the basic concepts for protecting your infrastructure and data when you work in the cloud.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Defense in depth<ept id="p1">**</ept> is the overriding theme - think about security as a multi-layer, multi-vector concern.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Threats come from places we don't expect, and they can come with strength that will surprise us.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Concept of being safe from security threats</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Azure has out-of-the-box help for a great deal of the security issues we face.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>One of the first steps we should take is assessing how much help from Azure we can use based on whether we're leveraging IaaS, PaaS, or SaaS.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Azure Security Center centralizes much of the help Azure has to offer.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>It provides a single dashboard, with a view into many of your services, and helps make sure you are following best practices.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Continuously updated machine learning algorithms help identify whether the latest threats are aimed at your resources.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>And it helps your organization mitigate threats.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Of course, this module is introductory.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Security is a deep and complex topic, so whatever your cloud approach, an ongoing security education is necessary.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>But this module should get you started in the right direction, so you know what you need to learn next.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Learn More</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Here are some places to go to learn more about what we've covered today:</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure Security (Trust Center)<ept id="p1">](https://www.microsoft.com/trustcenter/security/azure-security)</ept></source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure Security Center planning and operations guide<ept id="p1">](https://docs.microsoft.com/azure/security-center/security-center-planning-and-operations-guide)</ept></source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>What is Microsoft Azure Information Protection?<ept id="p1">](https://docs.microsoft.com/azure/information-protection/what-is-information-protection/)</ept></source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure Advanced Threat Protection<ept id="p1">](https://azure.microsoft.com/features/azure-advanced-threat-protection/)</ept></source>
+        </trans-unit></group></body></file></xliff>

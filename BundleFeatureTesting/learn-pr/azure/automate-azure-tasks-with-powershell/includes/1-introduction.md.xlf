@@ -1,0 +1,43 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.822aca0c4110e55dcbb186db4fcd534e9b81ce89.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7e49817104af99660d6ee931872450f8c98ed217</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\automate-azure-tasks-with-powershell\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Creating administration scripts is a powerful way to optimize your work flow.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You can automate common, repetitive tasks, and once a script has been verified, it will run consistently, likely reducing errors.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Suppose you work at a company that uses Azure Virtual Machines (VMs) to test your Customer Relationship Management (CRM) software.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The VMs are built from images that include a web front-end, a web service that implements business logic, and a SQL database.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You have been executing multiple rounds of tests on a single VM but noticed that changes in the database and configuration files can cause inconsistent results.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In one case, a bug created a phone call record with no corresponding customer in the database.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The orphaned record caused subsequent integration tests to fail even after the bug was fixed.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You plan to solve this problem by using a fresh VM deployment for each testing cycle.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You want to automate the VM creation setup because it will be executed many times per week.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Here, you will see how to manage Azure resources using Azure PowerShell.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You will use Azure PowerShell interactively for one-off tasks and write scripts to automate repeated tasks.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Decide if Azure PowerShell is the right tool for your Azure administration tasks</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Install Azure PowerShell on Linux, macOS, and/or Windows</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Connect to an Azure subscription using Azure PowerShell</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Create Azure resources using Azure PowerShell</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Experience with a command-line interface such as PowerShell or Bash</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Knowledge of basic Azure concepts such as resource groups and Virtual Machines</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Experience administering Azure resources using the Azure portal</source>
+        </trans-unit></group></body></file></xliff>

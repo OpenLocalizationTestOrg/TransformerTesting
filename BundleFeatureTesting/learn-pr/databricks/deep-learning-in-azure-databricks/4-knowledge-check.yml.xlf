@@ -1,0 +1,41 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-knowledge-check.4ed3b317e8274a011628669d387004544e2ccad8.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">543241480955495e60facade5a90a7ba0c069be4</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\databricks\deep-learning-in-azure-databricks\4-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.deep-learning-in-azure-databricks.4-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.deep-learning-in-azure-databricks.4-knowledge-check">
+          <source>Test your knowledge by answering questions about skills you learned from the lab.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.deep-learning-in-azure-databricks.4-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.deep-learning-in-azure-databricks.4-knowledge-check">
+          <source>Which library can you use to achieve parallelized deep learning in Azure Databricks?</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.deep-learning-in-azure-databricks.4-knowledge-check">
+          <source>Spark Deep Learning</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.deep-learning-in-azure-databricks.4-knowledge-check">
+          <source>Spark Deep Learning supports parallelized deep learning in Spark and Azure Databricks.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.deep-learning-in-azure-databricks.4-knowledge-check">
+          <source>TFLearn</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.deep-learning-in-azure-databricks.4-knowledge-check">
+          <source>TFLearn doesn't support parallelized deep learning in Azure Databricks.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.deep-learning-in-azure-databricks.4-knowledge-check">
+          <source>When dealing with images, which of the following deep-learning techniques might be used?</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.deep-learning-in-azure-databricks.4-knowledge-check">
+          <source>Convolution</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.deep-learning-in-azure-databricks.4-knowledge-check">
+          <source>Convolution is a mathematical technique often used by artificial neurons in a network to process image data.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.deep-learning-in-azure-databricks.4-knowledge-check">
+          <source>Lemmatization</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.deep-learning-in-azure-databricks.4-knowledge-check">
+          <source>Lemmatization is used in text preprocessing, not for images.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.deep-learning-in-azure-databricks.4-knowledge-check">
+          <source>Which of these definitions best describes the function of an autoencoder neural-network architecture?</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.deep-learning-in-azure-databricks.4-knowledge-check">
+          <source>A network that encodes an image into a compressed feature vector and then re-creates the image from the vector.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.deep-learning-in-azure-databricks.4-knowledge-check">
+          <source>This definition correctly describes an autoencoder.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.deep-learning-in-azure-databricks.4-knowledge-check">
+          <source>A network that automatically encodes image data into a vector.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.deep-learning-in-azure-databricks.4-knowledge-check">
+          <source>This definition of an autoencoder is incomplete.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.deep-learning-in-azure-databricks.4-knowledge-check">
+          <source>A network that automatically decodes a vector into image data.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.deep-learning-in-azure-databricks.4-knowledge-check">
+          <source>This definition of an autoencoder is incomplete.</source>
+        </trans-unit></group></body></file></xliff>

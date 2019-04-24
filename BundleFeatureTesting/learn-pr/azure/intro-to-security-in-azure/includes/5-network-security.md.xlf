@@ -1,0 +1,167 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-network-security.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-network-security.7650356a58827cd0a206416fc621782fa1c0642f.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9e16db8528440290d1237090e4c53eb1b42b5ed7</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-security-in-azure\includes\5-network-security.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Securing your network from attacks and unauthorized access is an important part of any architecture.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Here, we'll take a look at what network security looks like, how to integrate a layered approach into your architecture, and how Azure can help you provide network security for your environment.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A layered approach to network security</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You've probably noticed that a common theme throughout this module is the emphasis of a layered approach to security, and this is no different at the network layer.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>It's not enough to just focus on securing the network perimeter, or focusing on the network security between services inside a network.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A layered approach provides multiple levels of protection, so that if an attacker gets through one layer, there are further protections in place to limit further attack.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Let's take a look at how Azure can provide the tools for a layered approach to securing your network footprint.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Image representing a secure internet</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Internet protection<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If we start on the perimeter of the network, we're focused on limiting and eliminating attacks from the internet.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>We suggest first assessing the resources that are internet-facing, and to only allow inbound and outbound communication where necessary.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Make sure you identify all resources that are allowing inbound network traffic of any type, and then ensure they are restricted to only the ports and protocols required.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Azure Security Center is a great place to look for this information, because it will identify internet-facing resources that don't have network security groups associated with them, as well as resources that are not secured behind a <bpt id="p1">_</bpt>firewall<ept id="p1">_</ept>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>What is a Firewall?</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A firewall is a service that grants server access based on the originating IP address of each request.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You create firewall rules that specify ranges of IP addresses.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Only clients from these granted IP addresses will be allowed to access the server.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Firewall rules, generally speaking, also include specific network protocol and port information.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To provide inbound protection at the perimeter, you have several choices.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Firewall<ept id="p1">**</ept> is a managed, cloud-based, network security service that protects your Azure Virtual Network resources.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>It is a fully stateful firewall as a service with built-in high availability and unrestricted cloud scalability.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Azure Firewall provides inbound protection for non-HTTP/S protocols.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Examples of non-HTTP/S protocols include: Remote Desktop Protocol (RDP), Secure Shell (SSH), and File Transfer Protocol (FTP).</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>It also provides outbound, network-level protection for all ports and protocols, and application-level protection for outbound HTTP/S.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Application Gateway<ept id="p1">**</ept> is a load balancer that includes a Web Application Firewall (WAF) that provides protection from common, known vulnerabilities in websites.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>It is specifically designed to protect HTTP traffic.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Network virtual appliances (NVAs)<ept id="p1">**</ept> are ideal options for non-HTTP services or advanced configurations, and are similar to hardware firewall appliances.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Stopping Distributed Denial of Service (DDos) attacks</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Any resource exposed on the internet is at risk of being attacked by a denial of service attack.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>These types of attacks attempt to overwhelm a network resource by sending so many requests that the resource becomes slow or unresponsive.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When you combine <bpt id="p1">**</bpt>Azure DDoS Protection<ept id="p1">**</ept> with application design best practices, you help provide defense against DDoS attacks.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>DDoS Protection leverages the scale and elasticity of Microsoft’s global network to bring DDoS mitigation capacity to every Azure region.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The Azure DDoS Protection service protects your Azure applications by scrubbing traffic at the Azure network edge before it can impact your service's availability.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Within a few minutes of attack detection, you are notified using Azure Monitor metrics.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This diagram shows network traffic flowing into Azure from both customers and an attacker.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Azure DDoS protection identifies the attacker's attempt to overwhelm the network and blocks further traffic from reaching Azure services.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Legitimate traffic from customers still flows into Azure without any interruption of service.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>An illustration showing Azure DDoS protection installed between virtual network and external user requests.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The Azure DDoS protection blocks malicious traffic attack but forwards the legitimate traffic to the intended destination.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Azure DDoS Protection provides the following service tiers:</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Basic.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The Basic service tier is automatically enabled as part of the Azure platform.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Always-on traffic monitoring and real-time mitigation of common network-level attacks provide the same defenses that Microsoft’s online services use.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Azure’s global network is used to distribute and mitigate attack traffic across regions.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Standard.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The Standard service tier provides additional mitigation capabilities that are tuned specifically to Microsoft Azure Virtual Network resources.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>DDoS Protection Standard is simple to enable and requires no application changes.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Protection policies are tuned through dedicated traffic monitoring and machine learning algorithms.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Policies are applied to public IP addresses which are associated with resources deployed in virtual networks, such as Azure Load Balancer and Application Gateway.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>DDoS standard protection can mitigate the following types of attacks:</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Volumetric attacks.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The attackers goal is to flood the network layer with a substantial amount of seemingly legitimate traffic.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Protocol attacks.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>These attacks render a target inaccessible, by exploiting a weakness in the layer 3 and layer 4 protocol stack.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Resource (application) layer attacks.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>These attacks target web application packets to disrupt the transmission of data between hosts.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Controlling the traffic inside your virtual network</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Image representing a secure virtual network</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Virtual network security<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Once inside a virtual network (VNet), it's crucial that you limit communication between resources to only what is required.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>For communication between virtual machines, <bpt id="p1">_</bpt>Network Security Groups<ept id="p1">_</ept> (NSGs) are a critical piece to restrict unnecessary communication.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Network Security Groups allow you to filter network traffic to and from Azure resources in an Azure virtual network.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>An NSG can contain multiple inbound and outbound security rules that enable you to filter traffic to and from resources by source and destination IP address, port, and protocol.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>They provide a list of allowed and denied communication to and from network interfaces and subnets, and are fully customizable.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You can completely remove public internet access to your services by restricting access to service endpoints.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>With service endpoints, Azure service access can be limited to your virtual network.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Image representing a secure network</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Network integration<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>It's common to have existing network infrastructure that needs to be integrated to provide communication from on-premises networks or to provide improved communication between services in Azure.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>There are a few key ways to handle this integration and improve the security of your network.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Virtual private network (VPN) connections are a common way of establishing secure communication channels between networks.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Connection between Azure Virtual Network and an on-premises VPN device is a great way to provide secure communication between your network and your VNet on Azure.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>To provide a dedicated, private connection between your network and Azure, you can use Azure ExpressRoute.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>ExpressRoute lets you extend your on-premises networks into the Microsoft cloud over a private connection facilitated by a connectivity provider.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>With ExpressRoute, you can establish connections to Microsoft cloud services, such as Microsoft Azure, Office 365, and Dynamics 365.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>This improves the security of your on-premises communication by sending this traffic over the private circuit instead of over the public internet.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>You don't need to allow access to these services for your end users over the public internet, and you can send this traffic through appliances for further traffic inspection.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>A layered approach to network security helps reduce your risk of exposure through network-based attacks.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Azure provides several services and capabilities to secure your internet-facing resource, internal resources, and communication between on-premises networks.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>These features make it possible to create secure solutions on Azure.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>You can also combine multiple Azure networking and security services to manage your network security and provide increased layered protection.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>For example, you can use Azure Firewall to protect inbound and outbound traffic to the Internet, and Network Security Groups to limit traffic to resources inside your virtual networks.</source>
+        </trans-unit></group></body></file></xliff>

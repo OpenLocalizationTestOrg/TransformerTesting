@@ -1,0 +1,69 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="9-monitor-and-troubleshoot.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9-monitor-and-troubleshoot.be57c771a39313f4a05fd7578a5940235db6a84c.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">973228bfbebe88de8928d809afbf00c575b311dc</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\transform-data-with-azure-stream-analytics\includes\9-monitor-and-troubleshoot.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Monitoring is a key part of any mission-critical workload.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>It helps to proactively detect and prevent issues that might otherwise cause application or service downtime.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You can monitor Azure Stream Analytics jobs by using several tools:</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>An activity log for each running job</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Real-time dashboards that show service and application health trends</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Alerts on issues in applications or services</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Diagnostic logs</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Activity logs</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The Stream Analytics activity log provides details about each job you run.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This low-level troubleshooting tool can help you identify issues with data sources, outputs, or transformation queries.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Each job you create has an activity log.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In the log, expand each job and then select an event to see details in the JSON file.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Screenshot of an activity log</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Dashboards</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Dashboards show key health metrics for your Stream Analytics jobs.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To view a live dashboard, go to the Azure portal, select your Stream Analytics job, and under <bpt id="p1">**</bpt>Monitoring<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Metrics<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Screenshot of a Stream Analytics dashboard in the Azure portal</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Alerts</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To proactively detect issues, you can set up Stream Analytics to fire alerts based on various metrics and thresholds.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To set up alerts in the Azure portal, in your Stream Analytics job, under <bpt id="p1">**</bpt>Monitoring<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Alert rules<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>New alert rule<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Screenshot showing the Alert rules page in the Azure portal</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>As you're setting up your rules, you can choose to send alerts by email, SMS, or voicemail.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You can also use alerts to trigger workflows.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Screenshot showing how to create an alert rule</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Diagnostic logs</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Diagnostic logging is a key part of operational infrastructure.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Use diagnostic logs to help find root-cause issues in production deployments.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You can conveniently deliver diagnostic logs to various sinks or destinations for root-cause analysis.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Stream Analytics diagnostics is turned off by default.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>But in the Azure portal, you can turn it on when you need it.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>In the Stream Analytics job, under <bpt id="p1">**</bpt>Monitoring<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Diagnostic logs<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You can persist diagnostics settings in an Azure Storage account or send them to Azure Event Hubs or Azure Log Analytics.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Generate diagnostics logs for job execution or job authoring.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Screenshot showing the Diagnostics settings page in the Azure portal</source>
+        </trans-unit></group></body></file></xliff>

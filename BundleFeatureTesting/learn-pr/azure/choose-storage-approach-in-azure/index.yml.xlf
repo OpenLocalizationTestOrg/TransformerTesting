@@ -1,0 +1,19 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.0e90f789404ac1f857dfe5ab47137bca76c67f75.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8a0fa7b4d56142583c893d7bec6b254611814da8</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\choose-storage-approach-in-azure\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.choose-storage-approach-in-azure">
+          <source>Choose a data storage approach in Azure</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.choose-storage-approach-in-azure">
+          <source>Learn how using Azure Storage, Azure SQL Database, and Azure Cosmos DB - or a combination of them - for your business scenario is the best way to get the most performant solution.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.choose-storage-approach-in-azure">
+          <source>Choose a data storage approach in Azure</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.choose-storage-approach-in-azure">
+          <source>Learn how using Azure Storage, Azure SQL Database, and Azure Cosmos DB - or a combination of them - for your business scenario is the best way to get the most performant solution.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.choose-storage-approach-in-azure">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.choose-storage-approach-in-azure">
+          <source>Learn how to classify your data as structured, semi-structured, or unstructured</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.choose-storage-approach-in-azure">
+          <source>Learn how to determine the operational needs, latency requirements, and transaction requirements for your data</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.choose-storage-approach-in-azure">
+          <source>Determine whether your data requires transactions</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.choose-storage-approach-in-azure">
+          <source>None</source>
+        </trans-unit></group></body></file></xliff>

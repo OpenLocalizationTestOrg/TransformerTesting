@@ -1,0 +1,27 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.fd5fbe709b2d2216c01087d0b4f97627164df7f7.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a0b1bb7dec6b154a6d0de134f6129f3b808ff217</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\predict-costs-and-optimize-spending\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending">
+          <source>Predict costs and optimize spending for Azure</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending">
+          <source>Cost is one of the most important aspects of the cloud and can have a massive impact on your business.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending">
+          <source>Azure has several tools available to help you get a better understanding of cloud spend and some best practices that you can leverage to help you save money.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending">
+          <source>Predict costs and optimize spending for Azure</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending">
+          <source>Cost is one of the most important aspects of the cloud and can have a massive impact on your business.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending">
+          <source>Azure has several tools available to help you get a better understanding of cloud spend and some best practices that you can leverage to help you save money.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending">
+          <source>Learn the different options you have to purchase Azure services</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending">
+          <source>Estimate costs with the Azure pricing calculator</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending">
+          <source>Predict and optimize costs with Azure Cost Management and Azure Advisor</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending">
+          <source>Apply best practices for saving on infrastructure costs</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending">
+          <source>Apply best practices for saving on licensing costs</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.predict-costs-and-optimize-spending">
+          <source>An understanding of your options within Azure infrastructure components</source>
+        </trans-unit></group></body></file></xliff>

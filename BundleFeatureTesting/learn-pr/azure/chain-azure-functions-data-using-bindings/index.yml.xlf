@@ -1,0 +1,25 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.dadf583465cdc428c17475c62c6c00311c7e50e0.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">edecf57938c4fdcc721cd8430f1cc442567bdf69</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\chain-azure-functions-data-using-bindings\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings">
+          <source>Chain Azure functions together by using input and output bindings</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings">
+          <source>In this module, we'll learn how to integrate your Azure function with various data sources by using bindings.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings">
+          <source>Chain Azure functions together using input and output bindings</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings">
+          <source>Azure Functions makes it easy for your function code to integrate with data and services.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings">
+          <source>Through the power of bindings, you declare the data sources to read and write, and let Azure Functions take care of the rest.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings">
+          <source>Explore what types of data sources can be accessed through bindings</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings">
+          <source>Read data from Azure Cosmos DB using Azure Functions</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings">
+          <source>Store data in Azure Cosmos DB using Azure Functions</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings">
+          <source>Send messages to Azure Queue Storage using Azure Functions</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings">
+          <source>None</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.chain-azure-functions-data-using-input-output-bindings">
+          <source>Integrate data sources with your Azure Functions serverless logic by using bindings.</source>
+        </trans-unit></group></body></file></xliff>

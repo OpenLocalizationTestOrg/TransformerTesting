@@ -1,0 +1,247 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-exercise-connect-an-app-to-the-cache.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-exercise-connect-an-app-to-the-cache.8d3b54a40d24a0fa3ccf432be1318c5b35c61cdd.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cfe421d18136246112682deb1f9eef70574f6464</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\optimize-your-web-apps-with-redis\includes\6-exercise-connect-an-app-to-the-cache.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Now that we have a Redis cache created in Azure, let's create an application to use it.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Make sure you have your connection string information from the Azure portal.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The integrated Cloud Shell is available on the right.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can use that command prompt to create and run the example code we are building here, or perform these steps locally if you have a .NET Core development environment setup.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Create a Console Application</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>We'll use a simple Console Application so we can focus on the Redis implementation.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In the Cloud Shell, create a new .NET Core Console Application, name it "SportsStatsTracker"</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This will create a folder for the project, go ahead and change the current directory.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Add the connection string</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Let's add the connection string we got from the Azure portal into the code.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Never store credentials like this in your source code.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To keep this sample simple, we're going to use a configuration file.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A better approach for a server-side application in Azure would be to use Azure Key Vault with certificates.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Create a new <bpt id="p1">**</bpt>appsettings.json<ept id="p1">**</ept> file to add to the project.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Open the code editor by typing <ph id="ph1">`code .`</ph> in the project folder.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If you are working locally, we recommend using <bpt id="p1">**</bpt>Visual Studio Code<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The steps here will mostly align with it's usage.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>appsettings.json<ept id="p1">**</ept> file in the editor and add the following text.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Paste your connection string into the <bpt id="p1">**</bpt>value<ept id="p1">**</ept> of the setting.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Save the changes.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Whenever you paste or change code into a file in the editor, make sure to save afterwards using the "..." menu, or the accelerator key (<bpt id="p1">&lt;kbd&gt;</bpt>Ctrl+S<ept id="p1">&lt;/kbd&gt;</ept> on Windows and Linux, <bpt id="p2">&lt;kbd&gt;</bpt>Cmd+S<ept id="p2">&lt;/kbd&gt;</ept> on macOS).</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Click on the <bpt id="p1">**</bpt>SportsStatsTracker.csproj<ept id="p1">**</ept> file in the editor to open it.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Add the following <ph id="ph1">`&lt;ItemGroup&gt;`</ph> configuration block into the root <ph id="ph2">`&lt;Project&gt;`</ph> element to include the new file in the project and copy it to the output folder.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This ensures that the app configuration file is placed in the output directory when the app is compiled/built.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Save the file.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>(Make sure you do this or you will lose the change when you add the package below!)</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Add support to read a JSON configuration file</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A .NET Core application requires additional NuGet packages to read a JSON configuration file.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In the command prompt section of the window, add a reference to the  <bpt id="p1">**</bpt>Microsoft.Extensions.Configuration.Json<ept id="p1">**</ept> NuGet package.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Add code to read the configuration file</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Now that we have added the required libraries to enable reading configuration, we need to enable that functionality within our console application.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Program.cs<ept id="p1">**</ept> in the editor.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>At the top of the file, a <ph id="ph1">`using System`</ph> line is present.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Underneath that line, add the following lines of code:</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Replace the contents of the <bpt id="p1">**</bpt>Main<ept id="p1">**</ept> method with the following code.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This code initializes the configuration system to read from the <bpt id="p1">**</bpt>appsettings.json<ept id="p1">**</ept> file.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Your <bpt id="p1">**</bpt>Program.cs<ept id="p1">**</ept> file should now look like the following:</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Get the connection string from configuration</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">**</bpt>Program.cs<ept id="p1">**</ept>, at the end of the <bpt id="p2">**</bpt>Main<ept id="p2">**</ept> method, use the new <bpt id="p3">**</bpt>config<ept id="p3">**</ept> variable to retrieve the connection string and store it in a new variable named <bpt id="p4">**</bpt>connectionString<ept id="p4">**</ept>.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>config<ept id="p1">**</ept> variable has an indexer where you can pass in a string to retrieve from your <bpt id="p2">**</bpt>appSettings.json<ept id="p2">**</ept> file.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Add support for the Redis cache .NET client</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Next, let's configure the console application to use the <bpt id="p1">**</bpt>StackExchange.Redis<ept id="p1">**</ept> client for .NET.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Add the <bpt id="p1">**</bpt>StackExchange.Redis<ept id="p1">**</ept> NuGet package to the project using the command prompt at the bottom of the Cloud Shell editor.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Program.cs<ept id="p1">**</ept> in the editor and add a <ph id="ph1">`using`</ph> for the namespace <bpt id="p2">**</bpt>StackExchange.Redis<ept id="p2">**</ept></source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Once the installation is completed, the Redis cache client is available to use with your project.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Connect to the cache</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Let's add the code to connect to the cache.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Program.cs<ept id="p1">**</ept> in the editor.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Create a <ph id="ph1">`ConnectionMultiplexer`</ph> using <ph id="ph2">`ConnectionMultiplexer.Connect`</ph> by passing it your connection string.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Name the returned value <bpt id="p1">**</bpt>cache<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Since the created connection is <bpt id="p1">_</bpt>disposable<ept id="p1">_</ept>, wrap it in a <ph id="ph1">`using`</ph> block.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Your code should look something like:</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The connection to Azure Cache for Redis is managed by the <ph id="ph1">`ConnectionMultiplexer`</ph> class.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This class should be shared and reused throughout your client application.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>We do <bpt id="p1">_</bpt>not<ept id="p1">_</ept> want to create a new connection for each operation.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Instead, we want to store it off as a field in our class and reuse it for each operation.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Here we are only going to use it in the <bpt id="p1">**</bpt>Main<ept id="p1">**</ept> method, but in a production application, it should be stored in a class field, or a singleton.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Add a value to the cache</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Now that we have the connection, let's add a value to the cache.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Inside the <ph id="ph1">`using`</ph> block after the connection has been created, use the <ph id="ph2">`GetDatabase`</ph> method to retrieve an <ph id="ph3">`IDatabase`</ph> instance.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Call <ph id="ph1">`StringSet`</ph> on the <ph id="ph2">`IDatabase`</ph> object to set the key "test:key" to the value "some value".</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>the return value from <ph id="ph1">`StringSet`</ph> is a <ph id="ph2">`bool`</ph> indicating whether the key was added.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Display the return value from <ph id="ph1">`StringSet`</ph> onto the console.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Get a value from the cache</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Next, retrieve the value using <ph id="ph1">`StringGet`</ph>.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>This takes the key to retrieve and returns the value.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Output the returned value.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Your code should look like this:</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Run the application to see the result.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Type <ph id="ph1">`dotnet run`</ph> into the terminal window below the editor.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Make sure you are in the project folder or it won't find your code to build and run.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If the program doesn't do what you expect, but compiles, it may be because you have not saved changes in the editor.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Always remember to save changes as you switch between the terminal and the editor windows</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Use the async versions of the methods</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>We have been able to get and set values from the cache, but we are using the older synchronous versions.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>In server-side applications, these are not an efficient use of our threads.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Instead, we want to use the <bpt id="p1">_</bpt>asynchronous<ept id="p1">_</ept> versions of the methods.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>You can easily spot them - they all end in <bpt id="p1">**</bpt>Async<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>To make these methods easy to work with, we can use the C# <ph id="ph1">`async`</ph> and <ph id="ph2">`await`</ph> keywords.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>However, we will need to be using <bpt id="p1">_</bpt>at least<ept id="p1">_</ept> C# 7.1 to be able to apply these keywords to our <bpt id="p2">**</bpt>Main<ept id="p2">**</ept> method.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Switch to C# 7.1</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>C#'s <ph id="ph1">`async`</ph> and <ph id="ph2">`await`</ph> keywords were not valid keywords in <bpt id="p1">**</bpt>Main<ept id="p1">**</ept> methods until C# 7.1.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>We can easily switch to that compiler through a flag in the <bpt id="p1">**</bpt>.csproj<ept id="p1">**</ept> file.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Open the <bpt id="p1">**</bpt>SportsStatsTracker.csproj<ept id="p1">**</ept> file in the editor.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Add <ph id="ph1">`&lt;LangVersion&gt;7.1&lt;/LangVersion&gt;`</ph> into the first <ph id="ph2">`PropertyGroup`</ph> in the build file.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>It should look like the following when you are finished.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Apply the async keyword</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Next, apply the <ph id="ph1">`async`</ph> keyword to the <bpt id="p1">**</bpt>Main<ept id="p1">**</ept> method.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>We will have to do three things.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Add the <ph id="ph1">`async`</ph> keyword onto the <bpt id="p1">**</bpt>Main<ept id="p1">**</ept> method signature.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Change the return type from <ph id="ph1">`void`</ph> to <ph id="ph2">`Task`</ph>.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Add a <ph id="ph1">`using`</ph> statement to include <ph id="ph2">`System.Threading.Tasks`</ph>.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Get and set values asynchronously</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>We can leave the synchronous methods in place, let's add a call to the <ph id="ph1">`StringSetAsync`</ph> and <ph id="ph2">`StringGetAsync`</ph> methods to add another value to the cache.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Set "counter" to the value "100".</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`StringSetAsync`</ph> and <ph id="ph2">`StringGetAsync`</ph> methods to set and retrieve a key named "counter".</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Set the value to "100".</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Apply the <ph id="ph1">`await`</ph> keyword to get the results from each method.</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Output the results to the console window - just as you did with the synchronous versions.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Run the application again - it should still work and now have two values.</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Increment the value</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`StringIncrementAsync`</ph> method to increment your <bpt id="p1">**</bpt>counter<ept id="p1">**</ept> value.</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Pass the number <bpt id="p1">**</bpt>50<ept id="p1">**</ept> to add to the counter.</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Notice that the method takes the key <bpt id="p1">_</bpt>and<ept id="p1">_</ept> either a <ph id="ph1">`long`</ph> or <ph id="ph2">`double`</ph>.</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Depending on the parameters passed, it either returns a <ph id="ph1">`long`</ph> or <ph id="ph2">`double`</ph>.</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Output the results of the method to the console.</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Other operations</source>
+        </trans-unit><trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Finally, let's try executing a few additional methods with the <ph id="ph1">`ExecuteAsync`</ph> support.</source>
+        </trans-unit><trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Execute "PING" to test the server connection.</source>
+        </trans-unit><trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>It should respond with "PONG".</source>
+        </trans-unit><trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Execute "FLUSHDB" to clear the database values.</source>
+        </trans-unit><trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>It should respond with "OK".</source>
+        </trans-unit><trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The final code should look something like:</source>
+        </trans-unit><trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Challenge</source>
+        </trans-unit><trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>As a challenge, try serializing an object type to the cache.</source>
+        </trans-unit><trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Here are the basic steps.</source>
+        </trans-unit><trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Create a new <ph id="ph1">`class`</ph> with some public properties.</source>
+        </trans-unit><trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>You can invent one of your own ("Person" or "Car" are popular), or use the "GameStats" example given in the previous unit.</source>
+        </trans-unit><trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Add support for the <bpt id="p1">**</bpt>Newtonsoft.Json<ept id="p1">**</ept> NuGet package using <ph id="ph1">`dotnet add package`</ph>.</source>
+        </trans-unit><trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Add a <ph id="ph1">`using`</ph> for the <ph id="ph2">`Newtonsoft.Json`</ph> namespace.</source>
+        </trans-unit><trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Create one of your objects.</source>
+        </trans-unit><trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Serialize it with <ph id="ph1">`JsonConvert.SerializeObject`</ph> and use <ph id="ph2">`StringSetAsync`</ph> to push it into the cache.</source>
+        </trans-unit><trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Get it back from the cache with <ph id="ph1">`StringGetAsync`</ph> and then deserialize it with <ph id="ph2">`JsonConvert.DeserializeObject&lt;T&gt;`</ph>.</source>
+        </trans-unit></group></body></file></xliff>

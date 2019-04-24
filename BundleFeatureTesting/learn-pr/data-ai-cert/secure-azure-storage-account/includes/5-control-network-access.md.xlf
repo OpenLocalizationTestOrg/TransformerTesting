@@ -1,0 +1,31 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-control-network-access.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-control-network-access.fac0be99ff1e49399e11e868b70890b6de49470d.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">70b0828bb28b2c976728afb61b17b0383406f4ba</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\secure-azure-storage-account\includes\5-control-network-access.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>By default, storage accounts accept connections from clients on any network.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>To limit access to selected networks, you must first change the default action.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You can restrict access to specific IP addresses, ranges, or virtual networks.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Changing network rules can affect your application's ability to connect to Azure Storage.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If you set the default network rule to <bpt id="p1">*</bpt>deny<ept id="p1">*</ept>, you'll block all access to the data unless specific network rules <bpt id="p2">*</bpt>grant<ept id="p2">*</ept> access.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Before you change the default rule to deny access, be sure to use network rules to grant access to any allowed networks.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Manage default network access rules</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Manage default network access rules for storage accounts through the Azure portal, PowerShell, or the Azure CLI.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To change default network access in the Azure portal:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Go to the storage account you want to secure.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Firewalls and virtual networks<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To restrict traffic from selected networks, choose <bpt id="p1">**</bpt>Selected networks<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To allow traffic from all networks, select <bpt id="p1">**</bpt>All networks<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> to apply your changes.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Screenshot showing the firewall options for storage accounts</source>
+        </trans-unit></group></body></file></xliff>

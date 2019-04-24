@@ -1,0 +1,67 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-create-storage-resources.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-create-storage-resources.1fab8e53f6904750fa042908825da2f6376e5f1a.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">475cb7914a518311d854ab8807cf0f53ba5625d8</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\store-app-data-with-azure-blob-storage\includes\4-create-storage-resources.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Once we have an idea of how we're going to store data across storage accounts, containers and blobs, we can think about the Azure resources we need to create to support the app.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Storage accounts</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Storage account creation is an administrative/management activity that takes place prior to deploying and running your app.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Accounts are usually created by a deployment or environment setup script, an Azure Resource Manager template, or manually by an administrator.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Applications other than administrative tools generally should not have permissions to create storage accounts.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Containers</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Unlike storage account creation, container creation is a lightweight activity that makes sense to perform from within an app.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>It's not uncommon for apps to create and delete containers as part of their work.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For apps that rely on a known set of containers with hard-coded or preconfigured names, typical practice is to let the app create the containers it needs on startup or first usage if they don't already exist.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Letting your app create containers instead of doing it as part of your app's deployment eliminates the need for both your application and your deployment process to know the names of the containers the app uses.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Exercise</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>We're going to complete an unfinished ASP.NET Core app by adding code to use Azure Blob storage.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This exercise is more about exploring the Blob storage API than it is about designing an organization and naming scheme, but here's a quick overview of the app and how it stores data.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Screenshot of the FileUploader web app</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Our app works like a shared folder that accepts file uploads and makes them available for download.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>It doesn't use a database for organizing blobs <ph id="ph1">&amp;mdash;</ph> instead, it sanitizes the names of uploaded files and uses them as blob names directly.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>All uploaded files are stored in a single container.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The code we'll start with compiles and runs, but the parts responsible for storing and loading data are empty.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>After we complete the code, we'll deploy the app to Azure App Service and test it.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Let's set up the storage infrastructure for our app.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Storage account</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>We'll use the Azure Cloud Shell with the Azure CLI to create a storage account.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You'll need to provide a unique name for the storage account <ph id="ph1">&amp;mdash;</ph> make a note of it for later.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>We're using "East US" in the example below, but you can change it to any of the available locations from list.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Execute the following command to create the storage account.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Why <ph id="ph1">`--kind StorageV2`</ph>?</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>There are a few different kinds of storage accounts.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For most scenarios, you should use general-purpose v2 accounts.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The only reason you need to explicitly specify <ph id="ph1">`--kind StorageV2`</ph> is that general-purpose v2 accounts are still fairly new and have not yet been made the default in the Azure Portal or the Azure CLI.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Container</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The app we'll be working with in this module uses a single container.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>We're going to follow the best practice of letting the app create the container at startup.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>However, container creation can be done from the Azure CLI: run <ph id="ph1">`az storage container create -h`</ph> in the Cloud Shell terminal if you'd like to see the documentation.</source>
+        </trans-unit></group></body></file></xliff>

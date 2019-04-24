@@ -1,0 +1,59 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-key-principles-2-human-side-of-sre.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-key-principles-2-human-side-of-sre.e985b4b75eae81cbf6e79aa883aa8cc50f744981.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">59a54d2b939f8127672d48fb5b9674415f02b978</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\intro-to-site-reliability-engineering\5-key-principles-2-human-side-of-sre.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre">
+          <source>Key SRE principles and practices: The human side of SRE</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre">
+          <source>Key SRE principles and practices: The human side of SRE</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre">
+          <source>Key SRE principles and practices: The human side of SRE</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre">
+          <source>Which of these things is <bpt id="p1">*</bpt>not<ept id="p1">*</ept> a characteristic of toil (in the SRE context)?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre">
+          <source>The work is repetitive</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre">
+          <source>Toil is repetitive in nature.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre">
+          <source>The work is tracked in a ticket system</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre">
+          <source>How the work is tracked is not a characteristic of toil.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre">
+          <source>While toil is often tracked this way, ticket systems could be used to track other, more productive kinds of work.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre">
+          <source>The work provides no lasting value</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre">
+          <source>Work that is toil has no enduring value.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre">
+          <source>The work is largely manual in nature and not automated</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre">
+          <source>Toil is almost always manual work that could be automated.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre">
+          <source>What's an SRE's relationship to toil?</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre">
+          <source>SREs work to eliminate toil as their first priority.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre">
+          <source>Whenever possible, SREs work to eliminate toil, but sometimes other work has greater priority.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre">
+          <source>SREs attempt to manage toil the best they can.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre">
+          <source>SREs prefer to eliminate toil if possible.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre">
+          <source>Well-managed toil is still toil.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre">
+          <source>SREs work to eliminate toil wherever and whenever it is appropriate</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre">
+          <source>What is a suggested breakdown of work for an SRE?</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre">
+          <source>80% reactive ops work/20% project work</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre">
+          <source>An SRE needs uninterrupted time to work on improving the reliability of a system, not just tending to its current needs.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre">
+          <source>10% reactive ops work/90% project work</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre">
+          <source>Sometimes we do not get a choice how much operational load a systems requires.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre">
+          <source>While it may be the case that some systems have this low of an operational load, it is probably not a good expectation to have.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre">
+          <source>50% reactive ops work/50% project work</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.intro-to-site-reliability-engineering.5-key-principles-2-human-side-of-sre">
+          <source>This is the usual balance SREs strive for (50% is seen as an upper bound on operational load--smaller would be better).</source>
+        </trans-unit></group></body></file></xliff>

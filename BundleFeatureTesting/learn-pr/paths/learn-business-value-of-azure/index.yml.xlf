@@ -1,0 +1,39 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.b69546d37454e874d0049a5da41b27eb0a3504c5.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7277d4306a219938888ed8863371da081093caff</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\paths\learn-business-value-of-azure\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn-wwl.learn-business-value-of-azure">
+          <source>Learn the business value of Microsoft Azure learning path</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn-wwl.learn-business-value-of-azure">
+          <source>Are you interested in learning about the cloud in an easy to understand way?</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn-wwl.learn-business-value-of-azure">
+          <source>Or perhaps you are confused about where to begin with cloud technology?</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn-wwl.learn-business-value-of-azure">
+          <source>This learning path introduces you to digital transformation, what Azure is, and all the different ways it can meet your business needs.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn-wwl.learn-business-value-of-azure">
+          <source>Learn the business value of Microsoft Azure</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn-wwl.learn-business-value-of-azure">
+          <source>Are you interested in learning about the cloud in an easy to understand way?</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn-wwl.learn-business-value-of-azure">
+          <source>Or perhaps you are confused about where to begin with cloud technology?</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn-wwl.learn-business-value-of-azure">
+          <source>This learning experience will take you on a journey that will begin by showing you how digital transformation and the power of the cloud can transform your business.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn-wwl.learn-business-value-of-azure">
+          <source>We will cover how Microsoft Azure cloud services can power your organization on a trusted cloud platform.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn-wwl.learn-business-value-of-azure">
+          <source>Finally, we will wrap up by illustrating how to make this journey real for your organization.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn-wwl.learn-business-value-of-azure">
+          <source>In this learning path, you will learn about:</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn-wwl.learn-business-value-of-azure">
+          <source>Enabling digital transformation.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn-wwl.learn-business-value-of-azure">
+          <source>Identifying ways to migrate and modernize applications.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn-wwl.learn-business-value-of-azure">
+          <source>Gaining insights through data, artificial intelligence (AI) and the Internet of Things (IoT)</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn-wwl.learn-business-value-of-azure">
+          <source>Meeting a broad set of regulatory and compliance standards on a trusted cloud platform.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn-wwl.learn-business-value-of-azure">
+          <source>Are you interested in learning about the cloud in an easy to understand way?</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn-wwl.learn-business-value-of-azure">
+          <source>Or perhaps you are confused about where to begin with cloud technology?</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn-wwl.learn-business-value-of-azure">
+          <source>This learning experience will take you on a journey that will begin by showing you how digital transformation and the power of the cloud can transform your business.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn-wwl.learn-business-value-of-azure">
+          <source>None</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.e1092c73df398c51e49781d5e1b4fb4e200d543e.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f1cc08569613ad7b22de3260dfc49add952d291d</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\design-for-availability-and-recoverability-in-azure\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Your business relies on access to the systems and data that make it run.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Every minute that your customers or your internal teams don’t have access to what they need can result in a loss of revenue.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>It is our job to make sure that doesn’t happen.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>As we learn about architecting our cloud solutions to be highly available and to have the capability to recover from localized and widespread issues, we'll see how one fictional Azure customer puts these principles to work:</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Lamna Healthcare is a national healthcare provider.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Their IT organization has recently started to move the majority of their IT systems to Azure.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>They have a mixture of custom apps, open-source apps, and off-the-shelf applications, with varying architectures and technology platforms.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>We'll learn what they need to do to migrate to the cloud while keeping their systems and data secure.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The concepts discussed in this module are not all-inclusive, but represent some of the important considerations when building a solution on the cloud.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Microsoft publishes a broad set of patterns, guidelines, and examples on designing applications on Azure.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>It's highly recommended that you look through the content in the <bpt id="p1">[</bpt>Azure Architecture Center<ept id="p1">](https://docs.microsoft.com/azure/architecture/)</ept> as you start planning and designing your architecture.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Leverage Azure services to design a highly available application</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Incorporate Azure disaster recovery capabilities into your architecture</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Backup and restore on Azure to protect your application from data loss or corruption</source>
+        </trans-unit></group></body></file></xliff>

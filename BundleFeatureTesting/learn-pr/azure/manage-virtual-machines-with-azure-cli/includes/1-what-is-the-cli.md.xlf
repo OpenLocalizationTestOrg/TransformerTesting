@@ -1,0 +1,43 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-what-is-the-cli.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-what-is-the-cli.be58dbdf627139dfa37adca87f018d4002290ff2.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d0587120c388fcca10f2e4e27b6019b906974385</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\manage-virtual-machines-with-azure-cli\includes\1-what-is-the-cli.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>It's quite common for IT departments to manage a large set of Azure resources - ranging from Azure Virtual Machines to managed websites.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>While the Azure portal is easy to use for one-off tasks, navigating through the various blades adds time when you have to create, change, or delete multiple things.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This is where the command line shines - you can issue commands quickly and efficiently, or even use scripts to run repetitive tasks.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>With Azure, you have two different command line tools you can work with: Azure PowerShell, and the Azure CLI.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>With either of these tools, you can write scripts to check the status of cloud servers, deploy new configurations, open ports in the firewall, or connect to a virtual machine to change a setting.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Windows admins tend to prefer Azure PowerShell, while developers and Linux admins often use the Azure CLI.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This module is going to focus on using the Azure CLI to create and manage virtual machines hosted in Azure.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If you'd like to get an overview of the Azure CLI, how to install it, and work with your Azure subscriptions, make sure to check out the <bpt id="p1">**</bpt>Control Azure services with the CLI<ept id="p1">**</ept> training module.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>What is the Azure CLI?</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The Azure CLI is Microsoft's cross-platform command-line tool for managing Azure resources.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>It's available for macOS, Linux, and Windows, or in the browser using <bpt id="p1">[</bpt>Azure Cloud Shell<ept id="p1">](https://docs.microsoft.com/azure/cloud-shell/overview)</ept>.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The Azure CLI can help you manage Azure resources such as virtual machines and disks from the command line or in scripts.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Let's get started and see what it can do with Azure Virtual Machines.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Create a virtual machine with the Azure CLI</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Resize virtual machines with the Azure CLI.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Perform basic management tasks using the Azure CLI.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Connect to a running VM with SSH and the Azure CLI.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Prerequsites</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Basic understanding of the Azure CLI tool from the <bpt id="p1">**</bpt>Control Azure services with the CLI<ept id="p1">**</ept> module.</source>
+        </trans-unit></group></body></file></xliff>

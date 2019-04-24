@@ -1,0 +1,155 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-create-a-transaction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-create-a-transaction.ed576adecfceb0d160e7c7148162545d7b095168.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1186b3265a97f2ed77bb12ba3d78761c2b2bc887</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\work-with-mutable-and-partial-data-in-a-redis-cache\includes\3-create-a-transaction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Let's start by creating an instance of Azure Cache for Redis, and then create a simple transaction that inserts two data values into the cache.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Create an Azure Cache for Redis</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Let's start by creating an Azure Cache for Redis with the Azure CLI.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Use the Cloud Shell on the right side of the browser window to interact with Azure.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>We'll use the <ph id="ph1">`az redis create`</ph> command to create a new Azure Cache for Redis.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>It takes several parameters.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Here are the most common (to get a full list, check the documentation).</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Parameter</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The name of the cache - this must be globally unique and composed of letters, numbers, and dashes.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Use the pre-created Resource Group <bpt id="p1">**</bpt><bpt id="p2">&lt;rgn&gt;</bpt>[sandbox resource group name]<ept id="p2">&lt;/rgn&gt;</ept><ept id="p1">**</ept>, which is part of the Azure sandbox.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Specify the location where the cache should be located.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Normally, you will want to choose a location close to the data consumers.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In this case, you are limited to the locations available in the Azure sandbox.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Select the closest one to you.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The size of the Azure Cache for Redis.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Valid values are [C0, C1, C2, C3, C4, C5, C6, P1, P2, P3, P4].</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The Azure Cache for Redis SKU.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Valid values are [Basic, Standard, Premium].</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Select a location</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Create a cache using the following options:</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Size: C0</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>SKU: Basic</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Here's an example command line.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Make sure to replace the <ph id="ph1">`[name]`</ph> parameter with a unique name.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You can replace the location if you want a different region than East US.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Create a .NET Core console application</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Next, create a .NET Core console application, which will be used to insert data values into our Azure Cache for Redis.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Create a new .NET Core application using the integrated Cloud Shell on the right hand side of the window.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Name it "RedisData".</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Change into the new directory created for your app.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Build and run the application - it should output "Hello World!"</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Add the ServiceStack.Redis NuGet package</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Now that we have our console application, we need to add the <bpt id="p1">**</bpt>ServiceStack.Redis<ept id="p1">**</ept> NuGet package.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This will allow us to connect to the Azure Cache for Redis and issue commands in C#.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Add the NuGet package <bpt id="p1">**</bpt>ServiceStack.Redis<ept id="p1">**</ept> using the terminal shell.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Build and run the application again to make sure it all compiles.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>It should still output "Hello World!"</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Get your Azure Cache for Redis connection string</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To connect to your Azure Cache for Redis, you need a connection string that contains your password and URL.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>ServiceStack.Redis<ept id="p1">**</ept> has its own connection string format: <ph id="ph1">`[password]@[hostname]:[sslport]?ssl=true`</ph>.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You can retrieve your password with the Azure portal, or with the command line.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Let's use the latter here, since we used the portal approach in the "Optimize your web applications by caching read-only data with Redis" module.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`az redis list-keys`</ph> command to get the access keys.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Run these commands to get the primary key, store it in a variable called <ph id="ph1">`REDIS_KEY`</ph>, and display it:</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Next, run this command to put the connection string together and display it on the command line.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Note that the hostname is the name of the cache followed by <ph id="ph1">`.redis.cache.windows.net`</ph>, and the port is <bpt id="p1">**</bpt>6380<ept id="p1">**</ept>, the default Redis SSL port.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Copy the connection string to the clipboard <ph id="ph1">&amp;mdash;</ph> you'll be using it in the next step.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Add the connection string to your app</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Open the Cloud Shell editor from the application folder.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Program.cs<ept id="p1">**</ept> source file.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Create the following field in the <ph id="ph1">`Program`</ph> class and paste in your connection string as the value.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Here's an example:</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Insert two data values into your Azure Cache for Redis</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Finally, we're going to add data into your Azure Cache for Redis.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Add the following <ph id="ph1">`using`</ph> statement to the top of the <bpt id="p1">**</bpt>Program.cs<ept id="p1">**</ept> file.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Replace the contents of the <ph id="ph1">`Main`</ph> method with the following code.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>This will use a transaction to add two values.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Before building and running the application, check to make sure that the Redis cache has been fully provisioned.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>It can sometimes take a few minutes after <ph id="ph1">`az redis create`</ph> completes.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Run the following command to check the status.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If the status is <ph id="ph1">`Creating`</ph>, try checking again in a couple of minutes.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>It will show <ph id="ph1">`Succeeded`</ph> when finished.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Run the application and verify that the console says <bpt id="p1">**</bpt>Transaction committed<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Verify your data</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>To finish off, let's verify that the data we added is in our Azure Cache for Redis.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Sign into the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept> using the same account you activated the sandbox with.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Locate your Azure Cache for Redis by selecting <bpt id="p1">**</bpt>All Resources<ept id="p1">**</ept> in the left-hand sidebar, and using the filter box on the left to select Azure Cache for Redis instances.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can use the search box at the top, and type the name of the cache.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Select your Azure Cache for Redis instance.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> blade for your Azure Cache for Redis, select <bpt id="p2">**</bpt>Console<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>This will open an Azure Cache for Redis console, which allows you to enter low-level Azure Cache for Redis commands.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Run the command <ph id="ph1">`get MyKey1`</ph>.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Verify that the value returned is <bpt id="p1">**</bpt>MyValue1<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Run the command <ph id="ph1">`get MyKey2`</ph>.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Verify that the value returned is <bpt id="p1">**</bpt>MyValue2<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Azure Cache for Redis console showing the values of MyKey1 and MyKey2.</source>
+        </trans-unit></group></body></file></xliff>

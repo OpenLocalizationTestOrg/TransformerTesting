@@ -1,0 +1,37 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-azure-ad-overview.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-azure-ad-overview.b16c7de0285665f48cb647051aa1869afc22496b.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cdac7e962893b22a3e8d4ffae1cbd295e828872b</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\secure-azure-resources-with-conditional-access\includes\2-azure-ad-overview.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Azure Active Directory (Azure AD) is not just a domain controller in the cloud.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Azure AD is a multi-tenant, cloud-based directory and identity management service.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>It combines core directory services, application access management, and identity protection into a single solution.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Azure AD can work in concert with an existing Windows Server Active Directory environment by way of Azure AD Connect, which allows you to utilize existing on-premises identity investments.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Azure AD comes in four editions.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For this exercise, we will only focus on features in the Azure AD Premium P1 and P2 editions.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In this module, we will create an Azure AD directory where all of our users and groups will live, similar to an on-premises directory.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>When we create the directory, our account will automatically be made a global administrator.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Accounts with global administrator rights should be regulated, as they have full access to all Azure AD administrative features.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can have more than one global administrator, but only global administrators can assign any of the other administrator roles to users.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>How can Azure AD help you protect access to applications?</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Azure AD Premium includes features like Multi-Factor Authentication and conditional access policies.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>When these features are used together, they provide the most granularity when protecting access to applications.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A conditional access policy consists of:</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Users or groups</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Applications they're attempting to access</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Controls to be fulfilled, such as Multi-Factor Authentication</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>In this unit, you learned the basics of what Azure AD is and what features are available to secure access to applications.</source>
+        </trans-unit></group></body></file></xliff>

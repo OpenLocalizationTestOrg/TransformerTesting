@@ -1,0 +1,111 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-exercise-enable-application-insights.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-exercise-enable-application-insights.9eb2ffedcb905f4c0117026edf96022ba535164c.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8fad27333b25aca96aad8a839f94d9f7c24d89d1</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\capture-page-load-times-application-insights\includes\3-exercise-enable-application-insights.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You can enable Application Insights runtime instrumentation when you create an App Service web application or at any time afterwards.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>To start gathering information as soon as possible, the developers of the video-sharing app want to enable Application Insights runtime instrumentation.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In this unit, we'll use the Azure portal to enable runtime instrumentation on a web app.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>We'll create the app without enabling Application Insights and view the limited performance that's collected by default.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>We'll then enable Application Insights and see the rich analysis that becomes available.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Create an Azure web app</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>We'll start by creating a web app to monitor.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Follow these steps:</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Go to the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept>.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In the left pane, select <bpt id="p1">**</bpt>Create a resource<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Search the Marketplace<ept id="p1">**</ept> box, enter <bpt id="p2">**</bpt>web app<ept id="p2">**</ept>, and then select Enter.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In the list of results, select <bpt id="p1">**</bpt>Web App<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Web App<ept id="p1">**</ept> blade, select <bpt id="p2">**</bpt>Create<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Configure the web app</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You need to set up a name, a resource group, a location, and some other properties for your web app.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Follow these steps:</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>App name<ept id="p1">**</ept> box, enter a unique name for your app.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For example, you could use <bpt id="p1">**</bpt><ph id="ph1">&amp;lt;</ph>yourname<ph id="ph2">&amp;gt;</ph>svideoapp<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The name you choose must be unique within the .azurewebsites.net domain.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Subscription<ept id="p1">**</ept> list, select <bpt id="p2">**</bpt>Concierge subscription<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Resource Group<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Use existing<ept id="p2">**</ept> and then select the sandbox resource group, <bpt id="p3">&lt;rgn&gt;</bpt>[Sandbox resource group]<ept id="p3">&lt;/rgn&gt;</ept>.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Leave the default values for the <bpt id="p1">**</bpt>OS<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Publish<ept id="p2">**</ept>, <bpt id="p3">**</bpt>App Service plan/Location<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Application Insights<ept id="p4">**</ept> options.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In this module, you'll enable Application Insights as a separate step, after the web app is created.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If you were to enable it here, the end result would be the same.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>At the bottom of the blade, select <bpt id="p1">**</bpt>Create<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>When the web app is created, in the left pane, select <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In the list of resources, select the web app you just created.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Scroll down on the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> page.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Notice that, even without Application Insights, some statistics appear, like the frequency of 500 errors and the rate of requests.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Enable Application Insights for the web app</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The limited set of statistics provided in the Azure portal isn't enough to help you diagnose the cause of slow performance in the video app.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You want to enable Application Insights to obtain more detailed performance data.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To enable Application Insights on an app, follow these steps:</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If the web app's blade isn't already visible, select <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept> in the left pane, and then select the web app you created earlier in this unit.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> on the left, select <bpt id="p2">**</bpt>Application Insights<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Web app navigation blade</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Application Insights<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Turn on site extension<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Create a new resource<ept id="p1">**</ept>, in the <bpt id="p2">**</bpt>New resource name<ept id="p2">**</ept> box, enter <bpt id="p3">**</bpt>videoappinsights<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Location<ept id="p1">**</ept> list, select a location, and then select <bpt id="p2">**</bpt>Apply<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>Apply monitoring settings<ept id="p1">**</ept> box appears, select <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>After the changes are applied, in the left pane, select <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept> and then, in the list of resources, select <bpt id="p2">**</bpt>videoappinsights<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Application Insights<ept id="p1">**</ept> blade, select <bpt id="p2">**</bpt>Application Dashboard<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Note the charts shown by default in the dashboard.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If the charts don't appear within a few seconds, select F5 to refresh the page.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Inject the Application Insights JavaScript SDK into the web app</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Because you can inject the Application Insights JavaScript SDK into the video web app without involving developers, and because this will generate more data for performance analysis, you want to enable client-side monitoring.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To do this, follow these steps:</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If the web app's blade isn't already visible, select <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept> in the left pane, and then select the web app you created earlier.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> on the left, select <bpt id="p2">**</bpt>Application Settings<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Application Settings<ept id="p1">**</ept> page, scroll down to the <bpt id="p2">**</bpt>Application settings<ept id="p2">**</ept> section, select <bpt id="p3">**</bpt>Show values<ept id="p3">**</ept>, and then select <bpt id="p4">**</bpt>Add new setting<ept id="p4">**</ept>.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Add new application setting</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Enter a name<ept id="p1">**</ept> box, enter <bpt id="p2">**</bpt>APPINSIGHTS_JAVASCRIPT_ENABLED<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Enter a value<ept id="p1">**</ept> box, enter <bpt id="p2">**</bpt>true<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>At the top of the <bpt id="p1">**</bpt>Application Settings<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Save<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>In the top left corner of the <bpt id="p1">**</bpt>App Service<ept id="p1">**</ept> blade, select <bpt id="p2">**</bpt>Overview<ept id="p2">**</ept>, select <bpt id="p3">**</bpt>Restart<ept id="p3">**</ept>, and then select <bpt id="p4">**</bpt>Yes<ept id="p4">**</ept>.</source>
+        </trans-unit></group></body></file></xliff>

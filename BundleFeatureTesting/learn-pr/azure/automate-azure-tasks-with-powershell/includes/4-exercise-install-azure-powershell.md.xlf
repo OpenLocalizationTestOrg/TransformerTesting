@@ -1,0 +1,75 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-exercise-install-azure-powershell.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-exercise-install-azure-powershell.f07f6ab5a207db80d29e34591ed43af13d01971e.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">07e7cbf6e0c7871f5e48bb67f683bc85988c7fdc</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\automate-azure-tasks-with-powershell\includes\4-exercise-install-azure-powershell.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this unit, you will install <bpt id="p1">**</bpt>PowerShell<ept id="p1">**</ept> on your local machine.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This exercise guides you through installing the PowerShell tools locally.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The remainder of the module will use the Azure Cloud Shell so you can leverage the free subscription support in Microsoft Learn.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can consider this exercise as an optional activity and just review the instructions if you prefer.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Linux</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Installing PowerShell for Linux will involve using a package manager.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>We will use <bpt id="p1">**</bpt>Ubuntu 18.04<ept id="p1">**</ept> for our example here, but we have <bpt id="p2">[</bpt>detailed instructions for other versions and distributions in our documentation<ept id="p2">](https://docs.microsoft.com/powershell/scripting/setup/installing-powershell-core-on-linux)</ept>.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You will install PowerShell Core on Ubuntu Linux using the Advanced Packaging Tool (<bpt id="p1">**</bpt>apt<ept id="p1">**</ept>) and the Bash command line.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Import the encryption key for the Microsoft Ubuntu repository.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This will allow the package manager to verify that the PowerShell Core package you install comes from Microsoft.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Register the <bpt id="p1">**</bpt>Microsoft Ubuntu repository<ept id="p1">**</ept> so the package manager can locate the PowerShell Core package.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Update the list of packages.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Install PowerShell Core.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Start PowerShell to verify that it installed successfully.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>MacOS</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>On macOS, the first step is to install <bpt id="p1">**</bpt>PowerShell Core<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This is done using the Homebrew package manager.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">**</bpt>brew<ept id="p1">**</ept> command is unavailable, you may need to install the Homebrew package manager.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For details see the <bpt id="p1">[</bpt>Homebrew website<ept id="p1">](https://brew.sh/)</ept>.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Install Homebrew-Cask to obtain more packages, including the PowerShell Core package:</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Install PowerShell Core:</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Start PowerShell Core to verify that it installed successfully:</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Windows</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>PowerShell is included with Windows, however there may be an update available for your machine.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The Azure support we are going to use requires PowerShell version 5.0 or higher.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You can check the version you have installed through the following steps:</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Open the <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> menu and type <bpt id="p2">**</bpt>Windows PowerShell<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>There may be multiple shortcut links available:</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell - this is the 64-bit version and generally what you should choose.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell (x86) - this is a 32-bit version installed on 64-bit Windows.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell ISE - The Integrated Scripting Environment (ISE) is used for writing scripts in PowerShell.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Windows PowerShell ISE (x86) - A 32-bit version of the ISE.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Select the Windows PowerShell icon.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Type the following command to determine the version of PowerShell installed.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>If the version number is lower than 5.0, follow these instructions for <bpt id="p1">[</bpt>upgrading existing Windows PowerShell<ept id="p1">](https://docs.microsoft.com/powershell/scripting/setup/installing-windows-powershell?view=powershell-6#upgrading-existing-windows-powershell)</ept>.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You have setup your local machine(s) to support PowerShell.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Next, we will talk about additional commands you can add including the Azure module.</source>
+        </trans-unit></group></body></file></xliff>

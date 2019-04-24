@@ -1,0 +1,139 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-decide-if-azure-powershell-is-right-for-your-tasks.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-decide-if-azure-powershell-is-right-for-your-tasks.b2cc5f0f6a7f897b3ebab5d815e86556c6a68771.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7c04157cca47dcb12aa5f20cbb87b206fda2130a</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\automate-azure-tasks-with-powershell\includes\2-decide-if-azure-powershell-is-right-for-your-tasks.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Suppose you need to choose a tool to administer the Azure resources used to test your Customer Relationship Management (CRM) system.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Your tests require you to create resource groups and provision virtual machines (VMs).</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You want something that is easy for administrators to learn, but powerful enough to automate the installation and setup of multiple virtual machines or script a full application environment.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>There are multiple tools available; you need to find the best one for your people and your tasks.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>What tools are available?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Azure provides three administration tools to choose from:</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The Azure portal</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The Azure CLI</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Azure PowerShell</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>They all offer approximately the same amount of control; any task that you can do with one of the tools, you can likely do with the other two.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>All three are cross-platform, running on Windows, macOS, and Linux.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>They differ in syntax, setup requirements, and whether they support automation.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Here, we will describe each of the three options and give some guidance on how to decide among them.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>What is the Azure portal?</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The Azure portal is a website that lets you create, configure, and alter the resources in your Azure subscription.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The portal is a Graphical User Interface (GUI) that makes it convenient to locate the resource you need and execute any required changes.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>It also guides you through complex administrative tasks by providing wizards and tooltips.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The portal does not provide any way to automate repetitive tasks.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For example, to set up 15 VMs, you would need to create them one-by-one by completing the wizard for each VM.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This can be time-consuming and error-prone for complex tasks.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>What is the Azure CLI?</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The Azure CLI is a cross-platform command-line program to connect to Azure and execute administrative commands on Azure resources.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For example, to create a VM, you would use a command like the following:</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The Azure CLI is available two ways: inside a browser via the Azure Cloud Shell or with a local install on Linux, Mac, or Windows.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In both cases, it can be used interactively or scripted.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For interactive use, you first launch a shell such as <ph id="ph1">`cmd.exe`</ph> on Windows or Bash on Linux or macOS and then issue the command at the shell prompt.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To automate repetitive tasks, you assemble the commands into a shell script using the script syntax of your chosen shell and then execute the script.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>What is Azure PowerShell?</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Azure PowerShell is a module that you add to Windows PowerShell or PowerShell Core to let you connect to your Azure subscription and manage resources.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Azure PowerShell requires PowerShell to function.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>PowerShell provides services like the shell window, command parsing, and so on.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Azure PowerShell adds the Azure-specific commands.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For example, Azure PowerShell provides the <bpt id="p1">**</bpt>New-AzVM<ept id="p1">**</ept> command that creates a virtual machine for you inside your Azure subscription.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To use it, you would launch the PowerShell application and then issue a command like the following:</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Azure PowerShell is also available two ways: inside a browser via the Azure Cloud Shell or with a local install on Linux, Mac, or Windows.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In both cases, you have two modes to choose from.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You can use it in interactive mode, in which you manually issue one command at a time, or in scripting mode, where you execute a script that consists of multiple commands.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>How to Choose an administrative tool</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>There is approximate parity between the portal, the Azure CLI, and Azure PowerShell with respect to the Azure objects they can administer and the configurations they can create.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>They are also all cross-platform.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This means you will typically consider several other factors when making your choice:</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Automation<ept id="p1">**</ept>: Do you need to automate a set of complex or repetitive tasks?</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Azure PowerShell and the Azure CLI support this while the portal does not.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Learning curve<ept id="p1">**</ept>: Do you need to complete a task quickly without learning new commands or syntax?</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The Azure portal does not require you to learn syntax or memorize commands.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>In Azure PowerShell and the Azure CLI, you must know the detailed syntax for each command you use.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Team skillset<ept id="p1">**</ept>: Does your team have existing expertise?</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For example, your team may have used PowerShell to administer Windows.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If so, they will quickly become comfortable using Azure PowerShell.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Example</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Recall that you are choosing an administrative tool to create the test environments for your CRM application.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Your administrators have two specific Azure tasks they will need to do:</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Create one resource group for each category of testing (unit, integration, and acceptance).</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Create multiple VMs in each resource group before every round of testing.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>To create the resource groups, the Azure portal is a reasonable choice.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>These are one-off tasks, so you don't need scripts to do them.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Finding the best tool to create the VMs is a more challenging decision.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>You need to create several of them and you need to do it repeatedly, likely several times each week.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>This means you will want automation, so the Azure portal is not a good choice.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>In this case, either Azure PowerShell or the Azure CLI will meet your needs.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If your team members have some existing PowerShell knowledge, Azure PowerShell will likely be the best match.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Azure PowerShell is available on the operating systems your admin team uses, it supports automation, and should be quick for your team to learn.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Most administrators' first experience with Azure is in the Portal.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>It's a great place to start as it provides a clean, well-structured graphical interface but provided limited options for automation.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>When you need automation, Azure gives you two options: Azure PowerShell for admins with PowerShell experience and the Azure CLI for everyone else.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>In practice, businesses typically have a mix of one-off and repetitive tasks.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This means it is common to use both the Portal and a scripting solution.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>In our CRM example, it's appropriate to create the resource groups via the Portal and automate the VM creation with PowerShell.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The rest of this module focuses on installing and using Azure PowerShell.</source>
+        </trans-unit></group></body></file></xliff>

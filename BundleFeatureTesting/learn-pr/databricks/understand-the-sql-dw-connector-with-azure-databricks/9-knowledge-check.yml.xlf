@@ -1,0 +1,51 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="9-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9-knowledge-check.2258db0e1e5ded18a12741cb43894e7ba5fbd2db.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">92adc25be5af9167049c14124401a196d75d50da</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\databricks\understand-the-sql-dw-connector-with-azure-databricks\9-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.understanding-the-sql-dw-connector-with-azure-databricks.9-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.understanding-the-sql-dw-connector-with-azure-databricks.9-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.understanding-the-sql-dw-connector-with-azure-databricks.9-knowledge-check">
+          <source>Test your knowledge by answering questions about the skills you learned in this module.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.understanding-the-sql-dw-connector-with-azure-databricks.9-knowledge-check">
+          <source>Which of the following is a feature of Azure SQL Data Warehouse that can help you save in compute costs when you don't need to run any queries for a while?</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.understanding-the-sql-dw-connector-with-azure-databricks.9-knowledge-check">
+          <source>Scale down the data warehouse units (DWUs).</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.understanding-the-sql-dw-connector-with-azure-databricks.9-knowledge-check">
+          <source>While scaling down DWUs can save you money by reducing the per-hour cost of running your SQL Data Warehouse instance, it's meant to scale your data warehouse to adapt to the data processing needs of your environment.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.understanding-the-sql-dw-connector-with-azure-databricks.9-knowledge-check">
+          <source>Delete your SQL Data Warehouse instance and restore it later from backup.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.understanding-the-sql-dw-connector-with-azure-databricks.9-knowledge-check">
+          <source>This option puts your data in a state of unnecessary risk, and there's a faster option.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.understanding-the-sql-dw-connector-with-azure-databricks.9-knowledge-check">
+          <source>Pause the SQL Data Warehouse instance.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.understanding-the-sql-dw-connector-with-azure-databricks.9-knowledge-check">
+          <source>Pausing allows you to save compute costs, and it only takes seconds to pause and resume an instance.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.understanding-the-sql-dw-connector-with-azure-databricks.9-knowledge-check">
+          <source>What's the recommended way to save data if you plan to run several queries against one SQL Data Warehouse table?</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.understanding-the-sql-dw-connector-with-azure-databricks.9-knowledge-check">
+          <source>Save the data in a format like Parquet.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.understanding-the-sql-dw-connector-with-azure-databricks.9-knowledge-check">
+          <source>This format is correct for multiple queries on the same table because each query can extract a large amount of data to Blob storage.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.understanding-the-sql-dw-connector-with-azure-databricks.9-knowledge-check">
+          <source>Use the SQL Data Warehouse connector.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.understanding-the-sql-dw-connector-with-azure-databricks.9-knowledge-check">
+          <source>The SQL Data Warehouse connector would be too slow for constant querying against the table because of the amount of data extracted.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.understanding-the-sql-dw-connector-with-azure-databricks.9-knowledge-check">
+          <source>Save data directly to Azure Blob storage.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.understanding-the-sql-dw-connector-with-azure-databricks.9-knowledge-check">
+          <source>Saving data directly to Azure Blog storage isn't efficient for querying.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.understanding-the-sql-dw-connector-with-azure-databricks.9-knowledge-check">
+          <source>What are the two prerequisites for connecting Azure Databricks with SQL Data Warehouse that apply to the SQL Data Warehouse instance?</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.understanding-the-sql-dw-connector-with-azure-databricks.9-knowledge-check">
+          <source>Create a database master key and configure the firewall to enable Azure services to connect.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.understanding-the-sql-dw-connector-with-azure-databricks.9-knowledge-check">
+          <source>Correct!</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.understanding-the-sql-dw-connector-with-azure-databricks.9-knowledge-check">
+          <source>Use a correctly formatted ConnectionString and create a database master key.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.understanding-the-sql-dw-connector-with-azure-databricks.9-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.understanding-the-sql-dw-connector-with-azure-databricks.9-knowledge-check">
+          <source>You also need to configure the firewall to enable Azure services to connect.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.understanding-the-sql-dw-connector-with-azure-databricks.9-knowledge-check">
+          <source>Add the client IP address to the firewall's allowed IP addresses list and use the correctly formatted ConnectionString.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.understanding-the-sql-dw-connector-with-azure-databricks.9-knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit></group></body></file></xliff>

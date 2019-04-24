@@ -1,0 +1,181 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-exercise-connect-to-a-windows-vm-using-rdp.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-exercise-connect-to-a-windows-vm-using-rdp.4a99af312bbb9a611068283cd3a09a5e32cccb3e.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0cc32d19ea3e9a742b2c8c248d6c78952d445b56</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-windows-virtual-machine-in-azure\includes\5-exercise-connect-to-a-windows-vm-using-rdp.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>We have our Windows VM deployed and running, but it's not configured to do any work.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Recall our scenario is a video processing system.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Our platform receives files through FTP.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The traffic cameras upload video clips to a known URL, which is mapped to a folder on the server.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The custom software on each Windows VM runs as a service and watches the folder and processes each uploaded clip.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>It then passes the normalized video to our algorithms running on other Azure services.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>There are a few things we would need to configure to support this scenario:</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Install FTP and open the ports it needs to communicate.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Install the proprietary video codec unique to the city's camera system.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Install our transcoding service that processes uploaded videos.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Many of these are typical administrative tasks we won't actually cover here, and we don't have software to install.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Instead, we will walk through the steps and show you how you <bpt id="p1">_</bpt>could<ept id="p1">_</ept> install custom or third-party software using Remote Desktop.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Let's start by getting the connection information.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Connect to the VM with Remote Desktop Protocol</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To connect to an Azure VM with an RDP client, you will need:</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The public IP address of the VM (or private if the VM is configured to connect to your network).</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The port number.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can enter this information into the RDP client, or download a pre-configured <bpt id="p1">**</bpt>RDP<ept id="p1">**</ept> file.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Download the RDP file</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept>, ensure the <bpt id="p2">**</bpt>Overview<ept id="p2">**</ept> panel for the virtual machine that you created earlier is open.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can find the VM under <bpt id="p1">**</bpt>All Resources<ept id="p1">**</ept> if you need to open it.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The overview panel has a lot of information about the VM.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You can see whether the VM is running.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Stop or restart it.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Get the public IP address to connect to the VM.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>See the activity of the CPU, disk, and network.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Connect<ept id="p1">**</ept> button at the top of the pane.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Connect to virtual machine<ept id="p1">**</ept> blade, note the <bpt id="p2">**</bpt>IP address<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Port number<ept id="p3">**</ept> settings, then click <bpt id="p4">**</bpt>Download RDP File<ept id="p4">**</ept> and save it to your computer.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Before we connect, let's adjust a few settings.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>On Windows, find the file using Explorer, right-click and select <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>On MacOS you will need to open the file first with the RDP client and then right-click on the item in the displayed list and select <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You can adjust a variety of settings to control the experience in connecting to the Azure VM.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The settings you will want to examine are:</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Display<ept id="p1">**</ept>: By default, it will be full screen.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You can change this to a lower resolution, or use all your monitors if you have more than one.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Local Resources<ept id="p1">**</ept>: You can share local drives with the VM - allowing you to copy files from your PC to the VM.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>More<ept id="p1">**</ept> button under <bpt id="p2">**</bpt>Local devices and resources<ept id="p2">**</ept> to select what is shared.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Experience<ept id="p1">**</ept>: Adjust the visual experience based on your network quality.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Share your Local C: drive so it will be visible to the VM.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Switch back to the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> tab and click <bpt id="p2">**</bpt>Save<ept id="p2">**</ept> to save the changes.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You can always come back and edit this file later to try other settings.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Connect to the Windows VM</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Connect<ept id="p1">**</ept> button to start the connection to the VM.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Remote Desktop Connection<ept id="p1">**</ept> dialog box, note the security warning and the remote computer IP address, then click <bpt id="p2">**</bpt>Connect<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Windows Security<ept id="p1">**</ept> dialog box, enter your username and password that you used in steps 6 and 7.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If you are using a Windows client to connect to the VM, it will default to known identities on your machine.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>You can click the <bpt id="p1">**</bpt>More choices<ept id="p1">**</ept> option and select "Use a different account" to let you enter a different username/password combination.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>In the second <bpt id="p1">**</bpt>Remote Desktop Connection<ept id="p1">**</ept> dialog box, note the certificate errors, then click <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Install worker roles</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The first time you connect to a Windows server VM, it will launch Server Manager.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This allows you to assign a worker role for common web or data tasks.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>You can also launch the Server Manager through the Start Menu.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This is where we would add the Web Server role to the server.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This will install IIS and as part of the configuration you would turn off HTTP requests and enable the FTP server.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Or, we could ignore IIS and install a third-party FTP server.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>We'd then configure the FTP server to allow access to a folder on our big data drive we added to the VM.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Since we aren't going to actually configure that here, just close Server Manager.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Install custom software</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>We have two approaches we can use to install software.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>First, this VM is connected to the Internet.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If the software you need has a downloadable installer, you can open a web browser in the RDP session, download the software, and install it.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Second, if your software is custom - like our custom service, you can copy it from your local machine over to the VM to install it.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Let's look at this latter approach.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Open File Explorer.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Click on <bpt id="p1">**</bpt>This PC<ept id="p1">**</ept> in the sidebar.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>You should see several drives:</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Windows (C:) drive representing the OS.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Temporary Storage (D:) drive.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Your local C: drive (it will have a different name than shown below).</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Screenshot showing the local drive shared with the Azure VM.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>With access to your local drive, you can copy the files for the custom software onto the VM and install the software.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>We won't actually do that since it's just a simulated scenario, but you can imagine how it would work.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The more interesting thing to observe in the list of drives is what is <bpt id="p1">_</bpt>missing<ept id="p1">_</ept>.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Notice that our <bpt id="p1">**</bpt>Data<ept id="p1">**</ept> drive is not present.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Azure added a VHD but didn't initialize it.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Initialize data disks</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Any additional drives you create from scratch will need to be initialized and formatted.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The process for doing this is identical to a physical drive.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Launch the <bpt id="p1">**</bpt>Disk Management<ept id="p1">**</ept> tool from the Start Menu.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>You may have to go to the Computer Management tool first, then Disk Management, or try searching for "Disk Management" in the Start Menu.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>It will display a warning that it has detected an uninitialized disk.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Screenshot showing the disk management tool warning about an uninitialized data disk in the VM.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> to initialize the disk.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>It will then show up in the list of volumes where you can format it and assign a drive letter.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Open File Explorer and you should now see your data drive.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Go ahead and close the RDP client to sign out of the VM.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The server will continue to run.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>RDP allows you to work with the Azure VM just like a local computer.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>With Desktop UI access, you can administer this VM as you would any Windows computer: installing software, configuring roles, adjusting features and other common tasks.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>However, it's a manual process - if we always need to install some software, you might consider automating the process using scripting.</source>
+        </trans-unit></group></body></file></xliff>

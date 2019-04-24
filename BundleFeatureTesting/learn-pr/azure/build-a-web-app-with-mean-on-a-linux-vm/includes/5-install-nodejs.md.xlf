@@ -1,0 +1,57 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-install-nodejs.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-install-nodejs.eabd12a65e7a362e2a92e182cad6c83ed962d525.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">655b16d69af8a2a7f1b9d3608bd4d57827f55623</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\build-a-web-app-with-mean-on-a-linux-vm\includes\5-install-nodejs.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Here you'll install Node.js, the <bpt id="p1">**</bpt>N<ept id="p1">**</ept> in the MEAN acronym.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Like MongoDB, Node.js is open source.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Node.js will act as the server-side host for your web application and handle inbound HTTP traffic.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Node.js also provides you with a way to communicate with your MongoDB installation, which you'll see later.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>What versions of Node.js are available?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can get Node.js in two ways:</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Long Term Support (LTS)<ept id="p1">**</ept> - LTS is generally considered to be more stable and is recommended for most users and for production environments.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Current<ept id="p1">**</ept> - Current is for those who want to experiment with the latest features.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Because it can introduce breaking changes between releases, it's not recommended for production environments.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Here you'll use Node.js LTS.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>How do I install Node.js?</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Like MongoDB, you can run Node.js on Windows, macOS, and Linux.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Node.js also supports Unix-based operating systems such as SunOS and AIX.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Just as with MongoDB, here you'll register the Node.js repository so that <ph id="ph1">`apt`</ph> can locate the package.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Recall that you're working with an Ubuntu VM.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Later, you can <bpt id="p1">[</bpt>check out the installation guide<ept id="p1">](https://nodejs.org/en/download/package-manager?azure-portal=true)</ept> to learn how to install Node.js on your favorite platform.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Install Node.js</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Here you'll install Node.js.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>As with MongoDB, the process involves registering the Node.js repository so that <ph id="ph1">`apt`</ph> can locate the package.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Here, you'll work from the SSH connection to the Ubuntu VM that you created earlier in this module.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Register the Node.js repository so the package manager can locate the packages, like this.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Install the Node.js package.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Run <ph id="ph1">`node -v`</ph> to verify the installation.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The output shows that you have the latest LTS version of Node.js.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Exit your SSH session</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You're all done working directly on the VM for now.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Run <ph id="ph1">`exit`</ph> to leave the SSH session to your VM.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You're now back at your Cloud Shell session.</source>
+        </trans-unit></group></body></file></xliff>

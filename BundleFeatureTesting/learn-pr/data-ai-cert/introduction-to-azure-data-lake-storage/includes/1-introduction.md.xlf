@@ -1,0 +1,31 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.fe5f0ab8513b59cda9312b25951315983ee275e5.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">43be2f1fe9a9f1e419bf08b76358a0660fb2d97d</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\introduction-to-azure-data-lake-storage\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Many organizations have spent the last two decades building data warehouses and business intelligence (BI) solutions based on relational database systems.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Many BI solutions have lost out on opportunities to store unstructured data due to cost and complexity in these types of data and databases.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Suppose that you're a data engineering consultant doing work for Contoso.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>They're interested in using Azure to analyze all of their business data.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In this role, you'll provide guidance on how Azure can enhance their existing business intelligence systems.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You'll also offer advice about using Azure's storage capabilities to store large amounts of unstructured data to add value to their BI solution.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Because of their needs, you plan to recommend Azure Data Lake Storage.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Data Lake Storage provides a repository where you can upload and store huge amounts of unstructured data with an eye toward high-performance big data analytics.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In this module you will:</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Learn about Azure Data Lake Storage</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Create an Azure Storage Account by using the Azure portal</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Compare Data Lake Storage Gen2 and Azure Blob Storage</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Explore the stages for processing big data by using Data Lake Storage</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Review the use cases for Data Lake Storage</source>
+        </trans-unit></group></body></file></xliff>

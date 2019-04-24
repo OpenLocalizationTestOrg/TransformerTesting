@@ -1,0 +1,39 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.e6af5de9ed0b9251b2bee8623fd7851e0248cd21.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a839c7899626cc2a8f71cf8a94aa32a15144ac1d</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\run-web-app-background-task-with-webjobs\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>A small automated task, which executes automatically in response to some event, is a frequent requirement in many systems.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Suppose you are a senior web developer in a research role for an online luxury watch dealer.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You have a production website that uses Azure web apps.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You've built a small script that checks stock levels and reports them to an external service.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You consider this script to be part of the website, but it's meant to run in the background, not in response to a user's actions on the site.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You'd like the website and the script code to be closely associated.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>They should be stored together as part of the same project in the same source control repository.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The script may grow and change as the site changes, so you'd like to always deploy them at the same time, to the same set of cloud resources.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In this module, you will create a WebJob in the same project as an existing Web App.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>By the end of this module, you will be able to automate tasks by using WebJobs.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Identify what a WebJob is and when to use one instead of an Azure Function</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Use Visual Studio to Create an App Service background task with a WebJob linked to a web project</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Package a WebJob for deployment</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Configure the WebJob operating model by using the WebJobs SDK</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A basic familiarity with the creation, configuration, and deployment of App Service Web Apps with Visual Studio</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You will need Visual Studio 2017 with the Azure workload and the Azure Functions tools installed to complete the exercises in this module.</source>
+        </trans-unit></group></body></file></xliff>

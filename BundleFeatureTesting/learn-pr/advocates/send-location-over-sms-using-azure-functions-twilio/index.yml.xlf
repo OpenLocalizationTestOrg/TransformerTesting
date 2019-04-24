@@ -1,0 +1,25 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.39e60e20a9c94e22bfb3d3be9522f7367aa7e070.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">74110f532fb1070b129589205fbbe4b798ed88f5</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\send-location-over-sms-using-azure-functions-twilio\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.send-location-over-sms-from-mobile-using-azure-functions-twilio">
+          <source>Share your location as a text message using Azure Functions and Twilio</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.send-location-over-sms-from-mobile-using-azure-functions-twilio">
+          <source>Learn how to use location tracking on your phone mixed with Azure Functions and Twilio to share your location with your friends as a text message.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.send-location-over-sms-from-mobile-using-azure-functions-twilio">
+          <source>Share your location as a text message using Azure Functions and Twilio</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.send-location-over-sms-from-mobile-using-azure-functions-twilio">
+          <source>Learn how to use location tracking on your phone mixed with Azure Functions and Twilio to share your location with your friends as a text message.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.send-location-over-sms-from-mobile-using-azure-functions-twilio">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.send-location-over-sms-from-mobile-using-azure-functions-twilio">
+          <source>Create a cross-platform Xamarin.Forms app that uses Xamarin.Essentials</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.send-location-over-sms-from-mobile-using-azure-functions-twilio">
+          <source>Create a cross-platform UI using XAML with application logic in a ViewModel, as well as bind properties in a ViewModel to the UI</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.send-location-over-sms-from-mobile-using-azure-functions-twilio">
+          <source>Detect the user's location</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.send-location-over-sms-from-mobile-using-azure-functions-twilio">
+          <source>Create the Azure Functions with an HTTP trigger and run it locally</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.send-location-over-sms-from-mobile-using-azure-functions-twilio">
+          <source>Call the Azure Functions from a mobile app, passing data as JSON</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.send-location-over-sms-from-mobile-using-azure-functions-twilio">
+          <source>Bind the Azure Functions to Twilio to send an SMS message</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.send-location-over-sms-from-mobile-using-azure-functions-twilio">
+          <source>Publish an Azure Functions app to Azure</source>
+        </trans-unit></group></body></file></xliff>

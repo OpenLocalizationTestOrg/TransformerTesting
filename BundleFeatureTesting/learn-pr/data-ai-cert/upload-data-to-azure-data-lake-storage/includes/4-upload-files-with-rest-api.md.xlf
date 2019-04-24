@@ -1,0 +1,161 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-upload-files-with-rest-api.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-upload-files-with-rest-api.7a5febb37d0576812dd4e91c432083abd105ace3.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e82c75a926e3c039faa03521cb7d7d4b3b36cddb</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\upload-data-to-azure-data-lake-storage\includes\4-upload-files-with-rest-api.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In Azure Data Lake Storage you can upload data by using REST APIs.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use any programming language that supports building and sending HTTP-based messages.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In this exercise, you'll try this out using a simple .NET Core app with C#.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If you don't have an Azure account, don't want to install .NET Core, or prefer not to do this exercise in your account, just read through the exercise to understand how to invoke the REST API services.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Register the application</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The first step in using the REST API is to register the application.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Azure uses Active Directory to provide fine-grained access control for all API access.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Sign in to the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com?azure-portal=true)</ept>.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>On the left, select <bpt id="p1">**</bpt>Azure Active Directory<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If you don't see this service in your favorites, use the search bar at the top of window to find it.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Go to the <bpt id="p1">**</bpt>App registrations<ept id="p1">**</ept> section.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>New application registration<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If you're using the new UI for this example, you might see slightly different terminology.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For example, the <bpt id="p1">**</bpt>New application registration<ept id="p1">**</ept> button might be called <bpt id="p2">**</bpt>New registration<ept id="p2">**</ept> instead.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>New Application<ept id="p1">**</ept> blade, fill in the following details:</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Name<ept id="p1">**</ept>: Enter a name for your application (for example, <bpt id="p2">**</bpt>data-uploader<ept id="p2">**</ept>).</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Application type<ept id="p1">**</ept>: Select <bpt id="p2">**</bpt>Web app / API<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Sign-on URL<ept id="p1">**</ept>: Enter a local sign-on URL using your own domain suffix (e.g. \<ph id="ph1">http://sample.contoso.com)</ph>.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This value identifies the app.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can change it later if you need to.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Create<ept id="p1">**</ept> to create the app registration.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Registered app<ept id="p1">**</ept> blade, next to <bpt id="p2">**</bpt>Application ID<ept id="p2">**</ept>, copy the key and paste it in Notepad.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Open the <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> blade, and go to <bpt id="p2">**</bpt>Owner<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Make a note of the owner account in Notepad.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You can change this owner account to a preferred service account for the registered application.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> blade, go to <bpt id="p2">**</bpt>Keys<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Screenshot showing the app registration and the Settings blade</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Key description<ept id="p1">**</ept> field, create a key by typing <bpt id="p2">**</bpt>DUKey<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Screenshot showing where to generate a new key</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Expires<ept id="p1">**</ept>, set the duration to <bpt id="p2">**</bpt>In 1 year<ept id="p2">**</ept>, and then select <bpt id="p3">**</bpt>Save<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Screenshot showing where to set up a new key</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Copy the key value into Notepad.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>After you leave this blade, you can't retrieve the key value.**</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Close the <bpt id="p1">**</bpt>Application Registration<ept id="p1">**</ept> blade.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Grant permissions in Data Lake Storage</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Now that you've registered the app, use Azure Storage Explorer to give it permissions to the Data Lake Storage REST API.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You do this by assigning permissions to the owner account of the registered application.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Sign in to Storage Explorer.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Here you can select the subscriptions you want to work with.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Make sure to select the one where you created the Azure Storage account.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The app shows a list of the storage areas you can work with from your subscriptions.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You should see your Azure Storage account on the list.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Storage Explorer app</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Expand your subscription and then expand the data lake storage account to view the <bpt id="p1">**</bpt>salesdata<ept id="p1">**</ept> file system.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Right-click <bpt id="p1">**</bpt>salesdata<ept id="p1">**</ept> and select <bpt id="p2">**</bpt>Manage Access<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Manage Access<ept id="p1">**</ept> dialog box, under <bpt id="p2">**</bpt>Add user or group<ept id="p2">**</ept>, type or search for the owner account, and then select <bpt id="p3">**</bpt>Add<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The name will appear under users or groups.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Ensure that the owner account is selected under <bpt id="p1">**</bpt>user or group<ept id="p1">**</ept>, and then under the section for <bpt id="p2">**</bpt>Permissions for: owner account name<ept id="p2">**</ept>, select the check box in the <bpt id="p3">**</bpt>Access<ept id="p3">**</ept> row for the <bpt id="p4">**</bpt>Read<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Write<ept id="p5">**</ept> and <bpt id="p6">**</bpt>Execute<ept id="p6">**</ept> permission, and then select <bpt id="p7">**</bpt>Save<ept id="p7">**</ept>.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Confirmation that the permissions are set successfully with the message <bpt id="p1">**</bpt>Successfully saved permissions for 'salesdata/'<ept id="p1">**</ept> in the Activity window in Azure Storage Explorer.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Create a .NET Core app</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>TBD</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Open Visual Studio and create a console application.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> menu, select <bpt id="p2">**</bpt>New<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Project<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>From <bpt id="p1">**</bpt>New Project<ept id="p1">**</ept>, type or select the following values:</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Property</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Value</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Category</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Templates/Visual C#/Windows</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Template</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Console Application</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Name</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>CreateADLApplication</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> to create the project.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Add the NuGet packages to your project.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Right-click the project name in the Solution Explorer and select <bpt id="p1">**</bpt>Manage NuGet Packages<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>NuGet Package Manager<ept id="p1">**</ept> tab, make sure that <bpt id="p2">**</bpt>Package source<ept id="p2">**</ept> is set to <bpt id="p3">**</bpt>nuget.org<ept id="p3">**</ept> and that <bpt id="p4">**</bpt>Include prerelease<ept id="p4">**</ept> check box is selected.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Search for and install the following NuGet packages:</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Add these two NuGet packages to the project:</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Microsoft.Azure.Management.DataLake.Store v2.4.2</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Microsoft.Rest.ClientRuntime.Azure.Authentication v2.3.7</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Screenshot of Adding NuGet Package</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Before you start coding, you should collect the required data from the Azure resources.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>You need details from the Azure Active Directory Register Application for authentication.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This shoul dbe stored in a Notepad document as directed.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Create a code sample</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Check for the sample Code Screenshot below in the code mentioned below, provide the client id, tenant id and the required details from the Azure portal.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Screenshot of Code Sample Using Packages</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Declare the variables and provide the values for placeholders.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Also, make sure the local path and file name you provide exist on the computer.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Screenshot of Code Sample Body</source>
+        </trans-unit></group></body></file></xliff>

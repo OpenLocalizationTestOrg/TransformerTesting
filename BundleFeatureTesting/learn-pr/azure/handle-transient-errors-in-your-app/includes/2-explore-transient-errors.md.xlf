@@ -1,0 +1,153 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-explore-transient-errors.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-explore-transient-errors.c11c390e7e94fb89af6397cd1f07aa2e7982b297.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">017c3cfc65e931d1b3b1f6fc60b6a4d7255a08f5</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\handle-transient-errors-in-your-app\includes\2-explore-transient-errors.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Overview of all four transient error types</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Transient errors (or transient faults) are an error or loss of service that quickly resolves itself.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The following list is some of the reasons an app can experience transient errors, or temporary interruptions, from a cloud-based service:</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The service is accessed over a network and could be interrupted by network issues.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>An app has no control over the stability of the service it's using, the service is a black box.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>An app doesn't have exclusive access to the service, and competes with possibly millions of other apps to use the service.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The performance of a service is impacted by how it's scaled and the infrastructure on which it runs.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In this unit, we'll examine the categories of transient errors your app can face and the common strategies used to recover from such errors.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>We'll then discuss an approach you can take in your app to handle all transient error types.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Transient errors</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Connectivity</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A plug and socket icon, representing a network connection</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The loss of network connectivity is the most obvious error an app connecting to a cloud-based service can face.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The connection can be broken locally when, for example, the device the app is running loses Wi-Fi connectivity.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The connection can be lost because of DNS or routing errors.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Perhaps the data center in which the service is running has gone offline.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>While a database server is being upgraded, or is under heavy load, the app's connection to it can be lost.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>In many instances, these problems are self-healing, and the connection will be back online without any external intervention.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Build your app to check a connection is available before you start to use it.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If the connection becomes unavailable, the app should try to connect again after an amount of time.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Timeouts</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A stopwatch icon, representing time passing</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A web-based service can have an active connection, but be unable to respond to calls quickly.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>How long should your app wait?</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If you aren't getting a response from a service, should you make the request again?</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If everyone who is using the service repeatedly makes requests again and again, can the service ever respond?</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If you retry the operation, is your data going to be duplicated if both the requests are eventually processed?</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>All apps need to decide when to give up on a request.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>An app should only retry a request if the operation is known to be idempotent.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>For example, if you have an operation that increases a value, instead of setting it, the value will be wrong if the operation repeats it multiple times.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Throughput</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A speed gauge icon, showing the needle in red representing slow speed</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Successful cloud-based services need to have a policy of throttling requests when the service is struggling under load to respond in an appropriate time.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>By reducing the throughput the service gives to clients, it's able to remain online and useful, rather than crashing and becoming permanently unavailable.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>If a service notifies your app that it is being throttled, your app should back-off and make fewer requests.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Service unavailability</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A cloud with a power button symbol icon, representing a cloud-based service being unavailable</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Perhaps the service you use is currently unavailable.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Some APIs may return a time when the app should retry the request.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>How will your app handle the missing functionality?</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Apps should be of use to an end user even if microservices, online storage, or hosted databases the app uses becomes unreachable.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If the service is provided by a third party, you may not have visibility as to when it will become available again.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>One approach to handling a service outage is to store a cache of the data returned by services.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Your app can then fall back to using the data stored in the cache, and refresh it when the service comes back online.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>An approach to transient errors</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A pie chart showing the workflow of detect, retry, and back-off.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>An arrow rotates round the outside showing these steps are repeated</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>With the different transient faults defined, let's look at an approach that can be used to handle all of them.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>In the following units, you'll implement this approach in your team's chat app.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The first step is for the code to <bpt id="p1">**</bpt>detect<ept id="p1">**</ept> that an error has occurred.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Error detection shouldn't be limited to transient faults.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>You should implement normal best practice to handle application errors of all kinds.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Whatever has caused the fault, detection also has a need to classify the errors being raised.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The following list defines three error types:</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Transient<ept id="p1">**</ept>: It will be self-correcting and that's why retrying the operation could be successful after a short-period of time.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Permanent<ept id="p1">**</ept>: The app can't expect a response from the service, and it should try to get the data from another service or a local cache.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Terminal<ept id="p1">**</ept>: There's nothing useful the app can do without access to the service, and the app should quit.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Having detected and classified a transient error, the code can use a <bpt id="p1">**</bpt>retry strategy<ept id="p1">**</ept> using any information the service has given as to when the operation should be retried.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If there's no information, the app can still use a retry mechanism.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>A good retry strategy has the following characteristics:</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A defined maximum number of retries</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Specifies an interval between retries - a random or exponentially growing interval is best</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Uses a configuration file to store these parameters so that they can be adjusted easily without any code changes</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Make sure that your retry strategy doesn't make things worse.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>One of the problems with transient errors is that it's normally external to your app, so you may not get any information as to why it's happening.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Your app should avoid doing things that can make the situation worse:</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Don't keep retrying forever</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Immediate retires should only happen once -  after instantly retrying, use a delay between the next retry</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Add randomness to the delays, to avoid colliding with other clients that might be retrying at the same time</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Be aware of the possibility of cascading retries - don't have different layers of an app all retrying an operation as it can lead to exponential growth in the volume of retires</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>At some point, the app needs to make a decision to stop trying to get a response from a service if it's continually failing.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The app should <bpt id="p1">**</bpt>back-off<ept id="p1">**</ept> from further attempts, and may even have to notify the user that it needs to quit.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Apps that implement a good back-off mechanism will allow services, like databases, a chance to recover if they are under heavy load.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>All the errors will have data that can be used to help diagnose them.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>An approach to logging these errors should be taken in each of the stages.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Logging on the detection of an error, logging on the number of retries, and logging when quitting the app.</source>
+        </trans-unit></group></body></file></xliff>

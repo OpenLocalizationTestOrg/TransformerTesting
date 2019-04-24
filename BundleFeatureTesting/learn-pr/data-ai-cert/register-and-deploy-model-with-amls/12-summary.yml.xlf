@@ -1,0 +1,73 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="12-summary.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">12-summary.ed4a1c46781a6c25b81a721baa0c68d24300b004.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">586dd35d3b6a374b62f762d192a59119ed9dfbf3</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\register-and-deploy-model-with-amls\12-summary.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>Summary and cleanup</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>Summary and cleanup</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>Summary and cleanup</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>To tell the Azure ML service the Python modules needed to support your model, you would do which of the following?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>Create a YAML file with the module dependency list.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>This is correct.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>Hyperparameters control how the model training executes and must be set before model training.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>Enter the dependencies in the portal.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>That is not correct.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>Hyperparameters cannot be determined from the source data.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>Do nothing.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>The dependencies will automatically be configured based on your Python scripts.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>This is not correct.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>A Hyperparameter is set before each model training execution.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>What two functions must your scoring script include?</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>main() and score()</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>That is not correct.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>main() and score() are not required.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>base() and train()</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>That is not correct.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>base() and train() are not required.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>init() and run()</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>That is correct.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>init() loads the model and run() provides the information needed to define the model call.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>You have finished testing your model and want to deploy it to a scalable target for general usage.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>Which is the best target?</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>Azure Container Instance (ACI)</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>That is not correct.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>Azure Container Instance is a single container useful for model training but less scalable than an Azure Kubernetes cluster.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>Azure Kubernetes Service (AKS)</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>That is correct.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>Azure Kubernetes Services is an orchestrated cluster of containers that can scale to meet demand.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>IoT Edge</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>That is not correct.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve" uid="learn.data-ai.register-and-deploy-model-with-amls.summary">
+          <source>IoT Edge deployment is suitable when you need the model deployed to edge devices for consumption.</source>
+        </trans-unit></group></body></file></xliff>

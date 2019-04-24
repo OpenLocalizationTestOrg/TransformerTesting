@@ -1,0 +1,65 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-detect-the-users-location.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-detect-the-users-location.16d27ed9b69c4cb5bbb0952413c8130239ea2dd4.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aa2a406810a1478b04085338c9560ebea6104848</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\send-location-over-sms-using-azure-functions-twilio\includes\4-detect-the-users-location.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The app has a UI and a ViewModel.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll add location lookup to the ViewModel using Xamarin.Essentials.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Enable location permissions</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>All mobile platforms have security around user information and certain hardware, such as camera, photo library, and the user's location.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Before an app can access the user's location, the user has to grant permission - either by implicitly granting these permissions at install time or by choosing to grant a permission at runtime.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When you view a UWP app in the store, the listing will show the permissions that the app needs.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>By installing the app, you implicitly grant permission.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>These permissions are configured in an app manifest file.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In the <ph id="ph1">`ImHere.UWP`</ph> app project, open the <ph id="ph2">`Package.appxmanifest`</ph> file.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Head to the <bpt id="p1">**</bpt>Capabilities<ept id="p1">**</ept> tab and check the <bpt id="p2">*</bpt>Location<ept id="p2">*</ept> capability.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The UWP capabilities tab</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Query for the user's location</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>There are two ways to get the user's location - the last known or the current.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The current location can take some time to get because the device may need to establish a GPS link and wait for the accurate location to be retrieved.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The fastest way is to get the last known location detected by the device.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The last known location is potentially less accurate but is a much faster call.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Locations come as the latitude and longitude in <bpt id="p1">[</bpt>decimal degrees<ept id="p1">](https://en.wikipedia.org/wiki/Decimal_degrees?azure-portal=true)</ept> and the altitude of the device in meters above sea level.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Open the <ph id="ph1">`MainViewModel`</ph> class in the <ph id="ph2">`ImHere`</ph> .NET Standard project.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Add a using directive for the <ph id="ph1">`Xamarin.Essentials`</ph> namespace.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In the <ph id="ph1">`SendLocation`</ph> method, make a call to the <ph id="ph2">`GetLastKnownLocationAsync`</ph> static method on the <ph id="ph3">`Geolocation`</ph> class in the <ph id="ph4">`Xamarin.Essentials`</ph> namespace.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Update the <ph id="ph1">`Message`</ph> property with the user's location if one is found.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The full code for this method is below.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Run the app and click the <bpt id="p1">**</bpt>Send Location<ept id="p1">**</ept> button to see the location on the UI.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The running app showing the user's location</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This app uses the last known location.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>In a production-quality app, you would want to get the current accurate location with a time-out, and if one is not found in time, fall back to the last known.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You can read more on how to do this in the <bpt id="p1">[</bpt>Xamarin.Essentials Geolocation docs<ept id="p1">](https://docs.microsoft.com/xamarin/essentials/geolocation?tabs=uwp#using-geolocation?azure-portal=true)</ept>.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This app does not have error handling.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In a production-quality app, you should handle any exceptions that occur, such as if the location was not available.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>In this unit, you learned how to use Xamarin.Essentials to get the user's location.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>In the next unit, you'll create the Azure Functions to act as a back end for the mobile app.</source>
+        </trans-unit></group></body></file></xliff>

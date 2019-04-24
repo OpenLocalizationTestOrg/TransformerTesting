@@ -1,0 +1,81 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-write-code-that-uses-service-bus-queues.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-write-code-that-uses-service-bus-queues.66596645213143107436c1f69a6a9193da01680e.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">03b310bfd36f76b7354e0e67b351e96f206ef73e</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\implement-message-workflows-with-service-bus\includes\4-write-code-that-uses-service-bus-queues.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Distributed applications use queues, such as Service Bus queues, as temporary storage locations for messages that are awaiting delivery to a destination component.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>To send and receive messages through a queue, you must write code in the source and destination components.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Consider the Contoso Slices application.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The customer places the order through a website or mobile app.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Because websites and mobile apps run on customer devices, there is really no limit to how many orders could come in at once.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>By having the mobile app and website deposit the orders in a queue, we can allow the back-end component (a web app) to process orders from that queue at its own pace.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The Contoso Slices application actually has several steps to handle a new order.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>All the steps are dependent on first authorizing payment, so we decide to use a queue.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Our receiving component's first job will be processing the payment.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In the mobile app and website, Contoso needs to write code that adds a message to the queue.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In the back-end web app, they'll write code that picks up messages from the queue.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Here, you will learn how to write that code.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The Microsoft.Azure.ServiceBus NuGet package</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To make it easy to write code that sends and receives messages through Service Bus, Microsoft provides a library of .NET classes, which you can use in any .NET Framework language to interact with a Service Bus queue, topic, or relay.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can include this library in your application by adding the <bpt id="p1">**</bpt>Microsoft.Azure.ServiceBus<ept id="p1">**</ept> NuGet package.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The most important class in this library for queues is the <ph id="ph1">`QueueClient`</ph> class.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You must start by instantiating this class both in sending and receiving components.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Connection strings and keys</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Source components and destination components both need two pieces of information to connect to a queue in a Service Bus namespace:</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The location of the Service Bus namespace, also known as an <bpt id="p1">**</bpt>endpoint<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The location is specified as a fully qualified domain name within the <bpt id="p1">**</bpt>servicebus.windows.net<ept id="p1">**</ept> domain.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For example: <bpt id="p1">**</bpt>pizzaService.servicebus.windows.net<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>An access key.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Service Bus restricts access to queues, topics, and relays by requiring an access key.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Both of these pieces of information are provided to the <ph id="ph1">`QueueClient`</ph> object in the form of a connection string.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You can obtain the correct connection string for your namespace from the Azure portal.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Calling methods asynchronously</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The queue in Azure may be located thousands of miles away from sending and receiving components.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Even if it is physically close, slow connections and bandwidth contention may cause delays when a component calls a method on the queue.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>For this reason, the Service Bus client library makes <ph id="ph1">`async`</ph> methods available for interacting with the queues.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>We'll use these methods to avoid blocking a thread while waiting for calls to complete.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>When sending a message to a queue, for example, use the <ph id="ph1">`QueueClient.SendAsync()`</ph> method with the <ph id="ph2">`await`</ph> keyword.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Write code that sends to queues</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In any sending or receiving component, you should add the following <ph id="ph1">`using`</ph> statements to any code file that calls a Service Bus queue:</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Next, create a new <ph id="ph1">`QueueClient`</ph> object and pass it the connection string and the name of the queue:</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can send a message to the queue by calling the <ph id="ph1">`QueueClient.SendAsync()`</ph> method and passing the message in the form of a UTF-8 encoded string:</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Receive messages from the queue</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To receive messages, you must first register a message handler - this is the method in your code that will be invoked when a message is available on the queue.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Do your processing work.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Then, within the message handler, call the <ph id="ph1">`QueueClient.CompleteAsync()`</ph> method to remove the message from the queue:</source>
+        </trans-unit></group></body></file></xliff>

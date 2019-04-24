@@ -1,0 +1,65 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-overview-of-speaker-identification.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-overview-of-speaker-identification.302abd95ef7fd7c2c9aa8120e2ab63a667a43d82.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5d6e562177d793c0dc20d9cec49c10c71b047657</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\recognize-voices-with-speaker-recognition\includes\6-overview-of-speaker-identification.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>If using speaker verification is like the process of presenting a passport, speaker identification is like fingerprint matching, which asks the question: "Of all the fingerprints known to our system, which one matches this fingerprint?"</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Checking a fingerprint</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Speaker identification is the ability to determine a speaker in audio content based on acoustic and speech patterns, including speaking style and voice pitch.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In a law-enforcement context, a speaker-identification system might employ <bpt id="p1">*</bpt>text-independent<ept id="p1">*</ept> enrollment by using voice prints, similar to the use of fingerprints.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Speaker identification, in this way, is essentially "open ended."</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In the fingerprint example, being fingerprinted at any time would provide your "enrollment" into the system.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Many uses of speaker identification fall outside the realm of law enforcement and forensics.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>As in speaker-verification scenarios, when enrollment is finished, the Speaker Identification service now contains the speaker's <bpt id="p1">*</bpt>identification profile<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Identification profiles</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>An identification profile is a grouping of text-independent enrollments that are used for speaker identification.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Contrary to speaker verification, a speaker doesn't need to choose a specific phrase to use in enrollment or identification.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Unlike speaker verification, it's not reasonable for speaker identification audio to be created with the same microphone (or even created in the same decade), so there are no requirements or recommendations for input device recording specifications.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>However, the actual submitted file must still conform to the requirements for format and bitrate.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The profile</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>In the Speaker Identification API, an identification profile includes the following properties:</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Property</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Value</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A unique profile identifier</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The region or culture locale, such as "en-US"</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The total number of seconds of "useful" speech detected in all the enrollment audio files provided</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The remaining number of seconds of speech needed for a successful enrollment</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The date and time the profile was created</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The date and time of the last action being taken</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The enrollment status</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Enrollment status</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Other than <ph id="ph1">`identificationProfileId`</ph>, the most important property of an identification profile is <ph id="ph2">`enrollmentStatus`</ph>.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This value shows the current enrollment state and the readiness for speaker identification:</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Value</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Enrollment status</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>A profile is currently enrolling and <bpt id="p1">*</bpt>is not<ept id="p1">*</ept> ready for identification.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A profile is currently training and <bpt id="p1">*</bpt>is not<ept id="p1">*</ept> ready for identification.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A profile is currently enrolled and <bpt id="p1">*</bpt>is<ept id="p1">*</ept> ready for identification.</source>
+        </trans-unit></group></body></file></xliff>

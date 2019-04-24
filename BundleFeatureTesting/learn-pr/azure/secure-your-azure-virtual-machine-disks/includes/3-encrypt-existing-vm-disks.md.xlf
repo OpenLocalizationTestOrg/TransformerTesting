@@ -1,0 +1,145 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-encrypt-existing-vm-disks.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-encrypt-existing-vm-disks.2f7d2ff57056fd2c8a6b4855e21b12f79b9bd8a8.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aab34c75d5066d3314c009c30256b10966b03334</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\secure-your-azure-virtual-machine-disks\includes\3-encrypt-existing-vm-disks.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Suppose your company has decided to implement Azure Disk Encryption (ADE) across all VMs.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You need to evaluate how to roll out encryption to existing VM volumes.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Here, we'll look at the requirements for ADE, and the steps involved in encrypting disks on existing Linux and Windows VMs.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Azure Disk Encryption prerequisites</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Before you can encrypt your VM disks, you need to:</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Create a key vault.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Set the key vault access policy to support disk encryption.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Use the key vault to store the encryption keys for ADE.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Azure Key Vault</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The encryption keys used by ADE can be stored in Azure Key Vault.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Azure Key Vault is a tool for securely storing and accessing secrets.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A secret is anything that you want to tightly control access to, such as API keys, passwords, or certificates.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This provides highly available and scalable secure storage, as defined in Federal Information Processing Standards (FIPS) 140-2 Level 2 validated Hardware Security Modules (HSMs).</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Using Key Vault, you keep full control of the keys used to encrypt your data, and you can manage and audit your key usage.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Azure Disk Encryption requires that your key vault and your VMs are in the same Azure region; this ensures that encryption secrets do not cross regional boundaries.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can configure and manage your key vault with:</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Powershell</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Azure CLI</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Azure portal</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>An Azure Key Vault is a resource that can be created in the Azure portal using the normal resource creation process.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Create a resource<ept id="p1">**</ept> in the sidebar on the left.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Search for "Key vault".</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Create<ept id="p1">**</ept> in the details window.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Screenshot showing Key vault in the Azure Marketplace</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Enter the details for the new Key Vault:</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Enter a <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> for the Key Vault</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Select the subscription to place it in (defaults to your current subscription).</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Select a <bpt id="p1">**</bpt>Resource Group<ept id="p1">**</ept>, or create a new resource group to own the Key Vault.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Select a <bpt id="p1">**</bpt>Location<ept id="p1">**</ept> for the Key Vault.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Make sure to select the location the VM is in.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You can choose either Standard or Premium for the pricing tier.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The main difference is that the premium tier allows for Hardware-encryption backed keys.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You must change the Access policies to support Disk Encryption.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>By default it adds <bpt id="p1">_</bpt>your<ept id="p1">_</ept> account to the policy.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Access policies<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Advanced access policies<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Check the <bpt id="p1">**</bpt>Enable access to Azure Disk Encryption for volume encryption<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You can remove your account if you like, it's not necessary if you only intend to use the Key Vault for disk encryption.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> to save the changes.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Screenshot showing the advanced properties for Key Vault with the Azure Disk Encryption option checked and highlighted</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Create<ept id="p1">**</ept> to create the new Key Vault.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Enabling access policies in the key vault</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Azure needs access to the encryption keys or secrets in your key vault to make them available to the VM for booting and decrypting the volumes.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>We covered this for the portal when we changed the <bpt id="p1">**</bpt>Advanced access policies<ept id="p1">**</ept> above.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>There are three policies you can enable.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Disk encryption<ept id="p1">**</ept> - Required for Azure Disk encryption.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Deployment<ept id="p1">**</ept> - (Optional) Enables the Microsoft.Compute resource provider to retrieve secrets from this key vault when this key vault is referenced in resource creation, for example when creating a virtual machine.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Template deployment<ept id="p1">**</ept> - (Optional) Enables Azure Resource Manager to get secrets from this key vault when this key vault is referenced in a template deployment.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Here's how to enable the disk encryption policy.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The other two are similar but use different flags.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Encrypting an existing VM disk</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Once you have the Key Vault setup, you can encrypt the VM using either Azure CLI or Azure PowerShell.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The first time you encrypt a Windows VM, you can choose to encrypt either all disks or the OS disk only.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>On some Linux distributions, only the data disks may be encrypted.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>To be eligible for encryption, your Windows disks must be formatted as NTFS volumes.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>You must take a snapshot or a backup of managed disks before you can turn on encryption.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`SkipVmBackup`</ph> flag specified below tells the tool that the backup is complete on managed disks.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Without the backup, you will be unable to recover the VM if the encryption fails for some reason.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>With PowerShell, use the <ph id="ph1">`Set-AzVmDiskEncryptionExtension`</ph> cmdlet to enable encryption.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>For the Azure CLI, use the <ph id="ph1">`az vm encryption enable`</ph> command to enable encryption.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Viewing the status of the disk</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You can check whether specific disks are encrypted or not.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Both of these commands will return the status of each disk attached to the specified VM.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Decrypting drives</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You can reverse the encryption through PowerShell using <ph id="ph1">`Disable-AzVMDiskEncryption`</ph>.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>For the Azure CLI, use the <ph id="ph1">`vm encryption disable`</ph> command.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>These commands disable encryption for volumes of type all for the specified virtual machine.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Just like the encrypt version, you can specify a <ph id="ph1">`-VolumeType`</ph> parameter <ph id="ph2">`[All | OS | Data]`</ph> to decide what disks to decrypt.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>It defaults to <ph id="ph1">`All`</ph> if not supplied.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Disabling data disk encryption on Windows VM when both OS and data disks have been encrypted doesn't work as expected.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>You must disable encryption on all disks instead.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Let's try some of these commands out on a new VM.</source>
+        </trans-unit></group></body></file></xliff>

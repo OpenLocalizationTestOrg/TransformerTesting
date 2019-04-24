@@ -1,0 +1,131 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-exercise-manage-cache-settings-with-powershell.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-exercise-manage-cache-settings-with-powershell.0d6fdfe1fb44f06e443fdf5e65cb1af7bba01c79.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4a069bd216a0e031c903dd76b5d62130d0474c5f</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\caching-and-performance-azure-storage-and-disks\includes\6-exercise-manage-cache-settings-with-powershell.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In the previous exercise, we performed the following tasks using the Azure portal:</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>View OS disk cache status</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Change the cache settings of the OS disk</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Add a data disk to the VM</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Change caching type on a new data disk</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Let's practice these operations using Azure PowerShell.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>We're going to use Azure PowerShell, but you could also use the Azure CLI, which provides similar functionality as a console-based tool.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>It runs on macOS, Linux, and Windows.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If you are interested in learning more about the Azure CLI, check out the <bpt id="p1">**</bpt>Manage Virtual Machines with the Azure CLI<ept id="p1">**</ept> module.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>We're going to use the VM we created in the previous exercise.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The operations in this lab assume:</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Our VM exists and is called <bpt id="p1">**</bpt>fotoshareVM<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Our VM lives in a resource group called <bpt id="p1">**</bpt><bpt id="p2">&lt;rgn&gt;</bpt>[sandbox resource group name]<ept id="p2">&lt;/rgn&gt;</ept><ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If you've gone with a different set of names, replace these values with yours.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Here's the current state of our VM disks from the last exercise:</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Screenshot of our OS and data disks, both set to Read-only caching.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>We used the portal to set the <bpt id="p1">**</bpt>HOST CACHING<ept id="p1">**</ept> field for both the OS and data disks.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Keep this initial state in mind as we work through the following steps.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Set up some variables</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>First, let's store some resource names so we can use them later.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Use the Azure Cloud Shell terminal on the right to run the following PowerShell commands:</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Switch your Cloud Shell session to <bpt id="p1">**</bpt>PowerShell<ept id="p1">**</ept> before trying these commands, if it isn't already.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You'll have to set these variables again if your Cloud Shell session times out. So, if possible, work through this entire lab in a single session.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Get info about our VM</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Run the following command to get the properties of our VM:</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>We store the response in our <ph id="ph1">`$myVM`</ph> variable.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>We can pipe the output into the <ph id="ph1">`select-object`</ph> cmdlet to filter the display to specific properties:</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You should get something like the following.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>View OS disk cache status</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>We can check the caching  setting through  the <ph id="ph1">`StorageProfile`</ph> object, as follows:</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Let's change it back to the default for an OS disk, which is <bpt id="p1">_</bpt>ReadWrite<ept id="p1">_</ept>.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Change the cache settings of the OS disk</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>We can set the value for the cache type using the same <ph id="ph1">`StorageProfile`</ph> object, as follows:</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This command runs fast, which should tell you it's doing something locally.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The command only changes the property on the <ph id="ph1">`myVM`</ph> object.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>As the following screenshot shows, if you refresh the <ph id="ph1">`$myVM`</ph> variable by reassigning it using the <ph id="ph2">`Get-AzVM`</ph> cmdlet, the caching value won't have changed on the VM.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To make the change on the VM itself, call <ph id="ph1">`Update-AzVM`</ph>, as follows:</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Notice that this call takes a while to complete.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>That's because we're updating the actual VM and Azure restarts the VM  to make the change.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>If you refresh the <ph id="ph1">`$myVM`</ph> variable again, you'll see the change on the object.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Looking at the disk in the portal, you'd also see the change there.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>List data disk info</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To see what data disks we have on our VM, run the following command:</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>We have only one data disk at the moment.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Lun`</ph> field is important.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>It's the unique <bpt id="p1">**</bpt>L<ept id="p1">**</ept>ogical <bpt id="p2">**</bpt>U<ept id="p2">**</ept>nit <bpt id="p3">**</bpt>N<ept id="p3">**</ept>umber.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>When we add another data disk, we'll give it a unique <ph id="ph1">`Lun`</ph> value.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Add a new data disk to our VM</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>For convenience, we'll store our new disk name:</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Run the following <ph id="ph1">`Add-AzVMDataDisk`</ph> command to define a new empty 1 GB data disk:</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>You'll get a response like:</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>We've given this disk a <ph id="ph1">`Lun`</ph> value of <ph id="ph2">`1`</ph> because it's not taken.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>We defined the disk we want to create, so it's time to run <ph id="ph1">`Update-AzVM`</ph> to make the actual change:</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Let's look at our data disk info again:</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>We now have two disks.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Our new disk has a <ph id="ph1">`Lun`</ph> of <ph id="ph2">`1`</ph> and the default value for <ph id="ph3">`Caching`</ph> is <ph id="ph4">`None`</ph>.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Let's change that value.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Change cache settings of new data disk</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>We modify properties of a virtual machine data disk with the <ph id="ph1">`Set-AzVMDataDisk`</ph> cmdlet, as follows:</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>As always, commit the changes with <ph id="ph1">`Update-AzVM`</ph>:</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Here's a view from the portal of what we've accomplished in this exercise.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Our VM now has two data disks, and we've adjusted all <bpt id="p1">**</bpt>HOST CACHING<ept id="p1">**</ept> settings.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>We did all of that with just a few commands.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>That's the power of Azure PowerShell.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Azure portal showing the Disks section of our VM blade with two data disks.</source>
+        </trans-unit></group></body></file></xliff>

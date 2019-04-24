@@ -1,0 +1,13 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-Executive-welcome.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-Executive-welcome.f890a6563a619b2f057bb0fd1f423c6b8e7baadf.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0b4f98d23588601e1014087674422ace8830e17b</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\wwl-mba\welcome-to-azure-generalist\includes\2-Executive-welcome.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Microsoft Azure is an ever-expanding set of cloud services that help organizations meet their business objectives.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Azure provides the freedom to build, deploy and manage applications on a trusted, global infrastructure using a variety of tools and frameworks.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Icon indicating play video</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Watch this video as Julia White, Azure Corporate Vice President, reviews the Azure opportunity and describes the topics that will be covered in this learning path.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Select the image to view the full learning path.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt> <ph id="ph1">![</ph>Image of learning path. Drag up and down to view the full image.<ph id="ph2">](../media/Intro_IC_Thumbnail.png)</ph> <ept id="p1">](../media/MBA_Intro_IC_Infographic_FullJourney.png#lightbox)</ept></source>
+        </trans-unit></group></body></file></xliff>

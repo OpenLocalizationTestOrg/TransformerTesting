@@ -1,0 +1,79 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-run-your-first-deep-learning-experiment-with-jupyter.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-run-your-first-deep-learning-experiment-with-jupyter.39b4ee774e77295a289a7cca1f7ab14b6f5c70df.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ad6553386ca4dc1358bf647c98174ad0f5559075</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\interactive-deep-learning\includes\6-run-your-first-deep-learning-experiment-with-jupyter.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>PyTorch logo</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Typically deep learning engineers don't implement the matrix algebra operations all by hand.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Instead, they use frameworks such as PyTorch or TensorFlow.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>PyTorch is a python-based framework that provides flexibility as a deep learning development platform.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>It's built on the Python scientific computing library, NumPy.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Now you might ask, why would we use PyTorch to build deep learning models?</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Easy to use API – If you know Python, you can ramp up quickly.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Python support – PyTorch smoothly integrates with the scientific computing stack.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Dynamic computation graphs – Instead of predefined graphs with specific functionality, PyTorch builds computational graphs dynamically that can be modified during runtime.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Dynamic computation graphs are valuable for nested batching and when we do not know how much memory will be needed for creating a given network.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For more information about PyTorch, see <bpt id="p1">[</bpt>PyTorch.org official documentation<ept id="p1">](https://pytorch.org/about/)</ept>.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Run your first PyTorch model</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Now that you have a Docker container provisioned from a PyTorch image, it's time to experiment.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If you recall, we downloaded a notebook from <bpt id="p1">[</bpt>python.org<ept id="p1">](https://python.org)</ept>. That sample notebook walks you through training a network to classify images  into different categories.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>It defines a deep Convolutional Neural Network (CNN).</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Navigate in your local browser to the Jupyter Notebook server that you set up in the last exercise.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The URL will be of the form:</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Select the <ph id="ph1">`first_pytorch_classifier.ipynb`</ph> notebook in the dashboard.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>select the first_pytorch_classifier.ipynb</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Follow the instructions in the notebook to train your first PyTorch classifier.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>screenshot of the "Training a classifier notebook"</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Start from the top of the notebook and run each cell in order.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Note the following:</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Some of the cells take a long time to run.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Observe the small dot in the top right of the notebook beside the words "Python 3".</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>When the kernel is busy with an operation, the dot becomes a filled, darker, circle.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>It remains that way until the operation is complete.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You're training a CNN to classify images.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Once the network is trained, the notebook will test labeled images against the model.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>It records the prediction made for each image and calculates the accuracy of the model.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You'll see results in the following format.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Training results showing accuracy of model</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You can learn more about the notebook in the <bpt id="p1">[</bpt>PyTorch Tutorials documentation<ept id="p1">](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)</ept> online.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Towards the end of the notebook, the notes talk about training on a GPU.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>If you followed the exercises in this module, you have set up a CPU-based VM.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This is fine for a model this size and you may not see any significant improvements in training time with a GPU.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If you do want to try the module using a  virtual machine with GPUs, then there are two changes you need to make:</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Provision DSVM on a GPU enabled, N-series VM size.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Create a container using <ph id="ph1">`nvidia-docker`</ph> instead of <ph id="ph2">`docker`</ph> in the previous exercise.</source>
+        </trans-unit></group></body></file></xliff>

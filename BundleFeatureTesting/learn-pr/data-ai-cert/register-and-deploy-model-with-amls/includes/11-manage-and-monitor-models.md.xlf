@@ -1,0 +1,63 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="11-manage-and-monitor-models.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">11-manage-and-monitor-models.754dbb3883f49c55405b2268d212e24da6e17e9b.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5fbbd9f5b0b8ef3a50c1d4008850923bb8d037c1</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\register-and-deploy-model-with-amls\includes\11-manage-and-monitor-models.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Data scientists often create many different machine learning pipelines and track information about these experiments separate from the model training and deployment process.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Managing and tracking machine learning models can be a time-consuming and error-prone process.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The Azure Machine Learning service has a model management and tracking feature that can be integrated into your pipelines to automate this task.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Machine learning projects are rarely about training a single model, rather they are about the end-to-end pipelines of continuously developing, managing, and deploying models.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Screenshot of End-to-end Pipelines</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Model management is a tedious process.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>It involves many trial and error iterations to train a model with good results, and it takes time to manage all of the models, datasets, hyperparameters, and environment settings during different experiments.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Beginner data scientists tend to use simple methods of tracking and managing their models by giving them different names.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>That isn't effective because it's easy to get lost in a long list of file names.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In this unit, you learn how to use the Azure Machine Learning Service to solve this problem.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>It helps you manage models and continuously improve them.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Using this service involves the following steps.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Register the model<ept id="p1">**</ept> in a Machine Learning Model Registry hosted in Azure Machine Learning Service workspace</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Register an image<ept id="p1">**</ept> that pairs a model with an inference script and dependencies required to create a docker container providing the compute environment to run the pipeline.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Monitor and collect data<ept id="p1">**</ept> about model training, performance, and deployments.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The model registry is a single place to keep track of all the models in your Azure Machine Learning Service workspace.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This ensures the models are stored in a structured format that can be queried.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Registering a model can be done in a single line of code:</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>After training the models, it is always important to track the experiments and monitor the evaluation metrics.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For example, you might want  to know how accuracy of the new model compares with old models.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Other key questions include how many end users are using the new model and what the traffic is at any time.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>There are three primary goals of monitoring your machine learning models:</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Determine whether the production data drifts</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Make better decisions on when to retrain or optimize your model</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Track model usage statistics</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>In the Azure Machine Learning service, you can track experiments and monitor metrics with a few lines of code.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In this unit, you learn the following.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>how to add logs into your scripts so Azure Machine Learning can track the key metrics</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>how to submit the experiments with model monitoring enabled</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>how to monitor the progress of running jobs</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>how to view the model's results</source>
+        </trans-unit></group></body></file></xliff>

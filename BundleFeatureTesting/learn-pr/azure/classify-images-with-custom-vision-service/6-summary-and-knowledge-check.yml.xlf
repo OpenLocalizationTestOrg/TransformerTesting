@@ -1,0 +1,55 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-summary-and-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-summary-and-knowledge-check.2c14c862f27056901c8f82e98c6abcaea46f3415.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ee77077cd7c0e925411abf4165cbff1b1c4cc60d</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\classify-images-with-custom-vision-service\6-summary-and-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.classify-images-with-custom-vision-services.6-summary-and-knowledge-check">
+          <source>Summary and knowledge check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.classify-images-with-custom-vision-services.6-summary-and-knowledge-check">
+          <source>Summary and knowledge check</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.classify-images-with-custom-vision-services.6-summary-and-knowledge-check">
+          <source>Confirm that you understand the steps required to classify images with the Microsoft Custom Vision Service.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.classify-images-with-custom-vision-services.6-summary-and-knowledge-check">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.classify-images-with-custom-vision-services.6-summary-and-knowledge-check">
+          <source>When creating a new Custom Vision Service project, what is a domain used for?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.classify-images-with-custom-vision-services.6-summary-and-knowledge-check">
+          <source>Helps you decide what to name your project.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.classify-images-with-custom-vision-services.6-summary-and-knowledge-check">
+          <source>You can name the project anything you want.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.classify-images-with-custom-vision-services.6-summary-and-knowledge-check">
+          <source>The domain doesn't affect the name.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.classify-images-with-custom-vision-services.6-summary-and-knowledge-check">
+          <source>Helps you decide how to structure your project.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.classify-images-with-custom-vision-services.6-summary-and-knowledge-check">
+          <source>Projects have the same structure in terms of training images and predictions; it does not vary based on domain choice.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.classify-images-with-custom-vision-services.6-summary-and-knowledge-check">
+          <source>Optimizes the classifier for a specific image type.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.classify-images-with-custom-vision-services.6-summary-and-knowledge-check">
+          <source>The domain gives the classifier more information about the expected content of the images.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.classify-images-with-custom-vision-services.6-summary-and-knowledge-check">
+          <source>Why should you add a tag after uploading images?</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.classify-images-with-custom-vision-services.6-summary-and-knowledge-check">
+          <source>To help you organize your images in the project for later use</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.classify-images-with-custom-vision-services.6-summary-and-knowledge-check">
+          <source>While tags do help organize images, that's not the full purpose of tags.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.classify-images-with-custom-vision-services.6-summary-and-knowledge-check">
+          <source>To put the images in a category for training</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.classify-images-with-custom-vision-services.6-summary-and-knowledge-check">
+          <source>The tags tell the classifier which characteristics apply to an image.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.classify-images-with-custom-vision-services.6-summary-and-knowledge-check">
+          <source>For the image classification to work, you do need to add at least one tag.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.classify-images-with-custom-vision-services.6-summary-and-knowledge-check">
+          <source>To generate a word cloud after training</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.classify-images-with-custom-vision-services.6-summary-and-knowledge-check">
+          <source>The Custom Vision Service doesn't create word clouds.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.classify-images-with-custom-vision-services.6-summary-and-knowledge-check">
+          <source>What two values do you need to know in order to make a call to the Prediction API from client code?</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.classify-images-with-custom-vision-services.6-summary-and-knowledge-check">
+          <source>Prediction URL and Prediction Key</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.classify-images-with-custom-vision-services.6-summary-and-knowledge-check">
+          <source>The URL identifies the endpoint for the connection and the Prediction Key authorizes your app to access the service.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.classify-images-with-custom-vision-services.6-summary-and-knowledge-check">
+          <source>Service name and authentication token</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.classify-images-with-custom-vision-services.6-summary-and-knowledge-check">
+          <source>Neither of these values are related to the Prediction API.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.classify-images-with-custom-vision-services.6-summary-and-knowledge-check">
+          <source>Client secret and redirect URI</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.classify-images-with-custom-vision-services.6-summary-and-knowledge-check">
+          <source>Neither of these values are related to the Prediction API.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,87 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-what-is-azure.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-what-is-azure.451f3eb82d97e8c8d53b568d76372a07f6fa8e7c.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aa3507fb4950747a732a2b90686bafddf1edeafb</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\welcome-to-azure\includes\2-what-is-azure.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Azure is Microsoft's cloud computing platform.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Azure is a continually expanding set of cloud services that help your organization meet your current and future business challenges.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Azure gives you the freedom to build, manage, and deploy applications on a massive global network using your favorite tools and frameworks.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>How does Azure work?</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Before we go further, let's briefly define cloud computing.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A web server and two databases</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>What is cloud computing?<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Cloud computing is the delivery of computing services over the Internet using a <bpt id="p1">**</bpt>pay-as-you-go<ept id="p1">**</ept> pricing model.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Put another way, it's a way to rent compute power and storage from someone else's data center.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Instead of maintaining CPUs and storage in your data center, you rent them for the time that you need them.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The cloud provider takes care of maintaining the underlying infrastructure for you.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can treat cloud resources like you would your resources in your own data center.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>When you're done using them, you just give them back.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You're billed only for what you use.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>While this is all great, the real value of the cloud is that it enables you to quickly solve your toughest business challenges and bring cutting edge solutions to your users.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A suitcase representing a move to the cloud</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Why should I move to the cloud?<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The cloud helps you move faster and innovate in ways that were once nearly impossible.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In our ever-changing digital world, two trends emerge:</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Teams are delivering new features to their users at record speeds.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>End users expect an increasingly rich and immersive experience with their devices and with software.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Software releases were once scheduled in terms of months or even years.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Today, teams are releasing features in smaller batches.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Releases are now often scheduled in terms of days or weeks.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Some teams even deliver software updates continuously <ph id="ph1">&amp;mdash;</ph> sometimes with multiple releases within the same day.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Think of all the ways you interact with devices that you couldn't do just a few years ago.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Many devices can recognize your face and respond to voice commands.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Augmented reality changes the way you interact with the physical world.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Household appliances are even beginning to act intelligently.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>These are just a few examples, many of which are powered by the cloud.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To power your services and deliver innovative and novel user experiences more quickly, the cloud provides on-demand access to:</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A nearly limitless pool of raw compute, storage, and networking components.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Speech recognition and other cognitive services that help make your application stand out from the crowd.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Analytics services that enable you to make sense of telemetry data coming back from your software and devices.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Let's see how Azure fits in with cloud computing.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A cup containing an artist's tools</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>What can I do on Azure?<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Azure provides over 100 services that enable you to do everything from running your existing applications on virtual machines to exploring new software paradigms such as intelligent bots and mixed reality.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Many teams start exploring the cloud by moving their existing applications to virtual machines that run in Azure.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>While migrating your existing apps to virtual machines is a good start, the cloud is more than just "a different place to run your virtual machines".</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For example, Azure provides AI and machine-learning services that can naturally communicate with your users through vision, hearing, and speech.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>It also provides storage solutions that dynamically grow to accommodate massive amounts of data.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Azure services enable solutions that are simply not feasible without the power of the cloud.</source>
+        </trans-unit></group></body></file></xliff>

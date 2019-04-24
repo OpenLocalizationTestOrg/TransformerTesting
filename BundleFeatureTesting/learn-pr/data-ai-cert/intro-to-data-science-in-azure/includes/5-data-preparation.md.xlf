@@ -1,0 +1,133 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-data-preparation.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-data-preparation.1f2ed09dc60c47c8c48f51215e80aeb7d1adad4c.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">798395cca838053a70d8385293e7e6a38b1f0587</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\intro-to-data-science-in-azure\includes\5-data-preparation.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Data preparation is a broad term that encompasses the beginning stages of getting the data to the point at which it's ready for modeling.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This step is the responsibility of both the data engineer and the data scientist.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The data engineer does most of the data preparation by making the data accessible, clean, and ready for the data scientist to work with.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>However, most data scientists still need to do large amount of data cleansing.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Let's focus on the portion of this process that pertains to the data scientist.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Using the example from the previous page, we know that your company has stores that sell products such as clothing, cleaning supplies, and groceries.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Management has noticed that they are selling out of brooms before the end of the month, and they want to know how many brooms they should stock so they don't sell out.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The following table displays sales data from your company.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>SaleID</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>ItemID</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>ItemName</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>ItemPrice</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>TotalPrice</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Timestamp</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>1739283</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>1435</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Broom</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>14.99</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>20.98</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>10-02-2009 13:20:22</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>1739283</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>1923</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Bleach</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>5.99</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>20.98</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>10-02-2009 13:20:22</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>1739101</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>1435</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Broom</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>14.99</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>24.72</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>10-02-2009 20:45:38</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>1739101</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>1981</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Ground beef</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>6.74</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>24.72</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>10-02-2009 20:45:38</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>1739101</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>1722</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Bananas</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Null</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>24.72</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>10-02-2009 20:45:38</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Let's note some things about the data:</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The first two rows are referring to the same sale.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Therefore, you know that this person bought a broom and bleach together.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The last three rows are from a customer who bought a broom, ground beef, and bananas in the evening.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Clean the data</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Generally, the kinds of cleansing a data scientist will do involves null or absent values.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Data that has been prepped by a data engineer won't have much cleansing left.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Note that there are other names for this process.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>In the previous table, you can see there is one null value for the ItemPrice for bananas.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>It's likely that in a large data frame, where there is one null value there are others.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Therefore, to find (or <bpt id="p1">*</bpt>extract<ept id="p1">*</ept>) the missing ItemPrice of that item you could subtract the sum of the other ItemPrices from the TotalPrice of the same customer sale.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Expose the data with EDA</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The Exploratory Data Analysis (EDA) part of the process is crucial because of the information unveiled during this step.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>EDA allows for the investigation of what is happening in the data that is not obvious at a glance.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Sometimes it's possible to uncover patterns within the data, build questions about the data, and reject or accept the original hypotheses about the data.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>As you can see in the data from your company, you don't have a lot of features; this is not unusual.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>So, for your company's EDA you might want to look at the TotalPrice distribution, where ItemName is 'broom' to show patterns in people's spending when they're buying a broom.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You might also want to look at the broom sales over time to see if there is a trend or seasonality to the data.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>These are just a few of many things you could do to understand the data.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Although most data preparation is outside the data scientist's role, it's still imperative to understand the transformations that can be done to data.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Data cleansing and EDA are vital to the modeling process, so it should never be overlooked.</source>
+        </trans-unit></group></body></file></xliff>

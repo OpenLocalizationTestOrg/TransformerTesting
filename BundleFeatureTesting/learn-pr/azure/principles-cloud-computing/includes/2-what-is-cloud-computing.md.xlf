@@ -1,0 +1,139 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-what-is-cloud-computing.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-what-is-cloud-computing.b43b5f8120609e1260a813fef15818aa40b4ca3e.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ec5f109f64951f858b70b680921aad7b959a5109</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\principles-cloud-computing\includes\2-what-is-cloud-computing.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Cloud computing is renting resources, like storage space or CPU cycles, on another company's computers.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You only pay for what you use.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The company providing these services is referred to as a cloud provider.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Some example providers are Microsoft, Amazon, and Google.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The cloud provider is responsible for the physical hardware required to execute your work, and for keeping it up-to-date.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The computing services offered tend to vary by cloud provider.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>However, typically they include:</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Compute power<ept id="p1">**</ept> - such as Linux servers or web applications</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Storage<ept id="p1">**</ept> - such as files and databases</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Networking<ept id="p1">**</ept> - such as secure connections between the cloud provider and your company</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Analytics<ept id="p1">**</ept> - such as visualizing telemetry and performance data</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Cloud computing services</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The goal of cloud computing is to make running a business easier and more efficient, whether it's a small start-up or a large enterprise.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Every business is unique and has different needs.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To meet those needs, cloud computing providers offer a wide range of services.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You need to have a basic understanding of some of the services it provides.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Let's briefly discuss the two most common services that all cloud providers offer <ph id="ph1">&amp;ndash;</ph> <bpt id="p1">_</bpt>compute power<ept id="p1">_</ept> and <bpt id="p2">_</bpt>storage<ept id="p2">_</ept>.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Compute power</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>When you send an email, book a reservation on the Internet, pay a bill online, or even take this Microsoft Learn module you're interacting with cloud-based servers that are processing each request and returning a response.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>As a consumer, we're all dependent on the computing services provided by the various cloud providers that make up the Internet.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>When you build solutions using cloud computing, you can choose how you want work to be done based on your resources and needs.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For example, if you want to have more control and responsibility over maintenance, you could create a <bpt id="p1">_</bpt>virtual machine<ept id="p1">_</ept> (VM).</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A VM is an emulation of a computer - just like your desktop or laptop you're using now.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Each VM includes an operating system and hardware that appears to the user like a physical computer running Windows or Linux.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You can then install whatever software you need to do the tasks you want to run in the cloud.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Compute power gauge</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The difference is that you don't have to buy any of the hardware or install the OS.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The cloud provider runs your virtual machine on a physical server in one of their datacenters - often sharing that server with other VMs (isolated and secure).</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>With the cloud, you can have a VM ready to go in minutes at less cost than a physical computer.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>VMs aren't the only computing choice - there are two other popular options: <bpt id="p1">_</bpt>containers<ept id="p1">_</ept> and <bpt id="p2">_</bpt>serverless computing<ept id="p2">_</ept>.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>What are containers?</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Containers<ept id="p1">**</ept> provide a consistent, isolated execution environment for applications.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>They're similar to VMs except they don't require a guest operating system.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Instead, the application and all its dependencies is packaged into a "container" and then a standard runtime environment is used to execute the app.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This allows the container to start up in just a few seconds because there's no OS to boot and initialize.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You only need the app to launch.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The open-source project, Docker, is one of the leading platforms for managing containers.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Docker containers provide an efficient, lightweight approach to application deployment because they allow different components of the application to be deployed independently into different containers.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Multiple containers can be run on a single machine, and containers can be moved between machines.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The portability of the container makes it easy for applications to be deployed in multiple environments, either on-premises or in the cloud, often with no changes to the application.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>What is serverless computing?</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Serverless computing<ept id="p1">**</ept> lets you run application code without creating, configuring, or maintaining a server.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The core idea is that your application is broken into separate <bpt id="p1">_</bpt>functions<ept id="p1">_</ept> that run when triggered by some action.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This is ideal for automated tasks - for example, you can build a serverless process that automatically sends an email confirmation after a customer makes an online purchase.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The serverless model differs from VMs and containers in that you only pay for the processing time used by each function as it executes.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>VMs and containers are charged while they're running - even if the applications on them are idle.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This architecture doesn't work for every app - but when the app logic can be separated to independent units, you can test them separately, update them separately, and launch them in microseconds, making this approach the fastest option for deployment.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Here's a diagram comparing the three compute approaches we've covered.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Diagram showing a comparison of virtual machines, containers, and serverless computing</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Storage</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Most devices and applications read and/or write data.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Here are some examples:</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Buying a movie ticket online</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Looking up the price of an online item</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Taking a picture</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Sending an email</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Leaving a voicemail</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>In all of these cases, data is either <bpt id="p1">_</bpt>read<ept id="p1">_</ept> (looking up a price) or <bpt id="p2">_</bpt>written<ept id="p2">_</ept> (taking a picture).</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The type of data and how it's stored can be different in each of these cases.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Storage gauge</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Cloud providers typically offer services that can handle all of these types of data.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>For example, if you wanted to store text or a movie clip, you could use a file on disk.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>If you had a set of relationships such as an address book, you could take a more structured approach like using a database.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The advantage to using cloud-based data storage is you can scale to meet your needs.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>If you find that you need more space to store your movie clips, you can pay a little more and add to your available space.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>In some cases, the storage can even expand and contract automatically - so you pay for exactly what you need at any given point in time.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Every business has different needs and requirements.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Cloud computing is <bpt id="p1">**</bpt>flexible<ept id="p1">**</ept> and <bpt id="p2">**</bpt>cost-efficient<ept id="p2">**</ept>, which can be beneficial to every business, whether it's a small start-up or a large enterprise.</source>
+        </trans-unit></group></body></file></xliff>

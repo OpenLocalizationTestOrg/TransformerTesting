@@ -1,0 +1,25 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.439772ad0ddc3641af89d4c1a385c6135270ab01.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d871e9b0be7b70dace62ed662672a723166e6b84</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\tour-azure-portal\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Azure is a cloud platform that provides the compute, storage, and networking resources needed to build cloud-hosted applications.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>As a new user, the Azure Portal is likely to be the primary way you will interact with Azure.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The Azure Portal lets you create and manage all your Azure resources.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>For example, you can set up a new database, increase the compute power of your virtual machines, and monitor your monthly costs.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>It's also a great learning tool since you can survey all available resources and use guided wizards to create the ones you need.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Here you will learn how to sign in to the portal and navigate the portal interface.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You will also learn how to customize the dashboard, so it is convenient to locate and monitor your most essential services.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Learn about Azure management options</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Navigate the Azure portal</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Customize the dashboard</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.d4e709c3a639d4e2cf257523721b077d88f00063.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7e6b3335f77eb119960c48f760d8e1eea5fe3311</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\build-azure-vm-templates\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.build-azure-vm-templates">
+          <source>Build Azure Resource Manager templates</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.build-azure-vm-templates">
+          <source>Learn how Resource Manager templates express your deployments as code, enabling you to deploy faster and more reliably.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.build-azure-vm-templates">
+          <source>Build Azure Resource Manager templates</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.build-azure-vm-templates">
+          <source>Learn how Resource Manager templates express your deployments as code, enabling you to deploy faster and more reliably.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.build-azure-vm-templates">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.build-azure-vm-templates">
+          <source>Identify what Azure Resource Manager is, and what's in a Resource Manager template</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.build-azure-vm-templates">
+          <source>Deploy a VM using the Azure CLI and a prebuilt Resource Manager template</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.build-azure-vm-templates">
+          <source>Customize your Resource Manager template to configure a basic web server on your VM</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.build-azure-vm-templates">
+          <source>Experience using Bash and the Azure CLI</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.build-azure-vm-templates">
+          <source>Experience working with Azure resources and resource groups</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,85 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-create-an-azure-devops-account.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-create-an-azure-devops-account.3af7bd3970618d73fe5ade6ec53eacfc4260782d.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4f0ebc1094c8d743a47b5d284c62be31c8ffe954</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\get-started-with-devops\includes\4-create-an-azure-devops-account.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Microsoft provides free Azure DevOps accounts for individuals, small teams and open source projects.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Enterprises can also sign up for Azure DevOps accounts that can scale to thousands of team members.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>We're going to sign up for a free Azure DevOps account to see how products can help us on our DevOps journey.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Create an Azure DevOps account</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If you already have an Azure DevOps account, you can skip the following section and move on to <bpt id="p1">**</bpt>Create a new project<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To create an Azure DevOps account, carry out the following procedure:</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Open a browser window and navigate to the Azure DevOps website at <bpt id="p1">[</bpt><ph id="ph1">https://dev.azure.com</ph><ept id="p1">](https://dev.azure.com?azure-portal=true)</ept>.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Start free<ept id="p1">**</ept> button.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Sign in using your <bpt id="p1">**</bpt>Microsoft Account<ept id="p1">**</ept>, or if you do not have a Microsoft account, click <bpt id="p2">**</bpt>Create One!<ept id="p2">**</ept></source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>and complete the steps to create a new Microsoft account.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You may have a Microsoft account already.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Typically these might end with hotmail.com or outlook.com.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Review the Terms of Service, Privacy Statement, and Code of Conduct and click <bpt id="p1">**</bpt>Continue<ept id="p1">**</ept> if you agree to these.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Your new Azure DevOps account should be created.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>As the person creating the Azure DevOps account, you will automatically become the account owner.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Please be considerate when deciding on your account name and avoid existing legal entities.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In the list of organizations on the left side of the page, you should see the new organization name shown.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If you refer to the address bar in your browser, the address for your Azure DevOps account will be <ph id="ph1">`https://dev.azure.com/&lt;Orgname&gt;`</ph>.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you do not see an organization name associated to your account.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You will need to create a new organization.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Create a new organization</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Create new organization<ept id="p1">**</ept> button in the right pane.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Continue<ept id="p1">**</ept> in the Azure DevOps Terms of Service and Privacy notification window.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Create a name for your organization next to the <bpt id="p1">**</bpt><ph id="ph1">`dev.azure.com/`</ph><ept id="p1">**</ept> field.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Continue<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This will create a new organization for your Azure DevOps projects which can be address bar of your browser in the format <ph id="ph1">`https://dev.azure.com/&lt;Orgname&gt;`</ph>.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Create a new project</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Projects in Azure DevOps are generally synonymous with applications in your organization.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>It is good practice to avoid entering numbers in the project name.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>For example, try not to name your project something like Payroll 2.0 or Payroll 2018.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A better approach would be to name your project <bpt id="p1">**</bpt>Payroll<ept id="p1">**</ept> and then 2.0 or 2018 are most likely just branches in your source code repository and iterations for your work items.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>After completing the steps above to create a new Azure DevOps account, you should be presented with a screen titled "Create a project to get started".</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If you're using an existing Azure DevOps account, navigate to <ph id="ph1">`https://dev.azure.com/&lt;Orgname&gt;`</ph> to be presented with the same screen.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Enter a name for your first project.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>We'll use <bpt id="p1">**</bpt>Contoso<ept id="p1">**</ept> as our project name.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Leave the visibility set to <bpt id="p1">**</bpt>Private<ept id="p1">**</ept> which means only accounts you add to this project will be able to access it.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Choosing public may be a good choice for any Open Source projects you wish to create in the future.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Create project<ept id="p1">**</ept> button.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Congratulations!</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You have signed up for a new Azure DevOps account and created a new project.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You can use your account to start learning more about Azure DevOps, and you will need this account if you want to continue learning more about Azure DevOps in future modules.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This is just the very beginning of our journey with DevOps using Azure DevOps.</source>
+        </trans-unit></group></body></file></xliff>

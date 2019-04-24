@@ -1,0 +1,23 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.667b4b47257ce2b9d72ec18358f2e29d08bfa25a.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">367399cca57dfd5b38ce97972877912273721b8a</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-azure-networking\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-networking">
+          <source>Core Cloud Services - Introduction to Azure networking</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-networking">
+          <source>Running your app or service in the cloud requires a fast and secure network.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-networking">
+          <source>Learn some of the Azure networking basics and how Azure networking helps improve resiliency and reduce latency.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-networking">
+          <source>Core Cloud Services - Azure networking options</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-networking">
+          <source>Running your app or service in the cloud requires a fast and secure network.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-networking">
+          <source>Learn some of the Azure networking basics and how Azure networking helps improve resiliency and reduce latency.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-networking">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-networking">
+          <source>Learn how virtual networking helps you isolate network and compute resources</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-networking">
+          <source>Learn how Azure Load Balancer helps improve resiliency, or the ability to recover when your service goes down</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-networking">
+          <source>Learn how Traffic Manager can route traffic to different endpoints, including the endpoint with the lowest latency to the user</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.intro-to-azure-networking">
+          <source>None</source>
+        </trans-unit></group></body></file></xliff>

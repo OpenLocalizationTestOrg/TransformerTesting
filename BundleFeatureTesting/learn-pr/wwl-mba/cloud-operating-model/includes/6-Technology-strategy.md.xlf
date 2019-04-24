@@ -1,0 +1,111 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-Technology-strategy.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-Technology-strategy.1e3b7af82dba5693091af9802c3b919a82bca480.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4a3766527173f6a06cacc7cc52fd99b8713b08b8</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\wwl-mba\cloud-operating-model\includes\6-Technology-strategy.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>What is a technology strategy?</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Technology strategy<ept id="p1">*</ept> is the process of selecting the platform you want to use for your cloud migration and evaluating your application portfolio to determine whether you want to migrate each app, modernize it, retire it, or rebuild it as a cloud-native application.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You'll use your business strategy and long-term business goals to determine your technology strategy.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Your people strategy will drive the change.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Before selecting the cloud approach that’s right for your organization, it’s important to understand key concepts and models.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Most important is the notion that computing is provided as a service.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This means that the cloud enables a set of capabilities that can be rented, used for a period of time, increased as more are needed, and dispensed with when they're no longer needed.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You pay for what you use and no more.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Because every application is unique, there’s no single set of steps to follow for modernization.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>That's why it's important to conduct an <bpt id="p1">*</bpt>Application Portfolio Assessment<ept id="p1">*</ept> to identify which applications are ready to modernize, which require minor changes in code, and which need a complete redesign to make them cloud ready.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You'll start by assessing your current application portfolio, prioritizing each application’s value, creating a plan for each one’s future use, and executing on your plan.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Choosing the right migration and modernization approach for the various applications in your portfolio can help you extract maximum value from cloud-enabled and innovative technologies.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>There are five <bpt id="p1">*</bpt>migration strategies<ept id="p1">*</ept> to consider: <bpt id="p2">*</bpt>rehost<ept id="p2">*</ept>, <bpt id="p3">*</bpt>refactor<ept id="p3">*</ept>, <bpt id="p4">*</bpt>rearchitect<ept id="p4">*</ept>, <bpt id="p5">*</bpt>rebuild<ept id="p5">*</ept>, and <bpt id="p6">*</bpt>replace<ept id="p6">*</ept>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The following sections summarize these five strategies, their benefits, when you might want to use them, and which Microsoft solutions and technologies support them.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Rehost (migration)</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Often called “lift-and-shift” migration, rehosting is a no-code option that lets you migrate your existing applications to Azure quickly.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Benefits</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Minimizes application downtime due to hardware failure, isolated management of IT infrastructure, expensive and time-intensive procurement processes, inefficient disaster recovery, and inconsistent archiving.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The fastest way to migrate  apps because it doesn’t require any code changes, minimizing risk and cost.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Potential Microsoft solutions and technologies</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Azure IaaS solutions</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Refactor (modernization)</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Refactoring is the process of transforming an existing application by adding cloud-enabled and innovation capabilities to the application while changing code minimally.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Benefits</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Requires minimal changes to existing code to enable the use of platform as a service (PaaS) capabilities.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Potential Microsoft solutions and technologies</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Azure Kubernetes Service (container technology)</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Rearchitect (modernization)</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Rearchitecting means modifying or extending an existing application’s code base to optimize it for a cloud platform and better scalability.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Benefits</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Group application functionalities into modules that can then be scaled up or down and tested, deployed, and managed independently.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If any code breaks, only that module or function is affected.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The rest of the application remains available.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When a module or function no longer meets business requirements, you can swap it out for a better option.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Potential Microsoft solutions and technologies</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Azure microservices-based technologies</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Rebuild (modernization)</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Rebuilding is using Azure cloud technologies to completely reconstruct an app.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Benefits</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Increased productivity that takes advantage of PaaS technologies.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Enables rapid application development with improved innovation and security.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Does not require original source code.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Ability to build on new platform.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Potential Microsoft solutions and technologies</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Azure serverless computing technologies</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Replace (modernization)</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Replacement is the retirement of your existing on-premises application by replacing it with a SaaS application.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Benefits</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Use existing SaaS applications that better meet your existing and future business needs.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Provides uniform management tools to monitor and manage the application.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Potential Microsoft solutions and technologies</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Microsoft SaaS solutions like Microsoft 365</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Microsoft partner and open source SaaS solutions</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Now that we’ve reviewed the application migration strategies, consider which of these strategies might be optimal for your organization's applications.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Next, let's see what you've learned about the Cloud Operating Model with a knowledge check.</source>
+        </trans-unit></group></body></file></xliff>

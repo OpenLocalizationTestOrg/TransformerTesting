@@ -1,0 +1,63 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="9-cleanup.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9-cleanup.857f2e07fa855ecdf5c1d30aef97d6f1049d3439.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">65bf6ff448cb65428a39ec088973f9b512aeb7b8</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\manage-virtual-machines-with-azure-cli\9-cleanup.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>Summary and cleanup</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>Summary and cleanup</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>Clean up the resources we used in this module</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>Suppose you're an administrator of several Azure virtual machines.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>You get a text message indicating some problems with your VMs.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>You are at a friend’s house and only have your tablet with you.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>True or false: you'll still be able to access the Azure CLI using the tablet, even though you can't install the CLI on it.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>True</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>The Azure Cloud Shell is available in the browser and runs with the full Azure CLI.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>If you prefer Powershell, the Azure Cloud Shell has that as well.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>False</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>The Azure Cloud Shell is available in the browser and runs with the full Azure CLI, so you wouldn't need to install software.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>Suppose you have a script that creates several VMs with different images.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>When the script issues the command to create the first VM you do not want to block the script while the VM is created, instead you want the script to immediately move on to the next command.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>What is the best way to do this?</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>Add the '--async' argument to your create command.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>There is no '--async' argument as part of 'azure VM create'.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>Use the ampersand (&amp;) to run the process in the background.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>This may do what you intend on some platforms but likely will use more system resources than the supported method.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>Add the '--no-wait' argument to your create command.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>Adding '--no-wait' will cause 'azure VM create' to return immediately without waiting for the VM to actually be created.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>Most Azure commands return JSON by default.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>Sometimes this data set can be very large which makes it difficult to read and tricky to use the result of one command as input to another command.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>What can you use with Azure CLI to filter the results to get only the data that you need?</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>You can use the '--query' argument.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>All Azure commands support the '--query' argument which lets you select the useful data in any Azure command response.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>You can use the '--filter' argument.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>Azure CLI does not have a '--filter' argument.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>You can pipe the results to a JSON parsing utility and use filtering capability there.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.manage-vms-with-azure-cli-data.9-cleanup">
+          <source>This may work but is more complex than using the built-in query support of the Azure CLI.</source>
+        </trans-unit></group></body></file></xliff>

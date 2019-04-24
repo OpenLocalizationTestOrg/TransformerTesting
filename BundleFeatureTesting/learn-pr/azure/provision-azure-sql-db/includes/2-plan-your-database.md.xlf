@@ -1,0 +1,85 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-plan-your-database.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-plan-your-database.b03f481f49452dcc52f32edcbab40ebd0bf1a5c3.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">85bd302ea01a56d94f5d862c8516ca0798fc1237</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\provision-azure-sql-db\includes\2-plan-your-database.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Azure provides PaaS services to help you manage all kinds of data, from highly structured relational data to unstructured data.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Here you'll learn why Azure SQL Database is a convenient, cost-effective, and secure way to host your relational databases.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Why choose Azure SQL Database?</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Your transportation logistics application requires stored procedures that run basic CRUD (<bpt id="p1">**</bpt>create<ept id="p1">**</ept>, <bpt id="p2">**</bpt>read<ept id="p2">**</ept>, <bpt id="p3">**</bpt>update<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>delete<ept id="p4">**</ept>) operations.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You have experience working with SQL Server and other relational databases.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You consider two choices for your database:</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Host SQL Server on-premises.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Your IT team runs a small in-house data center to support the finance department and a few other teams.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can work with IT to host a SQL Server deployment in their data center.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Host Azure SQL Database in the cloud.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Azure SQL Database is based on SQL Server and provides the relational database functionality you need.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You've decided to build the web and application tiers for your logistics app on Azure.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>So it makes sense to also host your database there.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>But there are some other reasons why Azure SQL Database is a smart choice, and why it's even easier than using virtual machines.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Convenience<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Setting up SQL Server on a VM or on physical hardware requires you to know about hardware and software requirements.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You'll need to understand the latest security best practices and manage operating system and SQL Server patches on a routine basis.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You also need to manage backup and data retention issues yourself.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>With Azure SQL Database, we manage the hardware, software updates, and OS patches for you.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>All you specify is the name of your database and a few options.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You'll have a running SQL database in minutes.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You can bring up and tear down Azure SQL Database instances at your convenience.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Azure SQL Database comes up fast and is easy to configure.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You can focus less on configuring software and more on making your app great.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Cost<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Because we manage things for you, there are no systems for you to buy, provide power for, or otherwise maintain.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Azure SQL Database has several pricing options.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>These pricing options enable you to balance performance versus cost.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You can start for just a few dollars a month.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Scale<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You find that the amount of transportation logistics data you must store doubles every year.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>When running on-premises, how much excess capacity should you plan for?</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>With Azure SQL Database, you can adjust the performance and size of your database on the fly when your needs change.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Security<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Azure SQL Database comes with a firewall that's automatically configured to restrict connections from the Internet.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can "whitelist" IP addresses you trust.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Whitelisting lets you use Visual Studio, SQL Server Management Studio, or other tools to manage your Azure SQL database.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>With Azure SQL Database, we manage the hardware, software updates, and OS patches for you.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>We provide buying options to help you get the performance you need at a predictable cost.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Azure SQL Database also comes with a firewall so that you can control access to your data.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Although you don't need to be a DBA to use Azure SQL Database, there are a few concepts you should understand before you start.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>We'll cover these concepts next.</source>
+        </trans-unit></group></body></file></xliff>

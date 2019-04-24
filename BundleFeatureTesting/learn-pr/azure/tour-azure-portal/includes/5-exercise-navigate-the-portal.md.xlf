@@ -1,0 +1,241 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-exercise-navigate-the-portal.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-exercise-navigate-the-portal.53e51c26c1a4dd70b0629dde7c813b4dff0ad468.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">de3ccb36e6d600086edcd94bad379bd01be5a61d</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\tour-azure-portal\includes\5-exercise-navigate-the-portal.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The Azure Portal has a lot of features and services available; let's look at some of the more common areas you'll tend to use.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>First, take a moment to hover your mouse pointer over each of the icons in the top menu bar for a few seconds each.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You should see a tooltip label pop up for each one.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This is the name of the menu item.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You will use these icons later.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Azure portal icon bar</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Services blade</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In the left-hand pane, click <bpt id="p1">**</bpt>All services<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Take a couple of minutes to scroll down the list to see how many services Azure offers.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Screenshot of the services blade</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can search for services through the <bpt id="p1">_</bpt>filter<ept id="p1">_</ept> box.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Virtual machines<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If you don't see it, use the filter box.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Virtual Machines<ept id="p1">**</ept> blade appears.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>There is nothing currently showing because you have not defined any virtual machines.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>+ Add<ept id="p1">**</ept> button.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Create a virtual machine<ept id="p1">**</ept> blade appears, as in the previous exercise.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>X<ept id="p1">**</ept> in the top right-hand corner to close the <bpt id="p2">**</bpt>Create a virtual machine<ept id="p2">**</ept> blade.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>X<ept id="p1">**</ept> in the top right-hand corner to close the <bpt id="p2">**</bpt>Virtual machines<ept id="p2">**</ept> blade.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You should now be back at the Dashboard page.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If not, you can always click on <bpt id="p1">**</bpt>Dashboard<ept id="p1">**</ept> in the left-most pane.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Notifications blade</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>On the icon bar menu bar, click the <bpt id="p1">**</bpt>Notifications<ept id="p1">**</ept> (bell) icon.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This will list any pending notifications.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Screenshot of notifications window</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If any notifications appear, hover your mouse over one of them.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>X<ept id="p1">**</ept> that appears in that notification to dismiss it.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To the right of <bpt id="p1">**</bpt>Dismiss<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>All<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You should have no notifications showing.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>X<ept id="p1">**</ept> in the top right-hand corner to close the <bpt id="p2">**</bpt>Notifications<ept id="p2">**</ept> pane.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Azure Cloud Shell</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Icon representing the Azure Cloud Shell</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The Azure Cloud Shell allows you to use a command-line interface (CLI) to execute commands in your Azure subscription.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You can access it by clicking the (<ph id="ph1">`&gt;_`</ph>) icon in the toolbar.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>However, it isn't available in the Sandbox environment - so you will only be able to do this in your own active subscriptions.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can also navigate to <ph id="ph1">&lt;https://shell.azure.com&gt;</ph> to launch a Cloud Shell in the browser independent of the portal.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>When you launch the shell, you will see a Welcome window.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You can choose either a <bpt id="p1">**</bpt>Bash<ept id="p1">**</ept> or <bpt id="p2">**</bpt>PowerShell<ept id="p2">**</ept> environment, depending on your personal preferences.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You can also change the shell at anytime through the language drop-down on the left side of the shell.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Finally, there are a variety of management and programming tools included in the created environment.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Azure command-line tools (Azure CLI, AzCopy, etc.)</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Languages / Frameworks including .NET Core, Python, and Java</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Container management support for Docker, Kubernetes, etc.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Code editors such as vim, emacs, code, and nano</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Build tools (make, maven, npm, etc.)</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Database query tools such as <ph id="ph1">`sqlcmd`</ph></source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Icon representing the settings panel</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> (cog) icon to open the <bpt id="p2">**</bpt>Portal settings<ept id="p2">**</ept> pane.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Drop down the <bpt id="p1">**</bpt>Log me out when inactive<ept id="p1">**</ept> setting, and select <bpt id="p2">**</bpt>After one hour<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Choose a theme<ept id="p1">**</ept>, select the different colored themes and observe the changes to the portal UI.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Leave it set to the one you like the best.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>High contrast theme<ept id="p1">**</ept>, try the three different options.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Disable Toast notifications.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This means notifications will not appear as pop-up "toast"-style notifications, but will still show up in the Notifications (bell) icon as always.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Note the <bpt id="p1">**</bpt>Allow double-click on dashboard to change theme<ept id="p1">**</ept> setting, enabled by default.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>When enabled, you can use the mouse to cycle through the various color themes without opening this Settings menu by double-clicking the left mouse button in the Dashboard view's background area.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Disable this option to avoid accidentally changing your color theme.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Apply<ept id="p1">**</ept> to accept your changes.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> (cog) icon in the top menu bar and, under <bpt id="p2">**</bpt>Language<ept id="p2">**</ept>, select <bpt id="p3">**</bpt>Español<ept id="p3">**</ept>, and then click the <bpt id="p4">**</bpt>Refresh<ept id="p4">**</ept> button.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If a <bpt id="p1">**</bpt>Translate this page<ept id="p1">**</ept> dialog box appears, close the box.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Note that the whole portal is now in Spanish.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> (cog) icon in the top menu bar and, under <bpt id="p2">**</bpt>Language<ept id="p2">**</ept>, select <bpt id="p3">**</bpt>English<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Actualizar<ept id="p1">**</ept> button.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The portal returns to English.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Feedback blade</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Icon representing the feedback panel</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Feedback<ept id="p1">**</ept> (smiley face) icon to open the <bpt id="p2">**</bpt>Send us feedback<ept id="p2">**</ept> blade.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Type your impressions of Azure in the <bpt id="p1">**</bpt>Tell us about your experience<ept id="p1">**</ept> box, click the box that says <bpt id="p2">**</bpt>Microsoft can email you about your feedback<ept id="p2">**</ept>, and click <bpt id="p3">**</bpt>Submit Feedback<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">**</bpt>Feedback sent<ept id="p1">**</ept> message will appear, and then close.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>You should now be back at the Dashboard.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Help blade</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Icon representing the feedback panel</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Help<ept id="p1">**</ept> (<ph id="ph1">`?`</ph>) icon to show the <bpt id="p2">**</bpt>Help<ept id="p2">**</ept> blade.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Help + Support<ept id="p1">**</ept> button.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Help + Support<ept id="p1">**</ept> blade, under <bpt id="p2">**</bpt>Support<ept id="p2">**</ept>, click <bpt id="p3">**</bpt>New support request<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>To create a new support request, you would fill in the information in each of the following sections, and then click <bpt id="p1">**</bpt>Create<ept id="p1">**</ept> to lodge the issue.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Basics:<ept id="p1">**</ept> the issue type</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Problem:<ept id="p1">**</ept> severity of the problem, a summary and description, and any additional information</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Contact information:<ept id="p1">**</ept> preferred contact method and the information associated with this contact method</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>You can view the status of your support requests by clicking on <bpt id="p1">**</bpt>All support requests<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Support requests can only be created using an active paid subscription.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Creating support requests from a free Microsoft Learn sandbox is not supported.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>What's new and other information</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Help<ept id="p1">**</ept> icon and click <bpt id="p2">**</bpt>What's new<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Review the features that have recently been released.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Also note and explore the other <bpt id="p1">**</bpt>Help<ept id="p1">**</ept> menu options, such as:</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Azure roadmap</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Launch guided tour</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Keyboard shortcuts</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Show diagnostics</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Privacy + terms</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>X<ept id="p1">**</ept> in the top right-hand corner to close the <bpt id="p2">**</bpt>Help<ept id="p2">**</ept> blade.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Close the <bpt id="p1">**</bpt>What's new<ept id="p1">**</ept> blade.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>You should now be back to the Dashboard.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Directory and subscription</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Icon representing the subscription panel</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Directory + Subscription<ept id="p1">**</ept> (book and filter) icon to show the <bpt id="p2">**</bpt>Directory + subscription<ept id="p2">**</ept> blade.</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>This is where you can switch between multiple subscriptions or directories.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>You should see the Concierge subscription here, and if you have an Azure account tied to the same email address, your own subscription.</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>There is also a link to learn more about directories and subscriptions.</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>X<ept id="p1">**</ept> in the top right-hand corner to close the <bpt id="p2">**</bpt>Directory + subscription<ept id="p2">**</ept> blade.</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Profile settings</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Click on your name in the top right-hand corner of the portal.</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Options include:</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Sign in with another account, or sign out entirely</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>View your account profile, where you can change your password</source>
+        </trans-unit><trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Submit an idea</source>
+        </trans-unit><trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Check your permissions</source>
+        </trans-unit><trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>View your bill</source>
+        </trans-unit><trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Update your contact information</source>
+        </trans-unit><trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Note that some items do not appear unless you click the "..." icon.</source>
+        </trans-unit><trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Click "..." then <bpt id="p1">**</bpt>View my bill<ept id="p1">**</ept> to navigate to the <bpt id="p2">**</bpt>Cost Management + Billing - Invoices<ept id="p2">**</ept> page, which helps you analyze where Azure is generating costs.</source>
+        </trans-unit><trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>If you're using your own account and not sandbox, you can select a subscription from the drop-down list.</source>
+        </trans-unit><trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Click a billing period.</source>
+        </trans-unit><trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Note the service costs and check them against what you expect for your current subscription.</source>
+        </trans-unit><trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>X<ept id="p1">**</ept> in the top right-hand corner to close the <bpt id="p2">**</bpt>Costs by service<ept id="p2">**</ept> blade.</source>
+        </trans-unit><trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>X<ept id="p1">**</ept> in the top right-hand corner to close the <bpt id="p2">**</bpt>Cost Management + Billing - Invoices<ept id="p2">**</ept> page.</source>
+        </trans-unit><trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>You should now be back at the Dashboard.</source>
+        </trans-unit><trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Now that we've explored all the main areas of the Azure portal, let's look at one of the most useful features - Dashboards.</source>
+        </trans-unit></group></body></file></xliff>

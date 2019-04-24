@@ -1,0 +1,69 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-knowledge-check.e4283cedaebcac922ad1e243ed8d780eaa9137fb.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c55fdfb1f76aad480f5005a65a9cca6212c81048</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\databricks\read-and-write-data-using-azure-databricks\4-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>Test your knowledge by answering questions about skills you learned from the lab.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>Which DataFrame method do you use to create a temporary view?</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>createOrReplaceTempView()</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>You use this method to create temporary views in DataFrames.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>createTempView()</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>This method name is incorrect.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>createTempViewDF()</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>This method name is incorrect.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>How do you create a DataFrame object?</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>Introduce a variable name and equate it to something like myDataFrameDF =.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>This approach is the correct way to create DataFrame objects.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>Use the createDataFrame() function.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>There's no such method for creating a DataFrame.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>Use the DF.create() syntax.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>This syntax is incorrect, and this approach isn't the right way to create DataFrame objects.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>What is the DataFrame equivalent of the SQL statement SELECT count(*) AS total?</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>.agg(count("*").alias("total"))</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>In DataFrames, this syntax produces the same result as the SQL statement shown earlier.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>.select(count("*").alias("total"))</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>This syntax is incorrect.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>.select(agg("*").alias("total"))</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>This syntax is incorrect.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>What is the Python syntax for defining a DataFrame in Spark from an existing Parquet file in DBFS?</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>IPGeocodeDF = spark.read.parquet("dbfs:/mnt/training/ip-geocode.parquet")</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>This syntax is correct.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>IPGeocodeDF = parquet.read("dbfs:/mnt/training/ip-geocode.parquet")</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>This syntax is incorrect.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>IPGeocodeDF = spark.parquet.read("dbfs:/mnt/training/ip-geocode.parquet")</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve" uid="learn.read-and-write-data-using-azure-databricks.4-knowledge-check">
+          <source>This syntax is incorrect.</source>
+        </trans-unit></group></body></file></xliff>

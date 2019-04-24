@@ -1,0 +1,155 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-exercise-deploy-a-web-app-by-using-deployment-slots.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-exercise-deploy-a-web-app-by-using-deployment-slots.4014fd239dc48963bce2173f9b1fae9cd2472da3.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">de7912185689d050536ee0a81a34405870eab1f2</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\stage-deploy-app-service-deployment-slots\includes\5-exercise-deploy-a-web-app-by-using-deployment-slots.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>When you're ready to swap two slots, make sure you've applied the correct configuration to the swapped slots.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Suppose you've finished testing version 2 of your social media web app.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Now you want to deploy that version to production.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You want to further streamline deployment by automatically swapping future versions of the app.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Here you'll learn how to swap manually and automatically.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Configure a slot setting</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Before you deploy version 2 of the web app, configure a slot setting.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The settings you'll configure here won't affect your demo app.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The purpose of this exercise is just to see how the configurations work when you swap slots.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To configure slot settings:</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Go to the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> page of the production slot's web app.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Application Settings<ept id="p1">**</ept> page for the deployment slot.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Scroll down to <bpt id="p1">**</bpt>Application settings<ept id="p1">**</ept> and then select <bpt id="p2">**</bpt>Add new setting<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>App setting name<ept id="p1">**</ept>, enter <bpt id="p2">**</bpt>ENVIRONMENT_NAME<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Value<ept id="p1">**</ept>, enter <bpt id="p2">**</bpt>production<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Slot<ept id="p1">**</ept>, select the check box to make this a slot setting.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Add another setting called <bpt id="p1">**</bpt>APP_VERSION<ept id="p1">**</ept>, and enter the value <bpt id="p2">**</bpt>1<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Don't make this a slot setting.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Near the top of the page, select the <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> button.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Repeat the preceding steps on the staging slot's web app.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Use the following settings:</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Name</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Value</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Slot</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>ENVIRONMENT_NAME</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>staging</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>APP_VERSION</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>2</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>$12</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Swap the slots</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Now that you've tested version 2 of the web app in the staging slot, you can deploy it by swapping the slots.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Follow these steps:</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To make sure you're configuring the production slot, select <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept> and then select the production slot's web app.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Deployment<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Deployment slots<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Swap<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Start a swap</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Make sure you're about to swap the staging and production slots.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Notice how the swap will affect settings.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The value of the APP_VERSION setting will be exchanged between the slots, but the value of the ENVIRONMENT slot setting won't be swapped.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Swap<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Complete a swap</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>When the swap is complete, go to the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> page of the production slot's web app and select <bpt id="p2">**</bpt>Browse<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The web app appears on a new browser tab. Notice that version 2 of the web app is now in production.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Close the browser tab.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Configure auto swap for the staging slot</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Suppose that now that you're using deployment slots, you want to enable continuous deployment.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>You'll do this by using the auto swap feature for your web app.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>In a system that uses auto swap, when you deploy new code to the staging slot, Azure automatically warms it up and deploys it to production by swapping the staging and production slots.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To configure auto swap, follow these steps:</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Go to the <bpt id="p1">**</bpt>Application settings<ept id="p1">**</ept> page of the staging slot's web app.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">**</bpt>General settings<ept id="p1">**</ept>, next to <bpt id="p2">**</bpt>Auto Swap<ept id="p2">**</ept>, select <bpt id="p3">**</bpt>On<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Auto Swap Slot<ept id="p1">**</ept> list, select <bpt id="p2">**</bpt>production<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Then select <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Configure auto swap</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Deploy new code and auto swap it into production</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Now you'll modify the code to create version 3 of the web app.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>When you deploy it to the staging slot, you'll see auto swap in action.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Follow these steps:</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>On the right side of the Cloud Shell window, restart the editor if it's not already running.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>In the code editor, in the <bpt id="p1">**</bpt>File list<ept id="p1">**</ept> on the left, expand <bpt id="p2">**</bpt>aspnet-get-started<ept id="p2">**</ept><ph id="ph1"> &gt; </ph><bpt id="p3">**</bpt>Views<ept id="p3">**</ept><ph id="ph2"> &gt; </ph><bpt id="p4">**</bpt>Home<ept id="p4">**</ept>.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Then select <bpt id="p1">**</bpt>Index.cshtml<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Locate the following code:</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Replace that code with this code:</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>To save your changes, press CTRL+S.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>In Cloud Shell, enter the following commands.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Enter your password when you're prompted.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Wait for the deployment to finish.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Near the end of the text output, you'll see a message that indicates that the deployment has requested an auto swap to the production slot.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>In the Azure portal, go to the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> page for the production slot's web app and select <bpt id="p2">**</bpt>Browse<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The third version of the web app appears on a new browser tab. The push to the staging slot triggered an automatic swap with the production slot.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Roll back the new version</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Suppose that deploying version 3 of your app to production revealed an unexpected problem.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>To quickly resolve it, you can roll back to the previous version of the site by swapping the slots again.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Go to the <bpt id="p1">**</bpt>Deployment slots<ept id="p1">**</ept> page of the production slot's web app.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Swap the staging and production slots.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>When the swap finishes, on the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> page, select the <bpt id="p2">**</bpt>Browse<ept id="p2">**</ept> button to view the app one last time.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>You'll see that version 2 has been redeployed to production.</source>
+        </trans-unit></group></body></file></xliff>

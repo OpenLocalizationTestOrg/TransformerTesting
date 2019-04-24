@@ -1,0 +1,43 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-summary.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-summary.1d4645ddbcb92ab9ab55134c0c4b63c32af862f7.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e3a457aadd7a321501b3e34db36ec7cfc701c0fe</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\data-engineering-processes\5-summary.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.data-ai.data-engineering-processes.summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.data-ai.data-engineering-processes.summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.data-ai.data-engineering-processes.summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.data-ai.data-engineering-processes.summary">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.data-ai.data-engineering-processes.summary">
+          <source>Which role works with Azure Cognitive Services, Cognitive Search, and the Bot Framework?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.data-ai.data-engineering-processes.summary">
+          <source>A data engineer</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.data-ai.data-engineering-processes.summary">
+          <source>Data engineers are responsible for the provisioning and configuration of both on-premises and cloud data platform technologies.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.data-ai.data-engineering-processes.summary">
+          <source>A data scientist</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.data-ai.data-engineering-processes.summary">
+          <source>Data scientists perform advanced analytics to help drive value from data.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.data-ai.data-engineering-processes.summary">
+          <source>An AI engineer</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.data-ai.data-engineering-processes.summary">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.data-ai.data-engineering-processes.summary">
+          <source>Artificial intelligence (AI) engineers work with AI services such as Cognitive Services, Cognitive Search, and the Bot Framework.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.data-ai.data-engineering-processes.summary">
+          <source>Which Azure data platform is commonly used to process data in an ELT framework?</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.data-ai.data-engineering-processes.summary">
+          <source>Azure Data Factory</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.data-ai.data-engineering-processes.summary">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.data-ai.data-engineering-processes.summary">
+          <source>Azure Data Factory is a cloud-integration service that orchestrates the movement of data between various data stores.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.data-ai.data-engineering-processes.summary">
+          <source>Azure Databricks</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.data-ai.data-engineering-processes.summary">
+          <source>Azure Databricks is a serverless platform that's optimized for Azure.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.data-ai.data-engineering-processes.summary">
+          <source>It provides one-click setup, streamlined workflows, and an interactive workspace for applications that are based on Spark.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.data-ai.data-engineering-processes.summary">
+          <source>Azure Data Lake Storage</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.data-ai.data-engineering-processes.summary">
+          <source>Azure Data Lake Storage is a Hadoop-compatible data repository that can store any size or type of data.</source>
+        </trans-unit></group></body></file></xliff>

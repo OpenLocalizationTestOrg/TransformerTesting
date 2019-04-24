@@ -1,0 +1,83 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-setup-event-hubs.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-setup-event-hubs.81e5412d9fc38e45ba5a43ce47999f48ac619c5f.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dbfbd19c8796cb3c3d7978fa408344c40b5be5e0</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\databricks\streaming-in-azure-databricks\includes\3-setup-event-hubs.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The first step toward using Spark Structured Streaming is setting up Azure Event Hubs in your Azure subscription.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Create an Event Hubs namespace</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In the Azure portal, select <bpt id="p1">**</bpt>+ Create a resource<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Enter <bpt id="p1">**</bpt>event hubs<ept id="p1">**</ept> into the <bpt id="p2">**</bpt>Search the Marketplace<ept id="p2">**</ept> box, select <bpt id="p3">**</bpt>Event Hubs<ept id="p3">**</ept> from the results, and then select <bpt id="p4">**</bpt>Create<ept id="p4">**</ept>.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Azure portal with selections for creating an event hub</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Create Namespace<ept id="p1">**</ept> blade, enter the following information:</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Name<ept id="p1">**</ept>: Enter a unique name, such as <bpt id="p2">**</bpt>databricksdemoeventhubs<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Uniqueness will be indicated by a green check mark.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Pricing tier<ept id="p1">**</ept>: Select <bpt id="p2">**</bpt>Basic<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Subscription<ept id="p1">**</ept>: Select the subscription group you're using for this module.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resource group<ept id="p1">**</ept>: Choose your module resource group.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Location<ept id="p1">**</ept>: Select the location you're using for this module.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Create<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Screenshot of the "Create Namespace" blade</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Create an event hub</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>After your Event Hubs namespace is provisioned, browse to it and add a new event hub by selecting the <bpt id="p1">**</bpt>+ Event Hub<ept id="p1">**</ept> button on the toolbar.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Screenshot of an Event Hubs namespace with the button for adding an event hub highlighted</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Create Event Hub<ept id="p1">**</ept> blade, enter:</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Name<ept id="p1">**</ept>: Enter <bpt id="p2">**</bpt>databricks-demo-eventhub<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Partition Count<ept id="p1">**</ept>: Enter <bpt id="p2">**</bpt>2<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Create<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Screenshot of the "Create Event Hub" blade</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Create a shared access policy</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>From the left menu in your Event Hubs namespace, select <bpt id="p1">**</bpt>Event Hubs<ept id="p1">**</ept>, and then select <bpt id="p2">**</bpt>databricks-demo-eventhubs<ept id="p2">**</ept> from the list.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Screenshot of "Event Hubs" under "Entities"</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>On the blade for your event hub, select <bpt id="p1">**</bpt>Shared access policies<ept id="p1">**</ept> under <bpt id="p2">**</bpt>Settings<ept id="p2">**</ept> in the left menu.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Location of the shared access policy</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> button on the toolbar.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>"Add" button for shared access policy</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Add SAS Policy<ept id="p1">**</ept> blade, enter the following information:</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Policy name<ept id="p1">**</ept>: Enter <bpt id="p2">**</bpt>both<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Manage<ept id="p1">**</ept>: Leave unselected.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Send<ept id="p1">**</ept>: Select this box.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Listen<ept id="p1">**</ept>: Select this box.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Create<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Screenshot of the "Add SAS policy" blade</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Capture the connection string's primary key for the shared access policy</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>After you create your shared access policy, select it from the list of shared access policies.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Then copy the connection string's primary key by selecting the copy button.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Selected shared access policy with information about connection string and primary key</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Save the copied primary key to Notepad.exe or another text editor for later reference.</source>
+        </trans-unit></group></body></file></xliff>

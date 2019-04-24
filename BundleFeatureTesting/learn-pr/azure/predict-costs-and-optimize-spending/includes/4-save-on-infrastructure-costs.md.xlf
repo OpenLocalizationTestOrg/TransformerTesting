@@ -1,0 +1,149 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-save-on-infrastructure-costs.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-save-on-infrastructure-costs.20feac72196223cd6aacede05aac49e4a12446dc.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9574a5ca1a4b147c3f9642f1367e187ac727cf73</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\predict-costs-and-optimize-spending\includes\4-save-on-infrastructure-costs.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>We have seen how to create cost estimates for environments you'd like to build, walked through some tools to get details on where we're spending money, and projected future expenses.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Our next challenge is to look at how to reduce those infrastructure costs.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Use Azure credits</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Visual Studio subscribers can activate a monthly credit benefit which allows you to experiment with, develop, and test new solutions on Azure.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Use Azure credits to try out new services such as App Service, Windows 10 VMs, Azure SQL Server databases, Containers, Cognitive Services, Functions, Data Lake, and more without incurring any monetary costs.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When you activate this benefit, you will own a separate Azure subscription under your account with a monthly credit balance that renews each month while you remain an active Visual Studio subscriber.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The credit amount varies based on the program level - $50/month for VS Professional and $150/month for Enterprise.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Check the documentation for more details on how much credit you receive for your specific subscription level.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The monthly Azure credit for Visual Studio subscribers is for <bpt id="p1">**</bpt>development and testing only<ept id="p1">**</ept> and does not carry a financially-backed SLA.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Azure will suspend any instance (VM or cloud service) that runs continuously for more than 120 hours or if it's determined that the instance is being used for production.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This benefit is made available to Visual Studio subscribers on a best efforts basis; there is no guarantee of capacity availability.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Use spending limits</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>By default, Azure subscriptions which have associated monthly credits (which includes trial accounts) have a <bpt id="p1">_</bpt>spending limit<ept id="p1">_</ept> to ensure you aren't charged once you have used up your credits.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This feature is useful for development teams exploring new solution architectures as it ensures you won't have an unexpectedly large bill at the end of the month.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Azure spending limits are not the same as Subscription, Service, or Resource Group limits and quotas.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Azure provides the Spending Limits feature to help prevent you from exhausting the credit on your account within each billing period.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>When your Azure usage results in charges that use all the included monthly credit, the services that you deployed are disabled and turned off for the rest of that billing period.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Once a new billing period starts, assuming there are credits available, the resources are re-activated and deployed.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You are notified by email when you hit the spending limit for your subscription.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In addition, the Azure portal includes notifications about your credit spend.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can adjust the spending limit as desired or even turn it off.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The spending limit feature is specific to subscriptions that include a  monthly Azure credit allotment.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>It is not available on pay-only subscriptions.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Use reserved instances</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If you have VM workloads that are static and predictable, particularly ones that run 24x7x365, using reserved instances is a fantastic way to potentially save up to 70-80%, depending on the VM size.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The following illustration shows that using Azure reserved instances saves you up to 72% and using reserved instance plus Azure Hybrid Benefit saves up to 80% in costs.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>An illustration showing cost benefits of using Azure reserved instances and Azure Hybrid Benefits compared to pay-as-you-go.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Reserved instances are purchased in one-year or three-year terms, with payment required for the full term up front.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>After it's purchased, Microsoft matches up the reservation to running instances and decrements the hours from your reservation.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Reservations can be purchased through the Azure portal.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>And because reserved instances are a compute discount, they are available for both Windows and Linux VMs.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Choose low-cost locations and regions</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The cost of Azure products, services, and resources can vary across locations and regions, and if possible, you should use them in those locations and regions where they cost less.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Some resources are metered and billed according to how much outgoing network bandwidth they consume (egress).</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You should provision connected resources that are bandwidth metered <bpt id="p1">_</bpt>in the same region<ept id="p1">_</ept> to reduce egress traffic between them.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Research available cost-saving offers</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Keep up-to-date with the latest Azure customer and subscription offers, and switch to offers that provide the most significant cost-saving benefit.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You can check the <bpt id="p1">[</bpt>Azure Updates page<ept id="p1">](https://azure.microsoft.com/updates/)</ept> for information about the latest updates to Azure products, services, and features, as well as product roadmaps and announcements.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Right-size underutilized virtual machines</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Recall from our previous discussion that Azure Cost Management and Azure Advisor might recommend right-sizing or shutting down VMs.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Right-sizing a virtual machine is the process of resizing it to a proper size.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Let's imagine you have a server running as a domain controller that is sized as a <bpt id="p1">**</bpt>Standard_D4sv3<ept id="p1">**</ept>, but your VM is sitting at 90% idle the vast majority of the time.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>By resizing this VM to a <bpt id="p1">**</bpt>Standard_D2sv3<ept id="p1">**</ept>, you reduce your compute cost by 50%.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Costs are linear and double for each size larger in the same series.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>In this case, you might even benefit from changing the instance series to go to a less expensive VM series.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The following illustration shows a 50% savings achieved by moving one size down within the same series.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>An illustration to demonstrate savings achieved by downsizing an under-utilized virtual machine.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Over-sized virtual machines are a common unnecessary expense on Azure and one that can be easily fixed.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>You can change the size of a VM through the Azure portal, Azure PowerShell, or the Azure CLI.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Resizing a VM requires it to be stopped, resized, and then restarted.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This may take a few minutes depending on how significant the size change is.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Plan for an outage, or shift your traffic to another instance while you perform this task.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Deallocate virtual machines in off hours</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If you have virtual machine workloads that are only used during certain periods, but you're running them every hour of every day, you're wasting money.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>These VMs are great candidates to shut down when not in use and start back up on a schedule, saving you compute costs while the VM is deallocated.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This approach is an excellent strategy for development environments.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>It's often the case that development may happen only during business hours, giving you the flexibility to deallocate these systems in the off hours and stopping your compute costs from accruing.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Azure now has an <bpt id="p1">[</bpt>automation solution<ept id="p1">](https://docs.microsoft.com/azure/automation/automation-solution-vm-management)</ept> fully available for you to leverage in your environment.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>You can also use the auto-shutdown feature on a virtual machine to schedule automated shutdowns.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Screenshot of the Azure portal showing the Auto-shutdown section of a virtual machine blade with a shutdown time enabled.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Delete unused virtual machines</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This advice may sound obvious, but if you aren't using a service, you should shut it down.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>It's not uncommon to find non-production or proof-of-concept systems left around following a project that is no longer needed.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Regularly review your environment and work to identify these systems.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Shutting down these systems can have a multifaceted benefit by saving you not only on infrastructure costs but also potential savings on licensing and operations.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Migrate to PaaS or SaaS services</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Lastly, as you move workloads to the cloud, a natural evolution is to start with infrastructure-as-a-service (IaaS) services and then move them to platform-as-a-service (PaaS) as appropriate, in an iterative process.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>PaaS services typically provide substantial savings in both resource and operational costs.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The challenge is that depending on the type of service, varying levels of effort will be required to move to these services from both a time and resource perspective.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>You might be able to move a SQL Server database to Azure SQL Database easily, but it might take substantially more effort to transfer your multi-tier application to a container or serverless-based architecture.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>It's a good practice to continuously evaluate the architecture of your applications to determine if there are efficiencies to be gained through PaaS services.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Azure makes it easy to test these services with little risk, giving you the ability to try out new architecture patterns relatively easily.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>That said, it's typically a longer journey and might not be of immediate help if you're looking for quick wins from a cost-savings perspective.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The Azure Architecture Center is a great place to get ideas for transforming your application, as well as best practices across a wide array of architectures and Azure services.</source>
+        </trans-unit></group></body></file></xliff>

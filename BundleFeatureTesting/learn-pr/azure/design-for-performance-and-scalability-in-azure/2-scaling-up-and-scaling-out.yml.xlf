@@ -1,0 +1,69 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-scaling-up-and-scaling-out.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-scaling-up-and-scaling-out.9d06f32f2e4ef5b83fa1fa6eb22008d953198a1a.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4eda7822ab8ad78cb78aa32397c72c21a4f743ab</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\design-for-performance-and-scalability-in-azure\2-scaling-up-and-scaling-out.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>Scaling up and scaling out</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>Scaling up and scaling out</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>In this unit we'll discuss how to leverage scaling up and scaling out in your architecture</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>Which is the most accurate description of scaling out?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>Increasing the amount of resources allocated to an instance</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>Increasing the amount of resources of a single instance is a description for scaling up</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>Increasing the number of instances serving requests</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>Scaling out increases the number of instances service requests.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>Adding additional storage to a virtual machine</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>Adding additional storage is not an example of scaling out.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>Reaching the maximum level of scale for your application</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>Reaching the maximum level of scale for your application can be addressed by scaling out, but is not an accurate description of scaling out.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>Which is the most accurate description of scaling down?</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>Decreasing the number of instances serving requests</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>Decreasing the number of instances serving requests is scaling in</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>Taking ownership of how your application scales</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>Taking ownership of how your application scales is not scaling down.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>Decreasing the amount of resources allocated to an instance</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>Scaling down is the reduction of resources that a single instance has available.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>Remaining below the maximum level of scale for your application</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>This is not a description of scaling down.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>Which of the following is NOT a consideration when building a scaling strategy into your application?</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>The backup retention policies for your instances</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>While it is important to define the backup retention policies, it is unrelated to the ability of your application to scale.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>State management of your application</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>State management is important to consider when building a scaling strategy.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>Scaling requires you to store user state outside of the individual instances to ensure the user experience is not broken as instances are added and removed.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>Startup time of your instances</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>Startup time is an important consideration in a scaling strategy.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>As the time to start an instance decreases, the quicker your application can react to increased demand.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>Automating the scaling of your instances based on a metric or schedule</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>Scaling automation is an important piece of a scaling strategy.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve" uid="learn.design-for-performance-and-scalability.2-scaling-up-and-scaling-out">
+          <source>As you automate your scaling capabilities you will have greater ability to handle fluctuations in user load without manual intervention or poor user experience.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,79 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-connectors-for-azure-logic-apps.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-connectors-for-azure-logic-apps.bef49328dd324bc3bdad6790ea499ebafa42d481.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2ad35b7864610d7c2d89e3919916dd3a872e57f7</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\logic-apps-and-custom-connectors\includes\2-connectors-for-azure-logic-apps.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>As the senior lead developer at a picture framing company, you have been asked to research  Logic Apps and the types of connectors provided.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You want to connect Logic Apps to use an in-house Web API that estimates framing prices.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Let's get started by learning about Logic Apps and their ability to monitor events and carry out actions.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>What are Logic Apps?</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Azure Logic Apps is a cloud service that you can use to integrate apps, systems, data, and services within your enterprise or across organizations.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>They help to simplify how you design and build scalable solutions in the cloud, on-premises, or both.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>What can you do with a Logic App?</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can use Logic Apps to connect and orchestrate multiple systems into a single workflow.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For example, a workflow can:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Send an email notification when an event occurs.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Move files to Azure Storage from servers in your organization.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Monitor social media activity, perform sentiment analysis, and create alerts when a post is critical to your business.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Connect to common business systems by using built-in connectors.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Connect to unusual or unique systems by using customer connectors that you create.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Logic Apps can do all of these things without the need to rebuild or redeploy code.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Operations in Logic Apps</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Connectors<ept id="p1">*</ept> in Logic Apps enables you to communicate with an external service.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Each connector has various operations available.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Operations that can initiate a workflow are called <bpt id="p1">*</bpt>Triggers<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Operations that perform some task are called <bpt id="p1">*</bpt>Actions<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Logic Apps triggers</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Triggers start a Logic Apps workflow.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For example, an HTTP trigger could start a workflow that uses an action to send an email, carry out operations on a data store, or post some content to a social media site.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>There are several categories of triggers, which reflect their usage in various scenarios:</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Polling triggers<ept id="p1">**</ept> call your service at a specified frequency to check for new data.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>When new data is available, it causes a new execution of your workflow.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Push triggers<ept id="p1">**</ept> listen for data on an endpoint and wait for an event to occur.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>When raised, the event causes a new run of your workflow instance.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Recurrence triggers<ept id="p1">**</ept> create and run an instance of your logic app based on a schedule.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Logic Apps connectors</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Logic Apps offers over 200 built-in connectors.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>They fall into various categories:</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Built in connectors<ept id="p1">**</ept> have actions and triggers that integrate with Azure Apps and Functions.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Managed connectors<ept id="p1">**</ept> have triggers and actions that call other services and systems.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>These connectors are organized into subcategories.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Managed API connectors<ept id="p1">**</ept> have actions and triggers that integrate with Azure Blob Storage, Office 365, Dynamics, Power BI, and more.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>On-premises connectors<ept id="p1">**</ept> have actions and triggers that integrate with on-premise installations of SQL Server, SharePoint Server, Oracle, and file shares.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Integration account connectors<ept id="p1">**</ept> transform and validate XML, encode and decode flat files, and process business-to-business (B2B) messages with AS2, EDIFACT, and X12 protocols.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Enterprise connectors<ept id="p1">**</ept> provide access to enterprise systems such as SAP, IBM Message Queue etc.</source>
+        </trans-unit></group></body></file></xliff>

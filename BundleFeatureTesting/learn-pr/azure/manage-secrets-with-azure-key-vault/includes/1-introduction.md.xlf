@@ -1,0 +1,41 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.f8598d84b84950c5b5b5e5ba15079fe20b0cbfd4.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0adde22caa8e26dfed375724638d4eb4af74d4a0</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\manage-secrets-with-azure-key-vault\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>If you want to understand what can go wrong with managing an application's configuration secrets, look no further than the story of Steve the senior developer.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Steve had been in his job at a pet food delivery company for a few weeks.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>He was exploring the details of the company's web app <ph id="ph1">&amp;mdash;</ph> a .NET Core web application that used an Azure SQL database for storing order information and third-party APIs for credit card billing and mapping customer addresses <ph id="ph2">&amp;mdash;</ph> when he accidentally pasted the connection string for the orders database into a public forum.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Days later, accounting noticed that the company was delivering a lot of pet food that nobody had paid for.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Someone had used the connection string to access the database, reverse-engineered the schema, and placed orders without going through the website.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>After realizing his mistake, Steve hurriedly changed the database password to lock out the attacker, breaking the website.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>He logged directly into the application server and changed the app configuration instead of redeploying, but the server was still showing failed requests.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Steve had forgotten that multiple instances of the app ran on different servers, and he had only changed the configuration for one.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>A full redeployment was needed, causing another 30 minutes of downtime.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Leaking a database connection string, API key, or service password can be catastrophic.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Stolen or deleted data, financial harm, application downtime, and irreparable damage to business assets and reputation are all potential results.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Unfortunately, secret values often need to be deployed in multiple places simultaneously and changed at inopportune times.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>And you have to store them <bpt id="p1">*</bpt>somewhere<ept id="p1">*</ept>!</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Let's see how we can make all of this secure with Azure KeyVault.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Explore what types of information can be stored in Azure Key Vault</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Create an Azure Key Vault and use it to store secret configuration values</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Enable secure access to the vault from an Azure App Service web app with managed identities for Azure resources</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Implement a web application that retrieves secrets from the vault</source>
+        </trans-unit></group></body></file></xliff>

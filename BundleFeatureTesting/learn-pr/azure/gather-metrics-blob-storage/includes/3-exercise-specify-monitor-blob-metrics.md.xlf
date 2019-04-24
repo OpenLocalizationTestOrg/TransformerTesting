@@ -1,0 +1,305 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-exercise-specify-monitor-blob-metrics.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-exercise-specify-monitor-blob-metrics.59142f4a534dc87262747d48f4251ac01671f969.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f1c9a1ae6fb706e43c0ed07062c54e9722b43a36</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\gather-metrics-blob-storage\includes\3-exercise-specify-monitor-blob-metrics.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>As a proof of concept exercise, you want to move some simple files into Azure Blob storage to see how the metrics are displayed in the Azure Portal.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You will create a new storage group with associated blob storage, then view the different metrics that appear.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Create a storage account in the Azure Portal</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Sign into the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept> using the same account with which you activated the sandbox.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In the Azure Portal, in the left-hand pane, click <bpt id="p1">**</bpt>Storage accounts<ept id="p1">**</ept>, then click <bpt id="p2">**</bpt>+ Add<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Create storage account<ept id="p1">**</ept> page, find the <bpt id="p2">**</bpt>PROJECT DETAILS<ept id="p2">**</ept> section:</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Verify that the <bpt id="p1">**</bpt>Subscription<ept id="p1">**</ept> is set to your concierge subscription.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Verify that the <bpt id="p1">**</bpt>Resource Group<ept id="p1">**</ept> is set to <ph id="ph1">&lt;rgn&gt;</ph>.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>INSTANCE DETAILS<ept id="p1">**</ept> section:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For the <bpt id="p1">**</bpt>Storage account name<ept id="p1">**</ept>, enter a unique name of between 3 and 24 characters consisting only of lower case letters and numbers; for example: <bpt id="p2">**</bpt>monitorstorageaccount<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For the <bpt id="p1">**</bpt>Location<ept id="p1">**</ept>, select a location close to you.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">**</bpt>Performance<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Standard<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For the <bpt id="p1">**</bpt>Account kind<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>StorageV2<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">**</bpt>Replication<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Locally-redundant storage<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For the <bpt id="p1">**</bpt>Access tier<ept id="p1">**</ept>, ensure that <bpt id="p2">**</bpt>Hot<ept id="p2">**</ept> is selected.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Next: Advanced<ept id="p1">**</ept> button and review the options.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Next: Tags<ept id="p1">**</ept> and note the options.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Next: Review + create<ept id="p1">**</ept>, then click <bpt id="p2">**</bpt>Create<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Your deployment is complete<ept id="p1">**</ept> page, click <bpt id="p2">**</bpt>Go to resource<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>View the properties of the storage account</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In the Overview page, you can see information about the Storage account, including:</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Resource group name</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Status</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Location</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Subscription</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Performance/Access Tier</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Replication</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Account kind</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Notice that you can change the storage account to another resource group.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Add a blob container</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Before you can add blobs to a Storage Account, you need to create a blob container.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To add a blob container, under <bpt id="p1">**</bpt>Blob service<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>Blobs<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>In the Blobs blade, click <bpt id="p1">**</bpt>+ Container<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> field, enter <bpt id="p2">**</bpt>monitor-blobs-container<ept id="p2">**</ept>, then click <bpt id="p3">**</bpt>OK<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>When you click on your new container, notice the <bpt id="p1">**</bpt>No blobs found<ept id="p1">**</ept> status message.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You are now ready to upload files to the blob container.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Upload Files to the Blob Container</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To upload a single file to the blob container, click <bpt id="p1">**</bpt>Upload<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Upload blob<ept id="p1">**</ept> blade, click the folder icon.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Open<ept id="p1">**</ept> dialog box, select a small text file from your local file system and click <bpt id="p2">**</bpt>Open<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Advanced<ept id="p1">**</ept> to view the advanced upload blob options.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Blob type<ept id="p1">**</ept>, and in the drop-down list, note the options for: <bpt id="p2">**</bpt>Block blob<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Page blob<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Append blob<ept id="p4">**</ept>.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Ensure that <bpt id="p1">**</bpt>Block blob<ept id="p1">**</ept> is selected.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Block size<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>64 KB<ept id="p2">**</ept>, then click <bpt id="p3">**</bpt>Upload<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Note when the file upload has completed.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To upload multiple files to the blob container, click <bpt id="p1">**</bpt>Upload<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Upload blob<ept id="p1">**</ept> blade, click the folder icon.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Open<ept id="p1">**</ept> dialog box, select several graphics files from your local file system and click <bpt id="p2">**</bpt>Open<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Ensure that you have at least 50 MB of files selected.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Advanced<ept id="p1">**</ept> to view the advanced upload blob options.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Ensure that <bpt id="p1">**</bpt>Block blob<ept id="p1">**</ept> is selected.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Block size<ept id="p1">**</ept>, select a file size that is slightly larger than the largest file you are uploading, then click <bpt id="p2">**</bpt>Upload<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Note when the file uploads have completed.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Page blobs are typically for very large files, such as virtual machine disk images (VHDs) and the only block size available is 4 MB.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Append blobs are optimized for append operations (such as log file updates).</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Check size</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You can simply check the size of the data stored in a container and the number and type of blobs by carrying out the following steps:</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>monitor-blobs-container<ept id="p1">**</ept> container, click <bpt id="p2">**</bpt>Properties<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Properties<ept id="p1">**</ept> blade, click <bpt id="p2">**</bpt>Calculate size<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The size and number of blobs will now appear.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Creating a Capacity Metrics Chart</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Next, you will view the metrics that the storage account generates.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>To do this, carry out the following steps:</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>In the left-hand pane, click <bpt id="p1">**</bpt>Storage accounts<ept id="p1">**</ept>, and then in the <bpt id="p2">**</bpt>Storage accounts<ept id="p2">**</ept> pane, click the name of the storage account you created.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Scroll down the middle pane to the <bpt id="p1">**</bpt>Monitoring<ept id="p1">**</ept> section, then click <bpt id="p2">**</bpt>Metrics<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>+ New Chart<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Next to <bpt id="p1">**</bpt>Chart Title<ept id="p1">**</ept>, click the pen icon.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Type in <bpt id="p1">**</bpt>Capacity Chart<ept id="p1">**</ept> as the name for your chart.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Add several metrics to your chart:</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Add metric<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>RESOURCE<ept id="p1">**</ept>, click the name of the storage account you created .</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Underneath appears the Subscription name, the name of the Resource Group, and the Resource Type.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Note that all resource types are selected by default.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>METRIC NAMESPACE<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Blob<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>METRIC<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>Blob Capacity<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>AGGREGATION<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>Avg<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Repeat the previous six steps to add <bpt id="p1">**</bpt>Blob Container Count<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Blob Count<ept id="p2">**</ept> to the chart.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Note at the bottom of the chart that you now have a color bar and a count for the current value of the counter.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>It is highly likely that the counter will initially be zero for all the Capacity metrics, as the values have not been aggregated.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Creating a Transaction Metrics Chart</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Transaction metrics are updated hourly, so you should relatively quickly be able to see changes in these values.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>To create a transaction metrics chart, carry out the following steps.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>+ New Chart<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Next to <bpt id="p1">**</bpt>Chart Title<ept id="p1">**</ept>, click the pen icon.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Type in <bpt id="p1">**</bpt>Transaction Chart<ept id="p1">**</ept> as the name for your chart.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Add metric<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>RESOURCE<ept id="p1">**</ept>, click the name of the storage account you created .</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>METRIC NAMESPACE<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Blob<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>METRIC<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>Availability<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>AGGREGATION<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>Avg<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>View the resulting chart.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>It should show just one line set at 100%.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Change the <bpt id="p1">**</bpt>AGGREGATION<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Min<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Again, it is unlikely that there will have been an Azure outage during the time, so the line should stay at 100%.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>This information generally doesn't change very much.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Click the X to the end of the right of the monitor elipse to close it.</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Add metric<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Both the <bpt id="p1">**</bpt>RESOURCE<ept id="p1">**</ept> and <bpt id="p2">**</bpt>METRIC NAMESPACE<ept id="p2">**</ept> values should already be selected.</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>METRIC<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>Egress<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>AGGREGATION<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>Avg<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Max<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Min<ept id="p4">**</ept>.</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Note how the data shapes change with each value.</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Finally, select <bpt id="p1">**</bpt>Sum<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>You should have a single spike at the time when you imported the files.</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Splitting a Metric</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Splitting a chart enables you to view additional dimensions in the data, depending on the type of metric that you are viewing.</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>To split a metric, carry out the following steps:</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Apply splitting<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>SPLITTING<ept id="p1">**</ept> oval, click the drop-down list, then click <bpt id="p2">**</bpt>API name<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>View the output in the chart window.</source>
+        </trans-unit><trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>you should now have the following splits of the monitoring data:</source>
+        </trans-unit><trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>ListBlobs - note this value</source>
+        </trans-unit><trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>BlobPreflightRequest</source>
+        </trans-unit><trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>PutBlockList</source>
+        </trans-unit><trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>PutBlock</source>
+        </trans-unit><trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>ListContainers</source>
+        </trans-unit><trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>GetBlobproperties</source>
+        </trans-unit><trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Click the X to the right of the <bpt id="p1">**</bpt>SPLITTING<ept id="p1">**</ept> oval.</source>
+        </trans-unit><trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Adding a Filter</source>
+        </trans-unit><trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Filtering also enables you to look at the metrics with greater granularity.</source>
+        </trans-unit><trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>To apply a filter, carry out the following steps:</source>
+        </trans-unit><trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Add filter<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>PROPERTY<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>API name<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>VALUES<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>ListBlobs<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Note the data values and compare those with the <bpt id="p1">**</bpt>ListBlobs<ept id="p1">**</ept> value from the splitting exercise.</source>
+        </trans-unit><trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Click the X to the right of the filter oval to remove the filter.</source>
+        </trans-unit><trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Customizing charts</source>
+        </trans-unit><trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>You can customize charts in various ways, such as by changing the time range, time granularity, and time zone.</source>
+        </trans-unit><trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>To make these changes, carry out the following steps.</source>
+        </trans-unit><trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>At the top of the chart, it says <bpt id="p1">**</bpt>Last 24 hours (automatic)<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Click this oval and the Time range and Time granularity dialog box appears.</source>
+        </trans-unit><trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Time range<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>Last 4 hours<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Note the ability to change from Local to UTC/GMT time as needed.</source>
+        </trans-unit><trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Time granularity<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>5 minutes<ept id="p2">**</ept>, then click <bpt id="p3">**</bpt>Apply<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Viewing data in other Formats</source>
+        </trans-unit><trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Metric data can be viewed in other formats, including Line charts, bar charts, area charts, and scatter charts.</source>
+        </trans-unit><trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>To change the view of the data, carry out the following steps:</source>
+        </trans-unit><trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Using the metrics defined in the previous section, click <bpt id="p1">**</bpt>Line Chart<ept id="p1">**</ept>, and select <bpt id="p2">**</bpt>Area Chart<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Note the change in the display of the data.</source>
+        </trans-unit><trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Area Chart<ept id="p1">**</ept>, and select <bpt id="p2">**</bpt>Scatter Chart<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Note that with the low levels of storage activity, the scatter chart will only show the peaks of activity.</source>
+        </trans-unit><trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Click the ellipsis next to <bpt id="p1">**</bpt>Pin to dashboard<ept id="p1">**</ept> and click <bpt id="p2">**</bpt>Chart Settings<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Chart Title<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>Custom<ept id="p2">**</ept>, then enter a more descriptive name for the chart.</source>
+        </trans-unit><trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Looking at the data you have displayed, under <bpt id="p1">**</bpt>Min value<ept id="p1">**</ept>, enter a value in bytes that is lower than the lowest data point you have.</source>
+        </trans-unit><trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Max value<ept id="p1">**</ept>, enter a value in bytes that is slightly higher than the highest data point that you have.</source>
+        </trans-unit><trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Your data should now fill the entire chart.</source>
+        </trans-unit><trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Click the different chart types and notice the change in the data display.</source>
+        </trans-unit><trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Click the X to close the <bpt id="p1">**</bpt>Chart settings<ept id="p1">**</ept> blade.</source>
+        </trans-unit><trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Export a Chart to Excel</source>
+        </trans-unit><trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Exporting a chart to Excel gives you all the data analysis tools of that platform.To export a chart to Excel, carry out the following steps:</source>
+        </trans-unit><trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Export to Excel<ept id="p1">**</ept> button.</source>
+        </trans-unit><trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Open the Excel spreadsheet that gets downloaded.</source>
+        </trans-unit><trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>View the data that the chart contains.</source>
+        </trans-unit></group></body></file></xliff>

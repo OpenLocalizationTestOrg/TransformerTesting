@@ -1,0 +1,161 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-decide-if-you-want-use-redis-in-azure.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-decide-if-you-want-use-redis-in-azure.8f4ac91970b1b4e59928d29b5f759ce383f7e547.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8efd801ea354bc3679ab53ae7a428df1d7aace69</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\optimize-your-web-apps-with-redis\includes\2-decide-if-you-want-use-redis-in-azure.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Behind your sports website is a database, which returns data by executing queries.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>However, performance slows down when the load is high, particularly during large sporting events.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In hosted environments, increased resource usage translates into higher costs.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Caching data ensures your website will perform well and run economically.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>What is caching?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Caching is the act of storing frequently-accessed data in memory that is very close to the application that consumes the data.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Caching is used to increase performance and reduce the load on your servers.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>We use Redis to create an in-memory cache that can provide excellent latency and potentially improve performance.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>What is a Redis cache?</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Redis (<bpt id="p1">**</bpt>RE<ept id="p1">**</ept>mote <bpt id="p2">**</bpt>DI<ept id="p2">**</ept>ctionary <bpt id="p3">**</bpt>S<ept id="p3">**</ept>erver) cache is an open-source, in-memory key value pair store.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>It's popular because it's fast and can store and manipulate common data types such as strings, hashes, and sets.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>It's also considered developer friendly as it supports multiple languages such as Python, C, C++, C#, Java, and JavaScript among others.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>What is Azure Cache for Redis?</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Azure Cache for Redis is based on the popular open-source Redis cache.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>It gives you access to a secure, dedicated Redis cache, managed by Microsoft.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A cache created using Azure Cache for Redis is accessible from any application within Azure.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Azure Cache for Redis is typically used to improve the performance of systems that rely heavily on back-end data stores.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Your cached data is located in-memory on an Azure server running the Redis cache as opposed to being loaded from disk by a database.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Your cache is also highly scalable.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can alter the size and pricing tier at any time.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>What type of data can be stored in the cache?</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Redis supports a variety of data types all oriented around <bpt id="p1">_</bpt>binary safe<ept id="p1">_</ept> strings.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This means that you can use any binary sequence for a value, from a string like "i-love-rocky-road" to the contents of an image file.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>An empty string is also a valid value.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Binary-safe strings (most common)</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Lists of strings</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Unordered sets of strings</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Hashes</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Sorted sets of strings</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Maps of strings</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Each data value is associated to a <bpt id="p1">_</bpt>key<ept id="p1">_</ept> which can be used to lookup the value from the cache.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Redis works best with smaller values (100k or less), so consider chopping up bigger data into multiple keys.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Storing larger values is possible (up to 500 MB), but increases network latency and can cause caching and out-of-memory issues if the cache isn't configured to expire old values.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>What is a Redis key?</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Redis keys are also binary safe strings.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Here are some guidelines for choosing keys:</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Avoid long keys.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>They take up more memory and require longer lookup times because they have to be compared byte-by-byte.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If you want to use a binary blob as the key, generate a unique hash and use that as the key instead.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The maximum size of a key is 512 MB, but you should <bpt id="p1">_</bpt>never<ept id="p1">_</ept> use a key that size.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Use keys which can identify the data.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For example, "sport:football;date:2008-02-02" would be a better key than "fb:8-2-2".</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The former is more readable and the extra size is negligible.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Find the balance between size and readability.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Use a convention.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A good one is "object:id", as in "sport:football".</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>How is data stored in a Redis cache?</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Data in Redis is stored in <bpt id="p1">_</bpt><bpt id="p2">**</bpt>nodes<ept id="p2">**</ept><ept id="p1">_</ept> and <bpt id="p3">_</bpt><bpt id="p4">**</bpt>clusters<ept id="p4">**</ept><ept id="p3">_</ept>.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Nodes<ept id="p1">**</ept> are a space in Redis where your data is stored.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Clusters<ept id="p1">**</ept> are sets of three or more nodes your dataset is split across.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Clusters are useful because your operations will continue if a node fails or is unable to communicate to the rest of the cluster.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>What are Redis caching architectures?</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Redis caching architecture is how we distribute our data in the cache.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Redis distributes data in three major ways:</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Single node<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Multiple node<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Clustered<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Redis caching architectures are split across Azure by tiers:</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Basic cache</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>A basic cache provides you with a <bpt id="p1">_</bpt><bpt id="p2">**</bpt>single node<ept id="p2">**</ept><ept id="p1">_</ept> Redis cache.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The complete dataset will be stored in a single node.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This tier is ideal for development, testing, and non-critical workloads.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Standard cache</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The standard cache creates <bpt id="p1">_</bpt><bpt id="p2">**</bpt>multiple node<ept id="p2">**</ept><ept id="p1">_</ept> architectures.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Redis replicates a cache in a two-node primary/secondary configuration.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Azure manages the replication between the two nodes.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This is a production-ready cache with master/slave replication.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Premium tier</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The premium tier includes the features of the standard tier but adds the ability to persist data, take snapshots, and back up data.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>With this tier, you can create a Redis cluster that shards data across multiple Redis nodes to increase available memory.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The premium tier also supports an Azure Virtual Network to give you complete control over your connections, subnets, IP addressing, and network isolation.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>This tier also includes geo-replication, so you can ensure your data is close to the app that's consuming it.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>A database is great for storing large amounts of data, but there is an inherent latency when looking up data.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>You send a query.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The server interprets the query, looks up the data, and returns it.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Servers also have capacity limits for handling requests.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>If too many requests are made, data retrieval will likely slow down.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Caching will store frequently requested data in memory that can be returned faster than querying a database, which should lower latency and increase performance.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Azure Cache for Redis gives you access to a secure, dedicated, and scalable Redis cache, hosted in Azure, and managed by Microsoft.</source>
+        </trans-unit></group></body></file></xliff>

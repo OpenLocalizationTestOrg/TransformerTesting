@@ -1,0 +1,129 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-create-an-account.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-create-an-account.e7bd1e0ddd9f5a87340cd2628e1847e264195c3e.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a386d24fadbdd8867414127004446c2cac64cda6</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-cosmos-db-for-scale\includes\2-create-an-account.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Your company has chosen Azure Cosmos DB to meet the demands of their expanding customer and product base.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You have been tasked with creating the database.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The first step is to create an Azure Cosmos DB account.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>What is an Azure Cosmos DB account?</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>An Azure Cosmos DB account is an Azure resource that acts as an organizational entity for your databases.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>It connects your usage to your Azure subscription for billing purposes.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Each Azure Cosmos DB account is associated with one of the several data models Azure Cosmos DB supports, and you can create as many accounts as you need.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>SQL API is the preferred data model if you are creating a new application.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If you're working with graphs or tables, or migrating your MongoDB or Cassandra data to Azure, create additional accounts and select relevant data models.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>When creating an account, choose an ID that is meaningful to you; it is how you identify your account.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Further, create the account in the Azure region that's closest to your users to minimize latency between the datacenter and your users.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can optionally set up virtual networks and geo-redundancy during account creation, but this can also be done later.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In this module we will not enable those settings.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Creating an Azure Cosmos DB account in the portal</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Sign into the <bpt id="p1">[</bpt>Azure portal for sandbox<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept> using the same account you activated the sandbox with.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Login to the Azure portal using the link above to ensure you are connected to the sandbox, which provides access to a Concierge Subscription.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Create a resource<ept id="p1">**</ept><ph id="ph1"> &gt; </ph><bpt id="p2">**</bpt>Databases<ept id="p2">**</ept><ph id="ph2"> &gt; </ph><bpt id="p3">**</bpt>Azure Cosmos DB<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The Azure portal Databases pane</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Create Azure Cosmos DB Account<ept id="p1">**</ept> page, enter the settings for the new Azure Cosmos DB account, including the location.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Setting</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Value</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Subscription</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Concierge Subscription<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Select the Concierge Subscription.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If you do not see the Concierge Subscription listed, you have multiple tenants enabled on your subscription, and you need to change tenants.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To do so, login again using the following portal link: <bpt id="p1">[</bpt>Azure portal for sandbox<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept>.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Resource Group</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Use existing</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">&lt;rgn&gt;</bpt>[sandbox resource group name]<ept id="p2">&lt;/rgn&gt;</ept><ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Here you would either create a new resource group, or select an existing one in your subscription.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Account Name</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Enter a unique name<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Enter a unique name to identify this Azure Cosmos DB account.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Because <bpt id="p1">*</bpt>documents.azure.com<ept id="p1">*</ept> is appended to the ID that you provide to create your URI, use a unique but identifiable ID.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The ID can contain only lowercase letters, numbers, and the hyphen (-) character, and it must contain 3 to 31 characters.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>API</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>SQL</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The API determines the type of account to create.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Azure Cosmos DB provides five APIs to suit the needs of your application: SQL (document database), Gremlin (graph database), MongoDB (document database), Azure Table, and Cassandra, each of which currently requires a separate account.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Core (SQL)<ept id="p1">**</ept> because in this module you are creating a document database that is queryable using SQL syntax and accessible with the SQL API.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Location</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Select the region closest to you from the list above<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Select the location where the database should be located.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Geo-Redundancy</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Disable</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This setting creates a replicated version of your database in a second (paired) region.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Leave this set to disabled for now, as the database can be replicated later.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Multi-region Writes</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Enable</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This setting enables you to write to multiple regions at the same time.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Review + Create<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The new account page for Azure Cosmos DB</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>After the settings are validated, click <bpt id="p1">**</bpt>Create<ept id="p1">**</ept> to create the account.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The account creation takes a few minutes.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Wait for the portal to display the notification that the deployment succeeded and click the notification.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Notification alert</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>In the notification window, click <bpt id="p1">**</bpt>Go to resource<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Go to resource</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The portal displays the <bpt id="p1">**</bpt>Congratulations! Your Azure Cosmos DB account was created<ept id="p1">**</ept> page.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The Azure portal Notifications pane</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>You have created an Azure Cosmos DB account, which is the first step in creating an Azure Cosmos DB database.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>You selected appropriate settings for your data types and set the account location to minimize latency for your users.</source>
+        </trans-unit></group></body></file></xliff>

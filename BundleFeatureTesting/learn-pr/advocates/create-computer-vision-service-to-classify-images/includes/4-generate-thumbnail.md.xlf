@@ -1,0 +1,87 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-generate-thumbnail.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-generate-thumbnail.d7ecfdaadd86500771259f4588ccf7b954b1df99.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1591fb93102d8aee008a0ff39102177dddac90b5</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\create-computer-vision-service-to-classify-images\includes\4-generate-thumbnail.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Frontline distributors of your products scan and upload images of store shelves they're restocking.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>As a lead developer at your company, you are responsible for creating thumbnails of the images.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The thumbnails are used in the online reports you create for the sales team.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Recently, the sales manager said that the images in the report are blurry and often don't have the product front and center, making it difficult to scan the large report.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>It's up to you to improve the situation.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You decide to try the thumbnail generation feature of the Computer Vision API.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Perhaps it can do a better job than the resizing function you wrote.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Computer Vision first generates a high-quality thumbnail and then analyzes the objects within the image to determine the region of interest (ROI).</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Computer Vision then crops the image to fit the requirements of the region of interest.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The generated thumbnail can be presented using an aspect ratio that is different from the aspect ratio of the original image, depending on your needs.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Let's see it in action.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Calling the Computer Vision API to generate a thumbnail</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`generateThumbnail`</ph> operation creates a thumbnail image with the user-specified width and height.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>By default, the service analyzes the image, identifies the region of interest (ROI), and generates smart cropping coordinates based on the ROI.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Smart cropping helps when you specify an aspect ratio that differs from aspect ratio of the input image.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The request URL has the following format:</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Different parameters can be provided to the API to generate the proper thumbnail for your needs.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`width`</ph> and <ph id="ph2">`height`</ph> parameters are required.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>They tell the API which size you need for a specific image.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`smartCropping`</ph> parameter generates smarter cropping by analyzing the region of interest in your image to keep it within the thumbnail.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>As an example, with smart cropping enabled, a cropped profile picture would keep someone's face within the picture frame even when the picture has a different aspect ratio.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Generate a thumbnail</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>We'll use the following image in this example, but you're free to try the same command with URLs to other images.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Picture of a cute white dog sitting in green grass.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Execute the following commands in Azure Cloud Shell.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Replace <ph id="ph1">`&lt;region&gt;`</ph> in the command with the region of your cognitive services account</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In this example, we ask the service to create a thumbnail that is 100x100.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Smart cropping is enabled.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A successful response contains the thumbnail image binary, which we write to a file called thumbnail.jpg.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`-o`</ph> parameter redirects the output to a file.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The file is always overwritten, so if you want to keep around  more than one thumbnail while trying this command, change the file name.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>View the generated thumbnail</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The generated thumbnail will be found in your Azure Cloud Shell storage account.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>We named the file <bpt id="p1">**</bpt>thumbnail.jpg<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The Cloud Shell in Microsoft Learn doesn't have the ability to download files, but you can follow these instructions to download the thumbnail through the Azure portal.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Execute the following commands in Azure Cloud Shell to confirm that the file <bpt id="p1">**</bpt>thumbnail.jpg<ept id="p1">**</ept> exists in your home folder.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Execute the following command to move <ph id="ph1">`thumbnail.jpg`</ph> into the clouddrive folder.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Sign into the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept> using the same account you activated the sandbox with.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept> panel of the portal dashboard, select the storage account with name beginning with <ph id="ph1">`cloudshell`</ph>.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>In the Storage account panel, select <bpt id="p1">**</bpt>Storage Explorer<ept id="p1">**</ept>, then <bpt id="p2">**</bpt>FILE SHARES<ept id="p2">**</ept> and then the file share in that collection with the name beginning with <bpt id="p3">**</bpt>cloudshellfiles<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">*</bpt>thunbnail.jpg<ept id="p1">*</ept> file and then <bpt id="p2">**</bpt>Download<ept id="p2">**</ept> from the top menu to see the image.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`generateThumbnail`</ph> operation is a powerful thumbnail generator that is capable of keeping the Region Of Interest (ROI) of an image in the thumbnail.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For more information about the <ph id="ph1">`generateThumbnails`</ph> operation, see the <bpt id="p1">[</bpt>Get Thumbnail<ept id="p1">](https://westus.dev.cognitive.microsoft.com/docs/services/5adf991815e1060e6355ad44/operations/56f91f2e778daf14a499e1fb)</ept> reference documentation.</source>
+        </trans-unit></group></body></file></xliff>

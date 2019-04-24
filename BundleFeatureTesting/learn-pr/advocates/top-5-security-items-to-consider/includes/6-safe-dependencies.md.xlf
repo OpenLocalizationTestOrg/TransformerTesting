@@ -1,0 +1,81 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-safe-dependencies.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-safe-dependencies.8b4d09242bad96794c59d85812e3dedecc16b86c.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a64caaac1803f5a504e0329a2c3e467ba9e76da0</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\top-5-security-items-to-consider\includes\6-safe-dependencies.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>A large percentage of code present in modern applications are the libraries and dependencies chosen by you: the developer.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This is a common practice that saves time and money.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>However, the downside is that you are now responsible for this code, even though others wrote it, because you used it in your project.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If a researcher (or worse, a hacker) discovers a vulnerability in one of these 3rd party libraries, then the same flaw will likely also be present in your app.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Using components with known vulnerabilities is a huge problem in our industry.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>It is so problematic that is has made the <bpt id="p1">[</bpt>OWASP top ten list<ept id="p1">](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)</ept> of worst web application vulnerabilities, holding at #9 for several years.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Track known security vulnerabilities</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The problem we have is knowing when an issue is discovered.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Keeping our libraries and dependencies updated (#4 in our list!) will of course help, but it's a good idea to keep track of identified vulnerabilities that might impact your application.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>When a system has a known vulnerability, it is much more likely also to have exploits available, code that people can use to attack those systems.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If an exploit is made public, it is crucial that any affected systems are updated immediately.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Mitre<ept id="p1">**</ept> is a non-profit organization that maintains the <bpt id="p2">[</bpt>Common Vulnerabilities and Exposures list<ept id="p2">](https://cve.mitre.org)</ept>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This list is a publicly searchable set of known cybersecurity vulnerabilities in apps, libraries, and frameworks.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>If you find a library or component in the CVE database, it has known vulnerabilities<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Issues are submitted by the security community when a security flaw is found in a product or component.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Each published issue is assigned an ID and contains the date discovered, a description of the vulnerability, and references to published workarounds or vendor statements about the issue.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>How to verify if you have known vulnerabilities in your 3rd party components</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You could put a daily task into your phone to go and check this list, but luckily for us, many tools exist to allow us to verify if our dependencies are vulnerable.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can run these tools against your codebase, or better yet, add them to your CI/CD pipeline to automatically check for issues as part of the development process.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>OWASP Dependency Check<ept id="p1">](https://www.owasp.org/index.php/OWASP_Dependency_Check)</ept>, which has a <bpt id="p2">[</bpt>Jenkins plugin<ept id="p2">](https://wiki.jenkins.io/display/JENKINS/OWASP+Dependency-Check+Plugin)</ept></source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>OWASP SonarQube<ept id="p1">](https://www.owasp.org/index.php/OWASP_SonarQube_Project)</ept></source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Snyk<ept id="p1">](https://snyk.io)</ept>, which is free for open source repositories in GitHub</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Black Duck<ept id="p1">](https://www.blackducksoftware.com)</ept> which is used by many enterprises</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>RubySec<ept id="p1">](https://rubysec.com)</ept> an advisory database just for Ruby</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Retire.js<ept id="p1">](https://github.com/retirejs/retire.js/)</ept> a tool for verifying if your JavaScript libraries are out of date; can be used as a plugin for various tools, including <bpt id="p2">[</bpt>Burp Suite<ept id="p2">](https://www.portswigger.net)</ept></source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Some tools made specifically for static code analysis can be used for this as well.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Roslyn Security Guard<ept id="p1">](https://dotnet-security-guard.github.io)</ept></source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Puma Scan<ept id="p1">](https://pumascan.com)</ept></source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>PT Application Inspector<ept id="p1">](https://www.ptsecurity.com/ww-en/products/ai/)</ept></source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Apache Maven Dependency Plugin<ept id="p1">](https://maven.apache.org/plugins/maven-dependency-plugin/)</ept></source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Source Clear<ept id="p1">](https://www.sourceclear.com)</ept></source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Sonatype<ept id="p1">](https://ossindex.sonatype.org)</ept></source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Node Security Platform<ept id="p1">](https://nodesecurity.io)</ept></source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>WhiteSource<ept id="p1">](https://www.whitesourcesoftware.com/what-is-whitesource/)</ept></source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Hdiv<ept id="p1">](https://hdivsecurity.com)</ept></source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>And many more...<ept id="p1">](https://www.owasp.org/index.php/Source_Code_Analysis_Tools)</ept></source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>For more information on the risks involved in using vulnerable components visit the <bpt id="p1">[</bpt>OWASP page<ept id="p1">](https://www.owasp.org/index.php/Top_10-2017_A9-Using_Components_with_Known_Vulnerabilities)</ept> dedicated to this topic.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>When you use libraries or other 3rd party components as part of your application you are also taking on any risks they may have.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The best way to reduce this risk is to ensure that you are only using components that have no known vulnerabilities associated with them.</source>
+        </trans-unit></group></body></file></xliff>

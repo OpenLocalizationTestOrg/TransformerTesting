@@ -1,0 +1,91 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-windows-dsvms.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-windows-dsvms.9fa14a546c20c2b7ad515f1800e83d49816bc145.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">09e7accf74545bde5a885f5cc6c1aceea351e742</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\explore-azure-dsvm-types\includes\2-windows-dsvms.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The tools installed on the Windows-based DSVM include the most popular data science software, frameworks, and tools to support integration of Azure services.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You can use the Windows-based DSVM to jump-start your data science projects.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>There are no software charges for the DSVM image.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You pay only the Azure usage fees, and those depend on the size of the virtual machine you provision.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Features of the Windows Data Science Virtual Machine</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The Windows-based DSVM includes some features that are not available on the Linux-based DSVM.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Tutorials available for training purposes.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Support for Microsoft Office.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>SQL Server integrated with Machine Learning Services to support Python/R execution with SQL Server.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In addition, the Windows-based DSVM includes several preinstalled programming languages, including R, Python, SQL, and C#.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can develop, test, and run your code with Microsoft Visual Studio, or Visual Studio Code.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The DSVM also comes with several other development and data access tools:</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Azure SDK to integrate Microsoft Azure cloud services into your apps</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Power BI Desktop</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Azure PowerShell</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>AzCopy</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Azure Data Lake Storage</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Migration tools for various databases (DocumentDB, Cosmos DB, etc.)</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Data Management Gateway</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Data science tools</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The Windows DSVM has many preconfigured data science tools for data visualization, model training, deployment, and more.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Some of these tools are:</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Azure Machine Learning SDK for Python</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Anaconda Python distribution</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Jupyter Notebook with R, Python, and Apache Spark Python (PySpark) kernels</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Microsoft Visual Studio Community</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Microsoft Power BI Desktop</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Microsoft SQL Server + Microsoft Machine Learning Services</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Apache Spark instance for local development and testing</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Julia Pro by Julia Computing</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Python/R</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Git</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Machine Learning tools</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Available Machine Learning and Deep learning tools include:</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Azure Cognitive Services support</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>H2O - Open-source AI platform that supports in-memory, distributed, fast, and scalable ML.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>TensorFlow - Python based deep learning framework.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Chainer - Python based deep learning framework.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Apache MXNet - Deep learning framework with support for multiple languages including C++, Python, R, and Perl.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Keras - High-level neural networks API, written in Python.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Vowpal Wabbit ("VW") - open-source, fast, out-of-core learning system library.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>XGBoost - distributed gradient boosting (GBDT, GBRT, or GBM) library for Python, R, Java, Scala.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Rattle - graphical user interface for data mining by using R.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Weka - a collection of Java-based ML algorithms for data mining tasks.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Apache Drill - an open source SQL query engine for big data; allows data exploration without export.</source>
+        </trans-unit></group></body></file></xliff>

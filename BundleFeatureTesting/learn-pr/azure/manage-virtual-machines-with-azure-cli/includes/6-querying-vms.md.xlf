@@ -1,0 +1,97 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-querying-vms.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-querying-vms.1d543335a39f40cdda52c7e196d25ccba470ed85.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1ce3522097d290a0c12a18b9aac172dee9940377</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\manage-virtual-machines-with-azure-cli\includes\6-querying-vms.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Now that a virtual machine has been created, we can get information about it through other commands.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Let's start with <ph id="ph1">`vm list`</ph>.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This command will return <bpt id="p1">_</bpt>all<ept id="p1">_</ept> virtual machines defined in this subscription.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The output can be filtered to a specific resource group through the <ph id="ph1">`--resource-group`</ph> parameter.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Output types</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Notice that the default response type for all the commands we've done so far is JSON.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This is great for scripting - but most people find it harder to read.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can change the output style for any response through the <ph id="ph1">`--output`</ph> flag.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For example, try the following command in Azure Cloud Shell to see the different output style.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Along with <ph id="ph1">`table`</ph>, you can specify <ph id="ph2">`json`</ph> (the default), <ph id="ph3">`jsonc`</ph> (colorized JSON), or <ph id="ph4">`tsv`</ph> (Table-Separated Values).</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Try a few variations with the above command to see the difference.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Getting the IP address</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Another useful command is <ph id="ph1">`vm list-ip-addresses`</ph>, which will list the public and private IP addresses for a VM.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If they change, or you didn't capture them during creation, you can retrieve them at any time.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This returns:</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Notice that we are using a shorthand syntax for the <ph id="ph1">`--output`</ph> flag as <ph id="ph2">`-o`</ph>.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Most parameters to Azure CLI commands can be shortened to a single dash and letter.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For example, <ph id="ph1">`--name`</ph> can be shortened to <ph id="ph2">`-n`</ph> and <ph id="ph3">`--resource-group`</ph> to <ph id="ph4">`-g`</ph>.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This is handy for typing, but we recommend using the full option name in scripts for clarity.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Check the documentation for details on each command.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Getting VM details</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>We can get more detailed information about a specific virtual machine by name or ID using the <ph id="ph1">`vm show`</ph> command.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This will return a fairly large JSON block with all sorts of information about the VM, including attached storage devices, network interfaces, and all of the object IDs for resources that the VM is connected to.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Again, we could change to a table format, but that omits almost all of the interesting data.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Instead, we can turn to a built-in query language for JSON called <bpt id="p1">[</bpt>JMESPath<ept id="p1">](http://jmespath.org/)</ept>.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Adding filters to queries with JMESPath</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>JMESPath is an industry-standard query language built around JSON objects.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The simplest query is to specify an <bpt id="p1">_</bpt>identifier<ept id="p1">_</ept> that selects a key in the JSON object.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For example, given the object:</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>We can use the query <ph id="ph1">`people`</ph> to return the array of values for the <ph id="ph2">`people`</ph> array.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If we just want <bpt id="p1">_</bpt>one<ept id="p1">_</ept> of the people, we can use an indexer.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For example, <ph id="ph1">`people[1]`</ph> would return:</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>We can also add specific qualifiers that would return a subset of the objects based on some criteria.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For example, adding the qualifier <ph id="ph1">`people[?age &gt; '25']`</ph> would return:</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Finally, we can constrain the results by adding a select: <ph id="ph1">`people[?age &gt; '25'].[name]`</ph> that returns just the names:</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>JMESQuery has several other interesting query features.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>When you have time, check out the <bpt id="p1">[</bpt>online tutorial<ept id="p1">](http://jmespath.org/tutorial.html)</ept> available on the <bpt id="p2">[</bpt>JMESPath.org<ept id="p2">](http://jmespath.org/)</ept> site.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Filtering our Azure CLI queries</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>With a basic understanding of JMES queries, we can add filers to the data being returned by queries like the <ph id="ph1">`vm show`</ph> command.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For example, we can retrieve the admin user name:</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>We can get the size assigned to our VM:</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Or to retrieve all the IDs for your network interfaces, you can use the query:</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This query technique will work with any Azure CLI command and can be used to pull specific bits of data out on the command line.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>It is useful for scripting as well - for example, you can pull a value out of your Azure account and store it in an environment or script variable.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If you decide to use it this way, a useful flag to add is the <ph id="ph1">`--output tsv`</ph> parameter (which can be shortened to <ph id="ph2">`-o tsv`</ph>).</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This will return the results in tab-separated values that only include the actual data values with tab separators.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>As an example,</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>returns the text: <ph id="ph1">`/subscriptions/20f4b944-fc7a-4d38-b02c-900c8223c3a0/resourceGroups/2568d0d0-efe3-4d04-a08f-df7f009f822a/providers/Microsoft.Network/networkInterfaces/SampleVMVMNic`</ph></source>
+        </trans-unit></group></body></file></xliff>

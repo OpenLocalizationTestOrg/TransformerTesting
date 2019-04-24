@@ -1,0 +1,65 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-storage-account-keys.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-storage-account-keys.520331aa95209767e30ca139cf2f19acea60ebcd.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7bac1c62dd9e7970ae73bb6198fcbea6b88969a8</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\secure-azure-storage-account\includes\3-storage-account-keys.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Much of Contoso's data is generated or consumed by custom applications.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The applications are written in various languages.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Azure Storage accounts can create authorized apps in Active Directory to control access to the data in blobs and queues.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This authentication approach is the best solution for apps that use Blob storage or Queue storage.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For other storage models, clients can use a <bpt id="p1">_</bpt>shared key<ept id="p1">_</ept>, or shared secret.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This authentication option is one of the easiest to use, and it supports blobs, files, queues, and tables.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The client embeds the shared key in the HTTP <ph id="ph1">`Authorization`</ph> header of every request, and the Storage account validates the key.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For example, an application can issue a <ph id="ph1">`GET`</ph> request against a blob resource:</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>HTTP headers control the version of the REST API, the date, and the encoded shared key:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Storage account keys</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In Azure Storage accounts, shared keys are called <bpt id="p1">*</bpt>storage account keys<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Azure creates two of these keys (primary and secondary) for each storage account you create.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The keys give access to <bpt id="p1">_</bpt>everything<ept id="p1">_</ept> in the account.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You'll find the storage account keys in the Azure portal view of the storage account.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Just select <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept><ph id="ph1"> &gt; </ph><bpt id="p2">**</bpt>Access keys<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Screenshot showing the access keys in the Azure portal</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Protecting shared keys</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The storage account has only two keys, and they provide full access to the account.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Because these keys are powerful, use them only with trusted in-house applications that you control completely.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If the keys are compromised, change the key values in the Azure portal.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Here are several reasons to regenerate your storage account keys:</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For security reasons, you might regenerate keys periodically.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If someone hacks into an application and gets the key that was hard-coded or saved in a configuration file, regenerate the key.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The compromised key can give the hacker full access to your storage account.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If your team is using a Storage Explorer application that keeps the storage account key, and one of the team members leaves, regenerate the key.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Otherwise, the application will continue to work, giving the former team member access to your storage account.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To refresh keys:</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Change each trusted app to use the secondary key.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Refresh the primary key in the Azure portal.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Consider this as the new secondary key value.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>After your refresh keys, any client that attempts to use the old key value will be refused.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Make sure you identify all clients that use the shared key, and update them to keep them operational.</source>
+        </trans-unit></group></body></file></xliff>

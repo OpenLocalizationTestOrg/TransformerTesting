@@ -1,0 +1,177 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-add-a-resource.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-add-a-resource.7b8dd6ffe976e7ba06e1f33b2f411e2da2dbd07a.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fd4e5b898d9e259218b4f994fcfe9be22e16e513</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\build-azure-vm-templates\includes\windows\5-add-a-resource.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>When you create a VM for your financial analysts, you typically include a web server that provides a dashboard for the analyst to visualize and collect the results of the run.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Using a Resource Manager template to bring up a VM is a good start.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>But how can you extend the template to configure web server software inside the VM?</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Using the Azure CLI to configure a VM to run a web server requires only a few basic commands.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>But what happens when:</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You need to create and delete VMs continuously?</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Your deployments require additional components such as storage and networking, increasing their complexity?</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Managing individual resources through the Azure CLI is a good start.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>But it quickly becomes tedious and error prone because you still need to correctly connect resources together.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You need a more automated solution.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Here you'll examine the requirements for your VM's web server and learn how to build resources you can add to your templates.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The code and commands you see on this page are for illustration.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For now, just follow along.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You don't need to modify any files or run any commands just yet.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>What's the Custom Script Extension?</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The Custom Script Extension is an easy way to download and run scripts on your Azure VMs.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>It's just one of the many ways you can configure a VM once it's up and running.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can store your scripts in Azure storage or in a public location such as GitHub.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can run scripts manually or as part of a more automated deployment.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Here, you'll define a  resource that you'll soon add to your Resource Manager template.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The resource will use the Custom Script Extension to download a PowerShell script from GitHub and execute that script on your VM.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The script enables the IIS-WebServerRole feature and configures a basic home page.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>How do I extend a Resource Manager template?</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Your Resource Manager template creates a Windows VM.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>There are a few ways to extend the template to also enable IIS when the VM starts.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>One way to extend your template is to create multiple templates, each defining one piece of the system.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You then <bpt id="p1">_</bpt>link<ept id="p1">_</ept> or <bpt id="p2">_</bpt>nest<ept id="p2">_</ept> them together to build a more complete system.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>As you create your own templates, you can build a library of smaller, more granular templates and combine them how you need.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Another way is to modify an existing template to suit your needs.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You'll do that in this module because that's often the fastest way to get started writing your own templates.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Build the template resource</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Here you'll learn how to build template resources, using the Custom Script Extension as an example.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You'll use the reference documentation as a starting point and then define the resource properties you need.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Let's start by reviewing your requirements.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Gather requirements</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Here's a brief summary of what you want to accomplish through your template.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Create a VM.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Open port 80 through the network firewall.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Install and configure web server software on your VM.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The Resource Manager template you used in the previous part already covers the first two requirements.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For the third, let's start by taking a look at an Azure CLI command we could run manually from the command line to enable IIS on your VM using the Custom Script Extension.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This command uses the Custom Script Extension to run a PowerShell script on your VM that installs IIS.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You can <bpt id="p1">[</bpt>examine the PowerShell script<ept id="p1">](https://raw.githubusercontent.com/MicrosoftDocs/mslearn-welcome-to-azure/master/configure-iis.ps1?azure-portal=true)</ept> from a separate browser tab if you'd like.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You need a way to map this command to use the Resource Manager template syntax.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`az vm extension set`</ph> example shown above is a command you'd enter on the command line.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>What you need is the declarative JSON in template format.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Locate the resource schema</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>To discover how to use the Custom Script Extension in your template, one approach is to learn by example.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>For example, you might find an Azure Quickstart template that does something similar and adapt it to your needs.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Another approach is to look up the resource you need in the <bpt id="p1">[</bpt>reference documentation<ept id="p1">](https://docs.microsoft.com/azure/templates?azure-portal=true)</ept>.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>In this case, searching the documentation would reveal <bpt id="p1">[</bpt>Microsoft.Compute virtualMachines/extensions template reference<ept id="p1">](https://docs.microsoft.com/azure/templates/Microsoft.Compute/2018-10-01/virtualMachines/extensions?azure-portal=true)</ept>.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>You can start by copying the schema to a temporary document, like this.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Specify required properties</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The schema shows all of the properties you can provide.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Some properties are required; others are optional.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>You might start by identifying all of the required properties.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Locate these below the schema definition on the reference page.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Here are the required parameters.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>After you remove all the parameters that aren't required, your resource definition might look like this.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The values for the <ph id="ph1">`type`</ph> and <ph id="ph2">`apiVersion`</ph> properties come directly from the documentation.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`properties`</ph> is required but for now can be empty.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You know that your existing VM template has a parameter named <ph id="ph1">`location`</ph>.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This example uses the built-in <ph id="ph1">`parameters`</ph> function to read that value.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`name`</ph> property follows a special convention.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This example uses the built-in <ph id="ph1">`concat`</ph> function to concatenate, or combine, multiple strings.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The complete string contains the VM name followed by a slash <ph id="ph1">`/`</ph> character followed by a name you choose (here, it's "ConfigureIIS").</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The VM name helps the template identify which VM resource to run the script on.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Specify additional properties</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Next, you might add in any additional properties that you need.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Referring back to the CLI example earlier, you need the location, or URI, of the script file and the PowerShell command to execute on the VM to run that script.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>As a recommended practice, you might also include the resource's publisher name, its type, and version.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Referring back to the documentation, you need these values, shown here using "dot" notation.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Your Custom Script Extension resource now looks like this.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Specify dependent resources</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>You can't run the Custom Script Extension until the VM is available.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>All template resources provide a <ph id="ph1">`dependsOn`</ph> property.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>This property helps Resource Manager determine the correct order to apply resources.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Here's what your template resource might look like after you add the <ph id="ph1">`dependsOn`</ph> property.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The bracket <ph id="ph1">`[ ]`</ph> syntax means that you can provide an array, or list, of resources that must exist before applying this resource.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>There are multiple ways to define a resource dependency.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>You can provide its name, such as "SimpleWinVM", it's full name (including its namespace, type, and name), such as "Microsoft.Compute/virtualMachines/SimpleWinVM", or by its resource ID.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>This example uses the built-in <ph id="ph1">`resourceId`</ph> function to get the VM's resource ID using its full name.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>This helps clarify which resource you're referring to and can help avoid ambiguity when more than one resource has a similar name.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The existing template provides a <ph id="ph1">`vmName`</ph> variable that defines the VM's name.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>This example uses the built-in <ph id="ph1">`variables`</ph> function to read it.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>You now have everything you need to define the Custom Script Extension resource in your template.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>In the next part, you'll extend your template to use it.</source>
+        </trans-unit></group></body></file></xliff>

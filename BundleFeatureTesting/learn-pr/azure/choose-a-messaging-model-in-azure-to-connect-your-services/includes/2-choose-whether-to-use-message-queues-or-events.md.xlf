@@ -1,0 +1,97 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-choose-whether-to-use-message-queues-or-events.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-choose-whether-to-use-message-queues-or-events.030ff9f77536c35279973087a1d06992ed07f56b.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5bbd29620341b64b07de8a9a98be649e080b545e</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\choose-a-messaging-model-in-azure-to-connect-your-services\includes\2-choose-whether-to-use-message-queues-or-events.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Suppose you are planning the architecture of a distributed music-sharing application.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You want to ensure that the application is as reliable and scalable as possible, and you intend to use Azure technologies to build a robust communication infrastructure.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Before you can choose the right Azure technology, you must understand each individual communication that the components of the application exchange.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>For each communication you can choose a different Azure technology.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The first thing to understand about a communication is whether it sends <bpt id="p1">**</bpt>messages<ept id="p1">**</ept> or <bpt id="p2">**</bpt>events<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This is a fundamental choice that will help you choose the appropriate Azure service to use.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Communication strategies in Azure (APIs)</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>What is a message?</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In the terminology of distributed applications, <bpt id="p1">**</bpt>messages<ept id="p1">**</ept> have the following characteristics:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A message contains raw data, produced by one component, that will be consumed by another component.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>A message contains the data itself, not just a reference to that data.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The sending component expects the message content to be processed in a certain way by the destination component.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The integrity of the overall system may depend on both sender and receiver doing a specific job.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For example, suppose a user uploads a new song by using the mobile music-sharing app.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The mobile app must send that song to the web API that runs in Azure.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The song media file itself must be sent, not just an alert that indicates that a new song has been added.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The mobile app expects that the web API will store the new song in the database and make it available to other users.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This is an example of a message.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>What is an event?</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Events<ept id="p1">**</ept> are lighter weight than messages, and are most often used for broadcast communications.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The components sending the event are known as <bpt id="p1">**</bpt>publishers<ept id="p1">**</ept>, and receivers are known as <bpt id="p2">**</bpt>subscribers<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>With events, receiving components will generally decide in which communications they are interested, and will "subscribe" to those.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The subscription is usually managed by an intermediary, like Azure Event Grid or Azure Event Hubs.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>When publishers send an event, the intermediary will route that event to interested subscribers.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This is known as a "publish-subscribe architecture."</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>It's not the only way to deal with events, but it is the most common.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Events have the following characteristics:</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>An event is a lightweight notification that indicates that something happened.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The event may be sent to multiple receivers, or to none at all.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Events are often intended to "fan out," or have a large number of subscribers for each publisher.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The publisher of the event has no expectation about the action a receiving component takes.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Some events are discrete units and unrelated to other events.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Some events are part of a related and ordered series.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For example, suppose the music file upload has been completed, and the new song has been added to the database.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>In order to inform users of the new file, the web API must inform the web front end and mobile app users of the new file.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The users can choose whether to listen to the new song, so the initial notification does not include the music file but only notifies users that the song exists.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The sender does not have a specific expectation that the event receivers will do anything particular in responsiveness of receiving this event.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This is an example of a discrete event.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>How to choose messages or events</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A single application is likely to use events for some purposes and messages for others.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Before you choose, you must analyze your application's architecture and all its use cases, to identify all the different purposes where its components have to communicate with each other.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Events are more likely to be used for broadcasts and are often ephemeral, meaning a communication might not be handled by any receiver if none are currently subscribing.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Messages are more likely to be used where the distributed application requires a guarantee that the communication will be processed.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For each communication, consider the following question: <bpt id="p1">**</bpt>Does the sending component expect the communication to be processed in a particular way by the destination component?<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If the answer is <bpt id="p1">_</bpt>yes<ept id="p1">_</ept>, choose to use a message.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If the answer is <bpt id="p1">_</bpt>no<ept id="p1">_</ept>, you may be able to use events.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Understanding how your components need to communicate will help you to choose how your components will communicate.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Let's start with messages.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.d115e91e788637c20a9446d9b866daa9411aa995.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8797cf447e952c757bc7c5fe3a2e59245f4c3e1a</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\distribute-load-with-traffic-manager\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Suppose you're the lead architect for a company providing a global music streaming web application.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You want your customers, wherever they are in the world, to experience near zero downtime.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The application should be responsive because you know poor performance may drive customers to your competitors.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You'd also like to have customized experiences to customers in specific regions, for user interface, legal, and operational reasons.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Azure Traffic Manager is a DNS-based traffic load balancer that enables you to distribute traffic optimally to services across Azure regions globally.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Traffic Manager can be used to distribute traffic to different regions while providing high availability, resilience, and responsiveness.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>By the end of this module the learner will be able to:</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Describe how Azure Traffic Manager can be used to dynamically distribute network traffic</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Configure Azure Traffic Manager for automatically failover to a secondary region</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Configure Azure Traffic Manager to redirect client requests to the nearest endpoint</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Familiarity with Azure App Service</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Basic knowledge of networking and DNS</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Basic knowledge of using Azure VMs</source>
+        </trans-unit></group></body></file></xliff>

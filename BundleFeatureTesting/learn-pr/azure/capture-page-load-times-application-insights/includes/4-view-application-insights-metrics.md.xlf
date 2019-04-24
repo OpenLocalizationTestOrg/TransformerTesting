@@ -1,0 +1,101 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-view-application-insights-metrics.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-view-application-insights-metrics.36c576b8c465a490663d5466ca7cac85e712ecc3.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4ddbe5bc43afdf5ad2d521468c7447847e9cba47</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\capture-page-load-times-application-insights\includes\4-view-application-insights-metrics.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The Azure portal provides many types of visualizations for viewing web app data captured by Application Insights.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You need to analyze the data captured about the video-sharing app so you can determine the cause of poor performance.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll learn how to navigate the data in the Application Insights resource and dashboards.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You'll also learn how to drill into a specific aspect of the web app's behavior by creating a custom chart.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Tools for data visualization</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Now that you've enabled an Application Insights resource to gather metrics from the web app, you can view and analyze that data to diagnose issues if they arise.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>There are several tools you can use to display that data:</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>The Azure portal.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can find a variety of tools by going to the Application Insights resource in the portal.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>These tools include a set of common performance charts on the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> page, an <bpt id="p2">**</bpt>Application map<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Performance<ept id="p3">**</ept> and <bpt id="p4">**</bpt>Failures<ept id="p4">**</ept> pages.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>There's also an Application Insights dashboard that contains a common set of charts.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can use the <bpt id="p1">**</bpt>Metrics<ept id="p1">**</ept> page to design new charts and add them to dashboards.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Power BI.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This tool is often used by business analysts to investigate business values like sales and profit margins.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can connect Power BI to an Application Insights resource and use it to display web app telemetry data.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Visual Studio.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Developers can connect Visual Studio to Application Insights to view the same charts and visualizations that are shown in the Azure portal.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>It's convenient to see code and performance data in one tool.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Custom tools.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Application Insights includes a comprehensive API for accessing telemetry and analytics.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Custom tools and applications can use the API to power their own visualizations.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For example, if you have a custom mobile app that your business decision makers use to view sales data, you can add a visualization of web site performance statistics to the app.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In this module, we'll view data in the Azure portal.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Custom charts</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>There are many useful charts and diagrams in an Application Insights resource and in the dashboard, but sometimes you'll need to create a custom chart.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>On the Application Insights resource blade, you can create your own chart on the <bpt id="p1">**</bpt>Metrics<ept id="p1">**</ept> page.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For example, you can:</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Specify a time period for the chart.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This could be the last 30 minutes or the last 30 days, or somewhere in between.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can also specify a start and end time for the period that interests you.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Specify the type of chart.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You can choose line, area, bar, or scatter.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Specify a metric to display.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This metric will be shown on the vertical axis.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Specify an aggregation method.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This option specifies whether the chart will show the average, minimum, maximum, sum, or count for the chosen metric at each plotted point.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Specify a filter.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Data that doesn't satisfy the filter won't be displayed.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Use filters when you need to focus on a specific data set.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Creating a custom chart in Application Insights</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>After you create the chart you need, you can pin it to an Application Insights dashboard to save it and then publish the dashboard to share it with other users and stakeholders.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Go to the Application Insights resource and dashboard</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The Application Insights resource is separate from the App Service resource that contains the instrumented web app.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>In the Azure portal, you can see both resources on the <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept> blade and select them to see their details or make configuration changes.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>When you enable runtime instrumentation in a web app, a link appears in the Azure portal that takes you from the web app resource to the Application Insights resource that receives the data.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>From the web app, you can go to the <bpt id="p1">**</bpt>Application Insights<ept id="p1">**</ept> page and select <bpt id="p2">**</bpt>View Application Insights data<ept id="p2">**</ept> to go to the Application Insights resource and make configuration changes.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>From there, select <bpt id="p1">**</bpt>Application Dashboard<ept id="p1">**</ept> on the <bpt id="p2">**</bpt>Overview<ept id="p2">**</ept> page to see the dashboard for that resource.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Another way to view the Application Insights dashboard is to select <bpt id="p1">**</bpt>Dashboard<ept id="p1">**</ept> in the main left navigation pane in the Azure portal.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If more than one dashboard is stored for your user account, you might need to switch to the Application Insights dashboard you want by selecting it in the drop-down list in the upper-left corner:</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Selecting a dashboard</source>
+        </trans-unit></group></body></file></xliff>

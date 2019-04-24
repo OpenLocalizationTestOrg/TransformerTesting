@@ -1,0 +1,61 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-what-are-blobs.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-what-are-blobs.94ea164fc2278e6ce9395469f7ac2be5ed0013e4.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7faf523cf1a04d51beb4e22f2c6d1b4b9b4398c8</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\store-app-data-with-azure-blob-storage\includes\2-what-are-blobs.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Blobs are "files for the cloud".</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Apps work with blobs in much the same way as they would work with files on a disk, like reading and writing data.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>However, unlike a local file, blobs can be reached from anywhere with an internet connection.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Azure Blob storage is <bpt id="p1">*</bpt>unstructured<ept id="p1">*</ept>, meaning that there are no restrictions on the kinds of data it can hold.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For example, a blob can hold a PDF document, a JPG image, a JSON file, video content, etc. Blobs aren't limited to common file formats <ph id="ph1">&amp;mdash;</ph> a blob could contain gigabytes of binary data streamed from a scientific instrument, an encrypted message for another application, or data in a custom format for an app you're developing.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Blobs are usually not appropriate for structured data that needs to be queried frequently.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>They have higher latency than memory and local disk and don't have the indexing features that make databases efficient at running queries.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>However, blobs are frequently used in <bpt id="p1">*</bpt>combination<ept id="p1">*</ept> with databases to store non-queryable data.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For example, an app with a database of user profiles could store profile pictures in blobs.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Each user record in the database would include the name or URL of the blob containing the user's picture.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Blobs are used for data storage in many ways across all kinds of applications and architectures:</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Apps that need to transmit large amounts of data using messaging system that supports only small messages.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>These apps can store data in blobs and send the blob URLs in messages.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Blob storage can be used like a file system for storing and sharing documents and other personal data.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Static web assets like images can be stored in blobs and made available for public download as if they were files on a web server.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Many Azure components use blobs behind the scenes.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For example, Azure Cloud Shell stores your files and configuration in blobs, and Azure Virtual Machines uses blobs for hard-disk storage.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Some apps will constantly create, update, and delete blobs as part of their work.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Others will use a small set of blobs and rarely change them.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Storage accounts, containers, and metadata</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In Blob storage, every blob lives inside a <bpt id="p1">*</bpt>blob container<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You can store an unlimited number of blobs in a container and an unlimited number of containers in a storage account.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Containers are "flat" <ph id="ph1">&amp;mdash;</ph> they can only store blobs, not other containers.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Blobs and containers support metadata in the form of name-value string pairs.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Your apps can use metadata for anything you like: a human-readable description of a blob's contents to be displayed by the application, a string that your app uses to determine how to process the blob's data, etc.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Blob storage does not provide any mechanism for searching or sorting blobs by metadata.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>See the Further Reading section at the end of this module for information about using Azure Search to achieve this.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The Blob storage API and client libraries</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The Blob storage API is REST-based and supported by client libraries in many popular languages.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>It lets you write apps that create and delete blobs and containers, upload and download blob data, and list the blobs in a container.</source>
+        </trans-unit></group></body></file></xliff>

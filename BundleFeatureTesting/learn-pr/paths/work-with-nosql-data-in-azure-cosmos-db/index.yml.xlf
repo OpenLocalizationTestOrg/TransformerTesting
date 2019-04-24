@@ -1,0 +1,19 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.80536078898dc1e621f40c4f588991e37643e3b8.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b358e47e7e95d6ad0cb651751014ac0d80b88ede</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\paths\work-with-nosql-data-in-azure-cosmos-db\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.work-with-nosql-data-in-azure-cosmos-db">
+          <source>Work with NoSQL data in Azure Cosmos DB learning path</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.work-with-nosql-data-in-azure-cosmos-db">
+          <source>NoSQL data is an efficient way to store information that doesn’t map to the requirements of a relational SQL database.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.work-with-nosql-data-in-azure-cosmos-db">
+          <source>Databases for NoSQL data enable increased flexibility with simplified scale out techniques, and the opportunity to fine tune availability and data consistency requirements.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.work-with-nosql-data-in-azure-cosmos-db">
+          <source>Azure Cosmos DB provides all these benefits and more by providing tools and SDKs to work with your NoSQL data.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.work-with-nosql-data-in-azure-cosmos-db">
+          <source>Learn how to use the Azure portal, the Azure Cosmos DB extension for Visual Studio Code, and the Azure Cosmos DB .NET Core SDK to work with your NoSQL data where you want, and provide your users with high availability, no matter where they are in the world.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.work-with-nosql-data-in-azure-cosmos-db">
+          <source>Work with NoSQL data in Azure Cosmos DB</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.work-with-nosql-data-in-azure-cosmos-db">
+          <source>NoSQL data is an efficient way to store information that doesn’t map to the requirements of a relational SQL database.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.work-with-nosql-data-in-azure-cosmos-db">
+          <source>Learn how to use the Azure portal, the Azure Cosmos DB extension for Visual Studio Code, and the Azure Cosmos DB .NET Core SDK to work with your NoSQL data where you want, and provide your users with high availability, no matter where they are in the world.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.work-with-nosql-data-in-azure-cosmos-db">
+          <source>Familiarity with storage options in Azure.</source>
+        </trans-unit></group></body></file></xliff>

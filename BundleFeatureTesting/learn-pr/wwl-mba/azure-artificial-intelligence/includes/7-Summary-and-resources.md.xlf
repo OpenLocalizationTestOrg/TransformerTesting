@@ -1,0 +1,59 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-Summary-and-resources.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-Summary-and-resources.33a54866f20824655ad2e9a5ddf053b7bbcf2d81.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">605ac3193c50bab0a4c9a56c6fee74cb6c202fe4</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\wwl-mba\azure-artificial-intelligence\includes\7-Summary-and-resources.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Applying AI capabilities to your business is essential to accelerate your digital transformation.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Knowledge mining and machine learning help you better make sense of and utilize your data.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Cognitive services and bots can enhance applications with existing or custom-built models.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>As Microsoft explores additional possibilities with AI technology, we are also invested in addressing ethical challenges and creating AI for good.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Now that you have reviewed this module, you should be able to:</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Understand the Microsoft vision for Azure AI.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Identify ways you can use Azure AI.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Define what Azure AI is, how it works, and how it’s built.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Key takeaways</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Here are the three key takeaways from this module:</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Icon of key</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Azure Cognitive Search applies AI capabilities to knowledge mining to uncover insights from vast amounts of data.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Azure Machine Learning tools allows developers to quickly develop and deploy AI models that use existing data, without being explicitly reprogrammed, in order to forecast future behaviors, outcomes, and trends.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Microsoft uses Azure Cognitive Services (AI apps) and Azure Bot Services (AI agents) to infuse AI capabilities into web and mobile applications and services.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Resources</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Use these resources to discover more.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure AI product page<ept id="p1">](http://azure.com/ai)</ept></source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure case studies<ept id="p1">](https://azure.microsoft.com/case-studies/)</ept></source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Microsoft Azure Blog<ept id="p1">](https://azure.microsoft.com/blog/)</ept></source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Channel 9 AI Show<ept id="p1">](https://channel9.msdn.com/Shows/AI-Show)</ept></source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>AI for Good<ept id="p1">](https://www.microsoft.com/ai/ai-for-good)</ept></source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Seeing AI application<ept id="p1">](https://www.microsoft.com/seeing-ai/)</ept></source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>The Future Computed book<ept id="p1">](https://news.microsoft.com/futurecomputed/)</ept></source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>FATE: Fairness, Accountability, Transparency, and Ethics in AI<ept id="p1">](https://www.microsoft.com/research/group/fate/)</ept></source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>AI Customer Stories:</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Cincinnati Children’s Hospital Medical Center<ept id="p1">](http://customers.microsoft.com/story/cincinnati-childrens-hospital-health-provider-azure)</ept></source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Elastacloud<ept id="p1">](http://customers.microsoft.com/story/elastacloud-partner-professional-services-azure-machine-learning)</ept></source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Royal Dutch Shell<ept id="p1">](https://customers.microsoft.com/story/shell-mining-oil-gas-azure-databricks)</ept></source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Search for more customer stories at <bpt id="p1">[</bpt>customers.microsoft.com<ept id="p1">](https://customers.microsoft.com/)</ept></source>
+        </trans-unit></group></body></file></xliff>

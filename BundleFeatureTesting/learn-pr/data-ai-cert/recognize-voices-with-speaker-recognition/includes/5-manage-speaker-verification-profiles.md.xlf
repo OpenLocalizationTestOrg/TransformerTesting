@@ -1,0 +1,69 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-manage-speaker-verification-profiles.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-manage-speaker-verification-profiles.becda6d149fc3c26585d1f4b1ecb56c2b92b7100.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">158a8791a9075f4abcedf5d19ef9bd1f844134af</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\recognize-voices-with-speaker-recognition\includes\5-manage-speaker-verification-profiles.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Creating verification profiles is a straightforward process that uses the verification-management methods in the Speaker Verification API.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use the Speaker Verification API to manage verification profiles</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Managing speaker-verification profiles with the Speaker Verification API is a process of:</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Sending an authorized web request to the subscription endpoint.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Observing the information returned from the call.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Like most services in the Azure Cognitive Services suite, the Speaker Verification API returns information in a standard JSON format.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The primary methods used to create and manage verification profiles are the <ph id="ph1">`Create Profile`</ph> and <ph id="ph2">`Create Enrollment`</ph> methods in the Speaker Verification API.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Create Profile`</ph> method accepts a region or locale parameter for creating a profile based on a specific locale, and it returns a unique identifier for the profile.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>But the <ph id="ph1">`Create Enrollment`</ph> method is where the significant work happens.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Create Enrollment`</ph> method accepts an audio file (as a binary file payload) that <bpt id="p1">*</bpt>must<ept id="p1">*</ept> meet the following criteria:</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Container:<ept id="p1">**</ept> WAV</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Encoding:<ept id="p1">**</ept> PCM</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Rate:<ept id="p1">**</ept> 16K</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Sample format:<ept id="p1">**</ept>  16-bit</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Channels:<ept id="p1">**</ept> Mono</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Create Enrollment`</ph> method requires a single parameter to be passed to the service.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This <ph id="ph1">`verificationProfileId`</ph> parameter, which is returned from the <ph id="ph2">`Create Profile`</ph> method, identifies which profile to apply the enrollment submission to.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A parameter passed to the <ph id="ph1">`Create Enrollment`</ph> method is typically sent in the query string, as part of the endpoint URL:</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>When you're providing enrollment audio via a REST-based request, the audio file should be at least 1 second long and no longer than 15 seconds.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Send an audio payload</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To send an audio payload to the <ph id="ph1">`Create Enrollment`</ph> method, you must include a binary file, such as a stream or byte array, in the web request.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You must then send the request via a standard HTTP POST method.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Binary file payload</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You create and send a binary file payload to the <ph id="ph1">`Create Enrollment`</ph> method by using standard, language-specific methods for creating and sending binary content.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For example, in C#, a binary payload could come from an audio file (containing a voice recording of the verification phrase) located on a local computer:</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`application/octet-stream`</ph> content type is required in the request header to tell the method what type of content is being delivered.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You don't need to use a parameter to provide the selected verification phrase.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The Speaker Verification API extracts the phrase from the audio file and presents this value to you as a way of securing verification.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Return values</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The results returned from the Speaker Verification API are contained in JSON payloads.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Here's an example of the information returned from the <ph id="ph1">`Create Enrollment`</ph> method:</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The value <ph id="ph1">`"&lt;Recognized verification phrase&gt;"`</ph> is populated with the extracted verification phrase.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Managing verification profiles via the Speaker Verification API is straightforward.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Managing identification profiles is just as easy.</source>
+        </trans-unit></group></body></file></xliff>

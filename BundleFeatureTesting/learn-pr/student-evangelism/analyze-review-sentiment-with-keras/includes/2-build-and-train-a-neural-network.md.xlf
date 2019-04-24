@@ -1,0 +1,249 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-build-and-train-a-neural-network.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-build-and-train-a-neural-network.845b6f175d66fa23b9529240bb5520f08daf8cda.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c1d47b8ebbbfd066059adaf25b64a288cb18ab65</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\student-evangelism\analyze-review-sentiment-with-keras\includes\2-build-and-train-a-neural-network.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll use Keras to build and train a neural network that analyzes text for sentiment.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In order to train a neural network, you need data to train it with.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Rather than download an external dataset, you'll use the <bpt id="p1">[</bpt>IMDB movie reviews sentiment classification<ept id="p1">](https://keras.io/datasets/#imdb-movie-reviews-sentiment-classification)</ept> dataset that's included with Keras.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The IMDB dataset contains 50,000 movie reviews that have been individually scored as positive (1) or negative (0).</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The dataset is divided into 25,000 reviews for training and 25,000 reviews for testing.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The sentiment that's expressed in these reviews is the basis for which your neural network will analyze text presented to it and score it for sentiment.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The IMDB dataset is one of several useful datasets included with Keras.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For a complete list of built-in datasets, see <ph id="ph1">&lt;https://keras.io/datasets/.&gt;</ph></source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Type or paste the following code into the notebook's first cell and click the <bpt id="p1">**</bpt>Run<ept id="p1">**</ept> button (or press <bpt id="p2">**</bpt>Shift+Enter<ept id="p2">**</ept>) to execute it and add a new cell below it:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This code loads the IMDB dataset that's included with Keras and creates a dictionary mapping the words in all 50,000 reviews to integers indicating the words' relative frequency of occurrence.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Each word is assigned a unique integer.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The most common word is assigned the number 1, the second most common word is assigned the number 2, and so on.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`load_data`</ph> also returns a pair of tuples containing the movie reviews (in this example, <ph id="ph2">`x_train`</ph> and <ph id="ph3">`x_test`</ph>) and the 1s and 0s classifying those reviews as positive and negative (<ph id="ph4">`y_train`</ph> and <ph id="ph5">`y_test`</ph>).</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Confirm that you see the message "Using TensorFlow backend" indicating that Keras is using TensorFlow as its back end.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Loading the IMDB dataset</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Loading the IMDB dataset<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If you wanted Keras to use the Microsoft Cognitive Toolkit, also known as CNTK, as its back end, you could do so by adding a few lines of code at the beginning of the notebook.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For an example, see <bpt id="p1">[</bpt>CNTK and Keras in Azure Notebooks<ept id="p1">](http://www.johndehavilland.com/blog/2017/12/19/keras-and-cntk-azure-notebooks.html)</ept>.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>So what exactly did the <ph id="ph1">`load_data`</ph> function load?</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The variable named <ph id="ph1">`x_train`</ph> is a list of 25,000 lists, each of which represents one movie review.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>(<ph id="ph1">`x_test`</ph> is also a list of 25,000 lists representing 25,000 reviews.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`x_train`</ph> will be used for training, while <ph id="ph2">`x_test`</ph> will be used for testing.) But the inner lists — the ones representing movie reviews — don't contain words; they contain integers.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Here's how it's described in the Keras documentation:</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Keras documentation</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The reason the inner lists contain numbers rather than text is that you don't train a neural network with text; you train it with numbers.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Specifically, you train it with <bpt id="p1">[</bpt>tensors<ept id="p1">](https://en.wikipedia.org/wiki/Tensor)</ept>.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In this case, each review is a 1-dimensional tensor (think of a 1-dimensional array) containing integers identifying the words contained in the review.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To demonstrate, type the following Python statement into an empty cell and execute it to see the integers representing the first review in the training set:</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Integers comprising the first review in the IMDB training set</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Integers comprising the first review in the IMDB training set<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The first number in the list — 1 — doesn't represent a word at all.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>It marks the start of the review and is the same for every review in the dataset.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The numbers 0 and 2 are reserved as well, and you subtract 3 from the other numbers to map an integer in a review to the corresponding integer in the dictionary.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The second number — 14 — references the word that corresponds to the number 11 in the dictionary, the third number represents the word assigned the number 19 in the dictionary, and so on.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Curious to see what the dictionary looks like?</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Execute the following statement in a new notebook cell:</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Only a subset of the dictionary entries is shown, but in all, the dictionary contains more than 88,000 words and the integers that correspond to them.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The output you see will probably not match the output in the screenshot because the dictionary is generated anew each time <ph id="ph1">`load_data`</ph> is called.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Dictionary mapping words to integers</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Dictionary mapping words to integers<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>As you have seen, each review in the dataset is encoded as a collection of integers rather than words.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Is it possible to reverse-encode a review so you can see the original text that comprised it?</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Enter the following statements into a new cell and execute them to show the first review in <ph id="ph1">`x_train`</ph> in textual format:</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>In the output, "&gt;" marks the beginning of the review, while "?" marks words that aren't among the most common 10,000 words in the dataset.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>These "unknown" words are represented by 2s in the list of integers representing a review.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Remember the <ph id="ph1">`num_words`</ph> parameter you passed to <ph id="ph2">`load_data`</ph>?</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This is where it comes into play.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>It doesn't reduce the size of the dictionary, but it restricts the range of integers used to encode the reviews.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The first review in textual format</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>The first review in textual format<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The reviews are "clean" in the sense that letters have been converted to lowercase and punctuation characters removed.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>But they are not ready to train a neural network to analyze text for sentiment.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>When you train a neural network with collection of tensors, each tensor needs to be the same length.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>At present, the lists representing reviews in <ph id="ph1">`x_train`</ph> and <ph id="ph2">`x_test`</ph> have varying lengths.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Fortunately, Keras includes a function that takes a list of lists as input and converts the inner lists to a specified length by truncating them if necessary or padding them with 0s.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Enter the following code into the notebook and run it to force all the lists representing movie reviews in <ph id="ph1">`x_train`</ph> and <ph id="ph2">`x_test`</ph> to a length of 500 integers:</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Now that the training and testing data is prepared, it is time to build the model!</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Run the following code in the notebook to create a neural network that performs sentiment analysis:</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Confirm that the output looks like this:</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Creating a neural network with Keras</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Creating a neural network with Keras<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This code is the essence of how you construct a neural network with Keras.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>It first instantiates a <ph id="ph1">`Sequential`</ph> object representing a "sequential" model — one that is composed of an end-to-end stack of layers in which the output from one layer provides input to the next.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The next several statements add layers to the model.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>First is an <bpt id="p1">[</bpt>embedding layer<ept id="p1">](https://keras.io/layers/embeddings/)</ept>, which is crucial to neural networks that process words.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The embedding layer essentially maps many-dimensional arrays containing integer word indexes into floating-point arrays containing fewer dimensions.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>It also allows words with similar meanings to be treated alike.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>A full treatment of word embeddings is beyond the scope of this lab, but you can learn more by reading <bpt id="p1">[</bpt>Why You Need to Start Using Embedding Layers<ept id="p1">](https://towardsdatascience.com/deep-learning-4-embedding-layers-f9a02d55ac12)</ept>.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If you prefer a more scholarly explanation, refer to <bpt id="p1">[</bpt>Efficient Estimation of Word Representations in Vector Space<ept id="p1">](https://arxiv.org/pdf/1301.3781.pdf)</ept>.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The call to <bpt id="p1">[</bpt>Flatten<ept id="p1">](https://keras.io/layers/core/#flatten)</ept> following the addition of the embedding layer reshapes the output for input to the next layer.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The next three layers added to the model are <bpt id="p1">[</bpt>dense<ept id="p1">](https://keras.io/layers/core/#dense)</ept> layers, also known as <bpt id="p2">*</bpt>fully connected<ept id="p2">*</ept> layers.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>These are the traditional layers that are common in neural networks.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Each layer contains <bpt id="p1">*</bpt>n<ept id="p1">*</ept> nodes or <bpt id="p2">[</bpt>neurons<ept id="p2">](https://en.wikipedia.org/wiki/Artificial_neuron)</ept>, and each neuron receives input from every neuron in the previous layer, hence the term "fully connected."</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>It is these layers that permit a neural network to "learn" from input data by iteratively guessing at the output, checking the results, and fine-tuning the connections to produce better results.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The first two dense layers in this network contain 16 neurons each.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>This number was arbitrarily chosen; you might be able to improve the accuracy of the model by experimenting with different sizes.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The final dense layer contains just one neuron because the ultimate goal of the network is to predict one output — namely, a sentiment score from 0.0 to 1.0.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The result is the neural network pictured below.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The network contains an input layer, an output layer, and two hidden layers (the dense layers containing 16 neurons each).</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>For comparison, some of today's more sophisticated neural networks have more than 100 layers.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>One example is <bpt id="p1">[</bpt>ResNet-152<ept id="p1">](https://blogs.microsoft.com/ai/microsoft-researchers-win-imagenet-computer-vision-challenge/)</ept> from Microsoft Research, whose accuracy at identifying objects in photographs sometimes exceeds that of a human.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>You could build ResNet-152 with Keras, but you would need a cluster of GPU-equipped computers to train it from scratch.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Visualizing the neural network</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Visualizing the neural network<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The call to the <bpt id="p1">[</bpt>compile<ept id="p1">](https://keras.io/models/model/#compile)</ept> function "compiles" the model by specifying important parameters such as which <bpt id="p2">[</bpt>optimizer<ept id="p2">](https://keras.io/optimizers/)</ept> to use and what <bpt id="p3">[</bpt>metrics<ept id="p3">](https://keras.io/metrics/)</ept> to use to judge the accuracy of the model in each training step.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Training doesn't begin until you call the model's <ph id="ph1">`fit`</ph> function, so the <ph id="ph2">`compile`</ph> call typically executes quickly.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Now call the <bpt id="p1">[</bpt>fit<ept id="p1">](https://keras.io/models/model/#fit)</ept> function to train the neural network:</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Training should take about 6 minutes, or a little more than 1 minute per epoch.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`epochs=5`</ph> tells Keras to make 5 forward and backward passes through the model.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>With each pass, the model learns from the training data and measures ("validates") how well it learned using the test data.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Then it makes adjustments and goes back for the next pass or <bpt id="p1">*</bpt>epoch<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>This is reflected in the output from the <ph id="ph1">`fit`</ph> function, which shows the training accuracy (<ph id="ph2">`acc`</ph>) and validation accuracy (<ph id="ph3">`val_acc`</ph>) for each epoch.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`batch_size=128`</ph> tells Keras to use 128 training samples at a time to train the network.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Larger batch sizes speed the training time (fewer passes are required in each epoch to consume all of the training data), but smaller batch sizes sometimes increase accuracy.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Once you've completed this lab, you might want to go back and retrain the model with a batch size of 32 to see what effect, if any, it has on the model's accuracy.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>It roughly doubles the training time.</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Training the model</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Training the model<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>This model is unusual in that it learns well with just a few epochs.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The training accuracy quickly zooms to near 100%, while the validation accuracy goes up for an epoch or two and then flattens out. You generally don't want to train a model for any longer than is required for these accuracies to stabilize.</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The risk is <bpt id="p1">[</bpt>overfitting<ept id="p1">](https://en.wikipedia.org/wiki/Overfitting)</ept>, which results in the model performing well against test data but not so well with real-world data.</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>One indication that a model is overfitting is a growing discrepancy between the training accuracy and the validation accuracy.</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>For a great introduction to overfitting, see <bpt id="p1">[</bpt>Overfitting in Machine Learning: What It Is and How to Prevent It<ept id="p1">](https://elitedatascience.com/overfitting-in-machine-learning)</ept>.</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>To visualize the changes in training and validation accuracy as training progress, execute the following statements in a new notebook cell:</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The accuracy data comes from the <ph id="ph1">`history`</ph> object returned by the model's <ph id="ph2">`fit`</ph> function.</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Based on the chart that you see, would you recommend increasing the number of training epochs, decreasing it, or leaving it the same?</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Another way to check for overfitting is to compare training loss to validation loss as training proceeds.</source>
+        </trans-unit><trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Optimization problems such as this seek to minimize a loss function.</source>
+        </trans-unit><trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>You can read more <bpt id="p1">[</bpt>here<ept id="p1">](https://en.wikipedia.org/wiki/Loss_function)</ept>.</source>
+        </trans-unit><trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>For a given epoch, training loss, much greater than validation loss, can be evidence of overfitting.</source>
+        </trans-unit><trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>In the previous step, you used the <ph id="ph1">`acc`</ph> and <ph id="ph2">`val_acc`</ph> properties of the <ph id="ph3">`history`</ph> object's <ph id="ph4">`history`</ph> property to plot training and validation accuracy.</source>
+        </trans-unit><trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The same property also contains values named <ph id="ph1">`loss`</ph> and <ph id="ph2">`val_loss`</ph> representing training and validation loss, respectively.</source>
+        </trans-unit><trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>If you wanted to plot these values to produce a chart like the one below, how would you modify the code above to do it?</source>
+        </trans-unit><trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Training and validation loss</source>
+        </trans-unit><trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>Training and validation loss<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Given that the gap between training and validation loss begins increasing in the third epoch, what would you say if someone suggested that you increase the number of epochs to 10 or 20?</source>
+        </trans-unit><trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Finish up by calling the model's <ph id="ph1">`evaluate`</ph> method to determine how accurately the model is able to quantify the sentiment expressed in text based on the test data in <ph id="ph2">`x_test`</ph> (reviews) and <ph id="ph3">`y_test`</ph> (0s and 1s, or "labels," indicating which reviews are positive and which are negative):</source>
+        </trans-unit><trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>What is the computed accuracy of your model?</source>
+        </trans-unit><trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>You probably achieved an accuracy in the 85% to 90% range.</source>
+        </trans-unit><trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>That's acceptable considering you built the model from scratch (as opposed to using a pretrained neural network) and the training time was short even without a GPU.</source>
+        </trans-unit><trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>It <bpt id="p1">*</bpt>is<ept id="p1">*</ept> possible to achieve accuracies of 95% or higher with alternate neural network architectures, particularly <bpt id="p2">[</bpt>recurrent neural networks<ept id="p2">](https://en.wikipedia.org/wiki/Recurrent_neural_network)</ept> (RNNs) that utilize <bpt id="p3">[</bpt>Long Short-Term Memory<ept id="p3">](https://en.wikipedia.org/wiki/Long_short-term_memory)</ept> (LSTM) layers.</source>
+        </trans-unit><trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Keras makes it easy to build such networks, but training time can increase exponentially.</source>
+        </trans-unit><trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The model that you built strikes a reasonable balance between accuracy and training time.</source>
+        </trans-unit><trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>However, if you would like to learn more about building RNNs with Keras, see <bpt id="p1">[</bpt>Understanding LSTM and its Quick Implementation in Keras for Sentiment Analysis<ept id="p1">](https://towardsdatascience.com/understanding-lstm-and-its-quick-implementation-in-keras-for-sentiment-analysis-af410fd85b47)</ept>.</source>
+        </trans-unit></group></body></file></xliff>

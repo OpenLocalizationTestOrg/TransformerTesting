@@ -1,0 +1,51 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-azure-data-factory-databricks.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-azure-data-factory-databricks.9270a8f94109ca56a9e634927dbe501025c6227a.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">26df1017ac0e3c915b738353480b2bc3ff740853</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\databricks\data-ingestion-with-azure-data-factory\includes\2-azure-data-factory-databricks.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You can use Azure Data Factory to ingest raw data collected from different sources and work with Azure Databricks to restructure the data to meet your requirements.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>What is Azure Data Factory?</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Azure Data Factory is a data ingestion and transformation service that allows you to load raw data from over 70 different on-premises or cloud sources.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The ingested data can be cleaned, transformed, restructured, and loaded back into a data warehouse.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>After the data is in the data warehouse, it's ready to use for several analytical purposes.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Data Factory supports data workflow pipelines.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>These pipelines are a logical group of tasks and activities that allows end-to-end data-processing scenarios.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Integrate Data Factory and Databricks</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When you integrate Databricks with Data Factory, you can take advantage of the analytical and data-transformation capabilities of Databricks.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Use a Databricks notebook within your data workflow pipeline to structure and transform raw data that's loaded into Data Factory from different sources.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>After the data is transformed by using Databricks, load it to any data warehouse.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Data ingestion and transformation by using the collective capabilities of Data Factory and Databricks involves the following steps:</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Create an Azure storage account.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You'll use this storage account to store your ingested and transformed data.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Create a Data Factory instance.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>After you set up your storage account, create your Data Factory instance by using the Azure portal.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Create a data workflow pipeline.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To create the pipeline, copy data from your source by using a copy activity in Data Factory.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A copy activity allows you to copy data from different on-premises and cloud sources.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Add a Databricks notebook to the pipeline.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This notebook contains the code to transform and clean the raw data as required.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Analyze the data.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Now that your data is cleaned up, use Databricks notebooks to further train the data or analyze it to output the required results.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You've learned how integrating Data Factory with Databricks helps you to load and transform your data.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Now let's create an end-to-end sample data workflow.</source>
+        </trans-unit></group></body></file></xliff>

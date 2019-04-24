@@ -1,0 +1,65 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="8-Summary-and-resources.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8-Summary-and-resources.9c934653d6c5ed668c1c033bb00a1f18b9b693d6.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f9527a127bd05c9c9d16782bbe31d8c77e341ca6</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\wwl-mba\cloud-operating-model\includes\8-Summary-and-resources.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Moving to the cloud is a complex undertaking.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>It requires the alignment of senior business leaders on the business value of making the move.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>They must then create an effective migration strategy that will be adopted by employees.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The Microsoft Cloud Operating Model can help your business easily identify when to move to the cloud, how to create an effective migration strategy, and which approach to technology migration and modernization your business should take.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Now that you've reviewed this module, you should be able to:</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Use the Cloud Operating Model to identify where you are in the digital transformation journey.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Identify triggers and opportunities for cloud migration.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Recognize the components needed to develop a digital transformation strategy around your business, people, and technology.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Key takeaways</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Here are the three key takeaways of this module:</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Icon of key</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The three components of the Cloud Operating Model—business strategy, people strategy and technology strategy—can be applied to different readiness stages for foundational, intermediate, and advanced cloud adopters.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A modernization trigger is an event that initiates the cloud migration journey for an enterprise.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The most common modernization triggers include: datacenter contracts expiring, the need to deliver applications and features faster, urgent capacity needs, a software or hardware refresh, the need to address security threats, compliance, enabling new business opportunities, and software end of support.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The key drivers for cloud computing services that represent migration opportunities are  cost, speed, global scale, productivity, performance, and reliability.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Resources</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Use these resources to discover more.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Cloud Operating Model:</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Cloud Operating Model infographic<ept id="p1">](https://azure.microsoft.com/resources/cloud-operating-model-infographic)</ept></source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Financial planning:</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Total Cost of Ownership (TCO) Calculator<ept id="p1">](https://www.tco.microsoft.com/)</ept></source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Pricing calculator<ept id="p1">](https://azure.microsoft.com/pricing/)</ept></source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Cost management<ept id="p1">](https://azure.microsoft.com/services/cost-management/)</ept></source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Case studies:</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure migration case studies<ept id="p1">](https://customers.microsoft.com)</ept></source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Skill readiness paths:</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure fundamentals<ept id="p1">](https://docs.microsoft.com/learn/paths/azure-fundamentals/)</ept></source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Principles of cloud computing<ept id="p1">](https://docs.microsoft.com/learn/modules/principles-cloud-computing/)</ept></source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Automate business process using Microsoft Flow<ept id="p1">](https://docs.microsoft.com/learn/paths/automate-process-using-flow/)</ept></source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Discover more:</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Microsoft Azure: The only consistent and comprehensive hybrid cloud<ept id="p1">](https://azure.microsoft.com/blog/microsoft-azure-the-only-consistent-comprehensive-hybrid-cloud/)</ept></source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Compliance offerings<ept id="p1">](http://aka.ms/allcompliance)</ept></source>
+        </trans-unit></group></body></file></xliff>

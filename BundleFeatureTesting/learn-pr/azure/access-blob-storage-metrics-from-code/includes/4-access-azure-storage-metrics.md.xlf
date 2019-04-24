@@ -1,0 +1,85 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-access-azure-storage-metrics.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-access-azure-storage-metrics.990283f6f7baf5e17f72791ac21488b8b4419bdb.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0da990d55828bbe5d1735e00e31486606de1b7e9</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\access-blob-storage-metrics-from-code\includes\4-access-azure-storage-metrics.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You've investigated the metrics that your video storage account sends to Azure Monitor, and you know that you want to display some of these metrics in the .NET mobile application that your administrators use to monitor the behavior of your video management system.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Now you need to know how to use the Azure Monitor .NET API to retrieve metrics from Azure Monitor.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Overview of the Azure Monitor .NET SDK</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The Azure Monitor SDK is a set of .NET classes and interfaces that make it simple to query for metrics in Azure Monitor from any .NET project.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Using the NuGet package manager, you can add this SDK to desktop application projects, mobile apps, web apps, and other types of custom projects.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You could, for example, display in a mobile app how some of those metrics vary over time, or respond if a metric exceeded some critical value.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If you want to view metrics from a storage account, you must use the SDK version 0.18.0-preview or later.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Security Requirements</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Azure carefully controls access to metrics by authenticating users and authorizing them to access different resources.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In unit 3, when you used <bpt id="p1">**</bpt>curl<ept id="p1">**</ept> to request storage metrics from Azure Monitor, you used the <bpt id="p2">**</bpt>az<ept id="p2">**</ept> utility to authenticate as the user you were logged into the Azure portal with.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The result of this authentication was an access token, which you passed with your <bpt id="p1">**</bpt>curl<ept id="p1">**</ept> request the Azure Monitor REST API.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For an application that uses the Azure .NET API to call Azure services, you can create a service principal in your Azure Active Directory.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This service principal includes credentials that the app can supply to prove its identity before it makes a request.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You must also assign a role to the service principal, which authorizes that app to access a resource.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For example: if you assign the <bpt id="p1">**</bpt>Contributor<ept id="p1">**</ept> role to an app for a resource group, that app can read and write data to all the resources in that group, including Azure Monitor.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>How to create a service principal</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To create a service principal in Azure:</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Go to the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/)</ept> and in the navigation on the left, click <bpt id="p2">**</bpt>Azure Active Directory<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>App registrations<ept id="p1">**</ept>, and then click <bpt id="p2">**</bpt>New application registration<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Give the service principal a name, choose <bpt id="p1">**</bpt>Web App/API<ept id="p1">**</ept> for the application type, and specify a sign-on URL where users go for authentication.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Create a new key for the app and make a note of it; your app must supply this key as part of its credentials.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Make a note of the <bpt id="p1">**</bpt>Directory ID<ept id="p1">**</ept>; this is a GUID that uniquely identifies the Active Directory that contains the service principal and is also referred to as the <bpt id="p2">**</bpt>Tenant ID<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Assign the new service principal to a role that has sufficient permissions to access the resources you need.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For example, the <bpt id="p1">**</bpt>Contributor<ept id="p1">**</ept> role on a resource group grants access to all the resources in that group, including any Azure Monitor resources.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If you complete the optional exercise in the next unit, you'll create a service principal by following these steps.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>How to authenticate the application</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>When the service principal is ready, you can use it in your code to authenticate with Azure.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To do this, your code must:</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>ApplicationTokenProvider.LoginSilentAsync<ept id="p1">**</ept> method to create a new set of service credentials.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>When you call this method, provide the tenant ID, application ID, and key that you made a note of when you created the service principal.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Create a new <bpt id="p1">**</bpt>MonitorClient<ept id="p1">**</ept> object by calling the <bpt id="p2">**</bpt>MonitorClient<ept id="p2">**</ept> constructor with the service credentials you created.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This <bpt id="p1">**</bpt>MonitorClient<ept id="p1">**</ept> object will be used to submit queries for metrics.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Set the <bpt id="p1">**</bpt>MonitorClient.SubscriptionID<ept id="p1">**</ept> property to identify which Azure subscription to connect to.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This is the same Subscription ID that you used in unit 3.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>How to list metric definitions and metrics values</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Once you have created the <bpt id="p1">**</bpt>MonitorClient<ept id="p1">**</ept> class, you can use it to query for Azure Storage metrics in Azure Monitor.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The first step is to discover which metrics are available by listing their definitions.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To do so, call the <bpt id="p1">**</bpt>MetricDefinitions.ListAsync<ept id="p1">**</ept> method on your <bpt id="p2">**</bpt>MonitorClient<ept id="p2">**</ept> object, and specify the storage account service's resource ID.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This resource ID is the same value as you used in unit 3 to specify the metrics you wanted to list.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The resource ID that you specify must correspond to correct service within your storage account; there are different resource IDs for the Blob, File, Table, and Queue services within the same storage account.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Once you have identified the name of a metric to use, you can retrieve its values by calling the <bpt id="p1">**</bpt>Metrics.ListAsync<ept id="p1">**</ept> method and passing the metric's name and the time period of interest; this will return a collection of the values for that metric within the specific period.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You can loop through this collection of values and display them to the user or take other action.</source>
+        </trans-unit></group></body></file></xliff>

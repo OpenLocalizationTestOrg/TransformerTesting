@@ -1,0 +1,117 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="8-exercise-add-azure-storage-configuration-to-your-app.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8-exercise-add-azure-storage-configuration-to-your-app.6a5eee28f46de4e0a05c73fed9aec6149a469c8b.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bc667ba63ffe88b8fc5eb1337291f53bb63f3c9e</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\connect-an-app-to-azure-storage\includes\8-exercise-add-azure-storage-configuration-to-your-app.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Let's add support to our .NET core application to retrieve a connection string from a configuration file.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>We'll start by adding the necessary plumbing to manage configuration in a JSON file.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Create a JSON configuration file</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`cd`</ph> to the PhotoSharingApp directory if you aren't already there.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`touch`</ph> tool on the command line to create a file named <bpt id="p1">**</bpt>appsettings.json<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Open the project in an editor.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If you are working locally, use your editor of choice.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>We recommend <bpt id="p1">**</bpt>Visual Studio Code<ept id="p1">**</ept>, which is an extensible cross-platform IDE.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If you are working in the Cloud Shell, we recommend the Cloud Shell editor.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The following command works for both.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>appsettings.json<ept id="p1">**</ept> file in the editor and add the following text.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Save the file.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In the Cloud Shell editor, there is a menu in the top right corner that has common file operations.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Now we need to get the storage account connection string and place it into the configuration for our app.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>In Cloud Shell run the following command.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Copy the connection string that is returned from that command, and replace <ph id="ph1">`"&lt;value&gt;"`</ph> in the <bpt id="p1">**</bpt>appsettings.json<ept id="p1">**</ept> file with this connection string.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Save the file.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Next, open the project file (<bpt id="p1">**</bpt>PhotoSharingApp.csproj<ept id="p1">**</ept>) in the editor.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Add the following configuration block to include the new file in the project and copy it to the output folder.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This ensures that the app configuration file is placed in the output directory when the app is compiled/built.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Save the file.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>(Make sure you do this or you will lose the change when you add the package below!)</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Add support to read a JSON configuration file</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A .NET Core application requires additional NuGet packages to read a JSON configuration file.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In the command prompt section of the window, add a reference to the  <bpt id="p1">**</bpt>Microsoft.Extensions.Configuration.Json<ept id="p1">**</ept> NuGet package.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Add code to read the configuration file</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Now that we have added the required libraries to enable reading configuration, we need to enable that functionality within our console application.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Program.cs<ept id="p1">**</ept> in the editor.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>At the top of the file, a <bpt id="p1">**</bpt>using System;<ept id="p1">**</ept> line is present.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Underneath that line, add the following lines of code:</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Replace the contents of the <bpt id="p1">**</bpt>Main<ept id="p1">**</ept> method with the following code.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This code initializes the configuration system to read from the <bpt id="p1">**</bpt>appsettings.json<ept id="p1">**</ept> file.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Your <bpt id="p1">**</bpt>Program.cs<ept id="p1">**</ept> file should now look like the following:</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Let's add support to our Node.js application to retrieve a connection string from a configuration file.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>We'll start by adding the necessary plumbing to manage configuration from our JavaScript file.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Create a .env configuration file</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Make sure you are in the correct working directory for your project.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`touch`</ph> tool on the command line to create a file named <bpt id="p1">**</bpt>.env<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Open the project in the Cloud Shell editor.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>.env<ept id="p1">**</ept> file in the editor and add the following text.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You may need to click the refresh button in code to see the new files.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>AZURE_STORAGE_CONNECTION_STRING<ept id="p1">**</ept> value is a hard-coded environment variable used for Storage APIs to look up access keys.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You can use your own name if you prefer, but you must supply the name when you create the <ph id="ph1">`BlobService`</ph> object in your Node.js app.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Save the file.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Now we need to get the storage account connection string and place it into the configuration for our app.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>In Cloud Shell run the following command.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Copy the connection string that is returned from that command, minus the quotes, and replace <ph id="ph1">`&lt;value&gt;`</ph> in the <bpt id="p1">**</bpt>.env<ept id="p1">**</ept> file with this connection string.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Save the file.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Add support to read an environment configuration file</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Node.js apps can include support to read from the <bpt id="p1">**</bpt>.env<ept id="p1">**</ept> file by adding the <bpt id="p2">**</bpt>dotenv<ept id="p2">**</ept> package.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>In the command prompt section of the window, add a dependency to the  <bpt id="p1">**</bpt>dotenv<ept id="p1">**</ept> package using <ph id="ph1">`npm`</ph>.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Add code to read the configuration file</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Now that we have added the required libraries to enable reading configuration, we need to enable that functionality within our application.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>index.js<ept id="p1">**</ept> in the editor.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>At the top of the file, a <ph id="ph1">`#!/usr/bin/env node`</ph> line is present.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Underneath that line, add a <ph id="ph1">`require`</ph> statement to load the <bpt id="p1">**</bpt>dotenv<ept id="p1">**</ept> package.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This will make environment variables defined in our <bpt id="p1">**</bpt>.env<ept id="p1">**</ept> file available to the program.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Now that we have that all wired up, we can start adding code to use our storage account.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,129 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-exercise-implement-a-web-application.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-exercise-implement-a-web-application.7d3756a8a4d9de1c8a2c8a4c09f1fb49b9f46be6.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">73f500b99ce0bea822e20b60de8f6ed46b31d299</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\host-a-web-app-with-azure-app-service\includes\4-exercise-implement-a-web-application.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this unit, you will use developer tools to create the code for a starter web application.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Create a new web project</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The heart of the .NET CLI tools is the <ph id="ph1">`dotnet`</ph> command line tool.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Using this command, you will create a new ASP.NET Core web project.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In the Cloud Shell on the right, create a new ASP.NET Core MVC application.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Name it "BestBikeApp".</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The command will create a new folder named "BestBikeApp" to hold your project.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`cd`</ph> there, then build and run the application to verify it is complete.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You should get something like:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The output describes the situation after starting your app: the application is running and listening at port 5000.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If we were running the app on our own machine, we'd be able to open a browser to <ph id="ph1">http://localhost:5000</ph>.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To make this accessible from outside of our own machine, we'll need to deploy the app to somewhere with a public endpoint.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The App Service instance we created earlier is perfect for that.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To create a starter Node.js web application, we'll use the Node Package Manager (NPM) along with some basic JavaScript code to run the actual web page processing.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Run these commands in the Cloud Shell now to create a new <ph id="ph1">`package.json`</ph> which will describe our Node.js application.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>NPM will prompt you for a series of answers, use the following responses.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Hit ENTER to accept the default response.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Question</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Answer</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>package name</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>helloworld</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>version</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>default<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>description</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A simple Hello World app</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>entry point</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>default<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>test command</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>default<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>git repository</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>default<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>keywords</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">_</bpt>default<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>author</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>your name</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>license</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>whatever you want, MIT, ISC, etc.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This will create a new <ph id="ph1">`package.json`</ph> file in the current folder - you should see it in the current folder if you type <ph id="ph2">`ls`</ph> in the terminal window.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>We will need a JavaScript file to run our website logic - since this is just a basic example, we will only need one file - <ph id="ph1">`index.js`</ph>.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Use the following command in the terminal to create the file:</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Now we have to make a few edits to both of our files.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Type the following command into the terminal to open an interactive editor.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Select the <ph id="ph1">`package.json`</ph> file and make the following edits to the <ph id="ph2">`scripts`</ph> section to use Node.js to launch the web app.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can also remove the <ph id="ph1">`main`</ph> entry.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Save the file.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Whenever you paste or change code into a file in the editor, make sure to save afterwards using the "..." menu, or the accelerator key (<bpt id="p1">&lt;kbd&gt;</bpt>Ctrl+S<ept id="p1">&lt;/kbd&gt;</ept> on Windows and Linux, <bpt id="p2">&lt;kbd&gt;</bpt>Command+S<ept id="p2">&lt;/kbd&gt;</ept> on macOS).</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Switch to the <ph id="ph1">`index.js`</ph> file and add the following contents to it.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This is a simple node program to always respond with "Hello World!"</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>when any GET request is made to the server.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Save the file and exit the editor.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>You can exit the editor through the "..." menu on the top right or through <bpt id="p1">&lt;kbd&gt;</bpt>Ctrl+Q<ept id="p1">&lt;/kbd&gt;</ept>.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Now we are ready to package up the files to deploy to Azure.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>We need to create a ZIP archive of everything in the project.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Type the following commands into the terminal window to create a ZIP file:</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>When the command finishes running, type <ph id="ph1">`ls`</ph>, you'll see a file named <ph id="ph2">`helloworld.zip`</ph>.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This is the web application package that we will deploy to App Service.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>To create a starter web application, we'll use Maven, a commonly-used project management and build tool for Java apps.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Maven includes a feature called <bpt id="p1">*</bpt>archetypes<ept id="p1">*</ept> that can quickly create starter code for different kinds of applications.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>We can use the <ph id="ph1">`maven-archetype-webapp`</ph> template to generate the code for a simple web app that displays "Hello World!"</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>on its homepage.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Run these commands in the Cloud Shell now to create a new web app:</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Now, run these commands to change to the new "helloworld" application directory and package the application for deployment:</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>When the command finishes running, if you change to the <ph id="ph1">`target`</ph> directory and run <ph id="ph2">`ls`</ph>, you'll see one file listed called <ph id="ph3">`helloworld.war`</ph>.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>This is the web application package that we will deploy to App Service.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,97 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-azure-cosmos-db.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-azure-cosmos-db.79195e6104f435d1f9c092a517aca4060ce91083.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1fe9d0ace9cca162e416a7c97913bd30a330f3a7</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04/24/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\data-ai-cert\survey-the-azure-data-platform\includes\5-azure-cosmos-db.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Azure Cosmos DB is a globally distributed, multimodel database.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You can deploy it by using  several API models:</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>SQL API</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>MongoDB API</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Cassandra API</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Gremlin API</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Table API</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Because of the multimodel architecture of Azure Cosmos DB, you benefit from each model's inherent capabilities.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For example, you can use MongoDB for semistructured data, Cassandra for wide columns, or Gremlin for graph databases.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Using Gremlin, you could create graph entities and graph queries to traverse vertices and edges.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This method can get you subsecond response times for complex scenarios like natural language processing (NLP) and social networking associations.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>When you move the database server from SQL, MongoDB, or Cassandra to Azure Cosmos DB, applications that are built on SQL, MongoDB, or Cassandra will continue to operate.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>When to use Azure Cosmos DB</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Deploy Azure Cosmos DB when you need a NoSQL database of the supported API model, at planet scale, and with low latency performance.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Currently, Azure Cosmos DB supports five-nines uptime (99.999 percent).</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>It can support response times below 10 ms when it's provisioned correctly.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Consider this example where Azure Cosmos DB helps resolve a business problem.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Contoso is an e-commerce retailer based in Manchester, UK.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The company sells children's toys.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>After reviewing Power BI reports, Contoso's managers notice a significant increase in sales in Australia.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Managers review customer service cases in Dynamics 365 and see many Australian customer complaints that their site's shopping cart is timing out.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Contoso's network operations manager confirms the problem.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>It's that the company's only data center is located in London.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The physical distance to Australia is causing delays.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Contoso applies a solution that uses the Microsoft Australia East datacenter to provide a local version of the data to users in Australia.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Contoso migrates their on-premises SQL Database to Azure Cosmos DB by using the SQL API.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This solution improves performance for Australian users.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The data can be stored in the UK and replicated to Australia to improve throughput times.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Key features</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Azure Cosmos DB supports 99.999 percent uptime.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You can invoke a regional failover by using programing or the Azure portal.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A Cosmos DB database will automatically fail over if there's a regional disaster.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>By using multimaster replication in Azure Cosmos DB, you can often achieve a response time of less than one second from anywhere in the world.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Azure Cosmos DB is guaranteed to achieve a response time of less than 10 ms for reads and writes.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To maintain the consistency of the data in Azure Cosmos DB, your engineering team should introduce a new set of consistency levels that address the unique challenges of planet-scale solutions.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Consistency levels include strong, bounded staleness, session, consistent prefix, and eventual.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Data ingestion</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To ingest data into Azure Cosmos DB, use Azure Data Factory, create an application that writes data into Azure Cosmos DB through its API, upload JSON documents, or directly edit the document.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Queries</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>As a data engineer, you can create stored procedures, triggers, and user-defined functions (UDFs).</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Or use the JavaScript query API.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You'll also find other methods to query the other APIs within Azure Cosmos DB.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>For example, in the Data Explorer component, you can use the graph visualization pane.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Data security</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Azure Cosmos DB supports data encryption, IP firewall configurations, and access from virtual networks.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Data is encrypted automatically.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>User authentication is based on tokens, and Azure Active Directory provides role-based security.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Azure Cosmos DB meets many security compliance certifications, including HIPAA, FedRAMP, SOCS, and HITRUST.</source>
+        </trans-unit></group></body></file></xliff>
