@@ -1,4 +1,4 @@
-<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-blob-uploads-and-downloads.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-blob-uploads-and-downloads.a407b90de4f6dc2a66c23bb93f25d14d87d6dec4.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">10183d40d6a64def3864b96b872e6095f04ef2e6</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">05/13/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\store-app-data-with-azure-blob-storage\includes\7-blob-uploads-and-downloads.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-blob-uploads-and-downloads.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-blob-uploads-and-downloads.695d30.9b7d84632eb6fb503fe0c12edaea2f5ed2bde2b5.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9b7d84632eb6fb503fe0c12edaea2f5ed2bde2b5</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\store-app-data-with-azure-blob-storage\includes\7-blob-uploads-and-downloads.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
           <source>Once we have a reference to a blob, we can upload and download data.</source>
         </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
           <source><ph id="ph1">`ICloudBlob`</ph> objects have <ph id="ph2">`Upload`</ph> and <ph id="ph3">`Download`</ph> methods that support byte arrays, streams, and files as sources and targets.</source>
@@ -47,41 +47,39 @@
         </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
           <source>However, the ASP.NET Core <ph id="ph1">`IFormFile`</ph> technique we use to get the file from the client is not a true end-to-end streaming implementation and is only appropriate for handling uploads of small files.</source>
         </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
-          <source>See the Further Reading section at the end of this module for information about fully streamed file uploads.</source>
-        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
           <source>Download</source>
-        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
           <source><ph id="ph1">`BlobStorage.Load`</ph> returns a <ph id="ph2">`Stream`</ph>, meaning that our code doesn't need to physically move the bytes from Blob storage at all <ph id="ph3">&amp;mdash;</ph> we just need to return a reference to the blob stream.</source>
-        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
           <source>We can do that with <ph id="ph1">`OpenReadAsync`</ph>.</source>
-        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
           <source>ASP.NET Core will handle reading and closing the stream when it builds the client response.</source>
-        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
           <source>Replace <ph id="ph1">`Load`</ph> with this code and save your work:</source>
-        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
           <source>Deploy and run in Azure</source>
-        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
           <source>Our app is finished <ph id="ph1">&amp;mdash;</ph> let's deploy it and see it work.</source>
-        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
           <source>Create an App Service app and configure it with application settings for our storage account connection string and container name.</source>
-        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
           <source>Get the storage account's connection string with <ph id="ph1">`az storage account show-connection-string`</ph> and set the name of the container to be <ph id="ph2">`files`</ph>.</source>
-        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
           <source>The app name needs to be globally unique, so you'll need to choose your own name to fill in <ph id="ph1">`&lt;your-unique-app-name&gt;`</ph>.</source>
-        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
           <source>Now we'll deploy our app.</source>
-        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
           <source>The below commands will publish the site to the <ph id="ph1">`pub`</ph> folder, zip it up into <ph id="ph2">`site.zip`</ph>, and deploy the zip to App Service.</source>
-        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
           <source>Make sure your shell is still in the <ph id="ph1">`mslearn-store-data-in-azure/store-app-data-with-azure-blob-storage/src/start`</ph> directory before running the following commands.</source>
-        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
           <source>Open <ph id="ph1">`https://&lt;your-unique-app-name&gt;.azurewebsites.net`</ph> in a browser to see the running app.</source>
-        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
           <source>It should look like the image below.</source>
-        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
           <source>Screenshot of the FileUploader web app</source>
-        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
           <source>Try uploading and downloading some files to test the app.</source>
-        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
           <source>After you've uploaded a few files, run the following in the shell to see the blobs that have been uploaded to the container:</source>
         </trans-unit></group></body></file></xliff>

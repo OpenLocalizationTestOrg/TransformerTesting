@@ -1,0 +1,35 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-summary.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-summary.3fe7d8.5b30bd0e4fbe7da0bd9c6e8e8284885eadde0120.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5b30bd0e4fbe7da0bd9c6e8e8284885eadde0120</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-logic-apps\includes\6-summary.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Our goal was to help you evaluate whether Logic Apps would be a good choice for your business process.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>We developed some criteria you can use to guide your decision:</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Integration</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Performance</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Conditionals</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Connectors</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You'd analyze your business process against each of these criteria.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The results should give you an idea of how close a match Logic Apps is to your needs.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>We applied these criteria to our fictional shoe company.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The analysis helped us see how difficult it would be to use Logic Apps for each process.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Both the <bpt id="p1">*</bpt>social-media monitor<ept id="p1">*</ept> and the <bpt id="p2">*</bpt>video archive utility<ept id="p2">*</ept> used only the built-in connectors.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This characteristic made them perfect for Logic Apps.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>online sales portal<ept id="p1">*</ept> required more work because it had complex conditionals and needed custom connectors.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The criteria help you evaluate your business processes.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>First, they let you assess how well Logic Apps will solve your problem.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Second, they give you an idea of the amount of effort involved.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This strategy takes some of the guesswork out of your decision of whether to use Logic Apps.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,165 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-knowledge-check.ae0b4e.cceefe18c297d6dec6b562977bc42eb831f958dd.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cceefe18c297d6dec6b562977bc42eb831f958dd</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\microsoft-approach-to-ai\6-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Knowledge Check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Knowledge Check</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>A knowledge check for the examine the Microsoft approach to AI module.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>The public relations division of a major European automobile manufacturer would like to gain an understanding of public perception of its company and products.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>The company has numerous social media accounts for all of their products and services.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Those accounts receive millions of comments from the public about their products every day.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>The PR Director would like to utilize Microsoft AI to summarize public opinion from social media and design marketing materials accordingly.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Which aspect of Azure Cognitive Services will provide what the PR Director wants?</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Vision Capabilities</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Vision Capabilities is designed to look at pictures or even handwritten forms and interpret or convert to text what is seen in the picture.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Knowledge Understanding</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Knowledge Understanding doesn’t summarize millions of comments.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>It builds a specific knowledgebase to form the basis of answers to questions that could be posed by users.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Text Analytics</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>The comments from social media are mostly text, Text Analytics fits here.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>It can determine the key points made in the comments and if they are positive or negative.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Expose Search</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Expose Search applies a Bing-type search to input from a user to provide relative information on that input.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>It does not summarize millions of comments.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>A company runs a call center for the sole purpose of answering customer questions.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Over the years, they have developed an extensive FAQ document, addressing most of the questions they receive at the call center.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>The COO of the company would like to use Microsoft AI to enhance the automated attendant to hear and answer questions over the phone.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Which aspect of Azure Cognitive Services can provide this functionality for the call center?</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Knowledge Understanding</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>The FAQ document could be read by the Knowledge Understanding service/Q&amp;A Maker Service.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>It would map the questions to the answers.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Then, when a caller asks a similar question, it would verbally give the answer.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Language Understanding</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Language Understanding looks at the text of different languages and tries to interpret the intent of the words.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>It doesn’t map questions to answers.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Expose Search</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Expose Search applies a Bing-type search to input from a user to provide relative information on that input.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>It doesn’t map questions to answers.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Vision Capabilities</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Vision Capabilities is designed to look at pictures or even handwritten forms and interpret or convert to text what is seen in the picture.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>A national cellular phone carrier operates an extensive wireless network all across North America.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Every cellular tower and communications center produces significant volumes of log data, recordings of all the activity for that location.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>The logs include calls, SMS messaging, errors, warnings, etc. It is all logged in a very cryptic and abbreviated format.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Across the entire network, about 10 terabytes of log data are aggregated each day.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>The company is required by law to store this log data for three years.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>They want to find a way to extract some useful information from all this data, such as usage patterns, error and critical failure patterns, etc.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Which Microsoft AI service can provide this?</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Cognitive Search</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Cognitive Search can apply knowledge mining techniques to large volumes of unstructured data like logs and extract useful information.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Expose Search</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Expose Search applies a Bing-type search to input from a user to provide relative information on that input.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>It is not designed to extract summarized information from large volumes of unstructured data.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>SaaS AI</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>SaaS AI is about infusing AI capabilities into software such as MS Word or LinkedIn’s resume writing service.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Machine Learning</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Machine learning can process tons of data but its purpose to predict results based on input.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>It needs some structure in the data to show which inputs produce certain outputs.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>The Inking feature of Windows 10 can read things drawn on the screen with a pen and interpret them into the letters/numbers/images intended by the artist.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Which type of Microsoft AI technology provides this functionality?</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Automated Machine Learning</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Automated Machine Learning enables users to create new models from scratch.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>The user just needs to provide the training data.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Windows 10 Inking is not a user-created AI model.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Language Understanding</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Language Understanding looks at the text of different languages and tries to interpret the intent of the words.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>SaaS AI</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>SaaS AI is AI embedded into software used every day, such as Windows, MS Office, or any other software product.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Ink is an example of AI infused into software.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Cognitive Search</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve" uid="learn-wwl.microsoft-approach-to-ai.knowledge-check">
+          <source>Cognitive Search can apply knowledge mining techniques to large volumes of unstructured data and extract useful information.</source>
+        </trans-unit></group></body></file></xliff>

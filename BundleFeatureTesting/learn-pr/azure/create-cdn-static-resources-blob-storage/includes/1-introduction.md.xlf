@@ -1,0 +1,37 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.3ef091.013bf4e29746ad77fae8dbc0f4951676fbfc572f.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">013bf4e29746ad77fae8dbc0f4951676fbfc572f</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-cdn-static-resources-blob-storage\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Azure Content Delivery Networks (CDNs) can help reduce latency and improve performance for high-bandwidth content.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Imagine you're the web administrator for a global company that produces and delivers online training videos.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Your videos are well rated by your users, and your company is expanding into new regions.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You want to ensure you maintain your high ratings as you expand.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If users experience slow page loads, or videos take a long time to start playing, your new target customers may rate your content poorly or not use your services at all.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Your site is hosted using Azure Blob storage's static website hosting feature.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>It's based on static content, where site content is only changed when new videos are published every few weeks.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This approach helps manage costs while still enabling your site to scale as the business grows.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You need to find a way to optimize the performance of your website and ensure your media assets, including large video files, download quickly and reliably.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Learning Objectives</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Configure a static website, hosted in Azure blob storage, to work with a CDN</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Verify content publishing, and content updating, through the CDN</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Identify the main configuration issues to consider when deploying a static site with CDN</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Manage CDN cache to control content update delivery and query string handling</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Experience with building and deploying static websites</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Familiarity with how web content is requested and delivered on the internet, including basics of the Domain Name System (DNS)</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,47 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-exercise-monitor-and-visualize-batch-job-in-batch-explorer.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-exercise-monitor-and-visualize-batch-job-in-batch-explorer.892593.40306943bb06f97b66caea2838001e057f5cddfb.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">40306943bb06f97b66caea2838001e057f5cddfb</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\run-parallel-tasks-in-azure-batch-with-the-azure-cli\includes\7-exercise-monitor-and-visualize-batch-job-in-batch-explorer.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The Batch Explorer lets you view the status of jobs in the Azure Batch service.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>As the solution architect, you'll need a way of visualizing the progress of large numbers of nodes and tasks being used to process water purification images in parallel.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Here, you will execute a job in Azure Batch and then use the Batch Explorer to view its progress.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The exercises in this module are optional.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To complete the exercises, you will need your own Azure subscription.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Use the Batch Explorer to analyze a job</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Using Azure Batch Explorer, you can see the Batch accounts you have in your account in the left-hand sidebar, and the status of pools, nodes, jobs, and tasks in the right.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For scenarios in which you may have hundreds or thousands of tasks running in various states of progress on hundreds or thousands of nodes, it will be crucial to visualize this information quickly and be able to drill down into the detail of any problems or areas of particular interest.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Sign into the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/)</ept>.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Open the Cloud Shell by clicking <bpt id="p1">**</bpt>&gt;_<ept id="p1">**</ept> in the top menu.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to create a new Azure Batch job, using the Batch account and pool you created in the previous exercise:</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In the portal, open your Batch account resource.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Go to the <bpt id="p1">**</bpt>Jobs<ept id="p1">**</ept> section under <bpt id="p2">**</bpt>Features<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Click on the active job.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A panel opens up showing the status of the job.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You haven't created any tasks and nothing is running so this panel will be empty.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to create new Azure Batch tasks, using the Batch account and pool you created in the previous exercise:</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This job consists of more tasks, each of which outputs all environment variables, and then waits 5 seconds.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Batch Explorer is  powerful for monitoring more numerous and longer-running tasks.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Go back to Batch Explorer.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Notice, in the top-right corner, tasks being queued, an indication of progress, and the number of tasks that have succeeded or failed.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Click on the refresh wheel to the right of the 'Filter by task ID' box.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>As tasks complete, details of the task including the exit code appear here.</source>
+        </trans-unit></group></body></file></xliff>

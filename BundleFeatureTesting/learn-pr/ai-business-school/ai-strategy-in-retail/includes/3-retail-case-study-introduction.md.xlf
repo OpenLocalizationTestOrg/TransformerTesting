@@ -1,0 +1,67 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-retail-case-study-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-retail-case-study-introduction.561634.d515b84e99eb0813b6ab5a4dd297460a3e06b96b.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d515b84e99eb0813b6ab5a4dd297460a3e06b96b</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\ai-strategy-in-retail\includes\3-retail-case-study-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Industry context</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Retail today is undergoing massive disruption.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Based on shifting demographics and the rise of online-first retailers, customer expectations and behaviors are changing rapidly.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Today, customers are shopping across many channels—in fact, 73% of shoppers report using multiple channels during their shopping journey.<bpt id="p1">&lt;sup&gt;</bpt>1<ept id="p1">&lt;/sup&gt;</ept></source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The emergence of multi-channel retailing has created new challenges for retailers.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>As customers shop across more channels, they expect their preferences to translate into deeply personalized and consistent experiences whether they’re in store, in browser, or in app.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Retailers understand this expectation, but struggle to ensure, for instance, that the offers and messaging a customer sees in their email are both personalized and consistent with what they see in-store and on the retailer’s website.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Making this expectation a reality represents a major opportunity for retailers: 44% of consumers say they would become repeat buyers after personalized experiences, but only 22% of consumers actually find their retail shopping experience to be highly personalized.<bpt id="p1">&lt;sup&gt;</bpt>2<ept id="p1">&lt;/sup&gt;</ept></source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Multi-channel retail also presents challenges for retail operations.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Many retailers lack visibility into inventory levels across channels, and supply chain and fulfillment are increasingly complex to manage.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This means, for instance, that many retailers are not able to reliably prevent loss of business from out-of-stock products: 70% of retailers desire the ability to accurately forecast future out-of-stocks but cannot do so today.<bpt id="p1">&lt;sup&gt;</bpt>3<ept id="p1">&lt;/sup&gt;</ept></source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Challenge</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Since 2009, Microsoft Corp. has served local communities and welcomed customers to Microsoft Store properties globally.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Microsoft Store—whether shopping in a physical store, online, or through your Xbox or Windows 10 device—is the first and best place to experience technology from Microsoft and its partners, featuring an assortment of innovative products and solutions to empower all of us to achieve more.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>One of Microsoft Store’s challenges around multi-channel retail has been an influx of data, particularly customer feedback.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This feedback is coming from many different sources (from online ratings and reviews to post-purchase surveys and in-store interactions), making it challenging for us to glean insights.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>But with challenge comes opportunity.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The explosion of new channels provides retailers like us with access to more data than ever before.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If harnessed at scale, this data could drive better customer experiences and enable retailers to manage their operations more effectively.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To drive scale and efficiency, we are turning to AI-based technology to unify disparate data channels and derive meaningful customer insight.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Strategy questions</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The following are questions you can use to start thinking about how to implement AI in your own retail organization.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Think critically about these questions before watching the executive perspective video and continuing on to the case study resolution.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>How do you anticipate applications of AI impacting the full lifecycle of a product?</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>How can you ensure customer insights are shared with the right stakeholders?</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>How can you incorporate best practices from your frontline store managers into your AI applications?</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>How can you use insights from AI to coach sales associates and drive improved performance?</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Do you know what your competitors are doing with AI?</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>How can you use AI to differentiate from your competitors?</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>How will you ensure buy-in from both executives and store managers to ensure AI is implemented successfully across the enterprise?</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>How will you prioritize competing objectives?</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For example, if gains in business efficiency came with the trade-off of a slightly lower-quality customer experience, would you accept that?</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Now that you’ve gained context on the challenges Microsoft Store faces today and considered critical questions to answer before implementing AI, watch the executive perspective video with David Porter, Head of Microsoft Store.</source>
+        </trans-unit></group></body></file></xliff>

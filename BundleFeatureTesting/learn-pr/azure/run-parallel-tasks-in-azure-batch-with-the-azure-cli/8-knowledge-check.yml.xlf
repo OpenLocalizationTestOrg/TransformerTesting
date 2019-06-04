@@ -1,0 +1,37 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="8-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8-knowledge-check.7a18bf.b28dc920987d64a41e9f55e8df2aa6a588ce71e4.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b28dc920987d64a41e9f55e8df2aa6a588ce71e4</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\run-parallel-tasks-in-azure-batch-with-the-azure-cli\8-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.run-parallel-tasks-in-azure-batch-with-the-azure-cli.knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.run-parallel-tasks-in-azure-batch-with-the-azure-cli.knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.run-parallel-tasks-in-azure-batch-with-the-azure-cli.knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.run-parallel-tasks-in-azure-batch-with-the-azure-cli.knowledge-check">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.run-parallel-tasks-in-azure-batch-with-the-azure-cli.knowledge-check">
+          <source>Once an Azure Batch account has been created, what is the next step to take in the workflow of setting up tasks to run on Azure Batch?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.run-parallel-tasks-in-azure-batch-with-the-azure-cli.knowledge-check">
+          <source>Sign in to the Batch account</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.run-parallel-tasks-in-azure-batch-with-the-azure-cli.knowledge-check">
+          <source>Signing in to the created Batch account is a prerequisite before any other tasks can be performed.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.run-parallel-tasks-in-azure-batch-with-the-azure-cli.knowledge-check">
+          <source>Create a pool of virtual nodes</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.run-parallel-tasks-in-azure-batch-with-the-azure-cli.knowledge-check">
+          <source>This action is impossible without logging in first.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.run-parallel-tasks-in-azure-batch-with-the-azure-cli.knowledge-check">
+          <source>Create a Batch job</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.run-parallel-tasks-in-azure-batch-with-the-azure-cli.knowledge-check">
+          <source>This action is impossible without logging in first.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.run-parallel-tasks-in-azure-batch-with-the-azure-cli.knowledge-check">
+          <source>Which component of Azure Batch allows tasks to be logically grouped together and have settings in common configured?</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.run-parallel-tasks-in-azure-batch-with-the-azure-cli.knowledge-check">
+          <source>Azure Batch account</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.run-parallel-tasks-in-azure-batch-with-the-azure-cli.knowledge-check">
+          <source>A Batch account cannot be a container for Batch tasks.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.run-parallel-tasks-in-azure-batch-with-the-azure-cli.knowledge-check">
+          <source>Azure Batch pool</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.run-parallel-tasks-in-azure-batch-with-the-azure-cli.knowledge-check">
+          <source>A Batch pool cannot be a container for Batch tasks.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.run-parallel-tasks-in-azure-batch-with-the-azure-cli.knowledge-check">
+          <source>Azure Batch job</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.run-parallel-tasks-in-azure-batch-with-the-azure-cli.knowledge-check">
+          <source>An Azure Batch job allows tasks to be logically grouped together and have settings in common configured.</source>
+        </trans-unit></group></body></file></xliff>

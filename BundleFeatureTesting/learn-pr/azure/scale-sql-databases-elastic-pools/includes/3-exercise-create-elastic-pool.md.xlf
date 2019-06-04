@@ -1,0 +1,61 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-exercise-create-elastic-pool.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-exercise-create-elastic-pool.7546a0.e3a7c1191873c3ad44421b24d8d613f45bf36a6d.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e3a7c1191873c3ad44421b24d8d613f45bf36a6d</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\scale-sql-databases-elastic-pools\includes\3-exercise-create-elastic-pool.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this exercise, we'll create two Azure SQL databases to represent two fitness locations, and then create a SQL elastic pool to manage two databases.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Create SQL servers</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>We'll start by creating a SQL server for our fitness databases and we'll add databases for two locations.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The steps use Vancouver and Paris but feel free to use other location names.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>First declare a few helper variables.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SERVERNAME variable will have a random number after the '-'.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Replace <ph id="ph1">`&lt;location&gt;`</ph> with one of the locations in the list below and replace <ph id="ph2">`&lt;password&gt;`</ph> with a complex password for the databases.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Create a server named <bpt id="p1">**</bpt>FitnessSQLServer-#<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Add a database named <bpt id="p1">**</bpt>FitnessVancouverDB<ept id="p1">**</ept> to <bpt id="p2">**</bpt>FitnessSQLServer-#<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Add a database named <bpt id="p1">**</bpt>FitnessParisDB<ept id="p1">**</ept> to <bpt id="p2">**</bpt>FitnessSQLServer-#<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Create a SQL elastic pool</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>We're ready to set up the resources for the SQL elastic pool.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>We'll switch to the portal to create the elastic pool.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Sign into the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept> using the same account you used to activate the sandbox.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Click on <bpt id="p1">**</bpt>+ Create a resource<ept id="p1">**</ept> and search for <bpt id="p2">**</bpt>SQL Elastic database pool<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>SQL Elastic database pool<ept id="p1">**</ept> result and then press the <bpt id="p2">**</bpt>Create<ept id="p2">**</ept> button on the next screen.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Give your new elastic pool a meaningful name such as <bpt id="p1">**</bpt>FitnessSQLPool<ept id="p1">**</ept>, and ensure the <bpt id="p2">&lt;rgn&gt;</bpt>[sandbox resource group name]<ept id="p2">&lt;/rgn&gt;</ept> resource group is selected.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Server<ept id="p1">**</ept> section, ensure your existing <bpt id="p2">**</bpt>FitnessSQLServer-#<ept id="p2">**</ept> server is selected.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>Create<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The SQL elastic pool may take several minutes to provision.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Add existing databases to the elastic pool</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Open your newly created SQL elastic pool in the Azure portal and navigate to the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> section.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Note there are currently no databases in the pool.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Configure<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>Settings<ept id="p2">**</ept> section.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Databases<ept id="p1">**</ept> tab.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>+ Add databases<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Select the databases for both locations.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Apply<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Congratulations, you've successfully added databases to a SQL elastic pool.</source>
+        </trans-unit></group></body></file></xliff>

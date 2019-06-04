@@ -1,0 +1,15 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.0f8390.2a4b4992c58883ec12237f9a608dfa2af50876fc.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2a4b4992c58883ec12237f9a608dfa2af50876fc</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\paths\ai-business-school-healthcare\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.ai-business-school-healthcare">
+          <source>AI business school for healthcare</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.ai-business-school-healthcare">
+          <source>Decision-makers in healthcare have considerations that are particular to their industry to help them realize the true transformational impact of AI in the enterprise.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.ai-business-school-healthcare">
+          <source>This learning path is designed for healthcare industry decision-makers to illustrate the true transformational impact of AI in the enterprise.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.ai-business-school-healthcare">
+          <source>AI business school for healthcare</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.ai-business-school-healthcare">
+          <source>Decision-makers in healthcare have considerations that are particular to their industry to help them realize the true transformational impact of AI in the enterprise.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.ai-business-school-healthcare">
+          <source>This learning path is designed for healthcare industry decision-makers to illustrate the true transformational impact of AI in the enterprise.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.ai-business-school-healthcare">
+          <source>None</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.c629a5.ad0ffc7872b425df02c4bc2af9686bcda61f04d0.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ad0ffc7872b425df02c4bc2af9686bcda61f04d0</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-mobile-app-service\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Implementing backend services for mobile applications can be challenging because you often need a variety services to support your users.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The services you need to protect the customer data include: data storage, user authentication, data synchronization from client devices, and the ability to send notifications to variety of mobile device types.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Implementing all of these services individually is time consuming and potentially challenging.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Azure Mobile Apps in Azure App Service simplifies data management, authentication, and notifications to support client applications running on mobile devices.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Suppose you're working at startup that's creating mobile apps to coordinate, schedule, and join local sports events.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You want to provide a mobile client that runs on all modern mobile devices, but you need to be able to store event data in a secure, accessible location, that allows users to save and edit preferences.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You want your users to be able to use any of their devices to access your service, not just the device they used to sign up.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Finally, you want to be able to send notifications to your users to let them know about local events that match their preferences.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Here, you'll see how Azure Mobile Apps in Azure App Service can simplify creating a complete mobile app backend to support your mobile client applications.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Understand when to use Mobile Apps in Azure App Service based on the needs of your mobile client apps</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Describe how the components of Mobile Apps in Azure App Service work to support mobile client apps</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Basic knowledge of Azure App Service</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Basic knowledge of REST services and APIs</source>
+        </trans-unit></group></body></file></xliff>

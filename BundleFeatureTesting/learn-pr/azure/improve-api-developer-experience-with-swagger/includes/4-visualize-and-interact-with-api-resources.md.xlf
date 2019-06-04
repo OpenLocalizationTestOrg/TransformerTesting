@@ -1,0 +1,51 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-visualize-and-interact-with-api-resources.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-visualize-and-interact-with-api-resources.c417bc.69e5ee6437f6961a015b74a80d2cb80f85ea59c1.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">69e5ee6437f6961a015b74a80d2cb80f85ea59c1</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\improve-api-developer-experience-with-swagger\includes\4-visualize-and-interact-with-api-resources.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The Swagger UI allows you to interact and visualize an API's resources without requiring access to the source code.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The graphical representation of your API is automatically generated from your Swagger/OpenAPI specification, and makes it easier for other developers to build applications that consume your APIs.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The Swagger UI visualizes operations and methods clearly, as shown in the image below.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Operations of API in Swagger UI</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The Swagger also UI allows you to interact and even try out each operation.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Interaction with API Operation in Swagger UI</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Automatically creating your API documentation with Swagger and Swashbuckle can really help third parties to understand your API’s resources.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>But what if you wanted to go a little further and provide even more detailed information?</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If you're using an API for the first time, you want as much information as possible.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>XML comments</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can create documentation for your code by including XML Comments.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You would typically place these comments directly before the code block about which you're commenting.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Here's the XML nodes in use:</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>summary: A high-level summary of what the method/class/field is or does.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>remarks: Additional detail about the method/class/field.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>param: A parameter to the method, and what it represents.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>returns: A description of what the method returns.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Swagger will automatically include your XML documentation comments in the API documentation, and allow you to view it in Swagger UI.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Image showing Swagger UI and added XML Comments</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Data annotations</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>It's the same with data annotations!</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Just add an annotation to your model, and Swagger will extend the API documentation to include it.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For example, if you add the following annotation to a controller:</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>... you'll see the added information in Swagger UI!</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Image showing Swagger UI with added content type added to annotations</source>
+        </trans-unit></group></body></file></xliff>

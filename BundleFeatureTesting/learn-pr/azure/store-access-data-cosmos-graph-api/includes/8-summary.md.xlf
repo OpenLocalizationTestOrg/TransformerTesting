@@ -1,0 +1,22 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="8-summary.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8-summary.14caec.e4b727d9723475ef78ebf4cd141f6f33dfb7f482.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e4b727d9723475ef78ebf4cd141f6f33dfb7f482</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\store-access-data-cosmos-graph-api\includes\8-summary.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this module, you learned about Graph Databases and their uses, and how to create an application that uses Cosmos DB as a graph database.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You also learned how to store, retrieve, and manipulate graph data and visualize it using the Data Explorer in the Azure portal.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You've learned how to:</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Determine if a graph database fits the data needs of your application</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Store data in a graph database from an application using the Gremlin API</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Query data in a graph database from an application using the Gremlin API</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Further reading</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Introduction to Azure Cosmos DB: Gremlin API<ept id="p1">](https://docs.microsoft.com/azure/cosmos-db/graph-introduction)</ept></source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Quickstart: Create, query, and traverse an Azure Cosmos DB graph database using the Gremlin console<ept id="p1">](https://docs.microsoft.com/azure/cosmos-db/create-graph-gremlin-console)</ept></source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Tutorial: Query Azure Cosmos DB Gremlin API by using Gremlin<ept id="p1">](https://docs.microsoft.com/azure/cosmos-db/tutorial-query-graph)</ept><ph id="ph1">
+-</ph><bpt id="p2">[</bpt>Source: Gremlin.Net<ept id="p2">](https://github.com/apache/tinkerpop/tree/master/gremlin-dotnet)</ept></source>
+        </trans-unit></group></body></file></xliff>

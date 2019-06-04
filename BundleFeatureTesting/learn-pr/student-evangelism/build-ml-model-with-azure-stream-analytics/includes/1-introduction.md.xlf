@@ -1,0 +1,45 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.41343f.f3d758d3ad2ac1ed21e7907c782c7e678960be28.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f3d758d3ad2ac1ed21e7907c782c7e678960be28</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\student-evangelism\build-ml-model-with-azure-stream-analytics\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Imagine you are the leader of a group of climate scientists who are concerned about the polar-bear population in the Arctic.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>As such, your team has placed hundreds of motion-activated cameras at strategic locations throughout the region.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Picture of a polar bear in the arctic</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Rather than manually examine each photograph to determine if it contains a polar bear, you have been challenged to devise an automated system that processes data from these cameras in real time and displays an alert on a map when a polar bear is photographed.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You need a solution that incorporates real-time stream processing to analyze raw data for potential sightings, and one that incorporates artificial intelligence (AI) and machine learning to determine with a high degree of accuracy whether a photo contains a polar bear.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>And you need it fast, because climate change won't wait.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Azure provides all the services and features you need to build a solution for this problem including storage capabilities for photographs, live stream analytics, image classifications with Microsoft Cognitive services, and data visualization with Power BI.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Learning Objectives</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Create an Azure Storage account and an IoT hub and use a Node.js app to connect them to a simulated camera</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Use Azure Stream Analytics to run queries on live streams to analyze input and an Azure Function to return output</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Use Microsoft Cognitive Services to train an image classification model and call the model from an app or service</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Connect Power BI to an Azure SQL database and visualize data from the database</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This module is highly interactive - you will be performing steps in the Azure portal and Azure Cloud Shell in every unit.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>It's also longer than most Microsoft Learn modules as it's intended to walk you through building a full end-to-end solution using several Azure services together.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You will need an Azure subscription to complete this module.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To get more focused learning on each of the components used in this module, make sure to check out other modules which cover independent services and provide more depth about creating and using them.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>An Azure subscription</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A basic knowledge of Azure services, the Azure portal, and the Azure CLI tools</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Familiarity with Node.js</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Power BI Desktop<ept id="p1">](https://powerbi.microsoft.com/desktop/)</ept></source>
+        </trans-unit></group></body></file></xliff>

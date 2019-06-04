@@ -1,0 +1,121 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-exercise-create-an-api-gateway.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-exercise-create-an-api-gateway.267af6.68c102fc018ff5445aa68f5b3b2fd6d2181364b9.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">68c102fc018ff5445aa68f5b3b2fd6d2181364b9</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\publish-manage-apis-with-azure-api-management\includes\3-exercise-create-an-api-gateway.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>To share an API, you must first configure an API gateway.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In the shoe company example, NorthWind Shoes have decided to share an inventory API with partners.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This API enables partners to access inventory and product information.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Here, you'll create an API gateway to publish an inventory app that exposes an OpenAPI endpoint.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Deploy the ShoeCompany Web API</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You have developed a .NET Core app that generates inventory and product information.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The app includes Swashbuckle to generate OpenAPI Swagger documentation.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To save time, let's start by running a script to host our RESTful API in Azure.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The script performs the following steps:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Create an Azure App Service plan in the free tier</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Create a Web API within an Azure App Service, configured for Git deployment from a local repo</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Set account-level deployment credentials for our app</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Configure Git locally</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Deploy our Web API to our App Service instance</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Run the following git clone command in the Cloud Shell to clone the repo that contains the source for our app, as well as our setup script from GitHub.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Navigate into the repo folder locally by running the following cd command.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>As its name suggests, setup.sh is the script we'll run to create our test API.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This will generate a public web app that exposes an OpenAPI interface</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The script takes about a minute to run.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>When the script finishes, it will display two URLs that you can use to test the app deployment.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Observe that during deployment, all dependencies needed for our app to run are automatically installed on the remote App Service.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To test that our app deployed correctly, firstly copy and paste the first URL from the Cloud Shell output into your favorite browser.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The browser should display the swagger UI for our app and declare the following RESTful endpoints</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>api/inventory<ept id="p1">**</ept>, which generates a list of products and the number in stock</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>api/inventory/{productid}<ept id="p1">**</ept>, which returns the number in stock for the specified productid (an integer)</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>api/Products<ept id="p1">**</ept>, which generates a list of products</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>api/Products/{productid}<ept id="p1">**</ept>, which returns the details for the specified productid</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Overview of API management</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Finally, copy the last URL from the Cloud Shell output, this is the swagger JSON URL, you will need this in the next exercise</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Deploy an API gateway</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The final step in this exercise is to create an API gateway in the Azure portal.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>In the next exercise, you'll use this gateway to publish your API.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Sign into the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept> using the same account you activated the sandbox with.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In the left menu, click <bpt id="p1">**</bpt>+ Create a resource<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Integration<ept id="p1">**</ept>, and then click <bpt id="p2">**</bpt>API management<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>API Management service<ept id="p1">**</ept> page, enter the following details:</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Details</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Name<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`apim-NorthWindShoes&lt;random number&gt;`</ph>; the random number is to ensure that the name is globally unique.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Subscription<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Concierge Subscription</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resource group<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Select the existing resource group <bpt id="p1">**</bpt><bpt id="p2">&lt;rgn&gt;</bpt>[sandbox resource group name]<ept id="p2">&lt;/rgn&gt;</ept><ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Location<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Select from one of the following: North Central US, West US, West Europe, North Europe, Southeast Asia, and Australia East.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The Consumption tier used in this exercise is only available in these regions.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Organization Name<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`NorthWindShoes`</ph>.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This name is used to identify your resources in the developer portal.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Administrator Email<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This address is used for system notifications, and defaults to your Azure account email address.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Pricing Tier<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Consumption (preview)`</ph>.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Note: You're using the consumption plan because it is much faster to create whilst testing.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The overall experience is very similar to the other pricing tiers.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Create<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Deployment may take several minutes.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>You'll get a message to your specified email address when the deployment has completed.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>You'll also see the gateway listed in Azure resources.</source>
+        </trans-unit></group></body></file></xliff>

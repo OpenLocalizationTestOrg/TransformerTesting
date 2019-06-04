@@ -1,0 +1,115 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-knowledge-check.13934c.143628681251927c5a873f1fac96ecc4a3c9e051.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">143628681251927c5a873f1fac96ecc4a3c9e051</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\foster-ai-ready-culture-sales\5-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Knowledge Check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Knowledge Check</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>A knowledge check for the discover how to foster an AI-ready culture in sales module.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>When the Microsoft  sales team implemented AI technology into their operations, what is one thing they did to foster a change in culture to utilize AI tools?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Aggregated all sources of data for a comprehensive view.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>This is part of the implementation phase of the AI project.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Brought the organization’s AI maturity up to a higher level.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>This is more a result of a culture change, not a cause of culture change.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Ensured that the voices of sales employees were heard.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>One of the guiding questions recommended for planning an AI project for sales is: How will you ensure the voices of all your sales employees are heard in developing and implementing AI?</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Showed employees how AI can reduce time to close a sale.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>This does not improve the culture.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Based on the experience of Microsoft sales in implementing AI technology into their operations, what must be done to properly implement AI into an organization’s business operations?</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Aggregate all relevant information and make it available to AI tools.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>It is critical to break all relevant data out of silos and allow the AI tools to access and analyze it.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Bring the organization’s AI maturity up to the highest level.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>This is more a result of a culture change, not a cause of culture change.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Bring developers, IT, and sales leadership together to focus on goals.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>It is sales staff who need to be empowered and team up with AI experts to implement the solution.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Plan a strategy at the beginning of the project and follow it to the end.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>This was not listed in the case study and may not actually be good advice if the initial strategy happens to be flawed.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>When the Microsoft sales team undertook a project to implement AI technology in their operations, what was the ultimate result they wanted to achieve?</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Demonstrate the effectiveness of Microsoft AI technology.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>This project was about improving sellers’ attention to customers.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Improve the AI skills of the sellers.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>This was not the specified goal of the AI project.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Increase the time sellers can spend with their customers.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Quote from Jean-Phlippe Courtois: “All the tools have been designed with the end users in mind.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>We have reduced the need for boring time consuming tasks, like forecasting, as well as the need for daily team meetings, and increased the time people can spend with their customers.”</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Increase the AI maturity level of the sales organization.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>This is a positive by-product of the project but not the stated goal.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>To achieve the goals of their AI technology implementation strategy, what did the Microsoft global sales organization do?</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Conducted training for sellers on AI tools.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Rather than train each seller, the Daily Recommender gives them all the power of AI in one app.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Developed an AI-based guided selling application.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Quote: “We implemented an AI-based guided selling application, the Daily Recommender, which provides sellers with data-driven insights and actionable product recommendations to help attain quota, resulting in higher conversion rates and increased seller productivity.”</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Designated sellers from each region to form an AI task force.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Current sellers were utilized in the planning and implementation but such a task force was not organized in this way.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Implemented the AI technology with the greatest sales potential to give sellers firsthand experience using the technology they were going to be selling to customers.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-sales.knowledge-check">
+          <source>This may be a good idea from a sales point of view but they actually implemented AI technology with the most potential to reduce time spent on administrative tasks.</source>
+        </trans-unit></group></body></file></xliff>

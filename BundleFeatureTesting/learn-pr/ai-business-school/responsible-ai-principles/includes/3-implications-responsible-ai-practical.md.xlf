@@ -1,0 +1,97 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-implications-responsible-ai-practical.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-implications-responsible-ai-practical.b5d4aa.0a361e2a82e806f20e54de0ad4efc8d37eb70428.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0a361e2a82e806f20e54de0ad4efc8d37eb70428</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\responsible-ai-principles\includes\3-implications-responsible-ai-practical.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The transformative potential of AI</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>AI is the defining technology of our time.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>It is already enabling faster and more profound progress in nearly every field of human endeavor and helping to address some of society’s most daunting challenges—like providing remote students with access to education and helping farmers produce enough food for our growing global population.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>At Microsoft, we believe that the computational intelligence of AI should be used to amplify the innate creativity and ingenuity of humans.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Our vision for AI is to empower every developer to innovate, empower organizations to transform industries, and empower people to transform society.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Societal implications of AI</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>But as with all great technological innovations in the past, the use of AI technology will have broad impacts on society, raising complex and challenging questions about the future we want to see.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>AI will have implications on decision-making across industries, data security and privacy, and the skills people need to succeed in the workplace.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>As we look to this future, we must ask ourselves: How do we design, build, and use AI systems that create a positive impact on individuals and society?</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>How can we best prepare workers for the impact of AI?</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>How can we attain the benefits of AI while respecting privacy?</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The importance of a responsible approach to AI</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>It’s important to recognize that as new intelligent technology emerges and proliferates throughout society, with its benefits will come unintended and unforeseen consequences, some with significant ethical ramifications and the potential to cause serious harm.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>While enterprises can’t predict the future just yet, it’s our responsibility to make a concerted effort to anticipate and mitigate the unintended consequences of the technology we release into the world through deliberate planning and continual oversight.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Novel threats</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>We were reminded of this responsibility two years ago when we released a chitchat bot on Twitter called Tay.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>We taught Tay to learn unsupervised from interactions with Twitter users, so she could better replicate human communication and personality traits.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>However, within 24 hours users realized that she could learn and began to feed her bigoted rhetoric, turning her from a polite bot into a vehicle for hate speech.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This experience taught us that while technology may not be unethical on its own, people do not always have good intentions and we must consider the human element when designing AI systems.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>We learned to prepare for new types of attacks that influence learning datasets, especially for AI systems that have automatic learning capabilities.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To help ensure a similar experience does not happen again, we developed technology such as advanced content filters and introduced supervisors for AI systems with automatic learning capabilities.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Biased outcomes</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Another unintended consequence that enterprises should keep in mind is that AI may reinforce societal or other biases without deliberate planning and design.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For example, Microsoft partnered with a large financial lending institution to develop a risk scoring system for loan approvals.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>We trained an existing industry model using the customer’s data.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>When we conducted an audit of the system, we discovered that while it only approved low-risk loans, all approved loans were for male borrowers.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The training data reflected the fact that loan officers historically favor male borrowers—and inspecting the system allowed us to identify and address that bias before the system was deployed.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>It’s important for developers to understand how bias can be introduced into either training data or machine learning models.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>At Microsoft, our researchers are exploring tools and techniques for detecting and reducing bias within AI systems.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Find this and more in the resources section of this module.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Sensitive use cases</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Another illustration of our responsibility to mitigate unintended consequences is with sensitive technologies like facial recognition.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Recently, there has been a growing demand for facial recognition technology, especially from law enforcement organizations who see the potential of the technology in uses like finding missing children.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>However, we recognize that these technologies could potentially be used by a government to put fundamental freedoms at risk by, for example, enabling continuous surveillance of specific individuals.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>We believe society has a responsibility to set appropriate boundaries for the use of these technologies, which includes ensuring governmental use of facial recognition technology remains subject to the rule of law.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>While we believe that new laws and regulations are indispensable, we also recognize that they are not a substitute for the responsibility that needs to be exercised by companies engaging with AI.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This is why, in July 2018, we announced that we would assess and develop principles to govern our work with facial recognition technologies.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>We anticipate these principles will evolve over time as we continue to learn and partner with customers, other tech companies, academics, civil society, and others on this issue.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Review them in the summary section of this module.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Facial recognition technology highlights the importance of preparing for and remaining vigilant of shortcomings and unintended consequences with all emerging AI.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>We consider it a shared responsibility across the public and private sector to engage with AI responsibly.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>It’s essential that we continue to foster open dialogue among businesses, governments, NGOs (Non-Governmental Organizations), academic researchers, and all other interested individuals and organizations.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Applying these ideas in your organization</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The following three questions can help you start to consider the ways your organization can develop and deploy AI in a responsible manner.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>How can you use a human-led approach to drive value for your business?</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>How will your organization’s foundational values affect your approach to AI?</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>How will you monitor AI systems to ensure they are evolving responsibly?</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Next, let’s explore some of the steps Microsoft is taking to prioritize responsible AI in hopes that our experience can help as you consider these questions for your own organization.</source>
+        </trans-unit></group></body></file></xliff>

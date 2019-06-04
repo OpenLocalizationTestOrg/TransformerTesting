@@ -1,0 +1,81 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-add-blob-metadata-using-azure-tools-and-code.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-add-blob-metadata-using-azure-tools-and-code.3d5d52.ac7d76d04bfda29ee2553fbd897ed34ec93912d6.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ac7d76d04bfda29ee2553fbd897ed34ec93912d6</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\organize-blobs-properties-metadata\includes\5-add-blob-metadata-using-azure-tools-and-code.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In addition to retrieving properties, there are several ways to update metadata.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You can use the Azure portal, command-line, and programmatic methods for reading and writing this data.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Using the chemical company scenario, you want to be able to identify whether a record has been included in a safety report, so you need to analyze the available methods for setting a flag on each document when it is retrieved.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In this unit, you will review the primary methods for setting this type metadata and the steps that are required to implement this functionality.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Azure portal</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Using the Azure portal, you can add and edit container and blob metadata.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Sign in to the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com)</ept>, and click <bpt id="p2">**</bpt>Storage Accounts<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Blob service<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>Blobs<ept id="p2">**</ept> and select a container.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>On the left, click <bpt id="p1">**</bpt>Metadata<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Enter a text string in the <bpt id="p1">**</bpt>KEY<ept id="p1">**</ept> and <bpt id="p2">**</bpt>VALUE<ept id="p2">**</ept> boxes, and then click <bpt id="p3">**</bpt>Save<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>On the left, click <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Click a blob.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Metadata<ept id="p1">**</ept> section, enter a text string in the <bpt id="p2">**</bpt>KEY<ept id="p2">**</ept> and <bpt id="p3">**</bpt>VALUE<ept id="p3">**</ept> boxes, and then click <bpt id="p4">**</bpt>Save<ept id="p4">**</ept>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Azure Powershell</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can use Powershell to add and edit metadata for containers and Blobs, and the commands that you use for viewing metadata are similar to the commands you used to view properties.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A key thing to remember is that you must use the <ph id="ph1">`SetMetadata()`</ph> method to write your changes to the container or blob.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Here's an example set of commands for adding metadata for a blob called <bpt id="p1">**</bpt>hazard-tests.docx<ept id="p1">**</ept>, and for the blob's parent container called <bpt id="p2">**</bpt>safety-reports<ept id="p2">**</ept>:</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Azure CLI</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can also use Azure CLI to add and edit metadata for blobs and containers.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Below are some main cmdlets you can use:</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>When you update metadata, you are also overwriting any existing key-value pairs.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>So if you want to add metadata, rather than replacing existing data, you must first save the current metadata.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The following example updates the metadata of a container called <bpt id="p1">**</bpt>safety-reports<ept id="p1">**</ept>, in the <bpt id="p2">**</bpt>treyresearch<ept id="p2">**</ept> storage account:</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The following example updates the metadata stored with the <bpt id="p1">**</bpt>hazard-tests.docx<ept id="p1">**</ept> blob:</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>C# (.NET)</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>In your project, import the <ph id="ph1">`Microsoft.Azure.Storage.Blob`</ph> package using NuGet.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Add the following <ph id="ph1">`using`</ph> directives to your code:</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The Azure SDK enables you to add metadata for <ph id="ph1">`CloudBlockBlob`</ph> and <ph id="ph2">`CloudBlobContainer`</ph> objects using the <ph id="ph3">`Metadata.Add`</ph> and  <ph id="ph4">`SetMetadataAsync`</ph> methods.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The following code shows how to use the <ph id="ph1">`SetMetadataAsync`</ph> method to update the metadata for a container:</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The following code shows how to use the <ph id="ph1">`SetMetadataAsync`</ph> method to update the metadata for a blob:</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For example, if you want to create a report covering all safety documents that have been issued recently, you could call this code for all blobs that have a <ph id="ph1">`LastModified`</ph> date within the last three months.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>REST</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Using the REST API you can retrieve properties and metadata using HTTP PUT requests.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For a container, use this syntax:</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>In the list of HTTP headers, you would include the following header:</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>For a blob, use this syntax:</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>In the list of HTTP headers, you would include the following header:</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>In the next unit, you will use the knowledge you have gained in this unit to set and retrieve metadata.</source>
+        </trans-unit></group></body></file></xliff>

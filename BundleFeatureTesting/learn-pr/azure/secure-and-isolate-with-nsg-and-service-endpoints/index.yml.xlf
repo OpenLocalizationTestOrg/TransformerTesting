@@ -1,0 +1,25 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.520867.5ed47505f6beb6b079551673bc81961c10e70e23.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5ed47505f6beb6b079551673bc81961c10e70e23</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\secure-and-isolate-with-nsg-and-service-endpoints\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.secure-and-isolate-with-nsg-and-service-endpoints">
+          <source>Secure and isolate access to Azure resources using network security groups and service endpoints</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.secure-and-isolate-with-nsg-and-service-endpoints">
+          <source>Learn to use the Azure virtual network features of network security groups and service endpoints to ensure your virtual machines and Azure services are secured from unauthorized network access.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.secure-and-isolate-with-nsg-and-service-endpoints">
+          <source>Secure and isolate access to Azure resources using network security groups and service endpoints</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.secure-and-isolate-with-nsg-and-service-endpoints">
+          <source>Network security groups and service endpoints ensure that your virtual machines and Azure services are secured from unauthorized network access.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.secure-and-isolate-with-nsg-and-service-endpoints">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.secure-and-isolate-with-nsg-and-service-endpoints">
+          <source>Identify the capabilities and features of network security groups</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.secure-and-isolate-with-nsg-and-service-endpoints">
+          <source>Identify the capabilities and features of virtual network service endpoints.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.secure-and-isolate-with-nsg-and-service-endpoints">
+          <source>Use network security groups to restrict network connectivity</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.secure-and-isolate-with-nsg-and-service-endpoints">
+          <source>Use virtual network service endpoints to control network traffic to and from Azure services</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.secure-and-isolate-with-nsg-and-service-endpoints">
+          <source>Knowledge of basic networking concepts, including subnets and IP addressing</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.secure-and-isolate-with-nsg-and-service-endpoints">
+          <source>Basic familiarity with Azure services, specifically Azure SQL Database and Azure Storage Accounts</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.secure-and-isolate-with-nsg-and-service-endpoints">
+          <source>Familiarity with Azure virtual machines and virtual networking</source>
+        </trans-unit></group></body></file></xliff>

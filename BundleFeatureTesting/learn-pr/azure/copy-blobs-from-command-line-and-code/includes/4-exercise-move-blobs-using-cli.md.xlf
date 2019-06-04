@@ -1,0 +1,73 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-exercise-move-blobs-using-cli.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-exercise-move-blobs-using-cli.50b4c6.e0ee217c31db0b9e865a56f0796b2f88418916da.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e0ee217c31db0b9e865a56f0796b2f88418916da</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\copy-blobs-from-command-line-and-code\includes\4-exercise-move-blobs-using-cli.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You can use the Azure CLI to move blobs from one storage account to another.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You can perform the move as a batch operation if you have many blobs.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Additionally, you can apply the <ph id="ph1">`--if-unmodified-since`</ph> parameter if you only want to copy blobs that haven't changed recently.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In the example scenario, you want to move blobs that contain the details for product specifications, and that are more than six months old, to an archive store in a separate blob storage account.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can use a <bpt id="p1">**</bpt>Cool<ept id="p1">**</ept> storage account for this purpose; it's more cost effective for holding rarely accessed files than keeping them in <bpt id="p2">*</bpt>Hot<ept id="p2">*</ept> storage.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In this exercise, you'll use the Azure CLI to migrate blobs that haven't changed in the last six months to a separate storage account.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Create and add data to hot storage</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Create environment variables for your storage account name and region.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Replace <ph id="ph1">&lt;location&gt;</ph> with a region from the list above.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Next, run the following command to create a storage account to hold blobs.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Obtain the keys for your storage account.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Create an environment variable for your account key; use the value of the first key retrieved by the previous command:</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Create a container named <bpt id="p1">*</bpt>specifications<ept id="p1">*</ept> in your storage account:</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Run the following command to download the sample files for this exercise:</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Upload the files to your storage account and save each one as a blob.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This command uploads a number of specification files.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Verify that the blobs have been created:</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Create a Cool storage account</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Now we'll create a second storage account and move data between accounts.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Create an environment variable for your cool storage account name.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Create a storage account for holding the archived blobs.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>Cool<ept id="p1">**</ept> access tier.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>As before, specify an appropriate region, and choose a unique name for your storage account:</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Obtain the keys for your storage account.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Create an environment variable for the cool account key; use the value of the first key retrieved by the previous command:</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Create a container named <bpt id="p1">*</bpt>archived-specifications<ept id="p1">*</ept> in your storage account.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Provide the name of the destination storage account and key as parameters to this command, otherwise the container will be created in the source storage account:</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Verify that the destination container is empty; the following command shouldn't display any output:</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Copy blobs to Cool storage</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Batch-copy the blobs from the specifications container in the source storage account to the archived-specifications container in the destination storage account.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`--dryrun`</ph> flag to see which blobs will be copied, without actually copying them.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Review the list of blobs to copy.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Repeat the blob copy command, but specify one of the DOC files that was created more recently.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Use the same value for <bpt id="p1">*</bpt><ph id="ph1">\&lt;</ph>modified date&gt;<ept id="p1">*</ept> that you used in the previous step.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This date is before the DOC blob was created, so it shouldn't be copied.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Run the following command and verify that the blobs have been copied to the destination container:</source>
+        </trans-unit></group></body></file></xliff>

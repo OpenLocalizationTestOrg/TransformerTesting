@@ -1,0 +1,189 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="design-doc.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">design-doc.310403.df00de1f3b61258115bad5d6755623da5496d000.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">df00de1f3b61258115bad5d6755623da5496d000</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\run-parallel-tasks-in-azure-batch-with-the-azure-cli\resources\design-doc.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Module Design</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Title</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Run parallel tasks in Azure Batch with the Azure CLI</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Role(s)</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Developer</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Level</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Beginner</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Product(s)</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Azure</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Azure Batch</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Azure CLI</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Familiarity with Azure and the Azure CLI</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Azure Batch is an Azure service that enables you to run large-scale parallel and high-performance computing (HPC) applications efficiently in the cloud.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>There's no need to manage or configure infrastructure.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Just schedule the job, allocate the resources you need and let Batch take care of the rest.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Create an Azure Batch job in the Azure CLI</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Run an Azure Batch job in the Azure CLI</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Check status and results of Batch job in Azure CLI</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Monitor a Batch job with Batch Explorer</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Chunk your content into subtasks</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Subtask</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>What part of the introduction scenario does this subtask satisfy?</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>How will you assess it: <bpt id="p1">**</bpt>Exercise or Knowledge check<ept id="p1">**</ept>?</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Which learning objective(s) does this help meet?</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Does the subtask have enough learning content to justify an entire unit?</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If not, which other subtask will you combine it with?</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Design an Azure Batch job to run your parallel task</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Maps parallel task to Batch concepts</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Knowledge Check</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>1</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Create an Azure Batch job to run your parallel task</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Creates a Batch job using the CLI</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Exercise</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>2</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Monitor your Azure Batch job in the CLI</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Use CLI commands to check job status and download results</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Exercise</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>3</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Monitor and visualize your batch job in Batch Explorer</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Use Batch Explorer to monitor running tasks</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Exercise</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>4</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Outline the units</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Introduction<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>You're a software developer in a non-profit whose mission is to give every human on the planet access to clean water.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>To reach this goal, every citizen is asked to take a picture of their water purification meter and text it to you.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Each day, you have to scan picture from over 500,000 households, and  record each reading against the sender phone number.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The data is used to detect water quality trends and to dispatch the mobile water quality team to investigate the worst cases across each region.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Time is of the essence, but processing each image with Optical Character recognition is time intensive.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>With Azure Batch, you can scale out the amount of compute needed to handle this task on a daily basis, saving your non-profit the expense of fixed resources.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>What is Azure Batch?<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Introduce the world of compute-intensive tasks, parallel workloads.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Describe the characteristics of an Azure Batch workload design - pools, nodes, jobs and tasks.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Show a workflow of how a job is run on a pool, data inputs, outputs etc.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Design an Azure Batch job to run your parallel task<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Describe a sample scenario, with two or three tasks</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Explain how/why the tasks in the scenario can be run in parallel, making it a good candidate for Batch</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Map it to an Azure Batch implementation</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Re-iterate some advantages of the Batch approach and service.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Exercise - Create an Azure Batch job in the CLI to run your parallel task<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Introduce the <ph id="ph1">`az batch`</ph> command set</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Walk learner through steps to setup the job described in the preceding unit.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Run job, do not delete because we'll use it in following units</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Exercise  - Monitor your Azure Batch job in the CLI<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Describe monitor and file download commands</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Show these commands in action with job in preceding unit - re-run job if necessary</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Visualize batch jobs with the Batch Explorer<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Introduce Batch Explorer</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Explain how to install it</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Exercise - Monitor and visualize your batch job in Batch Explorer<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Same job as in unit 4 above, this time run it with more tasks.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Show how to monitor the tasks in <bpt id="p1">**</bpt>jobs<ept id="p1">**</ept> panel</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Summary<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Benefits of Azure Batch</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Why CLI is a good choice for running jobs - perhaps mention other options</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Batch Explorer as another useful too</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Resources for further reading</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Notes</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>This module is an "intro to Azure Batch using the CLI".</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Assume no knowledge of Azure Batch, but some knowledge of Azure, the Azure portal, Azure CLI and what it means to run tasks in parallel.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>As of this writing, we still need to verify whether the sandbox will support running Azure Batch jobs.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>If not, the mitigation plan would be to make this a module that requires a developer to have their own subscription.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>However, the target option is that everything runs in the sandbox.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>We're trying  to teach the concept of Azure Batch, so a simple pool with two or three compute nodes will suffice.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Demonstrating that three tasks that take 20 seconds to complete, complete in a total of 20 seconds and not 60 seconds would show parallelism.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>A stretch goal is to introduce the Batch Explorer to the learner, so they know that there is a tool available to visualize Batch jobs.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This is NOT a Batch Explorer module, do don't try to do too much with it.</source>
+        </trans-unit></group></body></file></xliff>

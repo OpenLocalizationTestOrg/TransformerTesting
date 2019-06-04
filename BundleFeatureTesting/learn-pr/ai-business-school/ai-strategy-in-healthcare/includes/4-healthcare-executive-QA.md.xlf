@@ -1,0 +1,19 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-healthcare-executive-QA.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-healthcare-executive-QA.6a6c8b.ca73e24b1a76115f4389ce5243a196b4bbbf9d21.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ca73e24b1a76115f4389ce5243a196b4bbbf9d21</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\ai-strategy-in-healthcare\includes\4-healthcare-executive-QA.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>AI holds amazing promise for healthcare.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>However, in practice, organizations are struggling to take advantage of this aspect of digital transformation in sustained and practical ways.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Insight Digital Innovation is an award-winning Microsoft partner that has solved problems in healthcare with AI.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Watch this video from David Le Penske, Director of Healthcare &amp; Life Sciences at Insight Digital Innovation, as he shares what can make an AI project successful in this challenging and highly regulated industry.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>David Le Penske suggests that one of the significant benefits of AI is that the technology is going to provide more modular care that can add devices and sensors.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This will allow more information to be relayed which will provide improved health and care reminders.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>AI will help to keep patients connected with their family members, their caregivers, their healthcare providers, and the health services they need, at the right place and the right time.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>AI promises to help all of us live healthier and more independent lives.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Next, let’s look at how Ochsner Health System improved their patent treatment with AI, by selecting a use case that minimized disruption while maximizing impact.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.0cac3c.a1d6cb4cb49679383aa5e09e1386342a553d6d49.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a1d6cb4cb49679383aa5e09e1386342a553d6d49</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\responsible-ai-principles\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles">
+          <source>Identify guiding principles for responsible AI in your business</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles">
+          <source>At Microsoft, we’ve recognized six principles that we believe should guide AI development and use fairness, reliability and safety, privacy and security, inclusiveness, transparency, and accountability.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles">
+          <source>For us, these principles are the cornerstone of a responsible and trustworthy approach to AI, especially as intelligent technology becomes more prevalent in the products and services we use every day.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles">
+          <source>We recognize that every individual, company, and region will have their own beliefs and standards that should be reflected in their AI journey.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles">
+          <source>We want to share our perspective as you consider developing your own guiding principles.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles">
+          <source>Identify guiding principles for responsible AI in your business</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles">
+          <source>At Microsoft, we’ve recognized six principles that we believe should guide AI development and use fairness, reliability and safety, privacy and security, inclusiveness, transparency, and accountability.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles">
+          <source>For us, these principles are the cornerstone of a responsible and trustworthy approach to AI, especially as intelligent technology becomes more prevalent in the products and services we use every day.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles">
+          <source>We recognize that every individual, company, and region will have their own beliefs and standards that should be reflected in their AI journey.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles">
+          <source>We want to share our perspective as you consider developing your own guiding principles.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles">
+          <source>Describe the importance of engaging with AI in a responsible manner.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles">
+          <source>Identify six guiding principles to develop and use AI responsibly.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles">
+          <source>Determine the elements of an AI governance system.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles">
+          <source>None</source>
+        </trans-unit></group></body></file></xliff>

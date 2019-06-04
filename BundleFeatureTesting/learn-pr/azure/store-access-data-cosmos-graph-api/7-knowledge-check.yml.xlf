@@ -1,0 +1,53 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-knowledge-check.7b38d8.da5624534b8c2965ea4d43f8a02050f3969e68aa.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">da5624534b8c2965ea4d43f8a02050f3969e68aa</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\store-access-data-cosmos-graph-api\7-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api.knowledge-check">
+          <source>Knowledge Check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api.knowledge-check">
+          <source>Knowledge Check</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api.knowledge-check">
+          <source>Knowledge Check</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api.knowledge-check">
+          <source>Knowledge Check</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api.knowledge-check">
+          <source>In which of the following scenarios would a graph database, as opposed to another database model, be the best fit?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api.knowledge-check">
+          <source>Where data is disconnected and relationships do not matter</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api.knowledge-check">
+          <source>A graph database is built and optimized for traversing relationships from a particular starting point, it is not optimized for searching for data across the entire graph</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api.knowledge-check">
+          <source>A data model where the ability to expand the model to add new data or data relationships</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api.knowledge-check">
+          <source>Perfect for graph databases, with a graph data model, changes to the data model can be made with little or no impact to the application</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api.knowledge-check">
+          <source>If your queries are doing table scans to find a match or searching for data</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api.knowledge-check">
+          <source>A graph database is built and optimized for traversing relationships from a particular starting point, it is not optimized for searching for data across the entire graph</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api.knowledge-check">
+          <source>Which of these answers is a primary strength of graph databases, as compared to other database models?</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api.knowledge-check">
+          <source>Performance</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api.knowledge-check">
+          <source>A graph database has superior performance for querying related data.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api.knowledge-check">
+          <source>Graph databases are designed to traverse stored data quickly and retrieve results in milliseconds</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api.knowledge-check">
+          <source>Storage</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api.knowledge-check">
+          <source>A graph database is not ideally suited to store numerous properties on a single node or large values in those properties</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api.knowledge-check">
+          <source>Where data models stay consistent and the structure is fixed and tabular</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api.knowledge-check">
+          <source>Quite the opposite, graph databases are well-suited to storing any elements and flexible to easily adapt to changing requirements</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api.knowledge-check">
+          <source>How would you model this module's scenario in a graph database?</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api.knowledge-check">
+          <source>As a connected graph of nodes and relationships with properties and labels</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api.knowledge-check">
+          <source>A graph data model is designed to answer questions in the form of queries and solve business and technical problems by organizing a data structure for the graph database</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api.knowledge-check">
+          <source>Modify the data model to fit a normalized table structure</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api.knowledge-check">
+          <source>For a graph database, we can be flexible and explore our options when it comes to modeling data and not have to data fit anything</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api.knowledge-check">
+          <source>We can't build a model into a graph database as we don't have enough information</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api.knowledge-check">
+          <source>We are able to easily use the information in the scenario to build a graph database as we have nodes identified and information related to them</source>
+        </trans-unit></group></body></file></xliff>

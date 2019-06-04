@@ -1,0 +1,39 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.a72a19.026c07d622afce840bc767822dcd4d8c514cbeee.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">026c07d622afce840bc767822dcd4d8c514cbeee</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\improve-api-developer-experience-with-swagger\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>There are many benefits to documenting the software that you build.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Not only does solid documentation make your code more maintainable over time, it also makes it more consumable by others.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Making your code more consumable is especially important when you have an API that others want to use.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Thankfully, there are tools and frameworks available that reduce the cost of producing good documentation.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Suppose you're the lead developer for a print framing business.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Your company decides to make its APIs publicly available.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Many of the APIs have no existing documentation and it's your responsibility to document them.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Documenting the APIs will make it easier for your partners to use them correctly, which will result in lower support and maintenance costs.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You need an easy and standardized way of documenting each API, and hosting the documentation in a location that is accessible for the partners.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In this module, you'll learn how to document an existing ASP.NET Core API using  Swagger/OpenAPI, Swashbuckle, and Swagger UI.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Learn about Swagger/Open API and Swashbuckle</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Enable Swagger for an C#/ASP.NET Core API</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Enable Swashbuckle for an C#/ASP.NET Core API</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Generate and view API documentation, with Swagger</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Experience with REST API design and implementation</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Experience developing basic ASP.NET Core apps</source>
+        </trans-unit></group></body></file></xliff>

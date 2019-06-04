@@ -1,0 +1,187 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-exercise-deploy-a-logic-app-using-a-parameterized-arm-template.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-exercise-deploy-a-logic-app-using-a-parameterized-arm-template.3bdb2f.bbdc528843d88fd048dd56798340099354c07626.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bbdc528843d88fd048dd56798340099354c07626</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-deploy-logic-apps-using-arm-templates\includes\5-exercise-deploy-a-logic-app-using-a-parameterized-arm-template.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In the preceding exercise, we deployed an app using a basic ARM template.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The template was inflexible in that everything was hard-coded.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In particular, to change the name of the workflow or the location to which the app was deployed, you would have to edit the template itself.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In scenarios where you are doing multiple deployments in a scripted environment, editing the template by hand becomes cumbersome.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A better approach is to supply values as parameters to customize resource deployment.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Update our template to use template parameters</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Make a copy of the basic template we used in the preceding exercise with the following <ph id="ph1">`cp`</ph> command.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To edit the template, open it in the built-in editor with the following <ph id="ph1">`code`</ph> command.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The first thing we'll do is add parameters so we can easily customize the name of our app and the location where it is run.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Replace the <ph id="ph1">`parameters`</ph> section of the template with the following code to add two new parameters, <ph id="ph2">`logicAppName`</ph> and <ph id="ph3">`location`</ph> as shown in the following snippet.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Both parameters are strings.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>We don't supply a default value for the <ph id="ph1">`logicAppName`</ph> parameter, which means supply one at deployment time.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In contrast, the <ph id="ph1">`location`</ph> is optional since we supply a default valuer.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The default value for the <ph id="ph1">`location`</ph> parameter is the location of the resource group into which the app is being deployed.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>We get that value by referencing the <bpt id="p1">*</bpt>location<ept id="p1">*</ept> property from the resource group returned by the <ph id="ph1">`resourceGroup()`</ph> template function.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Expressions start and end with brackets: <ph id="ph1">`[`</ph> and <ph id="ph2">`]`</ph>, respectively.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The value of the expression is evaluated when the template is deployed.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>An expression can return a string, integer, boolean, array, or object.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The maximum number of parameters you can define in a template is 256.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Now that we've defined our two new parameters, let's use them in the template by replacing hard-coded values with references to the new parameters.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Replace the <ph id="ph1">`name`</ph> and <ph id="ph2">`location`</ph> fields in the resources section of the template to use our new parameters as shown in the following snippet.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Replace the <ph id="ph1">`outputs`</ph> section at the bottom of the template with the following code.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>We are updating the value of the <ph id="ph1">`logicAppUrl`</ph> template variable to also use the <ph id="ph2">`logicAppName`</ph> parameter as shown in the following snippet.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Save all changes to <bpt id="p1">**</bpt>template-with-params.json<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Deploy our logic app using the parameterized template</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>There are two ways to supply parameters to our template during deployment using the<ph id="ph1">`--parameters`</ph> flag in the <ph id="ph2">`az group deployment create`</ph> command.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>We can pass in a URI of a remote parameters file, or the name of a local file.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Let's use a local file.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Create a parameters JSON file</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Create a new file called <ph id="ph1">`params.json`</ph> in the built-in code editor with the following command.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Paste the following JSON into <bpt id="p1">**</bpt>params.json<ept id="p1">**</ept> and save your changes.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Validate our template</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>From the Cloud Shell run <ph id="ph1">`az group deployment validate`</ph> to validate the template.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`--template-file`</ph> argument points to the local template.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The template's filename is <bpt id="p1">**</bpt>template-with-params.json<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You see a large JSON block as output, which tells you that the template passed validation.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Azure Resource Manager fills in the template parameters and checks whether the template would successfully run in your subscription.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>If validation failed, you would see a detailed description of the failure in the output.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Deploy template with parameters from a local file</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to deploy the logic app with the name of the app taken from the <bpt id="p1">**</bpt>params.json<ept id="p1">**</ept> file.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`location`</ph> parameter is not set in the params.json file, so the default is used.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Deployment will take  a few seconds and you can watch the progress in the Cloud Shell command line.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>When deployment is finished, you should see  <ph id="ph1">`provisioningState`</ph> in the JSON result with the value <ph id="ph2">`Succeeded`</ph>.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>To see the app in action, find the <bpt id="p1">**</bpt>logicAppUrl<ept id="p1">**</ept> value in the JSON result.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Select the URL and paste it into a new browser window.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The page will display the <bpt id="p1">*</bpt>Hello Logic Apps Template!<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>message.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Deploy template with parameters from the command line</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Instead of editing a parameters file every time we want to deploy from the command line, we can supply the parameters in a JSON string on the command line.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to deploy the logic app with the name of the app and its location fed in as a JSON string on the command line.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Deployment will take  a few seconds and you can watch the progress in the Cloud Shell command line.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>When deployment is finished, you should see  <ph id="ph1">`provisioningState`</ph> in the JSON result with the value <ph id="ph2">`Succeeded`</ph>.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>To see the app in action, find the <bpt id="p1">**</bpt>logicAppUrl<ept id="p1">**</ept> value in the JSON result.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Select the URL and paste it into a new browser window.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The page will display the <bpt id="p1">*</bpt>Hello Logic Apps Template!<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>message.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Run the following command to list all Logic Apps workflows we've deployed so far.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>This command will list the three Logic Apps workflows we've deployed so far, all from a template.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Update the app action in the ARM template</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Let's now turn our attention to making our app do a little more than just sending back a static message to us.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>We'll keep the app as an HTTP-triggered workflow and it will still return an HTTP response.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>But let's pass in some values with the request and have the app do a calculation for us.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>We'll do a simple area calculation.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Assuming the inputs we pass in are height and width of a rectangle, we'll return the area.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>We'll then deploy the new app and see it in action.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Open <bpt id="p1">**</bpt>template-with-params.json<ept id="p1">**</ept> in the built-in editor by running the following command in the Cloud Shell.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Replace the  <ph id="ph1">`relativePath`</ph> field to the <bpt id="p1">**</bpt>inputs<ept id="p1">**</ept> section of our HTTP request trigger as shown in the following snippet.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`relativePath`</ph> entry specifies the parameters that we want our HTTP endpoint URL to accept.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>In this case, we define two parameters, <bpt id="p1">*</bpt>width<ept id="p1">*</ept> and <bpt id="p2">*</bpt>height<ept id="p2">*</ept>.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>We'll use the values of these parameters to calculate an area and return the result.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Update the body of the Response action with the following line.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Our updated response does the following:</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Prints out the name of the logic app.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>It makes a call to the <ph id="ph1">`workflow()`</ph> function to return information about the workflow, and from that we reference the name property.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>It returns the product (<ph id="ph1">`mul()`</ph> function) of the integer equivalents (<ph id="ph2">`int()`</ph> conversion function) of the height and width string values of the URL parameters.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Save all changes to <bpt id="p1">**</bpt>template-with-params.json<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Validate our template after these changes with the <ph id="ph1">`az group deployment validate`</ph> command in the Cloud Shell.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>We set the name of the app in this instance to <bpt id="p1">*</bpt>CalculateArea<ept id="p1">*</ept> using an inline parameter.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Run the following  command to deploy our changes to a logic app named <bpt id="p1">**</bpt>CalculateArea<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>We will omit a value for the <ph id="ph1">`location`</ph> parameter and just use the default.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Deployment will take  a few seconds and you can watch the progress in the Cloud Shell command line.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>When deployment is finished, you should see  <ph id="ph1">`provisioningState`</ph> in the JSON result with the value <ph id="ph2">`Succeeded`</ph>.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>To see the app in action, find the <bpt id="p1">**</bpt>logicAppUrl<ept id="p1">**</ept> value in the JSON result.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Select the URL and paste it into a new browser window.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Update the URL in the browser, changing <ph id="ph1">`/triggers/manual/paths/invoke?api`</ph> to <ph id="ph2">`/triggers/manual/paths/invoke/{width}/{height}?api`</ph>, where <bpt id="p1">**</bpt>{width}<ept id="p1">**</ept> and <bpt id="p2">**</bpt>{height}<ept id="p2">**</ept> are integer values for the width and height of the area we want to calculate.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>For example, <ph id="ph1">`/triggers/manual/paths/invoke/6/7?api`</ph>.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The response from the app will list the name of the workflow and the calculated area, as shown in the following screenshot.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Web browser displaying response from our app called calculate area</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Run the following command to list all Logic Apps workflows we've deployed so far.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>In this exercise, we introduced more flexibility to our template with parameters.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>We supplied those parameters on the command line and using a local file.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>We also updated the action that our simple workflow executes, by directly changing the <ph id="ph1">`body`</ph> of the response we send back.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>You can download the parameters and template files from GitHub with the following <ph id="ph1">`curl`</ph> commands in the Cloud Shell.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,53 +1,57 @@
-<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-add-data.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-add-data.c2bce34fa4e71ccf50f3326da2a76bb4811f0fa8.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">09257253bd453f0b28b52027a7dfe26085d235ff</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">05/13/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\access-data-with-cosmos-db-and-sql-api\includes\3-add-data.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
-          <source>Adding data to your Azure Cosmos DB database is simple.</source>
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-add-data.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-add-data.314acd.0c640a9f8c959a44f9036e9855911a7c89fc600a.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0c640a9f8c959a44f9036e9855911a7c89fc600a</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\access-data-with-cosmos-db-and-sql-api\includes\3-add-data.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>There are several ways to add data to an Azure Cosmos DB database.</source>
         </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
-          <source>You open the Azure portal, navigate to your database, and use the Data Explorer to add JSON documents to the database.</source>
+          <source>You can do it using REST APIs, with native SDKs for Python, C#, Java, and Node.js, or even using the Azure portal.</source>
         </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
-          <source>There are more advanced ways to add data, but we'll start here because the Data Explorer is a great tool to get you acquainted with the inner workings and functionality provided by Azure Cosmos DB.</source>
+          <source>Since we're prototyping things right now, we'll use this latter approach - it's quick and easy and we can try out different query styles, insert, and modify data as needed so we can experiment without having to build a bunch of code.</source>
         </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
-          <source>What is the Data Explorer?</source>
+          <source>In the Azure portal, you use the <bpt id="p1">_</bpt>Data Explorer<ept id="p1">_</ept> tool.</source>
         </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
-          <source>The Azure Cosmos DB Data Explorer is a tool included in the Azure portal that is used to manage data stored in an Azure Cosmos DB.</source>
+          <source>What is the Data Explorer?</source>
         </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
-          <source>It provides a UI for viewing and navigating data collections, as well as for editing documents within the database, querying data, and creating and running stored procedures.</source>
+          <source>The Azure Cosmos DB Data Explorer is a tool included in the Azure portal that is used to manage data stored in an Azure Cosmos DB.</source>
         </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
-          <source>Add data using the Data Explorer</source>
+          <source>It provides a UI for navigating and viewing data, querying and modifying data, and creating and running stored procedures.</source>
         </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
-          <source>Sign into the <bpt id="p1">[</bpt>Azure portal for sandbox<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept> using the same account you activated the sandbox with.</source>
+          <source>The Data Explorer is a great tool to get you acquainted with the inner workings and functionality provided by Azure Cosmos DB.</source>
         </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
-          <source>Login to the Azure portal and the sandbox with the same account.</source>
+          <source>Open the Data Explorer in the Azure portal</source>
         </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
-          <source>Login to the Azure portal using the link above to ensure you are connected to the sandbox, which provides access to a Concierge Subscription.</source>
+          <source>Sign into the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept> using the account you activated the sandbox with.</source>
         </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
           <source>Click <bpt id="p1">**</bpt>All services<ept id="p1">**</ept><ph id="ph1"> &gt; </ph><bpt id="p2">**</bpt>Databases<ept id="p2">**</ept><ph id="ph2"> &gt; </ph><bpt id="p3">**</bpt>Azure Cosmos DB<ept id="p3">**</ept>.</source>
         </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
           <source>Then select your account, click <bpt id="p1">**</bpt>Data Explorer<ept id="p1">**</ept>, and then click <bpt id="p2">**</bpt>Open Full Screen<ept id="p2">**</ept>.</source>
         </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>Create new documents in Data Explorer in the Azure portal</source>
+          <source>In the <bpt id="p1">**</bpt>Open Full Screen<ept id="p1">**</ept> box, click <bpt id="p2">**</bpt>Open<ept id="p2">**</ept> as shown in the following screenshot.</source>
         </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
-          <source>In the <bpt id="p1">**</bpt>Open Full Screen<ept id="p1">**</ept> box, click <bpt id="p2">**</bpt>Open<ept id="p2">**</ept>.</source>
+          <source>Screenshot showing how to open the Data Explorer tool in the Azure portal with a full screen of data</source>
         </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
           <source>The web browser displays the new full-screen Data Explorer, which gives you more space and a dedicated environment for working with your database.</source>
         </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
-          <source>To create a new JSON document, in the SQL API pane, expand <bpt id="p1">**</bpt>Clothing<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>Documents<ept id="p2">**</ept>, then click <bpt id="p3">**</bpt>New Document<ept id="p3">**</ept>.</source>
+          <source>Add data using the Data Explorer</source>
         </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
-          <source>Create new documents in Data Explorer in the Azure portal</source>
+          <source>To create a new JSON document, in the SQL API pane, expand <bpt id="p1">**</bpt>Clothing<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Items<ept id="p2">**</ept>, then select <bpt id="p3">**</bpt>New Item<ept id="p3">**</ept> in the toolbar.</source>
         </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
-          <source>Now, add a document to the collection with the following structure.</source>
+          <source>Screenshot showing the steps to create new documents in Data Explorer in the Azure portal</source>
         </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>Just copy and paste the following code into the <bpt id="p1">**</bpt>Documents<ept id="p1">**</ept> tab, overwriting the current content:</source>
+          <source>Now, add a document to the collection with the following structure.</source>
         </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
-          <source>Once you've added the JSON to the <bpt id="p1">**</bpt>Documents<ept id="p1">**</ept> tab, click <bpt id="p2">**</bpt>Save<ept id="p2">**</ept>.</source>
+          <source>Paste the following JSON block into the <bpt id="p1">**</bpt>Items<ept id="p1">**</ept> tab, overwriting the current content:</source>
         </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
-          <source>Copy in JSON data and click Save in Data Explorer in the Azure portal</source>
+          <source>Select <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</source>
         </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
-          <source>Create and save one more document clicking <bpt id="p1">**</bpt>New Document<ept id="p1">**</ept> again, and copying the following JSON object into Data Explorer and clicking <bpt id="p2">**</bpt>Save<ept id="p2">**</ept>.</source>
+          <source>Copy in JSON data and click Save in Data Explorer in the Azure portal</source>
         </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
-          <source>Confirm the documents have been saved by clicking <bpt id="p1">**</bpt>Documents<ept id="p1">**</ept> on the left-hand menu.</source>
+          <source>Create and save another document by selecting <bpt id="p1">**</bpt>New Item<ept id="p1">**</ept> again, and pasting the following JSON object into Data Explorer and then saving the item.</source>
         </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
-          <source>Data Explorer displays the two documents in the <bpt id="p1">**</bpt>Documents<ept id="p1">**</ept> tab.</source>
+          <source>Confirm the documents have been saved by clicking <bpt id="p1">**</bpt>Items<ept id="p1">**</ept> on the left-hand menu.</source>
         </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
-          <source>In this unit, you added two documents, each representing a product in your product catalog, to your database by using the Data Explorer.</source>
+          <source>You should see two items as shown in the following screenshot.</source>
         </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Screenshot showing how Data Explorer displays the two documents in the Items tab</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You've added two documents, each representing a product in your product catalog, to your database by using the Data Explorer.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
           <source>The Data Explorer is a good way to create documents, modify documents, and get started with Azure Cosmos DB.</source>
         </trans-unit></group></body></file></xliff>

@@ -1,0 +1,61 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-trigger-function-with-github-event.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-trigger-function-with-github-event.703f25.1cb53a554ac2aa48584ec3b6476802daef3d6894.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1cb53a554ac2aa48584ec3b6476802daef3d6894</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\monitor-github-events-with-a-function-triggered-by-a-webhook\includes\6-trigger-function-with-github-event.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>Gollum<ept id="p1">*</ept> event enables you to listen for wiki updates.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>when this event occurs, and the Azure Function is triggered, you can parse the payload to retrieve and process the data sent.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You've shown the IT department that you can listen for <bpt id="p1">*</bpt>Gollum<ept id="p1">*</ept> events on your Company GitHub repository, by setting up a webhook in GitHub.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You've also demonstrated that an Azure Function can be triggered by a webhook.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Next you'll update the function to parse update details from the payload.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Gollum event payload</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The payload for the <bpt id="p1">*</bpt>Gollum<ept id="p1">*</ept> event contains the following items:</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>pages<ept id="p1">**</ept>`** The pages that were updated.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Each page includes the following information:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`page_name`</ph> The name of the page.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`title`</ph> The current page title.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`action`</ph> The action that was performed on the page.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Can be created or edited.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`html_url`</ph> The HTML wiki page.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>repository<ept id="p1">**</ept> Information about the repository containing the wiki page, including:</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`name`</ph> The name of the repository.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`owner`</ph> Details of the owner of the repository.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`html_url`</ph> The address of the repository.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>sender<ept id="p1">**</ept> Information about the user that raised the event that caused the webhook to fire.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For example, a payload might look like this:</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This information ia passed as the body of an HTTP POST request.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In your Azure function, you must be prepared to parse and process this information.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Parsing information from the Gollum event</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Recall that the webhook runs is when a specific event occurs.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The webhook then sends a request to the URL on which your Azure Function is listening, using the <bpt id="p1">**</bpt>Payload URL<ept id="p1">**</ept> for your Azure Function.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The payload is passed to the Azure Function.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Your function can parse the request body to extract the fields from the payload and take the appropriate actions.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The following example retrieves the repository name from the payload.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The event type is available in the <bpt id="p1">*</bpt>x-github-event<ept id="p1">*</ept> request header.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This data is output in the function response:</source>
+        </trans-unit></group></body></file></xliff>

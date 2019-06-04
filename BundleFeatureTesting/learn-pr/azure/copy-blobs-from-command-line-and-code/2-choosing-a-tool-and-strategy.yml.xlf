@@ -1,0 +1,71 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-choosing-a-tool-and-strategy.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-choosing-a-tool-and-strategy.813671.730f8700ac66bb495ba11d45b315b34cf5faf6d5.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">730f8700ac66bb495ba11d45b315b34cf5faf6d5</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\copy-blobs-from-command-line-and-code\2-choosing-a-tool-and-strategy.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>Choose a tool and strategy for copying blobs</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>Choose a tool and strategy for copying blobs</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>Identify whether to use synchronous or asynchronous transfer, and the benefits of the three available toolsets.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>You want to quickly upload the data in a collection of small files held in a local folder to blob storage.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>This is a one-off request.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>You don't want to overwrite blobs that have been modified in the last two days.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>Which tool should you use?</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>Azure CLI</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>Correct: The Azure CLI is great choice for one-off file transfers and can be used to check the last modified date.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>AzCopy</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>No: The AzCopy command doesn't support checking the last modified time of a blob before overwriting it.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>.NET Storage Client library</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>No: This is a one-off task.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>It isn't worth the time and development effort to build a custom application.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>You want to transfer a series of large files to blob storage.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>It may take several hours to upload each file, and you're concerned that if a transfer fails it shouldn't have to restart from the beginning.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>Which tool is the most appropriate to do this task?</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>Azure CLI</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>No.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>The Azure CLI doesn't provide a way to resume a failed transfer.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>AzCopy</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>Correct: AzCopy is ideal for transferring large files as it can run in the background and you can monitor the status AzCopy jobs.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>The .NET Client Storage library.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>You could write your own custom application for this task, but the AzCopy utility already provides the features you require.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>You want to move a set of blobs in Azure storage from one storage account to another.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>You want to organize the blobs in the destination account in different folders, according to the month in which each blob was last updated.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>You'll be performing this task at regular intervals.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>Which tool should you use?</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>Azure CLI</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>No: The Azure CLI doesn't provide a simple way to reorganize blobs in this way.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>AzCopy</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>No: AzCopy doesn't provide a simple way to reorganize blobs in this way.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>The .NET Client Storage library</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve" uid="learn.azure.copy-blobs-from-command-line-and-code.choosing-a-tool-and-strategy">
+          <source>Correct: You can write your own custom application to do this task.</source>
+        </trans-unit></group></body></file></xliff>

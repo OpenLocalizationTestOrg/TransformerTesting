@@ -1,0 +1,113 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-manufacturing-case-study-resolution.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-manufacturing-case-study-resolution.b17906.71e7b1d88650ba19b7d136dd1e06276a806f5d0f.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">71e7b1d88650ba19b7d136dd1e06276a806f5d0f</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\ai-strategy-in-manufacturing\includes\5-manufacturing-case-study-resolution.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Approach</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>“[Manufacturing] is a highly competitive business and Jabil is focused on becoming the world's most technologically advanced manufacturing solutions provider,” says Gary Cantrell, SVP &amp; CIO of Jabil.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>To achieve this goal, Jabil is using AI to rapidly evolve its manufacturing processes to be more efficient, by creating the next generation of predictive analytics.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>With “Project Brainwave,” Jabil leveraged the Internet of Things (IoT) to connect manufacturing processes to key cloud capabilities, such as data warehousing and machine learning, to enhance its automated optical inspection process.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In collaboration with Microsoft, Jabil built a predictive deep learning model that is used to detect anomalies on production lines.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>“If you think about the IoT mindset, and the ability to connect equipment, sensors, people, and whatever else you can think of, we had to look at our factory holistically versus historical point solutions, and then see where to move forward in a way that enables us to be competitive and differentiated,” says Behringer.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Project Brainwave didn’t stop there.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Jabil upgraded the capabilities of its AI so it could be used directly on the factory floor.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This is achieved by using a new Intel computer chip called a field programmable gate array (FPGA) to efficiently — and economically — perform calculations with minimal lag time.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Microsoft researcher Doug Burger says that Brainwave “processes requests as fast as it receives them, with ultra-low latency”, which means up to 550 images can be processed every second.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This super-fast processing allows Jabil to bring AI capabilities to every process in manufacturing.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>By improving the automated process, Jabil can detect circuit board errors early in the production line, and free human operators to focus on the value-added tasks that machines cannot do.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Ongoing evaluation can also enable the system to develop further accuracy.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A skilled operator can quickly train a new predictive model to be deployed to the factory floor, improving the accuracy of fault predictions over time by allowing AI to automatically retrain as more data becomes available.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When a new product line needs to be built, “transfer learning” can be used.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This means an existing model, built using a large amount of historical data, can be retrained using only a small amount of new data and repurposed to a new, but similar, problem.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>“Machine learning ultimately allows us to take the skillset of the very best operator and very quickly transition it to automation,” says John Dulchinos, Jabil’s Vice President of Strategic Capabilities.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>“Artificial intelligence will make robots that are able to learn much faster than we can teach them today.”</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This solution is readily scalable: AI can collect data from a number of different sources, like other production lines or other factories.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The investment is also comparatively small, comprising mainly IoT computing hardware and data storage.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Results</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Manufacturers across the sector are seeing an average of 17 to 20 percent productivity gains from AI-enabled factories.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Jabil had particular success in using predictive models to detect circuit board errors early in the production line.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Using IoT, Jabil could collect more than 1 million data points from each assembly across a 32-step, four-hour manufacturing process.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Predictive models trained on this data allowed Jabil to anticipate and avert more than half of circuit board failures at the second step in the process and avoid the remaining 45 percent of the potential failures at step six.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Early detection of costly errors reduces the volume of scrapped materials and increases overall efficiency and profitability for Jabil.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>It also reduces warranty costs and prevents faulty products from making it to the end of the production line – or on to shop shelves – which increases customer satisfaction.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Jabil is now also looking at ways to use AI to enhance efficiency and lower costs by improving predictive maintenance of manufacturing operations.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Ryan Litvak, Senior Manager, Architecture &amp; Technology at Jabil, is impressed.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>“AI will make a significant difference in the process from a speed, cost and productivity standpoint, and this will, in turn, give our customers an edge in the marketplace” said Litvak.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>“Anything you can do to get an advantage for the customer is going to provide incremental improvement.”</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Key lessons</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Align AI investments with business priorities</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Organizations should consider how AI can address their biggest risks, challenges, and opportunities.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Jabil chose to invest in AI where it would have significant strategic impact – quality assurance processes.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Targeting AI to a core manufacturing process allowed Jabil to reap the rewards of optimized production costs, reduced time-to-market, and increased product quality.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This put the CIO in a good position to promote future innovative investments.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Leverage AI in a way that provides rapid value</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Organizations also need to consider the time to value of an AI investment.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>While “Project Brainwave” may have been complex to implement, it provided immediate value for Jabil in an industry where speed is an essential competitive advantage.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This rapid value also helped bolster trust in AI throughout the organization.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Evaluation of the strategy using the value framework</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The end goal of using AI to analyze customer feedback was not just to uncover insights from our customer feedback, but to act on them.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If we had built a system that uncovered insights that we couldn’t operationalize, it wouldn’t have been worthwhile.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>That’s why it was key to ensure that when the system segmented and routed feedback, it was using categories that aligned to the organizational structure in our business, rather than categories based only on concepts.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>That way we could ensure that feedback on a particular issue would be routed to the stakeholders who are accountable for acting on it.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Evaluation of the strategy using the value framework</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Let’s examine how Jabil’s AI strategy is creating additional value using the value creation framework developed by Peter Zemsky, the INSEAD’s Eli Lilly Chaired Professor of Strategy and Innovation:</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>industry environment perspective<ept id="p1">**</ept>, we discussed how customers are demanding faster time to market of more sophisticated customized products which require large CAPEX investments that are elevating the production cost.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>On the other hand, customers are demanding a broader set of services including logistics and distribution creating a window of opportunity to capture additional value.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>value creation perspective<ept id="p1">**</ept>, this case illustrates key lessons for manufacturing and process industries.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>It is critical to start with applications that have clear value drivers where you can demonstrate impact.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Here improved efficiency and agility are clear levers for value creation.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>organization &amp; execution perspective<ept id="p1">**</ept>, the key focus is having an AI strategy that is well-integrated into a broader strategic roadmap.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This case also shows the potential of leveraging huge volumes of data coming with the digital transformation of production with AI technologies.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Now that you’ve seen how manufacturing organizations are approaching their AI strategy, let’s wrap up everything you’ve learned with a knowledge check.</source>
+        </trans-unit></group></body></file></xliff>

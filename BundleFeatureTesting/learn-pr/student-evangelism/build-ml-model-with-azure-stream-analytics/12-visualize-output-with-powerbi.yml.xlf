@@ -1,0 +1,25 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="12-visualize-output-with-powerbi.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">12-visualize-output-with-powerbi.c377f1.7c14a1b863628012dd3ee3368183a1a3bbc017e6.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7c14a1b863628012dd3ee3368183a1a3bbc017e6</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\student-evangelism\build-ml-model-with-azure-stream-analytics\12-visualize-output-with-powerbi.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.student-evangelism.build-ml-model-with-azure-stream-analytics.visualize-output-with-powerbi">
+          <source>Visualize the camera activity with Power BI</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.student-evangelism.build-ml-model-with-azure-stream-analytics.visualize-output-with-powerbi">
+          <source>Visualize the camera activity with Power BI</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.student-evangelism.build-ml-model-with-azure-stream-analytics.visualize-output-with-powerbi">
+          <source>Visualize the camera activity with Power BI</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.student-evangelism.build-ml-model-with-azure-stream-analytics.visualize-output-with-powerbi">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.student-evangelism.build-ml-model-with-azure-stream-analytics.visualize-output-with-powerbi">
+          <source>What does the Slicer control in Power BI do?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.student-evangelism.build-ml-model-with-azure-stream-analytics.visualize-output-with-powerbi">
+          <source>Provides a way to delete data used within a Power BI report</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.student-evangelism.build-ml-model-with-azure-stream-analytics.visualize-output-with-powerbi">
+          <source>The slicer doesn't destroy any of the data.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.student-evangelism.build-ml-model-with-azure-stream-analytics.visualize-output-with-powerbi">
+          <source>Provides a way to add data used within a Power BI report</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.student-evangelism.build-ml-model-with-azure-stream-analytics.visualize-output-with-powerbi">
+          <source>The slicer doesn't add to any of the data.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.student-evangelism.build-ml-model-with-azure-stream-analytics.visualize-output-with-powerbi">
+          <source>Provides a way to filter data within a Power BI report</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.student-evangelism.build-ml-model-with-azure-stream-analytics.visualize-output-with-powerbi">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.student-evangelism.build-ml-model-with-azure-stream-analytics.visualize-output-with-powerbi">
+          <source>It filters out all of the other visualizations based off the input in the slicer.</source>
+        </trans-unit></group></body></file></xliff>

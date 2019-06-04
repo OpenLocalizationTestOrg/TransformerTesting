@@ -1,0 +1,237 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-guiding-principles.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-guiding-principles.0c286f.5ede27c78db63d20afe501e5ea248fa3641ddb07.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5ede27c78db63d20afe501e5ea248fa3641ddb07</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\responsible-ai-principles\includes\4-guiding-principles.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Abstract</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In the last unit, we discussed the societal implications of AI and the responsibility of enterprises to anticipate and mitigate unintended consequences of AI technology.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In light of this responsibility, enterprises are finding the need to create internal policies and practices to guide their AI efforts, whether they are deploying third-party AI solutions or developing their own.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>At Microsoft, we’ve recognized six principles that we believe should guide AI development and use: fairness, reliability and safety, privacy and security, inclusiveness, transparency, and accountability.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For us, these principles are the cornerstone of a responsible and trustworthy approach to AI, especially as intelligent technology becomes more prevalent in the products and services we use every day.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>We recognize that every individual, company, and region will have their own beliefs and standards that should be reflected in their AI journey.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>We want to share our perspective as you consider developing your own guiding principles.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Microsoft’s six guiding principles</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Fairness</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>AI systems should treat everyone fairly and avoid affecting similarly situated groups of people in different ways.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For example, when AI systems provide guidance on medical treatment, loan applications, or employment, they should make the same recommendations to everyone with similar symptoms, financial circumstances, or professional qualifications.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>We believe that mitigating bias starts with people understanding the implications and limitations of AI predictions and recommendations.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Ultimately, people should supplement AI decisions with sound human judgement and be held accountable for consequential decisions that affect others.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When designing and building AI systems, developers should understand how bias can be introduced and how it can affect AI-based recommendations.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To help mitigate bias, they should use training datasets that reflect the diversity of society.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>They should also design AI models in ways that allow them to learn and adapt over time without developing biases.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To help them develop AI systems that treat everyone fairly, developers can leverage tools, methodologies, techniques, and other resources that help detect and mitigate biases.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Examples of useful tools and resources for fostering responsible and trustworthy AI can be found in the next unit, Governance and external engagements.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Reliability and safety</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To build trust, it’s critical that AI systems operate reliably, safely, and consistently under normal circumstances and in unexpected conditions.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>These systems should be able to operate as they were originally designed, respond safely to unanticipated conditions, and resist harmful manipulation.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>It’s also important to be able to verify that these systems are behaving as intended under actual operating conditions.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>How they behave and the variety of conditions they can handle reliably and safely largely reflects the range of situations and circumstances that developers anticipate during design and testing.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>We believe that rigorous testing is essential during system development and deployment to ensure AI systems can respond safely in unanticipated situations, don’t have unexpected performance failures, and don’t evolve in ways that are inconsistent with original expectations.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>After testing and deployment, it’s equally important that organizations properly operate, maintain, and protect their AI systems over the lifespan of their use.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If not maintained properly, AI systems can become unreliable or inaccurate, so it’s crucial to account for long-term operations and monitoring in every AI implementation.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Ultimately, because AI should augment and amplify human capabilities, people need to play a critical role in making decisions about how and when an AI system is deployed, and whether it’s appropriate to continue to use it over time.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Human judgement will be key to identifying potential blind spots and biases in AI systems.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Privacy and security</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>As AI becomes more prevalent, protecting privacy and securing important personal and business information is becoming more critical and complex.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>With AI, privacy and data security issues require especially close attention because access to data is essential for AI systems to make accurate and informed predictions and decisions about people.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>AI systems must comply with privacy laws that require transparency about the collection, use, and storage of data and mandate that consumers have appropriate controls to choose how their data is used.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>At Microsoft, we are continuing to research privacy and security breakthroughs (see next unit) and invest in robust compliance processes to ensure that data collected and used by our AI systems is handled responsibly.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Inclusiveness</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>At Microsoft, we firmly believe everyone should benefit from intelligent technology, meaning it must incorporate and address a broad range of human needs and experiences.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For the 1 billion people with disabilities around the world, AI technologies can be a game-changer.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>AI can improve access to education, government services, employment, information, and a wide range of other opportunities.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Intelligent solutions such as real-time speech-to-text transcription, visual recognition services, and predictive text functionality are already empowering those with hearing, visual, and other impairments.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Inclusive design practices can help system developers understand and address potential barriers in a product environment that could unintentionally exclude people.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>By addressing these barriers, we create opportunities to innovate and design better experiences that benefit everyone.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Transparency</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Underlying the preceding values are two foundational principles that are essential for ensuring the effectiveness of the rest: transparency and accountability.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>When AI systems are used to help inform decisions that have tremendous impacts on people’s lives, it is critical that people understand how those decisions were made.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For example, a bank might use an AI system to decide whether a person is creditworthy, or a company might use an AI system to determine the most qualified candidates to hire.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>A crucial part of transparency is what we refer to as intelligibility, or the useful explanation of the behavior of AI systems and their components.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Improving intelligibility requires that stakeholders comprehend how and why they function so that they can identify potential performance issues, safety and privacy concerns, biases, exclusionary practices, or unintended outcomes.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>We also believe that those who use AI systems should be honest and forthcoming about when, why, and how they choose to deploy them.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Accountability</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The people who design and deploy AI systems must be accountable for how their systems operate.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Enterprises should draw upon industry standards to develop accountability norms for their own organization.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>These norms can ensure that AI systems are not the final authority on any decision that impacts people’s lives and that humans maintain meaningful control over otherwise highly autonomous AI systems.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Enterprises should also consider establishing a dedicated internal review body.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This body can provide oversight and guidance to the highest levels of the company on which practices should be adopted to help address the concerns discussed above and on particularly important questions regarding the development and deployment of AI systems.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>They can also help with tasks like defining best practices for documenting and testing AI systems during development or providing guidance when an AI system will be used in sensitive cases (like those that may deny people consequential services like healthcare or employment, create risk of physical or emotional harm, or infringe on human rights).</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>We will further discuss governance models in the next unit.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>To learn more about our guiding principles as well as the impact of AI on our future, please read our book, The Future Computed.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Actions your organization can take</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>To help you consider how to implement these principles in your own organization, we developed the following recommendations:</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Fairness</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Understand the scope, spirit, and potential uses of the AI system<ept id="p1">**</ept> by asking questions such as, how is the system intended to work?</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Who is the system designed to work for?</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Will it work for everyone equally?</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>How can it harm others?</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Attract a diverse pool of talent.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Ensure the design team reflects the world in which we live by including team members that have different backgrounds, experiences, education and perspectives.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Identify bias in datasets<ept id="p1">**</ept> by evaluating where the data came from, understanding how it was organized, and testing to ensure it is represented.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Bias can be introduced at every stage in creation, from collection to modeling to operation.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Identify bias in machine learning algorithms<ept id="p1">**</ept> by leveraging tools and techniques that improve the transparency and intelligibility of models.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Examples of these tools can be found in the next unit.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Leverage human review and domain expertise.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Train employees to understand the meaning and implications of AI results to ensure that they are ultimately accountable for decisions that leverage AI, especially when AI is used to inform consequential decisions about people.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Finally, include relevant subject matter experts (such as those with consumer credit expertise for a credit scoring AI system) in the design process and in deployment decisions.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Research and employ best practices, analytical techniques, and tools<ept id="p1">**</ept> from other institutions and enterprises to help detect, prevent, and address bias in AI systems.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Reliability and Safety</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Understand your organization’s AI Maturity<ept id="p1">**</ept> by taking Microsoft’s AI Ready Assessment accessible from the link in the resources section.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Use the results to determine which AI technologies will fit your organization’s current maturity level and how your organization can best take advantage of AI.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Develop processes for auditing AI systems<ept id="p1">**</ept> in order to evaluate the quality and suitability of data and models, monitor ongoing performance, and verify that systems are behaving as intended based on established performance measures.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Provide detailed explanation of system operation<ept id="p1">**</ept> including design specifications, information about training data, training failures that occurred and potential inadequacies with trainings data, and the inferences and significant predictions generated.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Design for unintended circumstances<ept id="p1">**</ept> such as accidental system interactions, the introduction of malicious data, or cyberattacks.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Involve domain experts in the design and implementation processes<ept id="p1">**</ept>, especially when AI is being used to help make consequential decisions about people.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Conduct rigorous testing during AI system development and deployment<ept id="p1">**</ept> to ensure that systems can respond safely to unanticipated circumstances, don’t have unexpected performance failures, and don’t evolve in unexpected ways.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>AI systems involved in high-stakes scenarios that affect human safety or large populations should be tested both in lab and real-world scenarios.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Evaluate when and how an AI system should seek human input for impactful decisions or during critical situations.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Consider how an AI system should transfer control to a human in a manner that is meaningful and intelligible.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Design AI systems to ensure humans have the necessary level of input on highly impactful decisions.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Develop a robust feedback mechanism for users to report performance issues<ept id="p1">**</ept> so that they can be resolved quickly.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Privacy and Security</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Comply with relevant data protection, privacy, and transparency laws<ept id="p1">**</ept> like GDPR or the California Privacy Act by investing resources in developing compliance technologies and processes or working with a technology leader during the development of AI systems.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Develop processes to continually check that the AI systems are satisfying all aspects of these laws.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Design AI systems to maintain the integrity of personal data<ept id="p1">**</ept> so that they can only use personal data during the time it’s required and for the defined purposes that have been shared with customers.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Delete inadvertently collected personal data or data that is no longer relevant to the defined purpose.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Protect AI systems from bad actors<ept id="p1">**</ept> by designing AI systems in accordance with secure development and operations foundations, using role-based access, and protecting personal and confidential data that is transferred to third parties.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Design AI systems to identify abnormal behaviors and to prevent manipulation and malicious attacks.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Learn more about how to protect against new AI-specific security threats by reading our paper, Securing the Future of Artificial Intelligence and Machine Learning at Microsoft accessible in the resources section of this module.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Design AI systems with appropriate controls<ept id="p1">**</ept> for customers to make choices about how and why their data is collected and used.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Ensure your AI system maintains anonymity<ept id="p1">**</ept> by de-identifying personal data.</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Conduct privacy and security reviews<ept id="p1">**</ept> for all AI systems.</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Research and implement industry best practices<ept id="p1">**</ept> for tracking relevant information about customer data, accessing and using that data, and auditing access and use.</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Inclusiveness</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Comply with laws regarding accessibility and inclusiveness<ept id="p1">**</ept> such as the Americans with Disabilities Act, the Communications and Video Accessibility Act, and the European Union laws and U.S. regulations that mandate the procurement of accessible technology.</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Use the<ept id="p1">**</ept> Inclusive Design toolkit, available in the resources section of this module, to help system developers understand and address potential barriers in a product environment that could unintentionally exclude people.</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Have people with disabilities test your systems<ept id="p1">**</ept> to help you determine whether the system can be used as intended by the broadest possible audience.</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Consider commonly used accessibility standards<ept id="p1">**</ept> to help ensure your system is accessible for people of all abilities.</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Transparency</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Share key characteristics of datasets<ept id="p1">**</ept> to help developers understand if a specific dataset is appropriate for their use case.</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>For more information on tools and techniques for increasing transparency, please see the next unit, Governance and external engagements.</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Improve model intelligibility<ept id="p1">**</ept> by leveraging simpler models and generating intelligible explanations of the model’s behavior.</source>
+        </trans-unit><trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Techniques to simplify models without sacrificing accuracy and tools to generate explanations of model’s behaviors can be found in the next unit.</source>
+        </trans-unit><trans-unit id="209" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Train employees on how to interpret AI outputs<ept id="p1">**</ept> and ensure that they remain accountable for making consequential decisions based on the results.</source>
+        </trans-unit><trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Accountability</source>
+        </trans-unit><trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Set up internal review boards<ept id="p1">**</ept> to provide oversight and guidance on the responsible development and deployment of AI systems.</source>
+        </trans-unit><trans-unit id="212" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Ensure your employees are trained<ept id="p1">**</ept> to use and maintain the solution in a responsible and ethical manner and understand when the solution may require additional technical support.</source>
+        </trans-unit><trans-unit id="213" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Keep humans with requisite expertise in the loop<ept id="p1">**</ept> by reporting to them and involving them in decisions about model execution.</source>
+        </trans-unit><trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>When automation of decisions is required, ensure they are able to inspect, identify, and resolve challenges with model output and execution.</source>
+        </trans-unit><trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Put in place a clear system of accountability and governance<ept id="p1">**</ept> to conduct remediation or correction activities if models are seen as behaving in an unfair or potentially harmful manner.</source>
+        </trans-unit><trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>At Microsoft, we developed these six principles to guide our use of AI with the aim of respecting collective values while helping society realize the full potential of AI.</source>
+        </trans-unit><trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>We encourage organizations to do the same, by either creating or adapting existing principles or guidelines to fit with their culture and priorities.</source>
+        </trans-unit><trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Next, let’s look at how companies can foster responsible and trustworthy AI, both internally and with other organizations.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,71 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="9-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9-knowledge-check.357673.9c8f2624440b9f2068158d10242a03803906937a.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9c8f2624440b9f2068158d10242a03803906937a</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\set-up-cors-website-storage\9-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>Knowledge Check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>Review what you've learned.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>What is CORS?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>An HTTP feature that provides a way for web applications on one domain to access resources in another domain securely.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>CORS is an HTTP feature that provides a way for web applications on one domain to access resources in another domain securely.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>An HTTP feature that prevents Web applications from accessing resources based on User permissions</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>CORS is an HTTP feature that provides a way for web applications on one domain to access resources in another domain securely.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>A Security feature that allows browsers to a web site's resources</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>For security reasons, most web browsers restrict resource access to a single domain.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>CORS is an HTTP feature that provides this.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>What is a CORS preflight request?</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>The preflight request is sent to verify if authentication headers have been set correctly before an actual request</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>Preflight requests use the OPTIONS header.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>The preflight request is sent before the original request, hence the term 'preflight.'</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>The purpose of the preflight request is to determine whether or not the original request is safe (for example, a DELETE request).</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>The server will respond to the preflight request and indicate whether or not the original request is safe.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>If the server specifies that the original request is safe, it will allow the original request.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>Otherwise, it will block the original request.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>The preflight request is sent before the actual request, hence the term 'preflight.'</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>The purpose of the preflight request is to determine whether or not the actual request is safe.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>Preflight requests use the OPTIONS header.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>The preflight request is sent before the original request, hence the term 'preflight.'</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>The purpose of the preflight request is to determine whether or not the original request is safe (for example, a DELETE request).</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>The server will respond to the preflight request and indicate whether or not the original request is safe.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>If the server specifies that the original request is safe, it will allow the original request.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>Otherwise, it will block the original request.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>The preflight request is sent before the actual request to verify the response size for the actual request</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>Preflight requests use the OPTIONS header.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>The preflight request is sent before the original request, hence the term 'preflight.'</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>The purpose of the preflight request is to determine whether or not the original request is safe (for example, a DELETE request).</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>The server will respond to the preflight request and indicate whether or not the original request is safe.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>If the server specifies that the original request is safe, it will allow the original request.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage.9-knowledge-check">
+          <source>Otherwise, it will block the original request.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,99 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-exercise-use-swagger-ui.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-exercise-use-swagger-ui.d99cba.12229ae19034a8bdda458818e94e0e9952daeddd.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">12229ae19034a8bdda458818e94e0e9952daeddd</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\improve-api-developer-experience-with-swagger\includes\5-exercise-use-swagger-ui.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this exercise we'll enrich the documentation a developer sees about our API by adding comments and annotations to our code.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>First, let's see what we get from Swagger UI by default.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Examine the Swagger UI endpoint of our API by navigating to <bpt id="p1">**</bpt>API-ROOT-URL<ept id="p1">**</ept>/swagger in your browser.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>API-ROOT-URL<ept id="p1">**</ept> is the value you saved in the preceding exercise for the URL of your API You should see output in the browser similar to the following, when  you select the <bpt id="p2">**</bpt>Get<ept id="p2">**</ept> method.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Default Swagger UI for our API</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Swagger UI gives us some useful information about the API.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>It shows the methods that you can call, in our simple case one method called <bpt id="p1">**</bpt>PriceFrame<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>We see it is an HTTP Get operation and takes two required parameters, namely, Height and Width.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can also select <bpt id="p1">**</bpt>Try it out<ept id="p1">**</ept>, enter values for Height and Width and select <bpt id="p2">**</bpt>Execute<ept id="p2">**</ept> to see the API call in action.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Users of the API  don't have enough information to know what the limitations are on the PriceFrame method.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Let's help them out with some more detailed information through XML comments.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Add XML comments to your API</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Navigate to the project folder in the Cloud Shell.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Open the Code editor window for the project using the following command.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Activate XML documentation in your project by updating <bpt id="p1">**</bpt>PrintFramerAPI.csproj<ept id="p1">**</ept> project file and setting GenerateDocumentationFile tag to <ph id="ph1">`true`</ph>.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">**</bpt>Startup.cs<ept id="p1">**</ept> add the following using statements.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">**</bpt>Startup.cs<ept id="p1">**</ept>, update the call to the <ph id="ph1">`AddSwaggerGen()`</ph> in <ph id="ph2">`ConfigureServices`</ph> to tell Swashbuckle to use XML documentation</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>In the preceding code, reflection is used to determine the name of the XML file to load XML comments.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">**</bpt>PriceFrameController.cs<ept id="p1">**</ept>, add the following XML comment block above the <bpt id="p2">*</bpt>HttpGet<ept id="p2">*</ept> attribute of the <ph id="ph1">`GetPrice`</ph> method.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Adding triple-slash comments to an action enhances the Swagger UI by adding the description to the section header.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Save all changes and make sure it builds locally by running the following command.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Update the live app in production again with the following commands.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>When prompted, enter the <bpt id="p1">**</bpt>DEPLOYMENT-PASSWORD<ept id="p1">**</ept> you saved earlier.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Wait for the deployment to finish.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The changes are pushed to our live API hosted at the URL we noted earlier.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Look at the Swagger UI again at <bpt id="p1">**</bpt>API-ROOT-URL<ept id="p1">**</ept>/swagger and observe the added information provided by your XML comments.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Swagger UI with more documentation from XML comments for our API</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Add data annotations to your API</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You use attributes from the <ph id="ph1">`System.ComponentModel.DataAnnotations`</ph> namespace, to enable Swagger to improve the documentation.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In the API controller, add a <ph id="ph1">`[Produces("text/plain")]`</ph> attribute to the controller, to show that our API supports a content type response for <bpt id="p1">**</bpt>text/plain<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The Response Content Type drop-down selects this content type as the default for the controller's GET actions.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Add Swashbuckle annotations to your API</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>So far, our API returns the status code 200 whether or not it could calculate a price for the given frame dimensions.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In the description of the GetPrice method, we do note the case when a price can't be calculated.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>A more robust way to tell developers the response types and error codes is through the following XML comments and data annotations Swagger UI will use these values to clearly document expected HTTP response codes.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In <bpt id="p1">**</bpt>PriceFrameController.cs<ept id="p1">**</ept> replace GetPrice with the following code and comment.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This code update makes the following changes:</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The method uses the <ph id="ph1">`BadRequest()`</ph> and <ph id="ph2">`Ok()`</ph> methods to create a BadRequest (400) and an Ok status respectively, passing in the string result to the response.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The XML comments describe each status code that can be returned from this method.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The ProducesResponseTypeAttribute lists the different responses that can be returned by the action.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>These attributes are combined with XML comments, as described above, to include human friendly descriptions with each response in the generated Swagger</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Save all changes and make sure it builds locally by running the following command.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Update the live app in production again with the following commands.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Wait for the deployment to finish.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The changes are pushed to our live API hosted at the URL we noted earlier.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Look at the Swagger UI again at <bpt id="p1">**</bpt>API-ROOT-URL<ept id="p1">**</ept>/swagger and observe the added information provided by these annotations.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The final Swagger Ui for our API is shown in the following screenshot.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Swagger UI with more documentation from XML comments for our API</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>In this exercise, we enriched the information that a developer receives about our API, making it much easier to consume.</source>
+        </trans-unit></group></body></file></xliff>

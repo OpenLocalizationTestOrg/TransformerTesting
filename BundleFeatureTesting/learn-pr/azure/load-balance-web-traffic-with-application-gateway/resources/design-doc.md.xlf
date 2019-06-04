@@ -1,0 +1,322 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="design-doc.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">design-doc.36de34.0be9249b7fd89fc58abe227c14591cbb5b49e0ec.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0be9249b7fd89fc58abe227c14591cbb5b49e0ec</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\load-balance-web-traffic-with-application-gateway\resources\design-doc.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Module Design</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Title</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Load balance HTTP applications with Application Gateway</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Role(s)</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Solution architect</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Level</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Intermediate</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Product(s)</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Azure</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Azure portal</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Azure Application Gateway</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Azure virtual machines</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Knowledge of basic networking concepts (subnets, IP addressing, etc.)</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Familiarity with Azure virtual machines</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Familiarity with Azure virtual networking</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Improve application resilience by distributing load across multiple servers, and removing distribution to failed servers.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Create an Application Gateway and configure load balancing</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Identify the load balancing capabilities of Application Gateway</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Identify the differences between Application Gateway and Azure Load Balancer</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Chunk your content into subtasks</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Identify the subtasks of <bpt id="p1">*</bpt>Load balance HTTP applications with Application Gateway<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Subtask</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>What part of the introduction scenario does this subtask satisfy?</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>How will you assess it: <bpt id="p1">**</bpt>Exercise or Knowledge check<ept id="p1">**</ept>?</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Which learning objective(s) does this help meet?</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Does the subtask have enough learning content to justify an entire unit?</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If not, which other subtask will you combine it with?</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Describe Application Gateway</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Assess the capabilities of Application Gateway as an environment for load balancing requests to web servers</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>2, 3</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Create web servers</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Create and configure virtual machines that run the web site for the motor vehicle department</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Exercise</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>1</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Create and configure an Application Gateway</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Create an infrastructure to distribute the load across multiple web servers</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Exercise</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>1</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Test the Application Gateway</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Send requests to the web app running on the pool of web servers through the App Gateway</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Exercise</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>1</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Yes.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Outline the units</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Introduction<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Provide a scenario of a real-world job-task that shows how the technology is used in practice (from the module proposal):</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>The web site for a motor vehicle department has been running on a single server and has suffered multiple outages due to server failures. This has resulted in frustrated customers who are trying to register their vehicles at the end of the month before their registration expires. The department would like to improve resiliency by adding multiple web servers to their site and distribute load across them.<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>In this module, you will run the motor vehicle department web app on a pair of web servers, and then configure Application Gateway to distribute the load between these servers.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>How Application Gateway works<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>List the content that will enable the learner to <bpt id="p1">*</bpt>Describe Application Gateway<ept id="p1">*</ept>:</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Provide an overview of Application Gateway, including its purpose and key components.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">[</bpt>How Application Gateway Works<ept id="p1">](https://docs.microsoft.com/en-us/azure/application-gateway/how-application-gateway-works)</ept> and <bpt id="p2">[</bpt>Application gateway components<ept id="p2">](https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-components)</ept>.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Video\Animation: Show how an incoming request from a client is routed through an Application Gateway to a selected web server.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Include load balancing and content-based routing in the animation.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Compare the features of App Gateway for load balancing requests to those available in Azure Load Balancer:</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>URL routing at OSI Layer 7 rather than Layer 4, including path-based redirection,</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Web Application Firewall,</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>HTTP/2,</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>WebSocket support,</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Multi-tenant support,</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Multiple site hosting (using the same App Gateway to act as a load balancer for different web sites)</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Knowledge check:</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">*</ph><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: The purpose of these questions if to test the objectives <bpt id="p2">*</bpt>Identify the load balancing capabilities of Application Gateway<ept id="p2">*</ept>, and <bpt id="p3">*</bpt>Identify the differences between Application Gateway and Azure Load Balance<ept id="p3">*</ept>?*</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>What is OSI Layer 7 routing?</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>(<bpt id="p1">*</bpt>multiple-choice question<ept id="p1">*</ept>)</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>How does Appliaction Gateway direct requests to a VM (make sure students know about Backend Pools, HTTP Listeners and Rules)?</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>(<bpt id="p1">*</bpt>get students to map the flow through the various components of App Gateway, starting with an incoming request and finishing at the web server handling the request<ept id="p1">*</ept>)</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>What features does the Web Application Firewall provide?</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>(<bpt id="p1">*</bpt>get students to select items from a list. See <bpt id="p2">[</bpt>Features<ept id="p2">](https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-components)</ept> for source material<ept id="p1">*</ept>)</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Exercise - Create virtual machines for the web servers<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>List the content that will enable the learner to <bpt id="p1">*</bpt>Create web servers<ept id="p1">*</ept>:</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Recap that Application Gateway directs trafic to pools of web servers.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Each server in a pool should the same functionality and run the same web app.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>They should also be configured identically.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt><bpt id="p2">**</bpt>Note:<ept id="p2">**</ept> Briefly mention that virtual machine scale sets could be used for the web server pool VMs, but for simplicity this lab creates two identical VMs manually.<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>You can implement the web server using any appropriate technology such as Windows Server and IIS, or Linux and Apache.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>This helps to preserve any existing investment made for an existing web app that you are moving to the application gateway.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>List the steps which apply the learning content from previous unit:</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> This exercise creates Linux VMs to make it easier to script from the Azure Cloud Shell.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Start the Azure Cloud Shell (<ph id="ph1">https://shell.azure.com)</ph> and sign in.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Create a resource group for the web server VMs and Application Gateway.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Use your nearest location:</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Create a VNET and subnet for the web server VMs:</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Create VMs for the web servers (Note: These commands run asynchronously to allow both VMs to be created concurrently):</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Wait for both VMs to be built (run these commands every 30 seconds or so, until the provisioning state for both VMs is returned as "Succeeded"):</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Install and configure the vehical app on webservervm1 (Note: replace <ph id="ph1">https://github.com/&lt;vehicleapp-repo&gt;</ph> with the URL of the GIT repo holding the source code for the vehicle app):</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Configure the vehicle app on the webservervm2:</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Create and configure an Application Gateway<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>List the content that will enable the learner to <bpt id="p1">*</bpt>Create and configure an Application Gateway<ept id="p1">*</ept>:</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt><bpt id="p2">**</bpt>Note:<ept id="p2">**</ept> Add a graphic to help illustrate the items that are created by this unit.<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Highlight that Application Gateway requires a secure virtual network in which to operate.</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Explain the requirements for a subnet specifically for the App Gateway.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> From <bpt id="p2">[</bpt>Frequently asked questions for Application Gateway<ept id="p2">](https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-faq)</ept><ph id="ph1">
+</ph><bpt id="p3">*</bpt>Application Gateway consumes one private IP address per instance, plus another private IP address if a private frontend IP configuration is configured. Also, Azure reserves the first four and last IP address in each subnet for internal usage. For example, if an application gateway is set to three instances and no private frontend IP, then a /29 subnet size or greater is needed. In this case, the application gateway uses three IP addresses. If you have three instances and an IP address for the private frontend IP configuration, then a /28 subnet size or greater is needed as four IP addresses are required.<ept id="p3">*</ept></source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Animation: How traffic is directed towards a specific web server in a backend pool from a listener by using a rule, including:</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>How the application gateway references web servers by using backend pools.</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>How the application gateway accepts incoming requests from clients using a listener.</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>How the application gateway directs traffic received using a listener to a backend pool by using a rule</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Cover the following points:</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Creating a virtual network and subnet with the appropriate address space for an Application Gateway.</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Creating an Application Gateway.</source>
+        </trans-unit><trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Summarize the decisions you need to make.</source>
+        </trans-unit><trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Specifically, highlight the following points:</source>
+        </trans-unit><trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Selecting the tier (Standard, Standard V2, WAF, WAF V2).</source>
+        </trans-unit><trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Briefly list the features of each tier and why you might use them.</source>
+        </trans-unit><trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Specifying the capacity type (Autoscale, Manual, and the number of scale units).</source>
+        </trans-unit><trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Emphasize that the capacity refers to the number of instances of Application Gateway, <bpt id="p1">**</bpt>not<ept id="p1">**</ept> the size of the backend pools.</source>
+        </trans-unit><trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Specifying the availability zone.</source>
+        </trans-unit><trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note:<ept id="p1">**</ept> For an overview of scaling and availability with Application Gateway, see <bpt id="p2">[</bpt>Autoscaling and Zone-redundant Application Gateway<ept id="p2">](https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-autoscaling-zone-redundant)</ept></source>
+        </trans-unit><trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Deciding whether to expose the Application Gateway to the public, or keep it private inside an organization/application-specific VNET.</source>
+        </trans-unit><trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Selecting the protocol (HTTP/HTTPS) and port to listen on for incoming requests</source>
+        </trans-unit><trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Supporting the HTTP2 protocol</source>
+        </trans-unit><trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>What level of Web application firewall to use (if any)</source>
+        </trans-unit><trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Describe how to configure backend pools, listeners, and rules.</source>
+        </trans-unit><trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Explain how to configure cookie-based affinity and connection draining by modifying the HTTP settings of an Application Gateway</source>
+        </trans-unit><trans-unit id="222" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Exercise - Create and configure an Application Gateway<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>List the steps which apply the learning content from previous unit:  <ph id="ph1">*</ph><bpt id="p1">**</bpt>Note<ept id="p1">**</ept>: Use the CLI from the Azure Cloud Shell (bash) rather than the portal, as outlined in the steps below*</source>
+        </trans-unit><trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Create a subnet for the Application Gateway:</source>
+        </trans-unit><trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Create a public IP address and DNS label for the Application Gateway:</source>
+        </trans-unit><trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Find the private IP addresses of the web server VMs, webservervm1 and webservervm2:</source>
+        </trans-unit><trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Create the Application Gateway with a backend pool container the IP addresses of the web servers VMs, a listener that listens to port 80 for incoming requests to the Application Gateway, and a rule that routes (and load balances) these requests to the web servers in the backend pool:</source>
+        </trans-unit><trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Display the backend pool configuration for the Application Gateway.</source>
+        </trans-unit><trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Verify that the Application Gateway contains a backend pool with the addresses of the web servers:</source>
+        </trans-unit><trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Display the listener configuration for the Application Gateway.</source>
+        </trans-unit><trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Verify that the Application Gateway contains a listener named appGatewayListener that waits for incoming client requests:</source>
+        </trans-unit><trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Display the HTTP settings for the Application Gateway.</source>
+        </trans-unit><trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Verify that the Application Gateway is listening on port 80 for incoming client requests:</source>
+        </trans-unit><trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Display the routing rules for the Application Gateway.</source>
+        </trans-unit><trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Verify that the Application Gateway contains a routing rule named rule1 that directs traffic receieved on the appGatewayListener HTTP listener to the appGatewayBackendPool:</source>
+        </trans-unit><trans-unit id="236" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Exercise - Test the Application Gateway<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>List the steps that will enable the learner to <bpt id="p1">*</bpt>Test the Application Gateway<ept id="p1">*</ept>:</source>
+        </trans-unit><trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Find the fully qualified domain name of the Application Gateway IP address:</source>
+        </trans-unit><trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Using a web browser, navigate to http://<bpt id="p1">*</bpt><ph id="ph1">\&lt;</ph>fqdn of app gateway<ph id="ph2">\&gt;</ph><ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Verify that the Home page of the web app appears.</source>
+        </trans-unit><trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Note the name of the selected server to which the session has been connected.</source>
+        </trans-unit><trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Register<ept id="p1">**</ept> to register a vehicle.</source>
+        </trans-unit><trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Refresh<ept id="p1">**</ept> button in the address bar of the web browser.</source>
+        </trans-unit><trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Notice that the session should now be connected to a different server.</source>
+        </trans-unit><trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Click the the <bpt id="p1">**</bpt>Refresh<ept id="p1">**</ept> button again, and repeat several times.</source>
+        </trans-unit><trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Observe how the sessions are allocated to servers on a round-robin basis (the server name should oscillate between the two web servers).</source>
+        </trans-unit><trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>In the Azure cloud shell, run the following command to stop and deallocate the VM for webservervm1:</source>
+        </trans-unit><trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Return to the application in the web browser and click <bpt id="p1">**</bpt>Refresh<ept id="p1">**</ept> several times.</source>
+        </trans-unit><trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Notice that the web browser now only connects to webservervm2.</source>
+        </trans-unit><trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Note that it may take a little time to refresh the view each time; this is because the Application Gateway waits for a reponse from the stopped server, and eventually times out before trying the working server.</source>
+        </trans-unit><trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>You can add a health probe to the Application Gateway for each server to reduce this delay.</source>
+        </trans-unit><trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Restart the webservervm1 instance:</source>
+        </trans-unit><trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Return to the web application and click <bpt id="p1">**</bpt>Refresh<ept id="p1">**</ept> several times.</source>
+        </trans-unit><trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>You should see that the requests are now distributed across both web servers again.</source>
+        </trans-unit><trans-unit id="255" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Summary<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>How did you solve the problem in the initial scenario with the knowledge learned in the module?</source>
+        </trans-unit><trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Created a virtual network in which to run the Application Gateway and web servers.</source>
+        </trans-unit><trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Created virtual machines acting as web servers running instances of the web app.</source>
+        </trans-unit><trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Created an Application Gateway with a backend pool consisting of virtual machine instances.</source>
+        </trans-unit><trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Tested the Application Gateway to ensure that requests are distributed evenly across the web servers, and that if a web server stops traffic is only directed to  working web servers.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-build-application-that-stores-graph-data-using-gremlin-api.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-build-application-that-stores-graph-data-using-gremlin-api.2345fd.dcdc36b0ab6b1f859e37ac19f6137648e65b14ea.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dcdc36b0ab6b1f859e37ac19f6137648e65b14ea</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\store-access-data-cosmos-graph-api\includes\3-build-application-that-stores-graph-data-using-gremlin-api.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>If you have chosen to create a graph database, your developers will need to know how to write code against that database.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Suppose your team has decided to build a graph database in your e-commerce company.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You want to understand how to build and maintain that database.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Build an application that stores graph data using the Gremlin API</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To build a graph database, we use a similar methodology to relational databases: we create a database and then run queries against it.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For this application, there are no libraries or concepts that are specific to Cosmos DB.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The graph API presented by Cosmos DB is entirely standards-based.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Azure Cosmos DB is the globally distributed, multi-model database service from Microsoft for mission-critical applications.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>It is a multi-model database that supports document, key-value, graph, and columnar data models.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The Azure Cosmos DB Gremlin API is used to store and operate on graph data.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Gremlin API supports modeling graph data and provides APIs to traverse through the graph data.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Azure Cosmos DB is a fully managed graph database that offers global distribution, elastic scaling of storage and throughput, automatic indexing and query, tunable consistency levels, and support for the TinkerPop standard.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>What is the Gremlin Graph Traversal Language?</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The Gremlin Graph Traversal Language, or <bpt id="p1">*</bpt>Gremlin<ept id="p1">*</ept> is a high-performance language used to traverse and query data from graph databases.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>It's described as a functional, data-flow language that enables users to express complex traversals for their application's property graph.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>What is Gremlin.NET?</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Gremlin.Net is an open-source API that implements Gremlin for C# .NET applications; it currently targets .NET Standard allowing it to be added to .NET Framework, .NET Core or .NET Standard compatible libraries and applications.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>In the following exercise, we'll use the Gremlin.Net in an ASP.NET Core application.</source>
+        </trans-unit></group></body></file></xliff>

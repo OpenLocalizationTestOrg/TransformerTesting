@@ -1,0 +1,25 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-summary.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-summary.ba96a4.69ce9cb022444213243e83210949420070c64391.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">69ce9cb022444213243e83210949420070c64391</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-cdn-static-resources-blob-storage\includes\7-summary.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Azure Content Delivery (CDN) Network is a powerful way to improve performance and increase user satisfaction with websites that serve primarily large static files to a global audience.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The ability to cache large video and audio files, along with web pages more locally to the user than the origin server both reduced load on the origin server and minimizes latency.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Further Reading</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>What is a content delivery network on Azure?<ept id="p1">](https://docs.microsoft.com/azure/cdn/cdn-overview)</ept></source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Compare Azure CDN Product Features<ept id="p1">](https://docs.microsoft.com/azure/cdn/cdn-features)</ept></source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Quickstart: Integrate an Azure storage account with Azure CDN<ept id="p1">](https://docs.microsoft.com/azure/cdn/cdn-create-a-storage-account-with-cdn)</ept></source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Static website hosting in Azure Storage<ept id="p1">](https://docs.microsoft.com/azure/storage/blobs/storage-blob-static-website)</ept></source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Simple Websites using Azure Storage Blob Service<ept id="p1">](https://blogs.msdn.microsoft.com/make_it_better/2016/08/09/simple-websites-using-azure-storage-blob-service/)</ept></source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Improve performance by compressing files in Azure CDN<ept id="p1">](https://docs.microsoft.com/azure/cdn/cdn-improve-performance)</ept></source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>How caching works<ept id="p1">](https://docs.microsoft.com/azure/cdn/cdn-how-caching-works)</ept></source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Manage expiration of web content in Azure CDN<ept id="p1">](https://docs.microsoft.com/azure/cdn/cdn-manage-expiration-of-cloud-service-content)</ept></source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Restrictions on Directory Paths<ept id="p1">](https://docs.microsoft.com/azure/cdn/cdn-restrict-access-by-country)</ept></source>
+        </trans-unit></group></body></file></xliff>

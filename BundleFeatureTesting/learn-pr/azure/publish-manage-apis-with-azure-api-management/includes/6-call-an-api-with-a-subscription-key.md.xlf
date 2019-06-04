@@ -1,0 +1,63 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-call-an-api-with-a-subscription-key.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-call-an-api-with-a-subscription-key.1ab3d9.282db83303128b4c0ffc0a3f270cb5ae01f5e819.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">282db83303128b4c0ffc0a3f270cb5ae01f5e819</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\publish-manage-apis-with-azure-api-management\includes\6-call-an-api-with-a-subscription-key.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>When you publish an API, you often want some level of control over who can access the API through the gateway.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Subscription keys are used to restrict access to an API.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Here, you'll learn how to use subscription keys to secure your APIs.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Subscriptions and keys</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To protect your APIs, you can use a subscription key.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A subscription key is a unique auto-generated string which needs to be passed through in the headers of the client request.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The key is directly related to a subscription which can be scoped to different areas, this gives granular control over permissions and policies.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The three main subscription scopes are:</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>All APIs</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A Single API</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>A product</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Applications that call a protected API must include the key in request calls.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can regenerate these subscription keys at any time, for example, if you suspect that a key has been shared with unauthorized users.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Subscription keys</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Every subscription has two keys, a primary and a secondary.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Having two keys makes it easier when you do need to regenerate a key.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For example, if you want to change the primary key and avoid downtime, use the secondary key in your apps.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For products where subscriptions are enabled, you must supply a key when making calls to APIs in that product.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>As a developer, you can obtain a key by submitting a subscription request.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This is a core part of the APIM workflow.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>[Note] Creating new users and giving them their subscription keys so they can access the API is a core part of the APIM workflow, but is outside the scope of this module.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Call an API with the subscription key</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Applications must include a valid key in all HTTP requests when they make calls to API endpoints that are protected by a subscription.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Keys can be passed in the request header, or as a query string in the URL.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The default header name is <bpt id="p1">**</bpt>Ocp-Apim-Subscription-Key<ept id="p1">**</ept>, and the default query string is <bpt id="p2">**</bpt>subscription-key<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To test out your API calls, you can use the developer portal, or command-line tools, such as <bpt id="p1">**</bpt>curl<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Here's an example of a GET request using the developer portal, showing the subscription key header.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Call API from developer portal</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Here's how you can pass a key in the request header using <bpt id="p1">**</bpt>curl<ept id="p1">**</ept>:</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Here's an example <bpt id="p1">**</bpt>curl<ept id="p1">**</ept> command that passes a key in the URL as a query string:</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If the key is not passed in the header, or as a query string in the URL, you'll get a <bpt id="p1">**</bpt>401 Access Denied<ept id="p1">**</ept> response from the API gateway.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,203 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-create-a-cdn.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-create-a-cdn.4ceecc.cf709ef8e80ca05473e6b68b6801c786fb5c08e3.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cf709ef8e80ca05473e6b68b6801c786fb5c08e3</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-cdn-static-resources-blob-storage\includes\2-create-a-cdn.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Content Delivery Networks (CDNs) can significantly speed up the delivery of assets on a web site.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>However, as not all websites are the same, it's important to can determine whether your own deployments will benefit.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>For a global training business that publishes significant numbers of videos, Azure blob storage is a good match to your business model.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Azure Blob storage also enables simple web publishing.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>However, your company's plans to expand could overload a single point of distribution.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll learn about how Azure CDN works, and how to create one to improve the performance of a static website.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>What is a CDN?</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>A CDN is a network of web servers that cache website content in different geographical locations.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>CDNs help to minimize latency by caching website content at point-of-presence (POP) locations that are close to large clusters of users.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The use of a CDN is transparent to users of your site.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Geographic distance between a website user and the server hosting the site can be a major contributor to latency.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Distance creates latency because of two main factors:</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>First, the transmission speed of electrical signals is finite.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The longer the distance is the longer it takes for a sent message to reach the other side.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Second, long-distance connections between two computers tend to pass through a relatively large number of internet routers, and each "hop" adds latency.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Using a CDN to cache content closer to users reduces both the transmission delay and the number of router hops.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Enabling a CDN</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The process of enabling a CDN for a site depends on the CDN provider you use, but typically requires three steps:</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Enter a service agreement with the CDN provider.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The service agreement is completed through a web portal.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Configure the CDN.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Modify your site implementation to use the CDN URL for assets that you want cached on the CDN.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The changes you'll need to make will vary significantly depending on the implementation of your site.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>How a CDN works</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When a user requests a file or asset, the request is routed to the closest POP.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If the data is present on the POP, the data is retrieved.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If the data isn't present, the POP will request it from the origin server, return the data to the user and store local copy.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Follow-on requests for the data will then be local to the POP.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>There are four types of CDN available in Azure:</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Standard Microsoft</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Standard Akamai</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Standard Verizon</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Premium Verizon</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The types vary by features and caching options.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This module focuses on the <bpt id="p1">**</bpt>Standard Microsoft<ept id="p1">**</ept> CDN.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For more information on each type, see the Further Reading section of the Summary unit.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>What is an Azure CDN?</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Azure Content Delivery Network (CDN) is Azure's content delivery network.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>It's a distributed network of servers that is used to cache and store content.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>These servers are in locations that are close to end users to minimize latency.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The server locations are referred to as Point-of-presence (POP) locations.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>CDNs store cached data on <bpt id="p1">*</bpt>edge servers<ept id="p1">*</ept>, or servers close to your users, in these POP locations.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Features and Benefits of Microsoft Azure CDNs</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Features that Microsoft Azure CDNs offer are:</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Dynamic site acceleration<ept id="p1">**</ept> - speed up the delivery of static files</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>HTTPS custom domain support<ept id="p1">**</ept> - enable encrypted connections to custom domains, such as <ph id="ph1">https://www.contoso.com</ph></source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure diagnostics logs<ept id="p1">**</ept> - view core analytic information and send the data to an Azure Storage Account, Azure Event Hubs, or Log Analytics Workspace</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>File compression<ept id="p1">**</ept> - increase performance by reducing the number of bytes in transit</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Geo-filtering<ept id="p1">**</ept> - create rules on your CDN endpoint that uses specific paths to allow or block content in selected countries</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For more information on these features, see the Further Reading section of the Summary unit.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The benefits from using Microsoft Azure CDNs include:</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Better performance and a smoother user experience with large or streamed files.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Improved results with applications that require multiple round trips to display content.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Greater scaling, especially with rapidly spiking loads, such as global launch events.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Reduced traffic to the origin server.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Assessing the Suitability of CDNs</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>CDNs are typically best suited to technologies that employ many large static files.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>They can also be useful where you need the ability to serve files to a large number of simultaneous users worldwide, for example at a product launch.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>However, the standard Microsoft CDN in Azure doesn't provide significant advantage with dynamic sites.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>CDNs and Web Servers</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Azure CDN supports Web servers running on virtual machines in Azure as origin servers.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You can also connect Azure CDN to Azure Websites.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>By doing that, your site is distributed globally to reduce latency and increase user satisfaction.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>When you connect your Web site into CDN and propagate the files, you end up with an identical file structure in CDN.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Creating a CDN requires specifying a new CDN in Azure.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Then you configure an endpoint that points to the origin server or blob storage account.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Azure requires unique names for the CDN path and the origin server URL.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The exercise in the next unit covers this procedure.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>CDNs with Serverless apps and Web apps</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A serverless web app in Azure requires no deployment, configuration, or management of servers.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This model contains the following components:</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Blob storage<ept id="p1">**</ept> - static web files (HTML, CSS, and JavaScript) are stored in Azure Blob storage, which implements static website hosting.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Any dynamic interaction is through JavaScript calls to backend APIs.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>In consequence, there's no server-side code to render the web page.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Function apps<ept id="p1">**</ept> - uses an event-driven model to invoke functions (pieces of code) by using triggers (events).</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>With a serverless app, the trigger might be an HTTP get request.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>API Management<ept id="p1">**</ept> - provides an API gateway that publishes and manages the APIs that client functions use.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The gateway also helps to decouple the front-end applications from the APIs.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>API management can translate URLs, apply transforms to data requests between front and back ends, and configure response headers.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Azure CDN caches the serverless web app content, providing lower latency and faster content delivery to users.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>CDN can also provide an endpoint for encrypted HTTPS connections.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Azure CDN provides similar interaction with Azure Web apps.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>CDN Components</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Now let's look in more detail of how CDNs work.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>There are two concepts here: The CDN profile and CDN endpoints.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>This section also covers POP propagation times.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>CDN Profiles</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>A CDN profile is a container for one or more CDN endpoints.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Each CDN endpoint specifies a pricing tier and provides a link to the cached content on the POP.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>When you create a profile, you can specify to create a CDN endpoint or you can create endpoints later.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Note how you specify a pricing tier when you create the profile.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>CDN Endpoints</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>When you create an endpoint, you must ensure that the endpoint type matches the origin source correctly.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>For example, static websites in Azure require an endpoint set to “custom origin”.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>With storage accounts, where you can create a CDN matched to that account.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>For more information on integrating a storage account into an Azure CDN, see the Further Reading section of the Summary unit.</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>POP Propagation Times</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Propagation times between POPs vary, according to which CDN profile and pricing tier you're using.</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Azure CDN Microsoft Standard profile typically propagates in 10 minutes</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Azure CDN Verizon Standard and Azure CDN Verizon Premium profile typically complete in 10 minutes</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Azure CDN Akamai Standard profile usually propagates in 1 minute</source>
+        </trans-unit></group></body></file></xliff>

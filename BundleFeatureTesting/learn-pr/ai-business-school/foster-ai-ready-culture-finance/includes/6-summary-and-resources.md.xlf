@@ -1,0 +1,37 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-summary-and-resources.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-summary-and-resources.329376.ac1d01cf6f2fb630a27713722682e00568e133cb.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ac1d01cf6f2fb630a27713722682e00568e133cb</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\foster-ai-ready-culture-finance\includes\6-summary-and-resources.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Microsoft discovered that ideas for the most impactful applications of AI came from employees within the business functions, not from outside or above.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>As you think about adopting and implementing AI, consider your AI transformation holistically.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Focus on the cultural changes necessary to make AI transformation successful, because it’s people plus AI that will generate the greatest impact for your business.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Now that you have reviewed this module, you should be able to:</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Recognize the key elements of an AI-ready organizational culture in finance.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Explain how Microsoft incorporated AI into our finance processes.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Identify opportunities for change to achieve an AI-ready culture in your finance department.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Use these resources to discover more</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Learn <bpt id="p1">[</bpt>how AI is helping businesses boost their team collaborations<ept id="p1">](https://info.microsoft.com/ww-landing-augment-the-employee-experience-website.html)</ept> and motivating employees to strengthen their existing skills, Check out this <bpt id="p2">[</bpt>e-book<ept id="p2">](https://info.microsoft.com/ww-landing-aI-basics-for-business-eBook.html)</ept> for an introduction to AI and tips on how to implement intelligent technologies and to learn even more about transforming your organization with AI, read our <bpt id="p3">[</bpt>whitepaper on Microsoft’s vision for AI in the enterprise<ept id="p3">](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2FPpk)</ept>.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Azure Machine Learning and Cortana Intelligence Suite enable analysts at Microsoft to make <bpt id="p1">[</bpt>financial forecasts faster<ept id="p1">](https://www.microsoft.com/itshowcase/Article/Content/771/Using-predictive-analytics-to-improve-financial-forecasting)</ept>.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>New predictive analytics tools allow us to analyze larger data sets and do more sophisticated calculations, which frees financial analysts to do more interesting, profitable, and creative work.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>See how Microsoft uses blockchain<ept id="p1">](https://customers.microsoft.com/story/microsoft-financial-operations-professional-services-azure)</ept> to deliver royalty statement to Xbox game publishers faster with significant efforts reduction.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Explore <bpt id="p1">[</bpt>Anomaly Detection API<ept id="p1">](https://docs.microsoft.com/azure/machine-learning/team-data-science-process/apps-anomaly-detection-api)</ept> is an example built with Azure Machine Learning that detects anomalies in time series data with numerical values that are uniformly spaced in time.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Download PDF<ept id="p1">](https://aka.ms/AIBSCULTFINCONDWL)</ept> of the case study introduction to share with others.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Download PDF<ept id="p1">](https://aka.ms/AIBSCULTFINRESDWL)</ept>  of the case study resolution to share with others.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>References</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>(1) EY, “Is Everything that Counts Being Counted?,” Peter Wollmert, 12 November 2018.<ept id="p1">](https://www.ey.com/en_gl/assurance/how-digital-transformation-of-reporting-connects-trust-and-long-term-value)</ept></source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>(2) Accenture, “2018 Compliance Risk Study: Comply and Demand,” Samanth Regan, Ben Shorten, Nesrine Besbes, and Rafael Gomes, 2018.<ept id="p1">](https://www.accenture.com/t20180322T192051Z__w__/us-en/_acnmedia/PDF-74/Accenture-2018-Compliance-Risk-Study.pdf)</ept></source>
+        </trans-unit></group></body></file></xliff>

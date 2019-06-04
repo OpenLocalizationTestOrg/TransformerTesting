@@ -1,0 +1,17 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.98d238.c1bdfd41c1eb3636432cb2459845d0c37d16f170.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c1bdfd41c1eb3636432cb2459845d0c37d16f170</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\foster-ai-ready-culture-customer-service\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Can AI help create a better service experience by equipping agents with predictions and recommendations, surfacing new insights from customer feedback, and streamlining customers’ self-service experience?</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This module is designed for customer service and affiliated business decision-makers to illustrate the impact of making strategic decisions with AI.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The goal is to enable you to think about AI transformation holistically, with a focus on the cultural changes necessary to make AI transformation successful.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>In this module, you will learn to:<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Recognize the key elements of an AI-ready organizational culture in customer service.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Explain how Microsoft incorporated AI into customer service processes.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Identify opportunities for change to achieve an AI-ready culture in your customer service department.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Let’s explore what it means for your customer service department to be AI-ready.</source>
+        </trans-unit></group></body></file></xliff>

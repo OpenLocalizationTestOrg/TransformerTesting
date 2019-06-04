@@ -1,4 +1,4 @@
-<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-exercise-create-a-storage-account.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-exercise-create-a-storage-account.2601578abd60c97ee2da6270b7814f419fe9ef09.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">032d534892a82c591e775102c8fd12c8554c9016</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">05/13/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-azure-storage-account\includes\5-exercise-create-a-storage-account.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-exercise-create-a-storage-account.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-exercise-create-a-storage-account.8e7ce1.f30da2a097315557c4611d036dc614a01ff73479.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f30da2a097315557c4611d036dc614a01ff73479</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-azure-storage-account\includes\5-exercise-create-a-storage-account.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
           <source>In this unit, you'll use the Azure portal to create a storage account that is appropriate for a fictitious southern California surf report web app.</source>
         </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
           <source>The surf report site lets users upload photos and videos of local beach conditions.</source>
@@ -33,7 +33,7 @@
         </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
           <source>Under <bpt id="p1">**</bpt>PROJECT DETAILS<ept id="p1">**</ept>:</source>
         </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
-          <source>Select the appropriate <bpt id="p1">**</bpt>Subscription<ept id="p1">**</ept>.</source>
+          <source>Select the <bpt id="p1">_</bpt>Concierge Subscription<ept id="p1">_</ept> from the <bpt id="p2">**</bpt>Subscription<ept id="p2">**</ept> drop-down list.</source>
         </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
           <source>Select the existing Resource Group ("<bpt id="p1">**</bpt><bpt id="p2">&lt;rgn&gt;</bpt>[sandbox resource group name]<ept id="p2">&lt;/rgn&gt;</ept><ept id="p1">**</ept>") from the drop-down list.</source>
         </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
@@ -123,57 +123,45 @@
         </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
           <source>Our content is public facing and you need to allow access from public clients.</source>
         </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
-          <source>Leave the <bpt id="p1">**</bpt>Data Lake Storage Gen2<ept id="p1">**</ept> option as <bpt id="p2">_</bpt>Disabled<ept id="p2">_</ept>.</source>
+          <source>Leave the <bpt id="p1">**</bpt>Blob Soft delete<ept id="p1">**</ept> option set to <bpt id="p2">_</bpt>Disabled<ept id="p2">_</ept>.</source>
         </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
-          <source>This is for big-data applications that aren't relevant to this module.</source>
+          <source>Soft delete lets you recover your blob data in many cases where blobs or blob snapshots are deleted accidentally or overwritten.</source>
         </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
-          <source>The following screenshot shows the completed settings for the <bpt id="p1">**</bpt>Advanced<ept id="p1">**</ept> tab.</source>
+          <source>Leave the <bpt id="p1">**</bpt>Data Lake Storage Gen2<ept id="p1">**</ept> option as <bpt id="p2">_</bpt>Disabled<ept id="p2">_</ept>.</source>
         </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
-          <source>Screenshot of a Create a storage account pane with the **Advanced** tab selected.</source>
+          <source>This is for big-data applications that aren't relevant to this module.</source>
         </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
-          <source>Create</source>
+          <source>The following screenshot shows the completed settings for the <bpt id="p1">**</bpt>Advanced<ept id="p1">**</ept> tab.</source>
         </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
-          <source>You can explore the <bpt id="p1">**</bpt>Tags<ept id="p1">**</ept> settings if you like.</source>
+          <source>Screenshot of a Create a storage account pane with the **Advanced** tab selected.</source>
         </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
-          <source>This lets you associate key/value pairs to the account for your categorization and is a feature available to any Azure resource.</source>
+          <source>Create</source>
         </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
-          <source>Click <bpt id="p1">**</bpt>Review + create<ept id="p1">**</ept> to review the settings.</source>
+          <source>You can explore the <bpt id="p1">**</bpt>Tags<ept id="p1">**</ept> settings if you like.</source>
         </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
-          <source>This will do a quick validation of your options to make sure all the required fields are selected.</source>
+          <source>This lets you associate key/value pairs to the account for your categorization and is a feature available to any Azure resource.</source>
         </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
-          <source>If there are issues, they'll be reported here.</source>
+          <source>Click <bpt id="p1">**</bpt>Review + create<ept id="p1">**</ept> to review the settings.</source>
         </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
-          <source>Once you've reviewed the settings, click <bpt id="p1">**</bpt>Create<ept id="p1">**</ept> to provision the storage account.</source>
+          <source>This will do a quick validation of your options to make sure all the required fields are selected.</source>
         </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
-          <source>It will take a few minutes to deploy the account.</source>
+          <source>If there are issues, they'll be reported here.</source>
         </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
-          <source>While Azure is working on that, let's explore the APIs we'll use with this account.</source>
+          <source>Once you've reviewed the settings, click <bpt id="p1">**</bpt>Create<ept id="p1">**</ept> to provision the storage account.</source>
         </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
-          <source>Verify</source>
+          <source>It will take a few minutes to deploy the account.</source>
         </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
-          <source>Select the <bpt id="p1">**</bpt>Storage accounts<ept id="p1">**</ept> link in the left sidebar.</source>
+          <source>While Azure is working on that, let's explore the APIs we'll use with this account.</source>
         </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
-          <source>Locate the new storage account in the list to verify that creation succeeded.</source>
+          <source>Verify</source>
         </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
-          <source>When you're working in your own subscription, you can use the following steps in the Azure portal to delete the resource group and all associated resources.</source>
+          <source>Select the <bpt id="p1">**</bpt>Storage accounts<ept id="p1">**</ept> link in the left sidebar.</source>
         </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
-          <source>Select the <bpt id="p1">**</bpt>Resource groups<ept id="p1">**</ept> link in the left sidebar.</source>
+          <source>Locate the new storage account in the list to verify that creation succeeded.</source>
         </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
-          <source>Locate the resource group you created in the list.</source>
-        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
-          <source>Right-click on the resource group entry and select <bpt id="p1">**</bpt>Delete resource group<ept id="p1">**</ept> from the context menu.</source>
-        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
-          <source>You can also click the "..." menu element on the right side of the entry to get to the same context menu.</source>
-        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
-          <source>Type the resource group name into the confirmation field.</source>
-        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
-          <source>Click the <bpt id="p1">**</bpt>Delete<ept id="p1">**</ept> button.</source>
-        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
-          <source>This may take several minutes.</source>
-        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
           <source>You created a storage account with settings driven by your business requirements.</source>
-        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
           <source>For example, you might have selected a West US datacenter because your customers were primarily located in southern California.</source>
-        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
           <source>This is a typical flow: first analyze your data and goals, and then configure the storage account options to match.</source>
         </trans-unit></group></body></file></xliff>

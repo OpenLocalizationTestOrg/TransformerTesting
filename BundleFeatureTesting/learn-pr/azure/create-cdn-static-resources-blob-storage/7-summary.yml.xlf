@@ -1,0 +1,69 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-summary.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-summary.7746b7.01e69cdec920183b01f74e66759cd10be42ba5e3.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">01e69cdec920183b01f74e66759cd10be42ba5e3</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-cdn-static-resources-blob-storage\7-summary.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>Which of the following is NOT a valid Azure CDN type?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>Standard Microsoft</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>Standard Microsoft is a valid Azure CDN type.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>Standard Akamai</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>Standard Akamai is a valid Azure CDN type.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>Premium Akamai</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>Premium Akamai is not a valid Azure CDN type.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>Valid types are Standard Microsoft, Standard Akamai, Standard Verizon, and Premium Verizon</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>If a CDN does not have a copy of a user-requested file in an edge server at a Point of Presence (POP), what happens next?</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>The edge server checks with other edge servers at the same POP.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>If the file is still not present, it then requests the file from the origin server, returns the file to the user and caches the file.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>The edge server checks with other edge servers at the same POP.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>If the file is still not present, it then requests the file from the origin server, returns the file to the user and caches the file.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>The POP passes the request to the next closest POP.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>If the file is not on any The POP requests the file directly from the origin server.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>It does not check with the next nearest POP.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>The POP replies with a File not Found message.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>The edge server checks with other edge servers at the same POP.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>If the file is still not present, it then requests the file from the origin server, returns the file to the user and caches the file.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>Which caching setting results in inefficient caching behavour with queries that use unique query strings?</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>Ignore query strings</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>Cache every unique URL is inefficient for caching queries that use unique query strings.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>Bypass caching for query strings</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>Cache every unique URL is inefficient for caching queries that use unique query strings.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>Cache every unique URL</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve" uid="learn.azure.create-content-delivery-network-azure-cdn-blob-services.7-summary">
+          <source>Cache every unique URL is inefficient for caching queries that use unique query strings.</source>
+        </trans-unit></group></body></file></xliff>

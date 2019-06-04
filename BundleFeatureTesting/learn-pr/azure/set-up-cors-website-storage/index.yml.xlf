@@ -1,0 +1,19 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.c8ae9d.88deee6c37ba7ef4611f0381db751254eb76e6f9.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">88deee6c37ba7ef4611f0381db751254eb76e6f9</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\set-up-cors-website-storage\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage">
+          <source>Set up Cross-Origin Resource Sharing for your website and storage assets</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage">
+          <source>Set up Cross-Origin Resource Sharing (CORS) for your Azure website and storage assets in order to allow cross-domain access to your resources.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage">
+          <source>Core Cloud Services - Set up CORS for your website and storage assets</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage">
+          <source>Set up Cross-Origin Resource Sharing (CORS) for your Azure website and storage assets in order to allow cross-domain access to your resources.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage">
+          <source>Understand Cross-Origin Resource Sharing (CORS) concepts and terminology</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage">
+          <source>Configure CORS rules for your Azure Storage services</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage">
+          <source>Knowledge of the Azure Storage Services</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.azure.set-up-cors-website-storage">
+          <source>Familiarity with REST APIs, the Azure CLI, and PowerShell</source>
+        </trans-unit></group></body></file></xliff>

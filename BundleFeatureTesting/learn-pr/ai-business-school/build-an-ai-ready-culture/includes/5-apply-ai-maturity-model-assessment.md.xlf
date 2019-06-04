@@ -1,0 +1,17 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-apply-ai-maturity-model-assessment.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-apply-ai-maturity-model-assessment.c588bd.5e5c4ab8aeb1f6b2c252316b55fef67d82f19314.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5e5c4ab8aeb1f6b2c252316b55fef67d82f19314</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\build-an-ai-ready-culture\includes\5-apply-ai-maturity-model-assessment.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Now that you have learned about the basics of an AI-centric organization, it is important to understand the current maturity of your organization to determine where to start the transformation.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Watch this video from Steve Sweetman, Director, Microsoft Solutions, as he discusses the different stages of maturity and how to leverage a maturity model tool to understand how to advance your organization to the next level.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Organizations who are successful at adopting AI have already built a culture of experimentation and a learning mindset.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Both are required to truly harness the power of this new technology.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Organizations who have adopted AI also have a manifesto, they have a set of principles and core understanding about what they want to achieve and the approach that they want to take.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Where is your organization on its AI journey?</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The AI Maturity Model Assessment in the summary and resources unit of this module will help you get started with understanding where you are today.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Now that you’ve considered various aspects of what it means to have an AI-ready culture, how to assess your organization’s AI maturity, and prepare for change, let’s wrap up everything you’ve learned with a knowledge check.</source>
+        </trans-unit></group></body></file></xliff>

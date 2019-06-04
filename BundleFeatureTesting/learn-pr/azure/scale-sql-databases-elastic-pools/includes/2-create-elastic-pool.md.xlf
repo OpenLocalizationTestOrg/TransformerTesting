@@ -1,0 +1,73 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-create-elastic-pool.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-create-elastic-pool.d12304.d429572910cde95eb0b509522042b84b62503b80.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d429572910cde95eb0b509522042b84b62503b80</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\scale-sql-databases-elastic-pools\includes\2-create-elastic-pool.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Software as a Service (SaaS) providers like the fitness company often need to provision a SQL database for each customer, in our case, for each location.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>As a service provider, you'll need to react to unpredictable workloads, especially when storing customer data.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You may not have visibility as to how quickly each client will grow or when demand will spike.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>How are database resources traditionally provisioned?</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Traditionally SaaS providers would either need to over-provision resources to ensure they have capacity for peak demand, which adds cost, or under-provision, which could impact performance during high demand.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>What is a SQL elastic pool?</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>SQL elastic pools are a resource allocation service used to scale and manage the performance and cost of a group of Azure SQL databases.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Elastic pools allow you to purchase resources for the group.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You set the amount of resources available to the pool, add databases to the pool, and set minimum and maximum resource limits for the databases within the pool.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The pool resource requirements are set based on the overall needs of the group.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The pool allows the databases within the pool to share the allocated resources.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>SQL elastic pools are used to manage the budget and performance of multiple SQL databases.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>When to use an elastic pool?</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>SQL elastic pools are ideal when you have several SQL databases that have a low average utilization but have infrequent but high utilization spikes.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>In this scenario, you can allocate enough capacity in the pool to manage the spikes for the group but the total resources can be less than the sum of all of the peak demand of all of the databases.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Since the spikes are infrequent, a spike from one database will be unlikely to impact the capacity of the other databases in the pool.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In the case of our fitness company, the individual locations may run promotions at different times of year or see spikes in demand during regional holidays.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>How many databases to add to a pool?</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The general guidance is, if the combined resources you would need for individual databases to meet capacity spikes is more than 1.5 times the capacity required for the elastic pool, than the pool will be cost effective.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>At a minimum, it is recommended to add at least two S3 databases or fifteen S0 databases to a single pool for it to have potential cost savings.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>[insert image]</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Depending on the performance tier, you can add up to 100 or 500 databases to a single pool.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Create an elastic pool</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>SQL elastic pools must be hosted in a SQL server.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You'll specify an existing server or create a new server when creating an elastic pool.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Like many Azure resources, elastic pools can be created from the Azure portal, or the Azure CLI using the <ph id="ph1">`az sql elastic-pools create`</ph> command, or via PowerShell using the <ph id="ph2">`New-AzSqlElasticPool`</ph> command.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In the next unit we'll use the portal to create a SQL elastic pool.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Add databases to an elastic pool</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Databases can be added using the Azure portal, the Azure CLI, or PowerShell.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>When using the portal, you can add a new pool to an existing SQL server.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Or you can create a new SQL elastic pool resource and specify the server.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>When using the CLI, call <ph id="ph1">`az sql db create`</ph> and specify the pool name using the <ph id="ph2">`--elastic-pool-name`</ph> parameter.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This command can move an existing database into the pool or create a new one if it doesn't exist.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When using PowerShell, you can assign new databases to a pool using <ph id="ph1">`New-AzSqlDatabase`</ph> and move existing databases using <ph id="ph2">`Set-AzSqlDatabase`</ph>.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You can add existing Azure SQL databases from your Azure SQL server into the pool or create new databases.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>And you can mix service tiers within the same pool.</source>
+        </trans-unit></group></body></file></xliff>

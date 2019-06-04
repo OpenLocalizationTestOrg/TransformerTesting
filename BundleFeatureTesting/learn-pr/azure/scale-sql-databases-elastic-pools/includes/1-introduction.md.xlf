@@ -1,0 +1,41 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.5d96f2.4a9c47e1d38d2068ada3e0b86c8c392bbc9383fd.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4a9c47e1d38d2068ada3e0b86c8c392bbc9383fd</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\scale-sql-databases-elastic-pools\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>SQL database elastic pools are a cost-effective service that can manage and scale multiple Azure SQL databases that have varying and unpredictable resource requirements.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Imagine you work for an innovative fitness company that uses Azure Cognitive Services to visually analyze hundreds of physical attributes and metrics of your customers.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Customers come to your location to workout, and you use the intelligent systems to track their fitness progress and make health recommendations every time they visit.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You designed your system to store customer data in an Azure SQL database.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The business became successful.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>As the business grew, franchises were sold globally and there are now thousands of locations.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>However, your company continues to develop, maintain, and run the intelligent systems.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>What started as gym has become a software as a service (SaaS) company.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You now need to maintain and scale separate Azure SQL databases for each location.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>However the data resource requirements for each location are unique, some serve larger areas than others, and they run promotions at different times of year.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>As result, the rates of growth vary and load is unpredictable.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In this module, you'll learn how to use SQL Elastic pools to scale, manage performance, and manage costs for collections of Azure SQL databases.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Create an elastic pool</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Add databases to an elastic pool</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Configure database performance in an elastic pool</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Basic knowledge of the Azure portal</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Basic knowledge of Azure SQL Server</source>
+        </trans-unit></group></body></file></xliff>

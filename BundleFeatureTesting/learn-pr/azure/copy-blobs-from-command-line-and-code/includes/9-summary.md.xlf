@@ -1,0 +1,17 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="9-summary.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9-summary.9231b4.09042ec5b043cbc07101b178e64c389717e3cb54.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">09042ec5b043cbc07101b178e64c389717e3cb54</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\copy-blobs-from-command-line-and-code\includes\9-summary.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this module, you explored different techniques to copy Azure Storage blobs between storage accounts.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You learned about the commands available using the Azure CLI and the AzCopy utility.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Both commands provide a means of performing bulk transfers efficiently, but provide different feature sets.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You also saw that, if you require complete flexibility, you can write your own custom data transfer code using the .NET Storage Client library.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Learn more</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Using the Azure CLI with Azure Storage<ept id="p1">](https://docs.microsoft.com/azure/storage/common/storage-azure-cli)</ept></source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Transfer data with the AzCopy on Windows<ept id="p1">](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy)</ept></source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure Storage APIs for .NET<ept id="p1">](https://docs.microsoft.com/dotnet/api/overview/azure/storage?view=azure-dotnet)</ept></source>
+        </trans-unit></group></body></file></xliff>

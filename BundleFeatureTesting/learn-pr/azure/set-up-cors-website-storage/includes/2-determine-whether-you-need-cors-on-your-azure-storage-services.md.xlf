@@ -1,0 +1,101 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-determine-whether-you-need-cors-on-your-azure-storage-services.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-determine-whether-you-need-cors-on-your-azure-storage-services.6daf84.30e29853dff3fb01c9ac786045a40127b5242ec8.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">30e29853dff3fb01c9ac786045a40127b5242ec8</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\set-up-cors-website-storage\includes\2-determine-whether-you-need-cors-on-your-azure-storage-services.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Using Cross-Origin Resource Sharing (CORS) with Azure storage imposes a series of requirements on the configuration.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>It helps to understand how CORS works, and what its requirements are, in order to configure CORS effectively.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In the utilities company scenario, many of the job specifications documents for your company are kept in Azure storage.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Your company would like your development team to implement CORS rules in order to enable access to its resources that are maintained in Azure storage from another website.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll learn more about how CORS requests are handled and how CORS rules are validated.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>CORS requests</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>A CORS request from an origin domain may consist of one or more from the following request types:</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Request Type</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Simple Request</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Simple requests do not require a preflight request, but they must meet a specific set of criteria:</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The HTTP verb must be GET, HEAD, or POST</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Content-Type`</ph>, if specified, must be <ph id="ph2">`application/x-www-form-urlencoded`</ph>, <ph id="ph3">`multipart/form-data`</ph>, or <ph id="ph4">`text/plain`</ph></source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Only CORS safe-listed headers are used</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Preflight Request</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Preflight requests query the CORS restrictions for the service, and a preflight request is required unless is a simple request.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The preflight request consists of an OPTIONS method, your proposed request method, the origin domain, and additional HTTP headers for CORS; these are evaluated against the resource to see if the request would be allowed.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If the preflight request is accepted and an <bpt id="p1">**</bpt>HTTP 200 OK<ept id="p1">**</ept> response is returned to the client, then the client will send a actual request for a resource.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If the preflight request is NOT accepted and an <bpt id="p1">**</bpt>HTTP 403 Forbidden<ept id="p1">**</ept> response is returned to the client, then a request for a resource will be refused.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Actual Request</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Actual requests in a CORS transaction a handled as a normal HTTP request for a resource, and they contain an <ph id="ph1">`Origin`</ph> header that indicates the original source of the request.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>When the Azure Storage Service receives an actual request, it will check the CORS rules that have been set and do one of the following:</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If a rule matches, then ACCESS-CONTROL headers are added to any response</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If no rule matches, then ACCESS-CONTROL headers are not returned</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>CORS rules</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>CORS rules are configured at the service level, so you need to enable or disable CORS separately for each storage service: Blob, File, Queue, and Table.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>By default, CORS is disabled for each service.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To enable CORS, you need to set the appropriate service properties through the use of CORS rules.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The following code block shows an example of what a CORS rule might look like.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Each element included in the example CORS rule is described below:</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Element</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Specifies the list of origin domains that the storage service will allow to send CORS requests.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">*</bpt>origin domain<ept id="p1">*</ept> is the originating domain for a CORS request, and the domain in the <ph id="ph1">`AllowedOrigins`</ph> element must be an exact, case-sensitive match with the origin that is sent to the service.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You can use the wildcard character '*' to allow all origin domains to send CORS requests.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Specifies the list of methods (HTTP request verbs) that the origin domain can use for a CORS request.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In the example above, only PUT and GET requests are permitted.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Specifies the list of HTTP request headers that the origin domain can specify in the CORS request.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>In the above example:</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>All metadata headers starting with <ph id="ph1">`x-ms-meta-data`</ph>, <ph id="ph2">`x-ms-meta-target`</ph>, and <ph id="ph3">`x-ms-meta-abc`</ph> are permitted.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The wildcard character '*' indicates that any header beginning with the specified prefix is allowed.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Specifies the list of HTTP response headers that can be sent in response to the originating client of a CORS request.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In the example above, the originating client will receive any header beginning with <ph id="ph1">`x-ms-meta`</ph>.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum amount of time that the originating client will cache the preflight OPTIONS request.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Limitations of CORS rules</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Azure Storage mandates the following conditions for CORS rules:</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>There is a maximum of five CORS rules per storage service (Blob, File, Table, and Queue).</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The maximum size of all CORS rules for a request should be less than 2 KB.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The length of the allowed header or exposed header and the allowed origin should be 256 characters or less.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The HTTP verbs specified in <ph id="ph1">`AllowedMethods`</ph> must be one of the following methods that are supported by Azure storage service APIs: GET, HEAD, MERGE, DELETE, POST, OPTIONS, and PUT.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,139 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-move-blobs-using-net-storage-client.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-move-blobs-using-net-storage-client.fff45c.d059201217b974f4b8caa771093f4240a575f6e0.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d059201217b974f4b8caa771093f4240a575f6e0</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\copy-blobs-from-command-line-and-code\includes\7-move-blobs-using-net-storage-client.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The .NET Storage Client library provides programmatic access to Azure Storage.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Using this library, you can build custom applications that manipulate items in Azure Storage.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This library provides the most flexible approach to uploading, downloading, and transferring blobs between storage accounts.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Overview of the .NET Storage Client library</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The .NET Storage Client library provides a series of objects and methods that you can use to build applications that access Azure storage.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The library is available for several languages.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This unit shows examples using C#.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The library is available as a NuGet package: <bpt id="p1">*</bpt>Windows.Azure.Storage<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Two versions are available, one for the .NET Framework, and a version for .NET Core applications.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Connect to Azure storage</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The first task is to connect to Azure Storage itself.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A common way to do this is to use the <ph id="ph1">`Parse`</ph> method on the<ph id="ph2">`CloudStorageAccount`</ph> class; this method takes a connection string.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can find the connection string for a storage account using the Azure portal.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Next, create a <bpt id="p1">*</bpt>client<ept id="p1">*</ept> object.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If you're using blob storage, you create a <ph id="ph1">`CloudBlobClient`</ph> object.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You do this with the <ph id="ph1">`CreateCloudBlobClient`</ph> method of your storage account connection object.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The following code example shows how to perform these tasks.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The relevant types are defined in the <ph id="ph1">`Microsoft.Azure.Storage`</ph> and <ph id="ph2">`Microsoft.Azure.Storage.Blob`</ph> namespaces.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Download a blob</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To download a blob, you obtain a reference to the container holding the blob using your <ph id="ph1">`CloudBlobClient`</ph> object.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Using this container, you obtain a reference to the blob itself.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You can then invoke the <ph id="ph1">`DownloadToFileAsync`</ph> method to fetch the contents of the blob to a local file.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The blob reference also provides access to properties and other details for the blob, such as its last modified date and creation date.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The following code shows an example that downloads a blob named <bpt id="p1">*</bpt>MyBlob.doc<ept id="p1">*</ept> to a local file named <bpt id="p2">*</bpt>MyFile.doc<ept id="p2">*</ept>. The code also displays the last modified date for the blob:</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You can stream data from a large blob with the <ph id="ph1">`DownloadToStreamAsync`</ph> method of your source blob object.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Upload a blob</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To create a new blob using a local file, the process is similar to before.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Obtain a reference to the container that will hold the blob, and create a reference for your new blob - specify the name for your new blob.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You can then use the <ph id="ph1">`UploadFromFileAsync`</ph> method to read data from a local file and copy it to the new blob.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The code below shows an example of this approach.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>As with downloading, you can stream data to a blob using the  <ph id="ph1">`UploadFromStreamAsync`</ph> method of the destination blob object.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Copy blobs between storage accounts</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You can transfer blobs between storage accounts using a combination of the download and upload techniques illustrated above.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>However, a more efficient approach is to make use of the blob copying facilities provided by the Azure Storage service.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Copying a blob in this way transfers it directly from one container to another without requiring that you download it to an intermediate storage location.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The .NET Client library provides the <ph id="ph1">`StartCopyAsync`</ph> method of a blob object to initiate copying the data in this blob to another blob in a destination container.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You specify the destination blob using its URI.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Additionally, because the data is transferred directly, you need to ensure that the Azure Storage service is provided with the appropriate access rights to the source blob.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>One way to do this is with a Shared Access Signature (SAS) token, as described earlier in this module.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You append the SAS token to the URI of the source blob.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The example code below shows how to use the <ph id="ph1">`StartCopyAsync`</ph> method.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>sourceBlob<ept id="p1">*</ept> variable is a reference to a blob being copied.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The code creates a reference to a new blob (<bpt id="p1">*</bpt>destBlob<ept id="p1">*</ept>) using the same name as the source blob.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`StartCopyAsync`</ph> method takes the URI of the blob to be copied, and starts to transfer the data to the new destination blob.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`GetSharedAccessUri`</ph> method creates a read-only SAS token for the source blob that is valid for 60 minutes.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`StartCopyAsync`</ph> method initiates the blob copy operation and the process runs in the background.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>You can check on the progress of the operation by retrieving a reference to the destination blob and querying its <ph id="ph1">`CopyState`</ph>.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The state has a value of <ph id="ph1">`Pending`</ph> while the copy is in progress.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Additionally, you can find out how many bytes have been copied using the <ph id="ph1">`BytesCopied`</ph> property of the <ph id="ph2">`CopyState`</ph> object.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The code sample below retrieves a reference to the destination blob, and monitors the progress as it is copied.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Note that the reference is obtained using the <ph id="ph1">`GetBlobReferenceFromServerAsync`</ph> method.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This method retrieves the latest status information from the storage server.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`GetBlockBlobReference`</ph> method shown in previous examples uses information that is cached in the client library.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This cached information isn't updated while a blob is being copied.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>So, to obtain the up-to-date status of the blob, fetch this information from the server.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Delete a blob</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>To remove a blob from a container, use one of the <bpt id="p1">*</bpt>Delete<ept id="p1">*</ept> methods of the blob object.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>There are two methods available <ph id="ph1">`DeleteAsync`</ph> and <ph id="ph2">`DeleteIfExistsAsync`</ph>.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Both methods delete the specified blob, but <ph id="ph1">`DeleteIfExistsAsync`</ph> returns a boolean value indicating whether the blob actually existed before or not.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The code below uses <ph id="ph1">`DeleteIfExistsAsync`</ph> to remove a blob, and detects whether the blob existed beforehand.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Iterate blobs in a container</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You can iterate through the blobs in a container with the <ph id="ph1">`ListBlobsSegmentedAsync`</ph> method of a blob container object.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This method fetches the details of blobs in batches.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>You read the first batch, and the method returns an object that contains the details of the blobs in this batch, together with a continuation token.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You can process the details in the batch, and then call <ph id="ph1">`ListBlobsSegmentedAsync`</ph> again with continuation token to read the next batch.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>You repeat this process until the method returns a null token.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The code below shows an example of this method:</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>prefix<ept id="p1">*</ept> parameter to <ph id="ph1">`ListBlobsSegmentedAsync`</ph> enables you to find all blobs with names that have the specified prefix.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`ListBlobsSegmentedAsync`</ph> method is overloaded, and variants enable you to walk through a hierarchical container structure.</source>
+        </trans-unit></group></body></file></xliff>

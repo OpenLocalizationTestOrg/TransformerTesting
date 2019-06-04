@@ -1,0 +1,21 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="13-summary.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">13-summary.2da5e4.f8bffa0b48c9ad59724a161c3187dd7ce981398f.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f8bffa0b48c9ad59724a161c3187dd7ce981398f</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\student-evangelism\build-ml-model-with-azure-stream-analytics\includes\13-summary.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this module, you've explored several Azure services and connected them together.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You built a solution that feeds data from a simulated array of cameras into an <bpt id="p1">[</bpt>Azure IoT hub<ept id="p1">](https://azure.microsoft.com/services/iot-hub/)</ept>, uploads photographs to <bpt id="p2">[</bpt>Azure Storage<ept id="p2">](https://azure.microsoft.com/services/storage/?v=16.50)</ept>, processes the data using <bpt id="p3">[</bpt>Azure Stream Analytics<ept id="p3">](https://azure.microsoft.com/services/stream-analytics/)</ept>, analyzes the photographs using the <bpt id="p4">[</bpt>Custom Vision Service<ept id="p4">](https://azure.microsoft.com/services/cognitive-services/custom-vision-service/)</ept>, and visualizes the output using <bpt id="p5">[</bpt>Microsoft Power BI<ept id="p5">](https://powerbi.microsoft.com/)</ept>.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You also got first-hand experience using <bpt id="p1">[</bpt>Azure Functions<ept id="p1">](https://azure.microsoft.com/services/functions/)</ept> and <bpt id="p2">[</bpt>Azure SQL Database<ept id="p2">](https://azure.microsoft.com/services/sql-database/)</ept>.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>It's a sophisticated solution that has shown you how to:</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Inject streaming data with Azure IoT Hub</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Analyze the data with Azure Stream Analytics</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Use Cognitive Services to predict results</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Use Power BI to visualize the output</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can also delete the Custom Vision Service project if you like.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Just open the project and click the "trash can" icon on the Polar Bear Project tile listed on the Projects page.</source>
+        </trans-unit></group></body></file></xliff>

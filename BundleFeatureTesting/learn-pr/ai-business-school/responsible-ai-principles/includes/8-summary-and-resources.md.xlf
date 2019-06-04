@@ -1,0 +1,181 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="8-summary-and-resources.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8-summary-and-resources.666856.562107c158ff2c8fba09b031eb2d4bd113326cb5.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">562107c158ff2c8fba09b031eb2d4bd113326cb5</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\responsible-ai-principles\includes\8-summary-and-resources.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Through this module we have walked through some of the steps Microsoft is taking to prioritize responsible AI in the hope that our experience can help other enterprises.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>However, we recognize that we do not have all the answers and every individual, company, and region will have their own beliefs and standards that should be reflected in their path towards responsible AI.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>We should also recognize that as organizations and as a society, our steps towards responsible AI will need to continually evolve to reflect new innovations and lessons from both our mistakes and accomplishments.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The processes, tools, and resources mentioned can be a starting point from which organizations can create their own AI strategy.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>As the use of AI increases across the private and public sectors, it is essential that we continue to foster open dialogue among businesses, governments, NGOs, academic researchers, and all other interested individuals and organizations.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Enterprises that embrace AI early have an important role to play in promoting the responsible use of AI and preparing society for its impacts.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Their firsthand experience in dealing with the ethical challenges of AI will be crucial knowledge for later adopters and those trying to study or regulate AI technology.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Now that you have reviewed this module, you should be able to:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Describe the importance of engaging with AI in a responsible manner.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Identify six guiding principles to develop and use AI responsibly.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Determine the elements of an AI governance system.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Actions your organization can take</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To help you consider how to leverage governance and external engagements in your own organization, we developed the recommendations below.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Establishing an AI governance system</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Choose a governance structure<ept id="p1">**</ept> that best fits your organization’s AI maturity, unique characteristics, culture, and business objectives</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Encourage your governance system to develop a set of guiding ethical principles<ept id="p1">**</ept> based on your organization’s foundational values.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Outline the specific role of your governance system<ept id="p1">**</ept> within your organization.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Consider having them develop and implement policies, standards, and best practices, build a culture of integrity, provide advice, educate employees, help mitigate risks associated with AI systems, and respond to violations in a timely and consistent manner.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Provide your governance system with the financial and human resources they need<ept id="p1">**</ept> to affect real change within your organization.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Adapt your governance system(s)<ept id="p1">**</ept> as your AI maturity and business objectives change and industry best practices improve.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Governing AI engagement</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Create a handbook or manual to govern the use of AI in your organization<ept id="p1">**</ept> to help ensure your employees follow the policies your governance system establishes.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Train employees<ept id="p1">**</ept> on the policies, standards, and best practices that your governance system establishes.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Third party AI systems</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Research the third party’s stance on responsible design before purchasing out-of-the-box AI solutions to ensure they were designed in a manner consistent with your principles, policies, and standards.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Include your principles in your request for proposal, so the solution can be design with your principles in mind.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Create guidelines on how to safely operate and monitor the system and train your employees on these guidelines before deploying the system.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Rigorously test the system to ensure it operates as intended and in a manner consistent with your principles, policies, and standards.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>First party AI systems</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Consider having your governance system review or provide advice before the release of any new AI system<ept id="p1">**</ept>, especially for sensitive use cases.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Create processes for employees to analyze an AI system’s<ept id="p1">**</ept> purpose, technical capabilities, reliability, and use case prior to its release.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Provide clear guidelines to ensure your ethical principles are reflected in an AI system<ept id="p1">**</ept> if you are developing AI systems in-house.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Support your developers by using industry-established guidelines or developing your own, especially for AI systems that raise complex ethical or human rights considerations.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Consider integrating internal guidelines into project management processes<ept id="p1">**</ept>, such as a checklist aligned to the phases of a data science project.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Leverage tools and resources<ept id="p1">**</ept> to make it easier for developers to spot and design against potentially harmful issues like biases, safety and privacy gaps, and exclusionary practices.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Participating in external engagements</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Engage in public and private partnerships to advance responsible use of AI.<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Collaboration between enterprises, public organizations, government, and non-profits is crucial as we address the concern and challenges of AI, while maximizing its potential to deliver broad benefits.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Join coalitions with organizations to foster a technologically savvy workforce<ept id="p1">**</ept> and help ensure workers are prepared for the changing economy.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Share your AI perspective with the greater community, such as governments, businesses, and standards organizations<ept id="p1">**</ept>, to help guide responsible policies and legislation.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Apply your AI expertise and technologies to benefit your community<ept id="p1">**</ept> and improve the lives of people around the world.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Use these resources to discover more</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>To learn more about our perspective on responsible AI as well as the impact of AI on our future, read our book <bpt id="p1">[</bpt>The Future Computed<ept id="p1">](https://blogs.microsoft.com/uploads/2018/02/The-Future-Computed_2.8.18.pdf)</ept>.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Download PDF<ept id="p1">](https://aka.ms/AIBSRESPGUIIMPDWL)</ept> of Implications of responsible AI in business - Practical guide to share with others.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Download PDF<ept id="p1">](https://aka.ms/AIBSRESPGUIPRIDWL)</ept> of Responsible AI: Establishing guiding principles to share with others.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Download PDF<ept id="p1">](https://aka.ms/AIBSRESPGUIGOVDWL)</ept> of Responsible AI: Governance and external engagement to share with others.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Understand your organization’s AI Maturity by taking Microsoft’s <bpt id="p1">[</bpt>AI Ready Assessment<ept id="p1">](https://info.microsoft.com/ww-landing-ai-maturity-model-website.html)</ept>.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Security and Privacy</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt><bpt id="p2">[</bpt>Securing the Future of Artificial Intelligence and Machine Learning at Microsoft<ept id="p2">](https://www.microsoft.com/security/blog/2019/02/07/securing-the-future-of-ai-and-machine-learning-at-microsoft/)</ept><ept id="p1">**</ept> provides guidance on how to protect algorithms, data, and services from new AI-specific security threats.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>While security is a constantly changing field, this paper outlines emerging engineering challenges and shares initial thoughts on potential remediation.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Homomorphic encryption<ept id="p1">**</ept> is a special type of encryption technique that allows users to compute on encrypted data without decrypting it.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The results of the computations are encrypted and can be revealed only by the owner of the decryption key.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To further the use of this important encryption technique, we developed the <bpt id="p1">[</bpt>Simple Encrypted Arithmetic Library<ept id="p1">](https://www.microsoft.com/en-us/research/project/simple-encrypted-arithmetic-library/)</ept> (SEAL) and made it open source.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Multi-party computation (MPC)<ept id="p1">**</ept> allows a set of parties to share encrypted data and algorithms with each other while preserving input privacy and ensuring that no party sees information about other members.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>For example, with MPC we can build a system that analyzes data from all three hospitals without any of them gaining access to each other’s health data.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Transparency and fairness</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Datasheets for datasets<ept id="p1">](https://arxiv.org/abs/1803.09010)</ept> is a paper that proposes information that dataset creators should include in a datasheet for their dataset, such as training datasets, model inputs and outputs, and model features.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Like a datasheet for electronic components, a datasheet for datasets would help developers understand if a specific dataset is appropriate for their use case.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Local Interpretable Model-agnostics Explanations (LIME)<ept id="p1">](https://arxiv.org/pdf/1602.04938.pdf)</ept> provides an easily understood description of a machine learning classifier by perturbing the input and seeing how the predictions change.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Methodology for reducing bias in word embedding<ept id="p1">](https://arxiv.org/pdf/1607.06520.pdf)</ept> helps reduce gender biases by modifying embeddings to remove gender stereotypes, such as the association between receptionist and female, while maintaining potentially useful associations such as the association between the words queen and female.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>A reductions approach to fair classification<ept id="p1">](https://www.microsoft.com/en-us/research/publication/a-reductions-approach-to-fair-classification/)</ept> provides a method for turning any common classifier into a “fair” classifier according to any of a wide range of fairness definitions.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For example, consider a machine learning system tasked with choosing applicants to interview for a job.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>This method can turn a classifier that predicts who should be interviewed based on previous hiring decisions into a classifier that predicts who should be interviewed while also respecting demographic parity (or another fairness definition).</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Generalized Additive Models plus interactions (GA2M)<ept id="p1">](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/06/kdd13.pdf)</ept> is a learning method based on generalized additive models that improves the transparency and intelligibility of a model without sacrificing its accuracy.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>By leveraging GA2M models, users can better understand what the models have learned and more easily remove bias and other errors that may have been introduced in the learning process.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Leverage principles and guides</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">[</bpt>Inclusive Design toolkit<ept id="p1">](https://download.microsoft.com/download/b/0/d/b0d4bf87-09ce-4417-8f28-d60703d672ed/inclusive_toolkit_manual_final.pdf)</ept> to help system developers understand and address potential barriers in a product environment that could unintentionally exclude people.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Inclusive design practices<ept id="p1">](https://www.microsoft.com/design/inclusive/)</ept> can help system developers understand and address potential barriers in a product environment that could unintentionally exclude people.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Guide facial recognition work with these <bpt id="p1">[</bpt>six principles<ept id="p1">](https://blogs.microsoft.com/on-the-issues/2018/12/17/six-principles-to-guide-microsofts-facial-recognition-work/)</ept>.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Discuss the need for <bpt id="p1">[</bpt>public regulation and corporate responsibility of facial recognition technology.<ept id="p1">](https://blogs.microsoft.com/on-the-issues/2018/07/13/facial-recognition-technology-the-need-for-public-regulation-and-corporate-responsibility/)</ept></source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Reference this <bpt id="p1">[</bpt>methodology for reducing gender bias in word embedding.<ept id="p1">](https://arxiv.org/pdf/1607.06520.pdf)</ept></source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Learn the lessons from Tay and many other AI-based security to better prepare your AI systems for these new privacy and security threats in <bpt id="p1">[</bpt>Securing the Future of Artificial Intelligence and Machine Learning at Microsoft.<ept id="p1">](https://www.microsoft.com/en-us/download/details.aspx?id=57597)</ept></source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Design bots that adhere to ethical principles by following these <bpt id="p1">[</bpt>ten guidelines.<ept id="p1">](https://www.microsoft.com/en-us/research/uploads/prod/2018/11/Bot_Guidelines_Nov_2018.pdf)</ept></source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Benefit from 150+ design recommendations our researchers documented into a unified set of guidelines for <bpt id="p1">[</bpt>human-AI interaction<ept id="p1">](https://www.microsoft.com/en-us/research/blog/guidelines-for-human-ai-interaction-design/)</ept> to help developers design human-centered AI systems.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Partnership on AI<ept id="p1">](https://www.partnershiponai.org/)</ept> (PAI) is a group of researchers, non-profits, non-governmental organizations (NGOs), and companies dedicated to ensuring that AI is developed and utilized in a responsible manner.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Skill up</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>2018 WEF Future of Jobs Report<ept id="p1">](http://www3.weforum.org/docs/WEF_Future_of_Jobs_2018.pdf)</ept> states many companies have been focusing their upskilling and retraining efforts on those people who already have higher skills and value to the company.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">[</bpt>Microsoft Professional Program<ept id="p1">](https://academy.microsoft.com/professional-program/tracks/artificial-intelligence/)</ept> now has an AI track bringing together expert instructors, provide hands-on labs, offer AI-specific online courses and instructional videos.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Developer-focused <bpt id="p1">[</bpt>AI School<ept id="p1">](https://aischool.microsoft.com)</ept>, which provides online videos and other assets that help build professional AI skills.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">[</bpt>Skillful Initiative<ept id="p1">](https://www.markle.org/rework-america/skillful)</ept>, a partnership with the Markle Foundation in the US, helps match people with employers and fill high-demand jobs.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Microsoft Programs</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>AI for Good includes three programs: <bpt id="p1">[</bpt>AI for Accessibility<ept id="p1">](https://www.microsoft.com/ai-for-accessibility)</ept>, <bpt id="p2">[</bpt>AI for Earth<ept id="p2">](https://www.microsoft.com/ai-for-earth/)</ept>, and <bpt id="p3">[</bpt>AI for Humanitarian Action<ept id="p3">](https://www.microsoft.com/ai/ai-for-humanitarian-action)</ept>, which are already supporting nearly 250 projects across the globe.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Learn more about how to protect against new AI-specific security threats by reading our paper, <bpt id="p1">[</bpt>Securing the Future of Artificial Intelligence and Machine Learning at Microsoft<ept id="p1">](https://www.microsoft.com/download/details.aspx?id=57597)</ept> and follow along with the news.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>For example, last year we publicly <bpt id="p1">[</bpt>called for regulation<ept id="p1">](https://blogs.microsoft.com/on-the-issues/2018/07/13/facial-recognition-technology-the-need-for-public-regulation-and-corporate-responsibility/)</ept> of facial recognition technology and outlined our recommendations for the public and private sector alike.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>References</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>(1) Inc., “31 Tech Predictions for 2019.” Christina DesMarais, 12 December 2018. and Forbes, “Five Trends Shaping the Future of Customer Experience in 2019.” Blake Morgan, 5 December 2018.<ept id="p1">](https://www.inc.com/christina-desmarais/31-tech-predictions-for-2019.html)</ept></source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>(2) Gartner Press Release, “Gartner Predicts 70 Percent of Organizations Will Integrate AI to Assist Employees’ Productivity by 2021,” January 24, 2019.<ept id="p1">](https://www.gartner.com/en/newsroom/press-releases/2019-01-24-gartner-predicts-70-percent-of-organizations-will-int)</ept></source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>(3) Accenture, “Artificial Intelligence is the Future of Growth.” Mark Purdy and Paul Daugherty, September 2016.<ept id="p1">](https://www.accenture.com/us-en/insight-artificial-intelligence-future-growth)</ept></source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>(4) McKinsey Global Institute, “The age of analytics: Competing in a data-driven world.” Nicolaus Henke, Jacques Bughin, Michael Chui, James Manyika, Tamim Saleh, Bill Wiseman, and Guru Sethupathy, December 2016.<ept id="p1">](https://www.mckinsey.com/business-functions/mckinsey-analytics/our-insights/the-age-of-analytics-competing-in-a-data-driven-world)</ept></source>
+        </trans-unit></group></body></file></xliff>

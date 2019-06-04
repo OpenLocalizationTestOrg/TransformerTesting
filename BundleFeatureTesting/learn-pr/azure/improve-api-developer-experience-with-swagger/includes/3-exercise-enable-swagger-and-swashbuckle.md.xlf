@@ -1,0 +1,101 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-exercise-enable-swagger-and-swashbuckle.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-exercise-enable-swagger-and-swashbuckle.e46179.4b774c52b40109c971aeefac0344716ac93665f5.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4b774c52b40109c971aeefac0344716ac93665f5</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\improve-api-developer-experience-with-swagger\includes\3-exercise-enable-swagger-and-swashbuckle.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Your company has an API called <bpt id="p1">**</bpt>PrintFramerAPI<ept id="p1">**</ept> that calculates the cost of a picture frame based on the size of the frame dimensions.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Internally, the small team knows how to use the API.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>However, to have the API adopted by 3rd parties and therefore drive business, the API needs to be documented.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This is an ASP.NET Core API, so you decide to expose the API documentation through Swagger.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In this exercise, we'll try out Swagger and Swashbuckle, in a real-world example.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>First, let's create an ASP.NET Core Web API project.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Download the sample web API project to Cloud Shell</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Run the following <ph id="ph1">`git clone`</ph> command in the Cloud Shell to clone the sample Web API Project from GitHub.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Host our API in the Azure sandbox</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In this section, we'll run a script to host our code as a Web App API in Azure.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The API is hosted in the sandbox environment and you do not incur any costs.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Navigate into the repo folder locally by running the following <ph id="ph1">`cd`</ph> command.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If you list the contents of this folder with the <ph id="ph1">`ls`</ph> command, you'll see that the folder contains a file called <bpt id="p1">**</bpt>setup-exercise.sh<ept id="p1">**</ept> and a folder called <bpt id="p2">**</bpt>PrintFramerAPI<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>As its name suggests, <bpt id="p1">**</bpt>setup-exercise.sh<ept id="p1">**</ept> is the script we'll run shortly to create our lab environment.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>PrintFramerAPI<ept id="p1">**</ept> contains the app we want to deploy to Azure as a web app with a public API.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to execute the setup script.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The script performs the following steps:</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Create an Azure App Service plan in the free tier</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Create a Web API in Azure App Service, configured for Git deployment from a local repo</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Set account-level deployment credentials for our app</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Configure Git locally</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Deploy our Web API to our App Service instance</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Wait for all script steps to complete.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The  script takes a couple of minutes to run.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When the script finishes, it displays a URL that you can use to test the app deployment.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Observe that during deployment, all dependencies needed for our app to run are automatically installed on the remote App Service at this point.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Take note of the values for <bpt id="p1">**</bpt>DEPLOYMENT-PASSWORD<ept id="p1">**</ept>, <bpt id="p2">**</bpt>API-ROOT-URL<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>EXAMPLE-URL<ept id="p3">**</ept> that are displayed in the Cloud Shell.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You'll need these values for the module exercises.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Copy the <bpt id="p1">**</bpt>EXAMPLE-URL<ept id="p1">**</ept> value displayed in the Cloud Shell when the script completes and paste the address into your favorite browser.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The URl will look similar to <bpt id="p1">*</bpt><ph id="ph1">https://PrintFramerAPIabc.azurewebsites.net/api/priceframe/6/17</ph><ept id="p1">*</ept> and when you navigate to the address in the browser it should respond with the message <ph id="ph2">`The cost of a 6x17 frame is $20.00`</ph>.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Since we created the API, we knew its shape, but an external developer who wants to consume this API would not be so fortunate.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Let's help those developers by exposing some documentation about our API with the help of Swagger.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Add the Swagger library to the solution</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Navigate to the PrintFramerAPI project in the Cloud Shell.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Add Swashbuckle to our project with the following <ph id="ph1">`dotnet add package`</ph> command.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Open the code editor window for the project using the following command.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The built-in editor opens in the Cloud Shell, with all files belonging to our project in the left-hand navigation pane of the editor.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Select the  <bpt id="p1">**</bpt>Startup.cs<ept id="p1">**</ept> file to open it in the editor.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>At the top of the file add another <bpt id="p1">*</bpt>using<ept id="p1">*</ept> entry:</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Replace the method <ph id="ph1">`ConfigureServices(IServiceCollection services)`</ph> with  the following implementation to add the Swagger generator to the services collection.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>In the <ph id="ph1">`Configure`</ph> method in <bpt id="p1">**</bpt>Startup.cs<ept id="p1">**</ept>, enable  middleware for  the Swagger UI by adding <ph id="ph2">`useSwagger`</ph> and <ph id="ph3">`useSwaggerUI`</ph> as shown in the following code snippet.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Save these changes in the editor.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To see these changes in action in our live API, we need to commit the changes and push into production.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>When prompted, enter the <bpt id="p1">**</bpt>DEPLOYMENT-PASSWORD<ept id="p1">**</ept> you saved earlier.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Wait for the preceding commands to finish.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The changes are pushed to our live API hosted at the URL we noted earlier.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>In a browser, navigate to <bpt id="p1">**</bpt>API-ROOT-URL<ept id="p1">**</ept>/swagger/v1/swagger.json'.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Replace API-ROOT-URL with the value you saved from the setup script.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The response we get in the browser this time is a document describing the endpoints of the API, similar to the following response.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Swagger.json response in the browser showing the definition of our API.</source>
+        </trans-unit></group></body></file></xliff>

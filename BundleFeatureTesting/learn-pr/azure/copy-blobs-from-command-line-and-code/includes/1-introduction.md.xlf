@@ -1,0 +1,33 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.97c6eb.bd43511a114d183149a68c91bd52c06689fa072a.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bd43511a114d183149a68c91bd52c06689fa072a</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\copy-blobs-from-command-line-and-code\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Azure Blob Storage provides a convenient space for storing large quantities of data in a safe, reliable manner.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You can use blobs to hold all types of data, ranging from individual files and graphics, to an entire database.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Blob storage is useful as a store for active data, but it's also ideally suited for acting as low-cost archive storage.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Imagine you're the DevOps administrator for a prototyping and engineering company that maintains an Azure Storage account that serves as a repository for client product designs, specifications, and supporting documentation.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Your company has decided to move any inactive documents older than six months to a separate storage location.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You'll use a new Azure Storage account for archiving.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In this module, you'll learn about several common techniques for moving data in and out of blob storage, and how to transfer blobs between storage accounts.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Identify when to use synchronous and asynchronous methods for transferring blobs</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Copy and move blobs between Azure storage accounts using .NET Storage Client library</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Copy and move blobs between Azure storage accounts using the Azure CLI</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Copy and move blobs between Azure storage accounts using the AzCopy tool</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Beginner-level knowledge of Azure storage and blobs</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Beginner-level knowledge C# .NET</source>
+        </trans-unit></group></body></file></xliff>

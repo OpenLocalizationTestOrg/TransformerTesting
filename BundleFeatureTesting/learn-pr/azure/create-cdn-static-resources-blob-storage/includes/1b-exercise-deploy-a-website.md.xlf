@@ -1,0 +1,53 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1b-exercise-deploy-a-website.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1b-exercise-deploy-a-website.b22259.17533bf06a0a388214b26b16faa06d313d38ce2b.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">17533bf06a0a388214b26b16faa06d313d38ce2b</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-cdn-static-resources-blob-storage\includes\1b-exercise-deploy-a-website.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Before we explore Content Delivery Networks, let's deploy a static website in Azure Storage that we'll use throughout the module.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Create a Storage Account in Azure Cloud Shell</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>We'll start by creating a new storage account to host a static site.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>When we're finished, we'll access this site through the content delivery network.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Install the <ph id="ph1">`storage-preview`</ph> extension by executing the following command in Azure Cloud Shell.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This Azure CLI extension is needed to manage static websites from the CLI.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell terminal window on the right:</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Run these commands in the Cloud Shell to set up a few shell variables.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>We'll use these variables throughout this module to create items such as a storage account name.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Replace <ph id="ph1">`&lt;location&gt;`</ph> with one of the locations in the list above.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Run this command in the Cloud Shell to create the storage account.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In the output, find the <ph id="ph1">`"primaryEndpoints"`</ph> <bpt id="p1">**</bpt>web<ept id="p1">**</ept> url, copy it, and open the link in a web browser.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The page that will open will indicate that "The requested content doesn't exist".</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Keep this tab open; we'll deploy our static content and then refresh the page.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Enable static website hosting on the storage account</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In the Cloud Shell, run the following command to enable static website hosting on the storage account.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>At the end of the output, you should see the entry:</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Switch to the browser tab displaying the static website and refresh it.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You'll see a message that the requested content doesn't exist.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Upload Files to the Static Website</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To upload the website files, execute the following commands:</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Navigate to the <ph id="ph1">`source/website-files`</ph> folder</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Then upload those files to the $web blob storage container.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Check for Website Publication</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Switch to the website you opened earlier and refresh the page (usually F5).</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You'll see the landing page and an image.</source>
+        </trans-unit></group></body></file></xliff>

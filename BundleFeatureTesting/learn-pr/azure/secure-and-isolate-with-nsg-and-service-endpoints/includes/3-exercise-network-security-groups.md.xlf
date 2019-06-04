@@ -1,0 +1,221 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-exercise-network-security-groups.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-exercise-network-security-groups.146d53.d4f3fca35675dad9667980ad3575d9253780690c.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d4f3fca35675dad9667980ad3575d9253780690c</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\secure-and-isolate-with-nsg-and-service-endpoints\includes\3-exercise-network-security-groups.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>As the solution architect for the manufacturing company, you now want to start moving the ERP application and database servers to Azure.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>As a first step, you're going to test out your network security plan, using two of your servers.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll configure a network security group and security rules to restrict network traffic to specific servers.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You want your application server to be able to connect to your database server over HTTP.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You do not want the database server to be able to use HTTP to connect to the application server.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Exercise scenario network security groups</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Create a virtual network and network security group</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>First, you'll create the virtual network and subnets for your server resources.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You'll then create a network security group.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to create the <bpt id="p1">**</bpt>ERP-servers<ept id="p1">**</ept> VNet and <bpt id="p2">**</bpt>Applications<ept id="p2">**</ept> subnet.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to create the  <bpt id="p1">**</bpt>Databases<ept id="p1">**</ept> subnet.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to create the <bpt id="p1">**</bpt>ERP-SERVERS-NSG<ept id="p1">**</ept> network security group.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Create virtual machines running Ubuntu</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Next, you'll create two virtual machines called <bpt id="p1">**</bpt>AppServer<ept id="p1">**</ept> and <bpt id="p2">**</bpt>DataServer<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You'll deploy <bpt id="p1">**</bpt>AppServer<ept id="p1">**</ept> to the <bpt id="p2">**</bpt>Applications<ept id="p2">**</ept> subnet, and <bpt id="p3">**</bpt>DataServer<ept id="p3">**</ept> to the <bpt id="p4">**</bpt>Databases<ept id="p4">**</ept> subnet.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You'll add the VM network interfaces to the <bpt id="p1">**</bpt>ERP-SERVERS-NSG<ept id="p1">**</ept> network security group.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You'll then use these VMs to test out your network security group.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to build the <bpt id="p1">**</bpt>AppServer<ept id="p1">**</ept> VM, define a <ph id="ph1">`&lt;password&gt;`</ph> for the admin account.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to build the <bpt id="p1">**</bpt>DataServer<ept id="p1">**</ept> VM, define a <ph id="ph1">`&lt;password&gt;`</ph> for the admin account.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>It may take several minutes for the VMs to be in a running state.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To confirm that the virtual machines are running, run the following command in the Cloud Shell.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>When VM creation is complete, you should see the following output.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Check default connectivity</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Now, you'll try to open an SSH session to each of your VMs.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Remember, so far you've deployed a network security group with default rules.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To connect to your VMs, you'll use SSH (Secure Shell) directly from the Azure Cloud Shell.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To do this, you'll need the public IP addresses that have been assigned to your virtual machines.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to list the IP addresses that you'll use to connect to the VMs.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To make it easier to connect to your VMs during the rest of this exercise, you'll assign the public IP addresses to variables.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to save the public IP address of <bpt id="p1">**</bpt>AppServer<ept id="p1">**</ept> and <bpt id="p2">**</bpt>DataServer<ept id="p2">**</ept> to a variable.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to check whether you can connect to your <bpt id="p1">**</bpt>AppServer<ept id="p1">**</ept> VM.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You will get a <ph id="ph1">`Connection timed out`</ph> message.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to check whether you can connect to your <bpt id="p1">**</bpt>DataServer<ept id="p1">**</ept> VM.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You will get the same connection failure message.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Remember that the default rules deny all inbound traffic into a VNet, unless this traffic is coming from another VNet.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Deny All Inbound<ept id="p1">**</ept> rule blocked the inbound SSH connections you just attempted.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Inbound<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Name</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Priority</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Source IP</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Destination IP</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Access</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Allow VNet Inbound</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>65000</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>VIRTUAL_NETWORK</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>VIRTUAL_NETWORK</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Allow</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Deny All Inbound</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>65500</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Deny</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Create a security rule for SSH</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>As you've now experienced, the default rules in your <bpt id="p1">**</bpt>ERP-SERVERS-NSG<ept id="p1">**</ept> network security group include a <bpt id="p2">**</bpt>Deny All Inbound<ept id="p2">**</ept> rule.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>You'll now add a rule so that you can use SSH to connect to <bpt id="p1">**</bpt>AppServer<ept id="p1">**</ept> and <bpt id="p2">**</bpt>DataServer<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to create a new inbound security rule to enable SSH access.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to check whether you can now connect to your <bpt id="p1">**</bpt>AppServer<ept id="p1">**</ept> VM.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The network security group rule may take a minute or two to take effect.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If you receive a connection failure message, try again.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>You should now be able to connect.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>After the <ph id="ph1">`Are you sure you want to continue connecting (yes/no)?`</ph> message, type <bpt id="p1">**</bpt>yes<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Enter the password you used when you created the VM.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Type <ph id="ph1">`exit`</ph> to close the <bpt id="p1">**</bpt>AppServer<ept id="p1">**</ept> session.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to check whether you can now connect to your <bpt id="p1">**</bpt>DataServer<ept id="p1">**</ept> VM.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>You should now be able to connect.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>After the <ph id="ph1">`Are you sure you want to continue connecting (yes/no)?`</ph> message, type <ph id="ph2">`yes`</ph>.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Enter the password you used when you created the VM.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Type <ph id="ph1">`exit`</ph> to close the <bpt id="p1">**</bpt>DataServer<ept id="p1">**</ept> session.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Create a security rule to prevent web access</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>You'll now add a rule so that <bpt id="p1">**</bpt>AppServer<ept id="p1">**</ept> can communicate with <bpt id="p2">**</bpt>DataServer<ept id="p2">**</ept> over HTTP, but <bpt id="p3">**</bpt>DataServer<ept id="p3">**</ept> cannot communicate with <bpt id="p4">**</bpt>AppServer<ept id="p4">**</ept> over HTTP.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>These are the internal IP addresses for these servers:</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Server name</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>IP address</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>AppServer</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>10.0.0.4</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>DataServer</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>10.0.1.4</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to create a new inbound security rule to deny HTTP access over port 80.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Test HTTP connectivity between VMs</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Here, you'll check if your new rule works.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>AppServer<ept id="p1">**</ept> should be able to communicate with <bpt id="p2">**</bpt>DataServer<ept id="p2">**</ept> over HTTP.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>DataServer<ept id="p1">**</ept> should not be able to communicate with <bpt id="p2">**</bpt>AppServer<ept id="p2">**</ept> over HTTP.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to connect to your <bpt id="p1">**</bpt>AppServer<ept id="p1">**</ept> VM, and check if <bpt id="p2">**</bpt>AppServer<ept id="p2">**</ept> can communicate with <bpt id="p3">**</bpt>DataServer<ept id="p3">**</ept> over HTTP.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Enter the password you used when you created the VM.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The response should include a <ph id="ph1">`200 OK`</ph> message.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to connect to your <bpt id="p1">**</bpt>DataServer<ept id="p1">**</ept> VM, and check if <bpt id="p2">**</bpt>DataServer<ept id="p2">**</ept> can communicate with <bpt id="p3">**</bpt>AppServer<ept id="p3">**</ept> over HTTP.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Enter the password you used when you created the VM.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>This should not succeed since you've blocked access over port 80.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>After several minutes, you should get a <ph id="ph1">`Connection timed out`</ph> message.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Press <ph id="ph1">`Ctrl+C`</ph> to abort the command prior to the timeout.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Deploy an application security group</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Next, you'll create an application security group for database servers, so that all servers in this group can be assigned the same settings.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>You are planning to deploy more database servers, and want to prevent these servers from accessing application servers over HTTP.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>By assigning sources in the application security group, you don't need to manually maintain a list of IP addresses in the network security group.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>You will instead assign the network interfaces of the VMs you want to manage to the application security group.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Exercise scenario ASGs</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to create a new application security group called <bpt id="p1">**</bpt>ERP-DB-SERVERS-ASG<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to associate <bpt id="p1">**</bpt>DataServer<ept id="p1">**</ept> with the application security group.</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to update the http rule in the <bpt id="p1">**</bpt>ERP-SERVERS-NSG<ept id="p1">**</ept> network security group so that it references the <bpt id="p2">**</bpt>ERP-DB-Servers<ept id="p2">**</ept> application security group.</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Test the updated HTTP security rule</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to connect to your <bpt id="p1">**</bpt>AppServer<ept id="p1">**</ept> VM, and check if <bpt id="p2">**</bpt>AppServer<ept id="p2">**</ept> can communicate with <bpt id="p3">**</bpt>DataServer<ept id="p3">**</ept> over HTTP.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Enter the password you used when you created the VM.</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>As before, the response should include a <ph id="ph1">`200 OK`</ph> message.</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The application security group settings can take a minute or two to take effect.</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>If you don't initially receive the <ph id="ph1">`200 OK`</ph> message, wait a minute and try again.</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to connect to your <bpt id="p1">**</bpt>DataServer<ept id="p1">**</ept> VM, and check if <bpt id="p2">**</bpt>DataServer<ept id="p2">**</ept> can communicate with <bpt id="p3">**</bpt>AppServer<ept id="p3">**</ept> over HTTP.</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Enter the password you used when you created the VM.</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>As before, this should not succeed since you've blocked access over port 80.</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>After several minutes, you should get a <ph id="ph1">`Connection timed out`</ph> message.</source>
+        </trans-unit><trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Press <ph id="ph1">`Ctrl+C`</ph> to abort the command prior to the timeout.</source>
+        </trans-unit><trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>You've now confirmed that your network security group rule works using an application security group, in the same way as when you used a source IP address.</source>
+        </trans-unit><trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>If we were to add additional data servers, we could easily ensure they have the proper network security by adding the new servers to the <bpt id="p1">**</bpt>ERP-DB-SERVERS-ASG<ept id="p1">**</ept>.</source>
+        </trans-unit></group></body></file></xliff>

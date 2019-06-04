@@ -1,0 +1,61 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-create-function-triggered-by-webhook.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-create-function-triggered-by-webhook.bd95c1.e4e20e1bbea92005f4345374a16e68865199ebfa.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e4e20e1bbea92005f4345374a16e68865199ebfa</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\monitor-github-events-with-a-function-triggered-by-a-webhook\includes\2-create-function-triggered-by-webhook.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You have decided on using Azure Functions to monitor the company GitHub Wiki for updates.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Each time the Wiki is updated, you want to be able to trigger a function that would be able to process details about the update (such as updated date, contributor name etc.).</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The first step is to create a Functions App that contains a function triggered by a webhook.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll learn about the benefits of using webhooks, and how you can trigger an Azure Function using webhooks.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>What is a webhook?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Webhooks are user-defined HTTP callbacks.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>They're triggered by some event, such as pushing code to a repo or updating a wiki page.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>When the event occurs, the source site makes an HTTP request to the URL configured for the webhook.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Users can configure them to cause events on one site to run a Function App.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>One common use of webhooks in a DevOps environment is to notify an Azure function that the code or configuration for an application has changed in GitHub.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The payload of the message sent through the webhook contains the details of the event.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can use the webhook with a function to perform a task such as deploying the updated version of the application.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Azure functions, triggers, and bindings (review)</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In this module, we'll use a webhook to trigger an Azure function.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Read the following to review Azure functions key concepts will use in the exercises:</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Azure Functions is a serverless compute service.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>It enables you to run code without having to explicitly provision or manage any infrastructure.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can use Azure Functions to run script or code in response to a variety of events.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">*</bpt>Trigger<ept id="p1">*</ept> causes a function to run.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A trigger defines how a function is invoked.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A function must have exactly one trigger.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Triggers have associated data, which is often provided as the payload of the function.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">*</bpt>Binding<ept id="p1">*</ept> is used to connect a resource to a function.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You can define input bindings and  output bindings.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Data from bindings is provided to the function as parameters.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You can mix and match different bindings to suit your needs.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Bindings are optional and a function might have one or multiple input and/or output bindings.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Triggers and bindings let you avoid hard-coding access to other services.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Your function receives data (for example, the content of a queue message) in function parameters.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You send data (for example, to create a queue message) by using the return value of the function.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,47 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-control-long-running-tasks-using-timers.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-control-long-running-tasks-using-timers.b6e1c0.f6da5972728c281d22e2069e385d74c99552801c.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f6da5972728c281d22e2069e385d74c99552801c</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-long-running-serverless-workflow-with-durable-functions\includes\5-control-long-running-tasks-using-timers.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>When working with a long-running workflow, we need to consider some scenarios.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>For example, what should happen if a task isn't completed within an acceptable period of time?</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>How can you check the status of a task.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You can address these concerns with timeouts and escalation paths?</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In the example scenario, you've been asked to amend your new workflow to incorporate an escalation step to take action if a project design proposal isn't approved in a timely fashion.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In this unit you'll learn how to control long running tasks using durable timers, and how to add an escalation path based on the timer.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Timers in Durable Functions</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Durable Functions provides timers for use in the orchestrator functions.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>They can implement delays or set up timeouts for asynchronous actions.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Use durable timers in orchestrator functions instead of the <bpt id="p1">**</bpt>setTimeout()<ept id="p1">**</ept> and <bpt id="p2">**</bpt>setInterval()<ept id="p2">**</ept> functions.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You create a durable timer by calling the <bpt id="p1">**</bpt>createTimer<ept id="p1">**</ept> method of the  <bpt id="p2">**</bpt>DurableOrchestrationContext<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This method returns a task that resumes on a specified date and time.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Durable timers cannot currently last longer than 7 days due to limitations in Azure storage.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Using timers for delay</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The following example illustrates how to use durable timers for delay.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The example sends a reminder every day for 10 days.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Always use <bpt id="p1">**</bpt>currentUtcDateTime<ept id="p1">**</ept> to obtain the current date and time, instead of <bpt id="p2">**</bpt>Date.now<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Date.UTC<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Using timers for timeout</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The following example illustrates how to use durable timers for timeout.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Executing a different path if a timeout occurs.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In this example, the function waits until either the <bpt id="p1">**</bpt>GetQuote<ept id="p1">**</ept> activity function completes or the <bpt id="p2">*</bpt>deadline<ept id="p2">*</ept>* timer expires.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If the activity function completes the code follows the <bpt id="p1">*</bpt>success case<ept id="p1">*</ept>, otherwise it follows the <bpt id="p2">*</bpt>timeout case<ept id="p2">*</ept>.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Using the preceding pattern, we'll add an escalation path to our sample scenario in the orchestrator function.</source>
+        </trans-unit></group></body></file></xliff>

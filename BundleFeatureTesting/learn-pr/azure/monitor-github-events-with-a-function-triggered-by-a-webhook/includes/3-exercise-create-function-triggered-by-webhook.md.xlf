@@ -1,0 +1,95 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-exercise-create-function-triggered-by-webhook.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-exercise-create-function-triggered-by-webhook.e2e80d.81a1665893d7b6d2b4ad6ed46dc46e0d5dbaaea9.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">81a1665893d7b6d2b4ad6ed46dc46e0d5dbaaea9</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\monitor-github-events-with-a-function-triggered-by-a-webhook\includes\3-exercise-create-function-triggered-by-webhook.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Imagine that your IT department's management want to monitor the Company's Technology Wiki, and you've decided that an Azure Function will need to be triggered by Wiki updates for this to happen.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In this exercise, you'll create an Azure Function, and trigger the function using a webhook.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Create a Function App</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Sign in to the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept> using your MS Learn account.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>+ Create a resource<ept id="p1">**</ept> button found on the upper left-hand corner of the Azure portal, click <bpt id="p2">**</bpt>Compute<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Function App<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Function App<ept id="p1">**</ept> page, enter the following settings:</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The function app must have a unique name.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>We suggest using something like <bpt id="p1">**</bpt><ph id="ph1">\&lt;</ph><bpt id="p2">*</bpt>your name or initials<ept id="p2">*</ept><ph id="ph2">\&gt;</ph>triggerapp<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Use this name wherever you see <bpt id="p1">*</bpt><ph id="ph1">\&lt;</ph>your-functionapp-name<ph id="ph2">\&gt;</ph><ept id="p1">*</ept> in this exercise.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Property</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Value</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Name</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt><ph id="ph1">\&lt;</ph>your-functionapp-name<ph id="ph2">\&gt;</ph><ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Subscription</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Concierge Subscription</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Resource Group</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;rgn&gt;</bpt>[sandbox resource group name]<ept id="p1">&lt;/rgn&gt;</ept></source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>OS</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Windows</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Hosting Plan</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Consumption plan</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Location</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Accept the default location</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Runtime Stack</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>JavaScript<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Storage</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Create new, and accept the default name</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Create<ept id="p1">**</ept>, and wait for the function app to be deployed before continuing.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Create a webhook triggered function</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In the left-hand pane of the portal, click <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept>, and then click your function app.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>On the function app page, expand your new function app, and then select the <bpt id="p1">**</bpt><ph id="ph1">+</ph><ept id="p1">**</ept> button next to <bpt id="p2">**</bpt>Functions<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Azure Function for JavaScript - getting started<ept id="p1">**</ept> pane, click <bpt id="p2">**</bpt>In-portal<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Continue<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>WebHook + API<ept id="p1">**</ept>, and then click <bpt id="p2">**</bpt>Create<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The portal will create a JavaScript function that looks similar to this:</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This is the default JavaScript function generated by the portal.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>It reads a name either passed in as a query string or as part of the request body, and responds with a "Hello" message.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>On the right-hand side of the screen, click <bpt id="p1">**</bpt>View files<ept id="p1">**</ept>, and then click <bpt id="p2">**</bpt>function.json<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This file contains the binding information for the function:</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The binding specifies that the function is triggered by HTTP GET and POST requests directed towards the URL of the function app.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Test triggering your function</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>In your new function, click <bpt id="p1">**</bpt>&lt;/&gt; Get function URL<ept id="p1">**</ept> at the top.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Get function URL<ept id="p1">**</ept> message box, select <bpt id="p2">**</bpt>default (Function key)<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Copy<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The URL will look something like this:</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Paste the function URL into your browser's address bar.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Add the query string value &amp;name=<bpt id="p1">*</bpt><ph id="ph1">\&lt;</ph>yourname<ph id="ph2">\&gt;</ph><ept id="p1">*</ept> to the end of this URL and press the Enter key on your keyboard to execute the request.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>You should see the response returned by the function displayed in the browser.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>It will look something like this:</source>
+        </trans-unit></group></body></file></xliff>

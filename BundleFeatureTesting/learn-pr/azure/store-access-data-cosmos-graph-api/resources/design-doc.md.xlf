@@ -1,0 +1,219 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="design-doc.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">design-doc.5bbb0a.0e6a8ea71faa1b6f988ba04c50d23d29291bbeef.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0e6a8ea71faa1b6f988ba04c50d23d29291bbeef</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\store-access-data-cosmos-graph-api\resources\design-doc.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Design Document</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Title</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Store and access graph data in Cosmos DB with the Graph API</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Role(s)</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Developer</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Level</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Intermediate</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Product(s)</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Cosmos DB</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Gremlin graph API</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Familiarity with creating and using Cosmos DB</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Create an application that that uses a Cosmos DB as a graph database.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Store, retrieve and manipulate graph data and visualize it using Data Explorer.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Determine if a graph database fits the data needs of your application</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Store data in a graph database from an application using the Gremlin API</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Query data in a graph database from an application using the Gremlin API</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Chunk your content into subtasks</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Subtask</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>What part of the introduction scenario does this subtask satisfy?</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>How will you assess it: <bpt id="p1">**</bpt>Exercise or Knowledge check<ept id="p1">**</ept>?</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Which learning objective(s) does this help meet?</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Does the subtask have enough learning content to justify an entire unit?</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If not, which other subtask will you combine it with?</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Determine if a graph database fits the data needs of your application</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Uncertainty of fit</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>1</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Store data in a graph database from an application using the Gremlin API</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Business need to store data</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Exercise</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>2</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Query data in a graph database from an application using the Gremlin API</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Business need to query data</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Exercise</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>3</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Outline the units</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Introduction<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>See the notes below.<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Work with the author of "Choose the appropriate API for Cosmos DB storage" to expand on the scenario used in the graph DB unit from that module.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The overall concept should be that you, as a developer, are doing a "spike" to see if a graph database is a fit for your data, how to accomplish it on Azure, and exploration of how to use a graph database from an application.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The scenario needs to justify the first pair of units (introduction to graph databases/determine if it fits your needs), so should include something along the lines of "you've heard a little bit about graph database technology and decide to explore and see if it's the right fit (it will be), and how you can make it work on Azure".</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Determine if a graph database fits the data needs of your application<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Foundational concepts of graph databases</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Strengths and weaknesses of graph databases as compared to other database models</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Example scenarios, plus some detail about how it fits this module's scenario</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Determining if a graph database is a fit for your application</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Examining the data model for fit</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Mapping from data model to graph database entities</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Knowledge check<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>In which of the following scenarios would a graph database, as opposed to another database model, be the best fit?</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Which of the following is a primary strength of graph databases, as compared to other database models?</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>How would you model (some aspect) of this module's scenario in a graph database?</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>(2x)</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Build an application that stores graph data using the Gremlin API<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>General concepts</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Like most other databased applications: connect to the database and run queries</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>No Cosmos DB specific libraries or concepts.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The graph API presented by Cosmos DB is entirely standards-based.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The .NET Core app in this module's exercise uses the Gremlin.Net open source library.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Using Cosmos DB as a graph database</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Features</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Creating a graph-mode Cosmos DB</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Establishing the connection in the app code</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Using Gremlin query language to store data in the app code</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Exercise - Build an application that stores graph data using the Gremlin API<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Use the portal to create a graph-model Cosmos DB.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Don't spend a lot of time/space explaining the details; the user should generally be familiar with Cosmos DB creation.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Locally clone a sample .NET Core starter app from GitHub.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Similar to <ph id="ph1">https://github.com/Azure-Samples/azure-cosmos-db-graph-gremlindotnet-getting-started</ph>, the app should be scaffolded to connect to a graph database.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The linked sample app is not a good fit in terms of trying to fit a scenario - it just runs a bunch of queries.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The sample app for the module should at least try to superficially fit to the scenario and do something simple but interesting in response to user input.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>For example, maybe the user will be able to create products in the database, create relationships between them, then modify properties of the relationships.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The work done should be a fit for the scenario.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Update the application's connection string.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Fill in the Gremlin queries in the sections where data is written to the database.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Run the application and store data in the database.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Use Data Explorer in the portal to visualize the data that's been added.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Query graph data from an application using the Gremlin API<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>General concepts</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Like most other databased applications: connect to the database and run queries</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>No Cosmos DB specific libraries or concepts.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The graph API presented by Cosmos DB is entirely standards-based.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The .NET Core app in this module's exercise uses the Gremlin.Net open source library.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Establishing the connection</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Using Gremlin query language to store data</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Exercise - Query graph data from an application using the Gremlin API<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Fill in the Gremlin queries in the parts of the application that require querying data.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Run the application and use it to query the graph data.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Summary<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Explored graph-model databases and found them to be a good fit for your scenario.</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Created a graph-model Cosmos DB database and built a small application to see how to store and query data.</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Notes</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The Gremlin graph API for Cosmos DB should not be confused with the <bpt id="p1">[</bpt>Microsoft Graph API<ept id="p1">](https://developer.microsoft.com/en-us/graph)</ept>.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>They are entirely separate things.</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Working with the author of the <bpt id="p1">[</bpt>"Choose the appropriate API for Cosmos DB storage"<ept id="p1">](https://microsoft.sharepoint.com/:w:/t/ContentMaster-IgniteTripleCrown/EcJpzJlc9wFJuYKrsLkJjL8BuRqXZlGCSXVwKDMEruXG2A?e=Mczfwb)</ept> to make use of the scenario there.</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Expand on it and turn it into a full scenario for this module.</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>This module is not about the overall advantages of Cosmos DB or globally distributing data in general.</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>It should focus primarily on the concepts of graph databases and using Cosmos DB as a graph database with Gremlin.</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>This module requires development of a small, simple .NET Core application, fit to the domain of the scenario.</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>A simple console application is probably a good start.</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Please don't spend substantial amounts of time building a flashy user experience.</source>
+        </trans-unit><trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>This module should require a local installation of VS Code and .NET Core for local development.</source>
+        </trans-unit><trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Azure components will use the sandbox.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,35 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-introducing-batch-explorer.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-introducing-batch-explorer.f38591.872f57f95455ecaf3e20fc96e4a97431735c7062.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">872f57f95455ecaf3e20fc96e4a97431735c7062</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\run-parallel-tasks-in-azure-batch-with-the-azure-cli\includes\6-introducing-batch-explorer.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Many administrators prefer GUI tools and you can use the Azure Batch Explorer to graphically analyze the status of your batch jobs.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Here you'll learn about the Azure Batch Explorer tool and how it can help you to manage your jobs.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>What is the Azure Batch Explorer?</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Azure Batch Explorer is a free client tool that helps with every aspect of the creation, management, monitoring and debugging of the Azure Batch applications.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>It's a standalone tool dedicated to the Azure Batch workflow and can be downloaded for Windows, Mac, and Linux.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>With Batch Explorer you can manage batch accounts, and see vast amounts of information on huge Batch scenarios all at a glance, as well as drilling right down into the detail of areas of interest.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Once your Batch scenario gets to a certain scale, it becomes unwieldy to use the CLI.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The advantage of Batch Explorer is that it gives a visual tool for all aspects of Batch management and debugging.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For example, you can see all the nodes you create in a Batch pool.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Visualization of Batch Explorer nodes panel</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Drilling down further, you can see what kind of state they are in, whether working or idle.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Visualization of Batch Explorer node states</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Installing Azure Batch Explorer</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can install Azure Batch Explorer by navigating to the dedicated <bpt id="p1">[</bpt>Azure Batch Explorer<ept id="p1">](https://azure.github.io/BatchExplorer/)</ept> page and choosing the correct version for your platform.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Windows, Mac, and Linux versions are available.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Once installed, sign in using the same Microsoft account you're using for these exercises.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The Sandbox directory used by all these exercises will be selected.</source>
+        </trans-unit></group></body></file></xliff>

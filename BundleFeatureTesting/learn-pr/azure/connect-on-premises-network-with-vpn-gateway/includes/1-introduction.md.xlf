@@ -1,0 +1,29 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.fc8da4.3f5de9f4675f3238660c1a06c429660e89807959.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3f5de9f4675f3238660c1a06c429660e89807959</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\connect-on-premises-network-with-vpn-gateway\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Suppose you are the network architect at a regional healthcare provider.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The organization has migrated much of its infrastructure to Azure.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You would like to connect your data center and larger regional facilities to Azure.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You need secure connectivity so that patient health information is protected while it's traversing the network.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You don't currently have the bandwidth requirements for a dedicated circuit, and are looking for a way to integrate these networks in a cost-effective manner.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The Virtual Private Network (VPN) Gateway options in Azure will help the healthcare provider meet their connectivity requirements.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You'll see how this is done by creating and testing VPNs to securely connect sites to Azure.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Identify the features and use cases of VPN Gateways</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Understand the requirements for provisioning a VPN Gateway</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Provision site-to-site VPN Gateways</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Familiarity with Azure virtual networking</source>
+        </trans-unit></group></body></file></xliff>

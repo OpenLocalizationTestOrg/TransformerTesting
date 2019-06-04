@@ -1,0 +1,167 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="design-doc.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">design-doc.aaf284.101bfd7f0d05afe903cf2f4f1a2c77d24c53077b.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">101bfd7f0d05afe903cf2f4f1a2c77d24c53077b</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\monitor-github-events-with-a-function-triggered-by-a-webhook\resources\design-doc.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Module Design</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Title</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Monitor GitHub events with an Azure Function triggered by a webhook</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Role(s)</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Developer</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Level</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Beginner</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Product(s)</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Azure</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Azure Functions</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Experience creating and developing Azure Functions</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Technical prerequisite, to be specially noted in the introduction unit: a (free) GitHub account</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Webhooks offer a lightweight mechanism for your app to be notified by another service when something of interest happens.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Trigger an Azure function with a GitHub webhook and parse the payload for insights.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Create an Azure Function triggered by a webhook</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Secure webhook payloads with a secret</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Chunk your content into subtasks</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Subtask</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>What part of the introduction scenario does this subtask satisfy?</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>How will you assess it: <bpt id="p1">**</bpt>Exercise or Knowledge check<ept id="p1">**</ept>?</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Which learning objective(s) does this help meet?</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Does the subtask have enough learning content to justify an entire unit?</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If not, which other subtask will you combine it with?</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Create a function triggered by a webhook</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Creates Batch and Storage accounts in your subscription  to run Batch jobs</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Exercise</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>1</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Set up a webhook for a GitHub repository</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Creates a .NET console app and accesses Batch account programmatically</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Exercise</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>1</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Trigger a function with a GitHub event</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Creates a simple Batch job programmatically</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Exercise</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>1</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Secure webhook payloads with a secret</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Creates a more sophisticated solution that uses an application package</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Exercise</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>2</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Outline the units</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Introduction<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Suppose you are a developer in your company's IT department.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Management wants a regular report on how current the company's technology Wiki is kept.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>They'd like to know who contributes, how often it is updated and what pages get the most updates.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The Wiki is actually a GitHub Wiki on one of the private repos.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>You've heard that GitHub supports webhooks and you can receive notifications for all kinds of events.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>You are also familiar with Azure Functions and decide to use a Function as the listener for Wiki update events.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Notes</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The key concept we are teaching in this module is that monitoring something using a function triggered by a webhook is really simple.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>We are opting for GitHub as the real-world scenario.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Therefore, GitHub is a prerequisite for the exercises.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>I recommend a that the exercise creates a function that is triggered when the Wiki on a GitHub repo changes.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Follow the subtasks outlined above.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The repo can be public or private - private mimics a company internal Wiki scenario better,</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Explain webhooks, then show how to configure one on a GitHub repo - I recommend registering for the <bpt id="p1">[</bpt>Gollum event<ept id="p1">](https://developer.github.com/v3/activity/events/types/#gollumevent)</ept> because it is simple to test and has a cool name.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Just add one page to the Wiki in a repo and do a few edits and saves to trigger the webhook.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>On the functions side, explain briefly the concepts of triggers and bindings.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Start with an exercise to create a functions app, one function triggered by a webhook and show it running.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Next exercise, configure a webhook and the gollum event in GitHub.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Then show how the function code is updated to parse the request body and dump some details of the event payload to the console.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>For example, show <ph id="ph1">`req.body.repository.name`</ph> and <ph id="ph2">`req.headers['x-github-event']`</ph> to begin with.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A stretch is to log info from each event to a CosmosDB, but at least mention where the learner could take this solution.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Follow the Learn-Exercise pattern of paired units as much as possible in this module.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Teach something and then let the user practice in an exercise.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The final learn-exercise pair should focus on securing the webhook payload with a secret.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Explain why that's important and how it is done, then update the code in the next exercise to decrypt the payload and once again show some of the contents.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Consider using the portal (sandbox) for function creation.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Alternatively use VS Code.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Preference is to write function code in JavaScript to lign with other modules in the learning path.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>We can always add a C# pivot or alternative later.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>References</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>GitHub Webhooks<ept id="p1">](https://developer.github.com/webhooks/)</ept></source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Gollum event<ept id="p1">](https://developer.github.com/v3/activity/events/types/#gollumevent)</ept></source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure Functions HTTP triggers and bindings<ept id="p1">](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook)</ept></source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Securing your webhooks<ept id="p1">](https://developer.github.com/webhooks/securing/)</ept></source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>HTTP and webhooks<ept id="p1">](https://docs.microsoft.com/en-us/sandbox/functions-recipes/http-and-webhooks)</ept></source>
+        </trans-unit></group></body></file></xliff>

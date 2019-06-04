@@ -1,0 +1,93 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-exercise-create-configure-application-gateway.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-exercise-create-configure-application-gateway.108a30.aa3c47f4d87be9c93021ced238ed87e3cb0a4723.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aa3c47f4d87be9c93021ced238ed87e3cb0a4723</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\load-balance-web-traffic-with-application-gateway\includes\5-exercise-create-configure-application-gateway.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Application Gateway listens on an endpoint for incoming requests, and forwards these requests to one of the web servers in its back-end pool.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You provide the configuration that describes how Application Gateway directs traffic, and how to load balance requests across web servers.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In the motor vehicle department system, you need to configure Application Gateway to load balance incoming requests across the web servers hosting the vehicle registration web app.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You also need to configure Application Gateway to detect when either of the web servers has failed, so it can redirect traffic to a working server.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Additionally, you need to configure path-based routing to send requests for the vehicle registration and license renewal sites to the proper back-end web services.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In this exercise, you'll create an instance of Application Gateway with a back-end pool of web servers.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You'll verify that Application Gateway is configured with the correct listener to handle incoming HTTP requests, and routes these requests to a functioning web server.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Diagram showing the resources that will be deployed</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Configure the network for Application Gateway</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Run the following command to create the private subnet required by Application Gateway.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The subnet is named <ph id="ph1">`appGatewaySubnet`</ph>, in the <ph id="ph2">`vehicleAppVnet`</ph> virtual network that you created in the previous exercise.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Run the following command to create a public IP address and DNS label for Application Gateway.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The DNS label must be globally unique.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The code below uses the <ph id="ph1">`$RANDOM`</ph> function to generate a label.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Create an application gateway</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Create an application gateway named <ph id="ph1">`vehicleAppGateway`</ph> with the following configuration:</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A back-end pool containing the IP addresses of the web server virtual machines</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A firewall that blocks malicious requests, such as those used by SQL Injection and Cross-Site Scripting attacks</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A temporary listener that listens to port 8080, this will be replaced in a later step but is required for Application Gateway creation</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A rule that routes (and load balances) these requests to the web servers in the back-end pool</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This command can take several minutes to complete.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Run the following commands to find the private IP addresses of  <ph id="ph1">`webServer1`</ph> and <ph id="ph2">`webServer2`</ph>.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>We will save these to variables to use in the next command.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Next, we'll add the back-end pools for each web site.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>First, create the back-end pool for the vehicle registration site running on virtual machines.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>We'll use the variables with the IP addresses for each VM from the previous command.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Now run the following command to create a back-end pool for the license renewal site running on App Service.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>We will now create a front-end port for port 80.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Now we will create the listener to handle requests on port 80.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Add a health probe</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Create a health probe that tests the availability of a web server.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The health probe runs every 15 seconds (<ph id="ph1">`--interval 15`</ph>) and sends an HTTP GET request to the root path of the web app.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If the web app doesn't respond within 10 seconds (<ph id="ph1">`--timeout 10`</ph>), the probe times out. The web server is marked as unhealthy if the probe fails three times in succession (<ph id="ph2">`--threshold 3`</ph>).</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Since we're using App Service as one of our back-ends, we will set the host header to the name of the App Service.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Without this setting, the App Service won't respond and will not show as healthy.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Next, create the HTTP Settings for the gateway to use the health probe we created.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Configure path-based routing</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Now we need to configure path-based routing for our Application gateway.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>We'll route requests to <bpt id="p1">**</bpt>/VehicleRegistration/<ept id="p1">**</ept> to the <bpt id="p2">**</bpt>vmPool<ept id="p2">**</ept> and requests to <bpt id="p3">**</bpt>/LicenseRenewal/<ept id="p3">**</ept> to the <bpt id="p4">**</bpt>appServicePool<ept id="p4">**</ept>.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Any requests without any URL context will be routed to the <bpt id="p1">**</bpt>vmPool<ept id="p1">**</ept> ad a default.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Run the following command to create the path map for the <bpt id="p1">**</bpt>vmPool<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Run the following command to create the path map rule for the <bpt id="p1">**</bpt>appServicePool<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Now, create a new routing rule using the path map we created.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The last piece of configuration is to delete the rule that was created when we initially deployed the Application Gateway.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>With our custom rule in place, we no longer need it.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>With everything set up it's time to test it out.</source>
+        </trans-unit></group></body></file></xliff>

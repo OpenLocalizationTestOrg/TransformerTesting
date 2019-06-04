@@ -1,23 +1,23 @@
-<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.0a05e220395dcd972fa220a388530b1ea0b82c96.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c5be07739d9751e253e225779d04b7cabf67807f</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">05/13/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\distribute-load-with-traffic-manager\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.distribute-load-with-traffic-manager">
-          <source>Enhance your service availability and data locality using Azure Traffic Manager</source>
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.026a24.0253d83b1cd45183d9180a9be624b0eb46a58f39.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0253d83b1cd45183d9180a9be624b0eb46a58f39</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\distribute-load-with-traffic-manager\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.distribute-load-with-traffic-manager">
+          <source>Enhance your service availability and data locality by using Azure Traffic Manager</source>
         </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.distribute-load-with-traffic-manager">
-          <source>Azure Traffic Manager provides DNS load balancing to your application, improving your ability to distribute your application around the world.</source>
+          <source>Azure Traffic Manager provides DNS load balancing to your application, so you improve your ability to distribute your application around the world.</source>
         </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.distribute-load-with-traffic-manager">
           <source>Use Traffic Manager to improve the performance and availability of your application.</source>
         </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.distribute-load-with-traffic-manager">
-          <source>Enhance your service availability and data locality using Azure Traffic Manager</source>
+          <source>Enhance your service availability and data locality by using Azure Traffic Manager</source>
         </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.distribute-load-with-traffic-manager">
-          <source>Azure Traffic Manager provides DNS load balancing to your application, improving your ability to distribute your application around the world.</source>
+          <source>Azure Traffic Manager provides DNS load balancing to your application, so you improve your ability to distribute your application around the world.</source>
         </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.distribute-load-with-traffic-manager">
           <source>Use Traffic Manager to improve the performance and availability of your application.</source>
         </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.distribute-load-with-traffic-manager">
           <source>In this module, you will:</source>
         </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.distribute-load-with-traffic-manager">
-          <source>Describe how Azure Traffic Manager can be used to dynamically distribute network traffic</source>
+          <source>Learn how to use Traffic Manager to dynamically distribute network traffic</source>
         </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.distribute-load-with-traffic-manager">
-          <source>Configure Azure Traffic Manager for automatic failover to a secondary region</source>
+          <source>Set up Traffic Manager for automatic failover to a secondary region</source>
         </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.distribute-load-with-traffic-manager">
-          <source>Configure Azure Traffic Manager to redirect client requests to the nearest endpoint</source>
+          <source>Set up Traffic Manager to redirect client requests to the nearest endpoint</source>
         </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.distribute-load-with-traffic-manager">
           <source>Familiarity with Azure App Service</source>
         </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.distribute-load-with-traffic-manager">

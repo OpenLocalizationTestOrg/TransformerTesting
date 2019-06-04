@@ -1,0 +1,99 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-add-azure-function.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-add-azure-function.3ddef7.ede8c52e664437996ede7d88e23717587f6ae1f0.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ede8c52e664437996ede7d88e23717587f6ae1f0</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\student-evangelism\build-ml-model-with-azure-stream-analytics\includes\7-add-azure-function.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>One way to connect a Stream Analytics job to a machine-learning model running in the cloud is to use an <bpt id="p1">[</bpt>Azure Function<ept id="p1">](https://azure.microsoft.com/services/functions/)</ept> as a Stream Analytics output.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The function, which is invoked each time Stream Analytics produces an output, can then call out to the machine-learning model to perform predictions.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com?azure-portal=true)</ept>, click <bpt id="p2">**</bpt>+ Create a resource<ept id="p2">**</ept>, followed by <bpt id="p3">**</bpt>Compute<ept id="p3">**</ept> and <bpt id="p4">**</bpt>Function App<ept id="p4">**</ept>.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Creating an Azure Function App</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Enter an app name that is unique to Azure.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Place the Function App in the same resource group you created earlier.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Set the <bpt id="p1">**</bpt>Hosting Plan<ept id="p1">**</ept> to <bpt id="p2">**</bpt>App Service Plan<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>When you create an Azure Function App, you can choose from two hosting plans: Consumption plan or App Service plan.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The former is cheaper because you only pay when the function executes.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>But with Consumption plan, the function might not execute for several minutes after it's called.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>With App Service plan, you pay more, but the function runs immediately.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>App Service plan/Location<ept id="p1">**</ept> item and create a new App Service plan in the South Central US region.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>JavaScript<ept id="p1">**</ept> as the <bpt id="p2">**</bpt>Runtime Stack<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Storage<ept id="p1">**</ept>, select the storage account that you created earlier.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Turn off Application Insights.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Create<ept id="p1">**</ept> button to create a new Azure Function app.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Creating an Azure Function App</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Select your resource group in the portal and click <bpt id="p1">**</bpt>Refresh<ept id="p1">**</ept> until the Function App appears.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Click the Function App, and then click <bpt id="p1">**</bpt>Platform features<ept id="p1">**</ept> followed by <bpt id="p2">**</bpt>SSL<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Opening SSL settings for the Function App</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Under "Protocol Settings," make sure the minimum TLS version is set to 1.0.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Setting the minimum TLS version</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Scroll the view back to the left to show the <bpt id="p1">**</bpt>Platform features<ept id="p1">**</ept> screen in the portal.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt><ph id="ph1">+</ph><ept id="p1">**</ept> sign to the right of <bpt id="p2">**</bpt>Functions<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>In-portal<ept id="p1">**</ept>, and then click <bpt id="p2">**</bpt>Continue<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Adding a function</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Webhook + API<ept id="p1">**</ept>, and then click <bpt id="p2">**</bpt>Create<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Adding a Webhook function</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Replace the code shown in the code editor with the statements below.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Then click <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>, followed by <bpt id="p2">**</bpt>Run<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Saving and running the function</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Return to the Stream Analytics job in the portal and select <bpt id="p1">**</bpt>Outputs<ept id="p1">**</ept> in the menu on the left side.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>+ Add<ept id="p1">**</ept> and select <bpt id="p2">**</bpt>Azure function<ept id="p2">**</ept> to add an Azure Function as an output.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Adding an output</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Name the output "FunctionOutput".</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Select the Function App you created earlier in this exercise and accept the defaults everywhere else.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Then click <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Creating an output</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Just as a Stream Analytics job will accept multiple inputs, it supports multiple outputs, too.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>In addition to passing the output to an Azure Function, you could easily add outputs to log the output from the job in an Azure SQL database, a Cosmos DB database, blob storage, and other locations.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Wait for the output to appear in the list of outputs, indicating that it has been successfully added to the Stream Analytics job.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Query<ept id="p1">**</ept> from the left-hand menu and modify the query you wrote in the previous exercise to include an <ph id="ph1">`INTO`</ph> clause (line 2 below) that directs query results to the output you just added:</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> to save the query.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> in the menu on the left and click <bpt id="p2">**</bpt>Start<ept id="p2">**</ept> to start the Stream Analytics job running.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Starting the Stream Analytics job</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Make sure <bpt id="p1">**</bpt>Job output start time<ept id="p1">**</ept> is set to <bpt id="p2">**</bpt>Now<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Start<ept id="p3">**</ept> to start the run.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Specifying the job start time</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The job will take a couple of minutes to start.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>You can move to the next unit and begin setting up the simulation to generate camera events.</source>
+        </trans-unit></group></body></file></xliff>

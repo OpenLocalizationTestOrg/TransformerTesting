@@ -1,0 +1,101 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-finance-case-study-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-finance-case-study-introduction.a63e10.73985a7f9cc7a04419009af1e87b67e9eddf0922.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">73985a7f9cc7a04419009af1e87b67e9eddf0922</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\foster-ai-ready-culture-finance\includes\2-finance-case-study-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Abstract</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Microsoft’s finance organization was looking for ways to intelligently automate processes and empower employees to deliver more forward-looking insights and forecasts.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>We embedded AI into key finance operations processes to improve forecast accuracy, reduce strain on employees, and better predict areas of risk.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>These applications have saved our finance team hundreds and hundreds of hours per month, while enabling better business decision-making and risk mitigation.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Learn about how we incorporated AI into our finance processes and consider how AI could transform your own finance organization.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Context</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The finance organization is at the heart of any business and plays a key role in maintaining fiscal responsibility and controlling vital functions such as budgeting and compliance.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>It’s essential that businesses keep finance top of mind when reconsidering business processes.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Today, finance organizations face challenges in a number of key areas.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The first is the scale and growth of data.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>According to EY, “many finance teams are simply overwhelmed by the volume and variety” of their data: 49% of finance leaders say they spend more time gathering and processing data than they do analyzing it.<bpt id="p1">&lt;sup&gt;</bpt>1<ept id="p1">&lt;/sup&gt;</ept> Meanwhile, the majority of financial analysts continue to use Excel as their primary tool, but growth of data is pushing Excel to its limits.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Finance organizations need to augment Excel with intelligent tools that enable them to get the most from their data.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Second, finance organizations are struggling to become more forward-looking.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Finance has traditionally been conceived as a backward-looking function that deals largely with reporting the past.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To become a better partner to the rest of the business, finance needs to offer forward-looking insights and projections, but many companies lack the tools to do this easily.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Third, finance organizations are dependent on manual, repetitive processes, which create opportunities for human error.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>These include journal entries, close processes, and reporting—crucial activities that require too much human capital today.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>There are huge opportunities in these areas to automate processes intelligently and ultimately increase accuracy, efficiency, and transparency.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Fourth, traditional risk management techniques are no longer adequate to address growing business complexity, new regulations, and increased financial and cybersecurity risk.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For example, reliance on sampling techniques for internal controls and audits opens the door for potentially risky transactions to fall through the cracks.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Because risk management is a foundational responsibility, organizations need to find strategies to mitigate risks and create more transparency in their processes.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Microsoft’s context: Finance operations</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For Microsoft, these challenges are compounded by dramatic growth and change.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Over the past decade, we have nearly doubled our revenue and quintupled our stock price, while making major changes to our business model.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>As our revenue grows and our business becomes ever more complex, the challenge for our finance organization has been to serve the company without increasing the number of finance personnel.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This has only been possible thanks to technology and cultural shifts.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This follows a trend that analysts are seeing across organizations.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>According to Accenture, personnel in finance functions like compliance are staying flat, prompting Accenture to advise that finance organizations "can no longer rely on adding headcount to increase effectiveness."<bpt id="p1">&lt;sup&gt;</bpt>2<ept id="p1">&lt;/sup&gt;</ept></source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Because of the need to manage increasing complexity within our current capacity, our finance team is looking to AI solutions.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Strategy</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>How can AI enable your finance organization to be more forward-looking with financial insights and forecasting?</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>How does your finance organization manage the growth and scale of incoming data?</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Do you currently have the resources necessary to effectively manage this data?</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>How can AI facilitate complicated functions like auditing and compliance in your finance organization?</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>How can AI streamline finance processes such as accounts payable and accounts receivable to improve efficiency?</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Culture</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>How does your finance organization determine business use cases for new technology like AI?</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Who are the crucial decision-makers?</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>What changes would need to be made to institutionalize AI?</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>How would you integrate it into existing finance processes or alter processes to realize the full benefits of AI?</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>How can AI bridge communication gaps and relieve information request bottlenecks between finance and the greater organization?</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Implementation</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>How will you incorporate test cycles in the development and implementation process?</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>How can you incorporate ongoing reviews to maintain accuracy and security of the AI solution?</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>What financial data silos would you need to break down to create more accurate forecasts?</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>AI maturity</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Depending on your organization’s level of AI maturity, your ability to implement AI will vary.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>We recommend that you evaluate your AI maturity by asking questions like: How much does automation play a part in your organization’s operations?</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>How collaborative are teams in your organization when it comes to sharing data and insights?</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Now that you’ve gained context on the challenges finance organization face today and considered critical questions to answer before implementing AI, watch the executive perspective video with Microsoft Chief Financial Officer Amy Hood.</source>
+        </trans-unit></group></body></file></xliff>

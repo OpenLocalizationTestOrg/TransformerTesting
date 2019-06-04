@@ -1,0 +1,23 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.864e50.dd0214540968f6463637f0badd01c16f3116b77f.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dd0214540968f6463637f0badd01c16f3116b77f</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\store-access-data-cosmos-graph-api\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api">
+          <source>Store and access graph data in Cosmos DB with the Graph API</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api">
+          <source>We'll create an application that that uses a Cosmos DB as a graph database.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api">
+          <source>We'll store, retrieve and manipulate graph data and visualize it using Data Explorer.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api">
+          <source>Store and access graph data in Cosmos DB with the Graph API</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api">
+          <source>Create an application that that uses a Cosmos DB as a graph database.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api">
+          <source>Store, retrieve and manipulate graph data and visualize it using Data Explorer.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api">
+          <source>Determine if a graph database fits the data needs of your application</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api">
+          <source>Store data in a graph database from an application using the Gremlin API</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api">
+          <source>Query data in a graph database from an application using the Gremlin API</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-graph-api">
+          <source>Beginner-level knowledge of creating and using a Cosmos DB</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-build-your-xamarin-app.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-build-your-xamarin-app.79c6a1ca0f34aa23435f22657c96e056ba02d970.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ec6508129c73a3302c7ff9647ac171d5f4fd4878</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">05/13/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\send-location-over-sms-using-azure-functions-twilio\includes\3-build-your-xamarin-app.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-build-your-xamarin-app.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-build-your-xamarin-app.b1de9f.4761534b63af6c6d4ac8fef168caef5aba2fdc61.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4761534b63af6c6d4ac8fef168caef5aba2fdc61</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\advocates\send-location-over-sms-using-azure-functions-twilio\includes\3-build-your-xamarin-app.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
           <source>At this point, the mobile app is a simple "Hello World" app.</source>
         </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
           <source>In this unit, you'll add the UI and some basic application logic.</source>
@@ -83,65 +83,69 @@
         </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
           <source>Add a constructor to the class, and in this constructor, initialize the <ph id="ph1">`SendLocationCommand`</ph> as a new Xamarin.Forms <ph id="ph2">`Command`</ph>.</source>
         </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
-          <source>The complete code for this class is shown below.</source>
+          <source>Create a <ph id="ph1">`async`</ph> method called <ph id="ph2">`SendLocation`</ph> and pass a lambda function that <ph id="ph3">`await`</ph>s call to the constructor.</source>
         </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
-          <source>Create the user interface</source>
+          <source>The body of this method will be updated later in this module.</source>
         </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
-          <source>Xamarin.Forms UIs can be built using XAML.</source>
+          <source>The complete code for this class is shown below.</source>
         </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
-          <source>Open the <ph id="ph1">`MainPage.xaml`</ph> file from the <ph id="ph2">`ImHere`</ph> project.</source>
+          <source>Create the user interface</source>
         </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
-          <source>The page will open in the XAML editor.</source>
+          <source>Xamarin.Forms UIs can be built using XAML.</source>
         </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
-          <source>The <ph id="ph1">`ImHere.UWP`</ph> project also contains a file called <ph id="ph2">`MainPage.xaml`</ph>.</source>
+          <source>Open the <ph id="ph1">`MainPage.xaml`</ph> file from the <ph id="ph2">`ImHere`</ph> project.</source>
         </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
-          <source>Make sure you're editing the one in the .NET Standard library.</source>
+          <source>The page will open in the XAML editor.</source>
         </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
-          <source>Add the following XAML inside the top-level <ph id="ph1">`ContentPage`</ph> to set an instance of the ViewModel as the binding context of the page.</source>
+          <source>The <ph id="ph1">`ImHere.UWP`</ph> project also contains a file called <ph id="ph2">`MainPage.xaml`</ph>.</source>
         </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
-          <source>Overwrite the <ph id="ph1">`StackLayout`</ph> with the following code:</source>
+          <source>Make sure you're editing the one in the .NET Standard library.</source>
         </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
-          <source>The <ph id="ph1">`Editor`</ph> control will be used to add phone numbers, and the <ph id="ph2">`Label`</ph> above describes the purpose of this field to the user.</source>
+          <source>Add the following XAML inside the top-level <ph id="ph1">`ContentPage`</ph> to set an instance of the ViewModel as the binding context of the page.</source>
         </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
-          <source>The <ph id="ph1">`StackLayout`</ph> child controls stack either horizontally or vertically in the order in which the controls are added, so adding the <ph id="ph2">`Label`</ph> first will put it above the <ph id="ph3">`Editor`</ph>.</source>
+          <source>Overwrite the <ph id="ph1">`StackLayout`</ph> with the following code:</source>
         </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
-          <source><ph id="ph1">`Editor`</ph> controls are multi-line entry controls, allowing the user to enter multiple phone numbers, one per line.</source>
+          <source>The <ph id="ph1">`Editor`</ph> control will be used to add phone numbers, and the <ph id="ph2">`Label`</ph> above describes the purpose of this field to the user.</source>
         </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
-          <source>The <ph id="ph1">`Text`</ph> property on the <ph id="ph2">`Editor`</ph> is bound to the <ph id="ph3">`PhoneNumbers`</ph> property on the <ph id="ph4">`MainViewModel`</ph>.</source>
+          <source>The <ph id="ph1">`StackLayout`</ph> child controls stack either horizontally or vertically in the order in which the controls are added, so adding the <ph id="ph2">`Label`</ph> first will put it above the <ph id="ph3">`Editor`</ph>.</source>
         </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
-          <source>The syntax for binding is to set the property value to <ph id="ph1">`"{Binding &lt;property name&gt;}"`</ph>.</source>
+          <source><ph id="ph1">`Editor`</ph> controls are multi-line entry controls, allowing the user to enter multiple phone numbers, one per line.</source>
         </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
-          <source>The curly braces will tell the XAML compiler that this value is special and should be treated differently from a simple <ph id="ph1">`string`</ph>.</source>
+          <source>The <ph id="ph1">`Text`</ph> property on the <ph id="ph2">`Editor`</ph> is bound to the <ph id="ph3">`PhoneNumbers`</ph> property on the <ph id="ph4">`MainViewModel`</ph>.</source>
         </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
-          <source>Add a <ph id="ph1">`Button`</ph> below the <ph id="ph2">`Editor`</ph> control.</source>
+          <source>The syntax for binding is to set the property value to <ph id="ph1">`"{Binding &lt;property name&gt;}"`</ph>.</source>
         </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
-          <source>We'll use this button to send the user's location.</source>
+          <source>The curly braces will tell the XAML compiler that this value is special and should be treated differently from a simple <ph id="ph1">`string`</ph>.</source>
         </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
-          <source>The <ph id="ph1">`Command`</ph> property is bound to the <ph id="ph2">`SendLocationCommand`</ph> command on the ViewModel.</source>
+          <source>Add a <ph id="ph1">`Button`</ph> below the <ph id="ph2">`Editor`</ph> control.</source>
         </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
-          <source>When the button is tapped, the command will be executed.</source>
+          <source>We'll use this button to send the user's location.</source>
         </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
-          <source>Add a <ph id="ph1">`Label`</ph> below the <ph id="ph2">`Button`</ph> control.</source>
+          <source>The <ph id="ph1">`Command`</ph> property is bound to the <ph id="ph2">`SendLocationCommand`</ph> command on the ViewModel.</source>
         </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
-          <source>We'll display status messages in this label.</source>
+          <source>When the button is tapped, the command will be executed.</source>
         </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
-          <source>The full code for this page is below.</source>
+          <source>Add a <ph id="ph1">`Label`</ph> below the <ph id="ph2">`Button`</ph> control.</source>
         </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
-          <source>Run the app to see the new UI.</source>
+          <source>We'll display status messages in this label.</source>
         </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
-          <source>If you want to validate the bindings at this point, you can do so by adding breakpoints to the properties or the <ph id="ph1">`SendLocation`</ph> method.</source>
+          <source>The full code for this page is below.</source>
         </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
-          <source>When you compile this app, you will see a warning about <ph id="ph1">`SendLocation`</ph> lacking <ph id="ph2">`await`</ph> modifiers.</source>
+          <source>Run the app to see the new UI.</source>
         </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
-          <source>You can ignore this warning as this will be resolved once more code is added to this method in the next unit.</source>
+          <source>If you want to validate the bindings at this point, you can do so by adding breakpoints to the properties or the <ph id="ph1">`SendLocation`</ph> method.</source>
         </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
-          <source>The new app UI</source>
+          <source>When you compile this app, you will see a warning about <ph id="ph1">`SendLocation`</ph> lacking <ph id="ph2">`await`</ph> modifiers.</source>
         </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
-          <source>Summary</source>
+          <source>You can ignore this warning as this will be resolved once more code is added to this method in the next unit.</source>
         </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
-          <source>In this unit, you learned how to create the UI for the app using XAML, along with a ViewModel to handle the application's logic.</source>
+          <source>The new app UI</source>
         </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
-          <source>You also learned how to bind the ViewModel to the UI.</source>
+          <source>Summary</source>
         </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>In this unit, you learned how to create the UI for the app using XAML, along with a ViewModel to handle the application's logic.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>You also learned how to bind the ViewModel to the UI.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
           <source>In the next unit, you'll add location lookup to the ViewModel.</source>
         </trans-unit></group></body></file></xliff>

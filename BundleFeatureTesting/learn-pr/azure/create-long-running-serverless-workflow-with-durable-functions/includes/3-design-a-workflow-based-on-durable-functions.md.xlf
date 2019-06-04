@@ -1,0 +1,69 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-design-a-workflow-based-on-durable-functions.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-design-a-workflow-based-on-durable-functions.9f710e.d30c508e77eb3c01e78d27889df982854d2441a8.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d30c508e77eb3c01e78d27889df982854d2441a8</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-long-running-serverless-workflow-with-durable-functions\includes\3-design-a-workflow-based-on-durable-functions.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Durable Functions can be used to orchestrate a long-running workflow as a set of activities.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Each step in the process can be mapped to a function type, and each task mapped to an activity.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Having an automated process means you don't have to worry about manually monitoring or escalating if a task isn't done.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>As we continue to think about automating our proposal approval process, we need to consider the cases when a step in the process does not complete in time and needs to be escalated.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>What if we need a manager's approval for a particular size of proposal, but the manager is late with a response?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Escalation steps are useful to the business, as they move along a task when a deadline has been reached.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>They ensure tasks are completed, and not forgotten.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>An escalation step could involve sending out reminders or even reassigning a task to someone higher up the managerial hierarchy.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll design a workflow based on Durable Functions.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Description of the design approval process</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Our workflow begins when a project design is submitted for approval.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The proposal is assigned as an approval task to a manager.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The manager will either approve or reject the proposal.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In the real world, this event would probably generate and send a notification to the proposal author, to let them know the outcome of the approve/reject request.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>In this example, you'll just change the status of the task to either <ph id="ph1">`approved`</ph> or <ph id="ph2">`rejected`</ph>.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The workflow steps are as follows:</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A project design is submitted.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>An approval task is allocated to a manager, so they can review the project design proposal.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The project design proposal is rejected or approved.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>An escalation task is allocated if the approval task isn't completed within a pre-defined time limit.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Visual representation of workflow showing the three functions in our orchestration - the request approval, the process approval and an escalate function.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The following table shows how the workflow steps can be mapped to the function types we use in a Durable Functions workflow.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Workflow function</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Durable Function Type</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Submitting a project design  proposal for approval</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Client Function</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Assign an Approval task  to relevant member  of staff</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Orchestration Function</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Approval task</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Activity Function</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Escalation task</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Activity Function</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The Orchestration function will manage a rule in the workflow that starts the escalation activity if the approval activity doesn't return within a specified time.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Now that we understand what's needed for our workflow, let's write it in code in the next unit!</source>
+        </trans-unit></group></body></file></xliff>

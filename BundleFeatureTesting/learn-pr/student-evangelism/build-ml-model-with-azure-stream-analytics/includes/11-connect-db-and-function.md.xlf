@@ -1,0 +1,99 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="11-connect-db-and-function.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">11-connect-db-and-function.bb284e.bee651607d418fd38424d65a5bd75228e014061b.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bee651607d418fd38424d65a5bd75228e014061b</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\student-evangelism\build-ml-model-with-azure-stream-analytics\includes\11-connect-db-and-function.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Now that we have a database, let's modify the Azure Function to call the Custom Vision Service and determine the likelihood that an image contains a polar bear, and to write the output to the Azure SQL database.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In the Azure portal, switch to the Azure Function App that you created earlier.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Platform features<ept id="p1">**</ept> to open the "Platform features" tab and then click <bpt id="p2">**</bpt>Console<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Opening a function console</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Execute the following commands in the function console to install the <bpt id="p1">**</bpt>request<ept id="p1">**</ept> package, the <bpt id="p2">**</bpt>tedious<ept id="p2">**</ept> package, and the <bpt id="p3">**</bpt>Azure Storage SDK for Node.js<ept id="p3">**</ept> so your function can use them, and ignore any warning messages that are displayed.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Make sure to execute each one separately to ensure the packages are loaded properly.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Azure Functions written in JavaScript execute in a Node.js environment.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The function console gives you access to that environment and lets you install NPM packages the same as you would in a local environment.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Open the Azure Function contained in the Function App by selecting the function name you created (something like <bpt id="p1">**</bpt>HttpTrigger1<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Replace the function code with the following code:</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> to save the changes.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Customize the code for your service</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The code uses the <bpt id="p1">**</bpt>request<ept id="p1">**</ept> package to call the Custom Vision Service you created, passing the URL of the image to be analyzed.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>It parses the results and retrieves the value indicating the probability that the image contains a polar bear.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Then it uses the <bpt id="p1">**</bpt>tedious<ept id="p1">**</ept> package to write a record to the database.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>That record contains the camera ID, the latitude and longitude of the camera, the image URL, a timestamp indicating when the picture was taken, and an <ph id="ph1">`IsPolarBar`</ph> value indicating whether the image contains a polar bear.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The threshold for determining whether an image contains a polar bear is 80% per this line of code:</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Another notable aspect of this code is its use of a <bpt id="p1">**</bpt>shared-access signature<ept id="p1">**</ept>, or <bpt id="p2">_</bpt>SAS<ept id="p2">_</ept>.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">_</bpt>photos<ept id="p1">_</ept> container that you created previously is private.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To access the blobs stored there, you must have access to the storage account or have the storage account's access key.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Shared-access signatures allow anonymous users to access individual blobs, but only for a specified length of time and optionally with read-only access.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The code uses the <bpt id="p1">**</bpt>Azure Storage SDK for Node.js<ept id="p1">**</ept> to generate a read-only SAS for the blob that is passed to the Custom Vision Service, and appends it to the blob URL as a query string.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The SAS is valid for 3 minutes and allows read access only.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This allows your code to submit private blobs to the Custom Vision Service for analysis without putting the blobs in a public container where anyone could download them.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To make this work with your created Azure resources, we need to supply some variables.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Make the following edits to the code in the Function editor.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Replace the following placeholders in the function code with the values below.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Then save your changes.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Replace <ph id="ph1">`PREDICTION_URL`</ph> on line 2 with the prediction URL from your custom vision service.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Replace <ph id="ph1">`PREDICTION_KEY`</ph> on line 3 with the prediction key from your custom vision service.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Replace <ph id="ph1">`ACCOUNT_NAME`</ph> on line 4 with the name of the storage account.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Replace <ph id="ph1">`ACCOUNT_KEY`</ph> on line 5 with the storage account's access key.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Replace <ph id="ph1">`SERVER_NAME`</ph> on line 6 with the name you assigned to the database server - make sure to keep the <ph id="ph2">`.database.windows.net`</ph> suffix.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Replace <ph id="ph1">`ADMIN_USERNAME`</ph> on line 7 with the database user name you specified.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Replace <ph id="ph1">`ADMIN_PASSWORD`</ph> on line 8 with the database password you specified.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Test the connectivity</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>As a final step, let's test out the connectivity end-to-end.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Switch back to your Stream Analytics job in the Azure portal.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Start the Stream Analytics job just as you did before.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Once the Stream Analytics job is running, switch to the Azure Cloud Shell and make sure you're in the project folder.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Start the camera array running with the following command:</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Let the camera array and the Stream Analytics job run for 3 to 5 minutes<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Then stop the Stream Analytics job and stop <bpt id="p1">**</bpt>run.js<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Return to the database in the Azure portal and use the query editor to execute the following query:</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Confirm that the table contains a few rows representing images that were submitted to the Custom Vision Service for analysis.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Look at the <ph id="ph1">`IsPolarBear`</ph> column in each row.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>How many of the images that were analyzed contain a polar bear?</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Rows written to the database by the Azure Function</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Next you'll use Power BI to produce a more compelling — and graphical — visualization of the data.</source>
+        </trans-unit></group></body></file></xliff>

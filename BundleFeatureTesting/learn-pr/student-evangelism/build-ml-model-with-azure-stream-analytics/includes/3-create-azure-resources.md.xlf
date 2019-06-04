@@ -1,0 +1,49 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-create-azure-resources.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-create-azure-resources.9244c8.6335302cc6415f83529727c7f2c53f2c952120b8.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6335302cc6415f83529727c7f2c53f2c952120b8</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\student-evangelism\build-ml-model-with-azure-stream-analytics\includes\3-create-azure-resources.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>We're going to be using several Azure services together to create our Polar Bear scanner.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In this unit, we'll identify and create all of the necessary resources to manage the photographs.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A resource group to hold all the necessary Azure resources.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>A general-purpose Azure Storage account.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A blob container to hold the photographs taken by the remote cameras.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Create a resource group</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The first thing you would normally do when starting a project is create a <bpt id="p1">_</bpt>resource group<ept id="p1">_</ept> to hold the related Azure resources.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In this case, we're going to use an existing resource group created for you by activating the Azure Sandbox environment.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Make sure to activate the Sandbox before you continue with the instructions.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can get all the details on the resource group that has been created for you by typing the following command into the Cloud Shell on the right.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Create an Azure Storage account</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You need a unique name for the Azure Storage account.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The name must be from 3 to 24 characters in length and can contain only numbers and lowercase letters.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Create a unique name with a prefix with your birthday or initials.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Since this name is used in several places, create an environment variable to hold the value.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>We will use the pre-created resource group in the Azure Sandbox named <bpt id="p1">&lt;rgn&gt;</bpt>[sandbox resource group name]<ept id="p1">&lt;/rgn&gt;</ept>.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Type the following command into the Cloud Shell on the right, replacing the <ph id="ph1">`{name}`</ph> value with the unique name of the storage account.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Make sure to use a value you'll remember since you will need to type it into some code later.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Type or paste the following command to create a general-purpose storage account.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If the command fails and indicates that the storage account name is in use, change your environment variable value and try again.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Create a Blob container</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Before you can upload images to a storage account, you must create a blob container to store them in.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Use the following command to create a container named "photos" in the storage account.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You now have a storage account for storing photos taken by your simulated cameras, and a container to store them in.</source>
+        </trans-unit></group></body></file></xliff>

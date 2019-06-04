@@ -1,0 +1,25 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.b50411.e06410f426eedcb20c89e590a9ef2e1e55ef2f72.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e06410f426eedcb20c89e590a9ef2e1e55ef2f72</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-cdn-static-resources-blob-storage\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.create-content-delivery-network-azure-cdn-blob-services">
+          <source>Create a Content Delivery Network for your Website with Azure CDN and Blob Services</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.create-content-delivery-network-azure-cdn-blob-services">
+          <source>This module looks at how to create and utilize a Content Delivery Network (CDN) within Azure to host commonly used assets, such as images in a website.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.create-content-delivery-network-azure-cdn-blob-services">
+          <source>The module covers Azure CDN rather than third-party integrations, and deals with using Blob Storage as an underlying storage model for stable or non-volatile data.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.create-content-delivery-network-azure-cdn-blob-services">
+          <source>Create a Content Delivery Network for your Website with Azure CDN and Blob Services</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.create-content-delivery-network-azure-cdn-blob-services">
+          <source>You learned how to publish static web content using an Azure Content Delivery Network (CDN) and Azure Blob Services.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.create-content-delivery-network-azure-cdn-blob-services">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.create-content-delivery-network-azure-cdn-blob-services">
+          <source>Configure a static website, hosted in Azure blob storage, to work with a CDN</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.create-content-delivery-network-azure-cdn-blob-services">
+          <source>Verify content publishing, and content updating, through the CDN</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.create-content-delivery-network-azure-cdn-blob-services">
+          <source>Identify the main configuration issues to consider when deploying a static site with CDN</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.create-content-delivery-network-azure-cdn-blob-services">
+          <source>Manage CDN cache to control content update delivery and query string handling</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.create-content-delivery-network-azure-cdn-blob-services">
+          <source>Experience with building and deploying static websites.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.create-content-delivery-network-azure-cdn-blob-services">
+          <source>Familiarity with how web content is requested and delivered on the internet, including basics of the Domain Name System (DNS)</source>
+        </trans-unit></group></body></file></xliff>

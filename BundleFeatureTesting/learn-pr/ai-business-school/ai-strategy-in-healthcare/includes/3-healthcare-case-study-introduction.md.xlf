@@ -1,0 +1,67 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-healthcare-case-study-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-healthcare-case-study-introduction.1eb15d.94cfdce1591d8e7b094b49e3b9ff1227efdd2d3a.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">94cfdce1591d8e7b094b49e3b9ff1227efdd2d3a</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\ai-strategy-in-healthcare\includes\3-healthcare-case-study-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Industry context</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Ochsner Health System is Louisiana’s largest not-for-profit health system with 30 owned, managed, and affiliated hospitals and more than 80 health centers and urgent care centers.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Ochsner has more than 18,000 employees and over 1,100 physicians in more than 90 medical specialties and subspecialties.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Ochsner is actively engaged in both training and research.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>It sponsors or hosts around 290 medical residents, 550 medical students, 150 advanced practice providers, 1,200 nursing students and 575 allied health students every year.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Ochsner also conducts more than 700 clinical research studies annually.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Ochsner has a history of expansion and innovation.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In 2009, Ochsner partnered with the University of Queensland, Australia, to create the Ochsner Clinical School and an innovation accelerator called innovationOchsner (iO), with the aim of improving the experience of both patients and healthcare providers within their system.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Ochsner also showed positive growth in terms of clinical visits, patients served, and revenue in the years 2016, 2017 and 2018, with revenue surpassing $3B for the first time in 2017.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To deal with the challenges of being a large organization in a sector that places extraordinary demands on personnel while still requiring care and attention to detail, Ochsner has turned to AI and machine learning tools to increase care efficiency and improve patient experiences.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Challenge</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In the United States, the healthcare system is competitive, even in the not-for-profit sector.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Clinician shortages, time and cost pressures, and increasing patient needs create several challenges for healthcare organizations trying to improve patient experiences and outcomes.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The key to success is cost-effectiveness.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>One of the more inefficient areas of the health sector is patient monitoring.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Clinicians make rounds on patients to check on their general welfare and take notes on their progress.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>It is during these routine check-ups that clinicians will notice a complication that could lead to an abrupt change in patient welfare.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>However, these check-ups are time-consuming, offering healthcare organizations an opportunity to enhance efficiency.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To be more cost-effective, healthcare organizations need to better leverage the data already available to them.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>30 percent of healthcare executives say their most pressing information technology problem is the difficulty of turning patient data into actionable insights.<bpt id="p1">&lt;sup&gt;</bpt>1<ept id="p1">&lt;/sup&gt;</ept> In the patient monitoring context, leveraging this data could make it possible not only to identify patients who are likely to suffer a heart attack in the long term, but to identify patients who are likely to experience a cardiac arrest in the next shift.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Ochsner maintains a vast electronic record system, and can take automated vital measurements, such as heart rate.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Theoretically, this data could be utilized to flag patients who are at higher risk of cardiac or respiratory arrest in the near future, but constantly monitoring and reviewing these tools for every patient would require unaffordable staffing rates.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Strategy questions</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>What data could Ochsner take advantage of to create a solution that provides actionable insights?</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Modern healthcare solutions need to scale.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>How might Ochsner approach developing a solution for patient monitoring so that it is less labor intensive and more scalable?</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Changing the workflow of highly-trained professionals may be met with resistance.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>What kind of concerns might medical professionals raise, and how might management work with employees to ensure uptake of new technological systems?</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Medical professionals often report that they do not have time to learn new methods or technologies due to high patient workloads.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>How might this affect the design goals for a new AI-based technology?</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Trained AI systems need to be tested before they are relied upon, especially in a safety-critical environment such as healthcare.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>How could Ochsner gather enough data to measure the effectiveness of a solution, but also keep patients safe?</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Now that you understand the context of the challenges Ochsner and similar healthcare organizations face today, and you’ve considered critical questions to answer before implementing AI in the industry, watch the executive perspective video with David Le Penske, Director, Healthcare &amp; Life Sciences at Insight Digital Innovation.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,183 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-analyze-streaming-data.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-analyze-streaming-data.c9518b.6d95ddb5eb71049ddcd3aed78db3387dbed6529f.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6d95ddb5eb71049ddcd3aed78db3387dbed6529f</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\student-evangelism\build-ml-model-with-azure-stream-analytics\includes\6-analyze-streaming-data.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Now that we have our IoT hub connected to the blob container, let's connect a Stream Analytics job to process the input.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>+ Create a resource<ept id="p1">**</ept> in the left-hand sidebar of the Azure portal, followed by <bpt id="p2">**</bpt>Internet of Things<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Stream Analytics job<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Creating a Stream Analytics job</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Name the job "polar-bear-analytics" and place it in the resource group that you created earlier.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Specify <bpt id="p1">**</bpt>South Central US<ept id="p1">**</ept> as the location.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This was the same location used for the IoT Hub.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The location selection is important when you are building a production system.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You want your IoT hub to be in the same region as the analytics job.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>While you are not charged for data that moves within a data center, you typically <bpt id="p1">*</bpt>are<ept id="p1">*</ept> charged for data that moves <bpt id="p2">*</bpt>between<ept id="p2">*</ept> data centers.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In addition, locating services that are connected to each other in the same region reduces latency.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Make sure <bpt id="p1">**</bpt>Hosting environment<ept id="p1">**</ept> is set to <bpt id="p2">**</bpt>Cloud<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Set <bpt id="p1">**</bpt>Streaming units<ept id="p1">**</ept> to "1".</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Create<ept id="p1">**</ept> button to create the resource.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Specifying parameters for the Stream Analytics job</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Open the <bpt id="p1">**</bpt>polar-bear-analytics<ept id="p1">**</ept> Stream Analytics job in the portal.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If the Stream Analytics job doesn't appear in the resource group, click the <bpt id="p1">**</bpt>Refresh<ept id="p1">**</ept> button at the top of the view until it does.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Inputs<ept id="p1">**</ept> in the left-side menu.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Add stream input &gt; IoT Hub<ept id="p1">**</ept> to add an input to the Stream Analytics job.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Adding an input</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Type "CameraInput" into the <bpt id="p1">**</bpt>Input alias<ept id="p1">**</ept> box.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Select the IoT hub that you created earlier.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Make sure <bpt id="p1">**</bpt>Endpoint<ept id="p1">**</ept> is set to <bpt id="p2">**</bpt>Messaging<ept id="p2">**</ept>, and accept the defaults everywhere else.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> button at the bottom of the view.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Creating an input</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>After a few moments, the new input "CameraInput" appears in the list of inputs for the Stream Analytics job.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This is the only input you'll create, but you can add any number of inputs to a Stream Analytics job.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Stream Analytics Query Language<ept id="p1">](https://msdn.microsoft.com/library/azure/dn834998.aspx)</ept>, each input is treated as a separate data source similar to tables in a relational database.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The query language is expressive, even allowing input streams to be joined in a manner similar to joining database tables.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Set up a Stream Analytics query to retrieve data</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The heart of a Stream Analytics job is the query that extracts information from the data stream.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>It's recommended to test a query using sample data before deploying it against a live data stream, because with sample data, you can verify a known set of inputs produces the expected outputs.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The sample data we'll test with is in the same GitHub repo the assets came from.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Download the <bpt id="p1">[</bpt>sample-data.json<ept id="p1">](https://raw.githubusercontent.com/MicrosoftDocs/mslearn-build-ml-model-with-azure-stream-analytics/master/sample-data.json)</ept> file to your local computer.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Right-click the link and select "Save As" or the equivalent in your browser.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This JSON file contains some sample IoT events we can test our query against.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Here's an example event from the file:</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Return to the Stream Analytics job in the portal and click <bpt id="p1">**</bpt>Query<ept id="p1">**</ept> in the menu on the left side of the view.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>ellipsis<ept id="p1">**</ept> (the three dots) to the right of <bpt id="p2">**</bpt>CameraInput<ept id="p2">**</ept> and select <bpt id="p3">**</bpt>Upload sample data from file<ept id="p3">**</ept> from the menu.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Uploading sample data</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>folder<ept id="p1">**</ept> icon on the right and select the <bpt id="p2">**</bpt>sample-data.json<ept id="p2">**</ept> file you just downloaded.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> to upload the file.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Uploading sample-data.json</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>When the upload is complete, type the following query into the query window.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Then click the <bpt id="p1">**</bpt>Test<ept id="p1">**</ept> button to execute it:</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Testing a query</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Confirm that you see the output pictured below.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The test data contains 50 rows, each representing an event transmitted to the IoT hub by one of the cameras in the camera array.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`DEVICEID`</ph> is the camera's device ID, <ph id="ph2">`LATITUDE`</ph>, and <ph id="ph3">`LONGITUDE`</ph> specify the camera's location, <ph id="ph4">`URL`</ph> is the URL of the blob containing the picture that was taken, and <ph id="ph5">`TIMESTAMP`</ph> is the time at which the picture was taken.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The other fields were added by Azure.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Query result</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Refine the query</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>One of the key features of the Stream Analytics Query Language is its ability to group results using <bpt id="p1">_</bpt>windows of time<ept id="p1">_</ept> whose length you specify.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Windowing is specified using query keywords in a <ph id="ph1">`GROUP BY`</ph> clause.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Windowing Keyword</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>TumblingWindow<ept id="p1">](https://msdn.microsoft.com/azure/stream-analytics/reference/tumbling-window-azure-stream-analytics)</ept></source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Tumbling window functions are used to segment a data stream into distinct time segments and perform a function against them.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>For example, "Tell me the count of tweets per time zone every 10 seconds".</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The key differentiators of a Tumbling window are that they repeat, do not overlap, and an event cannot belong to more than one tumbling window.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>HoppingWindow<ept id="p1">](https://msdn.microsoft.com/azure/stream-analytics/reference/hopping-window-azure-stream-analytics)</ept></source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Hopping window functions hop forward in time by a fixed period.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>It may be easy to think of them as Tumbling windows that can overlap, so events can belong to more than one Hopping window result set.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For example "Every 5 seconds, give me the count of tweets over the last 10 seconds."</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>SlidingWindow<ept id="p1">](https://msdn.microsoft.com/azure/stream-analytics/reference/sliding-window-azure-stream-analytics)</ept></source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Sliding window functions, unlike Tumbling or Hopping windows, produce an output only when an event occurs.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Every window will have at least one event and the window continuously moves forward by an € (epsilon).</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Like hopping windows, events can belong to more than one sliding window.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>For example, "Give me the count of tweets for all topics that are tweeted more than 10 times in the last 10 seconds."</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>SessionWindow<ept id="p1">](https://msdn.microsoft.com/azure/stream-analytics/reference/session-window-azure-stream-analytics)</ept></source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Session window functions group events that arrive at similar times, filtering out periods of time where there's no data.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>It has three main parameters: timeout, maximum duration, and partitioning key (optional).</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>For example "Tell me the count of tweets that occur within 5 minutes of each other."</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Execute the following query to count the number of times the cameras were triggered each minute:</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`TIMESTAMP BY`</ph> is an important element of the Stream Analytics Query Language.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>If it was omitted from the query above, you would be querying for the number of events that arrived <bpt id="p1">*</bpt>at the event hub<ept id="p1">*</ept> each minute rather than the number of events that occurred at the camera locations.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`TIMESTAMP BY`</ph> allows you to specify a field in the input stream as the event time.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Confirm that you see the output below:</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Query result using TumblingWindow</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Create the live query</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Now it's time to check for two photos snapped by the same camera within 10 seconds.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>This is the query that you'll use against a live data stream<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The assumption is that since polar bears tend to move rather slowly, we'll ignore pictures taken more than 10 seconds apart, but if the same camera snaps two pictures within 10 seconds, it's worth examining them to see if one of them contains a polar bear.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Enter the following query and click <bpt id="p1">**</bpt>Test<ept id="p1">**</ept> to execute it:</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>This time the output should contain six rows, each representing two photographs taken by the same camera within 10 seconds and containing the URL of one of the pictures.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Cameras that snapped two pictures within 10 seconds</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Finish up by clicking the <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> button at the top of the view to save the query.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> when asked to confirm.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>This will be the query that's executed when you run the Stream Analytics job.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The query that you tested employs simple logic: if the same camera snaps two pictures within 10 seconds, there <bpt id="p1">*</bpt>might<ept id="p1">*</ept> be a polar bear.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>But the ultimate goal is to determine with a great deal of confidence whether there really <bpt id="p1">*</bpt>is<ept id="p1">*</ept> a polar bear.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>That means supplementing Stream Analytics with machine learning.</source>
+        </trans-unit></group></body></file></xliff>

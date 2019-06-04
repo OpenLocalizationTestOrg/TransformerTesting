@@ -1,0 +1,33 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.4e5196.a5a03e4e3891672e6a616c2c45cea6e197141c09.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a5a03e4e3891672e6a616c2c45cea6e197141c09</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\set-up-cors-website-storage\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>For security reasons, most web browsers restrict resource access to a single domain.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This means that a web application that is running in one domain can't access resources that are held in another domain.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This is known as Same Origin Policy.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>However, sometimes it is necessary for a web app to request resources that are held in another domain.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Cross-Origin Resource Sharing (CORS) provides a way to share resources across domains securely.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Suppose you're the lead developer for a major utilities company.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Your team has developed a web application to allow remote engineers to log job times, and view job specifications.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Many of the job specifications documents are kept in Azure storage, and your company would like to implement CORS rules to enable access to these documents.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>By the end of this module, you'll see how to use CORS to allow your web application to access information held in Azure storage.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Understand Cross-Origin Resource Sharing (CORS) concepts and terminology</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Configure CORS rules for your Azure Storage services</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Knowledge of the Azure Storage Services (Blob, File, Queue, and Table)</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Familiarity with REST APIs, the Azure CLI, and PowerShell</source>
+        </trans-unit></group></body></file></xliff>

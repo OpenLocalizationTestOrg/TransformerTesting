@@ -1,0 +1,55 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-describe-a-logic-app-using-workflow-definition-language.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-describe-a-logic-app-using-workflow-definition-language.dfc9ea.84172d632fd1b5a383c411a7c3eeef3efb66bf80.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">84172d632fd1b5a383c411a7c3eeef3efb66bf80</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-deploy-logic-apps-using-arm-templates\2-describe-a-logic-app-using-workflow-definition-language.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.azure.logic-apps-and-arm-templates.describe-a-logic-app-using-workflow-definition-language">
+          <source>Describe a Logic Apps workflow using the Workflow Definition Language</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.azure.logic-apps-and-arm-templates.describe-a-logic-app-using-workflow-definition-language">
+          <source>Describe a Logic Apps workflow using the Workflow Definition Language</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.azure.logic-apps-and-arm-templates.describe-a-logic-app-using-workflow-definition-language">
+          <source>Describe a Logic Apps workflow using the Workflow Definition Language</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.azure.logic-apps-and-arm-templates.describe-a-logic-app-using-workflow-definition-language">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.azure.logic-apps-and-arm-templates.describe-a-logic-app-using-workflow-definition-language">
+          <source>You want your Logic Apps workflow to run every three minutes.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.azure.logic-apps-and-arm-templates.describe-a-logic-app-using-workflow-definition-language">
+          <source>In which of the following sections of the workflow definition would you define this recurring behavior?</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.azure.logic-apps-and-arm-templates.describe-a-logic-app-using-workflow-definition-language">
+          <source>The actions section</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.azure.logic-apps-and-arm-templates.describe-a-logic-app-using-workflow-definition-language">
+          <source>Actions are the processes carried out when a trigger fires successfully</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.azure.logic-apps-and-arm-templates.describe-a-logic-app-using-workflow-definition-language">
+          <source>The triggers section</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.azure.logic-apps-and-arm-templates.describe-a-logic-app-using-workflow-definition-language">
+          <source>The trigger is the area where the behavior that starts the workflow is defined.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.azure.logic-apps-and-arm-templates.describe-a-logic-app-using-workflow-definition-language">
+          <source>In this case, we would define a <bpt id="p1">*</bpt>recurrence<ept id="p1">*</ept> trigger.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.azure.logic-apps-and-arm-templates.describe-a-logic-app-using-workflow-definition-language">
+          <source>The parameters section</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.azure.logic-apps-and-arm-templates.describe-a-logic-app-using-workflow-definition-language">
+          <source>The parameters section is where variables to be used at run time can be defined</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.azure.logic-apps-and-arm-templates.describe-a-logic-app-using-workflow-definition-language">
+          <source>In which section of a Logic Apps workflow definition can you send a response to an HTTP request, returning a message bidy, status code , and message headers?</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.azure.logic-apps-and-arm-templates.describe-a-logic-app-using-workflow-definition-language">
+          <source>The triggers section</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.azure.logic-apps-and-arm-templates.describe-a-logic-app-using-workflow-definition-language">
+          <source>This section defines the calls that instantiate and start a workflow, such as an HTTP request.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.azure.logic-apps-and-arm-templates.describe-a-logic-app-using-workflow-definition-language">
+          <source>The actions section</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.azure.logic-apps-and-arm-templates.describe-a-logic-app-using-workflow-definition-language">
+          <source>The response is an action which flows from the trigger in the workflow.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.azure.logic-apps-and-arm-templates.describe-a-logic-app-using-workflow-definition-language">
+          <source>The outputs section</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.azure.logic-apps-and-arm-templates.describe-a-logic-app-using-workflow-definition-language">
+          <source>While the outputs section defines the data that a workflow can return when finished running, the Response action type is used to respond to incoming HTTp requests.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.azure.logic-apps-and-arm-templates.describe-a-logic-app-using-workflow-definition-language">
+          <source>In which section of the workflow definition do you specify a value to return when a workflow completes?</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.azure.logic-apps-and-arm-templates.describe-a-logic-app-using-workflow-definition-language">
+          <source>The triggers section</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.azure.logic-apps-and-arm-templates.describe-a-logic-app-using-workflow-definition-language">
+          <source>This section is for defining triggers</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.azure.logic-apps-and-arm-templates.describe-a-logic-app-using-workflow-definition-language">
+          <source>The outputs section</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.azure.logic-apps-and-arm-templates.describe-a-logic-app-using-workflow-definition-language">
+          <source>This is the section where you can define what you wish to return on completion of a workflow</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.azure.logic-apps-and-arm-templates.describe-a-logic-app-using-workflow-definition-language">
+          <source>The actions section</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.azure.logic-apps-and-arm-templates.describe-a-logic-app-using-workflow-definition-language">
+          <source>This section is for defining actions</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,165 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-import-and-publish-an-api.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-import-and-publish-an-api.18b29b.eb43be4cc4b2fe07c0f52ec6948ca173eb72b950.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eb43be4cc4b2fe07c0f52ec6948ca173eb72b950</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\publish-manage-apis-with-azure-api-management\includes\4-import-and-publish-an-api.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>To make an API available through an API gateway, you need to import and publish the API.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In the shoe company example, NorthWind Shoes wants to enable select partners to be able to query inventory and stock levels.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Here, you'll learn how to import an API into Azure API Management, and how to make an API available to clients.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>API</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>An API is a standardized way for organizations to expose specific data to potential developers or partners.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For example, in the previous exercise you created an API to share information about products and inventory.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Making an API available starts with importing the API into API Management.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can then:</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Use the visualization tools in the API gateway to test out your API.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Manage access to your APIs using policies.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>API frameworks</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>There are various API frameworks and standards.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>API Management provides you with several options for importing APIs.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Type</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Details</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Blank API<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can import an API with a blank API definition.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You then manually specify all the required parameters.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Open API<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Open API is a specification that documents all the endpoints and operations for RESTful APIs, and all input and output parameters.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>OpenAPI was originally called Swagger.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>WADL<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Web Application Description Language is an XML description of HTTP-based web services.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>It is a simpler format and more lightweight than WSDL.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>WSDL<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Web Service Description Language is an XML description of any network service, not just HTTP.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Logic App<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Logic apps are used to orchestrate and automate workflows and integrations with various data sources.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>API App<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>An API hosted within an API app service in Azure.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Function App<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Serverless code that can be called through triggers.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Import an API</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>There are several ways to import an API into Azure API Management.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Using the Azure portal, you select <bpt id="p1">**</bpt>APIs<ept id="p1">**</ept>, and then <bpt id="p2">**</bpt>+ Add API<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You start by selecting the API framework you'd like to import.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Import API using Azure portal</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You then provide a link to your API specification as a URL or file, and a name for the API.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Here's an example for an OpenAPI import.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>API details</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The Azure portal is not the most efficient tool for importing and configuring large numbers of APIs.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>As you scale up your API management, you'll need other tools.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You can use <bpt id="p1">**</bpt>Azure PowerShell<ept id="p1">**</ept> to manage your API gateway, and to import APIs.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>There are cmdlets for deploying API gateways, defining and configuring products, importing APIs, and managing users and subscriptions.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Visualize</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>You can use the API gateway as a way to visualize how data is processed through your imported APIs.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>You can interact with datasets, and pass parameters through your APIs.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If you are an administrator, you can visualize APIs in the Azure portal.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Visualize API using Azure portal</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Policies</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Policies provide powerful capabilities to change the behavior of an API through configuration.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>They exist as a collection of statements that are executed sequentially on the request or response of an API.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Popular configurations include:</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Conversion from XML to JSON</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Call rate limiting to restrict the number of incoming calls.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Setting inbound and outbound headers</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You use the Azure portal to apply different policies to APIs.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Policies can be viewed in the <bpt id="p1">**</bpt>Design<ept id="p1">**</ept> tab.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>You can also use the Design tab to add new policies.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Product</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A product is a collection of APIs.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You can assign APIs to more than one product.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For example, you might want one product, <bpt id="p1">**</bpt>NorthWindShoesPartners<ept id="p1">**</ept>, to expose two APIs for your partners:</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Product</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>NorthWindShoesPartners</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>API 1</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Inventory<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>API 2</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Planning<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For your suppliers, you might only want to expose one API:</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Product</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>NorthWindShoesSuppliers</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>API 1</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Inventory<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>API 2</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>You assign policies so that your products can have different access rules, usage quotas, and terms of use.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>So if you want your partners and suppliers to have different access rights to your <bpt id="p1">**</bpt>Inventory<ept id="p1">**</ept> API, assign the API to two different products.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>You use the Azure portal to associate APIs with a product.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>For all pricing tiers except consumption, there two default products: <bpt id="p1">**</bpt>Starter<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Unlimited<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The Unlimited product is designed for production API management, as it has no restrictions on the number of attached APIs.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>You can create as many new products as you need.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The starter product has a limit of five API calls/minute, and a maximum of 100 API calls/week.</source>
+        </trans-unit></group></body></file></xliff>

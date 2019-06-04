@@ -1,0 +1,15 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.6667ac.2e860ec7bbc22823b25098939f981a171b673a22.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2e860ec7bbc22823b25098939f981a171b673a22</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\paths\responsible-ai-business-principles\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.responsible-ai-business-principles">
+          <source>Identify guiding principles for responsible AI in your business</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.responsible-ai-business-principles">
+          <source>It is imperative to reflect on the implications of AI in business.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.responsible-ai-business-principles">
+          <source>In this learning path, you will be provided with guidelines to assist in setting up principles and a governance model in your organization, as well as resources, best practices, and tools.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.responsible-ai-business-principles">
+          <source>Identify guiding principles for responsible AI in your business</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.responsible-ai-business-principles">
+          <source>It is imperative to reflect on the implications of AI in business.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.responsible-ai-business-principles">
+          <source>In this learning path, you will be provided with guidelines to assist in setting up principles and a governance model in your organization, as well as resources, best practices, and tools.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.responsible-ai-business-principles">
+          <source>None</source>
+        </trans-unit></group></body></file></xliff>

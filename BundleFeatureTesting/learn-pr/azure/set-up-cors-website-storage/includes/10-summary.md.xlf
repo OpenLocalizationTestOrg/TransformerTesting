@@ -1,0 +1,43 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="10-summary.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">10-summary.dbc72a.87d1e30914fef9bc745c5e18ff4497eb773dcad7.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">87d1e30914fef9bc745c5e18ff4497eb773dcad7</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\set-up-cors-website-storage\includes\10-summary.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this module, you:</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Learned about Cross Origin Resource Sharing (CORS) and why it is used.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Explored different ways to enable CORS for your Azure Storage Services.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Learned how to set CORS rules to accept and deny requests sent to your storage service resources from a web request originating outside your domain.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This is powerful tool you can use to access resources you own across domains.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Additional resources</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The following resources will provide you with detailed information about the design and implementation of Cross-Origin Resource Sharing (CORS).</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Cross-Origin Resource Sharing (CORS) Specifications</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Cross-Origin Resource Sharing (CORS) at W3C<ept id="p1">](https://www.w3.org/TR/cors/)</ept></source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Cross-Origin Resource Sharing (CORS) at Mozilla<ept id="p1">](https://developer.mozilla.org/docs/Web/HTTP/CORS)</ept></source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Azure Support for CORS</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>CORS Support for the Azure Storage Services<ept id="p1">](https://docs.microsoft.com/rest/api/storageservices/cross-origin-resource-sharing--cors--support-for-the-azure-storage-services)</ept></source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>CORS using Azure CLI<ept id="p1">](https://docs.microsoft.com/cli/azure/storage/cors)</ept></source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>CORS using Azure Powershell<ept id="p1">](https://docs.microsoft.com/powershell/module/azure.storage/set-azurestoragecorsrule)</ept></source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Authorization for the Azure Storage Services<ept id="p1">](https://docs.microsoft.com/rest/api/storageservices/authorization-for-the-azure-storage-services)</ept></source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Versioning for the Azure Storage Services<ept id="p1">](https://docs.microsoft.com/rest/api/storageservices/versioning-for-the-azure-storage-services)</ept></source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Azure CORS REST APIs</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Blob Service REST API<ept id="p1">](https://docs.microsoft.com/rest/api/storageservices/blob-service-rest-api)</ept></source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>File Service REST API<ept id="p1">](https://docs.microsoft.com/rest/api/storageservices/file-service-rest-api)</ept></source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Queue Service REST API<ept id="p1">](https://docs.microsoft.com/rest/api/storageservices/queue-service-rest-api)</ept></source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Table Service REST API<ept id="p1">](https://docs.microsoft.com/rest/api/storageservices/table-service-rest-api)</ept></source>
+        </trans-unit></group></body></file></xliff>

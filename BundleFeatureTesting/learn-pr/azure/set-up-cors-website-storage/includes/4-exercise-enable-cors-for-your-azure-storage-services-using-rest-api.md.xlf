@@ -1,0 +1,83 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-exercise-enable-cors-for-your-azure-storage-services-using-rest-api.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-exercise-enable-cors-for-your-azure-storage-services-using-rest-api.4ab119.1b331e2c5908fbd07ae9d8be8aef439d1469c78b.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1b331e2c5908fbd07ae9d8be8aef439d1469c78b</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\set-up-cors-website-storage\includes\4-exercise-enable-cors-for-your-azure-storage-services-using-rest-api.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Enabling CORS for your Storage Services provides a secure way of external HTTP calls accessing your Azure Storage Services resources.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You can enable CORS using the Azure REST API.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Some of your company's document resources are located in Blob storage.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You have been asked to set up CORS rules to restrict access to these resources to requests from specific domains, and you would like to use a REST API to accomplish this.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In this exercise, you will learn how to enable CORS by adding a rule using the Azure Storage REST API.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Create an Azure Storage account</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Replace the three placeholder variables in the following commands and run the commands in the Cloud Shell.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>These commands set the environment variables that you will use in the following steps.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>These variables specify the name of Azure storage account, a storage container name, the name of the closest geographical region, and the name resource group that was created when you activated your sandbox account.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For AZURE_REGION, replace "your region" with one of the following values:</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Run the following command to create a new blob storage account.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Run the following command to retrieve an account key for your storage account.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to create a container in your storage account.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Attempt to access blob storage without CORS</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Use wget to send a preflight request in order to upload a blob to your storage account using an OPTIONS request.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Verify that the preflight request fails with an <bpt id="p1">**</bpt>HTTP 403 Forbidden<ept id="p1">**</ept> error; you should see a response like the following example:</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Generate an Shared Access Signature (SAS) using the Azure portal</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Sign in to the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com)</ept> using the account that you used when you actived the sandbox, and then click <bpt id="p2">**</bpt>Storage Accounts<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Click the name of the storage account that you created earlier.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Shared access signature<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Generate SAS and connection string<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Copy the value in the <bpt id="p1">**</bpt>SAS token<ept id="p1">**</ept> field.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Generate shared access key.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Enable CORS using the REST API</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to store the shared access signature that you created earlier in an environment variable so you can use it in later commands.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to create a new XML file in the online editor that will contain your CORS rule.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>In the editor, add the following XML, which contains a single CORS rule for the Azure storage service.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In the editor, press <bpt id="p1">**</bpt>Ctrl-S<ept id="p1">**</ept> to save the file, and then press <bpt id="p2">**</bpt>Ctrl-Q<ept id="p2">**</ept> to exit the editor.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Run the following commands in the Cloud Shell to set additional environment variables that you will use in later commands; these variables specify the size of the XML that contains the CORS rule, the GMT date, the host name of your storage account, and the REST API URL to set the CORS rule.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Use wget to send a PUT request to set the CORS rule.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Verify that the request succeeds with an <bpt id="p1">**</bpt>HTTP 202 Accepted<ept id="p1">**</ept> status; you should see a response like the following example:</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Verify that CORS rules have been set</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to retrieve the configuration settings for your blob service.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Verify that the request succeeds with an <bpt id="p1">**</bpt>HTTP 200 OK<ept id="p1">**</ept> status; you should see a response like the following example:</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to create and open the XML file that contains your blob service configuration.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In the editor, you should see configuration settings that resemble the following example, which should contain the CORS rule that you submitted earlier.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Press <bpt id="p1">**</bpt>Ctrl-Q<ept id="p1">**</ept> to exit the editor.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Attempt to access blob storage with CORS enabled</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Use wget to send the same preflight request that you sent earlier in order to upload a blob to your storage account using an OPTIONS request:</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Verify that the preflight request now succeeds with an <bpt id="p1">**</bpt>HTTP 200 OK<ept id="p1">**</ept> status; you should see a response like the following example:</source>
+        </trans-unit></group></body></file></xliff>

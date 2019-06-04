@@ -1,0 +1,143 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-create-an-api-gateway.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-create-an-api-gateway.809f5a.bbc2ac5eb9f4b025331b3437667c14fef5e71757.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bbc2ac5eb9f4b025331b3437667c14fef5e71757</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\publish-manage-apis-with-azure-api-management\includes\2-create-an-api-gateway.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Organizations often need to provide partners with access to data.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This access must be controlled and managed.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In the shoe company example, retailers that stock NorthWind Shoes need to know how much stock they can order.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Customers also like to know exactly when they are going to get their order.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Here, you'll learn how Azure API Management works, and how to set up an API gateway.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Azure API management</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The Azure API management service is hosted in the Azure cloud and is positioned between your APIs and the Internet.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">**</bpt>Azure API gateway<ept id="p1">**</ept> is an instance of the Azure API management service.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When you publish your APIs, you use the Azure portal to control how particular APIs are exposed to consumers.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You might want some APIs to be freely available to developers, for demo purposes, and access to other APIs to be tightly controlled.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Why use API Management?</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For developers, API Management provides a range of benefits.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>API documentation<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Documentation of APIs enables calling clients to quickly integrate their solutions.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>API Management allows you to quickly expose the structure of your API to calling clients through modern standards like Open API.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can have more than one version of an API.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>With multiple versions, you can stage app updates as your consuming apps don't have to use the new version straight away.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Rate limiting access<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If your API could potentially access a large amount of data, its a good idea to limit the rate at which clients can request data.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Rate limiting helps maintain optimal response times for every client.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>API Management let you set rate limits as a whole or for specific  individual clients.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Health monitoring<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>APIs are consumed by remote clients.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>So it can be difficult to identify potential problems or errors.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>API Management lets you view error responses and log files, and filter by types of responses.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Modern formats like JSON<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>APIs have used many different data exchange formats over the years from XML to CSV and many more.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>API Management enables you to expose these formats using modern data models like JSON.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Connections to any API<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In many businesses, APIs are located across different countries and use different formats.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>API Management lets you add all of these disparate APIs into single modern interface.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Analytics<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>As your develop your APIs, its useful to see how often your APIs are being called and by which types of systems.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>API Management allows you to visualize this data within the Azure portal.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Security<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Security is paramount when dealing with system data.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Unauthorized breaches can cost companies money, time lost in reworking code, and reputational loss.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Security tools that you can use with Azure API management include OAuth 2.0 user authorization, and integration with Azure Active Directory.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Pricing tiers</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>When you create an Azure API management gateway, you must select from one of several pricing tiers:</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Developer<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You use the Developer tier for evaluating the API management service.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You shouldn't use this tier for production deployments.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Basic<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Entry level production use.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>99.9% SLA.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>1000 requests/sec. Two scale units.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A scale unit enables you to scale up a service.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The more scale units you have, the more you can scale up the service.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Standard<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Medium level production use.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>99.9% SLA.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>2500 requests/sec. Four scale units.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Premium<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Multi region deployment.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>High volume use.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>99.95% SLA.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>4000 requests/sec. 10 scale units per region.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Consumption<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The serverless consumption tier plan lets you pay for what you use, rather than having dedicated resources.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>You can quickly set up ad-hoc testing, and you can scale up API access when demand increases.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The consumption tier has built-in high availability and autoscaling.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Because it is serverless, you can provision a consumption tier gateway in a lot less time than the other server-based tiers.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>API management setup</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To set up API management, you:</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Create an API Management gateway.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The name you use for the gateway  must be globally unique within the *<bpt id="p1">**</bpt>.azure-api.net<ept id="p1">**</ept> namespace.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Register an existing Web API with the gateway.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Registering the API makes the API available to consumers at the <bpt id="p1">**</bpt><ph id="ph1">\&lt;</ph>gateway<ph id="ph2">\&gt;</ph>.azure-api.net<ept id="p1">**</ept> endpoint.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Call the existing API through the gateway.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Consumers can now use the API at the endpoint URL, or through the developer portal.</source>
+        </trans-unit></group></body></file></xliff>

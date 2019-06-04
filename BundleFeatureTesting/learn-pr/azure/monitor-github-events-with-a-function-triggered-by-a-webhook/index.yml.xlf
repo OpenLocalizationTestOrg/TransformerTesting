@@ -1,0 +1,23 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.3cdfec.4a6156994514144e8d3a6150d9d6b8fe2f721bba.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4a6156994514144e8d3a6150d9d6b8fe2f721bba</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\monitor-github-events-with-a-function-triggered-by-a-webhook\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.azure.monitor-github-events-with-a-function-triggered-by-a-webhook">
+          <source>Monitor GitHub events with an Azure Function triggered by a webhook</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.azure.monitor-github-events-with-a-function-triggered-by-a-webhook">
+          <source>Monitor GitHub events with an Azure Function triggered by a webhook</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.azure.monitor-github-events-with-a-function-triggered-by-a-webhook">
+          <source>Monitor GitHub events with an Azure Function triggered by a webhook</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.azure.monitor-github-events-with-a-function-triggered-by-a-webhook">
+          <source>Webhooks offer a lightweight mechanism for your app to be notified by another service when something of interest happens.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.azure.monitor-github-events-with-a-function-triggered-by-a-webhook">
+          <source>In this module.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.azure.monitor-github-events-with-a-function-triggered-by-a-webhook">
+          <source>you'll learn how to trigger an Azure function with a GitHub webhook and parse the payload for insights.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.azure.monitor-github-events-with-a-function-triggered-by-a-webhook">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.azure.monitor-github-events-with-a-function-triggered-by-a-webhook">
+          <source>Trigger an Azure Function from a webhook</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.azure.monitor-github-events-with-a-function-triggered-by-a-webhook">
+          <source>Secure webhook payloads with a secret</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.azure.monitor-github-events-with-a-function-triggered-by-a-webhook">
+          <source>Beginner-level knowledge of Azure Functions</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.azure.monitor-github-events-with-a-function-triggered-by-a-webhook">
+          <source>A GitHub account</source>
+        </trans-unit></group></body></file></xliff>

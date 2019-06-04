@@ -1,0 +1,93 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-transform-applications-case-study-resolution.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-transform-applications-case-study-resolution.c2f42b.8e44dc8d72f956c523a9c6bef7fea1f7f0dda7cd.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8e44dc8d72f956c523a9c6bef7fea1f7f0dda7cd</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\ai-strategy-to-create-business-value\includes\5-transform-applications-case-study-resolution.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Approach</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Telefónica’s strategy was to use AI to create a platform for customer interaction, providing multiple ways for customers to interact with Telefónica according to their preferences, and allowing them to easily manage their digital life within the company.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Telefónica also wanted to give customers visibility and power over their stored data to help build trust.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Finally, Telefónica wanted to make better use of its existing data estate by providing AI-powered recommendations to customers and even offering new, relevant services and experiences outside of the telco world.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In February 2018, Telefónica announced the launch of Aura, an AI-powered digital assistant, which is transforming the way customers interact with the company.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Telefónica has built Aura to align with three core principles: transparency, control, and security of customers’ personal data.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>With full transparency and simple control over how their data is used, Aura allows users to decide whether to share the insights generated from their data with third parties to enhance their digital experiences.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Each user has a personal data space, which stores the digital trail they leave when using Telefónica products and services and allows customers to personalize their experience.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Customers can use Aura to ask questions about the products and services they use, create and track a claim, manage and unblock device access to Telefónica-provided Wi-Fi routers, and receive data consumption alerts.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>With Aura now available in Movistar+ (Telefónica’s pay TV service), customers can search, sort, change channels or launch content on the TV, as well as receive personalized recommendations based on their watch history and preferences.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Aura has let millions of customers all over the world interact with Telefónica's technology in a simple and personalized way.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Depending on the country, Aura is delivered to customer devices via mobile app or through third-party channels like WhatsApp, Facebook Messenger, and Google Assistant.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Aura is also able to leverage the power of AI to offer customers customized experiences.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>It facilitates the adoption of new value-added products, based on data insights.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Telefónica will be adding many more services like this over time, both directly to customers and in collaboration with trusted partners.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Integration with other technologies and digital services will make Aura a powerful innovation platform, open to partners and different technologies.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Results</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Aura is the basis for a new relationship model with customers.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Just one year after release, Aura has around 2 million monthly active users.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In a study to analyze visibility, use, and functionality of Aura in Movistar+, over 90 percent of surveyed customers said they would keep using Aura and that they would recommend it.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Aura goes beyond regulatory compliance and empowers customers with improved experiences and increased value.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>It rewards customers for engaging and deepening their relationship with Telefónica and its partners, while giving them more reasons to stay with and to recommend Telefónica to others.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Telefónica Chief Data Officer Chema Alonso sees Aura as part of a long-term vision, where customers talk directly to the network, and the network answers back in real time adapting to their needs.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>“It's time for technology to adapt to people,” he says.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This is their vision for the future: a totally digitalized Telefónica with the customer at the center.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Key lessons</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Modernize existing applications with AI</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>One strategic way to quickly take advantage of AI capabilities is by modernizing existing applications with AI.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Some new AI services can be easily integrated into costly legacy systems without the need to create and invest in new models and complex deep learning processes.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>These kinds of incremental investments build credibility and trust in AI, opening the door for larger future investments.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Enable your technical development teams with AI</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Ultimately, the core of AI transformation will happen within key business processes across the company.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>However, this is not possible without first empowering technical development teams to bring AI to applications and services.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Mobilizing the IT department in AI transformation accelerates innovation and results.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Evaluation of the strategy using the value framework</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Let’s examine how Telefónica’s AI strategy is creating additional value using the value creation framework developed by Peter Zemsky, the Eli Lilly Chaired Professor of Strategy and Innovation at INSEAD.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>industry environment perspective<ept id="p1">**</ept>, telco companies are struggling with strong competition from new industry players that can extract greater value on top of the costly infrastructure that the telecommunications companies provide.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Also, most of the offerings are not clearly differentiated, which creates constant customer churn.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>value creation perspective<ept id="p1">**</ept>, platforms like Aura can provide a clear differentiation that will lead to customer retention and higher value perception.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The incremental cost of developing and deploying the platform should be easily compensated by the additional value created by the richness of the data and customer information learned and stored in the platform.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Telefónica from now on will know more about customer preferences and will be able to resell and leverage that knowledge.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>organization and execution perspective<ept id="p1">**</ept>, it is interesting to highlight that this modernization effort is being led by the Chief Data Officer who committed to a massive digitalization project to make the company’s platforms intelligent, starting from their core area of knowledge.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Next, let’s look at Publicis Groupe, one of the “Big Four” multinational advertising and public relations agencies.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Publicis found that “chaotic knowledge” ecosystems - born from keeping tech, information, and personnel structured in silos - were making it hard to execute projects quickly, provide value to customers, and keep ahead of competitors.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Their new Chief Executive Officer, Arthur Sadoun, proposed a remarkable strategic fix: using AI to “break the silos,” and connect every Publicis employee to teams and tech where they could provide the most value.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To do this, they created a platform called Marcel, which uses AI to structure Publicis’ vast treasure-trove of institutional knowledge and make it available to every employee.</source>
+        </trans-unit></group></body></file></xliff>

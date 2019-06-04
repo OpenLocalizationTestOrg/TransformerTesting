@@ -1,0 +1,67 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-what-is-azure-batch.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-what-is-azure-batch.276711.b4b6728bfcc27a125f42ecad7c02d9f011a6c027.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b4b6728bfcc27a125f42ecad7c02d9f011a6c027</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\run-parallel-tasks-in-azure-batch-with-the-azure-cli\includes\2-what-is-azure-batch.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Few organizations have the resources to support permanent deployments of super-powerful compute platforms, which may only occasionally be used to capacity.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>More typically, you need a flexible and scalable compute solution, such as Azure Batch, to provide the computational power.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>As part of the process of performing OCR on the uploaded pictures of water purification meters using Azure Batch, you need to have an understanding of the main components of an Azure Batch workflow.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Here, you'll look at what Azure Batch is designed to do, and how Batch components are used in a typical workflow.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Compute-intensive tasks and parallel workloads</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Some workloads require massive computational power.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Examples include financial risk modeling, 3D image rendering, media transcoding, and genetic sequence analysis.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In some cases, these workloads can be broken down into separate subtasks and can be run in parallel, so that the tasks are performed in much less time.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Three Virtual Machines (VMs) can do the work of one in a third of the time.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>As part of the OCR project for the non-profit, you can use Azure Batch to partition up the work of performing the OCR so that the processing is done in parallel and takes much less time to complete.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The components of Azure Batch</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Azure Batch can be used for these large-scale parallel and computationally intensive tasks on Azure.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>At a high level, Azure Batch involves a number of components working together.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Everything needs to take place within the context of an Azure Batch account, which acts as a container for all Batch resources.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For some use cases, you may wish to associate this account with an Azure Storage account for the purposes of downloading input files and applications for use during execution and storing their results.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Within your Azure Batch account, you can create pools of virtual compute nodes, running either Windows or Linux, of the number and CPU and memory size that you specify, which are managed and scheduled for you by the Azure Batch service.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A Batch account can contain many Batch pools.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Once you've created one or more pools, you create individual jobs, which act like logical containers for all the tasks you schedule and can share common properties.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Again, it's perfectly possible to have many jobs.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>And finally, you create tasks, which describe how the work actually gets done.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can either use tasks to directly invoke the command line, or the tasks can run applications that you upload to Azure Storage.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>We'll see all the main components of Azure Batch working together in the next exercise.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Typical Azure Batch workflow</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>So what does a typical Azure Batch workflow actually look like?</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>As shown in the graphic below, a typical real-world Azure Batch scenario will require data and application files.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The Batch workflow begins by uploading these data and application files to an Azure storage account.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You then create a Batch pool with as many Windows or Linux virtual compute nodes as needed.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>They can also be autoscaled according in case the demands of your workloads vary over time.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The Batch service will then handle bringing the nodes online and scheduling tasks for execution onto the nodes.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Before the tasks begin execution, they may download any data and application files from storage that they need for processing.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>While the tasks are executing, it's possible to query the status of the nodes and the progress of the tasks.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Once the nodes complete their tasks, their task output can be examined or pushed to Azure storage.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Azure Batch workflow</source>
+        </trans-unit></group></body></file></xliff>

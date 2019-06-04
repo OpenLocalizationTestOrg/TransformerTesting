@@ -1,0 +1,19 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-summary.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-summary.e58014.b941be1533377c1acbb4abaa187979dbdc3b774c.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b941be1533377c1acbb4abaa187979dbdc3b774c</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\store-access-data-cosmos-table-api\includes\4-summary.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this module, you learned how organizations that use tables in Azure Storage accounts can rapidly migrate their data to Cosmos DB to gain performance, scalability, and availability advantages.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Another good reason to move to Cosmos DB is that users can connect to writable replicas of the data in their own regions, and Cosmos DB will replicate their changes throughout the world.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Learn more</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Introduction to Azure Cosmos DB: Table API<ept id="p1">](https://docs.microsoft.com/azure/cosmos-db/table-introduction)</ept></source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Developing with Azure Cosmos DB Table API and Azure Table storage<ept id="p1">](https://docs.microsoft.com/azure/cosmos-db/table-support?toc=%2Fazure%2Fstorage%2Ftables%2FTOC.json&amp;bc=%2Fazure%2Fbread%2Ftoc.json)</ept></source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Get started with Azure Cosmos DB Table API and Azure Table storage using the .NET SDK<ept id="p1">](https://docs.microsoft.com/azure/cosmos-db/tutorial-develop-table-dotnet)</ept></source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Where is Table API not identical with Azure Table storage behavior?<ept id="p1">](https://docs.microsoft.com/azure/cosmos-db/faq#where-is-table-api-not-identical-with-azure-table-storage-behavior)</ept></source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Migrate your data to Azure Cosmos DB Table API account<ept id="p1">](https://docs.microsoft.com/en-gb/azure/cosmos-db/table-import)</ept></source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure Storage scalability and performance targets for storage accounts<ept id="p1">](https://docs.microsoft.com/azure/storage/common/storage-scalability-targets)</ept></source>
+        </trans-unit></group></body></file></xliff>

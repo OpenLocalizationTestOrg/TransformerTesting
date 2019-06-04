@@ -1,0 +1,51 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-use-the-mongodb-api-to-import-historical-order-data.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-use-the-mongodb-api-to-import-historical-order-data.f74ed9.af434b42da3a75388056bd19e3d93809bac1530a.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">af434b42da3a75388056bd19e3d93809bac1530a</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\choose-api-for-cosmos-db\includes\6-use-the-mongodb-api-to-import-historical-order-data.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The operations team has been using an app that uses an existing MongoDB database to process purchase orders.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The database captures data throughout the order process, including failed and partial orders, fulfillment data, and shipping status.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>MongoDB was chosen because each supplier wanted their orders in different formats.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In addition, each supplier returns different meta-data.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The volume of these suppliers has increased exponentially as your company has rolled out drop shipping.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The operations team wants to keep access to this data, and continue to use their current purchase order system with as few code changes and as little downtime as possible.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Problem analysis</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The operations team has semi-structured data that needs the flexibility to store many different supplier order formats.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Based on your research, you have determined that both Core (SQL) and MongoDB are good options.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>However, your operations team wants to reduce downtime during their app migration, so your best bet would be to find a way to allow your operations team to continue to use the MongoDB wire protocol.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Recommended API: MongoDB</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To allow the operations team to continue to use their existing app that uses MongoDB queries, your best option is to use the MongoDB API.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Choosing this API means that MongoDB tools like <ph id="ph1">`mongodump`</ph> and <ph id="ph2">`mongorestore`</ph> are available to natively move the data into Cosmos DB.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Why not any of the other APIs?</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Using the decision matrix from earlier in this learning module, you can see why the other APIs are not a good solution for this scenario:</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>API</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Azure Table<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This API isn't a good choice for this scenario, and should only be used to allow existing apps that are based on the Table API access to Cosmos DB.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Cassandra<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This API isn't a good choice due to the existing MongoDB database, and the requirement to import and reuse application code.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Core (SQL)<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This API would be a good choice if there wasn't a requirement to reuse existing code and import an existing MongoDB database.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Gremlin<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This API isn't a good choice because the data isn't graph based.</source>
+        </trans-unit></group></body></file></xliff>

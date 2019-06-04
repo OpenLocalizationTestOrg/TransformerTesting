@@ -1,0 +1,93 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-customer-service-case-study-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-customer-service-case-study-introduction.7def33.d430376299413588dcf78c11221160916c17ce85.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d430376299413588dcf78c11221160916c17ce85</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\foster-ai-ready-culture-customer-service\includes\2-customer-service-case-study-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Abstract</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Our customer service organization was looking for ways to meet the ever-growing expectations of our customers at scale.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>We identified that AI could help us create a better service experience by equipping our agents with predictions and recommendations, surfacing new insights from customer feedback, and streamlining our customers’ self-service experience.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Since implementing these solutions, case resolution has sped up dramatically and customer satisfaction scores have increased by nearly a third.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Learn about how we incorporated AI into our customer service processes and consider how AI could transform your own customer service organization.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Industry context</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The bar for the customer service experience is higher than ever before.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>And the quality of the service experience is a key factor in purchasing decisions: 92% of consumers say they would stop purchasing from a company after three or fewer poor service experiences, and 26% of those would stop after just one bad experience.<bpt id="p1">&lt;sup&gt;</bpt>1<ept id="p1">&lt;/sup&gt;</ept></source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Customers expect service that is immediate, effective, seamless across channels, and aligned to their goals.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The traditional response of hiring more service agents to address this is expensive and is not scalable, in part due to the risk of inconsistent service at scale.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To deliver on customer expectations at scale, customer service organizations are looking to AI to supplement and augment the skills of their employees.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Gartner estimates that 25% of all customer care and support operations will integrate AI technology across engagement channels by 2020, up from less than 2% in 2017.<bpt id="p1">&lt;sup&gt;</bpt>2<ept id="p1">&lt;/sup&gt;</ept></source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Microsoft context: Customer experience</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>At Microsoft, we’ve faced the same hurdles as many other organizations in adapting to meet the needs and expectations of today’s customers.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To support our customers more effectively, we envisioned creating better self-service experiences and empowering our service agents with relevant context, insights, and recommendations at their fingertips during interactions with customers.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In addition, we hoped to glean more insights from customer chat records and feedback and create processes for surfacing and acting on these insights.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Our goal was to improve customer satisfaction and retention and transform customer service from a cost center to a key differentiator, using AI to drive scale, efficiency, and insights.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Questions</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The following are questions you can use to start thinking about how to implement AI in your own customer service organization.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Think critically about these questions before reviewing the executive perspective video and continuing on to the case study resolution.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Strategy</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>How well do you understand the preferences of your customers?</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>How will you incorporate the voice of the customer in AI planning, development, and implementation?</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>How will you prioritize competing objectives?</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For example, if gains in business efficiency came with the trade-off of a slightly lower-quality customer experience, would you accept that?</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>How can you use AI to better understand the customer experience and breakpoints in the customer journey?</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Customer service is a key differentiator in consumer and business purchasing decisions.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>How can you use AI to differentiate from your competitors?</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Do you know what your competitors are doing with AI?</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Culture</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>How will you ensure buy-in from both executives and front-line service managers to ensure AI is implemented successfully?</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>How can you incorporate best practices from your frontline service agents into your AI applications?</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>How can you use data from AI to coach service agents and improve their performance?</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A common use of AI in customer service is a chatbot, which could be perceived as a replacement for service agents.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>How can you frame AI as empowering your agents and augmenting their skills rather than replacing them?</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Implementation</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Do you have the data on past customer service cases necessary to train AI models?</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>If not, what data collection or preparation would be required?</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>AI in customer service needs to keep up with rapidly evolving product portfolios.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>How will you ensure that your AI solutions can learn and improve continuously?</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>How will you monitor how your AI applications are adapting to customer interactions?</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>AI maturity</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Depending on your organization’s level of AI maturity, your ability to implement AI will vary.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>We recommend that you evaluate your AI maturity by asking questions like: Is your organization an early adopter of technology or do you wait until it has matured?</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Do you have governance structures in place to ensure AI applications are driving towards your desired business outcomes?</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Now that you understand the context of the challenges customer service organizations face today, and you’ve considered critical questions to answer before implementing AI, watch the executive perspective video with Aileen Allkins, Microsoft Corporate Vice President of Customer Service &amp; Support.</source>
+        </trans-unit></group></body></file></xliff>

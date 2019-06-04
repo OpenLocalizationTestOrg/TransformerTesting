@@ -1,0 +1,87 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-exercise-setup-webhook-for-github-repo.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-exercise-setup-webhook-for-github-repo.471833.43957f1521435a9d54d802b3a7e44a29334280ea.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">43957f1521435a9d54d802b3a7e44a29334280ea</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\monitor-github-events-with-a-function-triggered-by-a-webhook\includes\5-exercise-setup-webhook-for-github-repo.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Now that you have set up a function app to be triggered by a webhook, you have to set up a webhook for your company's Technology Wiki.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In this exercise, you'll set up a webhook for a GitHub repository.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You'll learn how to listen for specific events, in this case the <bpt id="p1">*</bpt>Gollum<ept id="p1">*</ept> event, and how to make your webhook callback to your Azure Function when the event is triggered.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Setup</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Using your web browser, sign in to your <bpt id="p1">[</bpt>GitHub account<ept id="p1">](https://www.github.com)</ept>.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Create a new repository by clicking the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> button and give it a meaningful name such as <bpt id="p2">**</bpt>LearnWebhookTest<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Wiki<ept id="p1">**</ept> tab.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Create the first page<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Add some text, and then click <bpt id="p1">*</bpt>Save Page<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Add a webhook for the Gollum Event</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Go back to main page for your repository.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> tab.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Webhooks<ept id="p1">**</ept> in the navigation panel to the left of the page.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Add webhook<ept id="p1">**</ept> button on the top-right.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Set the payload to the URL for your Function App's function from the previous exercise.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Remember that it looks similar to this:</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Set the content type to <bpt id="p1">**</bpt>application/json<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>In the section <bpt id="p1">**</bpt>Which events would you like to trigger this webhook?<ept id="p1">**</ept>, select the radio button labeled <bpt id="p2">**</bpt>Let me select individual events<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Wiki<ept id="p1">**</ept> checkbox.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Make sure no other check boxes are selected.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>At the bottom of the page, ensure <bpt id="p1">**</bpt>Active<ept id="p1">**</ept> is checked and click <bpt id="p2">**</bpt>Add webhook<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Verify that your new webhook appears when the <bpt id="p1">**</bpt>Webhooks<ept id="p1">**</ept> page is displayed.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Test the webhook</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>In the GitHub portal for your repository, click the <bpt id="p1">**</bpt>Wiki<ept id="p1">**</ept> tab.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Select the page that you created earlier.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In the text area of the page, type:</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Save Page<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> tab.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Webhooks<ept id="p1">**</ept> in the navigation panel on the left.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The webhook will indicate that the message was not processed correctly; it will generate an HTTP 400 error.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The webhook is providing a payload that the Function App wasn't expecting, and doesn't include a <bpt id="p1">**</bpt>name<ept id="p1">**</ept> parameter.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You will learn how to parse the payload for a <bpt id="p1">*</bpt>Gollum<ept id="p1">*</ept> event in the next unit.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept> next to your webhook.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Scroll down to the <bpt id="p1">**</bpt>Recent Deliveries<ept id="p1">**</ept> section.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Select the latest delivery entry by clicking on the ellipsis (...).</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You'll see the <bpt id="p1">*</bpt>Header<ept id="p1">*</ept> information, including the <bpt id="p2">*</bpt>Event Type<ept id="p2">*</ept>:</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You'll also see that the payload contains information indicating that your Wiki page was edited.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The payload contains <bpt id="p1">**</bpt>pages<ept id="p1">**</ept>, <bpt id="p2">**</bpt>repository<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>sender<ept id="p3">**</ept> sections, which should look something like the example shown below:</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Response<ept id="p1">**</ept> tab.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You'll see the response message generated by the Azure function.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For this example, the body should contain the message.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Please pass a name on the query string or in the request body<ept id="p1">*</ept>.</source>
+        </trans-unit></group></body></file></xliff>

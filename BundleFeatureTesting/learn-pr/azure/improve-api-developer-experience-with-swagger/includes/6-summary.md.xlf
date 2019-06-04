@@ -1,0 +1,17 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-summary.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-summary.0c3551.ad560b7a1b7abdddfff872e9406bb41944e570af.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ad560b7a1b7abdddfff872e9406bb41944e570af</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\improve-api-developer-experience-with-swagger\includes\6-summary.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Providing rich documentation for an API makes it more consumable and easier to maintain.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In the case of our framing business, we used Swashbuckle to auto-generate Swagger documentation for our ASP.NET Core API.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Just adding Swashbuckle packages to our project gives us decent Swagger documentation that is easy to read and doesn't require the consumer to know the source code of the API.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>We then learned how to enhance the default documentation through XML comments and annotations.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Learn more</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Getting Started with Swagger<ept id="p1">](https://github.com/swagger-api/swagger-core/wiki/Swagger-2.X---Getting-started)</ept></source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Swashbuckle<ept id="p1">](https://docs.microsoft.com/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-2.2&amp;tabs=visual-studio)</ept></source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Swagger for node<ept id="p1">](https://github.com/swagger-api/swagger-node)</ept></source>
+        </trans-unit></group></body></file></xliff>

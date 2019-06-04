@@ -1,0 +1,31 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.0071f5.f72bd0f17a1c7533900877a9a106288ebb0f54c6.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f72bd0f17a1c7533900877a9a106288ebb0f54c6</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\load-balance-web-traffic-with-application-gateway\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Imagine that you work for the motor vehicle department of a governmental organization.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The department runs several public web sites that enable drivers to register their vehicles and renew their drivers license online.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The vehicle registration web site has been running on a single server and has suffered multiple outages because of server failures.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This has resulted in frustrated drivers who are trying to register their vehicles at the end of the month before their registrations expire.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The department would like to improve resiliency by adding multiple web servers to their site and distribute the load across them.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>They would also like to centralize their site on a single load-balancing service to simplify the URLs for site visitors.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Identify the load-balancing capabilities of Application Gateway</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Create an Application Gateway and configure load balancing</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Configure an Application Gateway to use URL path-based routing</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Knowledge of basic networking concepts</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Familiarity with Azure virtual machines and Azure App Service</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Familiarity with Azure virtual networking</source>
+        </trans-unit></group></body></file></xliff>

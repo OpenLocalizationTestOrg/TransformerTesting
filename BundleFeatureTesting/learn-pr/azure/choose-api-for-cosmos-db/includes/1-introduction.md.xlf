@@ -1,0 +1,49 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.2aefb1.a5d7830fe93021b6cc5030a964ccf63cfb0b318d.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a5d7830fe93021b6cc5030a964ccf63cfb0b318d</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\choose-api-for-cosmos-db\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Your company has begun a large-scale, multi-departmental project that requires data to be globally accessible, and it requires guarantees on throughput and resilience.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The project consists of multiple components that include:</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Customer facing e-commerce web and mobile applications</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Back-office warehouse and operations systems</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Internal sales and marketing database with real-time reporting requirements</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The architecture team has selected Azure Cosmos DB as the candidate data store for all of the scenarios that are listed above, and they've asked you to explore the different options that are available to store and access data.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Your development teams have a wide range of experience with different database APIs, and you've been asked to provide guidance back the project team on which APIs to use for each area of the project.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Cosmos DB was chosen because it is flexible.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>At the lowest level, Cosmos DB stores data in atom-record-sequence (ARS) format.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The data is then abstracted and projected as an API, which you specify when you are creating your database.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In this module, you'll learn how Cosmos DB provides different APIs to access and interact with the data it stores.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You'll see the benefits of having a globally distributed database that is built to scale, with guaranteed latencies and availability, and support for your development teams' existing database knowledge.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>By the end of the module, you'll have learned about all the different APIs, and explored how data is accessed via each API or via the Azure portal.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Using this knowledge, you can make an informed decision on which APIs are the right choice for your company.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>At the end of this module, you will be able to:</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Explain the features of Core (SQL)</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Explain the features of MongoDB</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Explain the features of Cassandra</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Explain the features of Azure Table</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Explain the features of Gremlin (graph)</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Choose the appropriate API for your Cosmos DB account</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Familiarity with database concepts</source>
+        </trans-unit></group></body></file></xliff>

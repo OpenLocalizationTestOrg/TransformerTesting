@@ -1,0 +1,141 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-identify-the-technology-options.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-identify-the-technology-options.4792dc.6c3299456f54b32012bfc70a050fe1be8461abf0.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6c3299456f54b32012bfc70a050fe1be8461abf0</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\choose-api-for-cosmos-db\includes\2-identify-the-technology-options.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Diagram showing how Cosmos DB is globally distributed, supports five principles, four models, and five APIs</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Azure Cosmos DB is a globally distributed and elastically scalable database.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>It has a guaranteed low latency that is backed by a comprehensive set of Service Level Agreements (SLAs).</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Consistency can sometimes be an issue when you are working with distributed systems, but Cosmos DB resolves this by offering you five different consistency levels: <bpt id="p1">*</bpt>strong<ept id="p1">*</ept>, <bpt id="p2">*</bpt>bounded staleness<ept id="p2">*</ept>, <bpt id="p3">*</bpt>session<ept id="p3">*</ept>, <bpt id="p4">*</bpt>consistent prefix<ept id="p4">*</ept>, and <bpt id="p5">*</bpt>eventual<ept id="p5">*</ept>.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>All of the above is supported by a multi-model Cosmos DB's approach, which provides you with the ability to use document, key-value, wide-column, or graph-based data.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The final choice you have is how to access and manipulate your data.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Cosmos DB was built to support multiple different models, and you can continue to use industry standard APIs if they are already part of your application or database design.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This flexibility means that Cosmos DB can be used as the database in all of the components that are being designed for your project.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In this unit you'll discover, at a High Level, what each of the API choices are, and how they might be used.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In the following units, you'll see scenarios where each of the API choices will be applicable.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Core (SQL) API</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Core (SQL) is the default API for Cosmos DB, which provides you with a view of your data that resembles a traditional NoSQL document store.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can query the hierarchical JSON documents with a SQL-like language.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Core (SQL) uses JavaScript's type system, expression evaluation, and function invocation.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Icon representing the CORE API</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For your company's e-commerce website, you could choose to use Core (SQL) to store your product catalog.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For example, a sample data entry could look like this:</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To retrieve a product's name, you could use this SQL command:</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For developers who have experience with the SQL query language, Core (SQL) provides several familiar SQL statements and clauses; for example:</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>SELECT</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>FROM</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>WHERE</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>BETWEEN</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>COUNT</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>SUM</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>MIN</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>MAX</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>ORDER BY</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>MongoDB API</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Cosmos DB's API for MongoDB supports the MongoDB wire protocol.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This API allows existing MongoDB client SDKs, drivers, and tools to interact with the data transparently, as if they are running against an actual MongoDB database.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The data is stored in document format, which is the same as using Core (SQL).</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Cosmos DB's API for MongoDB is currently compatible with 3.2 version of the MongoDB wire protocol.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Icon representing the MongoDB API</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Using the same JSON document example from earlier, your MongoDB query could look like this:</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Cassandra API</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Cosmos DB's support for the Cassandra API makes it possible to query data by using the Cassandra Query Language (CQL), and your data will appear to be a partitioned row store.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Just like the MongoDB API, any clients or tools should be able to transparently connect to Cosmos DB; only your connection settings should need to be updated.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Cosmos DB's Cassandra API currently supports version 4 of the CQL wire protocol.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Icon representing the Cassandra API</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For developers who have experience with the CQL query language, Cosmos DB provides several familiar CQL statements and clauses; for example:</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>CREATE KEYSPACE</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>CREATE TABLE</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>ALTER TABLE</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>USE</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>INSERT</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>SELECT</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>UPDATE</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>BATCH (Only unlogged commands are supported)</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>DELETE</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To create a table that would store the JSON information listed earlier, you might use the following:</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To retrieve a product's name, you could use this CQL command:</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Azure Table API</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Cosmos DB's Azure Table API provides support for applications that are written for Azure Table Storage that need premium capabilities like global distribution, high availability, scalable throughput.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The original Table API only allows for indexing on the Partition and Row keys; there are no secondary indexes.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Storing table data in Comsos DB automatically indexes all the properties, and requires no index management.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Icon representing the Table API</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Querying is accomplished by using OData and LINQ queries in code, and the original REST API for GET operations.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To retrieve a product's name, you could use this SQL command within a stored procedure or user-defined function:</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Gremlin (graph) API</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Choosing Gremlin as the API provides a graph-based view over the data.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Remember that at the lowest level, all data in any Cosmos DB is stored in an ARS format.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>A graph-based view on the database means data is either a vertex, (which is an individual item in the database), or an edge, (which is a relationship between items in the database).</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Icon representing the Gremlin API</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You typically use a traversal language to query a graph database, and Cosmos DB supports Apache Tinkerpop's Gremlin language.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>For example, you could use the following commands to add three vertices for product and two edges for related-purchases to a graph:</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Once your data has been stored in your graph, you can query based on vertices or edges.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>For example, the following query will display the additional products that were purchased along with the industrial saw:</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Results will be returned in GraphSON format, which looks like this:</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This kind of graph might be useful when you are creating a product recommendation application for an e-commerce website, or you could return detailed information for each of the related puchases by using the following query:</source>
+        </trans-unit></group></body></file></xliff>

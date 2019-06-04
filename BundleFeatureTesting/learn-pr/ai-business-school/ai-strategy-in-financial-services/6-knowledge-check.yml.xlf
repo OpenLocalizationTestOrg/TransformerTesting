@@ -1,0 +1,113 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-knowledge-check.0ab66e.5e9594dacbaba14c7d9601c021ce40e8f857549d.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5e9594dacbaba14c7d9601c021ce40e8f857549d</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\ai-strategy-in-financial-services\6-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Knowledge Check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Knowledge Check</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>A knowledge check for the AI strategy in financial services module.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>What is an example of how AI has benefited the Financial Services industry?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>AI increased the accuracy of financial reporting by eliminating accounting errors.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>AI does not add value to basic accounting processes.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>AI lowered costs by decreasing the latency of transactions through prediction modeling.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Banks such as HSBC have reduced the number of false alerts concerning transactions, thus lowering costs while at the same time expanding the number of transactions processed.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>The industry leverages AI as a competitive advantage in order to obtain market share from competitors.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Banking customers are very sticky and the value of leveraging competitive advantages is negligible in the short term.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>AI has allowed the integration of quantum computing in order to lower the cost of transaction processes.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Quantum computing is not currently being utilized in production environments.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>What is one of the problems that financial service institutions face with their customers that AI can address and eliminate through hidden machine learning processes?</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Customers often favor convenience over security, which increases cybersecurity vulnerability.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>One of the missions of AI is to create new authentication methods that are not as manual or obtrusive to the customer, as customers often shortcut traditional authentication methods.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Customers don’t value the online experience, so product differentiation is challenging.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>It has been shown that financial services customers value the online customer experience as much as they do in other sectors.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Financial institutions don’t have a lot of data and information concerning their customers.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Actually, the opposite is true as the financial services industry has an assortment of both structured and unstructured data on their customers.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>The financial services industry has been very slow to embrace digital services, and customers view them as technology laggards.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>The financial services industry has embraced digital services and has, in fact, moved rapidly to implement new technologies and services.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>How is AI helping to increase the security of financial transactions today?</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>AI can pool from thousands of preselected security questions using the customer data profiles.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Preselected security questions do not require AI.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>AI is used to create more disruptive authentication processes that deter criminal behavior.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>The goal of the financial services industry is to create non disruptive authentication processes.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>AI is making it possible to create and enforce password policies that are more complex and elaborate.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>The goal of AI integration with cybersecurity is to eliminate passwords and other manual authentication processes.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>AI uses profiling metrics in order to identify unique identifying behavior traits for every customer.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Creating behavior profiles for all customers is a process called invisibly “fingerprinting” in order to authenticate users.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>When it comes to employees, what is an example of a fundamental aim that financial services institutions want to accomplish through AI integration?</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Empower them to be more creative and innovative.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Financial services institutions want to use AI to empower their employees to be the best at what they do and encourage creativity and ingenuity.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Remove them from the decision-making processes.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Employees will continue to play an active and vital part in decision making concerning customers and financial processes.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Replace employees with machine-learning, interactive devices.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Employees are critical to the growth and success of financial services institutions.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Decrease the customer load on their financial advisors.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-in-financial-services.knowledge-check">
+          <source>With AI, it is possible for financial advisors to dramatically increase the number of customers they serve.</source>
+        </trans-unit></group></body></file></xliff>

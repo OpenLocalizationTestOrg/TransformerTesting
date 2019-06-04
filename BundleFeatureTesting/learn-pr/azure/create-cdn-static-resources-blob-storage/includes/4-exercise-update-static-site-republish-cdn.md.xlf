@@ -1,0 +1,59 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-exercise-update-static-site-republish-cdn.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-exercise-update-static-site-republish-cdn.e434b0.2876a150a54a92343b5683077f18ab94ef4935d4.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2876a150a54a92343b5683077f18ab94ef4935d4</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-cdn-static-resources-blob-storage\includes\4-exercise-update-static-site-republish-cdn.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>With your delivery network configured, let's verify that your site content is being delivered through the CDN.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll review how CDNs update content and the delay that you typically see when updating the source files.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Review both the Origin Server and CDN Versions</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Here you'll open the URLs for the origin server and the link to the CDN-published version in different browser windows.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You'll then update the origin server with new files and notice how long it takes for that change to propagate.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Open a web browser.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In the address bar, enter the URL to your origin website in the form <bpt id="p1">**</bpt>storageaccountnameXXXX.web.core.windows.net<ept id="p1">**</ept> from the previous exercise.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>XXXX<ept id="p1">**</ept> is the random number assigned to your site.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Your original website should appear.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Open another browser tab.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Enter the URL of your Endpoint Hostname from the CDN endpoint in the form <bpt id="p1">**</bpt>endpointname.azureedge.net<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Again, the replicated copy of your source website should appear.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You may see a <bpt id="p1">_</bpt>Page not Found<ept id="p1">_</ept> if the content hasn't propagated.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Propagation can take a few minutes to complete and you may need to refresh the page.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Place both windows side by side on your screen.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Both URLs can be found in the Azure portal, on the overview tab for the Endpoint you created in the previous exercise.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Change the Origin Files</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Navigate to the website source code in Cloud Shell if you're not there already:</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Open the index.html file in the code editor.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Change the <ph id="ph1">```H1```</ph> tag to a message of your choice.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>(try "Hello CDN!")</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Save and close the editor.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Upload the changed index.html to the $web blob storage container.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Verify site changes</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Switch to the browser connecting to the source URL (web.core.windows.net) and press F5 to refresh the page.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The changes to the image and text should appear immediately.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Switch to the <bpt id="p1">**</bpt>storageaccountnameXXXX.azureedge.net<ept id="p1">**</ept> browser window and press F5 until the change appears.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This operation should take less than 10 minutes to complete.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You may continue to the next unit while you wait for the CDN to update.</source>
+        </trans-unit></group></body></file></xliff>

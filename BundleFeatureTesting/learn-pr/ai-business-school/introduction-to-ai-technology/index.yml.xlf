@@ -1,0 +1,23 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.721982.95183ee6fbad35f537a9b861e04c4a9b88c78b4a.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">95183ee6fbad35f537a9b861e04c4a9b88c78b4a</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\introduction-to-ai-technology\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn-wwl.intro-to-ai-technology">
+          <source>Introduction to AI technology</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn-wwl.intro-to-ai-technology">
+          <source>This module provides a high-level overview of the primary concepts of AI and the technologies behind it.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn-wwl.intro-to-ai-technology">
+          <source>We then dive into how Microsoft is turning the latest advancements in AI into tools, products, and services that can be leveraged by organizations.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn-wwl.intro-to-ai-technology">
+          <source>Introduction to AI technology</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn-wwl.intro-to-ai-technology">
+          <source>This module provides a high-level overview of the primary concepts of AI and the technologies behind it.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn-wwl.intro-to-ai-technology">
+          <source>We then dive into how Microsoft is turning the latest advancements in AI into tools, products, and services that can be leveraged by organizations.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn-wwl.intro-to-ai-technology">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn-wwl.intro-to-ai-technology">
+          <source>Describe the primary technological components of an AI strategy.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn-wwl.intro-to-ai-technology">
+          <source>Describe the methods of Machine Learning.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn-wwl.intro-to-ai-technology">
+          <source>Articulate how AI technology can solve business problems.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn-wwl.intro-to-ai-technology">
+          <source>None</source>
+        </trans-unit></group></body></file></xliff>

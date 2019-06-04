@@ -1,0 +1,85 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-financial-services-case-study-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-financial-services-case-study-introduction.fe5892.19d1e78f7286a0d83bfca513a4bacc492d83e465.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">19d1e78f7286a0d83bfca513a4bacc492d83e465</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\ai-strategy-in-financial-services\includes\3-financial-services-case-study-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Abstract</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The financial services industry (FSI) has digitized rapidly in the last 10 to 20 years, creating great convenience to customers.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The rapid pace of change and new technology has also opened a window for cybercrime, which creates numerous problems for financial institutions and their customers.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>For customers, financial crime creates the risk of asset loss, increases inconvenient security measures, and leads to a lack of trust in financial institutions.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This case study details how security platform BioCatch leveraged machine learning to create an “invisible” security solution that identifies users based on a unique biometric signature when interacting with technology.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Because user authentication takes place in the background, it’s far less intrusive than other authentication methods, leading to happier customers.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The solution also has a very low false positive rate, which helps better prevent cybercrime and its associated costs for FSI businesses.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Industry context</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Much of the world is completing a move to digital services, and although it’s been slow to start in some respects, the financial services industry is no exception.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Financial services play a vital intermediary role in the digital economy.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>An increasing proportion of services like banking, insurance, foreign exchange, and even investment are now carried out online.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Use of API-linked payment and financial services is quickly becoming the norm for customers.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Users buy and sell online using PayPal and Stripe; they apply for loans and credit using online services; they buy and sell shares; and they check their bank balances with mobile apps.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The rapid digitization of these services has caused enormous disruption in the industry.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Fast-moving new fintech companies like PayPal and Square have made the most of the opportunity, and while traditional banks and brokers have also modernized, some conventional players are closing thousands of branches to cut costs.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>All FSI institutions, old and new, are also scrambling to improve the customer experience, seeing it as a key way to attract and retain customers.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>An Adobe report found 28 percent of respondents in the FSI industry ranked optimizing the customer experience as the ‘single most exciting opportunity’ in 2018, compared to 18 percent of their peers across all other sectors.<bpt id="p1">&lt;sup&gt;</bpt>1<ept id="p1">&lt;/sup&gt;</ept></source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Retail banking respondents are even more likely than their FSI counterparts to be focusing on the customer experience, with 41 percent of these participants regarding it as the main focus for differentiation.<bpt id="p1">&lt;sup&gt;</bpt>1<ept id="p1">&lt;/sup&gt;</ept></source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>But this dual focus on online services and improving customer experience creates new risks.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Challenge</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>As businesses and customers rapidly digitize, cybercrime is becoming more and more of a threat.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Estimates of the scale of the issue vary, but all experts agree on one thing: that it’s big (the annual cost of cybercrime was estimated at $400 billion USD in 2014)<bpt id="p1">&lt;sup&gt;</bpt>2<ept id="p1">&lt;/sup&gt;</ept> and that it’s getting bigger.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>One survey found that 10 percent of people over the age of 16 had been the victims of identity theft, with 85 percent experiencing fraudulent account use, and about 12 percent suffering personal monetary loss.<bpt id="p1">&lt;sup&gt;</bpt>3<ept id="p1">&lt;/sup&gt;</ept></source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>As the scale and cost of cybercrimes have increased, so have the efforts of businesses to protect their customers.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>User authentication methods such as two-factor authentication are common and offer increased security.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>But there’s a problem with many authentication methods: at best, users find them a nuisance or a chore.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>At worst, they’re infuriating to the point where a customer will stop using a product.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The temptation for users to resort to more convenient but more insecure personal security—such as using the same password for many different sites—is constant.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>When it comes to cybersecurity, financial institutions have been slow to embrace the way users actually behave.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Rather, they usually encourage users into more-secure behaviors that they’re often not comfortable with, or don’t understand.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>What’s needed is a paradigm shift in how businesses approach cybersecurity.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>“The term ‘identity theft’ is suggestive in the sense that it blames the victims of not guarding their identifying information,” say Markus Riek and Rainer Böhme, co-authors of a study into the costs of consumer-facing cybercrime.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>“A technically more precise description for this kind of incident is ‘authentication failure.’”</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>It was this unique combination of challenges that led to BioCatch’s creation of an authentication and fraud detection method that uses AI to work invisibly, without creating hassle for customers.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Strategy questions</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Experts suggest a paradigm shift in security culture, changing the mentality of blaming victims for cybercrime, treating “identity theft” as part of the problem of “authentication failure.”</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>What can businesses learn from this paradigm shift?</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>How can FSI businesses secure customers in a way that doesn’t interfere with their user experience?</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>How might AI be leveraged to identify users and prevent or spot fraudulent behaviors?</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>How can FSI businesses truly differentiate their products from the competition in the minds of their customers?</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>How can cybersecurity be proactive, rather than reactive?</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Now that you understand the context of the digitized financial service industry’s cybercrime challenge, and you’ve considered critical questions to answer before implementing AI in the industry, watch the executive perspective video with Ganesh Padmanabhan, Head of Cognitive Scale's Business Development &amp; Worldwide Marketing.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-add-blob-metadata-using-application-code.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-add-blob-metadata-using-application-code.309937.cddb57fb12349c59431f526ed988f76e766d4ec2.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cddb57fb12349c59431f526ed988f76e766d4ec2</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\organize-blobs-properties-metadata\includes\6-add-blob-metadata-using-application-code.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The .NET SDK includes methods for retrieving and setting blob properties and metadata.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Using the chemical company example, you want to use this SDK to modify your app, so that when your users locate a document a flag is written to metadata to indicate that the record has been retrieved.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In this unit, you will modify the code in an ASP.NET Core app to write data to blob metadata.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Metadata</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to set metadata for safety-report-1234.rpt.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to view metadata.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to set metadata for safety-reports container.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to view container metadata.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Edit the .NET app code</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In this step, you'll modify the code used by the <bpt id="p1">**</bpt>ManageMetadata<ept id="p1">**</ept> app so that the app can update metadata.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In the Cloud Shell, use the code editor to open <bpt id="p1">**</bpt>ManageMetadata\Program.cs<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Locate and examine the <ph id="ph1">`AddContainerMetadataAsync()`</ph> method; this code adds <ph id="ph2">`docType = SafetyReports`</ph> metadata to the container.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Locate and examine the <ph id="ph1">`AddBlobMetadataAsync()`</ph> method; this code adds <ph id="ph2">`reportStatus = included`</ph> metadata to a blob.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Uncomment the following <ph id="ph1">`AddContainerMetadataAsync()`</ph> call in the <ph id="ph2">`ManageBlobMetadata()`</ph> method; this code calls the <ph id="ph3">`AddContainerMetadataAsync()`</ph> method to add metadata to the container.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Uncomment the following <ph id="ph1">`AddBlobMetadataAsync()`</ph> call in the <ph id="ph2">`ManageBlobMetadata()`</ph> method; this code calls the <ph id="ph3">`AddBlobMetadataAsync()`</ph> method to add metadata to each blob.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Save <bpt id="p1">**</bpt>ManageMetadata\Program.cs<ept id="p1">**</ept> and exit the code editor.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Run the following commands in the Cloud Shell to build and run the <bpt id="p1">**</bpt>ManageMetadata<ept id="p1">**</ept> app:</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The ManageMetadata app now connects to your blob storage, and queries the container and any blobs in that container.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The app then updates the metadata, before displaying current properties and the updated metadata for the container and blobs.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For example:</source>
+        </trans-unit></group></body></file></xliff>

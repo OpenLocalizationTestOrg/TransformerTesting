@@ -1,0 +1,85 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-knowledge-check.bb59d3.3b8a998d69c457536a2c474b30074cabfbc1ae77.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3b8a998d69c457536a2c474b30074cabfbc1ae77</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-logic-apps\5-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>Knowledge check</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>Suppose you work for a financial company.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>You're building a system to let your brokers trade financial instruments.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>Your system must monitor market conditions, detect changes, and execute trades.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>You'll need to handle a large volume of transactions and you'll need to do it quickly.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>The faster you can complete trades, the more of an advantage you'll have over your competitors.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>Which requirement of this system would be difficult for Logic Apps to satisfy?</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>High throughput</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>Logic Apps scales out automatically.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>A Logic App can process large data sets in parallel and can handle the throughput required by this system.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>Response time</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>Minimizing execution time is critical in this system.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>Logic Apps doesn't offer low subsecond performance guarantees.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>Orchestrate the monitoring, detection, and execution tasks.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>Logic Apps is designed to integrate multiple systems.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>What differentiates an <bpt id="p1">_</bpt>action<ept id="p1">_</ept> from a <bpt id="p2">_</bpt>control action<ept id="p2">_</ept>?</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>An action executes a task, while a control action alters the control flow through your Logic App.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>Actions and control actions both contain the word <bpt id="p1">_</bpt>action<ept id="p1">_</ept> in their name; however, they do different things.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>Actions represent tasks.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>Control actions use <bpt id="p1">**</bpt>if<ept id="p1">**</ept> statements, <bpt id="p2">**</bpt>switch<ept id="p2">**</ept> statements, and loops to determine which actions run.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>An action is a component that executes a task in a Logic App.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>A control action is a component that launches your Logic App.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>The component that launches your app is called a trigger.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>An action is a component that launches your app, while control actions are switch statements.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>Triggers launch your app.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>Control actions can be switch statements; however, they can also be other types of conditional logic.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>Suppose you work for a chain of athletic clubs.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>You want to automate your lesson registrations and notifications.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>You use a proprietary in-house customer management system to store customer phone numbers and email addresses.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>The customer management system does have a REST API, but Logic Apps doesn't provide a connector for it.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>How can you use Logic Apps to automate this process?</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>Use the code view of the Logic Apps Designer to write Javascript code to interact with your proprietary system.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>The Designer does offer a code view that lets you edit the underlying JSON definition of your workflow.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>However, it doesn't support writing executable code in a language like Javascript.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>Logic apps aren't the correct service to use and you should investigate different solutions.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>You can use Logic Apps even when some services don't have pre-built connectors.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>It's your job to implement the missing connectors.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>Create a custom connector for the customer management system and use it in your Logic App.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>Logic Apps is an extensible platform.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve" uid="learn.azure-intro-to-logic-apps.knowledge-check">
+          <source>You can create a REST API for your proprietary systems and build a custom connector that invokes that API.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-manage-elastic-pools.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-manage-elastic-pools.534665.2245717adef07d5f114aee9656ab6c38140c4e6d.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2245717adef07d5f114aee9656ab6c38140c4e6d</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\scale-sql-databases-elastic-pools\includes\4-manage-elastic-pools.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>SQL elastic pools can help reduce server costs.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>To make effective use of elastic pools, their capacity must be configured correctly.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>To configure an elastic pool, we need to understand how SQL server performance is measured and priced, using either a <bpt id="p1">*</bpt>DTU-based<ept id="p1">*</ept> or <bpt id="p2">*</bpt>vCore-based<ept id="p2">*</ept> purchasing model.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>DTU-based pricing model</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A database transaction unit (DTU) is a unit of measurement for the performance of a service tier in Azure and is based on a bundled measure of compute, storage, and IO resources.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Compute sizes are expressed in terms of Database Transaction Units (DTUs) for single databases or elastic Database Transaction Units (eDTUs) for elastic pools.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If demand exceeds the available resources for your tier for any resource (CPU, storage or IO), the performance of your database is throttled.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This model is best for customers who want simple, pre-configured resource options available in three tiers: <bpt id="p1">**</bpt>basic<ept id="p1">**</ept>, <bpt id="p2">**</bpt>standard<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>premium<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>vCore-based pricing model</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A virtual core (vCore) represents the logical CPU offered with an option to choose between generations of hardware and physical characteristics of hardware (for example, number of cores, memory, storage size).</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The vCore-based purchasing model gives you flexibility and control over individual resource consumption and a straightforward way to translate on-premises workload requirements to the cloud.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This model allows you to choose compute, memory, and storage based upon their workload needs within the <bpt id="p1">**</bpt>general purpose<ept id="p1">**</ept> or <bpt id="p2">**</bpt>business critical<ept id="p2">**</ept> service tier.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The chart below provides a comparison of the two pricing models:</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>DTU vs. vCore Pricing Model</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Review cost estimates</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The Azure portal displays the results of your pool settings as an estimated monthly bill.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>DTU-based Pricing Model<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>DTU Pricing Model</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>vCore-based Pricing Model<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>vCore Pricing Model</source>
+        </trans-unit></group></body></file></xliff>

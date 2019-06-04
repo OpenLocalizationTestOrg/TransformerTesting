@@ -1,0 +1,47 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-when-to-use-mobile-apps.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-when-to-use-mobile-apps.de1536.7c6c5f39e7bc39a88b1f5f89f01a00a4e35c8489.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7c6c5f39e7bc39a88b1f5f89f01a00a4e35c8489</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-mobile-app-service\includes\4-when-to-use-mobile-apps.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Here, we'll discuss when to use Mobile Apps in Azure App Service to support a mobile client app.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>When to use Mobile Apps in Azure App Service</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Mobile Apps in Azure App Service help you provide authentication, authorization, data synchronization and push notifications for mobile client apps.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Data<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Mobile Apps is most valuable when you need to manage, store, and synchronize user data.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Data sync<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The key question to ask when you're considering Mobile Apps is <bpt id="p1">_</bpt>"do I need to sync data between the mobile client and a backend service?"<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Mobile Apps is ideal when you're providing two-way data transfers.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If all of the data remains on the client app, you may not need a backend service.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Authentication<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Are you storing or presenting sensitive data?</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Do you need to authenticate a user before giving them access to data or the client app?</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Verifying identity can be done using on-device biometrics, but using an OAuth identity provider allows you to verify users without relying on local hardware capabilities.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Cross-platform<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Will your mobile client app run on multiple platforms?</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The Mobile Apps SDK provides a consistent API across mobile platforms, reducing the porting time and learning curve to implement authentication, data-sync, and notifications.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Integration<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Will you integrate your mobile app with other cloud services?</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Using Azure App Service allows you to connect and extend your Mobile Apps to send and receive data from other services like power apps, serverless or IoT.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Push Notifications<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If you plan to use push notifications, especially if you're targeting multiple mobile client platforms, App Service's integration with Notification Hubs can help streamline integrating push notifications and sending notifications.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Mobile Apps helps streamline these features when targeting multiple mobile client platforms like iOS and Android.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>It's also a great foundation for integrating with other Azure cloud services.</source>
+        </trans-unit></group></body></file></xliff>

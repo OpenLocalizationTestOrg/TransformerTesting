@@ -1,0 +1,127 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-exercise-vnet-service-endpoints.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-exercise-vnet-service-endpoints.93432b.72bf1e48d51e975b72d6b4950916bae919552bde.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">72bf1e48d51e975b72d6b4950916bae919552bde</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\secure-and-isolate-with-nsg-and-service-endpoints\includes\5-exercise-vnet-service-endpoints.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>As the solution architect, you are planning to move sensitive engineering diagram files into Azure Storage.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The files must only be accessible from computers inside the corporate network.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You want to create a virtual network service endpoint for Azure Storage to secure the connectivity to your storage accounts.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll create a service endpoint and use network rules to restrict access to Azure Storage.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You'll create a virtual network service endpoint for Azure Storage on the <bpt id="p1">**</bpt>Databases<ept id="p1">**</ept> subnet.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You'll then verify that your <bpt id="p1">**</bpt>DataServer<ept id="p1">**</ept> VM can access Azure Storage.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Finally, you'll check that the <bpt id="p1">**</bpt>AppServer<ept id="p1">**</ept> VM, which is on a different subnet, cannot access storage.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Exercise scenario service endpoint and rules</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Add rules to the network security group</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Ensure that communications with Azure Storage pass through the service endpoint.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>So you'll now add outbound rules to allow access to the Storage service, but deny all other Internet traffic.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to create an outbound rule to allow access to Storage.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to create an outbound rule to deny all Internet access.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You should now have the following rules in ERP-SERVERS-NSG:</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Rule name</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Direction</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Priority</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Purpose</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>AllowSSHRule</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Inbound</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>100</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Allow inbound SSH</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>httpRule</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Inbound</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>150</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Deny from DataServer to AppServer on 80</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Allow_Storage</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Outbound</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>190</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Allow access to Azure Storage</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Deny_Internet</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Outbound</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>200</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Deny access to Internet from VNet</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>At this point, both <bpt id="p1">**</bpt>AppServer<ept id="p1">**</ept> and <bpt id="p2">**</bpt>DataServer<ept id="p2">**</ept> have access to the Azure Storage service.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Configure storage account and file share</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>In this step, you'll create a new storage account, and then add an Azure File Share to this account.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This share is where you'll store your engineering diagrams.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to create a storage account for engineering documents.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to store the primary key for your storage in a variable.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to create an Azure File Share called <bpt id="p1">**</bpt>erp-data-share<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Enable the service endpoint</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You now need to configure the storage account to only be accessible from database servers, by assigning the storage endpoint to the <bpt id="p1">**</bpt>Databases<ept id="p1">**</ept> subnet.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You then add a security rule to the storage account.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to assign the <bpt id="p1">**</bpt>Microsoft.Storage<ept id="p1">**</ept> endpoint to the subnet.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Run the following command to deny all access to change the default action to <ph id="ph1">`Deny`</ph>.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Once network access is denied, the storage account is not accessible from any network.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to restrict access to the storage account.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>By default, storage accounts are open to accept all traffic.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>You want only traffic from the <bpt id="p1">**</bpt>Databases<ept id="p1">**</ept> subnet to be able to access the storage.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Test access to storage resources</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>In this step, you'll connect to both of your servers, and verify that only DataServer has access to the Azure File Share on the storage account.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to save the public IP addresses of <bpt id="p1">**</bpt>AppServer<ept id="p1">**</ept> and <bpt id="p2">**</bpt>DataServer<ept id="p2">**</ept> to variables.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to connect to your <bpt id="p1">**</bpt>AppServer<ept id="p1">**</ept> VM, and attempt to mount the Azure File Share.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Enter the password you used when you created the VM.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The response should include a <ph id="ph1">`mount error`</ph> message.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This connectivity is disallowed since there is no service endpoint for the storage account on the <bpt id="p1">**</bpt>Applications<ept id="p1">**</ept> subnet.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to connect to your <bpt id="p1">**</bpt>DataServer<ept id="p1">**</ept> VM, and attempt to mount the Azure File Share.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Enter the password you used when you created the VM.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The mount should be successful, and the response should include details of the mount point.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>This is allowed since you created the service endpoint for the storage account on the <bpt id="p1">**</bpt>Databases<ept id="p1">**</ept> subnet.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You've now verified that <bpt id="p1">**</bpt>DataServer<ept id="p1">**</ept> can access storage, by using the storage service endpoint on the <bpt id="p2">**</bpt>Databases<ept id="p2">**</ept> subnet.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>You've also verified that <bpt id="p1">**</bpt>AppServer<ept id="p1">**</ept> cannot access storage, because this server is on a different subnet and does not have access to the virtual network service endpoint.</source>
+        </trans-unit></group></body></file></xliff>

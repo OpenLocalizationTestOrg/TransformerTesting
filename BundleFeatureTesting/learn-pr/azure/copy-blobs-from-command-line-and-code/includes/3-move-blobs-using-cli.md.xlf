@@ -1,0 +1,127 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-move-blobs-using-cli.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-move-blobs-using-cli.aa02fb.bc748efd110a2051b4e44f75d31b204e6c163483.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bc748efd110a2051b4e44f75d31b204e6c163483</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\copy-blobs-from-command-line-and-code\includes\3-move-blobs-using-cli.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The Azure CLI includes a series of commands that you can use to interact with Azure storage.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You can use CLI commands to upload and download files between the local file system, and you can transfer data between blobs in Azure Blob storage.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll learn how to use the Azure CLI to move data to and from Azure Blob storage, and migrate move data between blob storage accounts.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Creating blobs and uploading data</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`az storage blob`</ph> series of commands in the Azure CLI to manage and move blobs in Azure storage.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Before you upload blob data to Azure storage, you must create an Azure storage account and a container for holding your blobs.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`az storage account create`</ph> command from the Azure CLI to create a storage account.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The following example creates a low-latency (hot) storage account named <bpt id="p1">*</bpt>myAccount<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The storage uses the <bpt id="p1">*</bpt>Standard<ept id="p1">*</ept> performance tier with read-access geo-redundant storage:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Blobs are held in containers in Azure storage.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`az storage container create`</ph> command to add a container to a storage account.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Provide the account key and the account name.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can retrieve the keys for a storage account using the <ph id="ph1">`az storage keys list`</ph> command:</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Upload data to blob storage</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can upload a single file to blob storage with the <ph id="ph1">`az storage blob upload`</ph> command.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This command creates a blob for the contents of the file.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Specify the details of the account and container, together with the file and the name of the blob to be created.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`az storage`</ph> commands require an account name and key to authenticate you against the storage account.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can specify these values as the <ph id="ph1">`account-name`</ph> and <ph id="ph2">`account-key`</ph> parameters to many <ph id="ph3">`az storage`</ph> commands, but if you are running a series of operations a more convenient mechanism is to store this information in the <ph id="ph4">`AZURE_STORAGE_ACCOUNT`</ph> and <ph id="ph5">`AZURE_STORAGE_KEY`</ph> environment variables.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`az storage`</ph> commands will look for these variables if you don't provide the <ph id="ph2">`account-name`</ph> and <ph id="ph3">`account-key`</ph> parameters.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The example below uploads the data in the file named <bpt id="p1">*</bpt>blobdata.dat<ept id="p1">*</ept> to a blob called <bpt id="p2">*</bpt>myBlob<ept id="p2">*</ept> in the <bpt id="p3">*</bpt>myContainer<ept id="p3">*</ept> container.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Depending on the type and size of data, you can also specify the <ph id="ph1">`--type`</ph> parameter to indicate whether the blob should be a block blob or a page blob (the default for most types of data is <bpt id="p1">*</bpt>block<ept id="p1">*</ept>).</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If a blob with the given name already exists in the container, it will be overwritten.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You can use the <ph id="ph1">`--if-match`</ph> parameter with an ETag to specify that the blob should only be overwritten with the new data if its ETag matches the value given.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`--if-none-match`</ph> parameter overwrites the blob if none of the ETags supplied in the command match that of the blob.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Other options are <ph id="ph1">`--if-modified-since`</ph> which overwrites the blob only if it has been modified since a specified date, and <ph id="ph2">`--if-unmodified-since`</ph> which makes sure that the blob hasn't changed since the date given.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The next example uploads a file to blob storage and overwrites an existing blob with the same name only if the blob hasn't changed since the date and time specified:</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If you have a collection of files, you can use the <ph id="ph1">`az storage blob upload-batch`</ph> command to upload them.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The next example uses this command to upload all files with the <bpt id="p1">*</bpt>.bmp<ept id="p1">*</ept> file extension in the <bpt id="p2">*</bpt>myFolder<ept id="p2">*</ept> folder, to blobs with the same names.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can verify that the blobs have been uploaded successfully with the <ph id="ph1">`az storage blob list`</ph> command.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The command below lists all the blobs in <bpt id="p1">*</bpt>myContainer<ept id="p1">*</ept>, and outputs the results in tabular format for ease of viewing:</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Move blobs between Azure storage accounts</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`az storage blob copy start`</ph> command to move a blob from one storage account to another.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This time, you must specify the source and destination storage accounts and containers for the operation.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The destination account and container must already exist.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can specify the source blob using its URL with the <ph id="ph1">`--source-uri`</ph> parameter rather than specifying a source account, source key, source container, and source blob.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The blob is transferred directly between storage accounts; it isn't downloaded from the source account and then uploaded to the destination.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Blobs can be large (several gigabytes in size), and the two storage accounts might be remote from each other.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Therefore, this command runs asynchronously.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You can check the state of the destination blob and verify whether the copy operation has completed using the <ph id="ph1">`az storage blob show`</ph> command:</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>As with uploading a blob, the <ph id="ph1">`az storage blob copy`</ph> command can overwrite an existing blob with the same name in the destination container.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>You can provide ETags with the <ph id="ph1">`--destination-if-match`</ph> and <ph id="ph2">`--destination-if-none-match`</ph> parameters to only overwrite the destination of the ETag matches (or not).</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Also, this command has the <ph id="ph1">`--destination-if-modified-since`</ph> and <ph id="ph2">`--destination-if-unmodified-since`</ph> parameters, which will only overwrite the destination blob if it has or hasn't changed since a specified date and time.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>There are similar parameters for validating the source blob (<ph id="ph1">`--source-if-match`</ph>, <ph id="ph2">`--source-if-none-match`</ph>,  <ph id="ph3">`--source-if-modified-since`</ph>, and <ph id="ph4">`--source-if-unmodified-since`</ph>).</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>You can use these parameters to conditionally copy a blob only if it hasn't changed recently.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>They're useful if you're migrating older blobs to cool storage from hot storage.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If you're moving a collection of blobs, use the <ph id="ph1">`az storage blob copy start-batch`</ph> command.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This command copies blobs from a source storage account and container to a destination storage account and container, but keeps the names of the blobs the same in both containers.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>You can specify a pattern for matching the names of the source blobs, but the ETag and date condition options aren't available with this command.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The example below copies all blobs with names that match the pattern <bpt id="p1">*</bpt><ph id="ph1">\*</ph>.dat<ept id="p1">*</ept> from one storage account to another.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>You can also include the <ph id="ph1">`--dryrun`</ph> parameter, which causes the command to display the names of the blobs to be copied but doesn't actually copy them.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This command runs asynchronously.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`az storage blob list`</ph> command on the destination container to determine how the operation is progressing.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>You can cancel a transfer that is in progress using the <ph id="ph1">`az storage blob copy cancel`</ph> command.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This command stops the transfer, but leaves a destination blob of zero size in place.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Delete this empty blob if you no longer need it.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Remove blobs from Azure storage</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The commands in the previous section copy blobs from a source container to a destination, leaving the source blobs intact.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Once you've copied a blob to a destination, you can remove it from the source container.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Do this with the <ph id="ph1">`az storage blob delete`</ph> command.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>You can specify the <ph id="ph1">`--if-modified-since`</ph>, <ph id="ph2">`--if-unmodified-since`</ph>, <ph id="ph3">`--if-match`</ph>, and <ph id="ph4">`--if-none-match`</ph> parameters to perform the delete operation depending on the last modification date of the blob and its ETag.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If you have multiple blobs to remove, use the <ph id="ph1">`az storage blob delete-batch`</ph> command.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For example, to delete blobs that haven't been modified in the last six months, run the following commands:</source>
+        </trans-unit></group></body></file></xliff>

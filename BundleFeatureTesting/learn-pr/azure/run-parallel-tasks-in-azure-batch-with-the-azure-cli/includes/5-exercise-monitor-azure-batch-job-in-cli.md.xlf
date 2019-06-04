@@ -1,0 +1,65 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-exercise-monitor-azure-batch-job-in-cli.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-exercise-monitor-azure-batch-job-in-cli.882b5f.4dbfb361777e781fcfe8e94d43f01141e7cef5b9.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4dbfb361777e781fcfe8e94d43f01141e7cef5b9</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\run-parallel-tasks-in-azure-batch-with-the-azure-cli\includes\5-exercise-monitor-azure-batch-job-in-cli.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>If you're using Azure Batch to run intensive tasks, you'll often want to know how the tasks are going.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>As the solution architect for the non-profit, you will need ways to access what is happening in Azure Batch.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You also need to determine whether the nodes and tasks are working, how far they've progressed, and whether they have produced output files that can be downloaded.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll create a job similar to the one in the previous unit, monitor the progress of its tasks, and download the files that the tasks produce as output, all using the Azure CLI.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The exercises in this module are optional.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To complete the exercises, you will need your own Azure subscription.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Monitor tasks using the CLI</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Azure Batch handles all the details of creating and managing compute nodes and scheduling jobs to run on those nodes.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When you created tasks in the last unit, Azure Batch queued them to run in the pool.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>As nodes were determined to have available capacity, Azure Batch scheduled the tasks to run on those nodes.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>At the end of the last unit, we deleted the job, which had the effect of deleting all its tasks.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>We'll now create a new job and tasks.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>It's worth noting that deleting and recreating tasks is a fairly quick operation, and allows you to easily separate out different experiments and projects in Azure Batch.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>By contrast, deleting and recreating higher-level Batch entities (like accounts) takes more time because the Batch pool has to be recreated and virtual machines allocated.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Sign into the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/)</ept>.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Open the Cloud Shell by clicking <bpt id="p1">**</bpt>&gt;_<ept id="p1">**</ept> in the top menu.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell in order to create a new Batch job:</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>We name it differently to avoid any conflict with the job from the previous unit, which will have been scheduled for deletion but not necessarily deleted yet.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Run the following command to create Batch tasks within this new job:</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to view the status of one of the tasks you created:</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Download task output using the CLI</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To check that the batch job executed correctly, you can download and examine the files it created:</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to show a table of all the files generated by one of the tasks you've created:</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to create a dedicated directory for task outputs and navigate into it:</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to download the files generated by all the tasks you created:</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Tasks have a default working directory, and by default their work is directed to stdout.txt.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>By looping through we can redirect stdout.txt to numbered versions of stdout.txt, each of which shows the work of a given task and which node was used to execute it.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>View the text contents of a couple of the sample-generated files:</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This output shows different tasks being scheduled onto different nodes as the Batch scheduler processes them.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Again, we'll leave the Azure Batch account and pool of worker nodes in place for use in the next unit, but we will delete the Batch job.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Because the Batch job acts as a container for its Batch tasks, these tasks are also deleted.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Delete the Batch job:</source>
+        </trans-unit></group></body></file></xliff>

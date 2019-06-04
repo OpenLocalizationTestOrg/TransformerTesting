@@ -1,0 +1,63 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-choosing-a-tool-and-strategy.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-choosing-a-tool-and-strategy.a18f04.22497c938f4fb0e48d3b7440692b45c169506ed0.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">22497c938f4fb0e48d3b7440692b45c169506ed0</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\copy-blobs-from-command-line-and-code\includes\2-choosing-a-tool-and-strategy.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Azure doesn't include any process to move blobs.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>To perform a move, you'll first copy the data and then delete the source data.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Azure does provide several tools you can use to copy blobs to a destination.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll learn about three common cross-platform tools that you can use to perform these tasks: the Azure CLI, the AzCopy utility, and the .NET Storage Client library.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Azure CLI</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The Azure CLI provides access to Azure Storage through the <ph id="ph1">`az storage`</ph> series of commands.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The basic commands to upload and download blobs between blob storage and the local file system are synchronous.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Transferring a large blob could potentially take several hours, depending on the network bandwidth available.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Additionally, if a transfer fails part-way through, there's no simple way of restarting the operation from the point of failure; you must repeat the entire operation.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You transfer blobs between containers and storage accounts using the <ph id="ph1">`az storage blob copy`</ph> command.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Unlike the upload and download operations, this command runs asynchronously and uses the Azure Storage service to manage the copy process.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This means you don't have to download and upload blobs via local storage to migrate them between accounts.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can track the progress, and cancel the operation if necessary.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This command also supports a batch mode that enables you to copy multiple blobs.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>AzCopy</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The AzCopy utility was written specifically for transferring data into, out of, and between Azure Storage accounts.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A key strength of AzCopy over the Azure CLI is that all operations run asynchronously, and they're recoverable.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The AzCopy command tracks the progress of copy operations, and if an operation fails, it can be restarted close to the point of failure.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Additionally, you can tune the performance of the AzCopy command to match the processing power and bandwidth available to your local machine.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>As with the Azure CLI, AzCopy makes use of the Azure Storage service to transfer blobs between storage accounts.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The AzCopy command lacks the ability to select blobs based on their modification dates.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>However, AzCopy does provide comprehensive support for hierarchical containers and blob selection by pattern matching (two features not available with the Azure CLI).</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>.NET Storage Client library</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The .NET Storage Client library is a collection of objects and methods that you can use to build custom applications that manipulate items held in Azure Storage.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You can construct your own applications to upload, download, and migrate blobs between storage accounts.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You can incorporate your code into existing applications, and you can deploy your code to a variety of environments, such as Azure Functions.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The .NET Storage Client library provides full access to the metadata for a blob, and you can access any properties of a blob.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This feature enables you, for example, to select a blob based on its last modified time, creation time, or any other available attribute.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The .NET Storage Client library implements asynchronous operations, enabling you to take full programmatic advantage of the multitasking capabilities of the .NET Framework.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The .NET Storage Client library requires a development investment, and may not be suitable for quick, one-off jobs.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>However, if you have a complex task that is repeated often, then this investment could be worthwhile.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-exercise-detect-transient-errors.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-exercise-detect-transient-errors.c9f38849ec0bd79391f2576e2eef7b355facd5b5.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">06a1359b642b0148253aad80c010bcd3ec988aae</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">05/13/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\handle-transient-errors-in-your-app\includes\5-exercise-detect-transient-errors.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-exercise-detect-transient-errors.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-exercise-detect-transient-errors.1e98c4.78c09f72633c32c343e88bf500816f4b2743b826.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">78c09f72633c32c343e88bf500816f4b2743b826</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\handle-transient-errors-in-your-app\includes\5-exercise-detect-transient-errors.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
           <source>You'll now add code to detect transient errors in your team's chat app.</source>
         </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
           <source>You can choose to change the C#, Java, or Node.js app.</source>
@@ -51,7 +51,7 @@
         </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
           <source>Select the three ellipses (<bpt id="p1">**</bpt>...<ept id="p1">**</ept>) to the top right of the editor and then select <bpt id="p2">**</bpt>Close<ept id="p2">**</ept> in the window click <bpt id="p3">**</bpt>Save<ept id="p3">**</ept>.</source>
         </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
-          <source>Compile and run the .Net Core app.</source>
+          <source>Compile and run the .NET Core app.</source>
         </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
           <source>The app displays the following interface in the Cloud Shell.</source>
         </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
@@ -91,7 +91,7 @@
         </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
           <source>Build and run the app.</source>
         </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
-          <source>Compile and run the .Net Core app.</source>
+          <source>Compile and run the .NET Core app.</source>
         </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
           <source>The example messages you created previously are listed.</source>
         </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">

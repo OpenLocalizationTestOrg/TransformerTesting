@@ -1,0 +1,187 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="9-train-and-test-image-classifier.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9-train-and-test-image-classifier.d5cf21.d4b5ac8ae489a2cffecd5921617137f44c83ac84.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d4b5ac8ae489a2cffecd5921617137f44c83ac84</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\student-evangelism\build-ml-model-with-azure-stream-analytics\includes\9-train-and-test-image-classifier.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You can build, train, and test image-classification models using either the Custom Vision Service portal, or the Custom Vision Training REST API.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Once a model is trained, apps can use the Custom Vision Prediction REST API to call the model and return results in JSON.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll create a new Custom Vision Service project.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Then you'll upload images of polar bears, arctic foxes, and walruses and tag the images so the Custom Vision Service can learn to differentiate between them.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This unit requires an Azure subscription.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The resources we create here are free, but the Custom Vision Service portal doesn't work with the Concierge subscription created by the Azure Sandbox.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Sign into the Custom Visual Service portal</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Open the <bpt id="p1">[</bpt>Custom Vision Service portal<ept id="p1">](https://www.customvision.ai/?azure-portal=true)</ept> in your browser.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Then click <bpt id="p1">**</bpt>Sign In<ept id="p1">**</ept> and sign in with your Microsoft account associated to an Azure subscription.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Signing in to the Custom Vision Service portal</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>By default, you might be placed into the Concierge directory which is part of the Azure Sandbox.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Unfortunately, this directory won't work because it doesn't have all the details of a full Azure subscription.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If the directory name listed next to your profile icon in the top-right corner says <bpt id="p1">**</bpt>triplecrownlabs.onmicrosoft.com<ept id="p1">**</ept>, you will need to change it to your own subscription.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Switch to another directory in the Custom Vision Service</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If this is the case, select your profile icon and select another directory from the drop-down.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Create a new Custom Vision project</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>+ NEW PROJECT<ept id="p1">**</ept> to display the "Create new project" dialog.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Enter a project name such as "Polar Bear Project".</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Create a new resource group to hold your vision service.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Ensure that <bpt id="p1">**</bpt>General<ept id="p1">**</ept> is selected as the domain and <bpt id="p2">**</bpt>Multiclass<ept id="p2">**</ept> as the classification type.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A domain optimizes a model for specific types of images.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>For example, if your goal is to classify <bpt id="p1">_</bpt>food images<ept id="p1">_</ept> by the types of food they contain or the ethnicity of the dishes, then it's helpful to select the <bpt id="p2">**</bpt>Food domain<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For scenarios that don't match any of the offered domains, or if you are unsure of which domain to choose, select the <bpt id="p1">**</bpt>General domain<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Create project<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>It will take a minute or two to complete the process.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Creating a Custom Vision Service project</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Add the training images</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The vision service needs to be trained to recognize visual elements within images.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This step is done by uploading multiple images that include the element you want to locate and tagging the images in the service.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>We'll use a set of training images that show three arctic animals we expect to see on camera: foxes, walruses, and polar bears.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Download the <bpt id="p1">[</bpt>training images for arctic foxes<ept id="p1">](https://github.com/MicrosoftDocs/mslearn-build-ml-model-with-azure-stream-analytics/raw/master/training-images/arctic-fox.zip)</ept> and unzip the contents to a folder on your local computer.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Add images<ept id="p1">**</ept> to add images to the project.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Adding images to the project</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Browse to the folder containing the training images and select all of the files in the <bpt id="p1">**</bpt>arctic-fox<ept id="p1">**</ept> folder.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>OK the selection and type "Arctic fox" as the tag for the images.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Upload 130 files<ept id="p1">**</ept> button.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Wait for the upload to complete, and then click <bpt id="p1">**</bpt>Done<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Uploading Arctic-fox images</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Download the <bpt id="p1">[</bpt>training images for polar bears<ept id="p1">](https://github.com/MicrosoftDocs/mslearn-build-ml-model-with-azure-stream-analytics/raw/master/training-images/polar-bear.zip)</ept> and unzip the contents to a folder on your local computer.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Add images<ept id="p1">**</ept> at the top of the page and repeat the previous step to upload all of the images in the <bpt id="p2">**</bpt>polar-bear<ept id="p2">**</ept> folder to the Custom Vision Service and tag them with the term "Polar bear."</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Wait for the upload to complete, and then click <bpt id="p1">**</bpt>Done<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Uploading polar-bear images</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Download the <bpt id="p1">[</bpt>training images for walruses<ept id="p1">](https://github.com/MicrosoftDocs/mslearn-build-ml-model-with-azure-stream-analytics/raw/master/training-images/walrus.zip)</ept> and unzip the contents to a folder on your local computer.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Upload all of the images in the <bpt id="p1">**</bpt>walrus<ept id="p1">**</ept> folder to the Custom Vision Service and tag them with the term "Walrus."</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Wait for the upload to complete, and then click <bpt id="p1">**</bpt>Done<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Train the vision model</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>With the images tagged and uploaded, the next step is to train the model so it can distinguish between arctic foxes, polar bears, and walruses, and determine whether an image contains one of these animals.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Training can be accomplished with a simple button click in the portal, or by calling the <bpt id="p1">**</bpt>TrainProject<ept id="p1">**</ept> method in the Custom Vision Training REST API.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Once trained, a model can be refined by uploading additional tagged images and retraining it.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Let's use the portal approach since it's the easiest to start with.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>If you wanted to continue to refine the model over time, the REST API allows you to do it programmatically.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Train<ept id="p1">**</ept> button at the top of the page to train the model.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Each time you train the model, a new iteration is created.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The Custom Vision Service maintains several iterations, allowing you to compare your progress over time.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Training the model</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Wait for the training process to complete.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>(It should only take a few seconds.) Then review the training statistics presented to you for iteration 1.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Results of training the model</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Determining model accuracy</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The statistics provided in the results display three related values that can be used to determine the model's accuracy.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Precision<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Recall<ept id="p2">**</ept> are separate but related  measures of the model's accuracy.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Suppose the model was presented with three polar-bear images and three walrus images, and it correctly identified two of the polar-bear images properly, but incorrectly identified two of the walrus images as polar-bear images.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>In this case, the precision would be 50% (two of the four images it classified as polar-bear images actually are polar-bear images), while its recall would be 67% (it correctly identified two of the three polar-bear images as polar-bear images).</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>AP<ept id="p1">**</ept>, short for <bpt id="p2">*</bpt>Average Precision<ept id="p2">*</ept>, is a third measurement of the model's accuracy.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Where precision measures the false-positive rate and recall measures the false-negative rate, <bpt id="p1">_</bpt>AP<ept id="p1">_</ept> is a mean of false-positive rates computed across a range of thresholds.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Test the vision model</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Now let's test the model using the portal's Quick Test feature, which allows you to submit images to the model and see how it classifies them using the knowledge gained during training.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Download the <bpt id="p1">[</bpt>test images for polar bears<ept id="p1">](https://github.com/MicrosoftDocs/mslearn-build-ml-model-with-azure-stream-analytics/raw/master/test-images/polar-bear.zip)</ept> and unzip the folder on your local computer.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Quick Test<ept id="p1">**</ept> button at the top of the page.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Then click <bpt id="p1">**</bpt>Browse local files<ept id="p1">**</ept>, browse to the polar-bear folder, and select any one of the test images in that folder.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Examine the results of the test in the "Quick Test" dialog.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>What is the probability that the image contains a polar bear?</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>What is the probability that it contains an Arctic fox or a walrus?</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Testing the model with a polar-bear image</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Repeat this test for arctic foxes.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Download the <bpt id="p1">[</bpt>test images for arctic foxes<ept id="p1">](https://github.com/MicrosoftDocs/mslearn-build-ml-model-with-azure-stream-analytics/raw/master/test-images/arctic-fox.zip)</ept> and unzip the folder on your local computer.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Upload a few of the images in the <bpt id="p1">**</bpt>arctic-fox<ept id="p1">**</ept> folder.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>How well is the model able to differentiate between Arctic foxes and polar bears?</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Try one more time with walruses by downloading the <bpt id="p1">[</bpt>test images for walruses<ept id="p1">](https://github.com/MicrosoftDocs/mslearn-build-ml-model-with-azure-stream-analytics/raw/master/test-images/walrus.zip)</ept>.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The "Testing Images" folder in the downloaded assets contains subdirectories with a total of 30 different images for testing.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Perform additional quick tests using these images until you're satisfied that the model is reasonably adept at predicting whether an image contains a polar bear.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Publish the vision model</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Return to the project and click <bpt id="p1">**</bpt>Publish<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Enter a name for this iteration of the model.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Then click <bpt id="p1">**</bpt>Prediction URL<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Publishing the current iteration of the model</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The dialog lists two URLs: one for uploading images through a URL, and another for uploading images as byte streams.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Copy the first one (URL-based) to the clipboard, and paste it into your favorite text editor so you can retrieve it later.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Do the same for the <ph id="ph1">`Prediction-Key`</ph> value underneath the URL.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>This value must be passed in each call to the prediction URL.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Copying the Prediction API URL</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>You now have a machine-learning model that can determine whether an image contains a polar bear, and a <ph id="ph1">`URL`</ph> and <ph id="ph2">`API key`</ph> for invoking the model.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The next step is to create a database for storing the results of those calls.</source>
+        </trans-unit></group></body></file></xliff>

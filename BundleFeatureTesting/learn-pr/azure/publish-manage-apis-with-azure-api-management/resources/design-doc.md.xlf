@@ -1,0 +1,217 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="design-doc.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">design-doc.9cffdd.3f39cce15a227f88dd70e8bfe33eb90fb06c3b61.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3f39cce15a227f88dd70e8bfe33eb90fb06c3b61</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\publish-manage-apis-with-azure-api-management\resources\design-doc.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Module Design</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Title</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Publish and manage your APIs with Azure API Management</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Role(s)</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Developer</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Level</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Beginner</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Product(s)</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Azure</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Azure APIM</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Familiarity with basic concepts of web APIs, such as operations and endpoints</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Azure API Management is an Azure service that acts as a gateway between web APIs that you publish and the public internet.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>It lets you control who uses your APIs, enforces usage policies, and presents a professional front-end to developers using the API.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Publishing an API through API Management lets you control who has access to your API by assigning them subscription keys.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Create an API gateway</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Import an API</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Publish an API</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Call an API with a subscription key</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Chunk your content into subtasks</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Subtask</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>What part of the introduction scenario does this subtask satisfy?</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>How will you assess it: <bpt id="p1">**</bpt>Exercise or Knowledge check<ept id="p1">**</ept>?</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Which learning objective(s) does this help meet?</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Does the subtask have enough learning content to justify an entire unit?</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If not, which other subtask will you combine it with?</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Create an API gateway</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Creates a public API endpoint</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Exercise</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>1</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Import an API</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Enroll the API in APIM</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Exercise</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>2</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>No, combine with "publish an API"</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Publish a product with the API</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Publish the API at the endpoint</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Exercise</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>3</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Call an APIM API</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Ensure the API is published and usable</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Exercise</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>4</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Outline the units</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Introduction<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>An online shoe company is growing quickly and needs to expose some of its internal data and processes, such as inventory and planning, to its partners.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>They would like to do this via a set of web APIs.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>These APIs will be published on the public internet, but only partner applications should be able to use them.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Stakeholders want to minimize the costs of integration, and the company's developers want to focus on the business logic, not secondary concerns like authorization.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Create an API gateway<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Define API Management and its benefits</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>API Management is a hosted Azure service that sits between your APIs and the public internet.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Cover features briefly, including the developer portal</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Spend a couple sentences calling out the consumption plan and its use cases (important as a lead-in for the exercise, see next unit).</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Define API Gateway, explain how it works</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>(An API gateway is just an instance of API management)</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>How to create an API Gateway in the Azure portal</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>What happens when you create an API Gateway (an endpoint is created)</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Exercise - Create an API gateway<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Publish a sample API app that fits the scenario to App Service, explaining that within the scenario this is an existing API that the company wants to publish in a protected manner.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>This should be done quickly via the CLI, as it is purely overhead for the exercise.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The sample app needs to publish an OpenAPI endpoint.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Use the portal to create an API Gateway in the sandbox subscription.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Create a Consumption plan gateway, not a standard SKU.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Consumption plan is in preview and is intended for specific use cases that aren't very applicable here: we're doing it because it's much faster to create, so the unit needs to include a note making that clear.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>It should reassure the user that the overall experience is mostly the same.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Import and publish an API<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Define what an API is in the context of APIM</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Define "product" in the context of APIM</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Collection of APIs</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A scope at which configuration (like policies and access) can be applied</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>How to visualize products and their APIs in the portal</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>How to create/import APIs in APIM</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Different methods/technologies offered</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Exercise - Import and publish an API<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Import the published API via its OpenAPI specification</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Add it to the Unlimited product during the import process</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Visualize the API in the Azure portal</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Call an API with the subscription key<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Define/explain subscription keys</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Not required, but on by default, and a core feature of APIM</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>OUT OF SCOPE: Details on creating users and new subscription keys.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>This will be done in another module.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>This unit should call out that creating new users and giving them their subscription keys so they can access the API is a core part of the APIM workflow, but this should not walk through the process of doing so.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Explain how APIM keys must be passed in request headers</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Explain how to find the administrator subscription key</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Exercise - Call an API with a subscription key<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Get the administrator APIM key from the portal</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Explain that partners would be given their key as part of an onboarding process, but the mechanics of using the key are the same.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Using the Cloud SHell, craft a curl request to one of the API operations on the APIM endpoint.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>First try without the key, then with it.</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Summary<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Added an intermediary layer to an API</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Built-in authorization system manageable from the portal</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Can accommodate changes to APIs, new APIs, and implement access restrictions</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Notes</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>This module is an "intro to APIM".</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The process this walks through (creating a gateway, publishing an API, making a call to it with the Administrator key) is the "Hello World" of APIM.</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Assume no knowledge of APIM on the part of the reader, although they should know the basics of web APIs.</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Requires a sample web API implementation that fits the scenario and publishes an OpenAPI spec. Please use ASP.NET Core and Swashbuckle to implement.</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The API only needs a handful (4-6) operations with names and inputs/outputs that fit the theme of the scenario, but the implementation of each operation can pretty much just return dummy data or some other kind of mocked-up response.</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>We want the reader to use a Consumption plan API gateway because they can be created within a minute or two; the regular SKUs take ~30 minutes to create.</source>
+        </trans-unit><trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>This unfortunately precludes use of the developer portal, which means the final exercise will need to use the Cloud Shell and curl.</source>
+        </trans-unit></group></body></file></xliff>

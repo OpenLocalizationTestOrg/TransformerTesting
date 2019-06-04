@@ -1,0 +1,149 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-exercise-create-a-site-to-site-vpn-gateway-using-azure-cli-commands.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-exercise-create-a-site-to-site-vpn-gateway-using-azure-cli-commands.7ef67f.4301128f49132ffc488931718a14b8882be8baaf.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4301128f49132ffc488931718a14b8882be8baaf</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\connect-on-premises-network-with-vpn-gateway\includes\4-exercise-create-a-site-to-site-vpn-gateway-using-azure-cli-commands.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You're now ready to complete your site-to-site VPN gateway by creating the public IP addresses, virtual network gateways, and connections.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Remember that when you created your local network gateways you used dummy public IP address references.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>So one of your tasks now is to update these gateways with the actual public IP addresses assigned to your virtual network gateways.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Ideally, the public IP addresses and virtual network gateways should be created <bpt id="p1">*</bpt>before<ept id="p1">*</ept> the local network gateways.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In this exercise, you'll see how to update the local network gateways.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The same commands are used to update any configuration element in the local network gateways, such as remote network address spaces.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Virtual network gateway creation is a long-running process and can take up to 45 minutes.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To avoid the delay, you'll use Azure CLI commands with the <ph id="ph1">`--no-wait`</ph> parameter to allow you to create the second virtual network gateway that simulates your on-premises device in the HQ-Network.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Create virtual machines</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To verify that your virtual networks are connected you'll create two Ubuntu VMs, one in each of the virtual networks.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You'll then use SSH to connect from the VM in the <bpt id="p1">**</bpt>HQ-Network<ept id="p1">**</ept> to the virtual network in the <bpt id="p2">**</bpt>Azure-VNet-1<ept id="p2">**</ept> virtual network using its private IP address.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To save time, you'll create these VMs while your VPN Gateways are deploying.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>It takes a few minutes to create the VMs, so to avoid the delay, you'll use Azure CLI commands will with the <ph id="ph1">`--no-wait`</ph> parameter.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to create an Ubuntu VM in the <bpt id="p1">**</bpt>HQ-Network<ept id="p1">**</ept> virtual network, replacing <ph id="ph1">`&lt;password&gt;`</ph> with a string to use for the admin password.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to create an Ubuntu VM in the <bpt id="p1">**</bpt>Azure-VNet-1<ept id="p1">**</ept> virtual network, replacing <ph id="ph1">`&lt;password&gt;`</ph> with a string to use for the admin password.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To prove you are making a connection through the VPN Gateways, you'll provision this VM <bpt id="p1">*</bpt>without<ept id="p1">*</ept> a public IP address.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Create the Azure-side VPN gateway</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Next, you'll create the VPN gateway for the Azure end of the connection.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to create the <bpt id="p1">**</bpt>PIP-VNG-Azure-VNet-1<ept id="p1">**</ept> Public IP Address.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to create the <bpt id="p1">**</bpt>VNG-Azure-VNet-1<ept id="p1">**</ept> virtual network gateway named.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Create the On-Premises side VPN gateway</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Next, you'll create a VPN gateway to simulate an on-premises VPN device.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to create the <bpt id="p1">**</bpt>PIP-VNG-HQ-Network<ept id="p1">**</ept> Public IP Address.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Run the following commands in the Cloud Shell to create the <bpt id="p1">**</bpt>VNG-HQ-Network<ept id="p1">**</ept> virtual network gateway.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This can take several minutes to create the gateway.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Update local network gateway IP references</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Your virtual network gateways must be successfully deployed before you start this next exercise.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>In this section, you'll update the remote gateway IP address references defined in the local network gateways.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The local network gateways cannot be updated until the VPN Gateways have been created and an IPv4 address has been assigned and associated to them.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can check if both virtual network gateways have been created using the following AzureCLI command.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Remember to wait until the lists of gateways are successfully returned.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Also, remember that the local network gateway resources define the <bpt id="p1">**</bpt>remote<ept id="p1">**</ept> gateway and network's settings that they're named after.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For example, the <bpt id="p1">**</bpt>LNG-Azure-VNet-1<ept id="p1">**</ept> local network gateway contains the information such as IP address and networks for <bpt id="p2">**</bpt>Azure-VNet-1<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to retrieve the IPv4 address assigned to <bpt id="p1">**</bpt>PIP-VNG-Azure-VNet-1<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to update the <bpt id="p1">**</bpt>LNG-Azure-VNet-1<ept id="p1">**</ept> local network gateway to point to the public IP address attached to the <bpt id="p2">**</bpt>VNG-Azure-VNet-1<ept id="p2">**</ept> virtual network gateway.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to retrieve the IPv4 address assigned to <bpt id="p1">**</bpt>PIP-VNG-HQ-Network<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to update the <bpt id="p1">**</bpt>LNG-HQ-Network<ept id="p1">**</ept> local network gateway to point to the public IP address attached to the <bpt id="p2">**</bpt>VNG-HQ-Network<ept id="p2">**</ept> virtual network gateway.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Create the connections</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>You'll now finalize the configuration by creating the connections from each VPN Gateway to the local network gateway that contains the public IP address references for that gateway's remote network.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Create the shared key to use for the connections.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>In the following command, replace <ph id="ph1">`&lt;shared key&gt;`</ph> with a text string to use for the IPSec pre-shared key.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The pre-shared key is a string of printable ASCII characters no longer than 128 in length.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You will use this pre-shared key on both connections.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Remember that <bpt id="p1">**</bpt>LNG-HQ-Network<ept id="p1">**</ept> contains a reference to the IP address on your simulated on-premises VPN device.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to create a connection from <bpt id="p1">**</bpt>VNG-Azure-VNet-1<ept id="p1">**</ept> to <bpt id="p2">**</bpt>LNG-HQ-Network<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Remember that <bpt id="p1">**</bpt>LNG-Azure-VNet-1<ept id="p1">**</ept> contains a reference to the public IP address associated with the <bpt id="p2">**</bpt>VNG-Azure-VNet-1<ept id="p2">**</ept> VPN gateway.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This connection would normally be created from your on-premises device.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to create a connection from <bpt id="p1">**</bpt>VNG-HQ-Network<ept id="p1">**</ept> to <bpt id="p2">**</bpt>LNG-Azure-VNet-1<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>You have now completed the configuration of the site-to-site connection and the tunnels should automatically connect and become active.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Verification steps</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To verify that your virtual networks are connected, you'll use SSH to connect from the VM in the <bpt id="p1">**</bpt>HQ-Network<ept id="p1">**</ept> to the virtual network in the <bpt id="p2">**</bpt>Azure-VNet-1<ept id="p2">**</ept> virtual network using its private IP address.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to show the public IPv4 address assigned to the <bpt id="p1">**</bpt>HQ-VM<ept id="p1">**</ept> VM.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Make a note of this address, as you'll need it to connect to the <bpt id="p1">**</bpt>HQ-VM<ept id="p1">**</ept> VM.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to show the private IPv4 address assigned to the <bpt id="p1">**</bpt>Azure-VM<ept id="p1">**</ept> VM.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Make a note of this address, as you'll need it to connect to the <bpt id="p1">**</bpt>Azure-VM<ept id="p1">**</ept> VM.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Remember that you provisioned <bpt id="p1">**</bpt>Azure-VM<ept id="p1">**</ept> <bpt id="p2">*</bpt>without<ept id="p2">*</ept> a public IP address.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The private IPv4 address assigned to the <bpt id="p1">**</bpt>Azure-VM<ept id="p1">**</ept> VM should be 10.0.0.4.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>You'll use this IPv4 address to connect from the <bpt id="p1">**</bpt>HQ-VM<ept id="p1">**</ept> VM across the site-to-site connection to the <bpt id="p2">**</bpt>Azure-VM<ept id="p2">**</ept> VM.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to open an SSH connection to the <bpt id="p1">**</bpt>HQ-VM<ept id="p1">**</ept> VM using the public IPv4 address.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>You'll get a security notification when you first connect.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Type <ph id="ph1">`yes`</ph> when prompted, and then type the password you used when you created the VM.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You are now connected to the <bpt id="p1">**</bpt>HQ-VM<ept id="p1">**</ept> VM at HQ.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>To prove you can connect to a VM in the <bpt id="p1">**</bpt>Azure-VNet-1<ept id="p1">**</ept> virtual network and that data can flow, open an SSH session to the private IPv4 address.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Still logged on to the <bpt id="p1">**</bpt>HQ-VM<ept id="p1">**</ept>, use the following command.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>You'll get a security notification when you first connect.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Type <ph id="ph1">`yes`</ph> when prompted, and then type the password you used when you created the VM.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>You should now be connected to the Azure-VM VM.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>This machine was not assigned a public IP address.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>You can only access this VM through the site-to-site connection.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Use the following command to close the SSH session from HQ-VM to Azure-VM.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Use the following command to close the SSH session from the Cloud Shell to HQ-VM.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>This completes the site-to-site configuration.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Your final topology, including the VMs, subnets, and connections with logical connection points is shown in the diagram below:</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Resources deployed during unit 4 exercise</source>
+        </trans-unit></group></body></file></xliff>

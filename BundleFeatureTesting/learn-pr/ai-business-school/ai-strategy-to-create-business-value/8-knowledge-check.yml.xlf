@@ -1,0 +1,119 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="8-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8-knowledge-check.723697.6dfdc83136514210dc7d34ed4e4d793498b5e55f.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6dfdc83136514210dc7d34ed4e4d793498b5e55f</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\ai-strategy-to-create-business-value\8-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Knowledge Check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Knowledge Check</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>A knowledge check for the define an AI strategy to create business value module.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>One way in which companies are integrating AI is the implementation of platforms that customers can interact with.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Which type of intelligence are these platforms based on?</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Cognitive Intelligence</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Cognitive intelligence involves the ability to reason and solve problems.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>It is cognitive intelligence that AI interactive platforms are based upon.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Naturalistic Intelligence</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Naturalistic intelligence involves an innate sensitivity to the natural world, which is not what AI is based on.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Intra-personal Intelligence</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Intra-personal intelligence involves an understanding of one’s inner self and does not involve AI.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Spatial Intelligence</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Spatial intelligence has to do with the ability to think in 3 dimensions, which is not what AI is based on.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>From an employee perspective, what is one of the primary goals of digitizing your organization?</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Create a technical aptitude baseline for all team members.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>While creating a technical aptitude baseline for team members is part of the transformation process, it is not a primary goal.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Extend the life cycles of legacy equipment and infrastructure.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Part of the transformational process is to replace and eliminate legacy infrastructure that no longer adds value to the organization.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Break down silos that hamper communication and collaboration.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>One of the main goals of digital transformation is to connect all of your data and unify your employees into effective teams.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Transfer all decision-making processes over to AI to eliminate human variability.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>One of the primary purposes of AI is to give employees more information and tools to empower them to solve customer problems and create value.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>What is a crucial step that companies must accomplish in order to realize the full potential of AI?</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Eliminate unstructured data in order to streamline the data retrieval process.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Data may be unstructured, but it has value to the organization.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Through the integration of AI, this data can be queried and sorted in near real time.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Enable every employee to become a citizen data scientist.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Companies must ensure that non-technical employees are able to leverage the benefits of AI as well in order to explore vast amounts of data contained within the organizations.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Rearchitect their enterprise datacenters to become cloud-first organizations.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Although cloud integration is helping companies attain greater scalability and agility, being cloud first is not mandatory.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Provide multiple channels for technical and non-technical users alike.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>The goal of digital transformation and AI is funnel to all interaction into a single channel for all users.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Which is an example of a fundamental technology benefiting from the advances and investment in machine learning-based AI?</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Natural Language Processing</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Through natural language processing, companies are leveraging the power of AI to communicate with their customers in real time.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Software defined storage</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Although the faster speed of data storage processing is helping to make AI possible, it is not benefitting from AI.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Hyperconverged Infrastructure</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Hyperconverged Infrastructure is about datacenter component consolidation, not AI.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>DNA storage</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve" uid="learn-wwl.ai-strategy-to-create-business-value.knowledge-check">
+          <source>Molecular-level data storage into DNA molecules by leveraging biotechnology advances in synthesizing, manipulating and sequencing DNA to develop archival storage is not yet benefitting from AI.</source>
+        </trans-unit></group></body></file></xliff>

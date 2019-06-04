@@ -1,0 +1,179 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-what-is-durable-functions.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-what-is-durable-functions.bff7a7.fda88cbce95de08b8e4fc27fe4d0a3bfb04dd563.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fda88cbce95de08b8e4fc27fe4d0a3bfb04dd563</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-long-running-serverless-workflow-with-durable-functions\includes\2-what-is-durable-functions.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Durable functions enables you to implement complex stateful functions in a serverless-environment.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In the example scenario, your company currently follows manual approval process, for project design proposals.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The process has multiple steps and each step along the process can vary in duration.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Implementing an automated process in-house is complex and costly.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Coordinating each step takes effort.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In addition, you must be able to incorporate custom logic into the workflow.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll learn to about the benefits of Durable Functions.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You'll learn about the different function types and key concepts associate with Durable Functions.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Durable functions</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Durable functions are an extension of Azure Functions.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Whereas Azure Functions operate in a stateless environment, Durable Functions can retain state between function calls.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This approach enables you to simplify complex stateful executions in a serverless-environment.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Durable Functions scales as needed, and provides a cost effective means of implementing complex workflows in the cloud.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Some benefits of using Durable Functions include:</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>They enable you to write event driven code.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A durable function can wait asynchronously for one or more external events, and then perform a series of tasks in response to these events.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can chain functions together.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can implement common patterns such as fan-out/fan-in, which uses one function to invoke others in parallel, and then accumulate the results.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can orchestrate and coordinate functions, and specify the order in which functions should execute.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The state is managed for you.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You don't have to write your own code to save state information for a long-running function.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Durable functions allows you to define stateful workflows using an <ph id="ph1">`Orchestration function`</ph>.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>An orchestration function provides these extra benefits:</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You can define the workflows in code.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You don't need to write a JSON description or use a workflow design tool.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Functions can be called both synchronously and asynchronously.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Output from the called functions is saved locally in variables and used in subsequent function calls.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Azure checkpoints the progress of a function automatically when the function awaits.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Azure may choose to dehydrate the function and save its state while the function waits, to preserve resources and reduce costs.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>When the function starts running again, Azure will rehydrate it and restore its state.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Function types</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You can use three durable function types: <ph id="ph1">`client`</ph>, <ph id="ph2">`orchestrator`</ph>, and <ph id="ph3">`activity`</ph>.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Client<ept id="p1">**</ept> functions  are the entry point for creating an instance of a Durable Functions orchestration.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>They can run in response to an event from many sources, such as a new HTTP request arriving, a message being posted to a message queue, an event arriving in an event stream.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You can write them in any of the supported languages.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Orchestrator<ept id="p1">**</ept> functions describe how actions are executed, and the order in which they are run.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You write the orchestration logic in code (C# or JavaScript).</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Activity<ept id="p1">**</ept> functions are the basic units of work in a durable function orchestration.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>An activity function contains the actual work performed by the tasks being orchestrated.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Application patterns</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You can use Durable Functions to implement many common workflow patterns.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>These patterns include:</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Function chaining<ept id="p1">**</ept> -  In this pattern, the workflow executes a sequence of functions in a specified order.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The output of one function is applied to the input of the next function in the sequence.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The output of the final function is used to generate a result.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Fan out/fan in<ept id="p1">**</ept> -  This pattern runs multiple functions in parallel and then waits for all the functions to finish.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The results of the parallel executions can be aggregated or used to compute a final result.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Async HTTP APIs<ept id="p1">**</ept> -  This pattern addresses the problem of coordinating state of long-running operations with external clients.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>An HTTP call can trigger the long-running action.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Then, it can redirect the client to a status endpoint.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The client can learn when the operation is finished by polling this endpoint.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Monitor<ept id="p1">**</ept> -  This pattern implements a recurring process in a workflow, possibly looking for a change in state.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>For example, you could use this pattern to poll until specific conditions are met.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Human interaction<ept id="p1">**</ept> -  This pattern combines automated processes that also involve some human interaction.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>A manual process within an automated process is tricky because people aren't as highly available and as responsive as most computers.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Human interaction can be incorporated using timeouts and compensation logic that runs if the human fails to interact correctly within a specified response time.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>An approval process is an example of a process that involves human interaction.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Comparison with Logic Apps</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Durable Functions and Logic Apps are both Azure services that enable serverless workload.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Azure Durable Functions is intended as a powerful serverless compute option to run custom logic.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Azure Logic Apps is better suited for integrating Azure services and components.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You can use either technology to create complex orchestrations.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>With Azure Durable Functions, you develop orchestrations by writing code and using the Durable Functions extension.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>With Logic Apps, you create orchestrations by using the design surface or editing configuration files.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The following table lists some of the key differences between Azure Durable Functions and Azure Logic Apps:</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Azure Durable Functions</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Azure Logic Apps</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Development</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Code-first (imperative)</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Design-first (declarative)</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Connectivity</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>About a dozen built-in binding types.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>You can write code for custom bindings.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Large collection of connectors.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Enterprise Integration Pack for B2B.You can also build custom connectors.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Actions</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Each activity is an Azure Function.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>You write the code for activity functions.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Large collection of ready-made actions.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>You integrate custom logic through custom connectors.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Monitoring</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Azure Application Insights</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Azure portal,  Azure Monitor logs</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Management</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>REST API, Visual Studio</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Azure portal,  REST API,  PowerShell,  Visual Studio</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Execution context</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Can run locally  or in the cloud</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Runs only in the cloud</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.42e44f.658cbebe6ebf6a2859746d2f58a2c9c10af2f51b.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">658cbebe6ebf6a2859746d2f58a2c9c10af2f51b</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\build-an-ai-ready-culture\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Artificial Intelligence helps organizations transform digitally by creating new experiences infused with capabilities to make them smart, fast and helpful.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>To harness this potential, organizations must be ready to create, own and operate AI-based systems.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A successful AI strategy must consider cultural issues as well as business ones.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Becoming an AI-ready organization requires a fundamental transformation in how you do things, how employees relate to each other, what skills they have, and what processes and principles guide your behaviors.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>In this module, you will learn to:<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Describe the key elements of an AI-ready organizational culture.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Identify opportunities for change to achieve an AI-ready culture.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Apply the AI Maturity Model Assessment to your business.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Let’s explore what we mean when we ask you to think about what it means for your organization to be AI-ready.</source>
+        </trans-unit></group></body></file></xliff>

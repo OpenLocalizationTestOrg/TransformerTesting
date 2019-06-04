@@ -1,0 +1,47 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.f69a97.2331514a3a6f48dbe0d2d952a74e7fee2ac01c9c.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2331514a3a6f48dbe0d2d952a74e7fee2ac01c9c</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-logic-apps\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Implementing a business process can be challenging because you typically need to make diverse services work together.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Think about everything your company uses to store and process data: Salesforce, Office 365, Oracle, Twitter, YouTube, Dropbox, Google services, Azure Cognitive Services, and so on.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>How do you integrate all these products?</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Azure Logic Apps gives you pre-built components to connect to hundreds of services.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You use a graphical design tool to put the pieces together in any combination you need and Logic Apps will run your process automatically in the cloud.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Suppose you work at an athletic shoe company that is launching a new product.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You sell the shoes on your website, manage your cloud-hosted advertising videos, and monitor social media to gauge reactions to the launch.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The following illustration shows these processes.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Notice how the tasks include both customer-facing processes like direct sales and administrative tasks like auto-archiving old videos.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>An illustration showing three business processes used by a fictional shoe-manufacturing company.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The first process shows a typical flow for online sales including receiving a customer order, charging their credit card, and shipping the product.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The second process shows the company monitoring and analyzing social-media postings about their products.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The third process shows management of video assets by moving them to lower-cost storage as they get older.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Here, you'll see how Logic Apps automates these types of business processes.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You'll also learn a bit about how they work behind the scenes.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The goal is to help you decide if Logic Apps is a good choice for your business.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Evaluate whether Logic Apps is appropriate to automate your business processes</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Describe how the components of a Logic App work together to automate a business process</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Basic knowledge of programming concepts such as conditional logic and loops</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Basic knowledge of REST services and APIs</source>
+        </trans-unit></group></body></file></xliff>

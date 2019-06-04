@@ -1,0 +1,149 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-knowledge-check.5b2fbe.b5b3fa8f0291a07b5e98a037df8421caaeea8a19.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b5b3fa8f0291a07b5e98a037df8421caaeea8a19</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\build-an-ai-ready-culture\6-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Knowledge Check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Knowledge Check</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>A knowledge check for the understanding the importance of building an AI-ready culture module.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Which key factor in the AI-ready culture of an organization helps with the successful implementation of AI?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Delegates AI responsibility.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>All team members should participate in AI, not just those to whom it is delegated.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Utilizes pre-trained cognitive services.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Using pre-trained cognitive services may be part of the how AI is implemented, but it is not a factor in developing the AI culture.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Utilizes Conversational AI.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Conversational AI may be one of the AI technologies used to implement AI in an organization, but it is not a factor in building an AI-ready culture.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Provides access to data.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Different factions in an organization tend to protect and defend their data.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Successful AI at an organization level requires that everyone share their data.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>The leaders of a national corporation saw how another business created an AI-ready culture within their organization and readily implemented Microsoft AI solutions.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>To encourage an AI-ready culture in their own corporation, the leaders published a recording of a speech on the benefits of AI and how it would require a change to the culture of the organization.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Then, they sent out memos with instructions to all of the company’s vice presidents.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>One year later, only the finance division had implemented any AI technology in their operations.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>There was no visible change in company culture toward adopting AI.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>What critical factor in an AI-ready culture did leadership lack in their attempt to foster an AI-ready culture in their company?</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Communication</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>They did communicate the benefits of AI and their desire for implementation.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>But they needed to require access to data, empower their employees, and foster a responsible approach.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Just communication was not enough to change the culture of the company.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Delegation</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>They could have delegated AI responsibilities to specific employees but that doesn’t encourage all employees to change the culture of AI in the company.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Empowerment</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Fostering an AI-ready culture means empowering people to be part of the AI transformation.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Give people the space, resources, security, and support to improve what they do with AI.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>They sent out the memo but made no other changes that supported a change in the way people did things.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Innovation</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Encouraging innovation in using AI at the company could only come after a fundamental change in AI-ready culture.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>What is one of the seven key change concepts of Prosci’s model for change management?</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Individual Responsibility</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>The seven change concepts are: Senders and Receivers, Resistance, Authority for Change, Value Systems, Incremental vs. Radical Change, The Right Answer Is Not Enough, and Change Is a Process.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Individual Empowerment</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>This is one of the factors for implementing an AI-ready culture.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Not one of Prosci’s key change concepts.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>The seven change concepts are: Senders and Receivers, Resistance, Authority for Change, Value Systems, Incremental vs. Radical Change, The Right Answer Is Not Enough, and Change Is a Process.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Fitness for Purpose</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>This is the opposite of the sixth change concept: “The Right Answer is Not Enough.”</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Value Systems</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>The value system and history of change in an organization matter.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>They determine the credibility and success of each new change initiative.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Account for that when managing change.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>The leaders of a regional law firm have been studying AI.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>The CEO is impressed that many companies have integrated it into their products, customer service, and their day-to-day work activities.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>One month ago, the CEO actually presented the basic concepts to top-level management.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Since then, the CEO has received some good feedback from several vice presidents on its potential benefits.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Using Microsoft’s AI Maturity Model Assessment, which describes the level of AI maturity that this company has reached, and what will they move onto next?</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>First level, next employees will begin experimenting with pre-trained models.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>The company is currently on the first level where they are just thinking about using AI in their business.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>The next level is where employees are experimenting with it.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Second level, employees will next start using AI for innovation and transformation.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Using AI for innovation and transformation is the third level of AI maturity.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>The company is currently on the first level.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Third level, next the company will create a strategy for using AI in their business.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Creating an AI strategy is the top level (fourth level) of AI maturity.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>The company is currently on the first level.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>Second level, next developers will start building AI into company software.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>When employees are innovating with AI they are on the third level.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve" uid="learn-wwl.build-an-ai-ready-culture.knowledge-check">
+          <source>The company is currently on level one.</source>
+        </trans-unit></group></body></file></xliff>

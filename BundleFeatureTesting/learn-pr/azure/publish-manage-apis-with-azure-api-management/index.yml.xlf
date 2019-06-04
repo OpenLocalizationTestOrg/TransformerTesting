@@ -1,0 +1,21 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.bbfc13.da62062b9c5646e43d9148297213461a9c54ab6e.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">da62062b9c5646e43d9148297213461a9c54ab6e</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\publish-manage-apis-with-azure-api-management\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.publish-manage-apis-with-azure-api-management">
+          <source>Publish and manage your APIs with Azure API Management</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.publish-manage-apis-with-azure-api-management">
+          <source>Learn about using an Azure API gateway to share APIs with partners, and how to use subscription keys to control access to your APIs.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.publish-manage-apis-with-azure-api-management">
+          <source>Publish and manage your APIs with Azure API Management</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.publish-manage-apis-with-azure-api-management">
+          <source>Use API management to control who uses your APIs, to enforce usage policies, and to present a professional front-end to developers using the API.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.publish-manage-apis-with-azure-api-management">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.publish-manage-apis-with-azure-api-management">
+          <source>Create an Azure API gateway</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.publish-manage-apis-with-azure-api-management">
+          <source>Import an API to the API gateway</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.publish-manage-apis-with-azure-api-management">
+          <source>Publish an API ready for developer access</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.publish-manage-apis-with-azure-api-management">
+          <source>Call an API with a subscription key</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.publish-manage-apis-with-azure-api-management">
+          <source>Familiarity with basic concepts of web APIs, such as operations and endpoints</source>
+        </trans-unit></group></body></file></xliff>

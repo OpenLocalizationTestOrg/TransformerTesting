@@ -1,0 +1,29 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="9-summary.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9-summary.70afe6.be61bf50b84f07c1e7583e0aeb79f20c87cd0f8d.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">be61bf50b84f07c1e7583e0aeb79f20c87cd0f8d</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\run-parallel-tasks-in-azure-batch-with-the-azure-cli\includes\9-summary.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Azure Batch is a powerful service for running large jobs at scale and in parallel.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>All the management and scheduling is done for you, and it's a free management plane on top of the underlying Azure Compute that's used to execute your jobs.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You've seen in this module how convenient it is to use the Azure CLI to create all the components of the Azure Batch workflow -- accounts, pools, jobs, and tasks -- and monitor their status, progress, and outputs.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Powerful use cases can be accomplished without writing any code.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If you need more programmatic and granular control, other options are available and include .Net and node.js.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You've also seen how you can use Batch Explorer to view the status of the accounts, pools of worker nodes, jobs, and tasks that you created via the CLI.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Cleanup</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>It is recommended to delete the resource group holding any resources you created in the exercises to ensure resources don't continue to run and potentially incur costs.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Learn more</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Batch Documentation<ept id="p1">](https://docs.microsoft.com/en-us/azure/batch/)</ept></source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>What is Azure Batch?<ept id="p1">](https://docs.microsoft.com/en-us/azure/batch/batch-technical-overview)</ept></source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Quickstart: Run your first Batch job with the Azure CLI<ept id="p1">](https://docs.microsoft.com/en-us/azure/batch/quick-create-cli)</ept></source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Manage Batch resources with Azure CLI<ept id="p1">](https://docs.microsoft.com/en-us/azure/batch/batch-cli-get-started)</ept></source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Batch Explorer<ept id="p1">](https://azure.github.io/BatchExplorer/)</ept></source>
+        </trans-unit></group></body></file></xliff>

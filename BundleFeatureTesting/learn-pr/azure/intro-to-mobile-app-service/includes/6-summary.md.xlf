@@ -1,0 +1,23 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-summary.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-summary.edc1e5.a4e06f162e423b89d294769f41cdb6906d3e732f.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a4e06f162e423b89d294769f41cdb6906d3e732f</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-mobile-app-service\includes\6-summary.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Most mobile client applications built today send or receive data online.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Having a reliable backend suite of services can help accelerate your mobile app development.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Our example sporting events application could make excellent use of the services by Mobile Apps in Azure App Service.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>We could store event data in a SQL database, synchronize user preferences, authenticate users to ensure we protect sensitive data, and send push notifications to ensure our users don't miss the events that are important and relevant to them.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In Azure, it is possible to create and connect all of the services needed to support mobile client apps manually, however Mobile Apps in Azure App Service simplifies the creation and integration steps, allowing you to focus on building great mobile apps, instead of building out the backend infrastructure.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>As well, Mobile Apps is part of Azure and they can be integrated with other Azure services to extend your product or exchange data with other services.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Further Reading</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Mobile Apps Documentation<ept id="p1">](https://docs.microsoft.com/azure/app-service-mobile/)</ept></source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>How to use the managed client for Azure Mobile Apps<ept id="p1">](https://docs.microsoft.com/azure/app-service-mobile/app-service-mobile-dotnet-how-to-use-client-library)</ept></source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Authentication and authorization in Azure App Service for mobile apps<ept id="p1">](https://docs.microsoft.com/azure/app-service-mobile/app-service-mobile-auth)</ept></source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure Mobile Apps SDKs on GitHub<ept id="p1">](https://github.com/Azure/azure-mobile-apps)</ept></source>
+        </trans-unit></group></body></file></xliff>

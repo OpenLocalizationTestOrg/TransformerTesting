@@ -1,0 +1,87 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-upload-sample-photo.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-upload-sample-photo.9809f8.f6c7a3c0b46111e06684d6a01236f08fcc53d74a.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f6c7a3c0b46111e06684d6a01236f08fcc53d74a</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\student-evangelism\build-ml-model-with-azure-stream-analytics\includes\5-upload-sample-photo.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The next step is to test the IoT hub connectivity by uploading a photo to the blob container.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>We'll use a sample image for this test.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The images that the simulated cameras will upload to blob storage show wildlife including Arctic foxes, polar bears, and walruses.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Here are a few of the example images:</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Sample wildlife images</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Start by cloning the GitHub repo with the images and starter code to the <bpt id="p1">**</bpt>assets<ept id="p1">**</ept> folder.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Execute the following statement in the Cloud Shell in your project folder.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Next, copy the <bpt id="p1">**</bpt>upload-photo-test.js<ept id="p1">**</ept> source file from the cloned repo into your project folder.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This Node.js program uploads a file named <bpt id="p1">**</bpt>image_19.jpg<ept id="p1">**</ept> from the "assets/photos" folder to the storage account's "photos" container.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Then it opens a connection from <ph id="ph1">`polar_cam_0003`</ph> to the IoT hub using <ph id="ph2">`polar_cam_0003`</ph>'s access key (which comes from <bpt id="p1">**</bpt>cameras.json<ept id="p1">**</ept>) and transmits a message containing a JSON payload over MQTT.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>That message includes a camera ID, a latitude and longitude, the URL of the blob that was uploaded, and the event time.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Execute the following command to install the <bpt id="p1">[</bpt>Microsoft Azure Storage SDK for Node.js<ept id="p1">](https://www.npmjs.com/package/azure-storage)</ept> package:</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This package provides a programmatic interface to Azure storage, including blob storage.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In the Azure Cloud Shell, use the following command to list the access keys for the created storage account:</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>By default, blobs stored in an Azure storage account are private and are only accessible to persons who have access to the subscription under which the account was created.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Access keys allow other parties, including apps, to access the contents of a storage account.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Treat access keys with great care and <bpt id="p1">**</bpt>never<ept id="p1">**</ept> give them to someone you don't trust.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Copy the <ph id="ph1">`value`</ph> property of either of the two keys that is displayed in the command output to the clipboard.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Save the value off in a text editor - you'll need this value in a few places later.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Open the <bpt id="p1">**</bpt>upload-photo-test.js<ept id="p1">**</ept> file in the Cloud Shell editor.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Replace <ph id="ph1">`ACCOUNT_KEY`</ph> assigned to the <ph id="ph2">`storageAccountKey`</ph> variable on line 3 of <bpt id="p1">**</bpt>upload-photo-test.js<ept id="p1">**</ept> with the access key.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You can also replace the <ph id="ph1">`storageAccountName`</ph> and <ph id="ph2">`iotHubName`</ph> values - but if you've stored them in the environment variables they will be pulled from there.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The line should look something like:</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Save <bpt id="p1">**</bpt>upload-photo-test.js<ept id="p1">**</ept> and close the editor.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Run the test with the following command:</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Confirm that you see the following output indicating that the command completed successfully:</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Verify the upload</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>We'll use the Azure portal to verify that the container has the uploaded image.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Sign into the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com?azure-portal=true)</ept> using the same account you used to activate the Sandbox.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Resource groups<ept id="p1">**</ept> from the left-hand sidebar and locate <bpt id="p2">&lt;rgn&gt;</bpt>[Sandbox resource group]<ept id="p2">&lt;/rgn&gt;</ept> in the list.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>In the resource group, select the storage account you created to hold the photos.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Opening the storage account</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>In the view for the storage account, click <bpt id="p1">**</bpt>Blobs<ept id="p1">**</ept> to view a list of blob containers.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Viewing blob containers</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>photos<ept id="p1">**</ept> to open the "photos" container.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Opening the "photos" container</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Click the blob named <bpt id="p1">**</bpt>image_19.jpg<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Then click <bpt id="p1">**</bpt>Download<ept id="p1">**</ept> to download the blob.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Downloading the blob</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Confirm that the blob contains a small (64x64) grayscale polar-bear image as shown below.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Small polar bear image downloaded from blob storage</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Go ahead and keep the Azure portal window open - we'll be using it throughout the remainder of this module.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Let's go ahead and create the Streaming Analytics job.</source>
+        </trans-unit></group></body></file></xliff>

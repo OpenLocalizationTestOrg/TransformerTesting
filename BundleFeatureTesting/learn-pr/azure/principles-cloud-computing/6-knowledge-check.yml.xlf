@@ -1,4 +1,4 @@
-<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-knowledge-check.5ad8d789ce5a005dd048da565266376f7c0b4064.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cd5ee4c03e25d725b5a5ee89933aee442c6af14e</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">05/13/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\principles-cloud-computing\6-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.principles-cloud-computing.6-knowledge-check">
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-knowledge-check.fd1b84.de6eea016725a48e9d6010e8b23fe5c70fad7557.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">de6eea016725a48e9d6010e8b23fe5c70fad7557</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\principles-cloud-computing\6-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.principles-cloud-computing.6-knowledge-check">
           <source>Knowledge Check</source>
         </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.principles-cloud-computing.6-knowledge-check">
           <source>Knowledge Check</source>
@@ -49,15 +49,15 @@
         </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.principles-cloud-computing.6-knowledge-check">
           <source>Which cloud service type is best for you?</source>
         </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.principles-cloud-computing.6-knowledge-check">
-          <source>Infrastructure-as-a-service</source>
+          <source>Infrastructure as a Service (IaaS)</source>
         </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.principles-cloud-computing.6-knowledge-check">
-          <source>Platform-as-a-service is the best choice here because the PaaS services handle the IT management tasks for you, so you can focus on writing code.</source>
+          <source>Platform as a Service is the best choice here because the PaaS services handle the IT management tasks for you, so you can focus on writing code.</source>
         </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.principles-cloud-computing.6-knowledge-check">
-          <source>Platform-as-a-service</source>
+          <source>Platform as a Service (PaaS)</source>
         </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.principles-cloud-computing.6-knowledge-check">
-          <source>Platform-as-a-service is the best choice here because the PaaS services handle the IT management tasks for you, so you can focus on writing code.</source>
+          <source>Platform as a Service is the best choice here because the PaaS services handle the IT management tasks for you, so you can focus on writing code.</source>
         </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.principles-cloud-computing.6-knowledge-check">
-          <source>Software-as-a-service</source>
+          <source>Software as a Service (SaaS)</source>
         </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.principles-cloud-computing.6-knowledge-check">
-          <source>Platform-as-a-service is the best choice here because the PaaS services handle the IT management tasks for you, so you can focus on writing code.</source>
+          <source>Platform as a Service is the best choice here because the PaaS services handle the IT management tasks for you, so you can focus on writing code.</source>
         </trans-unit></group></body></file></xliff>

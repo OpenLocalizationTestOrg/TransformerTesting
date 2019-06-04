@@ -1,0 +1,15 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-microsoft-ai-approach.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-microsoft-ai-approach.a6e9f6.398a60ea770174c081f134d1f5d88c076feccbd7.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">398a60ea770174c081f134d1f5d88c076feccbd7</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\introduction-to-ai-technology\includes\4-microsoft-ai-approach.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Watch this video from David Carmona, General Manager of Microsoft AI, to hear how Microsoft is turning the latest advances in AI into tools, products, and services that can be leveraged by organizations to implement an AI strategy.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>David Carmona explains that there are three things you can do to bring AI to your company: create intelligent applications, optimize business processes, and empower your employees through AI.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Every organization can leverage pre-built AI services to help bring more knowledge to each employee.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Organizations can also leverage a conversational AI platform with pre-built AI services to power digital agents and bring knowledge to customers.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When optimizing business processes with AI, you can use packaged source solutions or create a custom AI solution.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When looking to bring AI to every employee, you need to understand both how employees consume AI, and how new AI models have the potential to turn all employees into citizen data scientists.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Now that you’ve learned how to bring AI to every employee, let’s dive more in to machine learning.</source>
+        </trans-unit></group></body></file></xliff>

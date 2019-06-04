@@ -1,0 +1,125 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-empowering-every-employee-case-study-resolution.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-empowering-every-employee-case-study-resolution.cd8be0.7b2e159f8da06d57a6edb884261e75e8d5b43eb8.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7b2e159f8da06d57a6edb884261e75e8d5b43eb8</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\ai-strategy-to-create-business-value\includes\7-empowering-every-employee-case-study-resolution.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Approach</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>"(2017) has been a year of transformation for us in an industry that is being totally destroyed"</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">\-</ph> Arthur Sadoun, CEO</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To help create the momentum it needed to survive and thrive in the modern world, Publicis Groupe is strategically looking to innovative solutions to transform the organization from a holding company to a quick and agile “platform,” while making the most of its colossal internal resources and experience.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Publicis chose to concentrate resources on a digital transformation project with AI to bring order to the valuable information and data spread across the organization.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Connecting knowledge on 80,000 employees is not a task suited for traditional tools.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Simply finding out which employees had previous experience working for a certain client, for example, was a task that would normally require days of emails, instant messages, and phone calls.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>A traditional central directory was also not an option: Publicis estimated that it had over five million files containing largely unstructured information on expertise and past projects.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Even if such data could somehow be organized, sifting through it would require specialist training for each team member.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>But this sort of task — near impossible for humans — is exactly what AI is good at.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>AI can effortlessly sort through and categorize vast volumes of data, and machine learning can quickly establish and understand the networks that exist within that same knowledge.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Marcel is born</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Using AI, Publicis was able to create an interactive assistant for employees and clients called “Marcel”.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Behind the scenes, Marcel is a platform that uses AI to bring order to Publicis’ vast amount of siloed knowledge.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>But users don’t see any of this extensive categorization work.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For them, the interface works in a similar way to Microsoft’s Cortana, or Apple’s Siri.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>It can be used to find expertise, share ideas, and to connect creatives to projects.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Employees can ask Marcel questions in plain English, such as “Who has done graphic design work for Samsung in the last six months?”</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>They even can ask Marcel who the right person is to help solve an issue on a particular project.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To make sure that communication is enabled without harming productivity, Marcel filters all comms channels, and each day hand-picks six items for each employee that they may be interested in.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>It also frees employees from repetitive administrative tasks, such as timesheets, through automation.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Marcel helps on the client side as well.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Clients can post videos or project descriptions to the platform, polling Publicis employees for ideas.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The client can then select the idea and associated team that they find most suited to them.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>No mass emails, delays, or repetitive phone calls.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Marcel also takes into account existing workloads when making recommendations.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The result is a transformative way for employees to find one another in seconds, properly leveraging the expertise of tens of thousands of people.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This results in a more flexible, collaborative, environment where silos are broken down without losing the information they contain.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>“In June 2018, Publicis Groupe announced the creation of Marcel, to connect our 80,000 employees and completely reinvent the way that we work, for ourselves and our clients,” says Arthur Sadoun.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>“Since then, our industry has gone through unprecedented challenges, demonstrating that incremental change is not a solution.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The need for reinvention is stronger than ever.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>At Publicis Groupe, we haven’t waited to act. We are breaking the barriers between talent and opportunity with Marcel.”</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Result</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>“We are ahead on all the strategic and operational KPIs of our transformation to become the market leader in marketing and business transformation,” says Publicis Groupe CEO Arthur Sadoun.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>With the power of AI, the beta version of Marcel is already helping Publicis transform from a holding company into a platform for idea sharing and client engagement, with a goal for 90% of the company to be on the platform by 2020.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Early indications are that Sadoun’s bold silo-breaking strategy is working.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>After the official unveiling of Marcel in late May 2018, Publicis had a very strong Q3, achieving their aim of organic growth acceleration (up 2.2 percent).</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Thanks to their unique data strategy and new platform approach, Publicis won four separate pitches with GlaxoSmithKline (GSK), alongside key wins with Western Union, Cathay Pacific, and the Government of Singapore.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>“Our model connecting data, dynamic creativity and technology is working beautifully and fits the current and future needs of the clients,” says Sadoun.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>“This is why we won the majority of the biggest pitches of 2018, such as Daimler, Campbell's, Marriott, Carrefour, Cathay Pacific, Smucker's, GSK and Fiat-Chrysler.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>These last two wins represent more than one billion dollars in billings each.”</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Key lessons</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Don’t limit yourself to structured data</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Organizations considering AI often limit their thinking to structured data.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>But unstructured data is an extremely valuable resource for AI – particularly for employees.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Workers waste large amounts of time manually searching, understanding, summarizing, and collating unstructured or complex information.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The artificial intelligence engine responsible for Marcel works by interpreting and connecting scattered data to create a unified and interpretable source of knowledge.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This saves valuable time for employees, allowing them to focus on creative and customer-focused activities, which results in satisfied clients and more efficient and happy workplaces.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Embrace the citizen data-scientist culture</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>When non-technical employees are able to leverage the benefits of AI to explore vast amounts of data, they become “citizen data scientists.”</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Enabling every employee to become a citizen data scientist is crucial in realizing the full potential of AI.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gartner predicts that “by 2019, citizen data scientists will surpass data scientists in terms of the amount of advanced analysis they produce.”<bpt id="p1">&lt;sup&gt;</bpt>1<ept id="p1">&lt;/sup&gt;</ept> Only by taking this step can the whole organization be empowered to glean new insights, make better decisions and perform complex analysis using AI.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Evaluation of the strategy using the value framework</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Let’s examine how Publicis’ AI strategy is creating additional value using the value creation framework developed by Peter Zemsky, INSEAD’s Eli Lilly Chaired Professor of Strategy and Innovation:</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>industry environment perspective<ept id="p1">**</ept>, traditional agencies are facing increased competition by new start-ups and born-in-the-cloud agencies while being required to adopt new online advertisement models lowering the potential to add differentiated value.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>value creation perspective<ept id="p1">**</ept>, agencies like Publicis are very heavily dependent on human resources.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>With low operating margins derived productivity can have a big impact on value creation.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Also, tools allowing employees to reuse existing knowledge and assets will provide significant value.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>organization and execution perspective<ept id="p1">**</ept>, the ability to extract knowledge from vast amounts of unstructured data immediately creates new sources of value creation.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The ability to increase productivity and free-up time for content creation and innovation will lower cost.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Also, the use of tools, like bots, reduces the challenges to deploy the technology, which in turn decreases the need for reskilling and training.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Now that you’ve seen how organizations are approaching their AI strategies, let’s wrap up everything you’ve learned with a knowledge check.</source>
+        </trans-unit></group></body></file></xliff>

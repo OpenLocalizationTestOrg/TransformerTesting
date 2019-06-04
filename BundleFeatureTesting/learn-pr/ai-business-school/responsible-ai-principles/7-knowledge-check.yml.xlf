@@ -1,0 +1,119 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-knowledge-check.981b2f.c02926001586bfcf667d967d8af704dfe3a0e691.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c02926001586bfcf667d967d8af704dfe3a0e691</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\responsible-ai-principles\7-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Knowledge Check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Knowledge Check</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>A knowledge check for the identify guiding principles for responsible AI in your business module.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>An expert suggests using a pool of training data that has been gathered from observations of human workers performing tasks and making decisions.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>What is an unintended consequence that must be anticipated?</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>AI will replicate human biases and prejudices that result in the unfair treatment of people of a particular race or gender.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>This is a definite concern as this problem has already been encountered with AI simply replicating the biases exemplified by the human workers it was modeled to learn from.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>AI cannot learn the subtleties of human opinion; therefore, AI will make decisions purely based on data criteria.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>While the intended goal of AI is to make data driven decisions, it has been proven that AI can replicate human traits such as favoritism.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>The transparent nature of AI will result in decreased intelligibility concerning performance-based decision making.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>One of the established guiding principles for AI is a commitment to transparency, which increases the intelligibility for stakeholders.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>AI has no level of accountability; thus, poor qualitative decisions can occur without any sense of recourse.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Accountability is one of the six guiding principles set forth by Microsoft to guide AI deployment and use.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Which one of the Microsoft guiding principles for AI can be addressed by multi-party computation (MPC)?</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Fairness</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Fairness involves the elimination of biasness or favoritism.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Privacy and Security</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>MPC allows a set of parties to share encrypted data and algorithms with one another while preserving input privacy at all times.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Inclusiveness</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>While MPC does involve the sharing of data between multiple parties, its real intention is to enforce privacy of data.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Accountability</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Accountability concerns the establishment of industry standards, best practices, and review boards.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>A company uses a decentralized organizational model when it comes to AI implementation.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>What might be a disadvantage of their decentralized model when compared to a centralized model?</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Their ability to rapidly innovate is extremely inhibited.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Decentralized models are often nimble and enable rapid innovation.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>They can’t utilize the cross sharing of knowledge.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>The siloed nature of a decentralized model limits the sharing of knowledge throughout the organization.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>They lack the ability to create standards at the grassroots level.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Creating standards at the grassroots level is in fact a strength of the decentralized model.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>The nature of decentralization can constrain innovation.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>It is the centralized model that can constrain innovation due to a top-down approach.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>You want to implement a governance approach to AI within your organization that will incorporate a diverse array of outside experts and senior leaders from within the company.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>What will be part of your governance approach?</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Ethics committee</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>An ethics committee is made up of people within and outside of the organization.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Ethics office</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>An ethics office only consists of members within the organization.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>First-party AI system</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>A first-party AI systems is not a governance approach.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Third-party AI system</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve" uid="learn-wwl.responsible-ai-guiding-principles.knowledge-check">
+          <source>A third-party AI system is not a governance approach.</source>
+        </trans-unit></group></body></file></xliff>

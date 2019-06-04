@@ -1,0 +1,133 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-create-iot-hub.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-create-iot-hub.192e92.ba411eac13ea2b6f388c098b6fdff27abda42086.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba411eac13ea2b6f388c098b6fdff27abda42086</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\student-evangelism\build-ml-model-with-azure-stream-analytics\includes\4-create-iot-hub.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Recall that our goal is to collect images from remote cameras and analyze those images in real time to look for polar bears.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Azure IoT hub is a great way to connect and communicate with remote devices - we can then feed the results right into Azure Stream Analytics for processing and analysis.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Data is securely transmitted to IoT hubs through either <bpt id="p1">_</bpt>field gateways<ept id="p1">_</ept> for devices that aren't IP-capable, or <bpt id="p2">_</bpt>cloud gateways<ept id="p2">_</ept> for devices that <bpt id="p3">*</bpt>are<ept id="p3">*</ept> IP-capable.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>A single Azure IoT hub can handle millions of events per second from devices spread throughout the world.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll create an Azure IoT Hub to receive input from a simulated camera array.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Create an Azure IoT Hub</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Define a name for the IoT hub and assign it to an environment variable named <bpt id="p1">**</bpt>HUB_NAME<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The name must be globally unique since it will be used as part of the public DNS name.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Execute the following command in the Cloud Shell to create an IoT Hub in the resource group:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`--sku F1`</ph> parameter configures the IoT hub to use the free F1 pricing tier, which supports up to 8,000 events per day.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>However, Azure subscriptions are limited to one free IoT hub each.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If the command fails because you've already created a free IoT hub, specify <ph id="ph1">`--sku S1`</ph> instead.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The S1 tier greatly expands the message-per-day limit, but isn't free.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Register sample devices with the IoT hub</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Devices that transmit events to an Azure IoT hub must be registered with that IoT hub.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Once registered, a device can send events to the IoT hub using one of several protocols, including HTTPS, <bpt id="p1">[</bpt>AMQP<ept id="p1">](http://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-complete-v1.0-os.pdf)</ept>, and <bpt id="p2">[</bpt>MQTT<ept id="p2">](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/mqtt-v3.1.1.pdf)</ept>.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>We'll create a Node.js app that registers an array of simulated cameras with the IoT hub you've created.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The Azure Cloud Shell you're working in has Node.js installed.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Create a directory in the Cloud Shell to serve as the project directory.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Then <ph id="ph1">`cd`</ph> to that directory in a Command Prompt or terminal window.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Execute the following commands in sequence to initialize the project directory to host a Node project and install a trio of packages that Node can use to communicate with Azure IoT hubs:</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>azure-iothub<ept id="p1">**</ept> package provides APIs for registering devices with IoT hubs and managing device identities.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>azure-iot-device<ept id="p1">**</ept> and <bpt id="p2">**</bpt>azure-iot-device-mqtt<ept id="p2">**</ept> enable devices to connect to IoT hubs and transmit events using the MQTT protocol respectively.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Define the data for the simulated cameras</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Next, let's define a set of simulated camera devices with coordinates.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>We'll use the IoT SDK with a Node.js app to do the work, but we need to define some data first.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Create a file named <bpt id="p1">**</bpt>devices.json<ept id="p1">**</ept> in the project directory using the Cloud Shell editor.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Paste the following JSON into the file.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This file defines ten virtual cameras that will transmit events to the IoT hub.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Each "camera" contains a device ID, a latitude, and a longitude specifying the camera's location, and an access key for per-device authentication.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`key`</ph> values are empty for now, but that will change once the cameras are registered with the IoT hub.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Save the file using the <bpt id="p1">&lt;kbd&gt;</bpt>...<ept id="p1">&lt;/kbd&gt;</ept> context menu in the top-right corner of the editor.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Close the editor with the same context menu.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You can verify the contents of the file with the following command in the Cloud Shell:</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The latitudes and longitudes are for points on the coast of Northern Canada's <bpt id="p1">[</bpt>Cornwallis Island<ept id="p1">](https://en.wikipedia.org/wiki/Cornwallis_Island_(Nunavut))</ept>, which is one of the best sites in all of Canada to spot polar bears.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>It is also adjacent to <bpt id="p1">[</bpt>Bathurst Island<ept id="p1">](https://en.wikipedia.org/wiki/Bathurst_Island_(Nunavut))</ept>, which is home to the <bpt id="p2">[</bpt>Polar Bear Pass National Wildlife Area<ept id="p2">](https://www.canada.ca/en/environment-climate-change/services/national-wildlife-areas/locations/polar-bear-pass.html)</ept>.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Create a set of simulated camera devices</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>As a final step, let's register all these cameras as devices with our IoT hub.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>We'll create a Node.js app that reads the camera data from the <bpt id="p1">**</bpt>devices.json<ept id="p1">**</ept> file and uses the IoT SDK to register them with IoT hub.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Add a file named <bpt id="p1">**</bpt>deploy.js<ept id="p1">**</ept> to the project directory and open it in the online code editor.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If the file you specify doesn't exist, the code editor will create it for you.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Paste the following JavaScript code into the file.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This code registers all the simulated devices defined in <bpt id="p1">**</bpt>devices.json<ept id="p1">**</ept> with the IoT hub that you created earlier.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>It also retrieves from the IoT hub the access key created for each device and creates a new file named <bpt id="p1">**</bpt>cameras.json<ept id="p1">**</ept> that contains the same information as <bpt id="p2">**</bpt>devices.json<ept id="p2">**</ept>, but with a value assigned to each device's <ph id="ph1">`key`</ph> property.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>It's this key, which is transmitted in each request, that enables a device to authenticate to the IoT hub.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Leave the editor open<ept id="p1">**</ept>, but switch focus to the bottom pane that contains the terminal window.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Use the following command to retrieve a connection string for the IoT hub:</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Copy the connection-string <bpt id="p1">_</bpt>value<ept id="p1">_</ept> from the output.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The value will be of the form:</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Where <ph id="ph1">`{HUB_NAME}`</ph> is the name of your IoT hub, and <ph id="ph2">`{KEY_VALUE}`</ph> is the hub's shared access key.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Replace <ph id="ph1">`CONNECTION_STRING`</ph> on line 3 of <bpt id="p1">**</bpt>deploy.js<ept id="p1">**</ept> with the connection string that you copied.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Save the file and close the editor.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Execute the following command to run <bpt id="p1">**</bpt>deploy.js<ept id="p1">**</ept>:</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If you get the error <ph id="ph1">`ArgumentError: The connection string is missing the property: HostName`</ph>, double-check that you have replaced the <ph id="ph2">`CONNECTION_STRING`</ph> value in <bpt id="p1">**</bpt>deploy.js<ept id="p1">**</ept> with the proper value and that the file has been saved.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Confirm that the output looks like this:</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Verify the registered devices</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Next, let's verify that the IoT hub knows about the cameras.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Start by adding the <bpt id="p1">**</bpt>azure-cli-iot-ext<ept id="p1">**</ept> extension to the Azure CLI.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>This provides several additional useful IoT commands - including the ability to interrogate the device registry.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Type or paste the following command into the Cloud Shell.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Use the following command to list the registered devices.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You should see something like:</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Verify that a file named <bpt id="p1">**</bpt>cameras.json<ept id="p1">**</ept> was created in the project directory.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Display the contents of the file with the <ph id="ph1">`cat`</ph> tool.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Confirm that the <ph id="ph1">`key`</ph> properties, which are empty strings in <bpt id="p1">**</bpt>devices.json<ept id="p1">**</ept>, have values in <bpt id="p2">**</bpt>cameras.json<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Now that we have the cameras all registered and our IoT Hub is connected to Azure Storage, let's do a quick test by uploading an image - this will simulate a remote camera being triggered by some motion and snapping a photograph.</source>
+        </trans-unit></group></body></file></xliff>

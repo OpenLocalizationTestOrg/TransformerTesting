@@ -1,0 +1,13 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-summary.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-summary.ade50b.85b92c34710f3cd757f94c4404ac51a1b0f4626c.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">85b92c34710f3cd757f94c4404ac51a1b0f4626c</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\connect-on-premises-network-with-vpn-gateway\includes\5-summary.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Healthcare providers have the paramount need for secure connectivity between data centers and regional facilities for patient healthcare information.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>To achieve the goals of secure connectivity in a cost-effective manner, you used VPN gateway options in Azure to connect on-premises networks to virtual networks in Azure.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You learned about the resources required to create VPN gateways and what limitations apply to different VPN Gateway SKUs.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You also learned how to create and configure both site-to-site virtual network gateways.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Learn More</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For more information on validated VPN devices that are known to be compatible with VPN gateways, and which type of VPN gateway they support, either route-based or policy-based, go to <ph id="ph1">&lt;https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices&gt;</ph></source>
+        </trans-unit></group></body></file></xliff>

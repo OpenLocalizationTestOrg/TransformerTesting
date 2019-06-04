@@ -1,0 +1,41 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.164bb3.cba11fe67ba02255c9d80449c55635f4394959a7.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cba11fe67ba02255c9d80449c55635f4394959a7</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\run-parallel-tasks-in-azure-batch-with-the-azure-cli\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You can use Azure Batch to execute large-scale, high-intensity computation jobs efficiently in Azure.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Imagine you're a software developer at a non-profit organization whose mission is to give every human on the planet access to clean water.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>To reach this goal, every citizen is asked to take a picture of their water purification meter and text it to you.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Each day, you have to scan pictures from over 500,000 households, and record each reading against the sender phone number.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The data is used to detect water quality trends and to dispatch the mobile water quality team to investigate the worst cases across each region.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Time is of the essence, but processing each image with Optical Character Recognition (OCR) is time-intensive.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>With Azure Batch, you can scale out the amount of compute needed to handle this task on a daily basis, saving your non-profit the expense of fixed resources.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In this module, you'll learn about using Azure Batch to create and run parallel tasks with the Azure CLI, and how to use the CLI to check the status of Batch jobs and tasks.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This module also describes how to use the standalone Batch Explorer tool to monitor ongoing jobs.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>By the end of this module, you will be able to create, execute, and monitor batch jobs.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Create an Azure Batch job in the Azure CLI</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Run an Azure Batch job in the Azure CLI</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Check the status and results of a Batch job in the Azure CLI</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Monitor a Batch job with Batch Explorer</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Familiarity with Azure and the Azure CLI</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The exercises in this module are optional.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To complete the exercises, you will need your own Azure subscription.</source>
+        </trans-unit></group></body></file></xliff>

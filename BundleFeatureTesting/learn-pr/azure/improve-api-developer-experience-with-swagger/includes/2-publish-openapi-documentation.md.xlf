@@ -1,0 +1,65 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-publish-openapi-documentation.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-publish-openapi-documentation.6ebca9.56d2a652c0a9756853a6993f338fee5b2ae5e036.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">56d2a652c0a9756853a6993f338fee5b2ae5e036</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\improve-api-developer-experience-with-swagger\includes\2-publish-openapi-documentation.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>An API can have great value, but it won't gain traction unless developers know how to use it.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Developers want to integrate an API as quickly as they can.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Good API documentation helps a developer understand the API's capabilities and how it should be used, making integration more efficient.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Traditionally, all documentation that described an API and how to use it was written by hand.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Now we have API description formats like Swagger/OpenAPI that automate the documentation process, making it easier for teams to generate, maintain, and use API documentation.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You describe your API and let tools generate rich documentation.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>What is OpenAPI?</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>OpenAPI is a specification used for describing REST APIs.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>It is language agnostic, and allows you to describe your entire API including:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Available endpoints</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Operation parameters</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Authentication methods</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Contact and other information</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can write API specifications in YAML or JSON.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>With the OpenAPI specification, humans and computers can understand the capabilities of your API without having access to its source code.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>What is Swagger?</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Swagger is a set of open-source tools built around the OpenAPI specification.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>These tools can help you design, build, and document REST APIs.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Swagger does this by using the OpenAPI specification of your API to understand its structure.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For example, <bpt id="p1">**</bpt>Swagger UI<ept id="p1">**</ept> is a tool that can visually render documentation in a browser for an API defined with the OpenAPI specification.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Swagger Codegen<ept id="p1">**</ept> can take the same OpenAPI specification of an API and generate client SDKs.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>What is Swashbuckle?</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Swashbuckle is an open-source Swagger implementation used for generating Swagger documentation for .NET Core APIs.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>There are three main components to Swashbuckle:</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Swashbuckle.AspNetCore.Swagger<ept id="p1">**</ept>: This component is the Swagger object model and middleware to expose <ph id="ph1">`SwaggerDocument`</ph> objects as JSON endpoints.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Swashbuckle.AspNetCore.SwaggerGen<ept id="p1">**</ept>: This library is a Swagger generator that builds <ph id="ph1">`SwaggerDocument`</ph> objects directly from your routes, controllers, and models.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>It's typically combined with the Swagger endpoint middleware to automatically expose Swagger JSON.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Swashbuckle.AspNetCore.SwaggerUI<ept id="p1">**</ept>: This package is an embedded version of the Swagger UI tool.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>It interprets Swagger JSON to build a rich, customizable experience for describing the web API functionality.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>It includes built-in test harnesses for the public methods.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Since these libraries are added to your app, they generate and visualize your API documentation from the latest version of your API.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This is <bpt id="p1">**</bpt>living<ept id="p1">**</ept> documentation, always in sync with the latest code.</source>
+        </trans-unit></group></body></file></xliff>

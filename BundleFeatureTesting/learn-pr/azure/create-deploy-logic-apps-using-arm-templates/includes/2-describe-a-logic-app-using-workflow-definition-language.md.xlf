@@ -1,0 +1,261 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-describe-a-logic-app-using-workflow-definition-language.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-describe-a-logic-app-using-workflow-definition-language.02d350.97ad1a37d73ad6b19be6382c254bd524f0987648.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">97ad1a37d73ad6b19be6382c254bd524f0987648</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-deploy-logic-apps-using-arm-templates\includes\2-describe-a-logic-app-using-workflow-definition-language.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You define the structure and workflow for a Logic App using a JSON document.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This document contains a JSON description of the elements that make up the Logic App ad is validated by the Workflow Definition Language schema.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The easiest way to explain the schema is to examine an existing Logic App created using the Logic Apps Designer in the Azure portal, and then view the JSON description of this app.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In the sample scenario, you want to provide your consultants with common workflows, which they can adapt to the specific needs of the universities they work with.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You want to make it as easy as possible to customize and deploy each workflow, so you decide to take a look at the code behind the workflow, namely the workflow definition JSON.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The Logic Apps designer</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The Logic Apps Designer enables you to create and debug the workflow for a Logic App graphically.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The Logic Apps Designer also lets developers look under the hood of a workflow to see how it's implemented.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The following image shows an example of a simple Logic App.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The workflow is triggered by sending an HTTP GET request to a specified URL.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The result is returned in the HTTP response.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In this example, the workflow is sending back a simple <bpt id="p1">*</bpt>Hello Logic Apps Template!<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>message.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>workflow designer overview</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Lets now look at the workflow definition language as used by the JSON template.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The Code view</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The Code View window in the Logic Apps Designer shows the JSON document that describes the workflow.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>In the sample app, the code looks like this:</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Notice the sections in the <ph id="ph1">`definition`</ph> scope that relate to the actions and triggers shown in the Logic Apps Designer.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can edit the JSON code in this document to reflect any changes required in the functionality of the Logic App.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You can also add further actions, and specify how the logic in the workflow runs from one action to the next.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The triggers section</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The triggers section contains the description of the type of trigger, and how it can be invoked.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>In this example, the trigger is a simple HTTP trigger that that runs in response to an HTTP GET request.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A trigger must include the following elements:</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A unique name inside the workflow.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In the example above, the trigger is named <bpt id="p1">*</bpt>manual<ept id="p1">*</ept>, but you could replace this with a more meaningful identifier.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The trigger type.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The type indicates the event that causes the trigger to run.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">*</bpt>Request<ept id="p1">*</ept> trigger runs in response to an HTTP request.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Other trigger types available include</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Recurrence<ept id="p1">*</ept> for creating a trigger that runs according to a recurring schedule</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>HttpWebhook<ept id="p1">*</ept> for listening to events on an endpoint</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>ApiConnection<ept id="p1">*</ept> for responding to events triggered by other Azure services (for example, a message arriving on a message queue, an email message, and so on).</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>ApiConnection<ept id="p1">*</ept> trigger type is generalized, and you specify further details indicating the type of the service, and any connection information required.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>inputs<ept id="p1">*</ept> section.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This section specifies the data that defines the behavior of the trigger.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For a Request trigger, the <bpt id="p1">*</bpt>method<ept id="p1">*</ept> indicates the type of HTTP request that causes the trigger to run.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For an <bpt id="p1">*</bpt>ApiConnection<ept id="p1">*</ept> trigger, the <bpt id="p2">*</bpt>inputs<ept id="p2">*</ept> section contains information about how to connect to the resource triggering the event (a message queue connection string, for example).</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>If the trigger is a <bpt id="p1">*</bpt>Request<ept id="p1">*</ept> trigger, the <bpt id="p2">*</bpt>schema<ept id="p2">*</ept> section of the input definition specifies the schema that the payload of the request body should conform to.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>HTTP GET requests don't have a request body, so the <bpt id="p1">*</bpt>schema<ept id="p1">*</ept> is empty in the example above.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The following example shows the definition of another <bpt id="p1">*</bpt>Request<ept id="p1">*</ept> trigger, for a Logic App that receives HTTP POST requests.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A POST request typically provides a request body, containing the data to be posted.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The request body in this example contains a customer name and address, comprising the street and city.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>A trigger can also specify conditions.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The trigger will only fire if these conditions are met.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>You define conditions in an optional <bpt id="p1">*</bpt>conditions<ept id="p1">*</ept> section.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For example, you might want to run the <bpt id="p1">*</bpt>mypostrequest<ept id="p1">*</ept> trigger shown above only if the request body specifies a city of <bpt id="p2">*</bpt>New York<ept id="p2">*</ept>:</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The actions section</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The actions section of a Logic App defines the logic and structure of the workflow.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>It contains a series of <bpt id="p1">*</bpt>action<ept id="p1">*</ept> items.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>An action item is a basic building block for constructing workflows.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Action items take inputs and produce outputs, which are passed to the next action item in the workflow.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The different types of action items available include:</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>ApiConnection<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Use this type of action to send an HTTP request to a Microsoft Service.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This action type enables you to integrate a Logic App with Azure features such as Azure Service Bus, and Azure Event Grid, amongst others.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The action requires inputs that include a connection string for accessing the service, and any additional information and parameters required to invoke the service.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Compose<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Use this action to combine multiple inputs and expressions into a single output.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Function<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This action enables you to call an Azure Function.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>HTTP<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>This action can send an HTTP request to an HTTP endpoint (as opposed to an Azure service).</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Join<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>This action takes an array of data items as input and generates string containing these items separated by a specified delimiter.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Parse<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Use this action to parse a JSON document into a set of tokens, using a specified schema.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Query<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This action enables you to filter the items in an input array using a specified condition.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Response<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Use this action to create a response for an HTTP request.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Table<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This action can generate an HTML table from an array of JSON objects.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Terminate<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Use this action to cancel a workflow immediately.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Wait<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>This action pauses the workflow for a specified interval or until a timeout occurs.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Workflow<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Use this action to run another Logic App.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Condition<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>This is actually a set of action types (<bpt id="p1">*</bpt>Foreach<ept id="p1">*</ept>, <bpt id="p2">*</bpt>If<ept id="p2">*</ept>, <bpt id="p3">*</bpt>Switch<ept id="p3">*</ept>, and <bpt id="p4">*</bpt>Until<ept id="p4">*</ept>) that enable you to implement programmatic flow of control in a workflow.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>You can iterate through the items in a collection, make decisions based on the values of input parameters, and loop until some condition is met.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>InitializeVariable<ept id="p1">*</ept>, <bpt id="p2">*</bpt>IncrementVariable<ept id="p2">*</ept>, <bpt id="p3">*</bpt>DecrementVariable<ept id="p3">*</ept>, and <bpt id="p4">*</bpt>SetVariable<ept id="p4">*</ept>.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Use these actions to define, initialize, assign, and modify variables that you can pass between action items in a workflow.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Like a trigger, each action must have a unique name in the workflow.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The example shown below names the item <bpt id="p1">*</bpt>Response<ept id="p1">*</ept>, but you could use any valid identifier.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>An action must have an <bpt id="p1">*</bpt>inputs<ept id="p1">*</ept> section that specifies the data that the action works on.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>For an HTTP Response action, this is where you can specify the data for an expression to be returned in the response message, together with an HTTP status code.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>In our simple app definition, the action generates an HTTP response where the body is a simple message.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>runAfter<ept id="p1">*</ept> section indicates where the action runs in the workflow sequence.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>In the example given, there's only a single action, so it always runs when the trigger fires.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>If the Logic App had multiple actions, you could specify the name of an action and a status for that action in this section.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The action will run if the <bpt id="p1">*</bpt>runAfter<ept id="p1">*</ept> action completes with the specified status.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The code below shows an example.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The action <bpt id="p1">*</bpt>mySecondAction<ept id="p1">*</ept> runs after <bpt id="p2">*</bpt>myFirstAction<ept id="p2">*</ept>, but only if <bpt id="p3">*</bpt>myFirstAction<ept id="p3">*</ept> finishes with a status of "Succeeded":</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The outputs section</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Use the outputs section to define the data that your workflow can return when it has completed running.</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>You could track a specific status or data for each run of the workflow.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>You can examine the output from each run of a workflow using the Logic Apps run history, available via the Azure portal of the Workflow REST API.</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The format of the <bpt id="p1">*</bpt>outputs<ept id="p1">*</ept> section looks like this:</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Logic Apps expressions</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>You can use a Logic Apps expression in place of any fixed value, variable, or constant.</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>You can also place an expression anywhere in a JSON string value by prefixing the expression with the at-sign (@).</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>For example, you can use the <bpt id="p1">*</bpt><ph id="ph1">@parameters</ph><ept id="p1">*</ept> function in an expression to retrieve the value of a named parameter (parameters are described in the next section).</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Logic Apps provides a set of built-in functions that you can use to create complex expressions.</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>These include:</source>
+        </trans-unit><trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>String functions, for concatenating or splitting strings, converting characters between upper and lower case, and searching for substrings.</source>
+        </trans-unit><trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Collection functions, for detecting whether a collection contains items that match a specific pattern, retrieving items from a collection, and combining collections.</source>
+        </trans-unit><trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Logical comparison functions, for detecting whether operands are the same, different, numerically greater, or numerically less than each other.</source>
+        </trans-unit><trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Conversion functions, for changing the type or format of data.</source>
+        </trans-unit><trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Maths functions, such as <bpt id="p1">*</bpt>add<ept id="p1">*</ept>, <bpt id="p2">*</bpt>sub<ept id="p2">*</ept>, <bpt id="p3">*</bpt>div<ept id="p3">*</ept>, and <bpt id="p4">*</bpt>mul<ept id="p4">*</ept>, plus several others.</source>
+        </trans-unit><trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Date and time functions, for parsing and processing dates and times.</source>
+        </trans-unit><trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Workflow functions, for retrieving information about the data passed to a workflow action.</source>
+        </trans-unit><trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>For example, the <bpt id="p1">*</bpt>parameter<ept id="p1">*</ept> function (shown above) fetches the value of a named parameter, and the <bpt id="p2">*</bpt>body<ept id="p2">*</ept> function (shown earlier) returns the data being generated by an action.</source>
+        </trans-unit><trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>JSON and XML manipulation functions, for parsing and processing JSON and XML documents.</source>
+        </trans-unit><trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>You can define variables in the <bpt id="p1">*</bpt>inputs<ept id="p1">*</ept> section of an <bpt id="p2">*</bpt>InitializeVariable<ept id="p2">*</ept> action, and you can manipulate these variables using expressions.</source>
+        </trans-unit><trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>You read the value of a variable using the <bpt id="p1">*</bpt>variables<ept id="p1">*</ept> function.</source>
+        </trans-unit><trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The following example uses an <bpt id="p1">*</bpt>InitializeVariable<ept id="p1">*</ept> action to create an integer variable named <bpt id="p2">*</bpt>myIntegerVariable<ept id="p2">*</ept> and initialize it to 99.</source>
+        </trans-unit><trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The example also shows a <bpt id="p1">*</bpt>Condition<ept id="p1">*</ept> action with the <bpt id="p2">*</bpt>If<ept id="p2">*</ept> type.</source>
+        </trans-unit><trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The condition uses an expression to test the value of the <bpt id="p1">*</bpt>myIntegerVariable<ept id="p1">*</ept> variable, and if it matches the value 100, the condition uses an HTTP action to perform a GET request.</source>
+        </trans-unit><trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The parameters section</source>
+        </trans-unit><trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The parameters section enables you to parameterize a workflow.</source>
+        </trans-unit><trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>At runtime, you can provide values for each of these parameters.</source>
+        </trans-unit><trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>You reference the parameters anywhere in the workflow where you might use a constant or expression.</source>
+        </trans-unit><trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>You can add a parameters definition with a default value.</source>
+        </trans-unit><trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The default value is used if you don't provide a value for the parameter at runtime.</source>
+        </trans-unit><trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The next example shows how to define a parameter named <bpt id="p1">*</bpt>cityParam<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The parameter is used inside the condition for the <bpt id="p1">*</bpt>mypostrequest<ept id="p1">*</ept> action, to perform the action only if the request document contains a city that matches the parameter value.</source>
+        </trans-unit><trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The default parameter value is <bpt id="p1">*</bpt>New York<ept id="p1">*</ept>:</source>
+        </trans-unit></group></body></file></xliff>

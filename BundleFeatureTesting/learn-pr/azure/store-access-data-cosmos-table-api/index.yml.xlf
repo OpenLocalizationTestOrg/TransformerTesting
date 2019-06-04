@@ -1,0 +1,21 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.2cbb3e.df100e4e9724c303f7ea667aa5528c42bcef72ae.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">df100e4e9724c303f7ea667aa5528c42bcef72ae</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\store-access-data-cosmos-table-api\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-table-api">
+          <source>Store and Access NoSQL Data with Cosmos DB and the Table API</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-table-api">
+          <source>By using the Cosmos DB Table API, you will benefit from the low latency, high availability, and scalability of Azure Cosmos DB in a Table storage application.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-table-api">
+          <source>Store and Access NoSQL Data with Cosmos DB and the Table API</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-table-api">
+          <source>Get lower latency, higher availability, and easier scaling by moving your Azure Storage Tables application to Azure Cosmos DB.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-table-api">
+          <source>At the end of this module, you will be able to:</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-table-api">
+          <source>Describe the advantages of Table Storage and Cosmos DB</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-table-api">
+          <source>Modify an existing Table API application to use Cosmos DB</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-table-api">
+          <source>Ability to create and develop NoSQL databases</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-table-api">
+          <source>Ability to create and develop Cosmos DB databases</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.azure.store-access-data-cosmos-table-api">
+          <source>Ability to parse JSON data by using C#</source>
+        </trans-unit></group></body></file></xliff>

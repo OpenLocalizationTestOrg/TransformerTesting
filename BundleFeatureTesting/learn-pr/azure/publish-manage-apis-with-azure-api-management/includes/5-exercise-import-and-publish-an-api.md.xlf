@@ -1,0 +1,65 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-exercise-import-and-publish-an-api.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-exercise-import-and-publish-an-api.57373e.0dbe8c342779695a77e2f600a2c3b8d03bcdab8e.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0dbe8c342779695a77e2f600a2c3b8d03bcdab8e</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\publish-manage-apis-with-azure-api-management\includes\5-exercise-import-and-publish-an-api.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>To make share an API, you import the API into API Management, and then make it available by publishing it.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In the shoe company example, you're now ready to import and publish an API so that partners can access inventory and product information.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Here, you'll import an API that exposes an OpenAPI endpoint.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You'll test the imported API using visualization, and then publish the API.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Import the API</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The first part of the exercise is to import Northwind Shoes into an API Management gateway.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Sign into the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept> using the same account you activated the sandbox with.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In the left menu, click <bpt id="p1">**</bpt>All Resources<ept id="p1">**</ept>, and then select your API gateway.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>API management<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>APIs<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Add a new API<ept id="p1">**</ept> page, click <bpt id="p2">**</bpt>OpenAPI<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Add a new API</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Create from OpenAPI specification<ept id="p1">**</ept> page, in the <bpt id="p2">**</bpt>OpenAPI specification<ept id="p2">**</ept> box, paste the swagger JSON URL that you saved at the end of the first exercise.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You'll notice that when you tab out of the box, some of the other fields will be populated for you.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This is because we have used OpenAPI which specifies all of the required connection details.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Leave the other settings at their defaults.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Create<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Visualize the API</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The last part of the exercise is to test the API and visualize the results using two tests.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You'll first issue a basic GET request passing in a single parameter.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>On the API details page, click <bpt id="p1">**</bpt>Test<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Click the first test, <bpt id="p1">**</bpt>Find the details of the specified product<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Template parameters<ept id="p1">**</ept>, type a number into the <bpt id="p2">**</bpt>Value<ept id="p2">**</ept> box.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>GET request with parameter</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Scroll down and note that the <bpt id="p1">**</bpt>Request URL<ept id="p1">**</ept> includes the <ph id="ph1">`/api/Products/{productid}`</ph> suffix.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Send<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You should get a <bpt id="p1">**</bpt>200 OK<ept id="p1">**</ept> response to the GET request, and details of all products in the payload.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Now, test using a basic GET request without any parameters.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Click the third test, <bpt id="p1">**</bpt>Retrieve the entire product inventory for the company<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>GET request without parameter</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Scroll down and note that the <bpt id="p1">**</bpt>Request URL<ept id="p1">**</ept> includes the <ph id="ph1">`/api/Inventory`</ph> suffix.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Send<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You should get a <bpt id="p1">**</bpt>200 OK<ept id="p1">**</ept> response to the GET request, and details of the inventory (stock level) for your product in the payload.</source>
+        </trans-unit></group></body></file></xliff>

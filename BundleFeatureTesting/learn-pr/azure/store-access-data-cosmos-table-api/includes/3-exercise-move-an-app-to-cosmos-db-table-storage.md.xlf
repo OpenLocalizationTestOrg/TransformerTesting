@@ -1,0 +1,229 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-exercise-move-an-app-to-cosmos-db-table-storage.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-exercise-move-an-app-to-cosmos-db-table-storage.86a05b.c70b281594cbdeb4cb64a43078907757d0824d2c.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c70b281594cbdeb4cb64a43078907757d0824d2c</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\store-access-data-cosmos-table-api\includes\3-exercise-move-an-app-to-cosmos-db-table-storage.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Apps that use Azure Storage tables can be moved to Cosmos DB Tables API by changing the connection string.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Suppose you have decided to migrate the data for your app that manages camera lenses into Cosmos DB.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You want to reconfigure this app to use the new database.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Here, you will create and populate a table with data in a storage table.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You will see the app working in that context and then move it onto Cosmos DB, with no changes to the code.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Create a Storage account</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Let's start by creating a storage account.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Later, you'll configure the app to store table entries in this account.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Browse to the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept>, and log in using the account that you used when you activated the sandbox.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>+ Create a resource<ept id="p1">**</ept>, then <bpt id="p2">**</bpt>Storage<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Storage account<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Create storage account<ept id="p1">**</ept> wizard, complete the <bpt id="p2">**</bpt>Basics<ept id="p2">**</ept> page with these values, and then click <ph id="ph1">&lt;nobr&gt;</ph><bpt id="p3">**</bpt>Next:<ph id="ph2">&amp;nbsp;</ph>Advanced<ph id="ph3">&amp;nbsp;</ph><ph id="ph4">&amp;gt;</ph><ept id="p3">**</ept><ph id="ph5">&lt;nobr&gt;</ph>.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Value</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Subscription</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Concierge Subscription</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Resource group</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;rgn&gt;</bpt>[Sandbox resource group]<ept id="p1">&lt;/rgn&gt;</ept></source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Storage account name</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Use a globally unique value.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For example, "lensesstorage" with your own initials postfixed.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Location</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Choose a region near you from the above list.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Performance</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Standard</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Account kind</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>StorageV2 (general-purpose v2)</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Replication</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Locally redundant storage (LRS)</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Access tier</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Cool</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Create a storage account</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Advanced<ept id="p1">**</ept> page, next to <bpt id="p2">**</bpt>Secure transfer required<ept id="p2">**</ept>, click <bpt id="p3">**</bpt>Disabled<ept id="p3">**</ept> and then click <bpt id="p4">**</bpt>Review + create<ept id="p4">**</ept>.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Check your configuration, and then click <bpt id="p1">**</bpt>Create<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>It might take a few minutes for Azure to create your new storage account.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Clone the Lenses app</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The Lenses App is a sample command-line program that stores information about camera lenses in an Azure Storage table.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Let's clone that app from GitHub.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>In the Cloud Shell on the right, run the following command to create a folder for the lenses app.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To clone the app from GitHub, run the following command.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Configure the Lenses app with the connection string</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Next, you will configure the lenses app with the connection string of the storage account you created, so that it knows where to store data.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept>, click <bpt id="p2">**</bpt>All resources<ept id="p2">**</ept>, and then click the storage account you created.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>Access Keys<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>To the right of the <bpt id="p1">**</bpt>key1 Connection string<ept id="p1">**</ept> textbox, click the <bpt id="p2">**</bpt>Copy<ept id="p2">**</ept> button.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Copy the storage account connection string</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>In the Cloud Shell on the right, run the following command to change to the folder for the lenses app.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Enter the following command to start the code editor.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>In the code editor, in the <bpt id="p1">**</bpt>Files<ept id="p1">**</ept> list, double-click <bpt id="p2">**</bpt>appsettings.json<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Replace the value of the <bpt id="p1">**</bpt>LensesDatabase<ept id="p1">**</ept> property with the connection string that you just copied.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To save your changes, press <bpt id="p1">**</bpt>Ctrl-S<ept id="p1">**</ept> to save the file, and then press <bpt id="p2">**</bpt>Ctrl-Q<ept id="p2">**</ept> to exit the editor.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Run the lenses app to populate the lenses table</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>We can use the .NET Core CLI tool to compile and run the lenses app.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Here, let's use it to populate a table with lenses and then add our own lens entry.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To create and populate a table, run this command.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>To add your own lens to the table, run a command like the following example.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>To display the contents of the Azure Storage table, run this command.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>You should see a display that is similar to the following.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept>, click <bpt id="p2">**</bpt>All resources<ept id="p2">**</ept>, and then click the storage account you created.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Storage Explorer<ept id="p1">**</ept>, expand <bpt id="p2">**</bpt>Tables<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>lensestable<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The Storage Explorer displays the list of camera lenses, including the lens you added.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Lenses in the Storage Account table</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Create a Cosmos DB database</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Next, create a Cosmos DB database in your Azure subscription, and select the <bpt id="p1">**</bpt>Azure Table<ept id="p1">**</ept> API.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept>, click <bpt id="p2">**</bpt>+ Create a resource<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Databases<ept id="p1">**</ept>, and then click <bpt id="p2">**</bpt>Azure Cosmos DB<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Create Azure Cosmos DB Account<ept id="p1">**</ept> wizard, complete the <bpt id="p2">**</bpt>Basics<ept id="p2">**</ept> page with these values, and then click <bpt id="p3">**</bpt>Review + create<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Field</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Value</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Subscription</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Concierge Subscription</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Resource group</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;rgn&gt;</bpt>[Sandbox resource group]<ept id="p1">&lt;/rgn&gt;</ept></source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Account name</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Use a globally unique value.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>For example, "lensesdb" with your own initials postfixed.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>API</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Azure Table</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Location</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Choose a region near you from the above list.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Geo-Redundancy</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Disable</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Multi-region Writes</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Disable</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Create a Cosmos database</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If your settings are correct, click <bpt id="p1">**</bpt>Create<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>It might take a few minutes for Azure to create your new Cosmos DB account.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Switch the Lenses app to the Cosmos DB database</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>To change the lenses app to use the new Cosmos DB database, you must change the connection string.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept>, click <bpt id="p2">**</bpt>All resources<ept id="p2">**</ept>, and then click the Cosmos database you created.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>Connection String<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>To the right of the <bpt id="p1">**</bpt>PRIMARY CONNECTION STRING<ept id="p1">**</ept> textbox, click the <bpt id="p2">**</bpt>Copy<ept id="p2">**</ept> button.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Copy the Cosmos DB connection string</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>In the Cloud Shell on the right, to start the code editor, type this command.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>In the code editor, in the <bpt id="p1">**</bpt>Files<ept id="p1">**</ept> list, double-click <bpt id="p2">**</bpt>appsettings.json<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Replace the value of the <bpt id="p1">**</bpt>LensesDatabase<ept id="p1">**</ept> property with the connection string that you just copied.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>To save your changes, press <bpt id="p1">**</bpt>Ctrl-S<ept id="p1">**</ept> to save the file, and then press <bpt id="p2">**</bpt>Ctrl-Q<ept id="p2">**</ept> to exit the editor.</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Investigate the contents of the Cosmos Database</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Now that you have changed the app to use the Cosmos DB database, let's see whether it connects and displays the correct contents.</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>To display the contents of the table, run this command.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>There should be no entries in the table, because you have not yet migrated the data.</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept>, click <bpt id="p2">**</bpt>All resources<ept id="p2">**</ept>, and then click the Cosmos database you created.</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Data Explorer<ept id="p1">**</ept>, and then next to <bpt id="p2">**</bpt>TABLE API<ept id="p2">**</ept>, click the refresh button.</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Again, no tables or entities are yet present.</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Test the Cosmos DB database</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Finally, let's populate the table in Cosmos DB and view the results.</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>In the Cloud Shell, to create and populate a table, run the following command.</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>To display the contents of the table, run the following command.</source>
+        </trans-unit><trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>You should see a table displayed like you saw with the Azure Storage Table.</source>
+        </trans-unit><trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>To add your own lens to the table, run a command like the following example.</source>
+        </trans-unit><trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept>, click <bpt id="p2">**</bpt>All resources<ept id="p2">**</ept>, and then click the Cosmos database you created.</source>
+        </trans-unit><trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Data Explorer<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>AZURE TABLE API<ept id="p1">**</ept>, expand <bpt id="p2">**</bpt>TablesDB<ept id="p2">**</ept>, then <bpt id="p3">**</bpt>lensestable<ept id="p3">**</ept>, and then click <bpt id="p4">**</bpt>Entities<ept id="p4">**</ept>.</source>
+        </trans-unit><trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The data explorer displays your list of camera lenses.</source>
+        </trans-unit><trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Lenses data in Cosmos DB</source>
+        </trans-unit></group></body></file></xliff>

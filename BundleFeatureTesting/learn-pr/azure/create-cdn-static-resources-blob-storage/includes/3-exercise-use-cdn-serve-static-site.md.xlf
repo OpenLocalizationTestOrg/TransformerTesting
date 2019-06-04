@@ -1,0 +1,63 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-exercise-use-cdn-serve-static-site.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-exercise-use-cdn-serve-static-site.78df89.7ebf81ffa8c841754dc51aa77f8782a8af466c23.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7ebf81ffa8c841754dc51aa77f8782a8af466c23</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-cdn-static-resources-blob-storage\includes\3-exercise-use-cdn-serve-static-site.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Serving video files to global users will likely benefit from a Content Delivery Networks (CDN).</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Here you'll learn how to create a CDN endpoint and profile.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Then you'll see how to configure the endpoint to cache content from a static website.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Create a Content Delivery Network</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Now, you'll create a CDN and connect that CDN to the website that you've created from your storage account.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Sign into the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept> using the same account you used to activate the sandbox.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In the Azure portal, click <bpt id="p1">**</bpt>Create a resource<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>New<ept id="p1">**</ept> pane, click <bpt id="p2">**</bpt>Web<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Featured<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>CDN<ept id="p2">**</ept> (or search for <bpt id="p3">**</bpt>CDN<ept id="p3">**</ept>).</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Give your CDN a name, such as <bpt id="p1">**</bpt>yourinitials-cdn<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Resource Group<ept id="p1">**</ept>, select the existing Resource Group ("<bpt id="p2">**</bpt><bpt id="p3">&lt;rgn&gt;</bpt>[sandbox resource group name]<ept id="p3">&lt;/rgn&gt;</ept><ept id="p2">**</ept>") from the drop-down list.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Under <bpt id="p1">**</bpt>Pricing tier<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Standard Microsoft<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Ensure that <bpt id="p1">**</bpt>Create a new CDN endpoint now<ept id="p1">**</ept> isn't selected, then click <bpt id="p2">**</bpt>Create<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Create a new CDN Endpoint in the Azure</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When you've created the profile, click the Notifications (bell) icon, then click <bpt id="p1">**</bpt>Successfully created a CDN profile<ept id="p1">**</ept> to display the CDN profile pane.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Create a CDN Endpoint</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You now need to create a CDN profile that connects to the source web server in the storage account.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Take the following steps:</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In the CDN Profile blade, click <bpt id="p1">**</bpt>+ Endpoint<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Add an endpoint<ept id="p1">**</ept> blade, enter a name for the endpoint.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Origin type<ept id="p1">**</ept> list, select <bpt id="p2">**</bpt>Custom origin<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Origin type<ept id="p1">**</ept> specifies what type of hosting service is used.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Custom origin<ept id="p1">**</ept> is used for any other type of publicly accessible origin webserver.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This can be a webserver hosted on Azure or elsewhere.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Origin hostname<ept id="p1">**</ept> field, enter the URL from when you created the web site.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Remove the <bpt id="p1">**</bpt>https://<ept id="p1">**</ept> and the final trailing slash character.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> to create the endpoint.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Note the message that it can take up to 10 minutes for the settings to reach every CDN POP.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>After 10 minutes has elapsed, click the <bpt id="p1">**</bpt>Endpoint hostname<ept id="p1">**</ept> link.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The web site should display.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Create a new CDN endpoint in the Azure portal</source>
+        </trans-unit></group></body></file></xliff>

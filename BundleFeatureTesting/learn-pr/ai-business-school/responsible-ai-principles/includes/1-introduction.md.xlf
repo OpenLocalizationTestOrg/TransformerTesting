@@ -1,0 +1,25 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.5b1efb.735d1e4e47b74b69e9bff5d0ed03ce57d416edbf.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">735d1e4e47b74b69e9bff5d0ed03ce57d416edbf</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\responsible-ai-principles\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The societal implications of AI and the responsibility of enterprises to anticipate and mitigate unintended consequences of AI technology are significant.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Considering this responsibility, enterprises are finding the need to create internal policies and practices to guide their AI efforts, whether they are deploying third-party AI solutions or developing their own.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>In this module, you will learn to:<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Describe the importance of engaging with AI in a responsible manner.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Identify six guiding principles to develop and use AI responsibly.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Determine the elements of an AI governance system.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>We should also recognize that as organizations and as a society, our steps towards responsible AI will need to continually evolve to reflect new innovations and lessons from both our mistakes and accomplishments.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The processes, tools, and resources mentioned in these units can be a starting point from which organization create their own AI strategy.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>As the use of AI increases across the private and public sectors, it is essential that we continue to foster open dialogue among businesses, governments, NGOs, academic researchers, and all other interested individuals and organizations.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Enterprises that embrace AI early have an important role to play in promoting the responsible use of AI and preparing society for its impacts.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Their firsthand experience in dealing with the ethical challenges of AI will be crucial knowledge for later adopters and those trying to study or regulate AI technology.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Let’s explore the principles and guidelines of responsible AI.</source>
+        </trans-unit></group></body></file></xliff>

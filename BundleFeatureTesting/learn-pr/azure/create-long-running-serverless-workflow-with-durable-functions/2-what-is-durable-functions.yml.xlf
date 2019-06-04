@@ -1,0 +1,67 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-what-is-durable-functions.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-what-is-durable-functions.45abce.6fc61acd42d4acd9567f95071df53fd276ac1abe.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6fc61acd42d4acd9567f95071df53fd276ac1abe</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-long-running-serverless-workflow-with-durable-functions\2-what-is-durable-functions.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>What is Durable Functions?</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>What is Durable Functions?</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>What is Durable Functions?</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>What is Durable Functions?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>Durable Functions is an extension of Azure Functions, that allow you to simplify complex stateful executions in a serverless-environment</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>That is correct.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>Durable Functions is an extension of Azure Functions, that allow you to simplify complex stateful executions in a serverless-environment</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>Durable Functions is a logical container for a single workflow that you define using triggers and actions.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>No.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>This is a description of Logic Apps.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>Durable Functions is an extension of Azure Functions.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>Durable Functions is a serverless compute service that enables you to run code on-demand without having to explicitly provision or manage infrastructure.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>No.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>This is a description of Azure Functions.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>Which of the following best describes the role of the Orchestrator fucntion in a workflow?</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>It's used as the basic unit of work (actions and tasks) in a durable function orchestration.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>The basic unit of work is the Activity function.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>It's the entry point for creating an instance of a Durable Functions orchestration.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>The client function serves as the entry point for a Durable Functions orchestration.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>It's used for describing how actions are executed and the order in which actions are executed.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>That is correct.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>The Orchestrator Function is written in code and used for describing how actions are executed and the order in which actions are executed.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>Which of the following best explains why the Human Interaction application pattern benefits from Durable Functions?</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>A manual process within an automated process is tricky because people aren't as highly available and as responsive as computers.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>That is correct.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>Human interaction can be incorporated using timeouts and compensation logic.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>It addresses the problem of coordinating the state of long-running operations with external clients.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>No.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>You can use the Async HTTP APIs application pattern handle this situation.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>It allows the output from one function to be applied to input of the next function in a series of function calls.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>No.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn.azure-create-long-running-serverless-workflow-with-durable-functions.2-what-is-durable-functions">
+          <source>Use the Function Chaining application pattern for this situation.</source>
+        </trans-unit></group></body></file></xliff>

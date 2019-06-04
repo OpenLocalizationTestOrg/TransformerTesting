@@ -1,0 +1,121 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-how-adkar-framework-helps-change.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-how-adkar-framework-helps-change.5113d9.c0be5a52ff74067dd636db285956fdee6b2c5042.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c0be5a52ff74067dd636db285956fdee6b2c5042</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\build-an-ai-ready-culture\includes\4-how-adkar-framework-helps-change.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Introduction</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>As discussed previously, fostering an AI-ready culture requires a fundamental transformation in how you do things, how employees relate to each other, what skills they have, and what processes and principles guide your behaviors.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>All these changes require altering behaviors, which in turn requires letting go of old habits and adopting new ones<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This is, without a doubt, one of the hardest things for people to do.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>A cultural transformation like this is driven largely by leaders<ept id="p1">**</ept> and requires an approach that generates energy and inspires employees.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In the age of AI, leadership needs to be nimble and responsive in managing change.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Change management as a discipline <bpt id="p1">**</bpt>enables organizations to help their people adopt organizational changes<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Change management techniques are most helpful when they use a framework that guides the organization in a structured manner.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>There are many approaches and frameworks on the market that cater to different types of organization and cultures.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To better illustrate the learnings and concepts shared in this module we will connect them to Prosci’s ADKAR change management framework.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Basic change concepts</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Before getting into Prosci's framework, we would like to highlight some ideas that are key in every change process, and that provide a useful context to understand the pillars of Prosci’s model.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Senders and receivers:<ept id="p1">**</ept> It’s important to keep in mind that every communication has a sender and a receiver, so what one person says may not mean what the other hears or understands.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In addition, the identity of the sender can influence how the message is received.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You need to keep these two things in mind when preparing and managing change.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resistance:<ept id="p1">**</ept> Resistance is a constant in every change process.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The question is never if an organization will find resistance, but when and how intense it will be.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Always be prepared to manage resistance.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Value systems:<ept id="p1">**</ept> The value system and history of change in an organization matter.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>They determine the credibility and success of each new change initiative.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Account for that when managing change.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Authority for change:<ept id="p1">**</ept> Having the right leadership and sponsorship is of paramount importance.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Sponsorship should be active and visible, not just in name only.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Executive sponsorship provides resources and funding, establishes priorities, and understands and communicates why the change is being made.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>It also provides consistent support and the proper channel for resistance management.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Incremental vs. radical change:<ept id="p1">**</ept> The size and extent of a change matter.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>They impact how employees perceive and react to change, including how much they will resist that change.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Account for that when designing your transformation strategies.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>The right answer is not enough:<ept id="p1">**</ept> Changes come to life through the work and behaviors of individuals.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Having the right products, technical solutions, or appealing branding is not enough to create buy-in and commitment, mitigate resistance, and eliminate fear.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Leadership, at all levels, once more proves crucial.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Change is a process:<ept id="p1">**</ept> It does not happen in one day.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Keep in mind that it’s people that change, and each person has their own process and their own pace.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To ensure adoption and a new organizational state, a critical mass of people have to actually change.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>And it is here, at the individual level, that we need to start paying attention.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>ADKAR: The people side of change</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The acronym ADKAR refers to the <bpt id="p1">**</bpt>five stages (or milestones) that an individual moves through to achieve change<ept id="p1">**</ept>—or to put it a different way, to move from one set of habits and behaviors to a new one.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>These milestones are sequential because people need to fully understand, commit, and achieve one milestone before they can effectively tackle the next one.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>It is only when individuals reach the last milestone that transformation becomes a reality.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>It’s important to note that individuals may move back and forth among these stages as they learn the new implications of a change and understand "how it impacts me."</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>These are the five stages of the model:</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>ADKAR definition</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>How to move from the individual to the organizational level</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Once you understand the change journey at the individual level, you might ask: how can my organization help people move through ADKAR’s five stages and ultimately achieve long-term change?</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Prosci defines <bpt id="p1">**</bpt>five essential tools to support the people side of change<ept id="p1">**</ept> and help individuals in their transformation journey.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>These tools are referred to as the five levers of change management.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Communication plan:<ept id="p1">**</ept> Change requires effective communication, from defining the right messages for the right audiences, to choosing the right channels and senders to convey information and listen to people’s concerns.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Sponsorship roadmap:<ept id="p1">**</ept> Sponsoring change is not something that comes naturally to everyone.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Even senior leaders need a roadmap to guide through their role as a change sponsor.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>According to Prosci’s research, this is the number one contributor to success in any change management initiative.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Coaching plan:<ept id="p1">**</ept> Coaching needs to takes place between employees and their direct supervisors.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The coaching plan prepares managers and direct supervisors to support and coach their teams through change.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This is crucial, as it is the only tool that contributes to moving through all five ADKAR stages.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The coaching plan helps supervisors first understand and commit to change themselves, so they are prepared to effectively support others.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Training plan:<ept id="p1">**</ept> The training plan helps build the skills and capabilities required to change.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resistance management plan:<ept id="p1">**</ept> Organizations need a plan to help them prepare, prevent, and ultimately manage resistance in an effective way.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Each of these change management tools contributes to reaching particular ADKAR stages, giving organizations practical guidance on how to help individuals reach the different milestones.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>It’s essential for organizations to use all five change management tools, as none of them alone is sufficient to support effective change.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>ADKAR phases and tools</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Now that you understand the change journey, let’s take a holistic look at your organization through a model that will help you understand how prepared your organization is to take advantage of AI.</source>
+        </trans-unit></group></body></file></xliff>

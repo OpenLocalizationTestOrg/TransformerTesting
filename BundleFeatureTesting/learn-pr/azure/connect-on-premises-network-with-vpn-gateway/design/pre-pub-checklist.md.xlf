@@ -1,0 +1,77 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="pre-pub-checklist.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">pre-pub-checklist.e53462.0e6eaac2553176db5096b63a133c7db2660a499f.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0e6eaac2553176db5096b63a133c7db2660a499f</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\connect-on-premises-network-with-vpn-gateway\design\pre-pub-checklist.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Pre-publication checklist</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Metadata</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Content/Media/assets</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Index.yml</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>All other yml files</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Exercises</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Metadata</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>[X] is the uid set in all yml files?</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Content/Media/assets</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>[X] Remove regions from urls</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>[] Final images/screenshots are present</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>[X] Badge images are present</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>[X] Verify Acrolinx score for all content (score &gt; 80)</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Index.yml</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>[X] <bpt id="p1">*</bpt>title<ept id="p1">*</ept> is set</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>[X] <bpt id="p1">*</bpt>description<ept id="p1">*</ept> is set and follows guidelines (doesn't duplicate title)</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>[X] <bpt id="p1">*</bpt>summary<ept id="p1">*</ept> is set and follows guidelines</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>[X] <bpt id="p1">*</bpt>abstract<ept id="p1">*</ept> is set and lists objectives (no periods)</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>[X] <bpt id="p1">*</bpt>prerequisites<ept id="p1">*</ept> are set</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>[X] <bpt id="p1">*</bpt>ms.date<ept id="p1">*</ept> is set to publication date</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>[X] <bpt id="p1">*</bpt>author<ept id="p1">*</ept> and <bpt id="p2">*</bpt>ms.author<ept id="p2">*</ept> are set</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>[X] <bpt id="p1">*</bpt>ms.prod<ept id="p1">*</ept> is set to <bpt id="p2">**</bpt>learning-azure<ept id="p2">**</ept></source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>[X] <bpt id="p1">*</bpt>iconUrl<ept id="p1">*</ept> is set and points to a valid svg</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>[X] <bpt id="p1">*</bpt>badge<ept id="p1">*</ept> has <bpt id="p2">*</bpt>uid<ept id="p2">*</ept> child set to uid</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>[X] all units are listed</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>All other yml files</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>[X] <bpt id="p1">*</bpt>uid<ept id="p1">*</ept> is set and matches index.yml</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>[X] <bpt id="p1">*</bpt>title<ept id="p1">*</ept> is set</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>[X] <bpt id="p1">*</bpt>ms.date<ept id="p1">*</ept> is set</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>[X] <bpt id="p1">*</bpt>author<ept id="p1">*</ept> and <bpt id="p2">*</bpt>ms.author<ept id="p2">*</ept> are set</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>[X] <bpt id="p1">*</bpt>durationInMinutes<ept id="p1">*</ept> is set and IS ACCURATE</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>[X] <bpt id="p1">*</bpt>interactive<ept id="p1">*</ept> is set to <bpt id="p2">**</bpt>bash<ept id="p2">**</ept> or <bpt id="p3">**</bpt>azure-portal<ept id="p3">**</ept> (if exercise)</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>[X] <bpt id="p1">*</bpt>azureSandbox<ept id="p1">*</ept> is set to true if needed</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>[X]  Knowledge checks reviewed for spelling and accuracy</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>[X] <bpt id="p1">*</bpt>ROBOTS: NOINDEX<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Exercises</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>[X] All exercise units have *Exercise - * prefix on titles</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>[X] Ensure that the Azure DevOps Work Item Lab Enabled and Lab Type fields are completed</source>
+        </trans-unit></group></body></file></xliff>

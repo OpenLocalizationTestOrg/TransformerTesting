@@ -1,0 +1,85 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-sales-case-study-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-sales-case-study-introduction.e62154.39c8140b3de4b65a96e3a4bb7f6effd9092505ca.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">39c8140b3de4b65a96e3a4bb7f6effd9092505ca</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\foster-ai-ready-culture-sales\includes\2-sales-case-study-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Context</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Sales organizations have more tools and customer information at their fingertips than ever, but they struggle to make this data accessible and turn it into actionable insights.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The challenge is to use this data to understand customer behavior so that each seller can deliver the right message to the right customer at the right time—at scale.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>People involved in decisions</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In addition, sales organizations are struggling to adapt to the changing sales journey.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For instance, there are now more decision-makers and influencers involved in a typical sale.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>CEB has found that there are now an average of 6.8 people involved in each B2B purchase decision up from 5.2 in its previous research.<bpt id="p1">&lt;sup&gt;</bpt>1<ept id="p1">&lt;/sup&gt;</ept> Moreover, decision-makers and influencers are more informed and prefer to do their own research before they engage with a sales representative.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>With so many stakeholders in play, each more informed than ever before, it’s essential that sellers identify the most engaged contacts and key influencers on an account and know exactly what matters to them.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Microsoft context: Sales enablement</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>At Microsoft, these challenges are compounded by a number of factors, not least of which is our transformation from a company that sells licenses and products to one that sells services.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>With this transformation, our sales processes and competitor landscape have changed dramatically.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The cloud is one of our most competitive areas and one where we are seeing significant pressure to grow through both net-new and increased consumption.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Our sellers are making more calls than they used to, which means they’re spending a lot more time preparing for calls with research and analytics and ensuring data hygiene.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In addition, our sellers deal with a much larger suite of services compared to other companies, even other enterprise leaders.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>With so many services available to pitch to customers, there is a tremendous need for automated recommendations to ensure that sellers are promoting the right services.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Moreover, customers come prepared with plenty of research before making a technology stack decision and often don’t engage with a seller until they are close to 60% of the way through their buying journey.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This means sellers need to have the right technical understanding of each service so that they’re prepared to establish their relevance by having in-depth conversations from day one.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Supporting sellers with robust learning and readiness content is a challenge.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Finally, we identified that we were missing an opportunity to implement centralized governance around lead targeting criteria and thereby align our sellers around a single source of white space that can be quality controlled, governed, and continuously measured.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Questions</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The following questions can help guide conversations both internal and external about implementing AI in your sales organization.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Think critically about these questions before reviewing the executive perspective video and continuing on to the case study resolution.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Strategy</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>What are the most time-consuming activities for your sales employees?</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>How could you use AI to augment your employees’ capabilities and skills in these areas?</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Which stakeholders do you need to gain buy-in from to implement a sales AI initiative?</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Which scenarios provide a convincing business case and are great candidates for AI?</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Culture</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>How can you use AI to increase sales team satisfaction and decrease frustration?</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>How will you ensure the voices of all your sales employees are heard in developing and implementing AI?</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>How will you empower your employees to develop innovative AI use cases?</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Implementation</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>What will you need to do to ensure that sellers trust and adopt the AI applications that you implement?</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>How can you design the implementation process to cause the least disruption possible to sales operations?</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>What sources of information do you need to aggregate to build a more comprehensive view of your customers?</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Is this data currently siloed?</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>How can you maintain unified data into the future?</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>AI maturity</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Depending on your organization’s level of AI maturity, your ability to implement AI will vary.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>We recommend that you evaluate your AI maturity by asking questions like: Is your organization an early adopter of technology or do you wait to implement technology after it has matured?</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Do you have governance structures in place to ensure AI applications are driving towards your desired business outcomes?</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Now that you understand the context of the challenges sales organizations face today, and considered critical questions to answer before implementing AI, watch the executive perspective video with Jean-Philippe Courtois, Microsoft Executive Vice President and President, Global Sales, Marketing, and Operations.</source>
+        </trans-unit></group></body></file></xliff>

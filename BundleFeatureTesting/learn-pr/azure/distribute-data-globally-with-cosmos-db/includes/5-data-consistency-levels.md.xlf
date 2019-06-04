@@ -1,4 +1,4 @@
-<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-data-consistency-levels.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-data-consistency-levels.3c13ee6089e468ddaaad41e8f04509c5284f179e.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">51b81dc67ada34224a3b4ceb880566953971109c</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">05/13/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\distribute-data-globally-with-cosmos-db\includes\5-data-consistency-levels.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-data-consistency-levels.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-data-consistency-levels.22f56f.251d9b608d59c7bfe5324a7e2dcb474ce86a85b4.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">251d9b608d59c7bfe5324a7e2dcb474ce86a85b4</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\distribute-data-globally-with-cosmos-db\includes\5-data-consistency-levels.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
           <source>Azure Cosmos DB allows developers to choose between five well-defined consistency models along the consistency spectrum – strong, bounded staleness, session, consistent prefix, and eventual.</source>
         </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
           <source>These consistency levels enable you to maximize the availability and performance of your database, depending on your needs.</source>
@@ -97,63 +97,67 @@
         </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
           <source>A read is always acknowledged by the majority read quorum, a client can never see an uncommitted or partial write and is always guaranteed to read the latest acknowledged write.</source>
         </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
-          <source>Azure Cosmos DB accounts that are configured to use strong consistency cannot associate more than one Azure region with their Azure Cosmos DB account.</source>
+          <source>You can have an Azure Cosmos account with strong consistency and multiple write regions.</source>
         </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
-          <source>The cost of a read operation (in terms of request units consumed) with strong consistency is higher than session and eventual, but the same as bounded staleness.</source>
+          <source>However, the benefits such as low write latency, high write availability that are available to multiple write regions are not applicable to Cosmos accounts configured with strong consistency, because of synchronous replication across regions.</source>
         </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
-          <source>Bounded staleness consistency</source>
+          <source>For more information, see <bpt id="p1">[</bpt>Consistency and Data Durability in Azure Cosmos DB<ept id="p1">](/azure/cosmos-db/consistency-levels-tradeoffs)</ept> article.</source>
         </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
-          <source>Bounded staleness consistency guarantees that the reads may lag behind writes by at most <bpt id="p1">*</bpt>K<ept id="p1">*</ept> versions or prefixes of an item or <bpt id="p2">*</bpt>t<ept id="p2">*</ept> time-interval.</source>
+          <source>The cost of a read operation (in terms of request units consumed) with strong consistency is higher than session and eventual, but the same as bounded staleness.</source>
         </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
-          <source>Therefore, when choosing bounded staleness, the "staleness" can be configured in two ways: number of versions <bpt id="p1">*</bpt>K<ept id="p1">*</ept> of the item by which the reads lag behind the writes, and the time interval <bpt id="p2">*</bpt>t<ept id="p2">*</ept>.</source>
+          <source>Bounded staleness consistency</source>
         </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
-          <source>Bounded staleness offers total global order except within the "staleness window."</source>
+          <source>Bounded staleness consistency guarantees that the reads may lag behind writes by at most <bpt id="p1">*</bpt>K<ept id="p1">*</ept> versions or prefixes of an item or <bpt id="p2">*</bpt>t<ept id="p2">*</ept> time-interval.</source>
         </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
-          <source>The monotonic read guarantees exist within a region both inside and outside the "staleness window."</source>
+          <source>Therefore, when choosing bounded staleness, the "staleness" can be configured in two ways: number of versions <bpt id="p1">*</bpt>K<ept id="p1">*</ept> of the item by which the reads lag behind the writes, and the time interval <bpt id="p2">*</bpt>t<ept id="p2">*</ept>.</source>
         </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
-          <source>Bounded staleness provides a stronger consistency guarantee than session, consistent-prefix, or eventual consistency.</source>
+          <source>Bounded staleness offers total global order except within the "staleness window."</source>
         </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
-          <source>For globally distributed applications, we recommend you use bounded staleness for scenarios where you would like to have strong consistency but also want 99.99% availability and low latency.</source>
+          <source>The monotonic read guarantees exist within a region both inside and outside the "staleness window."</source>
         </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
-          <source>Azure Cosmos DB accounts that are configured with bounded staleness consistency can associate any number of Azure regions with their Azure Cosmos DB account.</source>
+          <source>Bounded staleness provides a stronger consistency guarantee than session, consistent-prefix, or eventual consistency.</source>
         </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
-          <source>The cost of a read operation (in terms of RUs consumed) with bounded staleness is higher than session and eventual consistency, but the same as strong consistency.</source>
+          <source>For globally distributed applications, we recommend you use bounded staleness for scenarios where you would like to have strong consistency but also want 99.99% availability and low latency.</source>
         </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
-          <source>Session consistency</source>
+          <source>Azure Cosmos DB accounts that are configured with bounded staleness consistency can associate any number of Azure regions with their Azure Cosmos DB account.</source>
         </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
-          <source>Unlike the global consistency models offered by strong and bounded staleness consistency levels, session consistency is scoped to a client session.</source>
+          <source>The cost of a read operation (in terms of RUs consumed) with bounded staleness is higher than session and eventual consistency, but the same as strong consistency.</source>
         </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
-          <source>Session consistency is ideal for all scenarios where a device or user session is involved since it guarantees monotonic reads, monotonic writes, and read your own writes (RYW) guarantees.</source>
+          <source>Session consistency</source>
         </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
-          <source>Session consistency provides predictable consistency for a session, and maximum read throughput while offering the lowest latency writes and reads.</source>
+          <source>Unlike the global consistency models offered by strong and bounded staleness consistency levels, session consistency is scoped to a client session.</source>
         </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
-          <source>Azure Cosmos DB accounts that are configured with session consistency can associate any number of Azure regions with their Azure Cosmos DB account.</source>
+          <source>Session consistency is ideal for all scenarios where a device or user session is involved since it guarantees monotonic reads, monotonic writes, and read your own writes (RYW) guarantees.</source>
         </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
-          <source>The cost of a read operation (in terms of RUs consumed) with session consistency level is less than strong and bounded staleness, but more than eventual consistency.</source>
+          <source>Session consistency provides predictable consistency for a session, and maximum read throughput while offering the lowest latency writes and reads.</source>
         </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
-          <source>Consistent prefix consistency</source>
+          <source>Azure Cosmos DB accounts that are configured with session consistency can associate any number of Azure regions with their Azure Cosmos DB account.</source>
         </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
-          <source>Consistent prefix guarantees that in absence of any further writes, the replicas within the group eventually converge.</source>
+          <source>The cost of a read operation (in terms of RUs consumed) with session consistency level is less than strong and bounded staleness, but more than eventual consistency.</source>
         </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
-          <source>Consistent prefix guarantees that reads never see out of order writes.</source>
+          <source>Consistent prefix consistency</source>
         </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
-          <source>If writes were performed in the order <ph id="ph1">`A, B, C`</ph>, then a client sees either <ph id="ph2">`A`</ph>, <ph id="ph3">`A,B`</ph>, or <ph id="ph4">`A,B,C`</ph>, but never out of order like <ph id="ph5">`A,C`</ph> or <ph id="ph6">`B,A,C`</ph>.</source>
+          <source>Consistent prefix guarantees that in absence of any further writes, the replicas within the group eventually converge.</source>
         </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
-          <source>Azure Cosmos DB accounts that are configured with consistent prefix consistency can associate any number of Azure regions with their Azure Cosmos DB account.</source>
+          <source>Consistent prefix guarantees that reads never see out of order writes.</source>
         </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
-          <source>Eventual consistency</source>
+          <source>If writes were performed in the order <ph id="ph1">`A, B, C`</ph>, then a client sees either <ph id="ph2">`A`</ph>, <ph id="ph3">`A,B`</ph>, or <ph id="ph4">`A,B,C`</ph>, but never out of order like <ph id="ph5">`A,C`</ph> or <ph id="ph6">`B,A,C`</ph>.</source>
         </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
-          <source>Eventual consistency guarantees that in absence of any further writes, the replicas within the group eventually converge.</source>
+          <source>Azure Cosmos DB accounts that are configured with consistent prefix consistency can associate any number of Azure regions with their Azure Cosmos DB account.</source>
         </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
-          <source>Eventual consistency is the weakest form of consistency where a client may get the values that are older than the ones it had seen before.</source>
+          <source>Eventual consistency</source>
         </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
-          <source>Eventual consistency provides the weakest read consistency but offers the lowest latency for both reads and writes.</source>
+          <source>Eventual consistency guarantees that in absence of any further writes, the replicas within the group eventually converge.</source>
         </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
-          <source>Azure Cosmos DB accounts that are configured with eventual consistency can associate any number of Azure regions with their Azure Cosmos DB account.</source>
+          <source>Eventual consistency is the weakest form of consistency where a client may get the values that are older than the ones it had seen before.</source>
         </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
-          <source>The cost of a read operation (in terms of RUs consumed) with the eventual consistency level is the lowest of all the Azure Cosmos DB consistency levels.</source>
+          <source>Eventual consistency provides the weakest read consistency but offers the lowest latency for both reads and writes.</source>
         </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
-          <source>Summary</source>
+          <source>Azure Cosmos DB accounts that are configured with eventual consistency can associate any number of Azure regions with their Azure Cosmos DB account.</source>
         </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The cost of a read operation (in terms of RUs consumed) with the eventual consistency level is the lowest of all the Azure Cosmos DB consistency levels.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
           <source>In this unit, you've learned how consistency levels can be used to maximize high-availability and minimize latency.</source>
         </trans-unit></group></body></file></xliff>

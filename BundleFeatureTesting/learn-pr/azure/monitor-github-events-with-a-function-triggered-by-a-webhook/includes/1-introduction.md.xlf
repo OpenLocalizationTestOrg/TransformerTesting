@@ -1,0 +1,33 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.d9a2f5.959f1d4d98987a80db0532819cd3c77adb63ab74.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">959f1d4d98987a80db0532819cd3c77adb63ab74</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\monitor-github-events-with-a-function-triggered-by-a-webhook\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Webhooks offer a lightweight mechanism for apps to be notified by another service when something of interest happens via an HTTP endpoint.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You can use a webhook to trigger an Azure function, and then parse the payload to determine what happened and how to respond.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Suppose you are a developer in an IT department.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Management wants a regular report on updates to the company's technology Wiki.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>They'd like to know who contributes, how often it is updated and what pages are updated most often.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The Wiki is hosted on GitHub as a GitHub Wiki on one of the company's git repositories.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You've heard that GitHub supports webhooks and you can receive notifications for all kinds of events.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You are also familiar with Azure Functions and decide to use a Function as the listener for Wiki update events.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>By the end of this module, you'll learn how to create an Azure Function triggered by a webhook and how to secure webhook payloads with a secret.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Trigger an Azure Function from a webhook</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Secure webhook payloads with a secret</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Beginner-level knowledge of Azure Functions</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A GitHub account (you can use a free account)</source>
+        </trans-unit></group></body></file></xliff>

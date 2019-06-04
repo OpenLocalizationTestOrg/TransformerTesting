@@ -1,0 +1,209 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-finance-case-study-resolution.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-finance-case-study-resolution.17259a.8564a8a7cbd639661b41f4176e7750023223b0f9.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8564a8a7cbd639661b41f4176e7750023223b0f9</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\foster-ai-ready-culture-finance\includes\4-finance-case-study-resolution.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Our approach and results</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Our finance organization leveraged the expertise of our employees to identify opportunities to implement AI across the organization.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>From improving the accuracy of our revenue forecasts to reducing the strain on employees through automation to better predicting areas of risk, AI is saving our finance team hundreds and hundreds of hours per month, while enabling better business decision-making and risk mitigation.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Revenue forecasting</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For a company of Microsoft’s size, it has historically taken a team of one thousand people three weeks per quarter to create a revenue forecast.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This team of skilled financial analysts has created highly granular forecasts, but we recognized that human bias and the disparate priorities of different teams have colored the numbers and produced larger variances between forecasts and actuals than we would like (around 2–3% variance).</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>We also recognized that traditional forecasting methods could not take advantage of powerful new capabilities and were unable to generate predictions on demand for different users.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To help address these issues, our finance organization started using Azure Machine Learning to analyze vast quantities of data and produce a highly accurate forecast.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The output was put into CommercialPredict, a Power BI–based tool that synthesizes historical data from our ERP and pipeline data from Dynamics 365 with predictions from Azure Machine Learning to create an unbiased source of truth for the entire organization.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In CommercialPredict, users can get results on demand through a centralized dashboard tailored to their role.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>They can also create custom views of the data to examine the details of predictions and slice across market segments, sub-segments, pricing levels, and strategic products.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This functionality ultimately reduced requests for information and closed knowledge and communication gaps in the organization.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For instance, sellers can see how they’re performing by area in particular SKUs and even gain insights on closing the variance between actuals and forecast.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Centralizing data and providing these standard views exposes the power of machine learning algorithms to a broad audience.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The results of this initiative have been dramatic.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>After implementing machine learning, the variance between our overall revenue forecast and actuals reduced from 3% to 1.5% and variance reduced even further in run-rate businesses where we have a greater volume of data, such as our small and medium business space.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Tearing down silos provided a new level of transparency that benefits our culture.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Because our goal has been to augment traditional forecasts, not replace them, our finance team has continued to use traditional forecasting tools in parallel with machine learning.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>One result is that our traditional manual forecasts have improved too.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Because our analysts use the machine learning forecast as an input, the variance between the traditional forecast and actuals has dropped to 2%.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The decrease in variance has improved our decision-making, and we see our forecasting as more objective and consistent.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A predictive analytics model is dispassionate, so it sidesteps some of the subjective factors of manual forecasting.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Working from a centralized pool of data using agreed-upon analytical methods reduces disagreement and democratizes access to accurate forecast data.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>After many quarters of running machine learning in parallel with traditional forecasting tools, we now rely almost exclusively on machine learning to lock the high-level revenue forecast, so that our analysts can focus on processes that rely on human intelligence, such as partnering with sales teams to find new revenue opportunities.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Intelligent chatbots</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Finance departments are often gatekeepers to data and insights that their business partners need to make decisions and take action.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Employees all over the company have questions that finance needs to answer, many of which are standard and repetitive.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Using intelligent chatbots is an efficient way to meet the demands of our internal customers and provide relief to finance, while keeping costs low.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For instance, we created a credit and collections chatbot to enable field sales, operations, and collectors to quickly and easily access the latest information about their customers.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>For example, they can ask for the customer’s credit limit and any overdue balance, and find out if the customer has exceeded the credit limit and has been placed on hold.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>As a result, we’ve eliminated finance as a bottleneck for sales teams, and accelerated sales cycles.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>In another scenario, our finance operations group trained a bot to help answer the half-a-billion queries received per year about financial systems or processes.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To help alleviate this pressure, we built a chatbot to resolve most of these queries at first touch, without human involvement.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This chatbot has sentiment analysis capabilities, enabling us to identify and triage high-risk interactions and prioritize interactions for white-glove service.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Recently we enabled Bing translation in the chatbot, so it works seamlessly in a wide range of languages, from Czech to Tagalog, which is crucial for a global organization.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The chatbot not only saves the finance team hundreds of hours per month, it allows teams to engage in inter-organizational projects that benefit from their experience and knowledge and is significantly reducing support costs.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Compliance predictive analytics and anomaly detection</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A key responsibility for our finance organization is managing risk among the thousands of transactions that we close every day.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>We are responsible for ensuring these transactions are compliant with Microsoft internal standards and applicable regulations.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>When deals are audited manually, we use generally accepted sampling methods to randomly select a small group of transactions to review in detail.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Any time sampling is used there is risk that some compliance issues could fall through the cracks.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To improve our auditing practices, we implemented machine learning–driven predictive analytics to proactively assign a risk score to all of our transactions before they close, enabling mitigation and successful deal closure.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>By proactively mitigating risky transactions, finance is meeting our goal of being a better partner to the sales organization.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>In addition, we are leveraging our anomaly detection capabilities to automate compliance checks in other processes including invoice approvals, purchase order setup, and GDPR compliance.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>In the invoice payment space, the combination of machine learning and blockchain cuts payment time down from 45 days to just minutes and enables transparency and delivery of an additional layer of assurance to our stakeholders.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Applying these lessons in your organization</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Our journey to transforming finance with AI has included bumps in the road.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>In particular, we’ve learned that the best ideas often come from your employees, that starting with a minimum viable product can accelerate buy-in, and that you shouldn’t think of AI applications as point-of-time solutions that will be perfect on day one.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>These are a few lessons from our experience that you can consider on your own journey with AI:</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Encourage employees to innovate with AI</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>We’ve discovered that the ideas for our most impactful application of AI have come from our employees within the business functions, not from outside or above.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>For instance, in finance, our compliance predictive analytics tools were developed by employees in our finance teams, not by people who had been hired as data scientists.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>To foster innovation, we’ve found that it’s key to provide employees with AI training and tools and to champion and reward employees who identify opportunities to resolve business challenges using AI.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>It may be the voice that’s not heard that has the most insights, so ensure that every employee has the opportunity to innovate with AI and share their ideas.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Start small with simple applications to test adoption and gain buy-in</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>In finance, we started with simple applications like a chatbot to accomplish tasks that we knew would have a big impact.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>We were able to get the chatbot off the ground quickly and we saw immediately the impact it could have: it answered routine yet time-consuming questions at scale, freeing our finance employees to focus on higher-value activities.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>By starting with a smaller, simpler application like this, we could begin evaluating efficacy sooner, and based on the impact and success of the initial implementation, we increased buy-in among stakeholders and are able to build on the solution in the future.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>We have seen the benefits of starting small ourselves, which is why we advise our customers to take the same path and start with minimum viable products, rather than aiming for the moon on day one.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Build in time for AI to learn and improve before rollout</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>By nature, AI is always learning and improving, so it’s best to view AI implementation as an ongoing learning exercise, rather than a fixed point-in-time solution.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>While your AI application might not be perfect on day one, if you enable it to learn, it will improve over time.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>With this in mind, you should build in time for learning before the AI application is rolled out broadly.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>For instance, when we started using machine learning for revenue forecasting in finance, the predictions from the models were only 60% to 70% accurate, but we knew that with continuous training the model would improve.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>After months of refining the models and training them weekly, accuracy rose to over 98.5%.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Especially in business functions like finance, it’s key to have many review and test cycles to demonstrate the accuracy and security of the solution and to have checkpoints to monitor how your AI system is learning and adapting.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Tips from a change management perspective</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>In finance, our focus was on how to foster knowledge and ability, and what needs to be in place for training to be an effective tool.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A common mistake in many organizations is to think that communicating and providing high-quality training are enough to create ability.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Our experience shows that for training to be effective, organizations need to first ensure that employees understand the need for change, the risks of not changing, and what’s in it for them.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>How our learnings relate to ADKAR</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>5 stages of ADKAR</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>What factors and actions helped our people reach this stage</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Awareness</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>We anticipated value from implementing AI in our finance organization, but we did not have a vision for how to leverage it, in part because machine learning was still very new at the time.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>As a finance organization, we’ve always encouraged our people to learn new technologies, and machine learning was no exception.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>We partnered with a recognized expert from our Azure Machine Learning team to design a set of talks and trainings to help our people understand machine learning, including an introductory talk called Demystifying Machine Learning.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>These sessions were recorded and made available to everyone in our worldwide organization.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Having a better understanding of the value of machine learning and how we could apply it to transform our organization was a catalyst to gaining awareness.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>We learned that although machine learning has great potential, it’s not magic—a simple lesson that helped us set the right expectations for how long it would take to develop machine learning applications.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>We also learned how to work with data scientists, and together these lessons created the right conditions for our organization to continue along the learning path.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Desire</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>We knew from the start that we didn’t want AI to replace people.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Instead, we wanted AI to reduce the amount of time individuals spent on time-intensive tasks like forecasting, so that they could dedicate more time to higher-value responsibilities.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Conveying this intention clearly was a key step to overcoming resistance.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>When deciding what our first AI use cases should be, we focused on a task that no one in finance loves: forecasting.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This meant that people could stop dedicating time to this time-consuming task that they didn’t enjoy.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>This provided a good incentive for our people to participate; the “what’s in it for me” was very clear.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Finally, our people worked closely with data scientists to create machine learning models that would best suit their needs, which created a sense of ownership that reinforced their desire to implement this change.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Knowledge</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Once we had a better understanding of the value of machine learning and had built desire in our teams, we needed to provide them training.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>After the initial training with our Azure ML expert, Demystifying Machine Learning, we implemented two more pieces of training: a deep introduction to forecasting and a hands-on learning module.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>After taking these trainings, our people had the knowledge to start designing their own forecasting models.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Ability</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Ability was developed with time, not only because machine learning needs to learn to become more accurate, but also because the teams themselves needed to learn through practice.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The key to building ability was providing people time and support to learn the system and train it to be more accurate.</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>In the beginning, the predictions from the machine learning models were only 60% to 70% accurate.</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Rather than writing off the application as a failure, we encouraged our team to learn from the initial results and refine and train the model.</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>After months of work to improve the model, accuracy rose to over 98.5%.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Reinforcement</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Although these efforts were a little disjointed at first, machine learning is now seamlessly integrated into our process and workflow and available to finance people worldwide.</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Analysts can do their own forecasting and test their models.</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Now people are constantly seeing value, achieving progress and results, and experimenting without negative consequences—this is a fantastic combination to reinforce the use of AI.</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Now that you’ve considered various aspects of what it means to have an AI-ready culture, let’s wrap up everything you’ve learned with a knowledge check.</source>
+        </trans-unit></group></body></file></xliff>

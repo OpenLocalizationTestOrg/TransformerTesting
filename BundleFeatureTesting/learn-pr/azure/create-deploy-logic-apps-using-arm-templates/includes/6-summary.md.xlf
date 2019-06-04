@@ -1,0 +1,27 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-summary.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-summary.07ece9.a2438ef7692b4181e28e670ee5c146ef08045b7f.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a2438ef7692b4181e28e670ee5c146ef08045b7f</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-deploy-logic-apps-using-arm-templates\includes\6-summary.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this module, you defined what Workflow Definition Language means and how to use a Resource Manager template to deploy a Logic Apps workflow.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Resource Manager templates and the JSON representation of a Logic Apps workflow are <bpt id="p1">*</bpt>declarative<ept id="p1">*</ept>, meaning that you define what the workflow should do and what resources you need and let the Resource Manager handle the deployment details.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You used an existing template from a GitHub repo to practice deploying a logic app from the Azure CLI.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You then extended the template to use parameters, making it more configurable.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Finally, you changed the action in our simple workflow to calculate the area of a rectangle.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Once you practice by doing and explore the documentation, it will become clearer how powerful these templates become for deployment of resources, including Logic Apps workflows.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In the university scenario, you'll be able to assemble workflow deployments more quickly, in a consistent, less error-prone, reusable way.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Learn more</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Build Azure Resource Manager templates<ept id="p1">](https://docs.microsoft.com/learn/modules/build-azure-vm-templates/)</ept></source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure Logic Apps Documentation<ept id="p1">](https://docs.microsoft.com/azure/logic-apps/)</ept></source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Quickstart: Create and manage automated logic app workflows - Visual Studio Code<ept id="p1">](https://docs.microsoft.com/azure/logic-apps/Quickstart-create-logic-apps-visual-studio-code)</ept></source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Schema reference for Workflow Definition Language in Azure Logic Apps<ept id="p1">](https://docs.microsoft.com/azure/logic-apps/logic-apps-workflow-definition-language)</ept></source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Create Azure Resource Manager templates for deploying logic appsSS<ept id="p1">](https://docs.microsoft.com/azure/logic-apps/logic-apps-create-deploy-template)</ept></source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,91 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-exercise-test-application-gateway.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-exercise-test-application-gateway.ec6b1c.e804287d9f2b67cea14b1efc000c4f5005599aa3.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e804287d9f2b67cea14b1efc000c4f5005599aa3</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\load-balance-web-traffic-with-application-gateway\includes\6-exercise-test-application-gateway.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The final step is to test the application gateway and verify that it implements load balancing, and won't attempt to direct traffic to a web server that is unavailable.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>We also want to ensure that our path-based routing is working correctly.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Diagram showing the resources that have been deployed</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Test load balancing for the vehicle registration web app</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In the Cloud Shell, run the following command to generate the root URL your Application Gateway.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Using a web browser, navigate to the web site at the URL returned by the previous command.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This is the address of your application gateway.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Verify that the home page of the vehicle registration web app appears.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Note the name of the web server that you're using as shown in the footer (<bpt id="p1">**</bpt>webServer1<ept id="p1">**</ept> or <bpt id="p2">**</bpt>webServer2<ept id="p2">**</ept>).</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Screenshot showing an image of the vehicle registration web app.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Register a Vehicle<ept id="p1">**</ept>, enter the details of a vehicle, and then click <bpt id="p2">**</bpt>Register<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Refresh<ept id="p1">**</ept> in the address bar of the web browser.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Notice that your session should now be connected to a different web server.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In this configuration, Application Gateway uses round-robin load balancing.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Refresh<ept id="p1">**</ept> a few more times.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The requests should oscillate between servers.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Test the resilience of Application Gateway to a failed server</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>In the Cloud Shell, run the following command to stop and deallocate the virtual machine for <bpt id="p1">**</bpt>webServer1<ept id="p1">**</ept>:</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Return to the application in the web browser and click <bpt id="p1">**</bpt>Refresh<ept id="p1">**</ept> several times.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Notice that the web browser now only connects to <bpt id="p1">**</bpt>webServer2<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In the Cloud Shell window on the right, restart the <bpt id="p1">**</bpt>webServer1<ept id="p1">**</ept> instance:</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Return to the web application in the web browser and click <bpt id="p1">**</bpt>Refresh<ept id="p1">**</ept> several times.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You should see that the requests are now distributed across both web servers again.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You've verified that the web application is running.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Application Gateway uses load balancing to distribute requests across servers.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Application Gateway detects whether a server has failed, and won't route requests to a server that is unavailable.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Test path-based routing</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Now let's test out the path-based routing.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Recall that URLs to the root of the site and with <bpt id="p1">**</bpt>/VehicleRegistration/<ept id="p1">**</ept> will be routed to the <bpt id="p2">**</bpt>vmPool<ept id="p2">**</ept> containing our VMs, and requests to <bpt id="p3">**</bpt>/LicenseRenewal/<ept id="p3">**</ept> will be routed to the <bpt id="p4">**</bpt>appServicePool<ept id="p4">**</ept> containing our App Service.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You just confirmed that routing to the root page works, as you were able to pull up the vehicle registration page.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Let's try the other routes to confirm they work.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Now click <bpt id="p1">**</bpt>Register a Vehicle<ept id="p1">**</ept> in the web browser of the application gateway page.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This should bring up the Vehicle Registration page for the vehicle registration site.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>With <bpt id="p1">**</bpt>/VehicleRegistration/<ept id="p1">**</ept> in the URL, this routes to the <bpt id="p2">**</bpt>vmPool<ept id="p2">**</ept> where our vehicle registration site is running.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Screenshot showing an image of the vehicle registration web app.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Now visit <ph id="ph1">`http://&lt;vehicleAppGateway&gt;/LicenseRenewal/Create`</ph>.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This should take you to the license renewal page running on App Service.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>With <bpt id="p1">**</bpt>/LicenseRenewal/<ept id="p1">**</ept> in the URL, this routes to the <bpt id="p2">**</bpt>appServicePool<ept id="p2">**</ept> where our license renewal site is running.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Screenshot showing an image of the license renewal web app.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>With this configuration, we can direct all users for both sites through our Application Gateway, giving them one root URL to remember.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>We can add additional sites as we expand our web presence.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Web application firewall</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>We've also enabled the WAF on our Application Gateway.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>By doing this, we've automatically added security protection to both web sites.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This provides a solid layer of protection from common vulnerabilities and helps protect our infrastructure and data.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-knowledge-check.2f34858f68de7bdc6659daed4a05c4efb0abc310.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5d0cc659cc05d1b217538e622c860d45f56f12de</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">05/13/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\databricks\perform-basic-data-transformation-in-azure-databricks\4-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.perform-basic-data-transformation-in-azure-databricks.4-knowledge-check">
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-knowledge-check.2b7cf3.710d7b050eae92e22310fffedeaf3564d530d189.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">710d7b050eae92e22310fffedeaf3564d530d189</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\databricks\perform-basic-data-transformation-in-azure-databricks\4-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.perform-basic-data-transformation-in-azure-databricks.4-knowledge-check">
           <source>Knowledge check</source>
         </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.perform-basic-data-transformation-in-azure-databricks.4-knowledge-check">
           <source>Knowledge check</source>
@@ -7,15 +7,15 @@
         </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.perform-basic-data-transformation-in-azure-databricks.4-knowledge-check">
           <source>How do you specify parameters when you're reading data?</source>
         </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.perform-basic-data-transformation-in-azure-databricks.4-knowledge-check">
-          <source>Using .option() during your read allows you to pass key/value pairs that specify aspects of your read.</source>
-        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.perform-basic-data-transformation-in-azure-databricks.4-knowledge-check">
-          <source>Using .option() during your read allows you to pass key/value pairs that specify aspects of your read.</source>
-        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.perform-basic-data-transformation-in-azure-databricks.4-knowledge-check">
-          <source>For instance, options for reading CSV data include header, delimiter, and inferSchema.</source>
-        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.perform-basic-data-transformation-in-azure-databricks.4-knowledge-check">
           <source>Using .parameter() during your read allows you to pass key/value pairs that specify aspects of your read.</source>
-        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.perform-basic-data-transformation-in-azure-databricks.4-knowledge-check">
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.perform-basic-data-transformation-in-azure-databricks.4-knowledge-check">
           <source>.parameter() isn't the correct method name.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.perform-basic-data-transformation-in-azure-databricks.4-knowledge-check">
+          <source>Using .option() during your read allows you to pass key/value pairs that specify aspects of your read.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.perform-basic-data-transformation-in-azure-databricks.4-knowledge-check">
+          <source>Using .option() during your read allows you to pass key/value pairs that specify aspects of your read.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.perform-basic-data-transformation-in-azure-databricks.4-knowledge-check">
+          <source>For instance, options for reading CSV data include header, delimiter, and inferSchema.</source>
         </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.perform-basic-data-transformation-in-azure-databricks.4-knowledge-check">
           <source>Using .keys() during your read allows you to pass key/value pairs that specify aspects of your read.</source>
         </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.perform-basic-data-transformation-in-azure-databricks.4-knowledge-check">
@@ -23,17 +23,17 @@
         </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.perform-basic-data-transformation-in-azure-databricks.4-knowledge-check">
           <source>How do you connect your Spark cluster to Azure Blob storage?</source>
         </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.perform-basic-data-transformation-in-azure-databricks.4-knowledge-check">
-          <source>By mounting it.</source>
-        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.perform-basic-data-transformation-in-azure-databricks.4-knowledge-check">
-          <source>Correct.</source>
-        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.perform-basic-data-transformation-in-azure-databricks.4-knowledge-check">
-          <source>Mounts require Azure credentials, such as shared access signature (SAS) keys.</source>
-        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.perform-basic-data-transformation-in-azure-databricks.4-knowledge-check">
           <source>By calling the .connect() function on the Spark cluster.</source>
-        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.perform-basic-data-transformation-in-azure-databricks.4-knowledge-check">
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn.perform-basic-data-transformation-in-azure-databricks.4-knowledge-check">
           <source>Incorrect.</source>
-        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.perform-basic-data-transformation-in-azure-databricks.4-knowledge-check">
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn.perform-basic-data-transformation-in-azure-databricks.4-knowledge-check">
           <source>There's no such method.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn.perform-basic-data-transformation-in-azure-databricks.4-knowledge-check">
+          <source>By mounting it.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn.perform-basic-data-transformation-in-azure-databricks.4-knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn.perform-basic-data-transformation-in-azure-databricks.4-knowledge-check">
+          <source>Mounts require Azure credentials, such as shared access signature (SAS) keys.</source>
         </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn.perform-basic-data-transformation-in-azure-databricks.4-knowledge-check">
           <source>By calling the .connect() function on the Azure Blob storage account.</source>
         </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn.perform-basic-data-transformation-in-azure-databricks.4-knowledge-check">

@@ -1,0 +1,17 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.cbca4a.c5cfddbbf4736b0cf6dbd5b44df3d95acbc5f2e1.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c5cfddbbf4736b0cf6dbd5b44df3d95acbc5f2e1</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\foster-ai-ready-culture-sales\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Can AI help sellers generate new business pipelines, pitch the right services at the right time, and streamline call preparation so salespeople can spend more time bringing value to customers?</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This module is designed for sales and affiliated business decision-makers to illustrate the impact of making strategic decisions with AI.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The goal is to enable you to think about AI transformation holistically, with a focus on the cultural changes necessary to make AI transformation successful.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>In this module, you will learn to:<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Recognize the key elements of an AI-ready organizational culture in sales.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Explain how Microsoft incorporated AI into their sales processes.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Identify opportunities for change to achieve an AI-ready culture in your sales department.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Let’s explore what we mean when we ask you to think about what it means for your sales department to be AI-ready.</source>
+        </trans-unit></group></body></file></xliff>

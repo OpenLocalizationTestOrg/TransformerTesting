@@ -1,0 +1,239 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-sales-case-study-resolution.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-sales-case-study-resolution.da4c5f.e3ebf75c1240722837ad46abb544c9cd90629282.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e3ebf75c1240722837ad46abb544c9cd90629282</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\foster-ai-ready-culture-sales\includes\4-sales-case-study-resolution.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Our approach</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>We knew that AI could help our sellers generate new business pipeline, pitch the right services at the right time, and streamline their call preparation so they could spend more time bringing value to our customers.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>But we also knew that we would need to address challenges within our sales culture and habits to sustain the long-term benefits.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>We implemented an AI-based guided selling application, the Daily Recommender, which provides sellers with data-driven insights and actionable product recommendations to help attain quota, resulting in higher conversion rates and increased seller productivity.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Daily Recommender harnesses our data to predict the likelihood for a customer to buy products, consume services, and churn.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Recommendations based on the AI predictions are then curated and presented to sellers in a contextually relevant manner, connected to our sales plays, processes, and strategies.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Sellers can take action on recommendations within the app (actions include accept and make a call, snooze, and delete)—each action feeds into a supervised learning process that enables the AI to improve over time.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Daily Recommender helps sellers become more targeted, increasing the conversion rate.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>It also reduces seller preparation and analysis time and facilitates consistency across the salesforce by providing seller-facing call preparation content and readymade customer-facing content, including case studies and email templates.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To realize the full benefits of AI, we needed to ensure that the Daily Recommender would be adopted by our full salesforce, a diverse group of sellers who were reluctant to depart from their existing sales tools and methods.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>With this in mind, we executed an enterprise-grade enablement strategy that focused on sustained behavioral change rather than short-term training.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This included:</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Driving commitment within our sales team to use Daily Recommender as the gold standard application for discovery of new business</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Ensuring the underlying AI and application would fit seamlessly into sellers’ day-to-day operations, sales processes, and daily business strategies</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Implementing AI quality control and governance to further build seller trust</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Instituting processes for measuring adoption so that we could intervene in areas of low adoption</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>There’s a lot that goes into transformation with AI.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Developing effective AI that could accurately predict customer behavior and offer useful recommendations was highly complex.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>But that was just the start.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Our transformation was as much dependent on strategy, people, processes, and IT, as it was dependent on AI.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Daily Recommender program preview</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Results</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>AI-based Guided Selling Application</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The results have been impressive: sellers have reviewed over 40,000 recommendations and we’ve seen a 4x improvement in recommendation success, raising the recommendation-to-opportunity rate to 40%.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This means that for every five recommendations a seller acts on, two will become serious opportunities for a sale.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This is significantly higher than the rate we saw with historical business rule–based targeting recommendations, which had a yield of about one in ten.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In addition, the Daily Recommender has accelerated the sales cycle.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Because sellers have more relevant discussions with the customers from day one, discovery efforts are accelerated.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>And finally, sellers are spending less time on call preparation.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>According to an account executive for Microsoft Latin America, “AI has helped me organize my daily calls and raise their productivity by 60%.”</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>"AI has helped me organize my daily calls and raise their productivity by 60%"</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Applying these lessons in your organization</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Our journey to transforming sales with AI has included bumps in the road.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In particular, we learned that buy-in from leadership is essential from day one and that in considering AI use cases organizations should find balance between what could drive the most value for their organization with what is feasible given their organization’s level of AI maturity.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>These are a few lessons that we learned that you can consider on your own journey with AI:</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Establish an end-to-end AI strategy supported by leadership and first-line managers</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To enable true transformation with AI, we’ve found that is not enough to implement technology and wait for transformation to occur.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>AI transformation won’t happen on an individual basis; it needs to be part of a broader cultural shift.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>And both leadership and first-line managers need to drive that shift.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>In our own transformation, we found that the tone at the top was paramount to enabling transformation—our leaders needed to be invested and passionate.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Executive sponsors should not just sign off on AI initiatives, but drive them forward, ensure they’re funded, keep them on track, and demonstrate their passion for achieving the outcome.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>That said, first-line manager buy-in is just as essential.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Particularly in sales, where we needed to roll out new processes to a global salesforce, first-line managers were key to ensure adoption and change the culture at the day-to-day level.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Focus on where AI can drive the most value</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>We could have started with dozens of separate AI initiatives, but we chose to start with only the ones that we knew would have a strategic impact.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>For example, in sales, we focused our energy on creating a robust Daily Recommender system, because we knew that augmenting the skills of our sellers would have the greatest impact.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>With all the pressure on enterprises to invest in AI, it’s easy to get caught up in the flurry of possibilities and spread resources too thin by investing in too many applications at once.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Organizations should take a more strategic and holistic approach to AI by considering how AI can address the biggest risks, challenges, and opportunities in their organizations.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Narrow your technology implementation to match your AI maturity</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>We have a framework that we use for thinking about the AI journey, both for ourselves and for our customers.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>We believe that for most companies it makes sense to start with low- to no- customization AI solutions, like SaaS applications that are enriched with AI.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Then, if a company discovers that it has unique data and needs that can’t be met by a SaaS application, it can use AI “accelerators,” tools that facilitate faster and easier AI development.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Finally, when companies truly need to create custom AI models to unlock deep AI capabilities, they can develop fully custom AI using platforms like Azure AI Platform.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Our journey to applying AI in sales followed this framework closely.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>First, we adopted SaaS solutions from Dynamics 365, and while these largely met our needs, we needed to make a few customizations to meet our specific requirements.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>We recommend taking full advantage of existing SaaS applications and considering your organization’s AI maturity and the prerequisites of your desired AI use cases before pursuing a more custom solution.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Tips from a change management perspective</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>This case is a good example of how sponsorship, coaching, and effective communication with employees can help generate awareness, drive desire, and overcome resistance.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>It also illustrates how the basic change management principles play out and why we need to keep them in mind when preparing for and managing change.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>How our experience relates to the seven basic change concepts</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Change concepts</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>What we learned and applied along the way</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Senders and receivers</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>As part of our journey, we discovered that the sender of a message is an important factor in how that message is received.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>For instance, if the message conveyed business value, employees understood and received it better if it was sent by the leadership team.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Whereas a message conveying how changes could affect the daily lives of people was better received if it came from front-line managers and supervisors.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Resistance</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>There were two main sources of resistance.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The first was that, because machine learning models require learning, they are not perfectly accurate on day one.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This inspired push-back against AI implementation from some people.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The second source of resistance was concern that AI solutions could replace people’s jobs or that it would be an overly radical change in what they do.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Value systems</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Our sales organization is constantly evolving to adapt to the new products and technologies that we are providing in the market.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Our business models and sales processes have also been significantly affected by the cloud.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>This has created the perception among sales teams that anything can happen at any point in time.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Consequently, there is frequently no incentive to resist change.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>What sense does it make to oppose it if it’s going to happen anyway?</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Peer pressure and the history of our sales organization favor an unresisting attitude.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Authority for change</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>As stated earlier, leadership and sponsorship were key in promoting AI adoption.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Our executive sponsors did not just sign off on AI initiatives, but rather played an active role in driving them forward by ensuring they were funded, keeping them on track, supporting teams through the process, and demonstrating their passion for achieving the outcome.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The right answer is not enough</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>As we found out through this project, it is not enough to implement technology and wait for transformation to occur.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>In our case, both leadership and first-line managers were key in generating commitment and buy-in from those involved in and impacted by the change.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Radical vs incremental change</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>When thinking about the best approach to favor AI adoption, we could have started with dozens of separate AI initiatives.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This would have required a greater effort in creating buy-in and acquiring the necessary skills, and we probably would have had to deal with more resistance.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Instead, we chose to start with only those AI initiatives that we knew would have a strategic impact, demonstrate the value of AI, and therefore engender desire to implement new AI tools.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Change is a process</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>We could clearly see that each person’s journey through change is different and may require different things at different times.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Some people were early adopters, while others were more skeptical and required proof before moving forward.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>For the latter group, we created a test lab that helped demonstrate the value of our lead scoring tool.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Being able to see the value firsthand was key in encouraging their willingness to participate and adopt the AI solutions.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>How our learnings relate to ADKAR and the five organizational levers</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Organizational plans</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>What we did to help individuals through change and how it relates to ADKAR</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Communications plan</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Given the size of our sales organization, our initial approach was to use email as our primary communication channel.</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>However, we soon discovered that emails alone, even if they came from the top management, were not enough to move people forward.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>To address this, managers themselves started participating in the communication strategy.</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Moreover, we used several other channels to encourage participation and share progress, including newsletters and all hands meetings.</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Importantly, we realized that face-to-face communication, either in on one-on-ones meetings or in smaller group sessions, was very effective both in discovering people’s real needs and concerns, and in making them understand the change and how they could benefit from AI.</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>This created awareness, nurtured desire, and helped manage resistance.</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Sponsorship roadmap</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Our leadership team was committed and engaged from day one.</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>They were true evangelists of these initiatives and, as discussed above, they provided support in every possible way.</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Our leaders constantly communicated the value of AI for the organization and explained the need for change, which was key to generate awareness and reinforce the change.</source>
+        </trans-unit><trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Coaching plan</source>
+        </trans-unit><trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Firstline managers were key to ensure adoption and to change the culture at the day-to-day level.</source>
+        </trans-unit><trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>We realized that to get front-line sellers’ buy-in and commitment, we had to enable managers first.</source>
+        </trans-unit><trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>By helping managers understand AI solutions and the change process itself, we enhanced their ability to coach their teams through the change process, at all levels.</source>
+        </trans-unit><trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Resistance management plan</source>
+        </trans-unit><trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>There were two key steps to overcoming resistance and driving desire.</source>
+        </trans-unit><trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>First, we realized that the best way to get buy-in from sellers was to make them feel like owners of the AI solutions.</source>
+        </trans-unit><trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>We achieved this by enabling sellers to participate in the process of creating the AI solutions and giving them a voice to share their needs.</source>
+        </trans-unit><trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Secondly, we formed a group to champion the use and value of AI.</source>
+        </trans-unit><trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>This group was made up of experienced users, frequently from the early adopters group.</source>
+        </trans-unit><trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Their knowledge, ability to set realistic expectations on AI, and consequent ability to influence others were paramount in managing resistance.</source>
+        </trans-unit><trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Now that you’ve considered various aspects of what it means to have an AI-ready sales culture, let’s wrap up everything you’ve learned with a knowledge check.</source>
+        </trans-unit></group></body></file></xliff>

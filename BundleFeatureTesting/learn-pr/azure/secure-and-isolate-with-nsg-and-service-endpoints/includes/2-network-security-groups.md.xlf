@@ -1,0 +1,277 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-network-security-groups.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-network-security-groups.e6319e.4066d85a2837c81e691b307ca3ff60640cace3b8.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4066d85a2837c81e691b307ca3ff60640cace3b8</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\secure-and-isolate-with-nsg-and-service-endpoints\includes\2-network-security-groups.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>As part of the project to move your ERP system to Azure, you need to ensure that servers have proper isolation, so that only allowed systems can make network connections.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>For example, you have database servers that store data for your ERP application.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You want to block prohibited systems from communicating with the servers over the network, while allowing application servers to communicate with the database servers.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Network security groups</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Network security groups filter network traffic to and from Azure resources.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Network security groups contain security rules that you configure to allow or deny inbound and outbound traffic.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can use network security groups to filter traffic between VMs or subnets within a virtual network and from the internet.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Network security group assignment and evaluation</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Network security groups are assigned to a network interface or a subnet.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>When you assign a network security group to a subnet, the rules will apply to all network interfaces in that subnet.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can restrict traffic further by associating a network security group to the network interface of a VM.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>When you apply network security groups to both subnet and network interface, each network security group is evaluated independently.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Inbound traffic will first be evaluated by the network security group applied to the subnet, then by the network security group applied to the network interface.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Conversely, outbound traffic from a VM will first be evaluated by the network security group applied to the network interface, then by the network interface applied to the subnet.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Visualization of network security groups</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Applying a network security group to a subnet instead of individual network interfaces can reduce administration and management efforts.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This approach also ensures that all VMs within the specified subnet are secured with the same set of rules.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Each subnet and network interface can have one network security group applied to it.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Network security groups support TCP, UDP, and ICMP, and operate at Layer 4 of the OSI model.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In our manufacturing company scenario, network security groups can help you secure the network.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>With network security groups, you can control which computers can connect to your application servers.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>You configure the network security group so that only a specific range of IP addresses can connect to the servers.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You can lock this down more by only allowing access to or from specific ports or from individual IP addresses.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>These rules can be applied to devices that are connecting remotely from on-premises networks, or between resources within Azure.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Security rules</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A network security group contains one or more security rules.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Security rules are configured to either allow or deny traffic.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Rules have several properties:</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Property</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Explanation</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Name</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A unique name within the network security group</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Priority</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A number between 100 and 4096</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Source or destination</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Any, or an individual IP address, classless inter-domain routing (CIDR) block (10.0.0.0/24, for example), service tag, or application security group</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Protocol</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>TCP, UDP, or Any</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Direction</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Whether the rule applies to inbound, or outbound traffic</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Port range</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An individual port or range of ports</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Action</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Allow or deny the traffic</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Network security group security rules are evaluated by priority using the 5-tuple information (source, source port, destination, destination port, and protocol) to allow or deny the traffic.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>When the conditions for a rule match the device configuration, rule processing stops.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For example, suppose your company has created a security rule to allow inbound traffic on port 3389 (RDP) to your Web servers with a priority of 200.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>And then suppose that another administrator has created a rule to deny inbound traffic on port 3389 with a priority of 150.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The deny rule will take precedence because it will be processed first.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The rule with priority 150 is processed before the rule with priority 200.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>With network security groups, the connections are stateful.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Return traffic is automatically allowed for the same TCP/UDP session.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>For example, an inbound rule allowing traffic on port 80, also allows the VM to respond to the request (typically on an ephemeral port) without needing a corresponding outbound rule.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Thinking back to the ERP system, the web servers for the ERP application connect to database servers that are in their own subnets.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>You can apply security rules to state that the only allowed communication from the web servers to the database servers is port 1433 for SQL Server database communications.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>All other traffic to the database servers will be denied.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Default security rules</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>When you create a network security group, Azure creates several default rules.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>These default rules cannot be changed, but can be overridden with your own rules.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>These default rules allow connectivity within a virtual network and from Azure load balancers, allow outbound communication to the internet, and deny inbound traffic from the internet.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The default rules for inbound traffic are:</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Priority</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Rule Name</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>65000</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>AllowVnetInbound</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Allow Inbound coming from any VM to any VM within the subnet</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>65001</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>AllowAzureLoadBalancerInbound</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Allow traffic from the default load balancer to any VM within the subnet</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>65500</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>DenyAllInBound</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Deny traffic from any external source to any of the VMs</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The default rules for outbound traffic are:</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Priority</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Rule Name</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>65000</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>AllowVnetOutbound</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Allow Outbound going from any VM to any VM within the subnet</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>65001</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>AllowInternetOutbound</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Allow Outbound traffic going to the Internet from any VM</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>65500</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>DenyAllOutBound</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Deny traffic from any internal VM to system outside the VNet</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Augmented security rules</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>You use augmented security rules for network security groups to simplify the management of large numbers of rules.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Augmented security rules also help when you need to implement more complex network sets of rules.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Augmented rules let you add the following options into a single security rule:</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>multiple IP addresses</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>multiple ports</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>service tags</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>application security groups</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Suppose your company wants to restrict access to resources in your data center, spread across several network address ranges.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>With augmented rules, you can add all these ranges into a single rule, reducing the administrative overhead and complexity in your network security groups.</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Service Tags</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>You use service tags to simplify network security group security even further.</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Service tags are used to allow or deny traffic to a specified Azure service, either globally or per region.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Service tags simplify security for VMs and Azure VNets by allowing you to restrict access by resources or services.</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Service tags represent a group of IP addresses, and help simplify the configuration of your security rules.</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>For resources that you can specify using a tag, you don't need to know IP address or port details.</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>You can restrict access to many services.</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Microsoft manages the service tags, you can't create your own service tag.</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Some examples of the services are:</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>VirtualNetwork<ept id="p1">**</ept> - The VirtualNetwork tag represents all virtual network addresses anywhere in Azure, and in your on-premises network if you're using hybrid connectivity.</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>AzureLoadBalancer<ept id="p1">**</ept> - This tag denotes Azure's infrastructure load balancer.</source>
+        </trans-unit><trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The tag translates to the Virtual IP address of the host (168.63.129.16) where Azure's health probes originate.</source>
+        </trans-unit><trans-unit id="209" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Internet<ept id="p1">**</ept> - The Internet tag represents anything outside the VNet address that is publicly reachable, including resources such as Azure WebApps that have public IP addresses.</source>
+        </trans-unit><trans-unit id="210" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>AzureTrafficManager<ept id="p1">**</ept> - The AzureTrafficManager tag represents the IP address for Azure Traffic Manager.</source>
+        </trans-unit><trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Storage<ept id="p1">**</ept> - The Storage tag represents the IP address space for the Azure Storage service.</source>
+        </trans-unit><trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>You can specify whether traffic is allowed or denied.</source>
+        </trans-unit><trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>You can also specify if access is allowed only to a specific region, but you can't select individual storage accounts.</source>
+        </trans-unit><trans-unit id="214" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>SQL<ept id="p1">**</ept> - The SQL tag represents the address for Azure SQL Database, Azure Database for MySQL, Azure Database for PostgreSQL, and Azure SQL Data Warehouse services.</source>
+        </trans-unit><trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>You can specify whether traffic is allowed or denied and to limit to a specific region.</source>
+        </trans-unit><trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>AppService<ept id="p1">**</ept> - The AppService tag represents address prefixes for Azure App Service.</source>
+        </trans-unit><trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Application security groups</source>
+        </trans-unit><trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Application security groups let you configure network security for resources used by specific applications.</source>
+        </trans-unit><trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>You can group VMs logically, no matter what their IP address or subnet assignment.</source>
+        </trans-unit><trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Application security groups are used within a network security group to apply a security rule to a group of resources.</source>
+        </trans-unit><trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Using application security groups makes it easier to deploy and scale up specific application workloads.</source>
+        </trans-unit><trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>You just add a new VM deployment to one or more application security groups, and that VM automatically picks up your security rules for that workload.</source>
+        </trans-unit><trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>An application security group allows you to group network interfaces together and you can then use that application security group as a source or destination rule within a network security group.</source>
+        </trans-unit><trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>For example, your company has a number of front-end servers in a VNet.</source>
+        </trans-unit><trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The Web servers must be accessible over ports 80 and 8080.</source>
+        </trans-unit><trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Database servers must be accessible over port 1433.</source>
+        </trans-unit><trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>You assign the network interfaces for the web servers to one application security group, and the network interfaces for the database servers to another application security group.</source>
+        </trans-unit><trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>You then create two inbound rules in your network security group.</source>
+        </trans-unit><trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>One rule allows HTTP traffic to all servers in the Web server application security group.</source>
+        </trans-unit><trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The other rule allows SQL traffic to all servers in the database server application security group.</source>
+        </trans-unit><trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Application security groups</source>
+        </trans-unit><trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Without application security groups, you'd need to create a separate rule for each VM.</source>
+        </trans-unit><trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The key benefit of application security groups is that it makes administration easier.</source>
+        </trans-unit><trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>You can easily add and remove network interfaces to an application security group as you deploy or redeploy application servers.</source>
+        </trans-unit><trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>You can also dynamically apply new rules to an application security group, which are then automatically applied to all the VMs in that application security group.</source>
+        </trans-unit><trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>When to use network security groups</source>
+        </trans-unit><trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>As a best practice, you should always use network security groups to help protect your networked assets against unwanted traffic.</source>
+        </trans-unit><trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Network security groups give you granular control access over the network layer, without the potential complexity of setting security rules for every VM or VNet.</source>
+        </trans-unit></group></body></file></xliff>

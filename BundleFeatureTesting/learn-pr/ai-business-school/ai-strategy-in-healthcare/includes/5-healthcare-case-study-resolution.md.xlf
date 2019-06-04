@@ -1,0 +1,97 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-healthcare-case-study-resolution.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-healthcare-case-study-resolution.debc34.2acf3c0970ca3b57d2668a5e3c5fb483b25304f4.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2acf3c0970ca3b57d2668a5e3c5fb483b25304f4</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\ai-strategy-in-healthcare\includes\5-healthcare-case-study-resolution.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Approach</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>To create their AI strategy, Ochsner had to consider a number of factors in the complicated healthcare landscape and produce scalable applications that, crucially, medical staff would both appreciate and use.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>They had to implement solutions that targeted specific, solvable problems, and that effectively leveraged patient data without compromising on ethics and privacy.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Ochsner chose to implement AI in a way that addressed the issue of inefficient patient monitoring.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Oschner’s strategy was to come up with a system that would enable doctors to spend more focused time with patients whose historical data indicated a higher chance of their condition deteriorating.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Ochsner presented the problem of patient monitoring to their innovation accelerator, innovationOchsner (iO).</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>They developed a system that could continually monitor a patient’s vital signs to identify subtle changes in their condition.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The high volume of complex data was then analyzed by an AI-powered predictive modeling tool running on Microsoft Azure.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>“We have monitors that are taking vitals every minute,” says Jonathan Wilt, CTO of iO.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>“There are hundreds of constantly changing data points that humans could not possibly digest in real time.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>And we have new artificial intelligence that can take these data streams and process them and make predictions.”</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To train the AI model, data was pulled from Ochsner’s Epic electronic health record system of 125,000 hospitalized patients.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The result is an AI-powered alert that prompts clinicians to check on a patient’s welfare within several hours, potentially intervening to avoid a cardiac or respiratory arrest or a deterioration of the patient’s condition.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>By consulting with their clinical staff, Ochsner optimized the timing and frequency of alerts.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A four-hour warning turned out to be ideal, giving enough time for a rapid-response provider to visit the patient, examine them, and determine why the AI identified this patient as being at heightened risk of a cardiac event.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Potential interventions include medication changes, transfer to ICU, and other forms of elevated care.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Results</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>In 2018, Ochsner reported that a 90-day pilot with the system reduced cardiac arrests and other adverse events outside the ICU by 44 percent.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Although the technical details of the pilot have not yet been formally released for peer review, it is a promising start to a new system designed to save both lives and healthcare costs.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Ochsner also expects to improve patient outcomes through:</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Fewer patient transfers to the ICU</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Shorter patient stays</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Fewer complications and lower costs as a result of fewer patients experiencing cardiac or respiratory arrest “A lot of what medicine in general has done has been retroactive studies and trying to understand what happened with the patient after the fact—well, imagine the whole game is shifting,” says Mike Hulefeld, COO of Ochsner Health System.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>“We’re going to know before it happens.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>That’s a total game changer.”</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Ochsner is continuing to optimize the system and learn from its insights to identify other hospitalization health events with AI applications, and develop more preventive measures and proactive treatment plans.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In the future, Ochsner plans to implement the new system in all of its owned facilities, with potential to scale to managed and affiliated partners.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Key lessons</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Select a use case that minimizes disruption while maximizes impact</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>AI has the potential to revolutionize healthcare if leveraged correctly.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>While there are many examples of impactful applications of AI in healthcare, choosing the appropriate use case is imperative given the current complexity of the industry.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>In this case study, we see that it is crucial to strategically select a use case that demonstrates the value of AI while minimizing disruption to practitioners in order to create a widely adopted and beneficial solution.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Leverage existing data</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Organizations should also recognize the value of their existing data.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Some healthcare organizations focus heavily on gathering external data for AI applications, but these do not necessarily yield more valuable results.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Ochsner leveraged its existing data to gain valuable new insights and improve its operational processes.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Evaluation of the strategy using the value framework</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Let’s examine the Ochsner AI strategic use case selection using the value creation framework developed by Peter Zemsky, INSEAD’s Eli Lilly Chaired Professor of Strategy and Innovation:</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>industry perspective<ept id="p1">**</ept> this is an interesting case.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>While many companies invest heavily in resolving complex healthcare problems with AI, they can run into roadblocks regarding stringent industry and privacy regulations.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Ochsner leveraged their preexisting data and implemented a solution that built upon their already-compliant procedures.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>value creation perspective<ept id="p1">**</ept> this use case provides a good trade off.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>With a limited investment that didn’t require purchasing external data or large capital expenditure, Ochsner is creating significant value for patients as well as employees.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>It would be interesting to see how much of that value they will be able to extract in the future with optimized care utilization, lower customer churn, and better ratings in areas like patient safety, patient experience, and value-based care.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>From the <bpt id="p1">**</bpt>organization &amp; execution perspective<ept id="p1">**</ept> this is a fantastic example of a company that is building its AI strategy on top of their existing data and skills.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This is giving them significant advantages as their ability to execute and understand the value of AI is immediate.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Instead of selecting use cases that would require acquiring new data or skills, they accelerated the time to value with a low-friction use case whose value is easily understood by all the stakeholders.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Now that you’ve seen how healthcare organizations are approaching their AI strategy, let’s wrap up everything you’ve learned with a knowledge check.</source>
+        </trans-unit></group></body></file></xliff>

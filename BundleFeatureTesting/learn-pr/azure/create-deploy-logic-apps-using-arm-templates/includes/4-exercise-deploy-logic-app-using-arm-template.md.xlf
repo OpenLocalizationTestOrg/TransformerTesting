@@ -1,0 +1,111 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-exercise-deploy-logic-app-using-arm-template.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-exercise-deploy-logic-app-using-arm-template.d2b62c.a280353debf4c16f2cbcbdb1f9ec5defbc0c13a5.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a280353debf4c16f2cbcbdb1f9ec5defbc0c13a5</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-deploy-logic-apps-using-arm-templates\includes\4-exercise-deploy-logic-app-using-arm-template.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this unit, we'll deploy a Logic Apps workflow using an Azure Resource Manager (ARM) template.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Creating resources in Azure</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Normally, the first thing we'd do is to create a resource group to hold all the things that we need to create.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This allows us to administer all the VMs, disks, network interfaces, and other elements that make up our solution as a unit.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>We can use the Azure CLI to create a resource group with the <ph id="ph1">`az group create`</ph> command.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>It takes a <ph id="ph1">`--name`</ph> to give it a unique name in our subscription, and a <ph id="ph2">`--location`</ph> to tell Azure what area of the world we want the resources to be located by default.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Since we are in the free Azure sandbox environment, you don't need to do this step, instead, you will use the pre-created resource group <bpt id="p1">**</bpt><bpt id="p2">&lt;rgn&gt;</bpt>[sandbox resource group name]<ept id="p2">&lt;/rgn&gt;</ept><ept id="p1">**</ept> in this exercise.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Download and examine a basic Resource Manager template</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>From Cloud Shell, run the following curl command to download the template from GitHub.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To view our template, open it in the build-in editor.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The logic app definition described in <bpt id="p1">**</bpt>template.json<ept id="p1">**</ept> is shown in the following listing.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>As you can see from the preceding JSON definition, and as the template name suggests, this Logic App is basic.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Let's look at the main components of this app.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In the following snippet, we see that the app is called <ph id="ph1">`HelloLogicAppsTemplate`</ph>.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This name is hard-coded in the template.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The location in which the app runs is also hard-coded to <ph id="ph1">`westus2`</ph>.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Scrolling down to the <bpt id="p1">**</bpt>triggers<ept id="p1">**</ept> section, we see that the app is triggered with an HTTP GET request.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The trigger is named <ph id="ph1">`manual`</ph>.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Further on down in the <bpt id="p1">**</bpt>actions<ept id="p1">**</ept> section, we learn that this app contains one step or action.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The action it carries out is to respond to the HTTP request with the message <ph id="ph1">`Hello Logic Apps Template!`</ph>.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The ARM template has one output in the template's <bpt id="p1">**</bpt>outputs<ept id="p1">**</ept> section called <ph id="ph1">`logicAppUrl`</ph>.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This output variable lists the URL for the logic app when it is deployed.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This makes it easy to test the app.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The output uses <ph id="ph1">`listCallbackURL`</ph> to create the URl, but the workflow name and trigger name are once again both hard-coded here.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Let's now deploy this logic app and test it.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Validate and deploy the template</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To deploy our logic app we'll use the <ph id="ph1">`az group deployment create`</ph> command, since we are deploying to a resource group.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>When deploying using this command, you can choose to deploy a remote template by specifying its location with the <ph id="ph1">`--template-uri`</ph> parameter.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>In our case, we want to deploy the template we have locally, so we'll set the <ph id="ph1">`--template-file`</ph> parameter.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>From the Cloud Shell run <ph id="ph1">`az group deployment validate`</ph> to validate the template.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`--template-file`</ph> argument points to the local template.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The template's filename is <bpt id="p1">**</bpt>basic-template.json<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You see a large JSON block as output, which tells you that the template passed validation.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Azure Resource Manager fills in the template parameters and checks whether the template would successfully run in your subscription.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>If validation failed, you would see a detailed description of the failure in the output.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Run the following <ph id="ph1">`az group deployment create`</ph> command in the Cloud Shell to deploy the logic app defined by our basic template to our sandbox resource group.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This command resembles the previous command, but also includes the <ph id="ph1">`--name`</ph> argument to give your deployment a name.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This command takes 2-3 minutes to complete.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>When the deployment completes, you see another large JSON block as output that describes the deployment.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You see <ph id="ph1">`provisioningState`</ph> in the JSON result with the value <ph id="ph2">`Succeeded`</ph>.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Verify deployment</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Run <ph id="ph1">`az group deployment show`</ph> to verify the deployment.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You see the same JSON block as you did previously.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can run this command later if you ever need these details about the deployment.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The output is structured as JSON to make it easier to feed into other tools you might use to track your deployments and cloud usage.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To see the app in action, find the <bpt id="p1">**</bpt>logicAppUrl<ept id="p1">**</ept> value in the JSON result.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Select the URL and paste it into a new browser window.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The page will display the <bpt id="p1">*</bpt>Hello Logic Apps Template!<ept id="p1">*</ept></source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>message as shown in the following screenshot.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Web browser displaying response from our basic logic app</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Congratulations!</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>You've successfully deployed a logic app using an ARM template.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>As we noted in this exercise, the basic template has many hard-coded values.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This makes the template less flexible than we'd like.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>We can improve the situation through the use of parameters.</source>
+        </trans-unit></group></body></file></xliff>

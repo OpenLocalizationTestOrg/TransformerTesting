@@ -1,87 +1,87 @@
-<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-routing-with-traffic-manager.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-routing-with-traffic-manager.3c0158e0d29be9dbdcd7ecc162804db18c1eb3fc.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6804ccdd7363be878b577f311b0abf37e16b17c2</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">05/13/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\distribute-load-with-traffic-manager\includes\2-routing-with-traffic-manager.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
-          <source>Your customers require 24x7 availability of the streaming music application.</source>
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-routing-with-traffic-manager.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-routing-with-traffic-manager.ccc384.41702fec3c5e07f2081c4d4798cc30ae9f1647d3.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">41702fec3c5e07f2081c4d4798cc30ae9f1647d3</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\distribute-load-with-traffic-manager\includes\2-routing-with-traffic-manager.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Your customers require 24x7 availability of your company's streaming music application.</source>
         </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
-          <source>Cloud services in one region may become unavailable because of technical issues, such as planned maintenance, or scheduled security updates.</source>
+          <source>Cloud services in one region might become unavailable because of technical issues, such as planned maintenance or scheduled security updates.</source>
         </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
-          <source>During these situations, your company wants to have a failover endpoint so that your customers can continue to access the services.</source>
+          <source>In these scenarios, your company wants to have a failover endpoint so your customers can continue to access its services.</source>
         </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
-          <source>To manage the routing of traffic and to handle these situations, you've decided to implement the Azure Traffic Manager.</source>
+          <source>To manage routing traffic and to handle these situations, you've decided to implement Azure Traffic Manager.</source>
         </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
-          <source>World map showing end users and app services in different countries.</source>
+          <source>World map showing app users and app services in different countries.</source>
         </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
-          <source>How Azure Traffic Manager works</source>
+          <source>How Traffic Manager works</source>
         </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
-          <source>When a client attempts to connect to a service, it must first resolve the DNS name of the service to an IP address.</source>
+          <source>When a client attempts to connect to a service, first it resolves the DNS name of the service as an IP address.</source>
         </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
           <source>The client then connects to that IP address to access the service.</source>
         </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
-          <source>Traffic Manager uses DNS to direct clients to specific service endpoints IP address based on the rules of the traffic routing method.</source>
+          <source>Traffic Manager uses DNS to direct clients to a specific service endpoint IP address based on the rules of the traffic routing method that's used.</source>
         </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
-          <source>Clients connect to the selected endpoint directly.</source>
+          <source>Clients connect directly to the selected endpoint.</source>
         </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
-          <source>Traffic Manager isn't a proxy or a gateway.</source>
+          <source>Traffic Manager isn't a proxy or gateway.</source>
         </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
-          <source>Traffic Manager doesn't see the traffic passing between the clients and the service, it just gives clients the IP address of where they need to go.</source>
+          <source>Traffic Manager doesn't see the traffic that passes between the clients and the service; it just gives clients the IP address of where they need to go.</source>
         </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
-          <source>Azure Traffic Manager routing methods</source>
+          <source>Traffic Manager routing methods</source>
         </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
-          <source>Azure Traffic Manager supports different methods to decide how traffic should be routed to multiple endpoints.</source>
+          <source>Traffic Manager supports different methods for choosing how traffic is routed to multiple endpoints.</source>
         </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
           <source>Traffic Manager applies a traffic routing method to each DNS query it receives and determines which endpoint is returned in the response.</source>
         </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
-          <source>There are six traffic-routing methods to choose from.</source>
+          <source>You can choose from six traffic routing methods.</source>
         </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
           <source>Weighted routing</source>
         </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
           <source>Choose weighted when you want to distribute traffic across a set of endpoints, either evenly or based on different weights.</source>
         </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
-          <source>The weight is an integer from 1 to 1000.</source>
+          <source>The weight is an integer from 1 to 1,000.</source>
         </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
           <source>For each DNS query received, Traffic Manager randomly chooses an available endpoint.</source>
         </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
           <source>The probability of choosing an endpoint is based on the weights assigned to all available endpoints.</source>
         </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
-          <source>Example of a setup where a client connects to a Traffic Manager and has their traffic routed based on weightings of three endpoints.</source>
+          <source>Example of a setup where a client connects to a Traffic Manager and their traffic is routed based on weightings of three endpoints.</source>
         </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
           <source>Performance routing</source>
         </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
-          <source>If you have endpoints in different geographic locations, you can use Performance routing to send users to the endpoint with the best performance respective to the user.</source>
+          <source>If you have endpoints in different geographic locations, you can use performance routing to send users to the endpoint that has the best performance for the user.</source>
         </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
-          <source>To decide which endpoint is the best to use, this routing method uses an Internet Latency Table, which actively tracks network latencies to the endpoints from locations around the globe.</source>
+          <source>To choose the best endpoint to use, this routing method uses an internet latency table, which actively tracks network latencies to the endpoints from locations around the globe.</source>
         </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
-          <source>When a user makes a request, traffic manager will return the best performing endpoint based on the location of the request.</source>
+          <source>When a user makes a request, Traffic Manager returns the best performing endpoint based on the location of the request.</source>
         </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
-          <source>Example of a setup where a client connects to a Traffic Manager and has their traffic routed based on relative performance of three endpoints.</source>
+          <source>Example of a setup where a client connects to Traffic Manager and their traffic is routed based on relative performance of three endpoints.</source>
         </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
           <source>Geographic routing</source>
         </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
-          <source>With the Geographic routing method, users are directed to specific endpoints based on which geographic location their DNS query originates from.</source>
+          <source>With the geographic routing method, users are directed to specific endpoints based on where their DNS query originates.</source>
         </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
-          <source>Using this method allows you to geo-fence content to specific users region.</source>
+          <source>Using this method allows you to geo-fence content to specific user regions.</source>
         </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
-          <source>For example, European users can be directed to an endpoint in Europe with specific terms and conditions for regional compliance.</source>
+          <source>For example, European users can be directed to an endpoint in Europe that has specific terms and conditions for regional compliance.</source>
         </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
-          <source>Users in China could be directed to an endpoint that has been localized in Mandarin.</source>
+          <source>Users in China can be directed to an endpoint that has been localized in Mandarin.</source>
         </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
-          <source>Example of a setup where a client connects to a Traffic Manager and has their traffic routed based on the geographic location of four endpoints.</source>
+          <source>Example of a setup where a client connects to Traffic Manager and their traffic is routed based on the geographic location of four endpoints.</source>
         </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
           <source>Multivalue routing</source>
         </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
-          <source>The Multivalue routing method allows you to get multiple healthy endpoints in a single DNS query response.</source>
+          <source>You can use the multivalue routing method to get multiple healthy endpoints in a single DNS query response.</source>
         </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
-          <source>This enables to caller to do client-side retries with other endpoints if an endpoint is unresponsive.</source>
+          <source>The caller can make client-side retries with other endpoints if an endpoint is unresponsive.</source>
         </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
           <source>This pattern can increase the availability of a service and reduce the latency associated with a new DNS query to obtain a healthy endpoint.</source>
         </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
           <source>Subnet routing</source>
         </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
-          <source>This method maps the set of end-user IP address ranges to specific endpoints within a Traffic Manager profile.</source>
+          <source>This method maps the set of user IP address ranges to specific endpoints within a Traffic Manager profile.</source>
         </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
           <source>When a request is received, the endpoint returned will be the one mapped for that request's source IP address.</source>
         </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
-          <source>For example, using subnet routing, a customer can make all requests from their corporate office be routed to a different endpoint where they might be testing an internal only version of their app.</source>
+          <source>For example, using subnet routing, a customer can route all requests from their corporate office to a different endpoint, where they might be testing an internal-only version of the app.</source>
         </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
-          <source>Another scenario is if you want to provide a different experience to users connecting from a specific ISP (For example, block users from a given ISP).</source>
+          <source>Another scenario is if you want to provide a different experience to users who connect from a specific ISP (for example, to block users from a specific ISP).</source>
         </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
           <source>Priority routing</source>
         </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
@@ -89,11 +89,11 @@
         </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
           <source>By default, Traffic Manager sends all traffic to the primary (highest-priority) endpoint.</source>
         </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
-          <source>If the primary endpoint is not available, Traffic Manager routes the traffic to the second endpoint.</source>
+          <source>If the primary endpoint isn't available, Traffic Manager routes the traffic to the second endpoint.</source>
         </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
-          <source>If both the primary and secondary endpoints are not available, the traffic goes to the third, and so on.</source>
+          <source>If both the primary and secondary endpoints are not available, the traffic goes to the third endpoint, and so on.</source>
         </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
-          <source>Availability of the endpoint is based on the configured status (enabled or disabled) and the ongoing endpoint monitoring.</source>
+          <source>Availability of the endpoint is based on the configured status (enabled or disabled) and the ongoing endpoint monitoring that is set up.</source>
         </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
-          <source>Example of a setup where a client connects to a Traffic Manager and has their traffic routed based on the priority given to three endpoints.</source>
+          <source>Example of a setup where a client connects to Traffic Manager and their traffic is routed based on the priority given to three endpoints.</source>
         </trans-unit></group></body></file></xliff>

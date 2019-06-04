@@ -1,0 +1,91 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-routing-traffic-with-application-gateway.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-routing-traffic-with-application-gateway.7ed9b6.51641be6ea6da86ba8a41c7a13282f8975c8a597.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">51641be6ea6da86ba8a41c7a13282f8975c8a597</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\load-balance-web-traffic-with-application-gateway\includes\2-routing-traffic-with-application-gateway.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Application Gateway manages the requests that client applications can send to a web app.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Application Gateway routes traffic to a pool of web servers based on the URL of a request.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This is known as <bpt id="p1">*</bpt>application layer routing<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The pool of web servers can be Azure virtual machines, Azure virtual machine scale sets, Azure App Service, and even on-premises servers.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Diagram showing how a request is routed by Application Gateway to a web server</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>How Application Gateway routes requests</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Clients send requests to your web apps to the IP address or DNS name of the gateway.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The gateway routes requests to a selected web server in the back-end pool, using a set of rules configured for the gateway to determine where the request should go.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>There are two primary methods of routing traffic, path-based routing and multiple site hosting.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Let's take a look at the capabilities for each.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Path-based routing</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Path-based routing enables you to send requests with different paths in the URL to a different pool of back-end servers.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For example, you could direct requests with the path <ph id="ph1">`/video/*`</ph> to a back-end pool containing servers that are optimized to handle video streaming, and direct <ph id="ph2">`/images/*`</ph> requests to a pool of servers that handle image retrieval.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Diagram showing how a request is routed by Application Gateway configured with path-based routing</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Multiple site hosting</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Multiple site hosting enables you to configure more than one web application on the same application gateway instance.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In a multi-site configuration, you register multiple DNS names (CNAMEs) for the IP address of the Application Gateway, specifying the name of each site.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Application Gateway uses separate listeners to wait for requests for each site.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Each listener passes the request to a different rule, which can route the requests to servers in a different back-end pool.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For example, you could configure Application Gateway to direct all requests for <bpt id="p1">**</bpt><ph id="ph1">http://contoso.com</ph><ept id="p1">**</ept> to servers in one back-end pool, and requests for <bpt id="p2">**</bpt><ph id="ph2">http://fabrikam.com</ph><ept id="p2">**</ept> to another back-end pool.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The following diagram shows this configuration.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Diagram showing how a request is routed by Application Gateway configured with multiple site hosting</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Multi-site configurations are useful for supporting multi-tenant applications, where each tenant has its own set of virtual machines or other resources hosting a web application.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Other routing capabilities</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Along with path-based routing and multiple site hosting, there are a few additional capabilities when routing with Application Gateway.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Redirection<ept id="p1">**</ept> - Redirection can be used to another site, or from HTTP to HTTPS.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Rewrite HTTP headers<ept id="p1">**</ept> - HTTP headers allow the client and server to pass additional information with the request or the response.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Custom error pages<ept id="p1">**</ept> - Application Gateway allows you to create custom error pages instead of displaying default error pages.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You can use your own branding and layout using a custom error page.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Load balancing in Application Gateway</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Application Gateway will automatically load balance requests sent to the servers in each back-end pool using a round-robin mechanism.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>However, you can configure session stickiness, if you need to ensure that all requests for a client in the same session are routed to the same server in a back-end pool.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Load-balancing works with the OSI Layer 7 routing implemented by Application Gateway routing, which means that it load balances requests based on the routing parameters (host names and paths) used by the Application Gateway rules.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>In comparison, other load balancers, such as Azure Load Balancer, function at the OSI Layer 4 level, and distribute traffic based on the IP address of the target of a request.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Operating at OSI Layer 7 enables load balancing to take advantage of the other features that Application Gateway provides.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>These features include:</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Support for the HTTP, HTTPS, HTTP/2 and WebSocket protocols.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A web application firewall to protect against web application vulnerabilities.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>End-to-end request encryption.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Autoscaling, to dynamically adjust capacity as your web traffic load changes.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Routing for the motor vehicle department</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Revisiting our scenario at the motor vehicle department, Application Gateway can be used to address both issues.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>We can use the load balancing and health probe capabilities to ensure that failures are handled without user impact.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>We can also use path-based routing to provide a single endpoint for users to access sites hosted across disparate web services.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Let's take a closer look at how we can do this.</source>
+        </trans-unit></group></body></file></xliff>

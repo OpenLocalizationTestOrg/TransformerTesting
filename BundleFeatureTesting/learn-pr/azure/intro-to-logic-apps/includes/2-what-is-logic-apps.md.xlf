@@ -1,0 +1,75 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-what-is-logic-apps.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-what-is-logic-apps.6e5c5c.c99f90555319b1807bddd7d7fbc3c48e299ebf99.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c99f90555319b1807bddd7d7fbc3c48e299ebf99</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-logic-apps\includes\2-what-is-logic-apps.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Let's start with a few definitions and a quick tour of the core features of Logic Apps.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This overview should help you see whether Logic Apps might be a good fit for your work.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>What is a business process?</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">*</bpt>business process<ept id="p1">*</ept> or <bpt id="p2">*</bpt>workflow<ept id="p2">*</ept> is a sequence of tasks that produce a specific outcome.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The result might be a decision, some data, or a notification.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>One of the shoe-company scenarios is monitoring social media for reaction to a new product.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The sequence of tasks would be: detect tweets about the product, analyze the sentiment, store a link to positive tweets, and email customer service for negative tweets.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Since the steps occur in a specific order, you'll often describe them with a flowchart.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The following illustration shows a sample flowchart for the social-media monitor process.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Notice how there are three types of operations: an event that starts the flow, processing steps that do most of the work, and a conditional operator that makes a decision.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>An illustration showing a detailed flowchart for the way the fictional shoe company processes tweets written about their product.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>What is Azure Logic Apps?</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Azure Logic Apps is a cloud service that automates the execution of your business processes.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You use a graphical design tool called the <bpt id="p1">*</bpt>Logic Apps Designer<ept id="p1">*</ept> to arrange pre-made components into the sequence you need.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The Designer sends a definition of your workflow to the Logic Apps execution engine.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The execution engine launches your app when conditions are right and manages the compute resources needed to run it.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The following illustration shows a high-level view of the steps.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>An illustration showing three main steps to define and run a Logic App: select the components you need, use the Logic Apps Designer tool to arrange them, then save your work.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The power of Logic Apps comes from the diversity of the pre-built components and their ability to work together.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The components let you connect to hundreds of external services.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The following illustration shows a few of the services you can use in your Logic App.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>An illustration listing several of the common services that can be used in a Logic App.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The services are grouped into the following categories: data storage, data processing, communication, and social media.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>You build your app from the services you use in your business processes.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The components can be connected in any pattern you need.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You can add conditional statements and loops to add decision making to your app.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The following illustration shows how you would combine external services to implement the social-media monitor workflow.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>An illustration showing a flowchart for a business process and a Logic App that implements that process.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For each step in the business process, there's a corresponding component used in the Logic App to implement it.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>For example, the process would use the Twitter component to watch for tweets about a new product.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The Logic Apps model is extensible.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If there isn't a pre-built component for the service you need, you can create your own.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You can also run custom code in an Azure Function that you invoke from your app.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If we had to describe the goal of Logic Apps in one word, we'd choose <bpt id="p1">*</bpt>integration<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Logic Apps helps you join disparate services to implement a workflow.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Your job is to use the Logic Apps Designer to arrange the components into the sequence you need.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>For most apps, you won't need to write any code and you can be up and running in minutes.</source>
+        </trans-unit></group></body></file></xliff>

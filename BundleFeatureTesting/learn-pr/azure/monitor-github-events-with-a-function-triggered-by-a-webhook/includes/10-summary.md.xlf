@@ -1,0 +1,23 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="10-summary.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">10-summary.30cc62.f0cc9c797899f6b449259e095417996fabc9fe8e.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f0cc9c797899f6b449259e095417996fabc9fe8e</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\monitor-github-events-with-a-function-triggered-by-a-webhook\includes\10-summary.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this module, you learned about the benefits of webhooks.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You created an Azure Function triggered by a webhook.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You saw how to set up a webhook for a GitHub repository and how to trigger an Azure Function with a GitHub event.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Finally, you learned how to protect an Azure function using a secret.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If you created a new GitHub repository for your Wiki, you can now delete it.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Learn more</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>GitHub Webhooks<ept id="p1">](https://developer.github.com/webhooks/)</ept></source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Gollum event<ept id="p1">](https://developer.github.com/v3/activity/events/types/#gollumevent)</ept></source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Azure Functions HTTP triggers and bindings<ept id="p1">](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook)</ept></source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Securing your webhooks<ept id="p1">](https://developer.github.com/webhooks/securing/)</ept></source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>HTTP and webhooks<ept id="p1">](https://docs.microsoft.com/en-us/sandbox/functions-recipes/http-and-webhooks)</ept></source>
+        </trans-unit></group></body></file></xliff>

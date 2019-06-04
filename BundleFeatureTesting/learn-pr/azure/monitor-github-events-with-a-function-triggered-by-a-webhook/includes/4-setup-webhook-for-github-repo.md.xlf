@@ -1,0 +1,71 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-setup-webhook-for-github-repo.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-setup-webhook-for-github-repo.0c8444.68e40b7a526f5237f8d364d218b5ff69ef1fd3b3.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">68e40b7a526f5237f8d364d218b5ff69ef1fd3b3</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\monitor-github-events-with-a-function-triggered-by-a-webhook\includes\4-setup-webhook-for-github-repo.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In GitHub, webhooks can be set up on an organization or a specific repository.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The webhook will be triggered each time one or more subscribed events occurs.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>For example, the <bpt id="p1">*</bpt>Gollum<ept id="p1">*</ept> event allows you to listen for wiki updates; specifically creation and updates for a wiki page.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Now that you've function app is being trigger by a webhook, you'll set up a webhook specifically for your company's Technology Wiki.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>Gollum<ept id="p1">*</ept> event provides detailed information about wiki page updates.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll learn how to set up a webhook listening for a <bpt id="p1">*</bpt>Gollum<ept id="p1">*</ept> event, in a GitHub repository.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Setting up a webhook</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Setting up a webhook is a two-step process.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You specify how you want your webhook to behave through GitHub and what events should it listen to.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Then you set up your Azure Function to receive and manage the payload received from the webhook.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In GitHub, you can install webhooks for an organization or a repository.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In the example scenario case, we're setting one up on a specific repository.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To set up the webhook, go to the <bpt id="p1">**</bpt>settings<ept id="p1">**</ept> page of your repository in the GitHub portal.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Webhooks<ept id="p1">**</ept>, and then click <bpt id="p2">**</bpt>Add webhook<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can build and manage a webhook through the Webhooks API, but this module doesn't cover this approach.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Webhooks require a couple of configuration options before you can use them.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>We'll go through each of these settings next.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Payload URL</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The payload URL is the URL of the server that will receive the webhook POST requests.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Each event type has specific payload format with relevant event information.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>All event payloads replicate the payloads for Event types, with the exception of the <bpt id="p1">*</bpt>original push event<ept id="p1">*</ept>, which has more details in the webhook payload.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Content Type</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Webhooks can be delivered using two different content types:</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>application/json<ept id="p1">*</ept> content type delivers the JSON payload directly as the body of the POST request.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">*</bpt>application/x-www-form-urlencoded<ept id="p1">*</ept> content type sends the JSON payload as a form parameter, called <bpt id="p2">*</bpt>payload<ept id="p2">*</ept>.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">**</bpt>Add webhook<ept id="p1">**</ept> page also enables you to specify how to protect the information sent by the webhook by using a <bpt id="p2">*</bpt>Secret<ept id="p2">*</ept>.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This topic is covered later in this module.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Events</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Events are at the very center of webhooks.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Webhooks fire whenever a certain action is taken in the repository.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Your payload URL intercepts and acts upon these.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A full list of webhook events, and when they can run, can be found in the <bpt id="p1">[</bpt>Webhooks events reference<ept id="p1">](https://developer.github.com/webhooks/#events)</ept>.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For example, to respond whenever an issue is raised in a repository, click <bpt id="p1">**</bpt>Let me select individual events<ept id="p1">**</ept>, and then select <bpt id="p2">**</bpt>Issues<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Make sure you select <bpt id="p1">**</bpt>Active<ept id="p1">**</ept> to receive issue events for triggered webhooks.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To listen for updates to the wiki for the repository, select the <bpt id="p1">*</bpt>Wiki<ept id="p1">*</ept> checkbox; this event is the <bpt id="p2">*</bpt>Gollum<ept id="p2">*</ept> event mentioned earlier.</source>
+        </trans-unit></group></body></file></xliff>

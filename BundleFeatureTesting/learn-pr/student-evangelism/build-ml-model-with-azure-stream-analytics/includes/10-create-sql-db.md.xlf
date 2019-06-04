@@ -1,0 +1,75 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="10-create-sql-db.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">10-create-sql-db.c6fbaa.5b5f3ba0ff2862f438a64baf0bd39f3c30d3c7db.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5b5f3ba0ff2862f438a64baf0bd39f3c30d3c7db</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\student-evangelism\build-ml-model-with-azure-stream-analytics\includes\10-create-sql-db.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll use the Azure Cloud Shell to create an Azure SQL database.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This database will collect output from the Azure Function you connected to Stream Analytics.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>If the Azure Cloud Shell timed out while you were working in the portal, go ahead and reconnect it.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>All the files and folders are still present but the environment variables you set earlier will be missing because this is a new terminal session.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Make sure to execute the following statements with the proper values before you continue.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In the Cloud Shell on the right, make sure you are in the project folder <ph id="ph1">`photoproc`</ph>.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Recall you can use the <ph id="ph1">`cd`</ph> command in the shell to switch to the proper folder.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Create an environment variable to hold the Azure SQL DB name.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The server name must be unique within Azure.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Execute the following command in the Cloud Shell to create a database server in your resource group.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Replace <ph id="ph1">`{username}`</ph> and <ph id="ph2">`{pw}`</ph> with the user name and password for an admin user.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Remember the user name and password<ept id="p1">**</ept> you enter, because you'll need them later.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The admin password must be at least 8 characters long.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The user name cannot be one that is reserved in SQL Server such as "admin" or "sa."</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The user name "adminuser" is valid if you want to use that.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Use the following command to create a <bpt id="p1">**</bpt>photodb<ept id="p1">**</ept> database in your Azure SQL server.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Set up network access to the database</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>We need to access the database from our other Azure services and Power BI for reporting.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>We'll add those rules to the firewall using the Azure portal.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Switch to the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com?azure-portal=true)</ept> and locate the database server - you can type the name you used into the global search box at the top of the screen to easily find the resource.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Firewalls and virtual networks<ept id="p1">**</ept> in the menu on the left.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Turn on <bpt id="p1">**</bpt>Allow access to Azure services<ept id="p1">**</ept> to allow other Azure services to connect to the server.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>+ Add client IP<ept id="p1">**</ept> so you can connect to the database from Power BI Desktop.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> at the top of the view to save these changes.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Allowing Azure to access the database server</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Create the database table</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>We need a table to hold our polar bear sightings.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Let's create it with the Azure portal.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Select the database you created on the server.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can switch to the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> pane and then select your database from there, or select <bpt id="p2">**</bpt>SQL databases<ept id="p2">**</ept> from the left sidebar and then select your database.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Query editor<ept id="p1">**</ept> in the menu on the left and enter the user name and password you specified when you created the server.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> to sign in to the database.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Logging in to the database server</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Paste the following statements into the query window and click <bpt id="p1">**</bpt>Run<ept id="p1">**</ept> to create a database table:</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Expand the list of tables in the tree view on the left and confirm that the <ph id="ph1">`PolarBears`</ph> table was created, and that it has the following schema:</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The database's "PolarBears" table</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The main column we need is named <ph id="ph1">`IsPolarBear`</ph> which will be set to <ph id="ph2">`1`</ph> or <ph id="ph3">`0`</ph> to indicate that the corresponding images contain a polar bear.</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.3e37ed.1c971b102586f9faa8a690084a92847eaa96b7d7.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1c971b102586f9faa8a690084a92847eaa96b7d7</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\organize-blobs-properties-metadata\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.azure.organize-blobs-properties-metadata">
+          <source>Organize Azure storage blobs with properties and metadata</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.azure.organize-blobs-properties-metadata">
+          <source>Properties and metadata can be used to organize Azure blob data.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.azure.organize-blobs-properties-metadata">
+          <source>You can add code to apps, including ASP.NET Core apps, to retrieve and modify the properties and metadata.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.azure.organize-blobs-properties-metadata">
+          <source>Organize Azure storage blobs with properties and metadata</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.azure.organize-blobs-properties-metadata">
+          <source>Compare the types of properties and metadata associated with Azure storage blobs, and examine the methods used to view and modify these values.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.azure.organize-blobs-properties-metadata">
+          <source>Add code to ASP.NET Core apps to retrieve and modify metadata.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.azure.organize-blobs-properties-metadata">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.azure.organize-blobs-properties-metadata">
+          <source>Retrieve and modify blob properties and metadata</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.azure.organize-blobs-properties-metadata">
+          <source>Use properties and metadata to organize Azure blob data</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.azure.organize-blobs-properties-metadata">
+          <source>Create an ASP.NET Core app to retrieve and modify metadata</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn.azure.organize-blobs-properties-metadata">
+          <source>Experience in basic Azure web app development and deployment</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn.azure.organize-blobs-properties-metadata">
+          <source>Basic familiarity with Azure Storage and Blob objects</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn.azure.organize-blobs-properties-metadata">
+          <source>Basic familiarity with ASP.NET Core</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,107 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-manufacturing-case-study-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-manufacturing-case-study-introduction.b87569.9ed088a73e1a288edb764bef7a1bef1bd5b63130.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9ed088a73e1a288edb764bef7a1bef1bd5b63130</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\ai-strategy-in-manufacturing\includes\3-manufacturing-case-study-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Abstract</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The electronic goods market is fast-growing, fast-moving, and extraordinarily demanding for manufacturers.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>All manufactured goods require quality checking throughout the manufacturing process, and this is especially true for intricate electronic products.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To remain profitable, manufacturers must accelerate production line quality monitoring while maintaining inspection accuracy and reducing the rate of false positive inspections.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Traditionally, this exacting work has been performed by highly-trained human operators, augmented by expensive computer analysis equipment.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>But technology is changing that reality in positive ways.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This case study shows how one of the world’s largest manufacturing solutions providers, Jabil, was able to reduce overhead costs and amplify production line quality by using AI to check electronic products as they were manufactured.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Industry context</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Established in 1966, Jabil is one of the world’s largest manufacturing solution providers.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>With 170,000 employees in a global operation spanning 102 locations in 29 countries, Jabil works with leading companies in a diverse range of industries to create innovative and reliable products.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The manufacturing industry forms the backbone of modern economies worldwide, with revolutionary developments in manufacturing processes enabling modern society as we currently know it.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>However, the global share of GDP from manufacturing has been declining for several decades.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Manufacturing is now racing to keep up with the emergence of new digital technology, and the challenges of a changing global economy.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Jabil operates a business-to-business (B2B) model that requires extremely complex manufacturing work for a wide variety of industries, including consumer products, defense &amp; aerospace, healthcare, automotive, energy, industrial &amp; building, networking and telecommunications.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Outsourcing manufacturing services to companies like Jabil has been an integral part of electronics OEMs’ business models for the last several decades.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>With the rise of the digital economy, Jabil has been rapidly growing in value and increasing its use of innovative technology.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Challenge</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Jabil’s customers face numerous competitive challenges within the fast-moving electronic consumer goods industry, which in turn requires Jabil to respond quickly to their demands for speed and customization.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This creates high revenue volatility for Jabil and increases the pressure to “get it right first time” during the manufacturing process.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Even automated inspection equipment might not make the process fast enough to meet the customer’s deadline.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>“We have many products that customers expect to be delivered within a week,” says Matt Behringer, Vice-President, Information Technology at Jabil.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>“And that’s including transit.”</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In addition, because of the extremely variable demands of the electronic consumer goods market, many of Jabil’s customers cannot commit to firm production schedules for more than one quarter.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This puts further pressure on Jabil to maximize the efficiency of its manufacturing capacity and supply chain.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Jabil recognized this need to modernize in its 2017 Annual Report, stating, “If we are unable to offer technologically advanced, cost effective, quick response manufacturing services that are differentiated from our competition and adapt those services as our customers’ requirements change, demand for our services will decline.”</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Jabil also needed to modernize its quality inspection techniques to meet the demands of one-off production lines.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In today’s market, even very large global manufacturers behave much like boutique manufacturers, often making a particular product only once.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The first product run might be the only one created, or there might be smaller lots of only 5 to 10 items, and no time for multiple iterations.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>As a result, traditional inspection techniques for ensuring product quality are quickly becoming outdated.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>For example, it is no longer cost-effective to use a process called first-article inspection, where an initial model is manufactured, checked, and then reworked before production even starts.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The wasted time and materials that have always been part of the manufacturing process are becoming less sustainable.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Jabil has made numerous innovations over the years to overcome these challenges.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>On the assembly line, Jabil uses computer-based automated optical inspection (AOI) to identify potentially defective components.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>These systems require skilled engineers to build and hard-code algorithms to help the system identify a good component versus a defective one.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>These systems, however, do not have the ability to learn or adapt, and they produce a false positive rate of around 30 percent.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>When a component is flagged as defective, an operator is required to manually inspect it to confirm the diagnosis.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>With one line producing 2,000 components every day, human operators may have to spend up to 200 minutes each day manually checking components.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The speed of operations leaves manual inspectors with just seconds to decide if the product is defective or not, and a high error rate is the inevitable result for even the most skilled operators.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Jabil and their customers all have one thing in common – the need to operate as efficiently and cost-effectively as possible.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>That means saving even a few milliseconds of time, and associated cost, can make a substantial difference for the business.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>To address these challenges, Jabil needed a solution that was both faster and more accurate, which was also capable of learning over time.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>They needed AI.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Strategy questions</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>What aspects of the production line would decrease a customer’s time to market?</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>In manufacturing, prototyping and production both require vital refinement processes to ensure the end product meets users’ needs and is reliable.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>What effects might be felt if these processes were improved?</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Digital technology offers manufacturers the opportunity to collect massive amounts of data.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>How could Jabil collect and store this data effectively?</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>How could Jabil use this wealth of data to minimize assembly line downtime?</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>How can Jabil proactively use analytics to anticipate issues in assembly line processes and increase efficiency?</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>What are the key metrics of a prototype solution for Jabil to evaluate?</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>How can Jabil leverage the best thinking of its most skilled operators to train and monitor the AI to improve accuracy?</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Now that you’ve gained context on the challenges Jabil faces today and considered critical questions to answer before implementing AI, watch the executive perspective video with Gary Cantrell, SVP &amp; CIO of Jabil.</source>
+        </trans-unit></group></body></file></xliff>

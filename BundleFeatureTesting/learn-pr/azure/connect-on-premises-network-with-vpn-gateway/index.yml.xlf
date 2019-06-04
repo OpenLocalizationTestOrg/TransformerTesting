@@ -1,0 +1,21 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.fdf5c5.6a0c7ccacde6e29df692ca81fc1c9a3170996cfe.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6a0c7ccacde6e29df692ca81fc1c9a3170996cfe</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\connect-on-premises-network-with-vpn-gateway\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.connect-on-premises-network-with-vpn-gateway">
+          <source>Connect your on-premises network to Azure with VPN Gateway</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.connect-on-premises-network-with-vpn-gateway">
+          <source>Learn about the Virtual Private Network (VPN) Gateway options in Azure and typical scenarios for using a VPN.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.connect-on-premises-network-with-vpn-gateway">
+          <source>Create and test VPNs to securely connect sites to Azure.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.connect-on-premises-network-with-vpn-gateway">
+          <source>Connect your on-premises network to Azure with VPN Gateway</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.connect-on-premises-network-with-vpn-gateway">
+          <source>VPN Gateway options in Azure provides secure connectivity between your on-premises networks and clients.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.connect-on-premises-network-with-vpn-gateway">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.connect-on-premises-network-with-vpn-gateway">
+          <source>Identify the features and use cases of VPN Gateways</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.connect-on-premises-network-with-vpn-gateway">
+          <source>Understand the requirements for provisioning a VPN Gateway</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.connect-on-premises-network-with-vpn-gateway">
+          <source>Provision site-to-site VPN Gateways</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.connect-on-premises-network-with-vpn-gateway">
+          <source>Familiarity with Azure virtual networking</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,35 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="1-introduction.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1-introduction.9b0788.ac720b64d242265909689f28ac9b387f6f8be15e.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ac720b64d242265909689f28ac9b387f6f8be15e</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\organize-blobs-properties-metadata\includes\1-introduction.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Suppose you are the lead developer for Trey Research, a company that manufactures echo-friendly chemicals for idustrial applications.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Your company maintains a large collection of testing and safety documents in Azure Storage.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>To help meet your company's audit requirements, you have been asked to create a reporting application that retrieves system-related attributes for each document.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Your auditors need to be able to open any document to determine whether it has been included in a report.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Your reporting application needs to set a custom metadata field with the last time that the reporting application was run.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In this module, you will learn about using properties and custom metadata to help manage data saved to Azure Storage.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You'll compare the various methods you can use to access and modify this metadata.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>By the end of this module, you will be able to code a basic ASP.NET Core app to retrieve existing properties and to write new metadata.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Learning objectives</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Retrieve and modify blob properties and metadata</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Use properties and metadata to organize Azure blob data</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Create an ASP.NET Core app to retrieve and modify metadata</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Experience in basic Azure web app development and deployment</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Basic familiarity with Azure Storage and Blob objects</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Basic familiarity with ASP.NET Core</source>
+        </trans-unit></group></body></file></xliff>

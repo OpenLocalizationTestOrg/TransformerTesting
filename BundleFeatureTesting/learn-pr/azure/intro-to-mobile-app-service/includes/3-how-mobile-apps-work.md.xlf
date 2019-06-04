@@ -1,0 +1,123 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-how-mobile-apps-work.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-how-mobile-apps-work.bde6af.17386198dccea53cf65586ffa00b11e2d2bc35e2.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">17386198dccea53cf65586ffa00b11e2d2bc35e2</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-mobile-app-service\includes\3-how-mobile-apps-work.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Now that we know the basics of Mobile Apps, let's see how it's used and integrated into a client mobile app.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Backend service</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>At its core, Azure App Service is a cloud hosted Internet Information Service (IIS).</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Mobile Apps supports two options to define your IIS hosted backend logic: ASP.NET and node.js.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>This provides both storage and compute resources.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If needed, you can also create and publish a public facing website like you would with Azure App Service.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This website can access to the same data and services provided to your mobile client.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Mobile Apps hosting features</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Because Mobile Apps is part of Azure App Service, you get all of the hosting benefits including:</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>auto-scaling</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>staging environments</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>continuous deployments</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>virtual networks</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>See the other modules in Microsoft Learn on Azure App Service for more information about hosting and publishing.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Azure Mobile Apps SDKs</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You're responsible for creating the mobile client app that leverages Mobile Apps backend services.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can connect and parse data from the hosted Mobile App using standard networking classes and APIs on the client devices via standard web protocols (HTTP + JSON).</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>As long as you know the published endpoints of your Mobile App in Azure App Service, you can interact with your service instance.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>However, Microsoft publishes a set of client SDKs to interact with Mobile Apps on the Azure App Services platform.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The SDK provides support to access all the features of the Mobile App service including:</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Authentication and authorization</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Data access</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Offline sync</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Push notifications</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>SDKs are published for iOS, Android, Xamarin, and Apache Cordova; all SDKs are open-source and available on GitHub.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Authentication and authorization</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Azure App Service provides authentication and authorization services that are also available in Mobile Apps.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>There are two approaches you can use to authenticate a user:</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>use an SDK provided by the identity provider</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>use the Mobile Apps client SDK</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>SDKs published by providers such as Facebook, Google or Microsoft will often come with an authentication experience that more tightly integrates with the operating system on the client device.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For example, on iOS devices, users can sign in to Facebook on the device, and the OS will assist with authentication from the native application when requested by an iOS app.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For example, for Facebook, authentication would be done through the Facebook app instead of browser based authentication.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This will require you to install the provider's SDK and follow their documentation for authentication.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>When using the Mobile Apps SDK, your users will use a webview on the client device to perform authentication.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Implementing authentication is greatly simplified when using the Mobile Apps SDK; typically authentication can be accomplished with a single line of code.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The SDK will manage the OAuth flow including retrieving and storing authorization tokens.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The Microsoft client SDK can also be used for corporate sign-in by authenticating with Azure Active Directory.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Typically using a provider's SDK gives a better user experience but requires more work on part of the developer.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Offline synchronization</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Synchronizing data from mobile client devices can be a challenge.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Mobile devices may lose connectivity, when this happens, changes made on the client device need to be cached locally and then synced with the backend once the connection is restored.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Additionally, if more than one client edits the same data, you'll need a way to manage and prioritize conflicting changes.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>When using the Mobile Apps client SDK, offline synchronization can be enabled.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This will automatically cache changes made to tables locally, and automatically push those changes to the backend when the mobile device has an active internet connection.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Conflict resolution</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If two or more clients change the same data, the synchronization may fail.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The SDK provides details of the conflict and you can provide the logic in the client app to decide how to proceed.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>For example, you could decide that the last change should always be saved, or you could retrieve the conflicting data and attempt to automatically merge, or you could present a dialog to the user and allow them to decide.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The best approach will depend on your app's needs, but the SDK and APIs will give you the tools you need to manage conflicts.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Broadcast push notifications</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Azure Notification Hubs is a highly scalable mobile-push notification service that can be used to send millions of push notifications to iOS, Android, or Windows devices.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Notifications Hubs can be connected to any Azure App Service backend including Mobile Apps, which allows you to send push notifications to users of your mobile client app.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To receive push notifications, the mobile client app will need to include the Mobile Apps client SDK.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Mobile App Quickstarts</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Mobile Apps in Azure App Service can be integrated with existing mobile client applications.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>However, if you're creating a new client app, you can download starter client app projects from the Azure portal.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The client applications are automatically created for iOS, Android, Xamarin and Apache Cordova.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The client projects includes the Mobile Apps SDK and are configured to work with your instance of the Mobile App service.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The sample app is a basic ToDo app that allows you to store and retrieve data from your backend.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>You'll need to perform additional development work on the client app to meet your app functionality and UX requirements; but it's a great foundation to start your client app.</source>
+        </trans-unit></group></body></file></xliff>

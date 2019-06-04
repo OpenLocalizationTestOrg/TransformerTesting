@@ -1,0 +1,129 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="5-knowledge-check.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5-knowledge-check.40ada3.53653360cd926eb8e4197cd47ec8009c42570bbe.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">53653360cd926eb8e4197cd47ec8009c42570bbe</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\foster-ai-ready-culture-customer-service\5-knowledge-check.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Knowledge Check</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Knowledge Check</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>A knowledge check for the discover how to foster an AI-ready culture in customer service module.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Check your knowledge</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>When the Microsoft customer service team started their AI adoption journey, which AI capability did they identify for implementation?</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Equip agents with predictions and recommendations.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Quote: “We identified that AI could help us create a better service experience by equipping our agents with predictions and recommendations…”</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Provide on-demand training for agents on support calls.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Training support agents while helping customers on the phone would be impressive AI.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>That was not identified as a capability.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Develop a chatbot to remote-access customer systems.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Chatbots are for interactive Q&amp;A with customers, not to remote-control a customer’s computer.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Provide an interactive FAQ using Vision capability.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Text analytics and language learning would be used to produce an interactive FAQ.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Vision capability helps recognize objects in pictures or read handwritten forms.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>What was one of the primary goals of the AI technology project for the Microsoft customer service team?</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Reduce the need to contract foreign support agents.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>The elimination of support agents was never a stated goal.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>They wanted to enhance the quality of the service provided by current agents.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Turn customer service into a profit center.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Quote: “…transform customer service from a cost center to a key differentiator, using AI to drive scale, efficiency, and insights.”</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>The goal was to make customer service a “key differentiator”, not a profit center.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Improve customer satisfaction and retention.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Quote: “Our goal was to improve customer satisfaction and retention and transform customer service from a cost center to a key differentiator, using AI to drive scale, efficiency, and insights.”</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Prove that AI technology can replace human customer service agents.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Replacing service agents was never a goal.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>The goal was to enhance the quality of customer service, not reduce the workforce.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>When the Microsoft customer service team implemented AI in their business processes and work, what did the team do to empower employees with AI technology?</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Created a guided support tool called, “The Daily Reminder.”</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>This is the tool created by the Microsoft sales organization, not customer support.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Provided a virtual agent to help the human agents prepare for support calls.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Quote: “we've actually created tools that will assist our agents whilst they're preparing to help a customer during a support call.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>So, for example, our virtual agent will provide our real people with a conversation history.”</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Provided incentives to agents who actively use AI tools.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Agents used AI to help them do a better job, not to earn incentive awards.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Implemented machine-learning to respond to customer queries.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Machine learning doesn’t do the responding, it builds the knowledgebase that feeds data to chatbots who respond to queries.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>When the Microsoft customer service team implemented AI technology into their operations, they used machine-learning tools to analyze which types of data?</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Frequently asked questions.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Machine learning could be used on this, but this was not one of the drivers of the AI project.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Customer purchases.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>This data may prove useful and help train machine-learning tools to help forecast types of support needed, but it was not one of the drivers of this project.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Diagnostic log data.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Incorrect.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>This data would have to come from the customer.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>A large amount of this type of data is not available to customer support.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Customer feedback.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Correct.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>Quote: “Our customer service team partnered with data scientists to use machine learning to create a sentiment analysis tool that automates this work.</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve" uid="learn-wwl.foster-ai-culture-customer-service.knowledge-check">
+          <source>It analyzes sentiment not only in customer feedback, but also in customer chat conversations.”</source>
+        </trans-unit></group></body></file></xliff>

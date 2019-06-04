@@ -1,0 +1,239 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-exercise-create-a-workflow-using-durable-functions.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-exercise-create-a-workflow-using-durable-functions.9251ea.5dfe1ce33651c831dc5df4003c4eee6ddd91f6cc.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5dfe1ce33651c831dc5df4003c4eee6ddd91f6cc</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\create-long-running-serverless-workflow-with-durable-functions\includes\4-exercise-create-a-workflow-using-durable-functions.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this unit, using the example from the previous unit, you'll learn how to create an approval workflow in the Azure portal using  Durable Functions.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Create a Function App</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Sign in to the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept> using the same account with which you activated the sandbox.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Create a resource<ept id="p1">**</ept> button found on the upper left-hand corner of the Azure portal.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Compute<ept id="p1">**</ept>, and then select <bpt id="p2">**</bpt>Function App<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Set the function app properties as follows:</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Property</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Suggested value</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>App name<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Globally unique name</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Name that identifies your new function app.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Valid characters are <ph id="ph1">`a-z`</ph>, <ph id="ph2">`0-9`</ph>, and <ph id="ph3">`-`</ph>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Subscription<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Concierge subscription</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The subscription under which this new function app is created.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Resource Group<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Use existing<ept id="p1">**</ept> and choose <bpt id="p2">_</bpt><bpt id="p3">&lt;rgn&gt;</bpt>[sandbox resource group name]<ept id="p3">&lt;/rgn&gt;</ept><ept id="p2">_</ept></source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Name of the resource group in which to create your function app.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>OS<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Windows</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The operating system that hosts the function app.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Hosting Plan<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Consumption plan</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Hosting plan that defines how resources are allocated to your function app.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>In the default <bpt id="p1">**</bpt>Consumption Plan<ept id="p1">**</ept>, resources are added dynamically as required by your functions.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In this serverless hosting model, you only pay for the time your functions run.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Location<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Select from the list</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Choose the nearest one to you that is also one of the allowed <bpt id="p1">*</bpt>Sandbox regions<ept id="p1">*</ept> listed below.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Runtime Stack<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>JavaScript</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The sample code in this module is written in JavaScript.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Storage<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Globally unique name</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Name of the new storage account used by your function app.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Storage account names must be between 3 and 24 characters in length and may contain numbers and lowercase letters only.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This dialog populates the field with a unique name that is derived from the name you gave the app.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>However, feel free to use a different name or even an existing account.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Sandbox regions</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Create<ept id="p1">**</ept> to provision and deploy the function app.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Wait for the process to complete before continuing.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Install the durable-functions npm package</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Since we are creating JavaScript Durable Functions, we need to install the <ph id="ph1">`durable-functions`</ph> npm package using the following instructions.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>In the left-hand navigation pane of the Azure portal, select <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept>, and then select your function app.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Platform Features<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>On the <bpt id="p1">**</bpt>Platform Features<ept id="p1">**</ept> tab, under <bpt id="p2">**</bpt>Development Tools<ept id="p2">**</ept>, select <bpt id="p3">**</bpt>Advanced tools (Kudu)<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This action starts the Kudu console.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>You can use this console to access the web server that hosts your functions, and write the code for your functions.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>In the top menu of the Kudu console, select <bpt id="p1">**</bpt>Debug console -&gt; CMD<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A command prompt appears.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This command prompt window is running on the web server.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Additionally, the console should display the directory structure of the function app.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>An Explorer window also appears above the command line, showing the folder and file hierarchy on the web server.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>In the Explorer window, navigate to the <bpt id="p1">**</bpt>site<ept id="p1">**</ept> folder, and then select the *<bpt id="p2">**</bpt>wwwroot<ept id="p2">**</ept> folder.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>In the command prompt window, make sure you are in the folder <bpt id="p1">**</bpt>D:\home\site\wwwroot<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Run the following command:</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>This command installs the durable-functions package (and any required supporting packages).</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Installing the durable-functions package and its dependencies takes a couple of minutes.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Wait until all packages have finished installing.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>You can ignore any warnings that appear from the node package manager.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Close the Kudu window and return to the Function App page in the Azure portal.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Create the client function for submitting a design proposal</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Expand your function app and select the <bpt id="p1">**</bpt><ph id="ph1">+</ph><ept id="p1">**</ept> button next to <bpt id="p2">**</bpt>Functions<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Azure Functions for JavaScript - getting started<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>In-portal<ept id="p2">**</ept>, and then select <bpt id="p3">**</bpt>Continue<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>More templates<ept id="p1">**</ept>, and then select <bpt id="p2">**</bpt>Finish and view templates<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>In the search field, type  <bpt id="p1">**</bpt>durable<ept id="p1">**</ept>, and then select the <bpt id="p2">**</bpt>Durable Functions HTTP starter<ept id="p2">**</ept> template.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>This template creates a durable function that runs in response to an HTTP request</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>In the <bpt id="p1">**</bpt>Extensions not Installed<ept id="p1">**</ept> window, select <bpt id="p2">**</bpt>Install<ept id="p2">**</ept> to install the Azure DurableTask extension and any other dependencies in the function app.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>You only need to install the extension once for a give function app.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Installation of the DurableTask extension takes a while.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>When the installation has completed, select <bpt id="p1">**</bpt>Continue<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Name the function <bpt id="p1">**</bpt>HttpStart<ept id="p1">**</ept>, and then click <bpt id="p2">**</bpt>Create<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>When the function has been created, the code for the Index.js file should appear.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The JavaScript code in this file runs when the user visits the web site hosting the function.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>It invokes an orchestration function (which you'll define shortly).</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The code in the file should look like this:</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>In the right-hand panel, select <bpt id="p1">**</bpt>View Files<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>You might have to scroll horizontally to the right in order to see this menu.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>function.json<ept id="p1">**</ept> to view the bindings associated with your new function.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>TThis information specifies any authentication requirements, together with the HTTP methods that can trigger the function.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>This file also specifies that the function is a client that starts the orchestration process.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The file should look like this:</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A binding associates resources and other items with a trigger.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>It is a declarative mechanism that removes the need to hard-code references to other services and functions in your code.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> to save your new client function.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Create the orchestration function</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Expand your function app and select the <bpt id="p1">**</bpt><ph id="ph1">+</ph><ept id="p1">**</ept> button next to <bpt id="p2">**</bpt>Functions<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>In the search field, type  <bpt id="p1">**</bpt>durable<ept id="p1">**</ept>, and then select the <bpt id="p2">**</bpt>Durable Functions orchestrator<ept id="p2">**</ept> template.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Name the new function <bpt id="p1">**</bpt>OrchFunction<ept id="p1">**</ept>, and then select <bpt id="p2">**</bpt>Create<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>When the <bpt id="p1">**</bpt>Index.js<ept id="p1">**</ept> file containing the JavaScript code for the function appears, modify code as shown below.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>This code calls an Activity function named <bpt id="p1">**</bpt>Approval<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>You'll add this function shortly.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The code in the orchestrator function invokes the <bpt id="p1">**</bpt>Approval<ept id="p1">**</ept> function twice; the first time simulates accepting the proposal, and the second time tests the proposal rejection logic.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The value returned by each call is combined together, and passed back to the client function.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>In a production environment, your orchestration function would call a series of activity functions that make the accept/reject decision, and return the result of these activities.</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> to save your new function.</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Create the activity function</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt><ph id="ph1">+</ph><ept id="p1">**</ept> button next to <bpt id="p2">**</bpt>Functions<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>In the search field, type  <bpt id="p1">**</bpt>durable<ept id="p1">**</ept>, and then select the <bpt id="p2">**</bpt>Durable Functions activity<ept id="p2">**</ept> template.</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Name the function <bpt id="p1">**</bpt>Approval<ept id="p1">**</ept>, and then select <bpt id="p2">**</bpt>Create<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>When the <bpt id="p1">**</bpt>Index.js<ept id="p1">**</ept> JavaScript file for this function appears, modify the code as shown below.</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The function returns a message indicating the status of the proposal.</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The expression <ph id="ph1">`context.bindings.name`</ph> will either be <ph id="ph2">`Accepted`</ph> or <ph id="ph3">`Rejected`</ph>, depending on the parameter passed to the function from the orchestrator.</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>In the real world, you would add logic that handles the accept or reject operations here:</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> to save your new function.</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Verify that the durable functions workflow starts</source>
+        </trans-unit><trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Return to the <bpt id="p1">**</bpt>HttpStart<ept id="p1">**</ept> function.</source>
+        </trans-unit><trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>&lt;/&gt; Get function URL<ept id="p1">**</ept>, and copy the URL.</source>
+        </trans-unit><trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>You use this URL to run the <bpt id="p1">**</bpt>HttpStart<ept id="p1">**</ept> function.</source>
+        </trans-unit><trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Open a new browser window and navigate to the URL that you copied.</source>
+        </trans-unit><trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>In the URL, replace the text <bpt id="p1">**</bpt>{functionName}<ept id="p1">**</ept> with <bpt id="p2">**</bpt>OrchFunction<ept id="p2">**</ept></source>
+        </trans-unit><trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The response message contains a set of URI endpoints that you can use to monitor and manage the execution, which looks like the following example:</source>
+        </trans-unit><trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Copy the <bpt id="p1">**</bpt>statusQueryGetUri<ept id="p1">**</ept> value, and use the web browser to navigate to this URL.</source>
+        </trans-unit><trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>You should see a response message that looks like this:</source>
+        </trans-unit><trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Recall that the orchestration function runs the activity function twice.</source>
+        </trans-unit><trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The first time, the activity function indicates that the project proposal has been accepted.</source>
+        </trans-unit><trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The second time, the proposal is rejected.</source>
+        </trans-unit><trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The messages from both function calls are combined by the orchestration function and returned to the client function.</source>
+        </trans-unit></group></body></file></xliff>

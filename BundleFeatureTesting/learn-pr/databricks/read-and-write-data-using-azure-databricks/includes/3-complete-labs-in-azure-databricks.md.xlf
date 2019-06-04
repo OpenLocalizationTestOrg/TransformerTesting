@@ -1,4 +1,4 @@
-<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-complete-labs-in-azure-databricks.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-1931010" tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-complete-labs-in-azure-databricks.dfeadf35dcb148bdda3286a50bc17b928cc02b69.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">871430efcc076d6cb088890953d095b582b916e2</xliffext:ms.openlocfilehash><xliffext:ms.lasthandoff xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">05/13/2019</xliffext:ms.lasthandoff><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\databricks\read-and-write-data-using-azure-databricks\includes\3-complete-labs-in-azure-databricks.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-complete-labs-in-azure-databricks.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-complete-labs-in-azure-databricks.561e3a.1713d97fbbd866602c4ab3d3a029381511cace38.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1713d97fbbd866602c4ab3d3a029381511cace38</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\databricks\read-and-write-data-using-azure-databricks\includes\3-complete-labs-in-azure-databricks.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
           <source>You've learned about the data reading and writing capabilities of Databricks.</source>
         </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
           <source>Now let's use some of the Databricks functions in the Databricks workspace.</source>
@@ -37,29 +37,29 @@
         </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
           <source>Then continue with the remaining notebooks in order.</source>
         </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">*</bpt>01-Getting-Started<ept id="p1">*</ept>: This notebook gets you started with your Databricks workspace.</source>
+          <source><bpt id="p1">**</bpt>01-Getting-Started<ept id="p1">**</ept>: This notebook gets you started with your Databricks workspace.</source>
         </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">*</bpt>02-Querying-Files<ept id="p1">*</ept>: This notebook contains exercises to help you query large data files and visualize your results.</source>
+          <source><bpt id="p1">**</bpt>02-Querying-Files<ept id="p1">**</ept>: This notebook contains exercises to help you query large data files and visualize your results.</source>
         </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">*</bpt>03-Joins-Aggregations<ept id="p1">*</ept>: You do basic aggregation and joins in this notebook.</source>
+          <source><bpt id="p1">**</bpt>03-Joins-Aggregations<ept id="p1">**</ept>: You do basic aggregation and joins in this notebook.</source>
         </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">*</bpt>04-Accessing-Data<ept id="p1">*</ept>: This notebook lists the steps for accessing data from various sources by using Databricks.</source>
+          <source><bpt id="p1">**</bpt>04-Accessing-Data<ept id="p1">**</ept>: This notebook lists the steps for accessing data from various sources by using Databricks.</source>
         </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">*</bpt>05-Querying-JSON<ept id="p1">*</ept>: In this notebook, you learn how to query JSON and hierarchical data with DataFrames.</source>
+          <source><bpt id="p1">**</bpt>05-Querying-JSON<ept id="p1">**</ept>: In this notebook, you learn how to query JSON and hierarchical data with DataFrames.</source>
         </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">*</bpt>06-Data-Lakes<ept id="p1">*</ept>: This notebook lists exercises that show how to create an Azure Data Lake Storage Gen2 instance and use Databricks DataFrames to query and analyze this data.</source>
+          <source><bpt id="p1">**</bpt>06-Data-Lakes<ept id="p1">**</ept>: This notebook lists exercises that show how to create an Azure Data Lake Storage Gen2 instance and use Databricks DataFrames to query and analyze this data.</source>
         </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">*</bpt>07-Azure-Data-Lake-Gen2<ept id="p1">*</ept>: In this notebook, you use Databricks to query and analyze data stores in Azure Data Lake Storage Gen2.</source>
+          <source><bpt id="p1">**</bpt>07-Azure-Data-Lake-Gen2<ept id="p1">**</ept>: In this notebook, you use Databricks to query and analyze data stores in Azure Data Lake Storage Gen2.</source>
         </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">*</bpt>08-Key-Vault-backed-secret-scopes<ept id="p1">*</ept>: This notebook lists the steps for configuring a Key Vault-backed secret scope.</source>
+          <source><bpt id="p1">**</bpt>08-Key-Vault-backed-secret-scopes<ept id="p1">**</ept>: This notebook lists the steps for configuring a Key Vault-backed secret scope.</source>
         </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
           <source>You'll create a Key Vault-backed secret scope and securely store in it usernames and passwords for a sample SQL database and an Azure Cosmos DB instance to be used in the following notebooks.</source>
         </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">*</bpt>09-SQL-Database-Connect-Using-Key-Vault<ept id="p1">*</ept>: In this notebook, you'll connect to a SQL database by using your Azure SQL username and password that you created and securely stored in the Key Vault-backed secret scope in the previous notebook.</source>
+          <source><bpt id="p1">**</bpt>09-SQL-Database-Connect-Using-Key-Vault<ept id="p1">**</ept>: In this notebook, you'll connect to a SQL database by using your Azure SQL username and password that you created and securely stored in the Key Vault-backed secret scope in the previous notebook.</source>
         </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">*</bpt>10-Cosmos-DB-Connect-Using-Key-Vault<ept id="p1">*</ept>: In this notebook, you'll connect to an Azure Cosmos DB instance by using the Azure Cosmos DB username and password that you previously created and securely stored in the Key Vault-backed secret scope.</source>
+          <source><bpt id="p1">**</bpt>10-Cosmos-DB-Connect-Using-Key-Vault<ept id="p1">**</ept>: In this notebook, you'll connect to an Azure Cosmos DB instance by using the Azure Cosmos DB username and password that you previously created and securely stored in the Key Vault-backed secret scope.</source>
         </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
-          <source><bpt id="p1">*</bpt>Exploratory-Data-Analysis<ept id="p1">*</ept>: This notebook is in the <bpt id="p2">*</bpt>Optional<ept id="p2">*</ept> subfolder.</source>
+          <source><bpt id="p1">**</bpt>Exploratory-Data-Analysis<ept id="p1">**</ept>: This notebook is in the <bpt id="p2">*</bpt>Optional<ept id="p2">*</ept> subfolder.</source>
         </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
           <source>It includes a sample project for you to explore later.</source>
         </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">

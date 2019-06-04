@@ -1,0 +1,43 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-exercise-call-an-api-with-a-subscription-key.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-exercise-call-an-api-with-a-subscription-key.2b81d7.6d6611a15bb5ddf89c7c279e4a35c373074944f7.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6d6611a15bb5ddf89c7c279e4a35c373074944f7</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\publish-manage-apis-with-azure-api-management\includes\7-exercise-call-an-api-with-a-subscription-key.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>A subscription key is used to restrict access to an API.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In the shoe company example, NorthWind Shoes are working with a supplier and want them to directly access the Inventory API.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Partner access must be secure, and use a subscription key for all calls to the API.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Here, you'll find the subscription key for your API.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You'll then test access to the API with and without the subscription key.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Obtain subscription key</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Partners are given their key as part of an onboarding process.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In this exercise, you'll use the administrator key, but once you've got a key, its the same process for using the key in API calls.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Sign into the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept> using the same account you activated the sandbox with.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In the left menu, click <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept>, and then click your API gateway.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Under the <bpt id="p1">**</bpt>API Management<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>Subscriptions<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Click the context menu (...) for the <bpt id="p1">**</bpt>Built-in all-access subscription<ept id="p1">**</ept>, and then click <bpt id="p2">**</bpt>Show/hide keys<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Click to copy<ept id="p1">**</ept> button for the <bpt id="p2">**</bpt>PRIMARY KEY<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Save this key somewhere, such as Notepad.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Use subscription key in API call</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The next step is to use the subscription key to test developer access to your published API.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell to access the <bpt id="p1">**</bpt>Products<ept id="p1">**</ept> operation in your API, replacing <ph id="ph1">`&lt;apim gateway&gt;`</ph> with the name of your gateway.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You'll get a <bpt id="p1">**</bpt>401, Access denied due to missing subscription key<ept id="p1">**</ept> message.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You'll now repeat your curl request, this time including your subscription key.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Run the following command in the Cloud Shell, replacing <ph id="ph1">`&lt;primary key&gt;`</ph> with the key you saved earlier, and replacing <ph id="ph2">`&lt;apim gateway&gt;`</ph> with the name of your gateway.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>You should now be able to access the API, and see a list of products returned to the console.</source>
+        </trans-unit></group></body></file></xliff>

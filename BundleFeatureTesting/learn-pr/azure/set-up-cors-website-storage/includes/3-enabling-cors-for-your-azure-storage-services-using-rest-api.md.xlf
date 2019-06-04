@@ -1,0 +1,107 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-enabling-cors-for-your-azure-storage-services-using-rest-api.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-enabling-cors-for-your-azure-storage-services-using-rest-api.d6dc8f.87ccb44c2ccfb466cb16ceb2e429b1e20fc0f386.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">87ccb44c2ccfb466cb16ceb2e429b1e20fc0f386</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\set-up-cors-website-storage\includes\3-enabling-cors-for-your-azure-storage-services-using-rest-api.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You can enable or disable CORS using the Azure REST API, and Azure Storage Services provides a secure way for clients to manage their servies and access your Azure Storage Services resources.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In the utilities company scenario, some of your company's document resources are located in Blob storage.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You've been asked to set up CORS rules to restrict access to these resources to requests from specific domains.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You'll use the REST API to do this.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You configure CORS rules individually for each of the Azure storage services by using the following REST APIs: <ph id="ph1">`Set Blob Service Properties`</ph>, <ph id="ph2">`Set File Service Properties`</ph>, <ph id="ph3">`Set Queue Service Properties`</ph>, and <ph id="ph4">`Set Table Service Properties`</ph>.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Once you've configured the rules for a storage service, when that service receives a properly authenticated CORS request, the service will evaluate the request to determine whether it is allowed according to the CORS rules you have set.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In this unit, you will learn about the REST commands and the parameters that are required to configure CORS.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The Set Blob Service Properties request</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You configure CORS for Azure storage by sending an HTTP PUT request that contains the requisite parameters for the Azure Storage REST API.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For example, the following URL shows the format for this type of request:</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Request headers</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The REST API PUT request requires you to provide security information in the HTTP request headers.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>These headers are:</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>HTTP Header</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Specifies the authentication scheme, storage account name, and signature.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Date`</ph> or <ph id="ph2">`x-ms-date`</ph></source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Specifies the Coordinated Universal Time (UTC) for the request.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Specifies the version of the operation to use for this request; this header is required for all authenticated requests.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This header is optional.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>It provides a client-generated, opaque value with a 1 KB character limit that is recorded in the analytics logs when storage analytics logging is enabled.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Using this header is highly recommended for correlating client-side activities with requests received by the server.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The request body</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The request body contains an XML document containing the data for the request.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The body includes a <ph id="ph1">`&lt;Cors&gt;`</ph> element that describes the CORS rule being added.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The following code shows the structure of this element:</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The XML document in the request body contains the following elements:</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Element</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Contains all of your CORS rules.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Specifies a single CORS rule for a storage service.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You can include up to five <ph id="ph1">`CorsRule`</ph> elements in the request.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If no <ph id="ph1">`CorsRule`</ph> elements are included in the request body, all CORS rules will be deleted, and CORS will be disabled for the blob service.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Specifies a comma-separated list of origin domains that will be allowed via CORS, or "*" to allow all domains.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This list is limited to 64 origin domains.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Each origin is limited to 256 characters.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Specifies a comma-separated list of HTTP response headers to expose to CORS clients.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This list is limited to 64 defined headers and two prefixed headers.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Each header is limited to 256 characters.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Specifies the number of seconds that a client or browser should cache a CORS preflight response.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Specifies a comma-separated list of headers allowed to be part of the CORS request.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This list is limited to 64 defined headers and two prefixed headers.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Each header is limited to 256 characters.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Specifies a comma-separated list of HTTP methods that the origin is permitted to use.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For Azure Storage, the permitted methods are: DELETE, GET, HEAD, MERGE, PATCH, POST, OPTIONS, and PUT.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>As an example, the following CORS rule enables CORS for GET and PUT requests that are received from the domains www.fabrikam.com and www.contoso.com:</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The response</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The response from the request includes a status code and a set of response headers.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If successful, the request will return an <bpt id="p1">**</bpt>HTTP 202 Accepted<ept id="p1">**</ept> response, which includes the following headers:</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>HTTP Header</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Description</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This value uniquely identifies a request that was made against the service.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This header specifies the version of the operation that was used for the response.</source>
+        </trans-unit></group></body></file></xliff>

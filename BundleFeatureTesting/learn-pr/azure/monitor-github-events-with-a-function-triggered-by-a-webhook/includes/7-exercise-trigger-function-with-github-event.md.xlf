@@ -1,0 +1,51 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="7-exercise-trigger-function-with-github-event.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7-exercise-trigger-function-with-github-event.d37cb1.762a812d61f64c5cd530f33ed1e0d973376ba7d4.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">762a812d61f64c5cd530f33ed1e0d973376ba7d4</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\monitor-github-events-with-a-function-triggered-by-a-webhook\includes\7-exercise-trigger-function-with-github-event.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>In this exercise, you'll update your Azure Function to parse information from the GitHub webhook payload, and display the results.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Update the Function App to parse information from the GitHub webhook</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Expand <bpt id="p1">**</bpt>Functions<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Select the function that you created.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>View files<ept id="p1">**</ept>, and then click <bpt id="p2">**</bpt>index.js<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Update the index.js file by editing the code in the main window for the function.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Replace the <ph id="ph1">`if...else`</ph> statement in the function body with the following code.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This code retrieves the event type from the request header, and the title and action fields from the message body.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This information indicates that page has changed, and whether it has been edited or newly created.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The code constructs a response that summarizes the action.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Trigger your Azure Function with a Gollum event</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Return to your GitHub account.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Select your repository.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> tab.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Webhooks<ept id="p1">**</ept> in the navigation panel.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept> button next to your webhook.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Scroll down to the <bpt id="p1">**</bpt>Recent Deliveries<ept id="p1">**</ept> section.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Select the latest delivery entry by clicking the ellipsis button (...).</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Redeliver<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In the message box, click <bpt id="p1">**</bpt>Yes, redeliver this payload<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This action simulates you changing your Wiki page again.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Verify that the webhook is now processed successfully.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Response<ept id="p1">**</ept> tab. You'll see how the webhook, has triggered your Azure function, and parsed the information that you added to the function at the start of the exercise.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The body of the response should look like:</source>
+        </trans-unit></group></body></file></xliff>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="index.yml" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">index.f07717.64695ad0cb8e5222ef6945c16b9cfa18a3278ded.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">64695ad0cb8e5222ef6945c16b9cfa18a3278ded</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\scale-sql-databases-elastic-pools\index.yml</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve" uid="learn.azure-scale-azure-sql-dbs-elastic-pools">
+          <source>Scale multiple Azure SQL Databases with SQL elastic pools</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve" uid="learn.azure-scale-azure-sql-dbs-elastic-pools">
+          <source>Scale multiple Azure SQL Databases with SQL elastic pools</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve" uid="learn.azure-scale-azure-sql-dbs-elastic-pools">
+          <source>Scale multiple Azure SQL Databases with SQL elastic pools</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve" uid="learn.azure-scale-azure-sql-dbs-elastic-pools">
+          <source>SQL elastic pools allow you to manage performance and cost for a collection of SQL databases.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve" uid="learn.azure-scale-azure-sql-dbs-elastic-pools">
+          <source>In this module, you will:</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve" uid="learn.azure-scale-azure-sql-dbs-elastic-pools">
+          <source>Create an elastic pool</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve" uid="learn.azure-scale-azure-sql-dbs-elastic-pools">
+          <source>Add databases to an elastic pool</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve" uid="learn.azure-scale-azure-sql-dbs-elastic-pools">
+          <source>Configure database performance in an elastic pool</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve" uid="learn.azure-scale-azure-sql-dbs-elastic-pools">
+          <source>Basic knowledge of the Azure Portal</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve" uid="learn.azure-scale-azure-sql-dbs-elastic-pools">
+          <source>Basic knowledge of Azure SQL Server</source>
+        </trans-unit></group></body></file></xliff>

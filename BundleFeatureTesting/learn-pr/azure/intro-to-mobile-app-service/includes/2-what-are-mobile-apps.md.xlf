@@ -1,0 +1,87 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="2-what-are-mobile-apps.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2-what-are-mobile-apps.5ed538.337044c295795b80803ffc19fa307494778ed6ca.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">337044c295795b80803ffc19fa307494778ed6ca</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-mobile-app-service\includes\2-what-are-mobile-apps.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Let's start with a tour of the core features of Azure Mobile Apps.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This overview should help you decide if Azure Mobile Apps can help support your next mobile client app.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>What are Mobile Apps in Azure App Service?</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The Mobile Apps feature of Azure App Service is a collection of Azure services commonly used to support mobile client apps.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Mobile Apps is a managed platform-as-a-service (PaaS) that includes data storage, user authentication, and push notifications.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The services provided by Mobile Apps are accessible using a REST API or commonly using a Microsoft provided API that can be added to your mobile client.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You may see Mobile Apps referred to as <bpt id="p1">*</bpt>Azure Mobile App Service<ept id="p1">*</ept>, this is same as Mobile Apps in Azure.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>What are Azure Mobile Apps?</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When creating mobile applications with Azure, it's helpful to think about the app in two parts, the client app and the supporting mobile service on Azure.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Typically when we think of "apps" we think about a client application running on a consumer mobile device from companies like Apple and Google.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This is the part of the app that the user interacts with.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>It's also common to have supporting services to manage data, identity, and so on.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">*</bpt>Mobile Apps in Azure App Service<ept id="p1">*</ept> is a collection of backend services commonly used to support mobile client apps.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>It's important to know that Azure Mobile Apps provides those backend services, but you still need to build the mobile client app that runs on the mobile device.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This will be done using mobile development tools and SDKs, and will require a developer with mobile development skills.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Mobile Apps features</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Features of Mobile Apps in Azure App Service</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Data access</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Mobile Apps provides a backend service that can be defined using either ASP.NET or node.js.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This allows for an OData v3 source that can be linked to either an Azure SQL Database or an on-premises hosted SQL server.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For ASP.NET, the data access service is based on Entity Framework, which allows your app to integrate with several SQL or NoSQL data providers including Azure Table Storage, MongoDB, and Azure Cosmos DB.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The data can also be accessed via REST or using a Microsoft provided client SDK.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Offline sync</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>When using the provided Mobile Apps SDK in your client app to access your cloud data, you'll also get a robust API to manage data synchronization between the client mobile app and the cloud data store.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This can be very valuable for mobile devices that can lose connectivity and may need to manage data conflicts when more than one client app is saving or editing data.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Authentication and authorization</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Mobile Apps includes support for several identify providers.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You can use Azure Active Directory or common client providers including Facebook, Google, Twitter and Microsoft.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Mobile Apps provides OAuth 2.0 authentication for each.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Push notifications</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When using the client SDKs, you can integrate with Azure Notification Hubs to manage and send notifications to your app users.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>What mobile client devices are supported?</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Azure Mobile Apps can be used with any mobile device capable of making REST API calls.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>However, specific modern platforms have additional support by using a Microsoft provided SDK.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Mobile Apps provides SDKs for several platforms:</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>native iOS apps</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>native Android apps</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>native Windows UWP apps</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>As well, several cross-platform frameworks are supported:</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Xamarin.Forms</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Xamarin.iOS</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Xamarin.Android</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Apache Cordova</source>
+        </trans-unit></group></body></file></xliff>

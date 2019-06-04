@@ -1,0 +1,223 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-customer-service-case-study-resolution.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-customer-service-case-study-resolution.87545a.5deb7744c57d46c0588d17b60f78f91aaa0b9356.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5deb7744c57d46c0588d17b60f78f91aaa0b9356</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\foster-ai-ready-culture-customer-service\includes\4-customer-service-case-study-resolution.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Our approach and results</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>At Microsoft, we identified several areas where we could enhance our customer service organization with AI solutions.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Typically, the first AI solution that comes to mind for customer service is a customer-facing chatbot.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>While we have implemented an AI-powered virtual agent, we continue to focus on augmenting the capabilities of our human agents with assistance from AI.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To support our agents with AI insights, we implemented two AI solutions that, respectively, predict the likelihood of case escalation and offer diagnostic recommendations.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Next, to glean more insights from customer chat and feedback data, we created an AI-based sentiment analysis solution that automates processing of this data and automatically routes feedback to customer service agents and their managers.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Finally, to improve self-service options for customers, we implemented an intelligent virtual agent that can answer routine questions and direct customers to self-service resources.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Read on to explore these four AI solutions in depth.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Escalation prediction</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Our customer service teams identified reducing case escalation as something that would make their lives easier and increase customer satisfaction.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Our employees pinpointed several indicators that suggest a customer may escalate a case, including length of conversation and number of repeat contacts.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Using these indicators, our customer service team partnered with data scientists to create a solution that predicts the likelihood that cases will be escalated.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This enables agents to be proactive to prevent escalation.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For instance, if an agent is aware that a case is at-risk for escalation, they can prepare for the call even more thoroughly, or pass the case on to another agent who has deeper subject matter expertise to handle the case effectively.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Recommendation engine</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Because our agents handle customer service for such a wide range of products and services, they wanted assistance in identifying what’s behind a customer’s issues.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To accomplish this, our customer service team created a recommendation engine to support our front-line agents.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>While human agents chat with customers, machine learning algorithms run in the background to determine the probable issues the customer could be facing.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Based on this prediction, the recommendation engine suggests the diagnostics from our library that should be run to determine the root cause.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This speeds up case resolution and reduces frustration for our agents.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Customer sentiment analysis</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>It’s important to our customer service employees to hear and act on the feedback from our customers.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>But given the amount of feedback we receive, it would take a human 4+ years of work to read a single year’s worth of verbatim feedback for just a few of our product lines and even longer to analyze it.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Meanwhile, when we have surfaced and acted on customer feedback in the past, we did so using siloed, disjointed processes and ad-hoc solutions that didn’t scale.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>We needed to find a better way to process and route relevant feedback from our customers so that employees could implement it at the front line.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Our customer service team partnered with data scientists to use machine learning to create a sentiment analysis tool that automates this work.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>It analyzes sentiment not only in customer feedback, but also in customer chat conversations.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>They are experimenting with analyzing sentiment in real time, which would enable us to track customer sentiment throughout their service journey and better identify breakpoints where our service didn’t live up to their expectations.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If supervisors can identify breakpoints as they occur, they can intervene proactively to mitigate negative experiences.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>We’ve found a set of positive and negative factors that drive sentiment: the customer service experience, product satisfaction, and company procedures and policies, among other drivers (e.g. tools, third parties, etc.).</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Identifying these has given us actionable insights that help us build our service experience accordingly.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Our customer service team now has two processes for acting on customer feedback.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The first is the service professional feedback route, which uses our analytics tool to automatically route relevant feedback.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Positive feedback is routed to our agents.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>96% have found value in having this feedback sent to them.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In addition, a trend analysis of customer sentiment is routed to managers, along with examples of chat sentiment outliers.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Through coaching based on this data, low-performing agents have received 23% less negative feedback.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The second process is the customer recovery feedback loop.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If customer feedback indicates a lack of resolution, machine learning models detect this and the case is automatically routed to a recovery manager, who researches the case, contacts the customer, and ensures issue resolution.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Then, our customer service team takes the opportunity to learn why the initial interaction did not resolve the issue.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The results have been impressive: our customers are happier, and our agents are able to help them more effectively.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Sentiment scores for recovered customers increased on average by 180% compared to their first interaction with support.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Virtual Agent</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Finally, we created Virtual Agent, an AI-powered frontline agent that supports customer queries on a variety of Microsoft products, including Windows, Office, Xbox, and more.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>It provides customers with on-demand interactions through an AI chat experience and promptly helps users find what they’re looking for, resolves issues, and makes recommendations—all in a natural, conversational style.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>We implemented the Virtual Agent in response to changing customer preferences.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Customers increasingly prefer self-service for product support, with 80% of customers saying self-service is their preferred channel.<bpt id="p1">&lt;sup&gt;</bpt>3<ept id="p1">&lt;/sup&gt;</ept> Our self-service options were fragmented, causing customers to go through multiple channels and look at multiple pages before finding the right solution.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The Virtual Agent is seamlessly integrated into self-service starting points, such as Windows Settings, streamlining and enriching the self-service experience.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Offering instant support at this touchpoint is only possible through AI.</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The Virtual Agent responds in different ways depending on the nature of the customer’s intent (issue): it can converse in multi-turn dialogues, offer instant answers, and surface web results from support articles and community forum threads.</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The queries the Virtual Agent receives are often tricky, requiring comprehension and reasoning, so we’ve customized our natural language understanding models to match the style and vocabulary of customer service interactions.</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The option to chat or talk to a human agent is available throughout the chat, and at the end of the chat, the Virtual Agent asks the customer whether their problem is resolved.</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If it remains unresolved, we use intelligent routing based on the conversation to transfer the user to a human agent with the necessary expertise.</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This was something that our agents requested because it frustrates them to receive cases that they don’t have the expertise to resolve.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The human agent receives all relevant context, including the customer’s entire conversation with the Virtual Agent and any support articles that the customer has been given.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Because the case is directed straight to the appropriate human agent, we’ve seen a 3x decrease in agent-to-agent transfers.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>As you can see, even with our Virtual Agent, empowering our employees is a priority.</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Since it was launched, the Virtual Agent has handled 100,000+ support cases per day on average.</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>We’ve found that the Virtual Agent can autonomously solve 12% of chat volume, saving tens of millions of dollars and freeing up our employees’ time so that they can focus on higher-value activities that require human intelligence and ingenuity.</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>In addition, our customers are more satisfied, as they’ve seen increased self-help success and more effective problem resolution.</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Over the first nine months after the solution was implemented, the customer satisfaction scores for the top 20% of traffic (i.e. high-volume customer intents) improved by 31%.</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Additionally, there has been a 2x increase in self-help success and the Virtual Agent has increased problem resolution by 239% for the top 20% of traffic and 185% across all traffic.</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Applying these lessons in your organization</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Our journey to transforming customer service with AI has included bumps in the road.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>In particular, we learned that it’s important to maintain the relevancy of AI solutions by enabling them to learn and improve continuously and by adapting how and where you use them as your business evolves.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>These are a few lessons from our experience that you can consider on your own journey with AI:</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Enable AI systems to continuously learn and improve</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Enabling AI systems to learn and optimize for changing conditions is key to ensuring their accuracy and reliability.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>For example, our Virtual Agent needs to continually adapt to provide support for our evolving portfolio of products.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>To serve our customers well, the support knowledge base effectively needs to be updated in real time.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>We designed our support systems specifically for this agility, to ensure that they could learn and improve in near-real time.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Maximize the value of your AI applications by adapting how and where you use them</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>You shouldn’t assume that AI implementation is done the moment you get your application up and running.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>As your business evolves, the first place you site your AI may no longer be the place where the application can drive the most value.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>You should adapt the placement and capabilities of your AI applications to match the needs of your business.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>For instance, we initially implemented the Virtual Agent at microsoft.support.com, but over time we found that it was not driving as much value for our customers as we anticipated.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>After discovering that Windows Settings is the first place many of our customers go to solve their problems, we moved the Virtual Agent directly to Windows Settings.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>This has aligned our application closer to the evolving needs of our customers, enabling us to get more value from AI.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Tips from a change management perspective</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Overcoming resistance and driving desire to adopt and support change are two of the most difficult things in change management.</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>We will explore these, share some mistakes we made along the way, and connect the lessons we’ve learned to the corresponding organizational levers from Prosci’s ADKAR change management framework.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Desire, buy-in, and the issue of “what’s in it for me”</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Our customer service teams are highly skilled technical people, and they don’t enjoy wasting time on repetitive tasks.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Anything that can help them is always welcome.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Our top priorities were to improve the experience of our agents and help them better assist customers.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>According to Gabriele Masili, CTO of Customer Service and Support at Microsoft, this was always part of the design criteria for AI.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Every AI application we have implemented helps make our agents better, whether that is by helping them anticipate a customer’s issue, keeping them informed on our huge product base, or providing them with customer chat history from a virtual agent.</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>In particular, we paid attention to the feedback we receive from our employees—in the case of our recommendation engine, we even created an AI application as a direct response to requests from employees.</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Keeping the needs of our customer service teams at the center of our AI strategy was instrumental in driving adoption.</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>By making it clear that our AI applications would address their needs, we helped employees understand “what’s in it for me” and ultimately won their buy-in.</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>How our learnings relate to the five organizational levers</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Organizational plans</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>What we did to help individuals through change and how it relates to ADKAR</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Communication plan and leadership</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The need for change and the value of AI for our organization were clear: with AI we could provide better service to our customers and be more efficient in doing so.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Although we made the effort to communicate through the right channels and senders, we didn’t always communicate the right message.</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>At first, our AI messaging centered on how it would reduce the volume of calls and how the Virtual Agent would enable customers to help themselves.</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>This message lacked an explanation of how this would benefit employees.</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>As Microsoft Customer Service and Support CVP Aileen Allkins explained in her executive perspective video, we should have completed the message by saying, “As a result of that, we will free up capacity to do higher value activities.”</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Without this message, employees began to ask themselves if this AI initiative was going to take away their jobs, which created a source of resistance to change.</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>As you can see, the way you communicate about change is really important—and even more so if the message is coming from the leadership team (as it was in our case).</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>It’s crucial to ensure that people understand the value that AI brings both for the organization and for themselves.</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>That was key to enabling change.</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Coaching plan</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The sentiment analysis tool provided powerful insights on the what specifically drives positive or negative sentiment in an interaction between a customer and an agent.</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>This has enabled supervisors to incorporate these insights into their regular coaching conversations and interactions with agents.</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Resistance management plan</source>
+        </trans-unit><trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Many employees were skeptical about the quality of the information that AI solutions could provide: Could a virtual agent built on machine learning really know more than the agents themselves?</source>
+        </trans-unit><trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>They were particularly skeptical during the early stages of machine learning development, when AI did not always provide meaningful or accurate support.</source>
+        </trans-unit><trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>To help improve the quality of the AI solutions and win trust from employees, we enrolled a group of agents to help refine the machine learning models by up-voting or down-voting answers produced by the AI.</source>
+        </trans-unit><trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Now that you’ve considered various aspects of what it means to have an AI-ready customer service culture, let’s wrap up everything you’ve learned with a knowledge check.</source>
+        </trans-unit></group></body></file></xliff>

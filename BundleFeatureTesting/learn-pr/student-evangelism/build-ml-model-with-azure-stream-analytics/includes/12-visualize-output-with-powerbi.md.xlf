@@ -1,0 +1,223 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="12-visualize-output-with-powerbi.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">12-visualize-output-with-powerbi.42d59a.11fb7b432630b262c7e13cc6de9ac4ee3b25d72d.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">11fb7b432630b262c7e13cc6de9ac4ee3b25d72d</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\student-evangelism\build-ml-model-with-azure-stream-analytics\includes\12-visualize-output-with-powerbi.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Microsoft Power BI<ept id="p1">](https://powerbi.microsoft.com)</ept> was created to address the data explosion in commercial and academic organizations: the need to analyze that data, and the need for rich, interactive visuals to represent the data, and reveal key insights.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>It contains a suite of tools that assist in data analysis, from data discovery and collection to data transformation, aggregation, sharing, and collaboration.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>It a powerful tool that allows you to create rich visualizations and package them in interactive dashboards.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The first step in using Microsoft Power BI to explore and visualize the data in the Azure SQL database is to connect the database to Power BI as a data source.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Connect Power BI to Azure SQL</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If Power BI Desktop isn't already installed on your computer, go to <ph id="ph1">&lt;https://powerbi.microsoft.com/desktop/&gt;</ph> and install it now.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Start Power BI Desktop.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If you're asked to sign in, use the same account you're using in the Azure portal.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>Get Data<ept id="p1">**</ept> in the ribbon at the top of the window.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Azure SQL database<ept id="p1">**</ept> from the list of data sources.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>Connect<ept id="p1">**</ept> button.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Adding a data source</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Enter the server's host name (the server name you specified previously plus ".database.windows.net" since it's an Azure SQL database server) and the database name.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>DirectQuery<ept id="p1">**</ept>, and click <bpt id="p2">**</bpt>Advanced options<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Then type the query below into the "SQL statement" box to select the 20 most recently added rows in the "PolarBears" table.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This is the query that the report will use to pull information from the database.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>When you're done, click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Then click the <bpt id="p1">**</bpt>Load<ept id="p1">**</ept> button in the ensuing dialog.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Connecting to a database</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If prompted, enter the user name and password you specified when you created the database server, and select the database from the drop-down list labeled "Select which level."</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Then click <bpt id="p1">**</bpt>Connect<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Entering admin credentials</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>After a short delay, Power BI will connect to the database and import a dataset using the query you provided.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Create a report from the dataset</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Visualizations (or simply "visuals") are the primary elements that make up Power BI reports.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>In this section, you'll use the Power BI report designer to create visuals from the database you connected to in the previous exercise, adjust filters and aggregates to refine the way the data is displayed, and format the visuals to produce compelling output.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Click the <bpt id="p1">**</bpt>Map<ept id="p1">**</ept> icon in the "Visualizations" panel to add a map visual to the report.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Adding a map visual</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Check the <bpt id="p1">**</bpt>Latitude<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Longitude<ept id="p2">**</ept> boxes in the "Fields" panel to include these fields in the visual.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Adding latitude and longitude</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>In the "Visualizations" panel, click the down arrow next to <bpt id="p1">**</bpt>Average of Latitude<ept id="p1">**</ept> and select <bpt id="p2">**</bpt>Don't summarize<ept id="p2">**</ept> from the menu.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Then do the same for <bpt id="p1">**</bpt>Average of Longitude<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Removing summary calculations</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Return to the "Fields" panel and check the <bpt id="p1">**</bpt>IsPolarBear<ept id="p1">**</ept> box to add that field to the map.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Then resize the map so that it looks something like this:</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Resizing the map</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The number and location of the "bubbles" in your map will probably be different than what's shown here.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Click in the empty area outside the map to deselect it.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Then check the <bpt id="p1">**</bpt>CameraId<ept id="p1">**</ept>, <bpt id="p2">**</bpt>IsPolarBear<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>TimestampLabel<ept id="p3">**</ept> boxes in the "Fields" panel to add a table visual containing those columns to the report.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Adding a table visual</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Deselect the table visual.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Then check <bpt id="p1">**</bpt>IsPolarBear<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Latitude<ept id="p2">**</ept> in the "Fields" panel to add another table visual, and click the <bpt id="p3">**</bpt>Pie Chart<ept id="p3">**</ept> icon in the "Visualizations" panel to convert the table into a pie chart.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Adding a pie-chart visual</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Click the down arrow next to <bpt id="p1">**</bpt>Average of Latitude<ept id="p1">**</ept> and select <bpt id="p2">**</bpt>Count<ept id="p2">**</ept> from the menu to configure the pie chart to show a count of sightings and the proportion of sightings in which polar bears were detected.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Refining the pie-chart visual</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Deselect the pie-chart visual and click the <bpt id="p1">**</bpt>Slicer<ept id="p1">**</ept> icon to add a slicer to the report.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Slicers provide a convenient means for filtering information in a Power BI report by narrowing the data shown in other visuals.</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Adding a slicer</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Select the <bpt id="p1">**</bpt>IsPolarBear<ept id="p1">**</ept> field in the "Fields" panel so the slicer shows checkboxes labeled "True" and "False."</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Refining the slicer</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Now resize and reposition the visuals to achieve a layout similar to this:</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Adjusting the layout</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Use Power BI formatting</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>With the report structure in place, the next task is to use some of Power BI's rich formatting options to embellish the visuals.</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Start by selecting the map visual in the report designer.</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Then click the <bpt id="p1">**</bpt>Format<ept id="p1">**</ept> icon in the "Visualizations" panel.</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Formatting the map visual</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Use the formatting controls in the "Visualizations" panel to make the following changes to the map visual:</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Under "Legend," set "Legend Name" to "Polar bear sighted?"</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Under "Data colors," set the color for False to <ph id="ph1">`00FF00`</ph> (pure green) and the color for True to <ph id="ph2">`FF0000`</ph> (pure red)</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Under "Bubbles," set  the bubble size to 30%</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Under "Map styles," set the theme to "Aerial"</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Turn "Title" from on to off</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Confirm that the resulting map looks something like this:</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Formatted map visual</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Select the pie-chart visual and use the formatting controls in the "Visualizations" panel to make the following changes:</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Under "Data colors," set False to <ph id="ph1">`00FF00`</ph> and True to <ph id="ph2">`FF0000`</ph></source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Under "Detail  labels," change the label style to "Data value, percent of total"</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Under "Title," change the title text to "Proportion of polar bear sightings"</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Confirm that the resulting pie-chart visual resembles this:</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Formatted pie-chart visual</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Select the table visual and use the formatting controls in the "Visualizations" panel to make the following changes:</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Under "Style," change the table style to "Alternating rows"</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Turn "Title" on, and change the title text to "Camera activity"</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Confirm that the resulting table looks like this:</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Formatted table visual</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Select the slicer visual and use the formatting controls in the "Visualizations" panel to make the following changes:</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Under "Selection Controls," set "Single Select" to off</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Turn off "Visual Header"</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Turn "Title" on and set the title text to "Show sightings that are:"</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Double-click <bpt id="p1">**</bpt>Page 1<ept id="p1">**</ept> in the bottom-left corner of the designer and change the report title to "Polar Bear Activity."</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Use the <bpt id="p1">**</bpt>File &gt; Save<ept id="p1">**</ept> command to save the report.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The formatted report should resemble the one below.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Feel free to embellish it further.</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>You could, for example, add a title in a large font at the top of the report.</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Once you're satisfied with the layout and content, it's time to put it to work using a live data source.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The formatted report</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Run the whole simulation</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Now that the report is prepared in Power BI, your final task is to run the end-to-end solution that you built in this series of hands-on labs and check for polar bears!</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Open the database in the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com?azure-portal=true)</ept> and use the query editor to execute the following query and delete all rows from the <ph id="ph1">`PolarBears`</ph> table:</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Open the Stream Analytics job in the Azure portal and start the job.</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Wait until the Stream Analytics job is running.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Then switch to the Azure Cloud Shell window and make sure you are in the project directory you created.</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Use the following command to start the virtual cameras running:</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Return to Power BI Desktop and click <bpt id="p1">**</bpt>Refresh<ept id="p1">**</ept> in the ribbon at the top of the window.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Click it again every 15 seconds or so.</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The report will refresh automatically every 15 minutes or so, but you can refresh it manually as often as you would like to update the visuals.</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Confirm that red and green bubbles appear at various locations around the island.</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Red bubbles indicate the presence of polar bears, while green bubbles represent locations where photos were taken but no polar bears were detected.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Locations that have a mixture of sightings will show red <bpt id="p1">*</bpt>and<ept id="p1">*</ept> green, as pictured below.</source>
+        </trans-unit><trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>There be polar bears!</source>
+        </trans-unit><trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Suppose you <bpt id="p1">*</bpt>only<ept id="p1">*</ept> wanted to show locations where polar bears were detected.</source>
+        </trans-unit><trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Check the <bpt id="p1">**</bpt>True<ept id="p1">**</ept> box in the slicer visual.</source>
+        </trans-unit><trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>What happens in the map?</source>
+        </trans-unit><trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Continue running for a few minutes and refreshing the report once or twice a minute.</source>
+        </trans-unit><trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Confirm that there are polar bears active on the island!</source>
+        </trans-unit><trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>When you're satisfied that the solution is working as intended, stop the cameras and stop the Stream Analytics job.</source>
+        </trans-unit><trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>You now have a report that shows, in near real-time, polar-bear activity on the island.</source>
+        </trans-unit><trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>If you have a <bpt id="p1">[</bpt>Power BI Pro or Power BI Premium<ept id="p1">](https://powerbi.microsoft.com/blog/power-bi-pro-power-bi-premium-flexibility-to-choose-the-licensing-best-for-you-and-your-organization/)</ept> account, you can share the report with other Power BI users so they, too, can monitor polar-bear activity.</source>
+        </trans-unit><trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>For more information about sharing your work, see <bpt id="p1">[</bpt>Share Power BI Dashboards and Reports<ept id="p1">]</ept><bpt id="p2">(https://docs.microsoft.com/power-bi/service-how-to-collaborate-distribute-dashboards-reports "</bpt>Share Power BI Dashboards and Reports<ept id="p2">")</ept>.</source>
+        </trans-unit><trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Reports can also be viewed in the <bpt id="p1">[</bpt>Power BI mobile apps<ept id="p1">](https://docs.microsoft.com/power-bi/mobile-apps-for-mobile-devices)</ept> so you can keep track of polar bears on your Windows, Android, or iOS device — even on an Apple watch!</source>
+        </trans-unit></group></body></file></xliff>

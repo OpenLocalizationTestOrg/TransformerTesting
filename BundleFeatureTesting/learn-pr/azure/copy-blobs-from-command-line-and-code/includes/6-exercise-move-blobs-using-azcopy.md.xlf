@@ -1,0 +1,75 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="6-exercise-move-blobs-using-azcopy.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6-exercise-move-blobs-using-azcopy.3c55bc.10be9246eab6592b680003fb3ad8bd4193e737f3.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">10be9246eab6592b680003fb3ad8bd4193e737f3</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\copy-blobs-from-command-line-and-code\includes\6-exercise-move-blobs-using-azcopy.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You've decided to evaluate the AzCopy command as an alternative to using the CLI.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>As before, you want to move blobs that contain the details for product specifications, and that are more than six months old, to an archive store in a separate blob storage account.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In this exercise, you'll investigate how to use the AzCopy to migrate blobs that haven't changed in the last six months to a separate storage account.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Setup</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>We'll start by downloading the latest version of AzCopy; currently version 10.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The Azure CLI does include AzCopy but it may be an older version.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>We'll also generate SAS tokens for our storage accounts.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In the Cloud Shell window, run the following commands to download and extract the most recent version of <bpt id="p1">*</bpt>AzCopy<ept id="p1">*</ept> for Linux:</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Sign in to the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true)</ept>.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Click <bpt id="p1">**</bpt>All resources<ept id="p1">**</ept>, and select your destination (cool) storage account.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>On the storage account page, under <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept>, click <bpt id="p2">**</bpt>Shared access signature<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>On the shared access signature page, click <bpt id="p1">**</bpt>Generate SAS and connection string<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>In the Cloud Shell, create an environment variable for SAS token and assign the value from the portal.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Repeat the steps above and assign the hot storage token to <bpt id="p1">**</bpt>HOT_SAS_TOKEN<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Create a container for holding archived blobs</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In the Cloud Shell, navigate to the directory containing the <bpt id="p1">*</bpt>AzCopy<ept id="p1">*</ept> utility:</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Create a new container named <bpt id="p1">*</bpt>azcopy-archive<ept id="p1">*</ept> in the destination storage account.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Replace <bpt id="p1">*</bpt><ph id="ph1">\&lt;</ph>destination storage account&gt;<ept id="p1">*</ept> with the name of the storage account.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Replace <bpt id="p1">*</bpt><ph id="ph1">\&lt;</ph>destination sas token&gt;<ept id="p1">*</ept> with the SAS token of the destination storage account.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The SAS token must be enclosed in quotes:</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Verify that the command responds with the message <bpt id="p1">*</bpt>Successfully created the resource<ept id="p1">*</ept>.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Copy blobs to <bpt id="p1">*</bpt>Cool<ept id="p1">*</ept> storage</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>In the Cloud Shell, run the following command to generate a list of blobs and their last modified times in the source container.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Now that you have a list of blobs and their last modified times, you can use this information to create a script that uses AzCopy to transfer each blob that has a last modified time of more than 6 months ago to <bpt id="p1">*</bpt>Cool<ept id="p1">*</ept> storage.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>As an example, run the following command to copy the <bpt id="p1">*</bpt>wheel_small.gif<ept id="p1">*</ept> file.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The blob being copied is small and the transfer will complete quickly, but imagine that the blob is several gigabytes in size.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The transfer will take much longer.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Run the following command to view azcopy jobs that have run recently, or are still running.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Make a note of the <bpt id="p1">*</bpt>JobId<ept id="p1">*</ept> for the transfer operation.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Run the following command to determine the status of the job.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Replace <bpt id="p1">*</bpt><ph id="ph1">\&lt;</ph>jobid&gt;<ept id="p1">*</ept> with the job ID that you noted in the previous step.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Verify that the blob has been copied.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Run the following command to list the blobs in the <bpt id="p1">*</bpt>azcopy-archive<ept id="p1">*</ept> container in the destination storage account.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Remove blobs from <bpt id="p1">*</bpt>Hot<ept id="p1">*</ept> storage</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Copying a blob to <bpt id="p1">*</bpt>Cool<ept id="p1">*</ept> storage doesn't remove the blob from <bpt id="p2">*</bpt>Hot<ept id="p2">*</ept> storage.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You must delete these blobs manually.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Run the following command to delete the "specification01.md" blob from the source (hot) storage account.</source>
+        </trans-unit></group></body></file></xliff>

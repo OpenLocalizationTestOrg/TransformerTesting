@@ -1,0 +1,95 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="8-generate-events.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8-generate-events.b033cc.fe097141a75e15b45868c309c58d2a6ac908a8f0.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fe097141a75e15b45868c309c58d2a6ac908a8f0</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\student-evangelism\build-ml-model-with-azure-stream-analytics\includes\8-generate-events.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>We're ready to start generating events that will push images up to Blob Storage from one of our simulated cameras.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This upload will trigger our IoT hub, which will in turn, notify the Azure function you created.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>We'll use an existing Node.js app included with the assets you cloned earlier to simulate the cameras.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The app will read the <bpt id="p1">**</bpt>cameras.json<ept id="p1">**</ept> created earlier and periodically upload a photo to Blob storage to simulate a camera catching movement.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>If the Azure Cloud Shell timed out while you were working in the portal, go ahead and reconnect it.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>All the files and folders are still present but the environment variables you set earlier will be missing because this is a new terminal session.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Make sure to execute the following statements with the proper values before you continue.</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In the Cloud Shell on the right, make sure you are in the project folder <ph id="ph1">`photoproc`</ph>.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Recall you can use the <ph id="ph1">`cd`</ph> command in the shell to switch to the proper folder.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Copy the <bpt id="p1">**</bpt>run.js<ept id="p1">**</ept> app into the project folder from assets.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can explore the code in the code editor if you like.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>It uses the <bpt id="p1">[</bpt>class support<ept id="p1">](http://es6-features.org/#ClassDefinition)</ept> in ECMAScript 6 (ES6) to define a class named <ph id="ph1">`Camera`</ph>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Then it creates 10 <ph id="ph1">`Camera`</ph> instances and starts them running.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Each camera object connects to the IoT hub securely using an access key obtained from <bpt id="p1">**</bpt>cameras.json<ept id="p1">**</ept>, and then uses a random timer to transmit events every 5 to 60 seconds.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Each event that is transmitted includes the camera's ID, latitude/longitude, and an image URL with timestamp.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The URL refers to an image that the camera uploaded to blob storage before firing the event.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Images are randomly selected from the files in the project directory's "photos" subdirectory.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Modify the simulation code</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Open the simulation code with the Cloud Shell editor.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Replace <ph id="ph1">`ACCOUNT_KEY`</ph> on line 5 with the storage account's access key.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If you need to retrieve the access key again you can use the following command in the terminal area below the editor.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Save the file and close the editor.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Run the simulation.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Confirm that you see output similar to the following, indicating that all 10 "cameras" are connected to the IoT hub:</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The order in which the cameras connect to the IoT hub will probably differ from what's shown here, and will also vary from one run to the next.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>After a few seconds, additional output should appear.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Each line corresponds to an event transmitted from a camera to the IoT hub.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The output will look something like:</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Confirm that the cameras are running and generating events as shown above.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Watch the Azure Function log</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The Streaming Analytics job is sending events to the Azure Function.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>We can monitor these in the Azure portal.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Sign into the <bpt id="p1">[</bpt>Azure portal<ept id="p1">](https://portal.azure.com?azure-portal=true)</ept> or switch to the tab with the portal.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Locate your Azure Function in the portal, you can type the name in the Search Box at the top to quickly jump to a resource.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can find it through the Resource Groups.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Select <bpt id="p1">**</bpt>Platform features<ept id="p1">**</ept> and then <bpt id="p2">**</bpt>Log streaming<ept id="p2">**</ept> under the <bpt id="p3">_</bpt>Monitoring<ept id="p3">_</ept> section as shown below.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Opening the output log</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Verify that over the course of a few minutes, the log shows several outputs from Stream Analytics.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>.The frequency will vary because the cameras use random timers to fire events.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Remember that the Stream Analytics job doesn't forward every event it receives to the function.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>It generates an output <bpt id="p1">*</bpt>only<ept id="p1">*</ept> when one camera snaps two photos within 10 seconds.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Each output contains a JSON payload containing a device ID, latitude, longitude, blob URL, and timestamp.</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Return to the Stream Analytics job in the portal and click <bpt id="p1">**</bpt>Stop<ept id="p1">**</ept> to stop it.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Then click <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> when asked to confirm that you want to stop the job.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Return to the Command Prompt or terminal window where <bpt id="p1">**</bpt>run.js<ept id="p1">**</ept> is executing and press <bpt id="p2">&lt;kbd&gt;</bpt>Ctrl<ept id="p2">&lt;/kbd&gt;</ept><ph id="ph1">+</ph><bpt id="p3">&lt;kbd&gt;</bpt>C<ept id="p3">&lt;/kbd&gt;</ept> (<bpt id="p4">&lt;kbd&gt;</bpt>Cmd<ept id="p4">&lt;/kbd&gt;</ept><ph id="ph2">+</ph><bpt id="p5">&lt;kbd&gt;</bpt>C<ept id="p5">&lt;/kbd&gt;</ept> on a Mac) to stop the flow of events from the simulated cameras.</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>You've confirmed that Stream Analytics is receiving input from the IoT hub and that the Azure Function is receiving input from Stream Analytics.</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The next step is built a machine-learning model and invoke it from the Azure Function.</source>
+        </trans-unit></group></body></file></xliff>

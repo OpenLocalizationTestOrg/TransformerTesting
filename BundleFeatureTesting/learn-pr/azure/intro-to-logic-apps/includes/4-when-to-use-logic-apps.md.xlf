@@ -1,0 +1,175 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-when-to-use-logic-apps.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-when-to-use-logic-apps.c57a32.f28ab413b7ed269c9c8a7dccd694f9fc3c6f9c8c.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f28ab413b7ed269c9c8a7dccd694f9fc3c6f9c8c</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\intro-to-logic-apps\includes\4-when-to-use-logic-apps.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Here, we'll discuss how you can decide whether Logic Apps is the right choice for a workflow.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>We'll list some criteria that indicate whether Logic Apps will meet your performance and functional goals.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Decision criteria</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Logic Apps helps you coordinate the flow of data through disparate systems.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The cases where Logic Apps might not be the best option typically involve real-time requirements, complex business rules, or use of non-standard services.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Here's some discussion of each of these factors.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Integration<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The key question to ask when you're considering Logic Apps is <bpt id="p1">_</bpt>"do I need to integrate services?"<ept id="p1">_</ept></source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Logic Apps work well when you need to get multiple applications and systems to work together.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>That's what they were designed to do.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If you're building an app with no external connections, Logic Apps is probably not the best option.</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Performance<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The next consideration is performance.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The Logic Apps execution engine scales your apps automatically.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Logic Apps can process large data-sets in parallel to let you achieve high throughput.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>However, they don't guarantee super-fast activation or enforce real-time constraints on execution time.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If you're looking for low subsecond response time, then Logic Apps may not be the best fit.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Conditionals<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Logic Apps provides control constructs like Boolean expressions, switch statements, and loops so your apps can make decisions based on your data.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>You can build highly complex and deeply nested conditionals into your Logic Apps.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>There are two reasons you might prefer not to.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>First, it's often easier to write conditional logic in code rather than using the Logic Apps Designer.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Second, embedded business rules aren't easily sharable with your other apps.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Some people like including complex business rules directly in their Logic Apps.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Others think it's simpler to write something like an Azure Function to encapsulate the conditional logic and invoke that Function from all their apps.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Connectors<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The last consideration is whether there are pre-built connectors for all the services you need to access.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If so, then you're ready to go.</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If not, then you'll need to create a custom connector.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If the service has an existing REST or SOAP API, you can make the custom connector in a few hours without writing any code.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If not, then you'll need to create the API first before making the connector.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Apply the criteria</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Logic Apps works best when you're integrating multiple services with some added control logic.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The decision is often a judgment call though.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Let's think about how to apply these criteria to our example processes.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Our fictional shoe company needed to monitor social media, move old videos to archive storage, and sell shoes online.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Our goal was to decide whether these tasks were good candidates for Logic Apps.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To make our decision, we should analyze each task using the four criteria we developed: integration, performance, conditionals, and connectors.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The following table summarizes the results.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The highlighted cells are discussed below.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Integration<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Performance<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Conditionals<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Connectors<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Use Logic Apps?<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Social-media monitor<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Integrates multiple services</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Doesn't need near-realtime low latency</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>One simple conditional</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Built-in connectors available for all needed systems</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Video archive utility<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">***</bpt>Only needs to access one service, cloud storage<ept id="p1">***</ept></source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Doesn't need near-realtime low latency</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Two simple conditionals</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Built-in connectors available for all needed systems</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Direct online sales<ept id="p1">**</ept></source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Integrates multiple services</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Doesn't need near-realtime low latency</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">***</bpt>Multiple complex conditionals<ept id="p1">***</ept></source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">***</bpt>Multiple custom connectors needed<ept id="p1">***</ept></source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">***</bpt>Maybe<ept id="p1">***</ept></source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>There are a few interesting things to think about in this analysis.</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The video archive task is a good fit for Logic Apps even though it doesn't integrate multiple systems.</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Logic Apps has a built-in timer trigger and an Azure blob connector that are perfect to implement this process.</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The online sales process would likely include complex business logic.</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>For example, we might have different approval processes based on the purchase amount or different shippers based on the destination.</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Logic Apps can easily handle these conditions.</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>It's up to us whether we want to embed these business rules in our app.</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The online sales process would probably use a mix of built-in and custom connectors.</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>We could use built-in connectors for email notifications and database access but would probably need a custom connector to talk to our payment processing service.</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The performance of Logic Apps will work well for all the tasks.</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Some of them may process large amounts of data, but Logic Apps scales automatically to handle high throughput or spikes in demand.</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>None of these tasks require very low latency response time.</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>We'd need to have near-realtime constraints for that to be an issue.</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Logic Apps could work for all of these tasks.</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The online sales process is the only one where we'd want to weigh all our options.</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Logic Apps would be a good choice if we had the resources to build the custom connectors we'd need.</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Guidance summary</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The following flowchart summarizes the key questions to ask when you're considering using Logic Apps.</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>A flowchart to help you decide if Logic Apps is appropriate for your work.</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The flowchart summarizes the key questions to ask when evaluating Logic Apps for your work.</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>First, does your project involve integrating multiple systems?</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Second, do you need low latency?</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Third, does your process include complex logic.</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Fourth, are there connectors for all the systems you need to access.</source>
+        </trans-unit></group></body></file></xliff>

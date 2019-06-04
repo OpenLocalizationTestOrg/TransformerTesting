@@ -1,0 +1,99 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="3-characteristics-that-foster-ai-ready-culture.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3-characteristics-that-foster-ai-ready-culture.d3ef28.0876fca9c1b575bf4393b096313804aaed3ce86d.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0876fca9c1b575bf4393b096313804aaed3ce86d</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\ai-business-school\build-an-ai-ready-culture\includes\3-characteristics-that-foster-ai-ready-culture.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Introduction</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A successful AI strategy must consider cultural issues as well as business issues.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Becoming an AI-ready organization requires a fundamental transformation in how you do things, how employees relate to each other, what skills they have, and what processes and principles guide your behaviors.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This transformation goes to the core of an organization’s culture, and it’s vital for organizations to tackle such transformation with a holistic approach.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Fostering an AI-ready culture requires:</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Being a data-driven organization</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Empowering people to participate in the AI transformation, and creating an inclusive environment that allows cross-functional, multidisciplinary collaboration</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Creating a responsible approach to AI that addresses the challenging questions AI presents</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Of course, this is only possible with strong leadership that drives change by both adopting the changes this transformation will require and actively supporting people throughout.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Below, we share our perspective on the changes you need to make to achieve an AI-ready culture.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Data-driven</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The first step is to ensure that you have <bpt id="p1">**</bpt>the best and most complete data<ept id="p1">**</ept>, and that you <bpt id="p2">**</bpt>can reason over your entire data estate<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This is the foundation of any good AI system.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Due to data ownership or storage issues, most organizations generate, organize, and use data in a siloed manner.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>While each department may have a good view of the data coming from their own processes, they may lack other information that could be relevant to their operations.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For instance, a sales department might not have a complete view of a customer, because they’re missing pieces of data, like e-commerce activity and payment status, that are controlled by other departments.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In this case, a seller may make the mistake of trying to sell a customer an insurance policy that they had already purchased through an online channel.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>By sharing data across the organization, the sum becomes greater than the parts.</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>It’s no longer each piece of data that matters, but what that data adds up to: a unified view of the customer.</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>With that unified view, you can make better decisions, act more effectively, and provide a better customer experience<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The quality of the data is also key.</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In this example, if the customer data was riddled with errors, like inaccurate contact information, irrelevant data, or duplication, it wouldn’t matter that the data had been unified; the seller could still make significant mistakes in interacting with the customer.</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Just as quality of data is key to creating next-level experiences for customers, it’s also key to successful AI.</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>An AI model is only as good and complete as the data it can operate on and learn from<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>So, it is of paramount importance to work in a way that ensures your data is as complete and rigorous as possible.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>In summary, becoming data-driven means acquiring a mindset of data sharing and rigorousness<ept id="p1">**</ept> that drives how you work and relate, and ultimately how you collaborate.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This enables you to realize the value of AI and better confront the challenges that AI brings.</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Empowering and inclusive</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Fostering an AI-ready culture means <bpt id="p1">**</bpt>empowering people to be part of the AI transformation<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Fundamental to empowerment is enablement: giving people the space, resources, security, and support to improve what they do with AI.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Empowerment also requires allowing room for errors, encouraging experimentation and continuous improvement, helping people get the knowledge and the skills they need, and of course celebrating and acknowledging success.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>It also means creating an <bpt id="p1">**</bpt>inclusive environment<ept id="p1">**</ept>, one that is predicated on the <bpt id="p2">**</bpt>willingness and ability of employees to work in cross-functional teams that cut across organizational boundaries<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Furthermore, it means making those who best understand the business a central piece of your transformation process.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Data scientists working in isolation often create models that lack the business knowledge, purpose, or value that would make them an effective AI resource.</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Similarly, business people working in isolation lack the technical knowledge to understand what can be done from a data science perspective.</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>But by enabling cross-functional teams that include both data scientists and the business employees closest to the business need, you can create powerful and effective AI solutions.</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>An example of this is our hugely successful compliance predictive analytics tools, which were inspired and developed by employees working on our finance teams.</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>As explained in the introductory video of this module, <bpt id="p1">**</bpt>they were successful only because they were created with the insights of those closest to the business need<ept id="p1">**</ept>.</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This illustrates how powerful it is to create an inclusive, cross-organizational collaborative approach.</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>In summary, creating an <bpt id="p1">**</bpt>empowering and inclusive environment<ept id="p1">**</ept> means <bpt id="p2">**</bpt>providing resources, creating a culture of sharing and collaboration<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>making those that know the business a central piece of your transformation process<ept id="p3">**</ept>.</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This enables you to continuously develop and enhance your organization’s capabilities with AI.</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Responsible</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>From our perspective, the third key element of an AI-ready culture is fostering a responsible approach to AI.</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>As AI continues to evolve, it has the potential to drive considerable changes to our lives, raising complex and challenging questions about what future we want to see.</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Organizations need to ask themselves: How do we design, build, and use AI systems to create a positive impact on individuals and society?</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>How can we ensure that AI systems treat everyone fairly?</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>How can we best prepare the workforce for the new AI era?</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>These are questions that deserve a dedicated discussion and will be explored more deeply in the following module, Implications of responsible AI for business.</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Next, let’s learn how leaders can use change management approaches to make these cultural changes real.</source>
+        </trans-unit></group></body></file></xliff>

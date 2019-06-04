@@ -1,0 +1,201 @@
+<?xml version="1.0"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"><file datatype="xml" original="4-vnet-service-endpoints.md" source-language="en-US" target-language="en-US"><header><tool tool-id="mdxliff" tool-name="mdxliff"  tool-company="Microsoft" /><xliffext:skl_file_name xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4-vnet-service-endpoints.6bb66f.46145be4f697f830765850381dbfe7d81beea9a9.skl</xliffext:skl_file_name><xliffext:version xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1.2</xliffext:version><xliffext:ms.openlocfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">46145be4f697f830765850381dbfe7d81beea9a9</xliffext:ms.openlocfilehash><xliffext:ms.sourcegitcommit xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba7e452ac39d7f09a5646044b44de0e1cdc54982</xliffext:ms.sourcegitcommit><xliffext:ms.openlocfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">learn-pr\azure\secure-and-isolate-with-nsg-and-service-endpoints\includes\4-vnet-service-endpoints.md</xliffext:ms.openlocfilepath></header><body><group id="content" extype="content"><trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>You've migrated your existing application and database servers for your ERP system to Azure as VMs.</source>
+        </trans-unit><trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Now you're considering using some Azure platform as a service (PaaS) services to reduce your costs and administrative requirements.</source>
+        </trans-unit><trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Storage services will hold certain large file assets, such as engineering diagrams.</source>
+        </trans-unit><trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>These engineering diagrams have proprietary information in them, and must remain secure from unauthorized access.</source>
+        </trans-unit><trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>These files must only be accessible from specific systems.</source>
+        </trans-unit><trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In this unit, you'll look at how to use virtual network service endpoints for securing supported Azure services.</source>
+        </trans-unit><trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Virtual network service endpoints</source>
+        </trans-unit><trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Virtual network service endpoints are used to extend your private address space in Azure by providing a direct connection to your Azure services.</source>
+        </trans-unit><trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Service endpoints let you secure your Azure resources to only your virtual network.</source>
+        </trans-unit><trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Service traffic will remain on the Azure backbone and will not go out to the internet.</source>
+        </trans-unit><trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Service endpoint on private network</source>
+        </trans-unit><trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>By default, Azure services are all designed for direct internet access.</source>
+        </trans-unit><trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>All Azure resources have public IP addresses, this includes PaaS services such as Azure SQL Database and Azure Storage.</source>
+        </trans-unit><trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Because these services are exposed to the internet, anyone can potentially access your Azure services.</source>
+        </trans-unit><trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Service endpoints can connect certain PaaS Services directly to your private address space in Azure, so they act like they’re on the same virtual network.</source>
+        </trans-unit><trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You use your private address space to access the PaaS services directly.</source>
+        </trans-unit><trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Adding service endpoints does not remove the public endpoint, it simply provides a redirection of traffic.</source>
+        </trans-unit><trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Azure service endpoints are available for many services, such as:</source>
+        </trans-unit><trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Azure Storage</source>
+        </trans-unit><trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Azure SQL Database</source>
+        </trans-unit><trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Azure Cosmos DB</source>
+        </trans-unit><trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Azure Key Vault</source>
+        </trans-unit><trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Azure Service Bus</source>
+        </trans-unit><trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Azure Data Lake</source>
+        </trans-unit><trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For a service like Azure SQL Database, which cannot be accessed until you add IP addresses to its firewall, service endpoints should still be considered.</source>
+        </trans-unit><trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Using a service endpoint for Azure SQL Database restricts access to specific virtual networks, providing greater isolation and reducing the attack surface.</source>
+        </trans-unit><trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>How service endpoints work</source>
+        </trans-unit><trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To enable a service endpoint, you must do two things:</source>
+        </trans-unit><trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Turn off public access to the service.</source>
+        </trans-unit><trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Add the service endpoint to a virtual network.</source>
+        </trans-unit><trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When you enable a service endpoint, you restrict the flow of traffic, and allow your Azure VMs to access the service directly from your private address space.</source>
+        </trans-unit><trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Devices cannot access the service from a public network.</source>
+        </trans-unit><trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If you look at <bpt id="p1">**</bpt>Effective routes<ept id="p1">**</ept> on a deployed VM vNIC, you'll notice the service endpoint as the <bpt id="p2">**</bpt>Next Hop Type<ept id="p2">**</ept>.</source>
+        </trans-unit><trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This is an example route table, before enabling a service endpoint:</source>
+        </trans-unit><trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>SOURCE</source>
+        </trans-unit><trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>STATE</source>
+        </trans-unit><trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>ADDRESS PREFIXES</source>
+        </trans-unit><trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>NEXT HOP TYPE</source>
+        </trans-unit><trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Default</source>
+        </trans-unit><trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Active</source>
+        </trans-unit><trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>10.1.1.0/24</source>
+        </trans-unit><trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>VNet</source>
+        </trans-unit><trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Default</source>
+        </trans-unit><trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Active</source>
+        </trans-unit><trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>0.0.0.0./0</source>
+        </trans-unit><trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Internet</source>
+        </trans-unit><trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Default</source>
+        </trans-unit><trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Active</source>
+        </trans-unit><trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>10.0.0.0/8</source>
+        </trans-unit><trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>None</source>
+        </trans-unit><trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Default</source>
+        </trans-unit><trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Active</source>
+        </trans-unit><trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>100.64.0.0./10</source>
+        </trans-unit><trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>None</source>
+        </trans-unit><trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Default</source>
+        </trans-unit><trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Active</source>
+        </trans-unit><trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>192.168.0.0/16</source>
+        </trans-unit><trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>None</source>
+        </trans-unit><trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Adding two service endpoints to the virtual network the routing table will look like this:</source>
+        </trans-unit><trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>SOURCE</source>
+        </trans-unit><trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>STATE</source>
+        </trans-unit><trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>ADDRESS PREFIXES</source>
+        </trans-unit><trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>NEXT HOP TYPE</source>
+        </trans-unit><trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Default</source>
+        </trans-unit><trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Active</source>
+        </trans-unit><trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>10.1.1.0/24</source>
+        </trans-unit><trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>VNet</source>
+        </trans-unit><trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Default</source>
+        </trans-unit><trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Active</source>
+        </trans-unit><trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>0.0.0.0./0</source>
+        </trans-unit><trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Internet</source>
+        </trans-unit><trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Default</source>
+        </trans-unit><trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Active</source>
+        </trans-unit><trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>10.0.0.0/8</source>
+        </trans-unit><trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>None</source>
+        </trans-unit><trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Default</source>
+        </trans-unit><trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Active</source>
+        </trans-unit><trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>100.64.0.0./10</source>
+        </trans-unit><trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>None</source>
+        </trans-unit><trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Default</source>
+        </trans-unit><trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Active</source>
+        </trans-unit><trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>192.168.0.0/16</source>
+        </trans-unit><trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>None</source>
+        </trans-unit><trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Default</source>
+        </trans-unit><trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Active</source>
+        </trans-unit><trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>20.38.106.0/23, 10 more</source>
+        </trans-unit><trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>VirtualNetworkServiceEndpoint</source>
+        </trans-unit><trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Default</source>
+        </trans-unit><trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Active</source>
+        </trans-unit><trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>20.150.2.0/23, 9 more</source>
+        </trans-unit><trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>VirtualNetworkServiceEndpoint</source>
+        </trans-unit><trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>All traffic for the service now is routed to the <bpt id="p1">**</bpt>VirtualNetworkServiceEndpoint<ept id="p1">**</ept>, and remains internal to Azure.</source>
+        </trans-unit><trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Service endpoints and hybrid networks</source>
+        </trans-unit><trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Service resources that have been secured using virtual network service endpoints are not, by default, accessible from on-premises networks.</source>
+        </trans-unit><trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>To access resources from an on-premises network, you'll need to use NAT IPs.</source>
+        </trans-unit><trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>If you use ExpressRoute for connectivity from on-premises to Azure, you'll have to identify the NAT IP addresses that are used by ExpressRoute.</source>
+        </trans-unit><trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>By default, each circuit uses two NAT IP addresses to connect to the Azure backbone network.</source>
+        </trans-unit><trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>You'll then need to add these IP addresses into the IP firewall configuration of the Storage, SQL, or other Azure resource.</source>
+        </trans-unit><trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>This diagram shows how you could use a service endpoint and firewall configuration to enable on-premises devices to access Azure Storage resources.</source>
+        </trans-unit><trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Service endpoint for on-premises access to Azure resources</source>
+        </trans-unit></group></body></file></xliff>
